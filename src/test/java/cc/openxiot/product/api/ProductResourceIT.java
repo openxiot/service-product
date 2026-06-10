@@ -1,4 +1,4 @@
-package cc.openxiot.product;
+package cc.openxiot.product.api;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

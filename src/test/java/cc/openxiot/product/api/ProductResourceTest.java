@@ -1,4 +1,4 @@
-package cc.openxiot.product;
+package cc.openxiot.product.api;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ class ProductResourceTest {
     @Test
     void testHelloEndpoint() {
         given()
-          .when().get("/hello")
+          .when().get("/v1")
           .then()
              .statusCode(200)
              .body(is("Hello from Quarkus REST"));

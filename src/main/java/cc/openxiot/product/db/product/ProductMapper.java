@@ -1,0 +1,50 @@
+package cc.openxiot.product.db.product;
+
+import cn.geekcity.xiot.spec.definition.urn.DeviceType;
+import cn.geekcity.xiot.spec.product.basic.ProductBasic;
+
+public class ProductMapper {
+
+    // DTO → Entity（存数据库）
+    public static ProductEntity toEntity(ProductBasic product) {
+        if (product == null) {
+            return null;
+        }
+
+        ProductEntity entity = new ProductEntity();
+        entity.basic.organization = product.organization();
+        entity.basic.model = product.model();
+        entity.basic.template = product.template().toString();
+        entity.basic.icon = product.icon();
+        entity.basic.name = product.name();
+        entity.basic.upgrade = product.upgrade();
+        entity.basic.protocol = product.protocol();
+        entity.basic.lifecycle = product.lifecycle();
+        entity.basic.naming = product.naming();
+        entity.basic.creator = product.creator();
+        entity.basic.updater = product.updater();
+
+        return entity;
+    }
+
+    // Entity → DTO（读数据返回业务）
+    public static ProductBasic toProduct(ProductEntity entity) {
+        if (entity == null) {
+            return null;
+        }
+
+        return new ProductBasic()
+                .id(entity.id.toString())
+                .organization(entity.basic.organization)
+                .model(entity.basic.model)
+                .template(new DeviceType(entity.basic.template))
+                .icon(entity.basic.icon)
+                .name(entity.basic.name)
+                .upgrade(entity.basic.upgrade)
+                .protocol(entity.basic.protocol)
+                .lifecycle(entity.basic.lifecycle)
+                .naming(entity.basic.naming)
+                .creator(entity.basic.creator)
+                .updater(entity.basic.updater);
+    }
+}
