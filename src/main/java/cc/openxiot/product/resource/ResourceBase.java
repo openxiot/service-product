@@ -1,30 +1,30 @@
 package cc.openxiot.product.resource;
 
-import cc.openxiot.product.db.Person;
-import cc.openxiot.product.db.account.coo.employee.Employee;
 import cc.openxiot.product.db.account.developer.Developer;
 import cc.openxiot.product.db.organization.Organization;
 import cc.openxiot.product.db.organization.member.MemberRole;
 import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.role.OxRole;
+import cn.geekcity.xiot.spec.by.Creator;
+import cn.geekcity.xiot.spec.by.Updater;
 import org.bson.types.ObjectId;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 
 public class ResourceBase {
 
-    // 检查浏览权限：管理人员、运营人员、开发组里的成员，有浏览权限
-    protected void checkBrowserPermission(JsonWebToken jwt, String organizationId) throws OxException {
-        switch (organizationId) {
-            case "admin", "operator": {
-                break;
-            }
-
-            default: {
-                Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
-                break;
-            }
-        }
-    }
+//    // 检查浏览权限：管理人员、运营人员、开发组里的成员，有浏览权限
+//    protected void checkBrowserPermission(JsonWebToken jwt, String organizationId) throws OxException {
+//        switch (organizationId) {
+//            case "admin", "operator": {
+//                break;
+//            }
+//
+//            default: {
+//                Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
+//                break;
+//            }
+//        }
+//    }
 
     // 检查管理权限：管理人员、运营人员、开发组里的管理员，有浏览权限
     protected void checkManagerPermission(JsonWebToken jwt, String organizationId) throws OxException {
@@ -42,34 +42,70 @@ public class ResourceBase {
         }
     }
 
-    protected Person getPerson(JsonWebToken jwt, String organizationId) throws OxException {
-        switch (organizationId) {
-            case "admin", "operator": {
-                Employee employee = Employee.findById(new ObjectId(jwt.getName()));
-                if (employee == null) {
-                    throw new OxException("employee not found!");
-                }
+    protected Creator getCreator(JsonWebToken jwt, String organizationId) throws OxException {
+        if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
+            Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
 
-                return Person.create(employee.id.toString(), employee.username, organizationId);
+            Developer developer = Developer.findById(new ObjectId(jwt.getName()));
+            if (developer == null) {
+                throw new OxException("developer not found!");
             }
 
-            default: {
-                if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
-                    Developer developer = Developer.findById(new ObjectId(jwt.getName()));
-                    if (developer == null) {
-                        throw new OxException("developer not found!");
-                    }
-
-                    return Person.create(developer.id.toString(), developer.username, organizationId);
-                } else {
-                    Employee employee = Employee.findById(new ObjectId(jwt.getName()));
-                    if (employee == null) {
-                        throw new OxException("employee not found!");
-                    }
-
-                    return Person.create(employee.id.toString(), employee.username, organizationId);
-                }
-            }
+            return new Creator()
+                    .id(developer.id.toString())
+                    .name(developer.username)
+                    .timestamp(System.currentTimeMillis());
         }
+
+        throw  new OxException("account not developer");
     }
+
+    protected Updater getUpdater(JsonWebToken jwt, String organizationId) throws OxException {
+        if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
+            Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
+
+            Developer developer = Developer.findById(new ObjectId(jwt.getName()));
+            if (developer == null) {
+                throw new OxException("developer not found!");
+            }
+
+            return new Updater()
+                    .id(developer.id.toString())
+                    .name(developer.username)
+                    .timestamp(System.currentTimeMillis());
+        }
+
+        throw  new OxException("account not developer");
+    }
+
+//    protected Person getPerson(JsonWebToken jwt, String organizationId) throws OxException {
+//        switch (organizationId) {
+//            case "admin", "operator": {
+//                Employee employee = Employee.findById(new ObjectId(jwt.getName()));
+//                if (employee == null) {
+//                    throw new OxException("employee not found!");
+//                }
+//
+//                return Person.create(employee.id.toString(), employee.username, organizationId);
+//            }
+//
+//            default: {
+//                if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
+//                    Developer developer = Developer.findById(new ObjectId(jwt.getName()));
+//                    if (developer == null) {
+//                        throw new OxException("developer not found!");
+//                    }
+//
+//                    return Person.create(developer.id.toString(), developer.username, organizationId);
+//                } else {
+//                    Employee employee = Employee.findById(new ObjectId(jwt.getName()));
+//                    if (employee == null) {
+//                        throw new OxException("employee not found!");
+//                    }
+//
+//                    return Person.create(employee.id.toString(), employee.username, organizationId);
+//                }
+//            }
+//        }
+//    }
 }

@@ -6,7 +6,11 @@ import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class ProductInstanceEntity {
 
+    public int version;
+
     public String type;
+
+    public String content;
 
     public Lifecycle lifecycle;
 

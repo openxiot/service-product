@@ -1,11 +1,11 @@
-package cc.openxiot.product.db.product;
+package cc.openxiot.product.db.product.basic;
 
+import cc.openxiot.product.db.product.ProductEntity;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 
-public class ProductMapper {
+public class ProductBasicMapper {
 
-    // DTO → Entity（存数据库）
     public static ProductEntity toEntity(ProductBasic product) {
         if (product == null) {
             return null;
@@ -27,7 +27,6 @@ public class ProductMapper {
         return entity;
     }
 
-    // Entity → DTO（读数据返回业务）
     public static ProductBasic toProduct(ProductEntity entity) {
         if (entity == null) {
             return null;

@@ -1,12 +1,14 @@
 package cc.openxiot.product.api.basic;
 
-import cc.openxiot.product.db.product.ProductMapper;
+import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import org.bson.types.ObjectId;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,16 +19,52 @@ public class ProductBasicService {
     ProductRepository repository;
 
     public void add(ProductBasic product) {
-        var entity = ProductMapper.toEntity(product);
+        if (repository.findOptionalByOrgAndModel(product.organization(), product.model()).isPresent()) {
+            throw new IllegalArgumentException("product already exist");
+        }
+
+        var entity = ProductBasicMapper.toEntity(product);
         repository.persist(entity);
     }
 
-    public void remove(String id) {
+    public void delete(String id) {
+        var entity = repository.findById(new ObjectId(id));
+        if (entity == null) {
+            throw new IllegalArgumentException("product not found");
+        }
+
+        if (entity.basic.lifecycle == Lifecycle.RELEASED) {
+            throw new IllegalArgumentException("product is released");
+        }
+
+        if (entity.basic.lifecycle == Lifecycle.PREVIEW) {
+            throw new IllegalArgumentException("product is preview");
+        }
+
+        if (entity.instances == null) {
+            entity.instances = new ArrayList<>();
+        }
+
+        if (!entity.instances.isEmpty()) {
+            throw new IllegalArgumentException("product has instances");
+        }
+
         repository.deleteById(new ObjectId(id));
     }
 
     public void update(ProductBasic product) {
         var entity = repository.findById(new ObjectId(product.id()));
+        if (entity == null) {
+            throw new IllegalArgumentException("product not found");
+        }
+
+        if (entity.basic.lifecycle == Lifecycle.RELEASED) {
+            throw new IllegalArgumentException("product is released");
+        }
+
+        if (entity.basic.lifecycle == Lifecycle.PREVIEW) {
+            throw new IllegalArgumentException("product is preview");
+        }
 
         entity.basic.organization = product.organization();
         entity.basic.model = product.model();
@@ -45,19 +83,19 @@ public class ProductBasicService {
 
     public ProductBasic findById(String id) {
         var entity = repository.findById(new ObjectId(id));
-        return ProductMapper.toProduct(entity);
+        return ProductBasicMapper.toProduct(entity);
     }
 
     public List<ProductBasic> findByOrganization(String organizationId) {
-        return repository.findByOrganization(organizationId).stream()
-                .map(ProductMapper::toProduct)
+        return repository.findByOrg(organizationId).stream()
+                .map(ProductBasicMapper::toProduct)
                 .toList();
     }
 
 
     public List<ProductBasic> findAll() {
         return repository.listAll().stream()
-                .map(ProductMapper::toProduct)
+                .map(ProductBasicMapper::toProduct)
                 .collect(Collectors.toList());
     }
 }

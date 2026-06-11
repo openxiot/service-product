@@ -1,77 +1,221 @@
 package cc.openxiot.product.api.instance;
 
-import cc.openxiot.product.db.product.ProductEntity;
+import cc.openxiot.product.db.history.History;
+import cc.openxiot.product.exception.OxException;
+import cc.openxiot.product.resource.ResourceBase;
 import cc.openxiot.product.response.OxResponse;
-import cn.geekcity.xiot.spec.codec.vertx.product.basic.ProductBasicCodec;
-import cn.geekcity.xiot.spec.product.basic.ProductBasic;
+import cc.openxiot.product.role.OxRole;
+import cn.geekcity.xiot.spec.by.Creator;
+import cn.geekcity.xiot.spec.by.Updater;
+import cn.geekcity.xiot.spec.codec.vertx.instance.DeviceInstanceCodec;
+import cn.geekcity.xiot.spec.codec.vertx.product.instance.ProductInstanceCodec;
+import cn.geekcity.xiot.spec.definition.urn.Urn;
+import cn.geekcity.xiot.spec.definition.urn.UrnType;
+import cn.geekcity.xiot.spec.instance.DeviceInstance;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
+import cn.geekcity.xiot.spec.product.instance.ProductInstance;
 import io.vertx.core.json.JsonArray;
+import io.vertx.core.json.JsonObject;
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
-import jakarta.ws.rs.GET;
-import jakarta.ws.rs.Path;
-import jakarta.ws.rs.Produces;
-import jakarta.ws.rs.QueryParam;
+import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
+import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.eclipse.microprofile.openapi.annotations.Operation;
-import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
-import org.eclipse.microprofile.openapi.annotations.media.Content;
-import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.util.Arrays;
 import java.util.List;
 
-@Path("/v1/basic")
+@Path("/v1/instance")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "product basic", description = "Product Basic API")
+@Tag(name = "product instance", description = "Product Instance API")
 @RequestScoped
-public class ProductInstanceResource {
+public class ProductInstanceResource extends ResourceBase {
 
     @Inject
     Logger logger;
 
     @Inject
+    JsonWebToken jwt;
+
+    @Inject
     ProductInstanceService service;
 
+    @POST
+    @Path("/one")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    @Operation(summary = "add", description = "add product")
+    @APIResponse(responseCode = "200", description = "success")
+    @APIResponse(responseCode = "401", description = "unauthorized")
+    @APIResponse(responseCode = "403", description = "forbidden")
+    public Response add(JsonObject object) {
+        logger.infov("add: {0}", object);
+
+        try {
+            DeviceInstance instance = DeviceInstanceCodec.decode(object);
+            Creator creator = getCreator(jwt, instance.type().organization());
+
+            service.add(instance, creator);
+
+            History.addDeveloper(instance.type().organization(), creator.id(), "ADD", "ProductInstance", object.toString());
+
+            return OxResponse.ok();
+        } catch (OxException e) {
+            return OxResponse.error(e.getMessage());
+        }
+    }
+
+    @DELETE
+    @Path("/one")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    public Response delete(
+            @QueryParam("type") String type
+    ) {
+        logger.infov("delete, {0}", type);
+
+        try {
+            Urn urn = new Urn(UrnType.DEVICE, type, true);
+
+            checkManagerPermission(jwt, urn.organization());
+
+            service.deleteByType(urn);
+
+            History.addDeveloper(urn.organization(), jwt.getName(), "DELETE", "ProductInstance", type);
+
+            return OxResponse.ok();
+        } catch (OxException e) {
+            return OxResponse.error(e.getMessage());
+        }
+    }
+
+    @PUT
+    @Path("/one")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    public Response update(JsonObject object) {
+        logger.infov("update, {0}", object);
+
+        try {
+            DeviceInstance instance = DeviceInstanceCodec.decode(object);
+            Updater updater = getUpdater(jwt, instance.type().organization());
+
+            service.update(instance, updater);
+
+            History.addDeveloper(instance.type().organization(), updater.id(), "UPDATE", "ProductInstance", object.toString());
+
+            return OxResponse.ok();
+        } catch (OxException e) {
+            return OxResponse.error(e.getMessage());
+        }
+    }
+
+    @PUT
+    @Path("/one/lifecycle/{type}/{lifecycle}")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    public Response updateLifecycle(
+            @PathParam("type") String type,
+            @PathParam("lifecycle") String lifecycle
+    ) {
+        logger.infov("updateLifecycle, {0} => ", type, lifecycle);
+
+        try {
+            Urn urn = new Urn(UrnType.DEVICE, type, true);
+
+            checkManagerPermission(jwt, urn.organization());
+
+            Updater updater = getUpdater(jwt, urn.organization());
+            service.update(urn, Lifecycle.fromString(lifecycle), updater);
+
+            JsonObject o = new JsonObject().put("type", type).put("lifecycle", lifecycle);
+            History.addDeveloper(urn.organization(), updater.id(), "UPDATE", "ProductInstance.Lifecycle", o.encode());
+
+            return OxResponse.ok();
+        } catch (OxException e) {
+            return OxResponse.error(e.getMessage());
+        }
+    }
+
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
-        return "Hello from Quarkus REST";
+    @Path("/one/{type}")
+    @Operation(
+            summary = "get product instance",
+            description = "get product instance"
+    )
+    @APIResponse(responseCode = "200", description = "success")
+    public Response getOne(
+            @PathParam("type") String type
+    ) {
+        logger.infov("getOne: {0}", type);
+
+        try {
+            Urn urn = new Urn(Arrays.asList(UrnType.DEVICE, UrnType.GROUP), type, true);
+            DeviceInstance instance = service.findInstanceByType(urn);
+            JsonObject object = DeviceInstanceCodec.encode(instance);
+            return OxResponse.ok(object);
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e);
+        }
+    }
+
+    @GET
+    @Path("/many")
+    @Operation(
+            summary = "get product instances",
+            description = "get product instances"
+    )
+    @APIResponse(responseCode = "200", description = "success")
+    public Response getManyByProductId(
+            @QueryParam("productId") String productId
+    ) {
+        logger.infov("getManyByProductId: {0}", productId);
+
+        try {
+            List<ProductInstance> instances = service.findInstances(productId);
+            JsonArray array = ProductInstanceCodec.encode(instances);
+            return OxResponse.ok(array);
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e);
+        }
+    }
+
+    @GET
+    @Path("/many")
+    @Operation(
+            summary = "get product instances",
+            description = "get product instances"
+    )
+    @APIResponse(responseCode = "200", description = "success")
+    public Response getManyByModel(
+            @QueryParam("organization") String organization,
+            @QueryParam("model") String model
+    ) {
+        logger.infov("getManyByModel: {0}/{1}", model);
+
+        try {
+            List<ProductInstance> instances = service.findInstancesByModel(organization, model);
+            JsonArray array = ProductInstanceCodec.encode(instances);
+            return OxResponse.ok(array);
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e);
+        }
     }
 
     @GET
     @Path("/all")
-//    @RolesAllowed({OxRole.DEVELOPER})
     @Operation(
-            summary = "get products basic info",
-            description = "get all products(basic)"
+            summary = "get all product instances",
+            description = "get all product instances"
     )
-    @APIResponse(
-            responseCode = "200",
-            description = "success",
-            content = @Content(schema = @Schema(
-                    type = SchemaType.ARRAY,
-                    implementation = ProductEntity.class
-            ))
-    )
-    @APIResponse(responseCode = "401", description = "unauthorized")
-    @APIResponse(responseCode = "403", description = "forbidden")
+    @APIResponse(responseCode = "200", description = "success")
     public Response getAll(
-            @QueryParam("organizationId") String organizationId
     ) {
-        logger.infov("getBasicAll, organizationId: {0}", organizationId);
-
-        List<ProductBasic> products;
-        if (organizationId == null || organizationId.isBlank()) {
-            products = service.findAll();
-        } else {
-            products = service.findByOrganization(organizationId);
-        }
-
-        JsonArray array = ProductBasicCodec.encode(products);
-
+        logger.infov("getAll");
+        List<ProductInstance> instances = service.findAll();
+        JsonArray array = ProductInstanceCodec.encode(instances);
         return OxResponse.ok(array);
     }
 }
