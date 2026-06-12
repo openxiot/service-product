@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/action")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "action", description = "Action API")
+@Tag(name = "Specification Actions", description = "Action API")
 @RequestScoped
 public class ActionResource {
 

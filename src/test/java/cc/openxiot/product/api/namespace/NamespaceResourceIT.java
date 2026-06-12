@@ -1,8 +1,8 @@
-package cc.openxiot.product.api;
+package cc.openxiot.product.api.namespace;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class ProductResourceIT extends ProductResourceTest {
+class NamespaceResourceIT extends NamespaceResourceTest {
     // Execute the same tests but in packaged mode.
 }

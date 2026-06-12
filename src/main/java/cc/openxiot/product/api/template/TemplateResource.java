@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/template")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "template", description = "Template API")
+@Tag(name = "Templates", description = "Template API")
 @RequestScoped
 public class TemplateResource {
 

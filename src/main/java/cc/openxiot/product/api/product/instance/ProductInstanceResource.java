@@ -33,7 +33,7 @@ import java.util.List;
 
 @Path("/v1/product/instance")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "product instance", description = "Product Instance API")
+@Tag(name = "Product Instance", description = "Product Instance API")
 @RequestScoped
 public class ProductInstanceResource extends ResourceBase {
 

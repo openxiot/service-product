@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/unit")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "unit", description = "Unit API")
+@Tag(name = "Specification Units", description = "Unit API")
 @RequestScoped
 public class UnitResource {
 

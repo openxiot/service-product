@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/property")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "property", description = "Property API")
+@Tag(name = "Specification Properties", description = "Property API")
 @RequestScoped
 public class PropertyResource {
 

@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/format")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "format", description = "Format API")
+@Tag(name = "Specification Formats", description = "Format API")
 @RequestScoped
 public class FormatResource {
 

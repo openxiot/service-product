@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/event")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "event", description = "Event API")
+@Tag(name = "Specification Events", description = "Event API")
 @RequestScoped
 public class EventResource {
 

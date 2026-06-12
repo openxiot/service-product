@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/service")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "service", description = "Service API")
+@Tag(name = "Specification Services", description = "Service API")
 @RequestScoped
 public class ServiceResource {
 

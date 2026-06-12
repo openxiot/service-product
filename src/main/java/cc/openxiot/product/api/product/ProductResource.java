@@ -10,7 +10,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/product")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "product", description = "Product API")
+@Tag(name = "Products", description = "Product API")
 @RequestScoped
 public class ProductResource {
 

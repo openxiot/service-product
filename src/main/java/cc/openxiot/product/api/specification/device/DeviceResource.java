@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 @Path("/v1/spec/device")
 @Produces(MediaType.APPLICATION_JSON)
-@Tag(name = "device", description = "Device API")
+@Tag(name = "Specification Devices", description = "Device API")
 @RequestScoped
 public class DeviceResource {
 
