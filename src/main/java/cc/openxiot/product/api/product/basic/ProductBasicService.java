@@ -1,4 +1,4 @@
-package cc.openxiot.product.api.basic;
+package cc.openxiot.product.api.product.basic;
 
 import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;

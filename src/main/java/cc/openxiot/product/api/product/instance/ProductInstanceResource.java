@@ -1,4 +1,4 @@
-package cc.openxiot.product.api.instance;
+package cc.openxiot.product.api.product.instance;
 
 import cc.openxiot.product.db.history.History;
 import cc.openxiot.product.exception.OxException;
@@ -31,7 +31,7 @@ import org.jboss.logging.Logger;
 import java.util.Arrays;
 import java.util.List;
 
-@Path("/v1/instance")
+@Path("/v1/product/instance")
 @Produces(MediaType.APPLICATION_JSON)
 @Tag(name = "product instance", description = "Product Instance API")
 @RequestScoped

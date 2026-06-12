@@ -1,4 +1,4 @@
-package cc.openxiot.product.api.basic;
+package cc.openxiot.product.api.product.basic;
 
 import cc.openxiot.product.db.history.History;
 import cc.openxiot.product.db.product.ProductEntity;
@@ -28,7 +28,7 @@ import org.jboss.logging.Logger;
 
 import java.util.List;
 
-@Path("/v1/basic")
+@Path("/v1/product/basic")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 @Tag(name = "product basic", description = "Product Basic API")

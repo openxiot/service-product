@@ -1,26 +1,14 @@
-package cc.openxiot.product.api;
+package cc.openxiot.product.api.product;
 
-import cc.openxiot.product.db.product.ProductEntity;
-import cc.openxiot.product.api.basic.ProductBasicService;
-import cc.openxiot.product.response.OxResponse;
-import cn.geekcity.xiot.spec.product.Product;
-import io.vertx.core.json.JsonArray;
+import cc.openxiot.product.api.product.basic.ProductBasicService;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import jakarta.ws.rs.core.Response;
-import org.eclipse.microprofile.openapi.annotations.Operation;
-import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
-import org.eclipse.microprofile.openapi.annotations.media.Content;
-import org.eclipse.microprofile.openapi.annotations.media.Schema;
-import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
-import java.util.List;
-
-@Path("/v1")
+@Path("/v1/product")
 @Produces(MediaType.APPLICATION_JSON)
 @Tag(name = "product", description = "Product API")
 @RequestScoped
