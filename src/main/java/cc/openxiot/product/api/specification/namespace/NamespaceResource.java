@@ -40,23 +40,26 @@ public class NamespaceResource extends ResourceBase {
     NamespaceService service;
 
     @POST
-    @Path("/one")
+    @Path("/one/{organization}")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
-    @Operation(summary = "add", description = "add product")
+    @Operation(summary = "add", description = "add namespace")
     @APIResponse(responseCode = "200", description = "success")
     @APIResponse(responseCode = "401", description = "unauthorized")
     @APIResponse(responseCode = "403", description = "forbidden")
-    public Response add(JsonObject item) {
+    public Response add(
+            @PathParam("organization") String organization,
+            JsonObject item
+    ) {
         logger.infov("add: {0}", item);
 
         try {
             NamespaceDefinition definition = NamespaceDefinitionCodec.decode(item);
 
-            Creator creator = getCreator(jwt, definition.organization());
+            Creator creator = getCreator(jwt, organization);
 
-            service.add(definition, creator);
+            service.add(organization, definition, creator);
 
-            History.addDeveloper(definition.organization(), creator.id(), "ADD", "NamespaceDefinition", item.toString());
+            History.addDeveloper(organization, creator.id(), "ADD", "NamespaceDefinition", item.toString());
 
             return OxResponse.created();
         } catch (OxException e) {
@@ -65,25 +68,25 @@ public class NamespaceResource extends ResourceBase {
     }
 
     @DELETE
-    @Path("/one")
+    @Path("/one/{organization}")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
     public Response delete(
-            @QueryParam("organizationId") String organizationId,
+            @PathParam("organization") String organization,
             @QueryParam("namespace") String namespace
     ) {
-        logger.infov("delete, {0}/{1}", organizationId, namespace);
+        logger.infov("delete, {0}/{1}", organization, namespace);
 
         try {
-            checkManagerPermission(jwt, organizationId);
+            checkManagerPermission(jwt, organization);
 
-            NamespaceDefinition def = service.find(organizationId, namespace);
+            NamespaceDefinition def = service.find(organization, namespace);
             if (def == null) {
                 return OxResponse.error("namespace not found");
             }
 
-            service.delete(organizationId, namespace);
+            service.delete(organization, namespace);
 
-            History.addDeveloper(organizationId, jwt.getName(), "DELETE", "ProductBasic", NamespaceDefinitionCodec.encode(def).toString());
+            History.addDeveloper(organization, jwt.getName(), "DELETE", "NamespaceDefinition", NamespaceDefinitionCodec.encode(def).toString());
 
             return OxResponse.ok();
         } catch (OxException e) {
@@ -92,19 +95,22 @@ public class NamespaceResource extends ResourceBase {
     }
 
     @PUT
-    @Path("/one")
+    @Path("/one/{organization}")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
-    public Response update(JsonObject item) {
+    public Response update(
+            @PathParam("organization") String organization,
+            JsonObject item
+    ) {
         logger.infov("update, {0}", item);
 
         try {
             NamespaceDefinition def = NamespaceDefinitionCodec.decode(item);
 
-            checkManagerPermission(jwt, def.organization());
+            checkManagerPermission(jwt, organization);
 
-            service.update(def);
+            service.update(organization, def);
 
-            History.addDeveloper(def.organization(), jwt.getName(), "UPDATE", "Item", item.toString());
+            History.addDeveloper(organization, jwt.getName(), "UPDATE", "NamespaceDefinition", item.toString());
 
             return OxResponse.ok();
         } catch (OxException e) {
@@ -113,37 +119,37 @@ public class NamespaceResource extends ResourceBase {
     }
 
     @GET
-    @Path("/one")
+    @Path("/one/{organization}")
     @Operation(summary = "get one namespace", description = "get one namespace")
     @APIResponse(responseCode = "200", description = "success")
     public Response getOne(
-            @QueryParam("organizationId") String organizationId,
+            @PathParam("organization") String organization,
             @QueryParam("namespace") String namespace
     ) {
-        logger.infov("getOne, {0}/{1}", organizationId, namespace);
+        logger.infov("getOne, {0}/{1}", organization, namespace);
 
-        NamespaceDefinition def = service.find(organizationId, namespace);
+        NamespaceDefinition def = service.find(organization, namespace);
         if (def == null) {
-            return OxResponse.error("product not found");
+            return OxResponse.error("namespace not found");
         } else {
             return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
         }
     }
 
     @GET
-    @Path("/all")
+    @Path("/all/{organization}")
     @Operation(summary = "get all namespace", description = "get all namespace")
     @APIResponse(responseCode = "200", description = "success")
     public Response getAll(
-            @QueryParam("organizationId") String organizationId
+            @PathParam("organization") String organization
     ) {
-        logger.infov("getAll, organizationId: {0}", organizationId);
+        logger.infov("getAll, organization: {0}", organization);
 
         List<NamespaceDefinition> list;
-        if (organizationId == null || organizationId.isBlank()) {
+        if (organization == null || organization.isBlank()) {
             list = service.findAll();
         } else {
-            list = service.findByOrganization(organizationId);
+            list = service.findByOrganization(organization);
         }
 
         List<JsonObject> array = NamespaceDefinitionCodec.encode(list);

@@ -7,8 +7,6 @@ import java.util.Map;
 
 public class NamespaceDefinitionEntity {
 
-    public String organization;
-
     public String code;
 
     public Map<String, String> description;

@@ -17,18 +17,19 @@ public class NamespaceService {
     @Inject
     SpecificationRepository repository;
 
-    public void add(NamespaceDefinition def, Creator creator) {
-        if (repository.find(def.organization(), def.namespace()).isPresent()) {
+    public void add(String organization, NamespaceDefinition def, Creator creator) {
+        if (repository.findOptional(def.namespace()).isPresent()) {
             throw new IllegalArgumentException("namespace already exist");
         }
 
         SpecificationEntity entity = new SpecificationEntity();
+        entity.organization = organization;
         entity.namespace = NamespaceDefinitionMapper.toEntity(def, creator);
         entity.persist();
     }
 
     public void delete(String organization, String namespace) {
-        var entity = repository.find(organization, namespace);
+        var entity = repository.findOptional(organization, namespace);
         if (entity.isEmpty()) {
             throw new IllegalArgumentException("namespace not found");
         }
@@ -64,8 +65,8 @@ public class NamespaceService {
         entity.get().delete();
     }
 
-    public void update(NamespaceDefinition def) {
-        var entity = repository.find(def.organization(), def.namespace());
+    public void update(String organization, NamespaceDefinition def) {
+        var entity = repository.findOptional(organization, def.namespace());
         if (entity.isEmpty()) {
             throw new IllegalArgumentException("namespace not found");
         }
@@ -75,7 +76,7 @@ public class NamespaceService {
     }
 
     public NamespaceDefinition find(String organization, String namespace) {
-        var entity = repository.find(organization, namespace);
+        var entity = repository.findOptional(organization, namespace);
         if (entity.isEmpty()) {
             throw new IllegalArgumentException("namespace not found");
         }
