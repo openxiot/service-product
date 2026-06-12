@@ -17,7 +17,7 @@ public class ServiceDefinitionMapper {
         }
 
         ServiceDefinitionEntity entity = new ServiceDefinitionEntity();
-        entity.name = definition.type().name();
+        entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.optionalProperties = definition.optionalProperties().stream().map(x -> x.type().name()).toList();
@@ -37,30 +37,30 @@ public class ServiceDefinitionMapper {
             return null;
         }
 
-        ServiceType type = new ServiceType(ns, entity.name, entity.value);
+        ServiceType type = new ServiceType(ns, entity.code, entity.value);
 
         List<PropertyType> optionalProperties = entity.optionalProperties.stream()
-                .map(x -> new PropertyType(ns, entity.name, entity.value))
+                .map(x -> new PropertyType(ns, entity.code, entity.value))
                 .toList();
 
         List<PropertyType> requiredProperties = entity.requiredProperties.stream()
-                .map(x -> new PropertyType(ns, entity.name, entity.value))
+                .map(x -> new PropertyType(ns, entity.code, entity.value))
                 .toList();
 
         List<ActionType> optionalActions = entity.optionalActions.stream()
-                .map(x -> new ActionType(ns, entity.name, entity.value))
+                .map(x -> new ActionType(ns, entity.code, entity.value))
                 .toList();
 
         List<ActionType> requiredActions = entity.requiredActions.stream()
-                .map(x -> new ActionType(ns, entity.name, entity.value))
+                .map(x -> new ActionType(ns, entity.code, entity.value))
                 .toList();
 
         List<EventType> optionalEvents = entity.optionalEvents.stream()
-                .map(x -> new EventType(ns, entity.name, entity.value))
+                .map(x -> new EventType(ns, entity.code, entity.value))
                 .toList();
 
         List<EventType> requiredEvents = entity.requiredEvents.stream()
-                .map(x -> new EventType(ns, entity.name, entity.value))
+                .map(x -> new EventType(ns, entity.code, entity.value))
                 .toList();
 
         return new ServiceDefinition(

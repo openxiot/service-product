@@ -16,7 +16,7 @@ public class EventDefinitionMapper {
         }
 
         EventDefinitionEntity entity = new EventDefinitionEntity();
-        entity.name = definition.type().name();
+        entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.arguments = definition.arguments().stream().map(x -> x.type().name()).toList();
@@ -30,9 +30,9 @@ public class EventDefinitionMapper {
             return null;
         }
 
-        EventType type = new EventType(ns, entity.name, entity.value);
+        EventType type = new EventType(ns, entity.code, entity.value);
         List<ArgumentDefinition> arguments = entity.arguments.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.name, entity.value)))
+                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
                 .toList();
 
         return new EventDefinition(type, entity.description, arguments);

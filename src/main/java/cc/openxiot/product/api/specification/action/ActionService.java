@@ -4,15 +4,15 @@ import cc.openxiot.product.db.specification.SpecificationEntity;
 import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.specification.action.ActionDefinitionEntity;
 import cc.openxiot.product.db.specification.action.ActionDefinitionMapper;
-import cn.geekcity.xiot.spec.by.Creator;
+import cc.openxiot.product.exception.OxException;
+import cc.openxiot.product.resource.NamespacePermission;
 import cn.geekcity.xiot.spec.definition.ActionDefinition;
 import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 @ApplicationScoped
@@ -21,27 +21,31 @@ public class ActionService {
     @Inject
     SpecificationRepository repository;
 
-    public void add(ActionDefinition def, Creator creator) {
-        SpecificationEntity spec = repository.find(organization, def.type().ns());
+    public void add(ActionDefinition def, NamespacePermission permission) throws OxException {
+        SpecificationEntity spec = repository.findByNamespace(def.type().ns());
         if (spec == null) {
-            throw new IllegalArgumentException("namespace not found!");
+            throw new IllegalArgumentException("namespace not found");
         }
+
+        permission.check(spec.organization);
 
         ActionDefinitionEntity found = spec.actions.get(def.type().name());
         if (found != null) {
             throw new IllegalArgumentException("action already exist!");
         }
 
-        ActionDefinitionEntity action = ActionDefinitionMapper.toEntity(def, creator);
-        spec.actions.put(action.name, action);
+        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def, null);
+        spec.actions.put(entity.code, entity);
         spec.update();
     }
 
-    public void delete(String organization, ActionType type) {
-        SpecificationEntity spec = repository.find(organization, type.ns());
+    public void delete(ActionType type, NamespacePermission permission) throws OxException {
+        SpecificationEntity spec = repository.findByNamespace(type.ns());
         if (spec == null) {
-            throw new IllegalArgumentException("namespace not found!");
+            throw new IllegalArgumentException("namespace not found");
         }
+
+        permission.check(spec.organization);
 
         ActionDefinitionEntity found = spec.actions.get(type.name());
         if (found == null) {
@@ -52,24 +56,26 @@ public class ActionService {
         spec.update();
     }
 
-    public void update(String organization, ActionDefinition def) {
-        SpecificationEntity spec = repository.find(organization, def.type().ns());
+    public void update(ActionDefinition def, NamespacePermission permission) throws OxException {
+        SpecificationEntity spec = repository.findByNamespace(def.type().ns());
         if (spec == null) {
-            throw new IllegalArgumentException("namespace not found!");
+            throw new IllegalArgumentException("namespace not found");
         }
+
+        permission.check(spec.organization);
 
         ActionDefinitionEntity found = spec.actions.get(def.type().name());
         if (found == null) {
             throw new IllegalArgumentException("action not found!");
         }
 
-        ActionDefinitionEntity action = ActionDefinitionMapper.toEntity(def, null);
-        spec.actions.put(action.name, action);
+        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def, null);
+        spec.actions.put(entity.code, entity);
         spec.update();
     }
 
-    public ActionDefinition find(String organization, ActionType type) {
-        SpecificationEntity spec = repository.find(organization, type.ns());
+    public ActionDefinition find(ActionType type) {
+        SpecificationEntity spec = repository.findByNamespace(type.ns());
         if (spec == null) {
             throw new IllegalArgumentException("namespace not found!");
         }
@@ -82,8 +88,8 @@ public class ActionService {
         return ActionDefinitionMapper.toDefinition(spec.namespace.code, found);
     }
 
-    public List<ActionDefinition> findByNamespace(String organization, String ns) {
-        SpecificationEntity spec = repository.find(organization, ns);
+    public List<ActionDefinition> findByNamespace(String ns) {
+        SpecificationEntity spec = repository.findByNamespace(ns);
         if (spec == null) {
             throw new IllegalArgumentException("namespace not found!");
         }
@@ -94,8 +100,8 @@ public class ActionService {
                 .collect(Collectors.toList());
     }
 
-    public Map<String, List<ActionDefinition>> findAll() {
-        Map<String, List<ActionDefinition>> result = new HashMap<>();
+    public List<ActionDefinition> findAll() {
+        List<ActionDefinition> result = new ArrayList<>();
 
         List<SpecificationEntity> list = repository.listAll();
 
@@ -103,9 +109,9 @@ public class ActionService {
             List<ActionDefinition> actions = spec.actions.values()
                     .stream()
                     .map(x -> ActionDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .collect(Collectors.toList());
+                    .toList();
 
-            result.put(spec.namespace.organization, actions);
+            result.addAll(actions);
         }
 
         return result;

@@ -2,7 +2,7 @@ package cc.openxiot.product.api.product.instance;
 
 import cc.openxiot.product.db.history.History;
 import cc.openxiot.product.exception.OxException;
-import cc.openxiot.product.resource.ResourceBase;
+import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
@@ -35,13 +35,10 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 @Tag(name = "Product Instance", description = "Product Instance API")
 @RequestScoped
-public class ProductInstanceResource extends ResourceBase {
+public class ProductInstanceResource extends AbstractResource {
 
     @Inject
     Logger logger;
-
-    @Inject
-    JsonWebToken jwt;
 
     @Inject
     ProductInstanceService service;
@@ -58,7 +55,7 @@ public class ProductInstanceResource extends ResourceBase {
 
         try {
             DeviceInstance instance = DeviceInstanceCodec.decode(object);
-            Creator creator = getCreator(jwt, instance.type().organization());
+            Creator creator = getCreator(instance.type().organization());
 
             service.add(instance, creator);
 
@@ -81,11 +78,11 @@ public class ProductInstanceResource extends ResourceBase {
         try {
             Urn urn = new Urn(UrnType.DEVICE, type, true);
 
-            checkManagerPermission(jwt, urn.organization());
+            checkManagerPermission(urn.organization());
 
             service.deleteByType(urn);
 
-            History.addDeveloper(urn.organization(), jwt.getName(), "DELETE", "ProductInstance", type);
+            History.addDeveloper(urn.organization(), getName(), "DELETE", "ProductInstance", type);
 
             return OxResponse.ok();
         } catch (OxException e) {
@@ -101,7 +98,7 @@ public class ProductInstanceResource extends ResourceBase {
 
         try {
             DeviceInstance instance = DeviceInstanceCodec.decode(object);
-            Updater updater = getUpdater(jwt, instance.type().organization());
+            Updater updater = getUpdater(instance.type().organization());
 
             service.update(instance, updater);
 
@@ -125,9 +122,9 @@ public class ProductInstanceResource extends ResourceBase {
         try {
             Urn urn = new Urn(UrnType.DEVICE, type, true);
 
-            checkManagerPermission(jwt, urn.organization());
+            checkManagerPermission(urn.organization());
 
-            Updater updater = getUpdater(jwt, urn.organization());
+            Updater updater = getUpdater(urn.organization());
             service.update(urn, Lifecycle.fromString(lifecycle), updater);
 
             JsonObject o = new JsonObject().put("type", type).put("lifecycle", lifecycle);

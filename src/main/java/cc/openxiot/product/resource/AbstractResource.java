@@ -7,10 +7,14 @@ import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.by.Updater;
+import jakarta.inject.Inject;
 import org.bson.types.ObjectId;
 import org.eclipse.microprofile.jwt.JsonWebToken;
 
-public class ResourceBase {
+public abstract class AbstractResource {
+
+    @Inject
+    JsonWebToken jwt;
 
 //    // 检查浏览权限：管理人员、运营人员、开发组里的成员，有浏览权限
 //    protected void checkBrowserPermission(JsonWebToken jwt, String organizationId) throws OxException {
@@ -26,8 +30,11 @@ public class ResourceBase {
 //        }
 //    }
 
-    // 检查管理权限：管理人员、运营人员、开发组里的管理员，有浏览权限
-    protected void checkManagerPermission(JsonWebToken jwt, String organizationId) throws OxException {
+    protected String getName() {
+        return jwt.getName();
+    }
+
+    protected void checkManagerPermission(String organizationId) throws OxException {
         switch (organizationId) {
             case "admin", "operator": {
                 break;
@@ -42,7 +49,8 @@ public class ResourceBase {
         }
     }
 
-    protected Creator getCreator(JsonWebToken jwt, String organizationId) throws OxException {
+
+    protected Creator getCreator(String organizationId) throws OxException {
         if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
             Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
 
@@ -60,7 +68,7 @@ public class ResourceBase {
         throw  new OxException("account not developer");
     }
 
-    protected Updater getUpdater(JsonWebToken jwt, String organizationId) throws OxException {
+    protected Updater getUpdater(String organizationId) throws OxException {
         if (jwt.getGroups().contains(OxRole.DEVELOPER)) {
             Organization.check(organizationId, jwt.getName(), MemberRole.MEMBER);
 

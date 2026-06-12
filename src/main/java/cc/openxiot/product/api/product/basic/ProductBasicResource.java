@@ -3,7 +3,7 @@ package cc.openxiot.product.api.product.basic;
 import cc.openxiot.product.db.history.History;
 import cc.openxiot.product.db.product.ProductEntity;
 import cc.openxiot.product.exception.OxException;
-import cc.openxiot.product.resource.ResourceBase;
+import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
@@ -17,7 +17,6 @@ import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
 import org.eclipse.microprofile.openapi.annotations.media.Content;
@@ -33,13 +32,11 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 @Tag(name = "Product Basic", description = "Product Basic API")
 @RequestScoped
-public class ProductBasicResource extends ResourceBase {
+public class ProductBasicResource extends AbstractResource {
 
     @Inject
     Logger logger;
 
-    @Inject
-    JsonWebToken jwt;
 
     @Inject
     ProductBasicService service;
@@ -56,7 +53,7 @@ public class ProductBasicResource extends ResourceBase {
 
         try {
             ProductBasic basic = ProductBasicCodec.decode(item);
-            Creator creator = getCreator(jwt, basic.organization());
+            Creator creator = getCreator(basic.organization());
             basic.creator(creator);
 
             service.add(basic);
@@ -81,7 +78,7 @@ public class ProductBasicResource extends ResourceBase {
         logger.infov("delete, {0}/{1}", organizationId, productId);
 
         try {
-            checkManagerPermission(jwt, organizationId);
+            checkManagerPermission(organizationId);
 
             ProductBasic basic = service.findById(productId);
             if (basic == null) {
@@ -90,7 +87,7 @@ public class ProductBasicResource extends ResourceBase {
 
             service.delete(productId);
 
-            History.addDeveloper(organizationId, jwt.getName(), "DELETE", "ProductBasic", ProductBasicCodec.encode(basic).toString());
+            History.addDeveloper(organizationId, getName(), "DELETE", "ProductBasic", ProductBasicCodec.encode(basic).toString());
 
             return OxResponse.ok();
         } catch (OxException e) {
@@ -107,11 +104,11 @@ public class ProductBasicResource extends ResourceBase {
         try {
             ProductBasic basic = ProductBasicCodec.decode(item);
 
-            checkManagerPermission(jwt, basic.organization());
+            checkManagerPermission(basic.organization());
 
             service.update(basic);
 
-            History.addDeveloper(basic.organization(), jwt.getName(), "UPDATE", "Item", item.toString());
+            History.addDeveloper(basic.organization(), getName(), "UPDATE", "Item", item.toString());
 
             return OxResponse.ok();
         } catch (OxException e) {

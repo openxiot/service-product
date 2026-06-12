@@ -3,6 +3,8 @@ package cc.openxiot.product.api.specification.namespace;
 import cc.openxiot.product.db.specification.SpecificationEntity;
 import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
+import cc.openxiot.product.exception.OxException;
+import cc.openxiot.product.resource.NamespacePermission;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.NamespaceDefinition;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -18,7 +20,7 @@ public class NamespaceService {
     SpecificationRepository repository;
 
     public void add(String organization, NamespaceDefinition def, Creator creator) {
-        if (repository.findOptional(def.namespace()).isPresent()) {
+        if (repository.findOptionalByNamespace(def.namespace()).isPresent()) {
             throw new IllegalArgumentException("namespace already exist");
         }
 
@@ -28,60 +30,64 @@ public class NamespaceService {
         entity.persist();
     }
 
-    public void delete(String organization, String namespace) {
-        var entity = repository.findOptional(organization, namespace);
-        if (entity.isEmpty()) {
+    public void delete(String namespace, NamespacePermission permission) throws OxException {
+        var spec = repository.findByNamespace(namespace);
+        if (spec == null) {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        if (!entity.get().devices.isEmpty()) {
+        permission.check(spec.organization);
+
+        if (!spec.devices.isEmpty()) {
             throw new IllegalArgumentException("namespace has devices");
         }
 
-        if (!entity.get().services.isEmpty()) {
+        if (!spec.services.isEmpty()) {
             throw new IllegalArgumentException("namespace has services");
         }
 
-        if (!entity.get().properties.isEmpty()) {
+        if (!spec.properties.isEmpty()) {
             throw new IllegalArgumentException("namespace has properties");
         }
 
-        if (!entity.get().actions.isEmpty()) {
+        if (!spec.actions.isEmpty()) {
             throw new IllegalArgumentException("namespace has actions");
         }
 
-        if (!entity.get().events.isEmpty()) {
+        if (!spec.events.isEmpty()) {
             throw new IllegalArgumentException("namespace has events");
         }
 
-        if (!entity.get().formats.isEmpty()) {
+        if (!spec.formats.isEmpty()) {
             throw new IllegalArgumentException("namespace has formats");
         }
 
-        if (!entity.get().units.isEmpty()) {
+        if (!spec.units.isEmpty()) {
             throw new IllegalArgumentException("namespace has units");
         }
 
-        entity.get().delete();
+        spec.delete();
     }
 
-    public void update(String organization, NamespaceDefinition def) {
-        var entity = repository.findOptional(organization, def.namespace());
-        if (entity.isEmpty()) {
+    public void update(NamespaceDefinition def, NamespacePermission permission) throws OxException {
+        var spec = repository.findByNamespace(def.namespace());
+        if (spec == null) {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        entity.get().namespace.description = def.description();
-        entity.get().update();
+        permission.check(spec.organization);
+
+        spec.namespace.description = def.description();
+        spec.update();
     }
 
-    public NamespaceDefinition find(String organization, String namespace) {
-        var entity = repository.findOptional(organization, namespace);
-        if (entity.isEmpty()) {
+    public NamespaceDefinition find(String namespace) {
+        var spec = repository.findByNamespace(namespace);
+        if (spec == null) {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        return NamespaceDefinitionMapper.toDefinition(entity.get().namespace);
+        return NamespaceDefinitionMapper.toDefinition(spec.namespace);
     }
 
     public List<NamespaceDefinition> findByOrganization(String organization) {

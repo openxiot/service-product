@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class EventDefinitionEntity {
 
-    public String name;
+    public String code;
 
     public int value;
 

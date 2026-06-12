@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class PropertyDefinitionEntity {
 
-    public String name;
+    public String code;
 
     public int value;
 

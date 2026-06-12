@@ -16,7 +16,7 @@ public class ActionDefinitionMapper {
         }
 
         ActionDefinitionEntity entity = new ActionDefinitionEntity();
-        entity.name = definition.type().name();
+        entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.in = definition.in().stream().map(x -> x.type().name()).toList();
@@ -31,12 +31,12 @@ public class ActionDefinitionMapper {
             return null;
         }
 
-        ActionType type = new ActionType(ns, entity.name, entity.value);
+        ActionType type = new ActionType(ns, entity.code, entity.value);
         List<ArgumentDefinition> in = entity.in.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.name, entity.value)))
+                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
                 .toList();
         List<ArgumentDefinition> out = entity.out.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.name, entity.value)))
+                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
                 .toList();
 
         return new ActionDefinition(type, entity.description, in, out);

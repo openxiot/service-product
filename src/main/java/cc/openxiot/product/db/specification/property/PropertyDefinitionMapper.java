@@ -22,7 +22,7 @@ public class PropertyDefinitionMapper {
         }
 
         PropertyDefinitionEntity entity = new PropertyDefinitionEntity();
-        entity.name = def.type().name();
+        entity.code = def.type().name();
         entity.value = def.type().value();
         entity.description = def.description();
         entity.format = def.format();
@@ -55,14 +55,14 @@ public class PropertyDefinitionMapper {
             return null;
         }
 
-        PropertyType type = new PropertyType(ns, entity.name, entity.value);
+        PropertyType type = new PropertyType(ns, entity.code, entity.value);
         Access access = Access.valueOf(entity.access);
 
         PropertyDefinition<?> def = new PropertyDefinition<>(type, entity.description, access, entity.format, null, entity.unit);
 
         if (entity.members != null) {
             List<PropertyType> members = entity.members.stream()
-                    .map(x -> new PropertyType(ns, entity.name, entity.value))
+                    .map(x -> new PropertyType(ns, entity.code, entity.value))
                     .toList();
 
             def.members(members);
