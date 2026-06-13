@@ -101,9 +101,14 @@ public class UnitResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<UnitDefinition> list = service.findByNamespace(namespace);
-        List<JsonObject> array = UnitDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<UnitDefinition> list = service.findByNamespace(namespace);
+            List<JsonObject> array = UnitDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET

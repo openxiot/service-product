@@ -43,7 +43,7 @@ public class ActionResource extends AbstractResource {
         try {
             service.add(ActionDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class ActionResource extends AbstractResource {
         try {
             service.delete(ActionType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class ActionResource extends AbstractResource {
         try {
             service.update(ActionDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -101,9 +101,14 @@ public class ActionResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<ActionDefinition> list = service.findByNamespace(namespace);
-        List<JsonObject> array = ActionDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<ActionDefinition> list = service.findByNamespace(namespace);
+            List<JsonObject> array = ActionDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET

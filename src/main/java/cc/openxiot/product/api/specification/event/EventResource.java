@@ -101,9 +101,14 @@ public class EventResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<EventDefinition> list = service.findByNamespace(namespace);
-        List<JsonObject> array = EventDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<EventDefinition> list = service.findByNamespace(namespace);
+            List<JsonObject> array = EventDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET

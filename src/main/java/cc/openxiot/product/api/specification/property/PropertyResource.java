@@ -101,9 +101,14 @@ public class PropertyResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<PropertyDefinition<?>> list = service.findByNamespace(namespace);
-        List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<PropertyDefinition<?>> list = service.findByNamespace(namespace);
+            List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET

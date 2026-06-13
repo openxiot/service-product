@@ -11,7 +11,7 @@ public class SpecificationRepository implements PanacheMongoRepository<Specifica
     // 自带所有 CRUD 方法：findById、persist、delete、listAll...
 
     public Optional<SpecificationEntity> findOptionalByNamespace(String namespace) {
-        return find("namespace.code = ?2", namespace).firstResultOptional();
+        return find("namespace.code = ?1", namespace).firstResultOptional();
     }
 
     public SpecificationEntity findByNamespace(String namespace) {

@@ -101,9 +101,13 @@ public class ServiceResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<ServiceDefinition> list = service.findByNamespace(namespace);
-        List<JsonObject> array = ServiceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<ServiceDefinition> list = service.findByNamespace(namespace);
+            List<JsonObject> array = ServiceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET

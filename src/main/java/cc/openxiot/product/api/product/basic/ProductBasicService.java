@@ -92,7 +92,6 @@ public class ProductBasicService {
                 .toList();
     }
 
-
     public List<ProductBasic> findAll() {
         return repository.listAll().stream()
                 .map(ProductBasicMapper::toProduct)

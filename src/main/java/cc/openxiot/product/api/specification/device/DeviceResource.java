@@ -43,7 +43,7 @@ public class DeviceResource extends AbstractResource {
         try {
             service.add(DeviceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class DeviceResource extends AbstractResource {
         try {
             service.delete(DeviceType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class DeviceResource extends AbstractResource {
         try {
             service.update(DeviceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -101,9 +101,14 @@ public class DeviceResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<DeviceDefinition> list = service.findByNamespace(namespace);
-        List<JsonObject> array = DeviceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<DeviceDefinition> list = service.findByNamespace(namespace);
+            List<JsonObject> array = DeviceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
+        }
     }
 
     @GET
