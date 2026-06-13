@@ -21,7 +21,7 @@ public class ActionDefinitionMapper {
         entity.description = definition.description();
         entity.in = definition.in().stream().map(x -> x.type().name()).toList();
         entity.out = definition.out().stream().map(x -> x.type().name()).toList();
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

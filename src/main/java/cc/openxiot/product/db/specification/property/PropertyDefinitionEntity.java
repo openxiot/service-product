@@ -25,9 +25,9 @@ public class PropertyDefinitionEntity {
 
     public List<String> members;
 
-    public Creator creator;
-
-    public Updater updater;
+//    public Creator creator;
+//
+//    public Updater updater;
 
     public static class ConstraintValueEntity {
 

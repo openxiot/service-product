@@ -20,7 +20,7 @@ public class EventDefinitionMapper {
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.arguments = definition.arguments().stream().map(x -> x.type().name()).toList();
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

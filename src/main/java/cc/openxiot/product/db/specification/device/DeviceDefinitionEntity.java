@@ -15,7 +15,7 @@ public class DeviceDefinitionEntity {
 
     public Map<String, String> description;
 
-    public Creator creator;
+//    public Creator creator;
 
-    public Updater updater;
+//    public Updater updater;
 }

@@ -18,7 +18,7 @@ public class ActionDefinitionEntity {
 
     public List<String> out;
 
-    public Creator creator;
-
-    public Updater updater;
+//    public Creator creator;
+//
+//    public Updater updater;
 }

@@ -11,7 +11,7 @@ public class NamespaceDefinitionEntity {
 
     public Map<String, String> description;
 
-    public Creator creator;
-
-    public Updater updater;
+//    public Creator creator;
+//
+//    public Updater updater;
 }

@@ -16,7 +16,7 @@ public class EventDefinitionEntity {
 
     public List<String> arguments;
 
-    public Creator creator;
-
-    public Updater updater;
+//    public Creator creator;
+//
+//    public Updater updater;
 }

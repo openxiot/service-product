@@ -13,7 +13,7 @@ public class NamespaceDefinitionMapper {
         NamespaceDefinitionEntity entity = new NamespaceDefinitionEntity();
         entity.code = definition.namespace();
         entity.description = definition.description();
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

@@ -3,9 +3,10 @@ package cc.openxiot.product.db.organization;
 import cc.openxiot.product.db.organization.member.Member;
 import cc.openxiot.product.db.organization.member.MemberRole;
 import cc.openxiot.product.exception.OxException;
-import io.quarkus.mongodb.panache.PanacheMongoEntity;
+import io.quarkus.mongodb.panache.PanacheMongoEntityBase;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 import org.bson.Document;
+import org.bson.codecs.pojo.annotations.BsonId;
 import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.types.ObjectId;
 
@@ -17,7 +18,11 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 @MongoEntity(collection = "account-organizations")
-public class Organization extends PanacheMongoEntity {
+public class Organization extends PanacheMongoEntityBase {
+
+    @BsonId
+    @BsonProperty("code")
+    public String code;
 
     @BsonProperty("name")
     public String name;
@@ -71,7 +76,7 @@ public class Organization extends PanacheMongoEntity {
     }
 
     public static void check(String organizationId, String accountId, String role) throws OxException {
-        Organization organization = Organization.findById(new ObjectId(organizationId));
+        Organization organization = Organization.findById(organizationId);
         if (organization == null) {
             throw new OxException("organization not found");
         }

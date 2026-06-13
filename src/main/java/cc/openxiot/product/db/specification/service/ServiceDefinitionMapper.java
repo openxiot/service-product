@@ -27,7 +27,7 @@ public class ServiceDefinitionMapper {
         entity.optionalEvents = definition.optionalEvents().stream().map(x -> x.type().name()).toList();
         entity.requiredEvents = definition.requiredEvents().stream().map(x -> x.type().name()).toList();
 
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

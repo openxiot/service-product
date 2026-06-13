@@ -45,7 +45,7 @@ public class PropertyDefinitionMapper {
 
         entity.members = def.members().stream().map(x -> x.type().name()).toList();
 
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

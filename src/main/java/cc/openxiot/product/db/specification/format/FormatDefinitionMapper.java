@@ -15,7 +15,7 @@ public class FormatDefinitionMapper {
         entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
-        entity.creator = creator;
+//        entity.creator = creator;
 
         return entity;
     }

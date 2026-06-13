@@ -26,7 +26,7 @@ public class ServiceDefinitionEntity {
 
     public List<String> requiredEvents;
 
-    public Creator creator;
-
-    public Updater updater;
+//    public Creator creator;
+//
+//    public Updater updater;
 }
