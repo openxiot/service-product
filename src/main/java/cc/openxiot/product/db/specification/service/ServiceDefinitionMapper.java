@@ -6,6 +6,7 @@ import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import cn.geekcity.xiot.spec.definition.urn.ServiceType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -27,6 +28,7 @@ public class ServiceDefinitionMapper {
         entity.optionalEvents = definition.optionalEvents().stream().map(x -> x.type().name()).toList();
         entity.requiredEvents = definition.requiredEvents().stream().map(x -> x.type().name()).toList();
 
+        entity.lifecycle = Lifecycle.DEVELOPMENT;
 //        entity.creator = creator;
 
         return entity;
@@ -63,15 +65,20 @@ public class ServiceDefinitionMapper {
                 .map(x -> new EventType(ns, entity.code, entity.value))
                 .toList();
 
-        return new ServiceDefinition(
-                type,
-                entity.description,
-                optionalProperties,
-                requiredProperties,
-                optionalActions,
-                requiredActions,
-                optionalEvents,
-                requiredEvents
-        );
+        ServiceDefinition def =
+                new ServiceDefinition(
+                        type,
+                        entity.description,
+                        optionalProperties,
+                        requiredProperties,
+                        optionalActions,
+                        requiredActions,
+                        optionalEvents,
+                        requiredEvents
+                );
+
+        def.lifecycle(entity.lifecycle);
+
+        return def;
     }
 }

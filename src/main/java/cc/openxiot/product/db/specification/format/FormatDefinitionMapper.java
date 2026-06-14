@@ -3,6 +3,7 @@ package cc.openxiot.product.db.specification.format;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.FormatDefinition;
 import cn.geekcity.xiot.spec.definition.urn.FormatType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class FormatDefinitionMapper {
 
@@ -15,6 +16,7 @@ public class FormatDefinitionMapper {
         entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
+        entity.lifecycle = Lifecycle.DEVELOPMENT;
 //        entity.creator = creator;
 
         return entity;
@@ -27,6 +29,8 @@ public class FormatDefinitionMapper {
 
         FormatType type = new FormatType(ns, entity.code, entity.value);
 
-        return new FormatDefinition(type, entity.description);
+        FormatDefinition def = new FormatDefinition(type, entity.description);
+        def.lifecycle(entity.lifecycle);
+        return def;
     }
 }

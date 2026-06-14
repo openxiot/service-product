@@ -5,6 +5,7 @@ import cn.geekcity.xiot.spec.definition.EventDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -20,6 +21,7 @@ public class EventDefinitionMapper {
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.arguments = definition.arguments().stream().map(x -> x.type().name()).toList();
+        entity.lifecycle = Lifecycle.DEVELOPMENT;
 //        entity.creator = creator;
 
         return entity;
@@ -35,6 +37,8 @@ public class EventDefinitionMapper {
                 .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
                 .toList();
 
-        return new EventDefinition(type, entity.description, arguments);
+        EventDefinition event = new EventDefinition(type, entity.description, arguments);
+        event.lifecycle(entity.lifecycle);
+        return event;
     }
 }

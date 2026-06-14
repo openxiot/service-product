@@ -10,6 +10,7 @@ import cn.geekcity.xiot.spec.definition.property.ValueLength;
 import cn.geekcity.xiot.spec.definition.property.ValueList;
 import cn.geekcity.xiot.spec.definition.property.ValueRange;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import io.vertx.core.json.JsonArray;
 
 import java.util.List;
@@ -45,6 +46,7 @@ public class PropertyDefinitionMapper {
 
         entity.members = def.members().stream().map(x -> x.type().name()).toList();
 
+        entity.lifecycle = Lifecycle.DEVELOPMENT;
 //        entity.creator = creator;
 
         return entity;
@@ -84,6 +86,8 @@ public class PropertyDefinitionMapper {
                 def.constraintValue(ValueLengthCodec.decode(length));
                 break;
         }
+
+        def.lifecycle(entity.lifecycle);
 
         return def;
     }
