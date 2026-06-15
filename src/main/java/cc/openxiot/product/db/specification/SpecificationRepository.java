@@ -51,6 +51,6 @@ public class SpecificationRepository implements PanacheMongoRepository<Specifica
     }
 
     public List<SpecificationEntity> findByOrganization(String organization) {
-        return find("organization = ?1", organization).stream().toList();
+        return find("namespace.organization = ?1", organization).stream().toList();
     }
 }

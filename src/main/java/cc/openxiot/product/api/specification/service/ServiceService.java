@@ -13,7 +13,6 @@ import jakarta.inject.Inject;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @ApplicationScoped
 public class ServiceService {
@@ -27,7 +26,7 @@ public class ServiceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         ServiceDefinitionEntity found = spec.services.get(def.type().name());
         if (found != null) {
@@ -45,7 +44,7 @@ public class ServiceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         ServiceDefinitionEntity found = spec.services.get(type.name());
         if (found == null) {
@@ -62,7 +61,7 @@ public class ServiceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         ServiceDefinitionEntity found = spec.services.get(def.type().name());
         if (found == null) {

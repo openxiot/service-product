@@ -10,7 +10,7 @@ import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.List;
 
-@MongoEntity(collection = "product")
+@MongoEntity(collection = "products")
 @BsonDiscriminator
 public class ProductEntity extends PanacheMongoEntity {
 

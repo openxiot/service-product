@@ -27,7 +27,7 @@ public class UnitService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         UnitDefinitionEntity found = spec.units.get(def.type().name());
         if (found != null) {
@@ -45,7 +45,7 @@ public class UnitService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         UnitDefinitionEntity found = spec.units.get(type.name());
         if (found == null) {
@@ -62,7 +62,7 @@ public class UnitService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         UnitDefinitionEntity found = spec.units.get(def.type().name());
         if (found == null) {

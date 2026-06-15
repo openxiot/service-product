@@ -5,7 +5,7 @@ import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
-@MongoEntity(collection = "template")
+@MongoEntity(collection = "templates")
 @BsonDiscriminator
 public class TemplateEntity extends PanacheMongoEntity {
 

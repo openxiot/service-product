@@ -13,6 +13,8 @@ public class NamespaceDefinitionMapper {
         NamespaceDefinitionEntity entity = new NamespaceDefinitionEntity();
         entity.code = definition.namespace();
         entity.description = definition.description();
+        entity.visibility = definition.visibility();
+        entity.organization = definition.organization();
 //        entity.creator = creator;
 
         return entity;
@@ -23,6 +25,10 @@ public class NamespaceDefinitionMapper {
             return null;
         }
 
-        return new NamespaceDefinition(entity.code, entity.description);
+        NamespaceDefinition def = new NamespaceDefinition(entity.code, entity.description);
+        def.visibility(entity.visibility);
+        def.organization(entity.organization);
+
+        return def;
     }
 }

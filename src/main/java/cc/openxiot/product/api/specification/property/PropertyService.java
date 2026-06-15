@@ -27,7 +27,7 @@ public class PropertyService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         PropertyDefinitionEntity found = spec.properties.get(def.type().name());
         if (found != null) {
@@ -45,7 +45,7 @@ public class PropertyService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         PropertyDefinitionEntity found = spec.properties.get(type.name());
         if (found == null) {
@@ -62,7 +62,7 @@ public class PropertyService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         PropertyDefinitionEntity found = spec.properties.get(def.type().name());
         if (found == null) {

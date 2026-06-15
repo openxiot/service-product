@@ -33,20 +33,17 @@ public class NamespaceResource extends AbstractResource {
     NamespaceService service;
 
     @POST
-    @Path("/one/{organization}")
+    @Path("/one")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
-    public Response add(
-            @PathParam("organization") String organization,
-            JsonObject item
-    ) {
+    public Response add(JsonObject item) {
         logger.infov("add: {0}", item);
 
         try {
             NamespaceDefinition definition = NamespaceDefinitionCodec.decode(item);
 
-            Creator creator = getCreator(organization);
+            Creator creator = getCreator(definition.organization());
 
-            service.add(organization, definition, creator);
+            service.add(definition, creator);
 
             return OxResponse.created();
         } catch (OxException e) {

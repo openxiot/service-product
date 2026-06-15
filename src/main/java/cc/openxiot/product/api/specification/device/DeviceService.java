@@ -8,7 +8,6 @@ import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.resource.NamespacePermission;
 import cn.geekcity.xiot.spec.definition.DeviceDefinition;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
-import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
@@ -28,7 +27,7 @@ public class DeviceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         DeviceDefinitionEntity found = spec.devices.get(def.type().name());
         if (found != null) {
@@ -46,7 +45,7 @@ public class DeviceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         DeviceDefinitionEntity found = spec.devices.get(type.name());
         if (found == null) {
@@ -63,7 +62,7 @@ public class DeviceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         DeviceDefinitionEntity found = spec.devices.get(def.type().name());
         if (found == null) {

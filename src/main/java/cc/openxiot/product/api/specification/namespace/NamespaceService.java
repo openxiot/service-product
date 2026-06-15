@@ -19,13 +19,12 @@ public class NamespaceService {
     @Inject
     SpecificationRepository repository;
 
-    public void add(String organization, NamespaceDefinition def, Creator creator) {
+    public void add(NamespaceDefinition def, Creator creator) {
         if (repository.findOptionalByNamespace(def.namespace()).isPresent()) {
             throw new IllegalArgumentException("namespace already exist");
         }
 
         SpecificationEntity entity = new SpecificationEntity();
-        entity.organization = organization;
         entity.namespace = NamespaceDefinitionMapper.toEntity(def, creator);
         entity.persist();
     }
@@ -36,7 +35,7 @@ public class NamespaceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         if (!spec.devices.isEmpty()) {
             throw new IllegalArgumentException("namespace has devices");
@@ -75,7 +74,7 @@ public class NamespaceService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         spec.namespace.description = def.description();
         spec.update();

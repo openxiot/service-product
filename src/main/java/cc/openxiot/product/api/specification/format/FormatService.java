@@ -27,7 +27,7 @@ public class FormatService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         FormatDefinitionEntity found = spec.formats.get(def.type().name());
         if (found != null) {
@@ -45,7 +45,7 @@ public class FormatService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         FormatDefinitionEntity found = spec.formats.get(type.name());
         if (found == null) {
@@ -62,7 +62,7 @@ public class FormatService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         FormatDefinitionEntity found = spec.formats.get(def.type().name());
         if (found == null) {

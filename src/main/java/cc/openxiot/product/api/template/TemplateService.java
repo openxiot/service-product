@@ -32,7 +32,7 @@ public class TemplateService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         TemplateEntity found = repository.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
         if (found != null) {
@@ -49,7 +49,7 @@ public class TemplateService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         TemplateEntity found = repository.findBy(type.ns(), type.organization(), type.model(), type.version());
         if (found == null) {
@@ -65,7 +65,7 @@ public class TemplateService {
             throw new IllegalArgumentException("namespace not found");
         }
 
-        permission.check(spec.organization);
+        permission.check(spec.namespace.organization);
 
         TemplateEntity found = repository.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
         if (found == null) {

@@ -14,11 +14,9 @@ import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.Map;
 
-@MongoEntity(collection = "namespace")
+@MongoEntity(collection = "specifications")
 @BsonDiscriminator
 public class SpecificationEntity extends PanacheMongoEntity {
-
-    public String organization;
 
     public NamespaceDefinitionEntity namespace;
 
