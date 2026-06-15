@@ -112,6 +112,28 @@ public class NamespaceResource extends AbstractResource {
     }
 
     @GET
+    @Path("/visible/{organization}")
+    public Response getVisible(
+            @PathParam("organization") String organization
+    ) {
+        logger.infov("getVisible: {0}", organization);
+
+        List<NamespaceDefinition> list = service.findVisible(organization);
+        List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
+        return OxResponse.ok(new JsonArray(array));
+    }
+
+    @GET
+    @Path("/public")
+    public Response getAllPublic() {
+        logger.infov("getAll");
+
+        List<NamespaceDefinition> list = service.findPublic();
+        List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
+        return OxResponse.ok(new JsonArray(array));
+    }
+
+    @GET
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");

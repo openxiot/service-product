@@ -7,6 +7,7 @@ import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.resource.NamespacePermission;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.NamespaceDefinition;
+import cn.geekcity.xiot.spec.visibility.Visibility;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
@@ -99,6 +100,26 @@ public class NamespaceService {
     public List<NamespaceDefinition> findAll() {
         return repository.listAll().stream()
                 .map(x -> NamespaceDefinitionMapper.toDefinition(x.namespace))
+                .collect(Collectors.toList());
+    }
+
+    public List<NamespaceDefinition> findVisible(String organization) {
+        return repository.listAll().stream()
+                .map(x -> NamespaceDefinitionMapper.toDefinition(x.namespace))
+                .filter(x -> {
+                    if (x.visibility() == Visibility.PUBLIC) {
+                        return true;
+                    }
+
+                    return x.organization().equals(organization);
+                })
+                .collect(Collectors.toList());
+    }
+
+    public List<NamespaceDefinition> findPublic() {
+        return repository.listAll().stream()
+                .map(x -> NamespaceDefinitionMapper.toDefinition(x.namespace))
+                .filter(x -> x.visibility() == Visibility.PUBLIC)
                 .collect(Collectors.toList());
     }
 }
