@@ -34,7 +34,7 @@ public class FormatService {
             throw new IllegalArgumentException("format already exist!");
         }
 
-        FormatDefinitionEntity entity = FormatDefinitionMapper.toEntity(def, null);
+        FormatDefinitionEntity entity = FormatDefinitionMapper.toEntity(def);
         spec.formats.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class FormatService {
             throw new IllegalArgumentException("format not found!");
         }
 
-        FormatDefinitionEntity entity = FormatDefinitionMapper.toEntity(def, null);
+        FormatDefinitionEntity entity = FormatDefinitionMapper.toEntity(def);
         spec.formats.put(entity.code, entity);
         spec.update();
     }

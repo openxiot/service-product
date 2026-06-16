@@ -34,7 +34,7 @@ public class UnitService {
             throw new IllegalArgumentException("unit already exist!");
         }
 
-        UnitDefinitionEntity entity = UnitDefinitionMapper.toEntity(def, null);
+        UnitDefinitionEntity entity = UnitDefinitionMapper.toEntity(def);
         spec.units.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class UnitService {
             throw new IllegalArgumentException("unit not found!");
         }
 
-        UnitDefinitionEntity entity = UnitDefinitionMapper.toEntity(def, null);
+        UnitDefinitionEntity entity = UnitDefinitionMapper.toEntity(def);
         spec.units.put(entity.code, entity);
         spec.update();
     }

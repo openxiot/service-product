@@ -7,7 +7,7 @@ import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class UnitDefinitionMapper {
 
-    public static UnitDefinitionEntity toEntity(UnitDefinition definition, Creator creator) {
+    public static UnitDefinitionEntity toEntity(UnitDefinition definition) {
         if (definition == null) {
             return null;
         }
@@ -16,9 +16,7 @@ public class UnitDefinitionMapper {
         entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
-
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-//        entity.creator = creator;
+        entity.lifecycle = definition.lifecycle();
 
         return entity;
     }

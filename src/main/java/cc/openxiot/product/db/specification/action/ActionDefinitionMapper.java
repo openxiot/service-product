@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ActionDefinitionMapper {
 
-    public static ActionDefinitionEntity toEntity(ActionDefinition definition, Creator creator) {
+    public static ActionDefinitionEntity toEntity(ActionDefinition definition) {
         if (definition == null) {
             return null;
         }
@@ -22,9 +22,7 @@ public class ActionDefinitionMapper {
         entity.description = definition.description();
         entity.in = definition.in().stream().map(x -> x.type().name()).toList();
         entity.out = definition.out().stream().map(x -> x.type().name()).toList();
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-
-//        entity.creator = creator;
+        entity.lifecycle = definition.lifecycle();
 
         return entity;
     }

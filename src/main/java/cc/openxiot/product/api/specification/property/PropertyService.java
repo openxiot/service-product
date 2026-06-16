@@ -34,7 +34,7 @@ public class PropertyService {
             throw new IllegalArgumentException("property already exist!");
         }
 
-        PropertyDefinitionEntity entity = PropertyDefinitionMapper.toEntity(def, null);
+        PropertyDefinitionEntity entity = PropertyDefinitionMapper.toEntity(def);
         spec.properties.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class PropertyService {
             throw new IllegalArgumentException("property not found!");
         }
 
-        PropertyDefinitionEntity entity = PropertyDefinitionMapper.toEntity(def, null);
+        PropertyDefinitionEntity entity = PropertyDefinitionMapper.toEntity(def);
         spec.properties.put(entity.code, entity);
         spec.update();
     }

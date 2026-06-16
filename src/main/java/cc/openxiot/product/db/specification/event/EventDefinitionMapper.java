@@ -11,7 +11,7 @@ import java.util.List;
 
 public class EventDefinitionMapper {
 
-    public static EventDefinitionEntity toEntity(EventDefinition definition, Creator creator) {
+    public static EventDefinitionEntity toEntity(EventDefinition definition) {
         if (definition == null) {
             return null;
         }
@@ -21,8 +21,7 @@ public class EventDefinitionMapper {
         entity.value = definition.type().value();
         entity.description = definition.description();
         entity.arguments = definition.arguments().stream().map(x -> x.type().name()).toList();
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-//        entity.creator = creator;
+        entity.lifecycle = definition.lifecycle();
 
         return entity;
     }

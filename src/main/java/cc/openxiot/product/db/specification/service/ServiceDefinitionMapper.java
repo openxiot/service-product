@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ServiceDefinitionMapper {
 
-    public static ServiceDefinitionEntity toEntity(ServiceDefinition definition, Creator creator) {
+    public static ServiceDefinitionEntity toEntity(ServiceDefinition definition) {
         if (definition == null) {
             return null;
         }
@@ -28,8 +28,7 @@ public class ServiceDefinitionMapper {
         entity.optionalEvents = definition.optionalEvents().stream().map(x -> x.type().name()).toList();
         entity.requiredEvents = definition.requiredEvents().stream().map(x -> x.type().name()).toList();
 
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-//        entity.creator = creator;
+        entity.lifecycle = definition.lifecycle();
 
         return entity;
     }

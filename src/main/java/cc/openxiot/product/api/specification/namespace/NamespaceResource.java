@@ -41,12 +41,10 @@ public class NamespaceResource extends AbstractResource {
         try {
             NamespaceDefinition definition = NamespaceDefinitionCodec.decode(item);
 
-            Creator creator = getCreator(definition.organization());
-
-            service.add(definition, creator);
+            service.add(definition);
 
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }

@@ -33,7 +33,7 @@ public class ServiceService {
             throw new IllegalArgumentException("service already exist!");
         }
 
-        ServiceDefinitionEntity entity = ServiceDefinitionMapper.toEntity(def, null);
+        ServiceDefinitionEntity entity = ServiceDefinitionMapper.toEntity(def);
         spec.services.put(entity.code, entity);
         spec.update();
     }
@@ -68,7 +68,7 @@ public class ServiceService {
             throw new IllegalArgumentException("service not found!");
         }
 
-        ServiceDefinitionEntity entity = ServiceDefinitionMapper.toEntity(def, null);
+        ServiceDefinitionEntity entity = ServiceDefinitionMapper.toEntity(def);
         spec.services.put(entity.code, entity);
         spec.update();
     }

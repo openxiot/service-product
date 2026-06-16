@@ -7,7 +7,7 @@ import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class FormatDefinitionMapper {
 
-    public static FormatDefinitionEntity toEntity(FormatDefinition definition, Creator creator) {
+    public static FormatDefinitionEntity toEntity(FormatDefinition definition) {
         if (definition == null) {
             return null;
         }
@@ -16,8 +16,7 @@ public class FormatDefinitionMapper {
         entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-//        entity.creator = creator;
+        entity.lifecycle = definition.lifecycle();
 
         return entity;
     }

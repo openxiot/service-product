@@ -20,13 +20,13 @@ public class NamespaceService {
     @Inject
     SpecificationRepository repository;
 
-    public void add(NamespaceDefinition def, Creator creator) {
+    public void add(NamespaceDefinition def) {
         if (repository.findOptionalByNamespace(def.namespace()).isPresent()) {
             throw new IllegalArgumentException("namespace already exist");
         }
 
         SpecificationEntity entity = new SpecificationEntity();
-        entity.namespace = NamespaceDefinitionMapper.toEntity(def, creator);
+        entity.namespace = NamespaceDefinitionMapper.toEntity(def);
         entity.persist();
     }
 

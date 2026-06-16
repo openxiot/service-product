@@ -34,7 +34,7 @@ public class EventService {
             throw new IllegalArgumentException("event already exist!");
         }
 
-        EventDefinitionEntity entity = EventDefinitionMapper.toEntity(def, null);
+        EventDefinitionEntity entity = EventDefinitionMapper.toEntity(def);
         spec.events.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class EventService {
             throw new IllegalArgumentException("event not found!");
         }
 
-        EventDefinitionEntity entity = EventDefinitionMapper.toEntity(def, null);
+        EventDefinitionEntity entity = EventDefinitionMapper.toEntity(def);
         spec.events.put(entity.code, entity);
         spec.update();
     }

@@ -17,7 +17,7 @@ import java.util.List;
 
 public class PropertyDefinitionMapper {
 
-    public static PropertyDefinitionEntity toEntity(PropertyDefinition<?> def, Creator creator) {
+    public static PropertyDefinitionEntity toEntity(PropertyDefinition<?> def) {
         if (def == null) {
             return null;
         }
@@ -46,8 +46,7 @@ public class PropertyDefinitionMapper {
 
         entity.members = def.members().stream().map(x -> x.type().name()).toList();
 
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
-//        entity.creator = creator;
+        entity.lifecycle = def.lifecycle();
 
         return entity;
     }

@@ -34,7 +34,7 @@ public class DeviceService {
             throw new IllegalArgumentException("device already exist!");
         }
 
-        DeviceDefinitionEntity entity = DeviceDefinitionMapper.toEntity(def, null);
+        DeviceDefinitionEntity entity = DeviceDefinitionMapper.toEntity(def);
         spec.devices.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class DeviceService {
             throw new IllegalArgumentException("device not found!");
         }
 
-        DeviceDefinitionEntity entity = DeviceDefinitionMapper.toEntity(def, null);
+        DeviceDefinitionEntity entity = DeviceDefinitionMapper.toEntity(def);
         spec.devices.put(entity.code, entity);
         spec.update();
     }

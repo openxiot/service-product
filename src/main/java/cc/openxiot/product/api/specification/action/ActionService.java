@@ -34,7 +34,7 @@ public class ActionService {
             throw new IllegalArgumentException("action already exist!");
         }
 
-        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def, null);
+        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def);
         spec.actions.put(entity.code, entity);
         spec.update();
     }
@@ -69,7 +69,7 @@ public class ActionService {
             throw new IllegalArgumentException("action not found!");
         }
 
-        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def, null);
+        ActionDefinitionEntity entity = ActionDefinitionMapper.toEntity(def);
         spec.actions.put(entity.code, entity);
         spec.update();
     }

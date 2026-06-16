@@ -1,7 +1,5 @@
 package cc.openxiot.product.db.specification.action;
 
-import cn.geekcity.xiot.spec.by.Creator;
-import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
@@ -20,8 +18,4 @@ public class ActionDefinitionEntity {
     public List<String> in;
 
     public List<String> out;
-
-//    public Creator creator;
-//
-//    public Updater updater;
 }
