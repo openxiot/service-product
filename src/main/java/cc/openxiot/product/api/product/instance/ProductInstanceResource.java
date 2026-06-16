@@ -62,7 +62,7 @@ public class ProductInstanceResource extends AbstractResource {
             History.addDeveloper(instance.type().organization(), creator.id(), "ADD", "ProductInstance", object.toString());
 
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -85,7 +85,7 @@ public class ProductInstanceResource extends AbstractResource {
             History.addDeveloper(urn.organization(), getName(), "DELETE", "ProductInstance", type);
 
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -105,7 +105,7 @@ public class ProductInstanceResource extends AbstractResource {
             History.addDeveloper(instance.type().organization(), updater.id(), "UPDATE", "ProductInstance", object.toString());
 
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -131,7 +131,7 @@ public class ProductInstanceResource extends AbstractResource {
             History.addDeveloper(urn.organization(), updater.id(), "UPDATE", "ProductInstance.Lifecycle", o.encode());
 
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }

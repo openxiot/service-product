@@ -87,11 +87,15 @@ public class DeviceResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        DeviceDefinition def = service.find(DeviceType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(DeviceDefinitionCodec.encode(def));
+        try {
+            DeviceDefinition def = service.find(DeviceType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(DeviceDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

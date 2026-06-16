@@ -42,6 +42,8 @@ public class PropertyDefinitionMapper {
                 entity.constraintValue.type = "length";
                 entity.constraintValue.length = ValueLengthCodec.encode((ValueLength<?>) def.constraintValue()).encode();
             }
+        } else {
+            entity.constraintValue.type = "none";
         }
 
         entity.members = def.members().stream().map(x -> x.type().name()).toList();
@@ -69,21 +71,25 @@ public class PropertyDefinitionMapper {
             def.members(members);
         }
 
-        switch (entity.constraintValue.type) {
-            case "list":
-                JsonArray list = new JsonArray(entity.constraintValue.list);
-                def.constraintValue(ValueListCodec.decode(def.format(), list));
-                break;
+        if (entity.constraintValue != null) {
+            if (entity.constraintValue.type != null) {
+                switch (entity.constraintValue.type) {
+                    case "list":
+                        JsonArray list = new JsonArray(entity.constraintValue.list);
+                        def.constraintValue(ValueListCodec.decode(def.format(), list));
+                        break;
 
-            case "range":
-                JsonArray range = new JsonArray(entity.constraintValue.range);
-                def.constraintValue(ValueRangeCodec.decode(def.format(), range));
-                break;
+                    case "range":
+                        JsonArray range = new JsonArray(entity.constraintValue.range);
+                        def.constraintValue(ValueRangeCodec.decode(def.format(), range));
+                        break;
 
-            case "length":
-                JsonArray length = new JsonArray(entity.constraintValue.length);
-                def.constraintValue(ValueLengthCodec.decode(length));
-                break;
+                    case "length":
+                        JsonArray length = new JsonArray(entity.constraintValue.length);
+                        def.constraintValue(ValueLengthCodec.decode(length));
+                        break;
+                }
+            }
         }
 
         def.lifecycle(entity.lifecycle);

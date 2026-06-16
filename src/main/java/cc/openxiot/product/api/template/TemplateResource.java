@@ -43,7 +43,7 @@ public class TemplateResource extends AbstractResource {
         try {
             service.add(DeviceTemplateCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class TemplateResource extends AbstractResource {
         try {
             service.delete(DeviceType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class TemplateResource extends AbstractResource {
         try {
             service.update(DeviceTemplateCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class TemplateResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        DeviceTemplate template = service.find(DeviceType.parse(type));
-        if (template == null) {
-            return OxResponse.error("template not found");
-        } else {
-            return OxResponse.ok(DeviceTemplateCodec.encode(template));
+        try {
+            DeviceTemplate template = service.find(DeviceType.parse(type));
+            if (template == null) {
+                return OxResponse.error("template not found");
+            } else {
+                return OxResponse.ok(DeviceTemplateCodec.encode(template));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

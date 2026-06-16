@@ -43,7 +43,7 @@ public class EventResource extends AbstractResource {
         try {
             service.add(EventDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class EventResource extends AbstractResource {
         try {
             service.delete(EventType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class EventResource extends AbstractResource {
         try {
             service.update(EventDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class EventResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        EventDefinition def = service.find(EventType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(EventDefinitionCodec.encode(def));
+        try {
+            EventDefinition def = service.find(EventType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(EventDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

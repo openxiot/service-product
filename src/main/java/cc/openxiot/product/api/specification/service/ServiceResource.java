@@ -43,7 +43,7 @@ public class ServiceResource extends AbstractResource {
         try {
             service.add(ServiceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class ServiceResource extends AbstractResource {
         try {
             service.delete(ServiceType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class ServiceResource extends AbstractResource {
         try {
             service.update(ServiceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class ServiceResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        ServiceDefinition def = service.find(ServiceType.parse(type));
-        if (def == null) {
-            return OxResponse.error("service not found");
-        } else {
-            return OxResponse.ok(ServiceDefinitionCodec.encode(def));
+        try {
+            ServiceDefinition def = service.find(ServiceType.parse(type));
+            if (def == null) {
+                return OxResponse.error("service not found");
+            } else {
+                return OxResponse.ok(ServiceDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

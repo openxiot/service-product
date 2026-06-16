@@ -43,7 +43,7 @@ public class PropertyResource extends AbstractResource {
         try {
             service.add(PropertyDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class PropertyResource extends AbstractResource {
         try {
             service.delete(PropertyType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class PropertyResource extends AbstractResource {
         try {
             service.update(PropertyDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class PropertyResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        PropertyDefinition def = service.find(PropertyType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(PropertyDefinitionCodec.encode(def));
+        try {
+            PropertyDefinition<?> def = service.find(PropertyType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(PropertyDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

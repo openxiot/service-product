@@ -43,7 +43,7 @@ public class FormatResource extends AbstractResource {
         try {
             service.add(FormatDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException  e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class FormatResource extends AbstractResource {
         try {
             service.delete(FormatType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class FormatResource extends AbstractResource {
         try {
             service.update(FormatDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class FormatResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        FormatDefinition def = service.find(FormatType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(FormatDefinitionCodec.encode(def));
+        try {
+            FormatDefinition def = service.find(FormatType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(FormatDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

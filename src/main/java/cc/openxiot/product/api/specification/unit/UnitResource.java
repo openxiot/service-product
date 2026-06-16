@@ -43,7 +43,7 @@ public class UnitResource extends AbstractResource {
         try {
             service.add(UnitDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -59,7 +59,7 @@ public class UnitResource extends AbstractResource {
         try {
             service.delete(UnitType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -75,7 +75,7 @@ public class UnitResource extends AbstractResource {
         try {
             service.update(UnitDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -87,11 +87,15 @@ public class UnitResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        UnitDefinition def = service.find(UnitType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(UnitDefinitionCodec.encode(def));
+        try {
+            UnitDefinition def = service.find(UnitType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(UnitDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

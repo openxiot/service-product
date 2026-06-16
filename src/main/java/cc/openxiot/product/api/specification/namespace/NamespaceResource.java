@@ -61,7 +61,7 @@ public class NamespaceResource extends AbstractResource {
             service.delete(namespace, this::checkManagerPermission);
 
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -77,7 +77,7 @@ public class NamespaceResource extends AbstractResource {
         try {
             service.update(NamespaceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
-        } catch (OxException e) {
+        } catch (OxException | IllegalArgumentException e) {
             return OxResponse.error(e.getMessage());
         }
     }
@@ -89,11 +89,15 @@ public class NamespaceResource extends AbstractResource {
     ) {
         logger.infov("getOne: {0}", namespace);
 
-        NamespaceDefinition def = service.find(namespace);
-        if (def == null) {
-            return OxResponse.error("namespace not found");
-        } else {
-            return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
+        try {
+            NamespaceDefinition def = service.find(namespace);
+            if (def == null) {
+                return OxResponse.error("namespace not found");
+            } else {
+                return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 

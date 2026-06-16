@@ -87,11 +87,15 @@ public class ActionResource extends AbstractResource {
     ) {
         logger.infov("getOne, {0}", type);
 
-        ActionDefinition def = service.find(ActionType.parse(type));
-        if (def == null) {
-            return OxResponse.error("action not found");
-        } else {
-            return OxResponse.ok(ActionDefinitionCodec.encode(def));
+        try {
+            ActionDefinition def = service.find(ActionType.parse(type));
+            if (def == null) {
+                return OxResponse.error("action not found");
+            } else {
+                return OxResponse.ok(ActionDefinitionCodec.encode(def));
+            }
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e.getMessage());
         }
     }
 
