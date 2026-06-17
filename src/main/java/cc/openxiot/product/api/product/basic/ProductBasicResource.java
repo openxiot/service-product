@@ -132,33 +132,28 @@ public class ProductBasicResource extends AbstractResource {
     }
 
     @GET
-    @Path("/all")
-    @Operation(
-            summary = "get products basic info",
-            description = "get all products(basic)"
-    )
-    @APIResponse(
-            responseCode = "200",
-            description = "success",
-            content = @Content(schema = @Schema(
-                    type = SchemaType.ARRAY,
-                    implementation = ProductEntity.class
-            ))
-    )
-    public Response getAll(
-            @QueryParam("organizationId") String organizationId
-    ) {
-        logger.infov("getAll, organizationId: {0}", organizationId);
+    @Path("/public")
+    public Response getPublic() {
+        logger.infov("getPublic");
 
-        List<ProductBasic> products;
-        if (organizationId == null || organizationId.isBlank()) {
-            products = service.findAll();
-        } else {
-            products = service.findByOrganization(organizationId);
+        List<ProductBasic> products = service.findAll();
+        JsonArray array = ProductBasicCodec.encode(products);
+        return OxResponse.ok(array);
+    }
+
+    @GET
+    @Path("/visible/{organization}")
+    public Response getVisible(
+            @PathParam("organization") String organization
+    ) {
+        logger.infov("getVisible: {0}", organization);
+
+        if (organization.isBlank()) {
+            return OxResponse.error("organization is empty");
         }
 
+        List<ProductBasic> products= service.findByOrganization(organization);
         JsonArray array = ProductBasicCodec.encode(products);
-
         return OxResponse.ok(array);
     }
 }

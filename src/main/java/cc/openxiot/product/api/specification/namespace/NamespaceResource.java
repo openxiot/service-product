@@ -4,7 +4,6 @@ import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.codec.vertx.definition.NamespaceDefinitionCodec;
 import cn.geekcity.xiot.spec.definition.NamespaceDefinition;
 import io.vertx.core.json.JsonArray;
@@ -127,8 +126,8 @@ public class NamespaceResource extends AbstractResource {
 
     @GET
     @Path("/public")
-    public Response getAllPublic() {
-        logger.infov("getAll");
+    public Response getPublic() {
+        logger.infov("getPublic");
 
         List<NamespaceDefinition> list = service.findPublic();
         List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
