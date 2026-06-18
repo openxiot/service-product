@@ -18,7 +18,7 @@ public class TemplateMapper {
         entity.model = definition.type().model();
         entity.version = definition.type().version();
         entity.content = DeviceTemplateCodec.encode(definition).toString();
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
+        entity.lifecycle = Lifecycle.DEVELOPMENT.toString();
 
         return entity;
     }

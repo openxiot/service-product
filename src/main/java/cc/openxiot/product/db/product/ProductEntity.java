@@ -1,5 +1,7 @@
 package cc.openxiot.product.db.product;
 
+import cc.openxiot.product.db.person.Person;
+import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicEntity;
 import cc.openxiot.product.db.product.instance.ProductInstanceEntity;
 import cn.geekcity.xiot.spec.by.Updater;
@@ -41,11 +43,13 @@ public class ProductEntity extends PanacheMongoEntity {
             throw new IllegalArgumentException("product instance not found");
         }
 
-        if (found.lifecycle == Lifecycle.RELEASED) {
+        Lifecycle lifecycle = Lifecycle.of(found.lifecycle);
+
+        if (lifecycle == Lifecycle.RELEASED) {
             throw new IllegalArgumentException("product instance is released");
         }
 
-        if (found.lifecycle == Lifecycle.PREVIEW) {
+        if (lifecycle == Lifecycle.PREVIEW) {
             throw new IllegalArgumentException("product instance is preview");
         }
 
@@ -60,8 +64,8 @@ public class ProductEntity extends PanacheMongoEntity {
             throw new IllegalArgumentException("product instance not found");
         }
 
-        found.lifecycle = lifecycle;
-        found.updater = updater;
+        found.lifecycle = lifecycle.toString();
+        found.updater = PersonConvertor.of(updater);
 
         update();
     }

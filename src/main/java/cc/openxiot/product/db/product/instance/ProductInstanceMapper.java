@@ -1,5 +1,6 @@
 package cc.openxiot.product.db.product.instance;
 
+import cc.openxiot.product.db.person.PersonConvertor;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.product.instance.ProductInstance;
 
@@ -13,7 +14,7 @@ public class ProductInstanceMapper {
         return new ProductInstance()
                 .type(DeviceType.parse(entity.type))
                 .lifecycle(entity.lifecycle)
-                .creator(entity.creator)
-                .updater(entity.updater);
+                .creator(PersonConvertor.toCreator(entity.creator))
+                .updater(PersonConvertor.toUpdater(entity.updater));
     }
 }

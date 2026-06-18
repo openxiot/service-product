@@ -1,5 +1,7 @@
 package cc.openxiot.product.db.product.basic;
 
+import cc.openxiot.product.db.person.Person;
+import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.ProductEntity;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
@@ -19,10 +21,10 @@ public class ProductBasicMapper {
         entity.basic.name = product.name();
         entity.basic.upgrade = product.upgrade();
         entity.basic.protocol = product.protocol();
-        entity.basic.lifecycle = product.lifecycle();
+        entity.basic.lifecycle = product.lifecycle().toString();
         entity.basic.naming = product.naming();
-        entity.basic.creator = product.creator();
-        entity.basic.updater = product.updater();
+        entity.basic.creator = PersonConvertor.of(product.creator());
+        entity.basic.updater = PersonConvertor.of(product.updater());
 
         return entity;
     }
@@ -43,7 +45,7 @@ public class ProductBasicMapper {
                 .protocol(entity.basic.protocol)
                 .lifecycle(entity.basic.lifecycle)
                 .naming(entity.basic.naming)
-                .creator(entity.basic.creator)
-                .updater(entity.basic.updater);
+                .creator(PersonConvertor.toCreator(entity.basic.creator))
+                .updater(PersonConvertor.toUpdater(entity.basic.updater));
     }
 }

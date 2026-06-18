@@ -1,5 +1,7 @@
 package cc.openxiot.product.api.product.instance;
 
+import cc.openxiot.product.db.person.Person;
+import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.ProductEntity;
 import cc.openxiot.product.db.product.ProductRepository;
 import cc.openxiot.product.db.product.instance.ProductInstanceEntity;
@@ -53,10 +55,10 @@ public class ProductInstanceService {
 
         ProductInstanceEntity entity = new ProductInstanceEntity();
         entity.version = instance.type().version();
-        entity.lifecycle = Lifecycle.DEVELOPMENT;
+        entity.lifecycle = Lifecycle.DEVELOPMENT.toString();
         entity.type = instance.type().toString();
         entity.content = DeviceInstanceCodec.encode(instance).toString();
-        entity.creator = creator;
+        entity.creator = PersonConvertor.of(creator);
 
         product.instances.add(entity);
 
@@ -110,16 +112,18 @@ public class ProductInstanceService {
             throw new IllegalArgumentException("product instance not found");
         }
 
-        if (found.lifecycle == Lifecycle.RELEASED) {
+        Lifecycle lifecycle = Lifecycle.of(found.lifecycle);
+
+        if (lifecycle == Lifecycle.RELEASED) {
             throw new IllegalArgumentException("product instance is released");
         }
 
-        if (found.lifecycle == Lifecycle.PREVIEW) {
+        if (lifecycle == Lifecycle.PREVIEW) {
             throw new IllegalArgumentException("product instance is preview");
         }
 
         found.content = DeviceInstanceCodec.encode(instance).toString();
-        found.updater = updater;
+        found.updater = PersonConvertor.of(updater);
 
         repository.persist(product);
     }

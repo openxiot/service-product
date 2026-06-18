@@ -1,8 +1,6 @@
 package cc.openxiot.product.db.product.basic;
 
-import cn.geekcity.xiot.spec.by.Creator;
-import cn.geekcity.xiot.spec.by.Updater;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
+import cc.openxiot.product.db.person.Person;
 
 import java.util.List;
 
@@ -22,11 +20,11 @@ public class ProductBasicEntity {
 
     public String protocol;
 
-    public Lifecycle lifecycle;
+    public String lifecycle;
 
     public List<String> naming;
 
-    public Creator creator;
+    public Person creator;
 
-    public Updater updater;
+    public Person updater;
 }

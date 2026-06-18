@@ -1,8 +1,6 @@
 package cc.openxiot.product.db.product.instance;
 
-import cn.geekcity.xiot.spec.by.Creator;
-import cn.geekcity.xiot.spec.by.Updater;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
+import cc.openxiot.product.db.person.Person;
 
 public class ProductInstanceEntity {
 
@@ -12,9 +10,9 @@ public class ProductInstanceEntity {
 
     public String content;
 
-    public Lifecycle lifecycle;
+    public String lifecycle;
 
-    public Creator creator;
+    public Person creator;
 
-    public Updater updater;
+    public Person updater;;
 }
