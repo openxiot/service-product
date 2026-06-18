@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:security-system-alarm-type:0000008E",
-    "description": "Security System Alarm Type",
+    "description": {
+        "en-US": "Security System Alarm Type",
+        "zh-CN": "\u5b89\u5168\u7cfb\u7edf\u8b66\u62a5\u7c7b\u578b",
+        "fr-FR": "Type d'alarme du syst\u00e8me de s\u00e9curit\u00e9",
+        "de-DE": "Alarmtyp des Sicherheitssystems",
+        "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0\u8b66\u5831\u30bf\u30a4\u30d7",
+        "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c \uc54c\ub78c \uc720\ud615",
+        "es-ES": "Tipo de alarma del sistema de seguridad",
+        "pt-BR": "Tipo de alarme do sistema de seguran\u00e7a"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
-    "value-range": [0, 1, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1,
+        1
+    ]
 }

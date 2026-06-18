@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:light-sensor:00000084",
-    "description": "Light Sensor",
+    "description": {
+        "en-US": "Light Sensor",
+        "zh-CN": "\u5149\u7ebf\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de lumi\u00e8re",
+        "de-DE": "Lichtsensor",
+        "ja-JP": "\u5149\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc870\ub3c4 \uc13c\uc11c",
+        "es-ES": "Sensor de luz",
+        "pt-BR": "Sensor de luz"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-ambient-light-level:0000006B"
     ],

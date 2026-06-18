@@ -1,8 +1,25 @@
 {
     "type": "urn:homekit-spec:property:target-relative-humidity:00000034",
-    "description": "Target Relative Humidity",
+    "description": {
+        "en-US": "Target Relative Humidity",
+        "zh-CN": "\u76ee\u6807\u76f8\u5bf9\u6e7f\u5ea6",
+        "fr-FR": "Humidit\u00e9 relative cible",
+        "de-DE": "Gew\u00fcnschte relative Luftfeuchtigkeit",
+        "ja-JP": "\u76ee\u6a19\u76f8\u5bfe\u6e7f\u5ea6",
+        "ko-KR": "\ubaa9\ud45c \uc0c1\ub300 \uc2b5\ub3c4",
+        "es-ES": "Humedad relativa objetivo",
+        "pt-BR": "Umidade relativa alvo"
+    },
     "format": "float",
-    "access": ["read", "write", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

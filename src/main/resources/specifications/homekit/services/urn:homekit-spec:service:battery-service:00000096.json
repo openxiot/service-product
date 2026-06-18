@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:battery-service:00000096",
-    "description": "Battery Service",
+    "description": {
+        "en-US": "Battery Service",
+        "zh-CN": "\u7535\u6c60\u670d\u52a1",
+        "fr-FR": "Service de batterie",
+        "de-DE": "Batteriedienst",
+        "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30b5\u30fc\u30d3\u30b9",
+        "ko-KR": "\ubc30\ud130\ub9ac \uc11c\ube44\uc2a4",
+        "es-ES": "Servicio de bater\u00eda",
+        "pt-BR": "Servi\u00e7o de bateria"
+    },
     "required-properties": [
         "urn:homekit-spec:property:battery-level:00000068",
         "urn:homekit-spec:property:charging-state:0000008F",

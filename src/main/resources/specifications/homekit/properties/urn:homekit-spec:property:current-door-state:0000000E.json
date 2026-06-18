@@ -1,13 +1,85 @@
 {
     "type": "urn:homekit-spec:property:current-door-state:0000000E",
-    "description": "Current Door State",
+    "description": {
+        "en-US": "Current Door State",
+        "zh-CN": "\u5f53\u524d\u95e8\u72b6\u6001",
+        "fr-FR": "\u00c9tat actuel de la porte",
+        "de-DE": "Aktueller T\u00fcrstatus",
+        "ja-JP": "\u73fe\u5728\u306e\u30c9\u30a2\u72b6\u614b",
+        "ko-KR": "\ud604\uc7ac \ubb38 \uc0c1\ud0dc",
+        "es-ES": "Estado actual de la puerta",
+        "pt-BR": "Estado atual da porta"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "OPEN"},
-        {"value": 1, "description": "CLOSED"},
-        {"value": 2, "description": "OPENING"},
-        {"value": 3, "description": "CLOSING"},
-        {"value": 4, "description": "STOPPED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "OPEN",
+                "zh-CN": "\u6253\u5f00",
+                "fr-FR": "OUVERT",
+                "de-DE": "OFFEN",
+                "ja-JP": "\u958b",
+                "ko-KR": "\uc5f4\ub9bc",
+                "es-ES": "ABIERTO",
+                "pt-BR": "ABERTO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CLOSED",
+                "zh-CN": "\u5173\u95ed",
+                "fr-FR": "FERM\u00c9",
+                "de-DE": "GESCHLOSSEN",
+                "ja-JP": "\u9589",
+                "ko-KR": "\ub2eb\ud798",
+                "es-ES": "CERRADO",
+                "pt-BR": "FECHADO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "OPENING",
+                "zh-CN": "\u6b63\u5728\u6253\u5f00",
+                "fr-FR": "EN OUVERTURE",
+                "de-DE": "\u00d6FFNEND",
+                "ja-JP": "\u958b\u3051\u4e2d",
+                "ko-KR": "\uc5f4\ub9ac\ub294 \uc911",
+                "es-ES": "ABRIENDO",
+                "pt-BR": "ABRINDO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "CLOSING",
+                "zh-CN": "\u6b63\u5728\u5173\u95ed",
+                "fr-FR": "EN FERMETURE",
+                "de-DE": "SCHLIESSEND",
+                "ja-JP": "\u9589\u3058\u4e2d",
+                "ko-KR": "\ub2eb\ud788\ub294 \uc911",
+                "es-ES": "CERRANDO",
+                "pt-BR": "FECHANDO"
+            }
+        },
+        {
+            "value": 4,
+            "description": {
+                "en-US": "STOPPED",
+                "zh-CN": "\u5df2\u505c\u6b62",
+                "fr-FR": "ARR\u00caT\u00c9",
+                "de-DE": "GESTOPPT",
+                "ja-JP": "\u505c\u6b62\u4e2d",
+                "ko-KR": "\uc815\uc9c0\ub428",
+                "es-ES": "DETENIDO",
+                "pt-BR": "PARADO"
+            }
+        }
     ]
 }

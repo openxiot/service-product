@@ -1,7 +1,20 @@
 {
     "type": "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
-    "description": "Lock Management Auto Security Timeout",
+    "description": {
+        "en-US": "Lock Management Auto Security Timeout",
+        "zh-CN": "\u9501\u7ba1\u7406\u81ea\u52a8\u5b89\u5168\u8d85\u65f6",
+        "fr-FR": "D\u00e9lai de s\u00e9curit\u00e9 automatique de la serrure",
+        "de-DE": "Automatisches Sicherheits-Timeout der Schlossverwaltung",
+        "ja-JP": "\u30ed\u30c3\u30af\u7ba1\u7406\u81ea\u52d5\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30bf\u30a4\u30e0\u30a2\u30a6\u30c8",
+        "ko-KR": "\uc7a0\uae08 \uad00\ub9ac \uc790\ub3d9 \ubcf4\uc548 \uc2dc\uac04 \ucd08\uacfc",
+        "es-ES": "Tiempo de espera de seguridad autom\u00e1tica de la cerradura",
+        "pt-BR": "Tempo limite de seguran\u00e7a autom\u00e1tica da fechadura"
+    },
     "format": "uint32",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "unit": "seconds"
 }

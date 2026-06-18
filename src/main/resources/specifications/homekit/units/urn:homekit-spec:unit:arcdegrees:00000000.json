@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:unit:arcdegrees:00000000",
+    "description": {
+        "en-US": "arcdegrees",
+        "zh-CN": "\u89d2\u5ea6",
+        "fr-FR": "degr\u00e9s d'arc",
+        "de-DE": "Winkelgrad",
+        "ja-JP": "\u89d2\u5ea6",
+        "ko-KR": "\uac01\ub3c4",
+        "es-ES": "grados de arco",
+        "pt-BR": "graus de arco"
+    }
+}

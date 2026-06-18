@@ -1,12 +1,72 @@
 {
     "type": "urn:homekit-spec:property:lock-current-state:0000001D",
-    "description": "Lock Current State",
+    "description": {
+        "en-US": "Lock Current State",
+        "zh-CN": "\u9501\u5f53\u524d\u72b6\u6001",
+        "fr-FR": "\u00c9tat actuel de la serrure",
+        "de-DE": "Aktueller Schlossstatus",
+        "ja-JP": "\u30ed\u30c3\u30af\u73fe\u5728\u72b6\u614b",
+        "ko-KR": "\uc7a0\uae08 \ud604\uc7ac \uc0c1\ud0dc",
+        "es-ES": "Estado actual de la cerradura",
+        "pt-BR": "Estado atual da fechadura"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "UNSECURED"},
-        {"value": 1, "description": "SECURED"},
-        {"value": 2, "description": "JAMMED"},
-        {"value": 3, "description": "UNKNOWN"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "UNSECURED",
+                "zh-CN": "\u672a\u9501\u5b9a",
+                "fr-FR": "D\u00c9VERROUILL\u00c9",
+                "de-DE": "ENTRIEGELT",
+                "ja-JP": "\u89e3\u9320\u6e08\u307f",
+                "ko-KR": "\uc7a0\uae08 \ud574\uc81c\ub428",
+                "es-ES": "DESEGURADO",
+                "pt-BR": "DESTRAVADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "SECURED",
+                "zh-CN": "\u5df2\u9501\u5b9a",
+                "fr-FR": "VERROUILL\u00c9",
+                "de-DE": "GESICHERT",
+                "ja-JP": "\u65bd\u9320\u6e08\u307f",
+                "ko-KR": "\uc7a0\uae40",
+                "es-ES": "SEGURADO",
+                "pt-BR": "SEGURO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "JAMMED",
+                "zh-CN": "\u5361\u4f4f",
+                "fr-FR": "BLOQU\u00c9",
+                "de-DE": "BLOCKIERT",
+                "ja-JP": "\u8a70\u307e\u308a",
+                "ko-KR": "\uac78\ub9bc",
+                "es-ES": "ATASCADO",
+                "pt-BR": "TRAVADO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "UNKNOWN",
+                "zh-CN": "\u672a\u77e5",
+                "fr-FR": "INCONNU",
+                "de-DE": "UNBEKANNT",
+                "ja-JP": "\u4e0d\u660e",
+                "ko-KR": "\uc54c \uc218 \uc5c6\uc74c",
+                "es-ES": "DESCONOCIDO",
+                "pt-BR": "DESCONHECIDO"
+            }
+        }
     ]
 }

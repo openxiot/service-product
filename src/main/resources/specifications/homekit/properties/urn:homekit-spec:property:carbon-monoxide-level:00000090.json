@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:carbon-monoxide-level:00000090",
-    "description": "Carbon Monoxide Level",
+    "description": {
+        "en-US": "Carbon Monoxide Level",
+        "zh-CN": "\u4e00\u6c27\u5316\u78b3\u6d53\u5ea6",
+        "fr-FR": "Niveau de monoxyde de carbone",
+        "de-DE": "Kohlenmonoxidgehalt",
+        "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6",
+        "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4",
+        "es-ES": "Nivel de mon\u00f3xido de carbono",
+        "pt-BR": "N\u00edvel de mon\u00f3xido de carbono"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 100, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ]
 }

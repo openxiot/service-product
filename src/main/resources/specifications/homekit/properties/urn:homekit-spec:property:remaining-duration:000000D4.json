@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:remaining-duration:000000D4",
-    "description": "Remaining Duration",
+    "description": {
+        "en-US": "Remaining Duration",
+        "zh-CN": "\u5269\u4f59\u65f6\u957f",
+        "fr-FR": "Dur\u00e9e restante",
+        "de-DE": "Verbleibende Dauer",
+        "ja-JP": "\u6b8b\u308a\u6642\u9593",
+        "ko-KR": "\ub0a8\uc740 \uc2dc\uac04",
+        "es-ES": "Duraci\u00f3n restante",
+        "pt-BR": "Dura\u00e7\u00e3o restante"
+    },
     "format": "uint32",
-    "access": ["read", "notify"],
-    "value-range": [0, 3600, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        3600,
+        1
+    ]
 }

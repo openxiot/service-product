@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:fan-v2:000000B7",
-    "description": "Fan v2",
+    "description": {
+        "en-US": "Fan v2",
+        "zh-CN": "\u98ce\u6247 v2",
+        "fr-FR": "Ventilateur v2",
+        "de-DE": "L\u00fcfter v2",
+        "ja-JP": "\u30d5\u30a1\u30f3 v2",
+        "ko-KR": "\ud32c v2",
+        "es-ES": "Ventilador v2",
+        "pt-BR": "Ventilador v2"
+    },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0"
     ],

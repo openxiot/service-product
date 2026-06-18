@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:logs:0000001F",
-    "description": "Logs",
+    "description": {
+        "en-US": "Logs",
+        "zh-CN": "\u65e5\u5fd7",
+        "fr-FR": "Journaux",
+        "de-DE": "Protokolle",
+        "ja-JP": "\u30ed\u30b0",
+        "ko-KR": "\ub85c\uadf8",
+        "es-ES": "Registros",
+        "pt-BR": "Registros"
+    },
     "format": "tlv8",
-    "access": ["read", "notify"]
+    "access": [
+        "read",
+        "notify"
+    ]
 }

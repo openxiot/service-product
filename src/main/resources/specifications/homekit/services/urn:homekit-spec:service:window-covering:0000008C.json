@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:window-covering:0000008C",
-    "description": "Window Covering",
+    "description": {
+        "en-US": "Window Covering",
+        "zh-CN": "\u7a97\u5e18",
+        "fr-FR": "Couverture de fen\u00eatre",
+        "de-DE": "Fensterabdeckung",
+        "ja-JP": "\u7a93\u8986\u3044",
+        "ko-KR": "\uc708\ub3c4\uc6b0 \ucee4\ubc84\ub9c1",
+        "es-ES": "Cubierta de ventana",
+        "pt-BR": "Persiana"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",
         "urn:homekit-spec:property:target-position:0000007C",

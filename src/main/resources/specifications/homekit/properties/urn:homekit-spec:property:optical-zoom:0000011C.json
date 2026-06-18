@@ -1,6 +1,19 @@
 {
     "type": "urn:homekit-spec:property:optical-zoom:0000011C",
-    "description": "Optical Zoom",
+    "description": {
+        "en-US": "Optical Zoom",
+        "zh-CN": "\u5149\u5b66\u53d8\u7126",
+        "fr-FR": "Zoom optique",
+        "de-DE": "Optischer Zoom",
+        "ja-JP": "\u5149\u5b66\u30ba\u30fc\u30e0",
+        "ko-KR": "\uad11\ud559 \uc90c",
+        "es-ES": "Zoom \u00f3ptico",
+        "pt-BR": "Zoom \u00f3ptico"
+    },
     "format": "float",
-    "access": ["read", "write", "notify"]
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ]
 }

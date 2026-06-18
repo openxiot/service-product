@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:valve:000000D0",
-    "description": "Valve",
+    "description": {
+        "en-US": "Valve",
+        "zh-CN": "\u9600\u95e8",
+        "fr-FR": "Vanne",
+        "de-DE": "Ventil",
+        "ja-JP": "\u30d0\u30eb\u30d6",
+        "ko-KR": "\ubc38\ube0c",
+        "es-ES": "V\u00e1lvula",
+        "pt-BR": "V\u00e1lvula"
+    },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",
         "urn:homekit-spec:property:in-use:000000D2",

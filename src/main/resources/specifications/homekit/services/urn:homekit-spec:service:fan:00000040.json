@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:fan:00000040",
-    "description": "Fan",
+    "description": {
+        "en-US": "Fan",
+        "zh-CN": "\u98ce\u6247",
+        "fr-FR": "Ventilateur",
+        "de-DE": "L\u00fcfter",
+        "ja-JP": "\u30d5\u30a1\u30f3",
+        "ko-KR": "\ud32c",
+        "es-ES": "Ventilador",
+        "pt-BR": "Ventilador"
+    },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"
     ],

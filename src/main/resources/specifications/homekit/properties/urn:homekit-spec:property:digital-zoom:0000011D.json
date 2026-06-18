@@ -1,6 +1,19 @@
 {
     "type": "urn:homekit-spec:property:digital-zoom:0000011D",
-    "description": "Digital Zoom",
+    "description": {
+        "en-US": "Digital Zoom",
+        "zh-CN": "\u6570\u5b57\u53d8\u7126",
+        "fr-FR": "Zoom num\u00e9rique",
+        "de-DE": "Digitalzoom",
+        "ja-JP": "\u30c7\u30b8\u30bf\u30eb\u30ba\u30fc\u30e0",
+        "ko-KR": "\ub514\uc9c0\ud138 \uc90c",
+        "es-ES": "Zoom digital",
+        "pt-BR": "Zoom digital"
+    },
     "format": "float",
-    "access": ["read", "write", "notify"]
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ]
 }

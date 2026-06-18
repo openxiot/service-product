@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:smoke-sensor:00000087",
-    "description": "Smoke Sensor",
+    "description": {
+        "en-US": "Smoke Sensor",
+        "zh-CN": "\u70df\u96fe\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de fum\u00e9e",
+        "de-DE": "Rauchsensor",
+        "ja-JP": "\u7159\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc5f0\uae30 \uc13c\uc11c",
+        "es-ES": "Sensor de humo",
+        "pt-BR": "Sensor de fuma\u00e7a"
+    },
     "required-properties": [
         "urn:homekit-spec:property:smoke-detected:00000076"
     ],

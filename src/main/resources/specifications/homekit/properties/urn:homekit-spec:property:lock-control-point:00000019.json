@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:lock-control-point:00000019",
-    "description": "Lock Control Point",
+    "description": {
+        "en-US": "Lock Control Point",
+        "zh-CN": "\u9501\u63a7\u5236\u70b9",
+        "fr-FR": "Point de contr\u00f4le de verrouillage",
+        "de-DE": "Steuerpunkt f\u00fcr Schloss",
+        "ja-JP": "\u30ed\u30c3\u30af\u5236\u5fa1\u30dd\u30a4\u30f3\u30c8",
+        "ko-KR": "\uc7a0\uae08 \uc81c\uc5b4 \ud3ec\uc778\ud2b8",
+        "es-ES": "Punto de control de la cerradura",
+        "pt-BR": "Ponto de controle da fechadura"
+    },
     "format": "tlv8",
-    "access": ["write"]
+    "access": [
+        "write"
+    ]
 }

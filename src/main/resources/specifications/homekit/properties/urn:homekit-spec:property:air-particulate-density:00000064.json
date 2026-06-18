@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:air-particulate-density:00000064",
-    "description": "Air Particulate Density",
+    "description": {
+        "en-US": "Air Particulate Density",
+        "zh-CN": "\u7a7a\u6c14\u9897\u7c92\u7269\u5bc6\u5ea6",
+        "fr-FR": "Densit\u00e9 de particules en suspension",
+        "de-DE": "Luftpartikeldichte",
+        "ja-JP": "\u7a7a\u6c17\u5fae\u7c92\u5b50\u6fc3\u5ea6",
+        "ko-KR": "\uacf5\uae30 \uc911 \ubbf8\uc138 \uc785\uc790 \ubc00\ub3c4",
+        "es-ES": "Densidad de part\u00edculas en suspensi\u00f3n",
+        "pt-BR": "Densidade de part\u00edculas no ar"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 1000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1000,
+        1
+    ]
 }

@@ -1,17 +1,137 @@
 {
     "type": "urn:homekit-spec:property:lock-last-known-action:0000001C",
-    "description": "Lock Last Known Action",
+    "description": {
+        "en-US": "Lock Last Known Action",
+        "zh-CN": "\u9501\u4e0a\u6b21\u64cd\u4f5c",
+        "fr-FR": "Derni\u00e8re action connue de la serrure",
+        "de-DE": "Letzte bekannte Schlosshandlung",
+        "ja-JP": "\u30ed\u30c3\u30af\u6700\u7d42\u65e2\u77e5\u30a2\u30af\u30b7\u30e7\u30f3",
+        "ko-KR": "\uc7a0\uae08 \ub9c8\uc9c0\ub9c9 \ub3d9\uc791",
+        "es-ES": "\u00daltima acci\u00f3n conocida de la cerradura",
+        "pt-BR": "\u00daltima a\u00e7\u00e3o conhecida da fechadura"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "SECURED_PHYSICALLY_INTERIOR"},
-        {"value": 1, "description": "UNSECURED_PHYSICALLY_INTERIOR"},
-        {"value": 2, "description": "SECURED_PHYSICALLY_EXTERIOR"},
-        {"value": 3, "description": "UNSECURED_PHYSICALLY_EXTERIOR"},
-        {"value": 4, "description": "SECURED_BY_KEYPAD"},
-        {"value": 5, "description": "UNSECURED_BY_KEYPAD"},
-        {"value": 6, "description": "SECURED_REMOTELY"},
-        {"value": 7, "description": "UNSECURED_REMOTELY"},
-        {"value": 8, "description": "SECURED_BY_AUTO_SECURE_TIMEOUT"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "SECURED_PHYSICALLY_INTERIOR",
+                "zh-CN": "\u5185\u90e8\u7269\u7406\u9501\u5b9a",
+                "fr-FR": "VERROUILLAGE PHYSIQUE INT\u00c9RIEUR",
+                "de-DE": "PHYSISCH VON INNEN GESICHERT",
+                "ja-JP": "\u5185\u90e8\u7269\u7406\u65bd\u9320",
+                "ko-KR": "\ub0b4\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae40",
+                "es-ES": "ASEGURADO F\u00cdSICAMENTE INTERIOR",
+                "pt-BR": "SEGURO FISICAMENTE INTERNO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "UNSECURED_PHYSICALLY_INTERIOR",
+                "zh-CN": "\u5185\u90e8\u7269\u7406\u89e3\u9501",
+                "fr-FR": "D\u00c9VERROUILLAGE PHYSIQUE INT\u00c9RIEUR",
+                "de-DE": "PHYSISCH VON INNEN ENTRIEGELT",
+                "ja-JP": "\u5185\u90e8\u7269\u7406\u89e3\u9320",
+                "ko-KR": "\ub0b4\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae08 \ud574\uc81c",
+                "es-ES": "DESEGURADO F\u00cdSICAMENTE INTERIOR",
+                "pt-BR": "DESTRAVADO FISICAMENTE INTERNO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "SECURED_PHYSICALLY_EXTERIOR",
+                "zh-CN": "\u5916\u90e8\u7269\u7406\u9501\u5b9a",
+                "fr-FR": "VERROUILLAGE PHYSIQUE EXT\u00c9RIEUR",
+                "de-DE": "PHYSISCH VON AUBEN GESICHERT",
+                "ja-JP": "\u5916\u90e8\u7269\u7406\u65bd\u9320",
+                "ko-KR": "\uc678\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae40",
+                "es-ES": "ASEGURADO F\u00cdSICAMENTE EXTERIOR",
+                "pt-BR": "SEGURO FISICAMENTE EXTERNO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "UNSECURED_PHYSICALLY_EXTERIOR",
+                "zh-CN": "\u5916\u90e8\u7269\u7406\u89e3\u9501",
+                "fr-FR": "D\u00c9VERROUILLAGE PHYSIQUE EXT\u00c9RIEUR",
+                "de-DE": "PHYSISCH VON AUBEN ENTRIEGELT",
+                "ja-JP": "\u5916\u90e8\u7269\u7406\u89e3\u9320",
+                "ko-KR": "\uc678\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae08 \ud574\uc81c",
+                "es-ES": "DESEGURADO F\u00cdSICAMENTE EXTERIOR",
+                "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO"
+            }
+        },
+        {
+            "value": 4,
+            "description": {
+                "en-US": "SECURED_BY_KEYPAD",
+                "zh-CN": "\u952e\u76d8\u9501\u5b9a",
+                "fr-FR": "VERROUILL\u00c9 PAR CLAVIER",
+                "de-DE": "DURCH TASTATUR GESICHERT",
+                "ja-JP": "\u30ad\u30fc\u30d1\u30c3\u30c9\u3067\u65bd\u9320",
+                "ko-KR": "\ud0a4\ud328\ub4dc\ub85c \uc7a0\uae40",
+                "es-ES": "ASEGURADO POR TECLADO",
+                "pt-BR": "SEGURO POR TECLADO"
+            }
+        },
+        {
+            "value": 5,
+            "description": {
+                "en-US": "UNSECURED_BY_KEYPAD",
+                "zh-CN": "\u952e\u76d8\u89e3\u9501",
+                "fr-FR": "D\u00c9VERROUILL\u00c9 PAR CLAVIER",
+                "de-DE": "DURCH TASTATUR ENTRIEGELT",
+                "ja-JP": "\u30ad\u30fc\u30d1\u30c3\u30c9\u3067\u89e3\u9320",
+                "ko-KR": "\ud0a4\ud328\ub4dc\ub85c \uc7a0\uae08 \ud574\uc81c",
+                "es-ES": "DESEGURADO POR TECLADO",
+                "pt-BR": "DESTRAVADO POR TECLADO"
+            }
+        },
+        {
+            "value": 6,
+            "description": {
+                "en-US": "SECURED_REMOTELY",
+                "zh-CN": "\u8fdc\u7a0b\u9501\u5b9a",
+                "fr-FR": "VERROUILL\u00c9 \u00c0 DISTANCE",
+                "de-DE": "FERN GESICHERT",
+                "ja-JP": "\u9060\u9694\u65bd\u9320",
+                "ko-KR": "\uc6d0\uaca9 \uc7a0\uae40",
+                "es-ES": "ASEGURADO REMOTAMENTE",
+                "pt-BR": "SEGURO REMOTAMENTE"
+            }
+        },
+        {
+            "value": 7,
+            "description": {
+                "en-US": "UNSECURED_REMOTELY",
+                "zh-CN": "\u8fdc\u7a0b\u89e3\u9501",
+                "fr-FR": "D\u00c9VERROUILL\u00c9 \u00c0 DISTANCE",
+                "de-DE": "FERN ENTRIEGELT",
+                "ja-JP": "\u9060\u9694\u89e3\u9320",
+                "ko-KR": "\uc6d0\uaca9 \uc7a0\uae08 \ud574\uc81c",
+                "es-ES": "DESEGURADO REMOTAMENTE",
+                "pt-BR": "DESTRAVADO REMOTAMENTE"
+            }
+        },
+        {
+            "value": 8,
+            "description": {
+                "en-US": "SECURED_BY_AUTO_SECURE_TIMEOUT",
+                "zh-CN": "\u81ea\u52a8\u5b89\u5168\u8d85\u65f6\u5df2\u9501\u5b9a",
+                "fr-FR": "VERROUILL\u00c9 PAR D\u00c9LAI DE S\u00c9CURIT\u00c9 AUTO",
+                "de-DE": "DURCH AUTOMATISCHES SICHERHEITSTIMEOUT GESICHERT",
+                "ja-JP": "\u81ea\u52d5\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30bf\u30a4\u30e0\u30a2\u30a6\u30c8\u306b\u3088\u308a\u65bd\u9320",
+                "ko-KR": "\uc790\ub3d9 \ubcf4\uc548 \uc2dc\uac04 \ucd08\uacfc\ub85c \uc7a0\uae40",
+                "es-ES": "ASEGURADO POR TIEMPO DE SEGURIDAD AUTOM\u00c1TICO",
+                "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURAN\u00c7A AUTOM\u00c1TICO"
+            }
+        }
     ]
 }

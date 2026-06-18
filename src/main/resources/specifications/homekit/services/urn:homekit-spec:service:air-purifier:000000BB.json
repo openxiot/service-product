@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:air-purifier:000000BB",
-    "description": "Air Purifier",
+    "description": {
+        "en-US": "Air Purifier",
+        "zh-CN": "\u7a7a\u6c14\u51c0\u5316\u5668",
+        "fr-FR": "Purificateur d'air",
+        "de-DE": "Luftreiniger",
+        "ja-JP": "\u7a7a\u6c17\u6e05\u6d44\u6a5f",
+        "ko-KR": "\uacf5\uae30 \uccad\uc815\uae30",
+        "es-ES": "Purificador de aire",
+        "pt-BR": "Purificador de ar"
+    },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",
         "urn:homekit-spec:property:current-air-purifier-state:000000A9",

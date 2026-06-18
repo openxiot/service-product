@@ -1,12 +1,73 @@
 {
     "type": "urn:homekit-spec:property:security-system-target-state:00000067",
-    "description": "Security System Target State",
+    "description": {
+        "en-US": "Security System Target State",
+        "zh-CN": "\u5b89\u5168\u7cfb\u7edf\u76ee\u6807\u72b6\u6001",
+        "fr-FR": "\u00c9tat cible du syst\u00e8me de s\u00e9curit\u00e9",
+        "de-DE": "Gew\u00fcnschter Sicherheitssystemstatus",
+        "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0\u76ee\u6a19\u72b6\u614b",
+        "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c \ubaa9\ud45c \uc0c1\ud0dc",
+        "es-ES": "Estado objetivo del sistema de seguridad",
+        "pt-BR": "Estado alvo do sistema de seguran\u00e7a"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "STAY_ARM"},
-        {"value": 1, "description": "AWAY_ARM"},
-        {"value": 2, "description": "NIGHT_ARM"},
-        {"value": 3, "description": "DISARM"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "STAY_ARM",
+                "zh-CN": "\u5728\u5bb6\u5e03\u9632",
+                "fr-FR": "ARMER PR\u00c9SENT",
+                "de-DE": "SCHARF (ANWESEND)",
+                "ja-JP": "\u5728\u5b85\u8b66\u5099",
+                "ko-KR": "\uc7ac\uc2e4 \uc124\uc815",
+                "es-ES": "ARMAR EN CASA",
+                "pt-BR": "ARMAR EM CASA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "AWAY_ARM",
+                "zh-CN": "\u79bb\u5bb6\u5e03\u9632",
+                "fr-FR": "ARMER ABSENT",
+                "de-DE": "SCHARF (ABWESEND)",
+                "ja-JP": "\u5916\u51fa\u8b66\u5099",
+                "ko-KR": "\uc678\ucd9c \uc124\uc815",
+                "es-ES": "ARMAR AUSENTE",
+                "pt-BR": "ARMAR AUSENTE"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "NIGHT_ARM",
+                "zh-CN": "\u591c\u95f4\u5e03\u9632",
+                "fr-FR": "ARMER NUIT",
+                "de-DE": "SCHARF (NACHT)",
+                "ja-JP": "\u591c\u9593\u8b66\u5099",
+                "ko-KR": "\uc57c\uac04 \uc124\uc815",
+                "es-ES": "ARMAR NOCTURNO",
+                "pt-BR": "ARMAR NOTURNO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "DISARM",
+                "zh-CN": "\u89e3\u9664",
+                "fr-FR": "D\u00c9SARMER",
+                "de-DE": "ENTSCH\u00c4RFEN",
+                "ja-JP": "\u89e3\u9664",
+                "ko-KR": "\ud574\uc81c",
+                "es-ES": "DESARMAR",
+                "pt-BR": "DESARMAR"
+            }
+        }
     ]
 }

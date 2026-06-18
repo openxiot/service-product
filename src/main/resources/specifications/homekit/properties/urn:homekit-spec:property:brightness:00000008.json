@@ -1,8 +1,25 @@
 {
     "type": "urn:homekit-spec:property:brightness:00000008",
-    "description": "Brightness",
+    "description": {
+        "en-US": "Brightness",
+        "zh-CN": "\u4eae\u5ea6",
+        "fr-FR": "Luminosit\u00e9",
+        "de-DE": "Helligkeit",
+        "ja-JP": "\u660e\u308b\u3055",
+        "ko-KR": "\ubc1d\uae30",
+        "es-ES": "Brillo",
+        "pt-BR": "Brilho"
+    },
     "format": "int32",
-    "access": ["read", "write", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

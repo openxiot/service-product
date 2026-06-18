@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:motion-detected:00000022",
-    "description": "Motion Detected",
+    "description": {
+        "en-US": "Motion Detected",
+        "zh-CN": "\u68c0\u6d4b\u5230\u79fb\u52a8",
+        "fr-FR": "Mouvement d\u00e9tect\u00e9",
+        "de-DE": "Bewegung erkannt",
+        "ja-JP": "\u52d5\u4f53\u691c\u51fa",
+        "ko-KR": "\uc6c0\uc9c1\uc784 \uac10\uc9c0\ub428",
+        "es-ES": "Movimiento detectado",
+        "pt-BR": "Movimento detectado"
+    },
     "format": "bool",
-    "access": ["read", "notify"]
+    "access": [
+        "read",
+        "notify"
+    ]
 }

@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:contact-sensor-state:0000006A",
-    "description": "Contact Sensor State",
+    "description": {
+        "en-US": "Contact Sensor State",
+        "zh-CN": "\u63a5\u89e6\u4f20\u611f\u5668\u72b6\u6001",
+        "fr-FR": "\u00c9tat du capteur de contact",
+        "de-DE": "Kontaktsensorstatus",
+        "ja-JP": "\u63a5\u89e6\u30bb\u30f3\u30b5\u30fc\u72b6\u614b",
+        "ko-KR": "\uc811\ucd09 \uc13c\uc11c \uc0c1\ud0dc",
+        "es-ES": "Estado del sensor de contacto",
+        "pt-BR": "Estado do sensor de contato"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "CONTACT_DETECTED"},
-        {"value": 1, "description": "CONTACT_NOT_DETECTED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "CONTACT_DETECTED",
+                "zh-CN": "\u63a5\u89e6\u5df2\u68c0\u6d4b",
+                "fr-FR": "CONTACT D\u00c9TECT\u00c9",
+                "de-DE": "KONTAKT ERKANNT",
+                "ja-JP": "\u63a5\u89e6\u691c\u51fa",
+                "ko-KR": "\uc811\ucd09 \uac10\uc9c0\ub428",
+                "es-ES": "CONTACTO DETECTADO",
+                "pt-BR": "CONTATO DETECTADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CONTACT_NOT_DETECTED",
+                "zh-CN": "\u63a5\u89e6\u672a\u68c0\u6d4b",
+                "fr-FR": "CONTACT NON D\u00c9TECT\u00c9",
+                "de-DE": "KEIN KONTAKT ERKANNT",
+                "ja-JP": "\u63a5\u89e6\u672a\u691c\u51fa",
+                "ko-KR": "\uc811\ucd09 \ubbf8\uac10\uc9c0",
+                "es-ES": "CONTACTO NO DETECTADO",
+                "pt-BR": "CONTATO N\u00c3O DETECTADO"
+            }
+        }
     ]
 }

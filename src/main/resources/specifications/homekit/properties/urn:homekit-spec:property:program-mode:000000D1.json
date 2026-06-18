@@ -1,11 +1,59 @@
 {
     "type": "urn:homekit-spec:property:program-mode:000000D1",
-    "description": "Program Mode",
+    "description": {
+        "en-US": "Program Mode",
+        "zh-CN": "\u7a0b\u5e8f\u6a21\u5f0f",
+        "fr-FR": "Mode programm\u00e9",
+        "de-DE": "Programmmodus",
+        "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u30e2\u30fc\u30c9",
+        "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \ubaa8\ub4dc",
+        "es-ES": "Modo de programa",
+        "pt-BR": "Modo de programa"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NO_PROGRAM_SCHEDULED"},
-        {"value": 1, "description": "PROGRAM_SCHEDULED"},
-        {"value": 2, "description": "PROGRAM_SCHEDULED_(MANUAL_MODE)"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NO_PROGRAM_SCHEDULED",
+                "zh-CN": "\u65e0\u8ba1\u5212\u7a0b\u5e8f",
+                "fr-FR": "AUCUN PROGRAMME PLANIFI\u00c9",
+                "de-DE": "KEIN PROGRAMM GEPLANT",
+                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u672a\u4e88\u5b9a",
+                "ko-KR": "\uc608\uc57d\ub41c \ud504\ub85c\uadf8\ub7a8 \uc5c6\uc74c",
+                "es-ES": "SIN PROGRAMA PROGRAMADO",
+                "pt-BR": "NENHUM PROGRAMA AGENDADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "PROGRAM_SCHEDULED",
+                "zh-CN": "\u5df2\u8ba1\u5212\u7a0b\u5e8f",
+                "fr-FR": "PROGRAMME PLANIFI\u00c9",
+                "de-DE": "PROGRAMM GEPLANT",
+                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a",
+                "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428",
+                "es-ES": "PROGRAMA PROGRAMADO",
+                "pt-BR": "PROGRAMA AGENDADO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "PROGRAM_SCHEDULED_(MANUAL_MODE)",
+                "zh-CN": "\u8ba1\u5212\u7a0b\u5e8f\uff08\u624b\u52a8\u6a21\u5f0f\uff09",
+                "fr-FR": "PROGRAMME PLANIFI\u00c9 (MODE MANUEL)",
+                "de-DE": "PROGRAMM GEPLANT (MANUELLER MODUS)",
+                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a\uff08\u624b\u52d5\u30e2\u30fc\u30c9\uff09",
+                "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428 (\uc218\ub3d9 \ubaa8\ub4dc)",
+                "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
+                "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)"
+            }
+        }
     ]
 }

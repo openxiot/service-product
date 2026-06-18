@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:format:int32:00000002",
+    "description": {
+        "en-US": "int32",
+        "zh-CN": "\u6709\u7b26\u53f7 32 \u4f4d\u6574\u6570",
+        "fr-FR": "int32",
+        "de-DE": "int32",
+        "ja-JP": "int32",
+        "ko-KR": "int32",
+        "es-ES": "int32",
+        "pt-BR": "int32"
+    }
+}

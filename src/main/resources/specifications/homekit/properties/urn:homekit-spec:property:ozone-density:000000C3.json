@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:ozone-density:000000C3",
-    "description": "Ozone Density",
+    "description": {
+        "en-US": "Ozone Density",
+        "zh-CN": "\u81ed\u6c27\u6d53\u5ea6",
+        "fr-FR": "Densit\u00e9 d'ozone",
+        "de-DE": "Ozondichte",
+        "ja-JP": "\u30aa\u30be\u30f3\u6fc3\u5ea6",
+        "ko-KR": "\uc624\uc874 \ubc00\ub3c4",
+        "es-ES": "Densidad de ozono",
+        "pt-BR": "Densidade de oz\u00f4nio"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 1000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1000,
+        1
+    ]
 }

@@ -1,8 +1,24 @@
 {
     "type": "urn:homekit-spec:property:water-level:000000B5",
-    "description": "Water Level",
+    "description": {
+        "en-US": "Water Level",
+        "zh-CN": "\u6c34\u4f4d",
+        "fr-FR": "Niveau d'eau",
+        "de-DE": "Wasserstand",
+        "ja-JP": "\u6c34\u4f4d",
+        "ko-KR": "\uc218\uc704",
+        "es-ES": "Nivel de agua",
+        "pt-BR": "N\u00edvel da \u00e1gua"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

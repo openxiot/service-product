@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:faucet:000000D7",
-    "description": "Faucet",
+    "description": {
+        "en-US": "Faucet",
+        "zh-CN": "\u6c34\u9f99\u5934",
+        "fr-FR": "Robinet",
+        "de-DE": "Wasserhahn",
+        "ja-JP": "\u86c7\u53e3",
+        "ko-KR": "\uc218\ub3c4\uaf2d\uc9c0",
+        "es-ES": "Grifo",
+        "pt-BR": "Torneira"
+    },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0"
     ],

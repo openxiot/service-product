@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:format:tlv8:00000004",
+    "description": {
+        "en-US": "tlv8",
+        "zh-CN": "TLV8 \u683c\u5f0f",
+        "fr-FR": "tlv8",
+        "de-DE": "tlv8",
+        "ja-JP": "tlv8",
+        "ko-KR": "tlv8",
+        "es-ES": "tlv8",
+        "pt-BR": "tlv8"
+    }
+}

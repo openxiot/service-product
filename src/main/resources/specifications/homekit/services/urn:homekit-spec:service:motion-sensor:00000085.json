@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:motion-sensor:00000085",
-    "description": "Motion Sensor",
+    "description": {
+        "en-US": "Motion Sensor",
+        "zh-CN": "\u8fd0\u52a8\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de mouvement",
+        "de-DE": "Bewegungssensor",
+        "ja-JP": "\u52d5\u4f53\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc6c0\uc9c1\uc784 \uc13c\uc11c",
+        "es-ES": "Sensor de movimiento",
+        "pt-BR": "Sensor de movimento"
+    },
     "required-properties": [
         "urn:homekit-spec:property:motion-detected:00000022"
     ],

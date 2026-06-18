@@ -1,6 +1,19 @@
 {
     "type": "urn:homekit-spec:property:image-mirroring:0000011F",
-    "description": "Image Mirroring",
+    "description": {
+        "en-US": "Image Mirroring",
+        "zh-CN": "\u56fe\u50cf\u955c\u50cf",
+        "fr-FR": "Miroir d'image",
+        "de-DE": "Bildspiegelung",
+        "ja-JP": "\u753b\u50cf\u30df\u30e9\u30fc\u30ea\u30f3\u30b0",
+        "ko-KR": "\uc774\ubbf8\uc9c0 \ubbf8\ub7ec\ub9c1",
+        "es-ES": "Espejo de imagen",
+        "pt-BR": "Espelhamento de imagem"
+    },
     "format": "bool",
-    "access": ["read", "write", "notify"]
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ]
 }

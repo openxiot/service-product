@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:contact-sensor:00000080",
-    "description": "Contact Sensor",
+    "description": {
+        "en-US": "Contact Sensor",
+        "zh-CN": "\u63a5\u89e6\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de contact",
+        "de-DE": "Kontaktsensor",
+        "ja-JP": "\u63a5\u89e6\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc811\ucd09 \uc13c\uc11c",
+        "es-ES": "Sensor de contacto",
+        "pt-BR": "Sensor de contato"
+    },
     "required-properties": [
         "urn:homekit-spec:property:contact-sensor-state:0000006A"
     ],

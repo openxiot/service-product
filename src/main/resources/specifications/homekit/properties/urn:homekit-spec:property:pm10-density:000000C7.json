@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:pm10-density:000000C7",
-    "description": "PM10 Density",
+    "description": {
+        "en-US": "PM10 Density",
+        "zh-CN": "PM10 \u6d53\u5ea6",
+        "fr-FR": "Densit\u00e9 PM10",
+        "de-DE": "PM10-Dichte",
+        "ja-JP": "PM10\u6fc3\u5ea6",
+        "ko-KR": "PM10 \ubc00\ub3c4",
+        "es-ES": "Densidad PM10",
+        "pt-BR": "Densidade PM10"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 1000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1000,
+        1
+    ]
 }

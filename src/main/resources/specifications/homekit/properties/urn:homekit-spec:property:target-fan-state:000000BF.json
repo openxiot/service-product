@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:target-fan-state:000000BF",
-    "description": "Target Fan State",
+    "description": {
+        "en-US": "Target Fan State",
+        "zh-CN": "\u76ee\u6807\u98ce\u6247\u72b6\u6001",
+        "fr-FR": "\u00c9tat cible du ventilateur",
+        "de-DE": "Gew\u00fcnschter L\u00fcfterstatus",
+        "ja-JP": "\u76ee\u6a19\u30d5\u30a1\u30f3\u72b6\u614b",
+        "ko-KR": "\ubaa9\ud45c \ud32c \uc0c1\ud0dc",
+        "es-ES": "Estado objetivo del ventilador",
+        "pt-BR": "Estado alvo do ventilador"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "MANUAL"},
-        {"value": 1, "description": "AUTO"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "MANUAL",
+                "zh-CN": "\u624b\u52a8",
+                "fr-FR": "MANUEL",
+                "de-DE": "MANUELL",
+                "ja-JP": "\u624b\u52d5",
+                "ko-KR": "\uc218\ub3d9",
+                "es-ES": "MANUAL",
+                "pt-BR": "MANUAL"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "AUTO",
+                "zh-CN": "\u81ea\u52a8",
+                "fr-FR": "AUTO",
+                "de-DE": "AUTO",
+                "ja-JP": "\u81ea\u52d5",
+                "ko-KR": "\uc790\ub3d9",
+                "es-ES": "AUTO",
+                "pt-BR": "AUTO"
+            }
+        }
     ]
 }

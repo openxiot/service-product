@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:door:00000081",
-    "description": "Door",
+    "description": {
+        "en-US": "Door",
+        "zh-CN": "\u95e8",
+        "fr-FR": "Porte",
+        "de-DE": "T\u00fcr",
+        "ja-JP": "\u30c9\u30a2",
+        "ko-KR": "\ubb38",
+        "es-ES": "Puerta",
+        "pt-BR": "Porta"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",
         "urn:homekit-spec:property:position-state:00000072",

@@ -1,7 +1,24 @@
 {
     "type": "urn:homekit-spec:property:color-temperature:000000CE",
-    "description": "Color Temperature",
+    "description": {
+        "en-US": "Color Temperature",
+        "zh-CN": "\u8272\u6e29",
+        "fr-FR": "Temp\u00e9rature de couleur",
+        "de-DE": "Farbtemperatur",
+        "ja-JP": "\u8272\u6e29\u5ea6",
+        "ko-KR": "\uc0c9\uc628\ub3c4",
+        "es-ES": "Temperatura de color",
+        "pt-BR": "Temperatura da cor"
+    },
     "format": "uint32",
-    "access": ["read", "write", "notify"],
-    "value-range": [140, 500, 1]
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        140,
+        500,
+        1
+    ]
 }

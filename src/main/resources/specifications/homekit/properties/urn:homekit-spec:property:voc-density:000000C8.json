@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:voc-density:000000C8",
-    "description": "VOC Density",
+    "description": {
+        "en-US": "VOC Density",
+        "zh-CN": "VOC \u6d53\u5ea6",
+        "fr-FR": "Densit\u00e9 de COV",
+        "de-DE": "VOC-Dichte",
+        "ja-JP": "VOC\u6fc3\u5ea6",
+        "ko-KR": "VOC \ubc00\ub3c4",
+        "es-ES": "Densidad de COV",
+        "pt-BR": "Densidade de COV"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 1000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1000,
+        1
+    ]
 }

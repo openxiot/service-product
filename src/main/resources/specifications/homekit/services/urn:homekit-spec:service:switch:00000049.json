@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:switch:00000049",
-    "description": "Switch",
+    "description": {
+        "en-US": "Switch",
+        "zh-CN": "\u5f00\u5173",
+        "fr-FR": "Interrupteur",
+        "de-DE": "Schalter",
+        "ja-JP": "\u30b9\u30a4\u30c3\u30c1",
+        "ko-KR": "\uc2a4\uc704\uce58",
+        "es-ES": "Interruptor",
+        "pt-BR": "Interruptor"
+    },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"
     ],

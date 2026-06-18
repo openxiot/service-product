@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:pairing-features:0000004F",
-    "description": "Pairing Features",
+    "description": {
+        "en-US": "Pairing Features",
+        "zh-CN": "\u914d\u5bf9\u529f\u80fd",
+        "fr-FR": "Fonctionnalit\u00e9s d'appairage",
+        "de-DE": "Pairing-Funktionen",
+        "ja-JP": "\u30da\u30a2\u30ea\u30f3\u30b0\u6a5f\u80fd",
+        "ko-KR": "\ud398\uc5b4\ub9c1 \uae30\ub2a5",
+        "es-ES": "Funciones de emparejamiento",
+        "pt-BR": "Recursos de pareamento"
+    },
     "format": "uint8",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

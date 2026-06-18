@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:lock-management:00000044",
-    "description": "Lock Management",
+    "description": {
+        "en-US": "Lock Management",
+        "zh-CN": "\u9501\u7ba1\u7406",
+        "fr-FR": "Gestion de la serrure",
+        "de-DE": "Schlossverwaltung",
+        "ja-JP": "\u30ed\u30c3\u30af\u7ba1\u7406",
+        "ko-KR": "\uc7a0\uae08 \uad00\ub9ac",
+        "es-ES": "Gesti\u00f3n de cerradura",
+        "pt-BR": "Gerenciamento da fechadura"
+    },
     "required-properties": [
         "urn:homekit-spec:property:lock-control-point:00000019",
         "urn:homekit-spec:property:version:00000037"

@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:filter-maintenance:000000BA",
-    "description": "Filter Maintenance",
+    "description": {
+        "en-US": "Filter Maintenance",
+        "zh-CN": "\u6ee4\u82af\u7ef4\u62a4",
+        "fr-FR": "Entretien du filtre",
+        "de-DE": "Filterwartung",
+        "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u4fdd\u5b88",
+        "ko-KR": "\ud544\ud130 \uc720\uc9c0 \uad00\ub9ac",
+        "es-ES": "Mantenimiento del filtro",
+        "pt-BR": "Manuten\u00e7\u00e3o do filtro"
+    },
     "required-properties": [
         "urn:homekit-spec:property:filter-change-indication:000000AC"
     ],

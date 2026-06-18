@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:status-fault:00000077",
-    "description": "Status Fault",
+    "description": {
+        "en-US": "Status Fault",
+        "zh-CN": "\u72b6\u6001\u6545\u969c",
+        "fr-FR": "Statut de d\u00e9faut",
+        "de-DE": "Status Fehler",
+        "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u969c\u5bb3",
+        "ko-KR": "\uc0c1\ud0dc \uc624\ub958",
+        "es-ES": "Estado de fallo",
+        "pt-BR": "Status de falha"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NO_FAULT"},
-        {"value": 1, "description": "GENERAL_FAULT"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NO_FAULT",
+                "zh-CN": "\u65e0\u6545\u969c",
+                "fr-FR": "AUCUN D\u00c9FAUT",
+                "de-DE": "KEIN FEHLER",
+                "ja-JP": "\u969c\u5bb3\u306a\u3057",
+                "ko-KR": "\uc624\ub958 \uc5c6\uc74c",
+                "es-ES": "SIN FALLO",
+                "pt-BR": "SEM FALHA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "GENERAL_FAULT",
+                "zh-CN": "\u4e00\u822c\u6545\u969c",
+                "fr-FR": "D\u00c9FAUT G\u00c9N\u00c9RAL",
+                "de-DE": "ALLGEMEINER FEHLER",
+                "ja-JP": "\u4e00\u822c\u969c\u5bb3",
+                "ko-KR": "\uc77c\ubc18 \uc624\ub958",
+                "es-ES": "FALLO GENERAL",
+                "pt-BR": "FALHA GERAL"
+            }
+        }
     ]
 }

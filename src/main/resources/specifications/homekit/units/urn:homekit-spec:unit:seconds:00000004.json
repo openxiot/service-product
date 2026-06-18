@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:unit:seconds:00000004",
+    "description": {
+        "en-US": "seconds",
+        "zh-CN": "\u79d2",
+        "fr-FR": "secondes",
+        "de-DE": "Sekunden",
+        "ja-JP": "\u79d2",
+        "ko-KR": "\ucd08",
+        "es-ES": "segundos",
+        "pt-BR": "segundos"
+    }
+}

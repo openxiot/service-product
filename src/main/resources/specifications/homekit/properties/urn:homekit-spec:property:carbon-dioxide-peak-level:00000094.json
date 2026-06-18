@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
-    "description": "Carbon Dioxide Peak Level",
+    "description": {
+        "en-US": "Carbon Dioxide Peak Level",
+        "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u5cf0\u503c\u6d53\u5ea6",
+        "fr-FR": "Niveau de pointe de dioxyde de carbone",
+        "de-DE": "Kohlendioxid-Spitzenwert",
+        "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u30d4\u30fc\u30af\u6fc3\u5ea6",
+        "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \ucd5c\uace0 \ub18d\ub3c4",
+        "es-ES": "Nivel m\u00e1ximo de di\u00f3xido de carbono",
+        "pt-BR": "N\u00edvel m\u00e1ximo de di\u00f3xido de carbono"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 100000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100000,
+        1
+    ]
 }

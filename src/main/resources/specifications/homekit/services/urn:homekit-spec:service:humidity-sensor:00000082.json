@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:humidity-sensor:00000082",
-    "description": "Humidity Sensor",
+    "description": {
+        "en-US": "Humidity Sensor",
+        "zh-CN": "\u6e7f\u5ea6\u4f20\u611f\u5668",
+        "fr-FR": "Capteur d'humidit\u00e9",
+        "de-DE": "Feuchtigkeitssensor",
+        "ja-JP": "\u6e7f\u5ea6\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc2b5\ub3c4 \uc13c\uc11c",
+        "es-ES": "Sensor de humedad",
+        "pt-BR": "Sensor de umidade"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-relative-humidity:00000010"
     ],

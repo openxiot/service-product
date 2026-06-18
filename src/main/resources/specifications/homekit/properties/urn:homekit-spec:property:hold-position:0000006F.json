@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:hold-position:0000006F",
-    "description": "Hold Position",
+    "description": {
+        "en-US": "Hold Position",
+        "zh-CN": "\u4fdd\u6301\u4f4d\u7f6e",
+        "fr-FR": "Maintenir la position",
+        "de-DE": "Position halten",
+        "ja-JP": "\u4f4d\u7f6e\u4fdd\u6301",
+        "ko-KR": "\uc704\uce58 \uc720\uc9c0",
+        "es-ES": "Mantener posici\u00f3n",
+        "pt-BR": "Manter posi\u00e7\u00e3o"
+    },
     "format": "bool",
-    "access": ["write"]
+    "access": [
+        "write"
+    ]
 }

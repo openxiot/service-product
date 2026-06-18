@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:service-label:000000CC",
-    "description": "Service Label",
+    "description": {
+        "en-US": "Service Label",
+        "zh-CN": "\u670d\u52a1\u6807\u7b7e",
+        "fr-FR": "\u00c9tiquette de service",
+        "de-DE": "Dienstkennzeichnung",
+        "ja-JP": "\u30b5\u30fc\u30d3\u30b9\u30e9\u30d9\u30eb",
+        "ko-KR": "\uc11c\ube44\uc2a4 \ub808\uc774\ube14",
+        "es-ES": "Etiqueta de servicio",
+        "pt-BR": "Etiqueta de servi\u00e7o"
+    },
     "required-properties": [
         "urn:homekit-spec:property:service-label-namespace:000000CD"
     ],

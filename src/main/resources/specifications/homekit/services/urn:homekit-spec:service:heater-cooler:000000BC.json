@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:heater-cooler:000000BC",
-    "description": "Heater Cooler",
+    "description": {
+        "en-US": "Heater Cooler",
+        "zh-CN": "\u52a0\u70ed\u5668/\u51b7\u5374\u5668",
+        "fr-FR": "Chauffage/Refroidisseur",
+        "de-DE": "Heizung/K\u00fchler",
+        "ja-JP": "\u52a0\u71b1\u5668/\u51b7\u5374\u5668",
+        "ko-KR": "\ud788\ud130/\ucfe8\ub7ec",
+        "es-ES": "Calefactor/Enfriador",
+        "pt-BR": "Aquecedor/Refrigerador"
+    },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",
         "urn:homekit-spec:property:current-heater-cooler-state:000000B1",

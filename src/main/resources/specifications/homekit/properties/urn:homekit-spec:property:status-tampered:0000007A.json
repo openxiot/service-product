@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:status-tampered:0000007A",
-    "description": "Status Tampered",
+    "description": {
+        "en-US": "Status Tampered",
+        "zh-CN": "\u72b6\u6001\u7be1\u6539",
+        "fr-FR": "Statut alt\u00e9r\u00e9",
+        "de-DE": "Status manipuliert",
+        "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u4e0d\u6b63\u64cd\u4f5c",
+        "ko-KR": "\uc0c1\ud0dc \ubcc0\uc870\ub428",
+        "es-ES": "Estado manipulado",
+        "pt-BR": "Status violado"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NOT_TAMPERED"},
-        {"value": 1, "description": "TAMPERED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NOT_TAMPERED",
+                "zh-CN": "\u672a\u88ab\u7be1\u6539",
+                "fr-FR": "NON ALT\u00c9R\u00c9",
+                "de-DE": "NICHT MANIPULIERT",
+                "ja-JP": "\u4e0d\u6b63\u64cd\u4f5c\u306a\u3057",
+                "ko-KR": "\ubcc0\uc870\ub418\uc9c0 \uc54a\uc74c",
+                "es-ES": "NO MANIPULADO",
+                "pt-BR": "N\u00c3O VIOLADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "TAMPERED",
+                "zh-CN": "\u88ab\u7be1\u6539",
+                "fr-FR": "ALT\u00c9R\u00c9",
+                "de-DE": "MANIPULIERT",
+                "ja-JP": "\u4e0d\u6b63\u64cd\u4f5c",
+                "ko-KR": "\ubcc0\uc870\ub428",
+                "es-ES": "MANIPULADO",
+                "pt-BR": "VIOLADO"
+            }
+        }
     ]
 }

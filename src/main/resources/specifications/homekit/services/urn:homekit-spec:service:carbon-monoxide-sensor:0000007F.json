@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:carbon-monoxide-sensor:0000007F",
-    "description": "Carbon Monoxide Sensor",
+    "description": {
+        "en-US": "Carbon Monoxide Sensor",
+        "zh-CN": "\u4e00\u6c27\u5316\u78b3\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de monoxyde de carbone",
+        "de-DE": "Kohlenmonoxidsensor",
+        "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \uc13c\uc11c",
+        "es-ES": "Sensor de mon\u00f3xido de carbono",
+        "pt-BR": "Sensor de mon\u00f3xido de carbono"
+    },
     "required-properties": [
         "urn:homekit-spec:property:carbon-monoxide-detected:00000069"
     ],

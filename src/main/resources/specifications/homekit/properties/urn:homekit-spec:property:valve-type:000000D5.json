@@ -1,12 +1,72 @@
 {
     "type": "urn:homekit-spec:property:valve-type:000000D5",
-    "description": "Valve Type",
+    "description": {
+        "en-US": "Valve Type",
+        "zh-CN": "\u9600\u95e8\u7c7b\u578b",
+        "fr-FR": "Type de vanne",
+        "de-DE": "Ventiltyp",
+        "ja-JP": "\u30d0\u30eb\u30d6\u30bf\u30a4\u30d7",
+        "ko-KR": "\ubc38\ube0c \uc720\ud615",
+        "es-ES": "Tipo de v\u00e1lvula",
+        "pt-BR": "Tipo de v\u00e1lvula"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "GENERIC_VALVE"},
-        {"value": 1, "description": "IRRIGATION"},
-        {"value": 2, "description": "SHOWER_HEAD"},
-        {"value": 3, "description": "WATER_FAUCET"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "GENERIC_VALVE",
+                "zh-CN": "\u901a\u7528\u9600\u95e8",
+                "fr-FR": "VANNE G\u00c9N\u00c9RIQUE",
+                "de-DE": "ALLGEMEINES VENTIL",
+                "ja-JP": "\u6c4e\u7528\u30d0\u30eb\u30d6",
+                "ko-KR": "\uc77c\ubc18 \ubc38\ube0c",
+                "es-ES": "V\u00c1LVULA GEN\u00c9RICA",
+                "pt-BR": "V\u00c1LVULA GEN\u00c9RICA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "IRRIGATION",
+                "zh-CN": "\u704c\u6e89",
+                "fr-FR": "IRRIGATION",
+                "de-DE": "BEW\u00c4SSERUNG",
+                "ja-JP": "\u704c\u6f11",
+                "ko-KR": "\uad00\uac1c",
+                "es-ES": "RIEGO",
+                "pt-BR": "IRRIGA\u00c7\u00c3O"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "SHOWER_HEAD",
+                "zh-CN": "\u6dcb\u6d74\u82b1\u6d12",
+                "fr-FR": "POMME DE DOUCHE",
+                "de-DE": "DUSCHKOPF",
+                "ja-JP": "\u30b7\u30e3\u30ef\u30fc\u30d8\u30c3\u30c9",
+                "ko-KR": "\uc0e4\uc6cc \ud5e4\ub4dc",
+                "es-ES": "DUCHA",
+                "pt-BR": "CHUVEIRO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "WATER_FAUCET",
+                "zh-CN": "\u6c34\u9f99\u5934",
+                "fr-FR": "ROBINET D'EAU",
+                "de-DE": "WASSERHAHN",
+                "ja-JP": "\u6c34\u9053\u86c7\u53e3",
+                "ko-KR": "\uc218\ub3c4\uaf2d\uc9c0",
+                "es-ES": "GRIFO DE AGUA",
+                "pt-BR": "TORNEIRA"
+            }
+        }
     ]
 }

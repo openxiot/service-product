@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:air-particulate-size:00000065",
-    "description": "Air Particulate Size",
+    "description": {
+        "en-US": "Air Particulate Size",
+        "zh-CN": "\u7a7a\u6c14\u9897\u7c92\u7269\u5927\u5c0f",
+        "fr-FR": "Taille des particules en suspension",
+        "de-DE": "Luftpartikelgr\u00f6\u00dfe",
+        "ja-JP": "\u7a7a\u6c17\u5fae\u7c92\u5b50\u30b5\u30a4\u30ba",
+        "ko-KR": "\uacf5\uae30 \uc911 \ubbf8\uc138 \uc785\uc790 \ud06c\uae30",
+        "es-ES": "Tama\u00f1o de part\u00edculas en suspensi\u00f3n",
+        "pt-BR": "Tamanho de part\u00edculas no ar"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "2_5_ΜM"},
-        {"value": 1, "description": "10_ΜM"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "2_5_\u039cM",
+                "zh-CN": "2.5 \u5fae\u7c73",
+                "fr-FR": "2,5 \u039cM",
+                "de-DE": "2,5 \u039cM",
+                "ja-JP": "2.5 \u039cM",
+                "ko-KR": "2.5 \u039cM",
+                "es-ES": "2,5 \u039cM",
+                "pt-BR": "2,5 \u039cM"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "10_\u039cM",
+                "zh-CN": "10 \u5fae\u7c73",
+                "fr-FR": "10 \u039cM",
+                "de-DE": "10 \u039cM",
+                "ja-JP": "10 \u039cM",
+                "ko-KR": "10 \u039cM",
+                "es-ES": "10 \u039cM",
+                "pt-BR": "10 \u039cM"
+            }
+        }
     ]
 }

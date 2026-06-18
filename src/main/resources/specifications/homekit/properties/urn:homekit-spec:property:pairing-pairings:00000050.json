@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:pairing-pairings:00000050",
-    "description": "Pairing Pairings",
+    "description": {
+        "en-US": "Pairing Pairings",
+        "zh-CN": "\u914d\u5bf9\u5217\u8868",
+        "fr-FR": "Appairages",
+        "de-DE": "Pairing-Liste",
+        "ja-JP": "\u30da\u30a2\u30ea\u30f3\u30b0\u4e00\u89a7",
+        "ko-KR": "\ud398\uc5b4\ub9c1 \ubaa9\ub85d",
+        "es-ES": "Emparejamientos",
+        "pt-BR": "Pareamentos"
+    },
     "format": "tlv8",
-    "access": ["read", "write"]
+    "access": [
+        "read",
+        "write"
+    ]
 }

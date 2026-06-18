@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:is-configured:000000D6",
-    "description": "Is Configured",
+    "description": {
+        "en-US": "Is Configured",
+        "zh-CN": "\u5df2\u914d\u7f6e",
+        "fr-FR": "Est configur\u00e9",
+        "de-DE": "Ist konfiguriert",
+        "ja-JP": "\u8a2d\u5b9a\u6e08\u307f",
+        "ko-KR": "\uad6c\uc131\ub428",
+        "es-ES": "Est\u00e1 configurado",
+        "pt-BR": "Est\u00e1 configurado"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NOT_CONFIGURED"},
-        {"value": 1, "description": "CONFIGURED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NOT_CONFIGURED",
+                "zh-CN": "\u672a\u914d\u7f6e",
+                "fr-FR": "NON CONFIGUR\u00c9",
+                "de-DE": "NICHT KONFIGURIERT",
+                "ja-JP": "\u672a\u8a2d\u5b9a",
+                "ko-KR": "\uad6c\uc131\ub418\uc9c0 \uc54a\uc74c",
+                "es-ES": "NO CONFIGURADO",
+                "pt-BR": "N\u00c3O CONFIGURADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CONFIGURED",
+                "zh-CN": "\u5df2\u914d\u7f6e",
+                "fr-FR": "CONFIGUR\u00c9",
+                "de-DE": "KONFIGURIERT",
+                "ja-JP": "\u8a2d\u5b9a\u6e08\u307f",
+                "ko-KR": "\uad6c\uc131\ub428",
+                "es-ES": "CONFIGURADO",
+                "pt-BR": "CONFIGURADO"
+            }
+        }
     ]
 }

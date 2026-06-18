@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:format:uint8:00000006",
+    "description": {
+        "en-US": "uint8",
+        "zh-CN": "\u65e0\u7b26\u53f7 8 \u4f4d\u6574\u6570",
+        "fr-FR": "uint8",
+        "de-DE": "uint8",
+        "ja-JP": "uint8",
+        "ko-KR": "uint8",
+        "es-ES": "uint8",
+        "pt-BR": "uint8"
+    }
+}

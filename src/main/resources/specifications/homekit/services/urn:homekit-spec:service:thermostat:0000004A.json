@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:thermostat:0000004A",
-    "description": "Thermostat",
+    "description": {
+        "en-US": "Thermostat",
+        "zh-CN": "\u6052\u6e29\u5668",
+        "fr-FR": "Thermostat",
+        "de-DE": "Thermostat",
+        "ja-JP": "\u30b5\u30fc\u30e2\u30b9\u30bf\u30c3\u30c8",
+        "ko-KR": "\uc628\ub3c4 \uc870\uc808\uae30",
+        "es-ES": "Termostato",
+        "pt-BR": "Termostato"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
         "urn:homekit-spec:property:target-heating-cooling-state:00000033",

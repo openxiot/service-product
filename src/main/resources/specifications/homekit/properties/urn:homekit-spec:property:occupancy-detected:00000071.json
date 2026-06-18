@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:occupancy-detected:00000071",
-    "description": "Occupancy Detected",
+    "description": {
+        "en-US": "Occupancy Detected",
+        "zh-CN": "\u68c0\u6d4b\u5230\u5360\u7528",
+        "fr-FR": "Pr\u00e9sence d\u00e9tect\u00e9e",
+        "de-DE": "Belegung erkannt",
+        "ja-JP": "\u4eba\u5728\u691c\u51fa",
+        "ko-KR": "\uc7ac\uc2e4 \uac10\uc9c0\ub428",
+        "es-ES": "Ocupaci\u00f3n detectada",
+        "pt-BR": "Ocupa\u00e7\u00e3o detectada"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "OCCUPANCY_NOT_DETECTED"},
-        {"value": 1, "description": "OCCUPANCY_DETECTED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "OCCUPANCY_NOT_DETECTED",
+                "zh-CN": "\u672a\u68c0\u6d4b\u5230\u6709\u4eba",
+                "fr-FR": "PR\u00c9SENCE NON D\u00c9TECT\u00c9E",
+                "de-DE": "KEINE BELEGUNG ERKANNT",
+                "ja-JP": "\u4eba\u5728\u672a\u691c\u51fa",
+                "ko-KR": "\uc7ac\uc2e4 \ubbf8\uac10\uc9c0",
+                "es-ES": "OCUPACI\u00d3N NO DETECTADA",
+                "pt-BR": "OCUPA\u00c7\u00c3O N\u00c3O DETECTADA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "OCCUPANCY_DETECTED",
+                "zh-CN": "\u68c0\u6d4b\u5230\u6709\u4eba",
+                "fr-FR": "PR\u00c9SENCE D\u00c9TECT\u00c9E",
+                "de-DE": "BELEGUNG ERKANNT",
+                "ja-JP": "\u4eba\u5728\u691c\u51fa",
+                "ko-KR": "\uc7ac\uc2e4 \uac10\uc9c0\ub428",
+                "es-ES": "OCUPACI\u00d3N DETECTADA",
+                "pt-BR": "OCUPA\u00c7\u00c3O DETECTADA"
+            }
+        }
     ]
 }

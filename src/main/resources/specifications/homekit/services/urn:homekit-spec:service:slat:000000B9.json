@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:slat:000000B9",
-    "description": "Slat",
+    "description": {
+        "en-US": "Slat",
+        "zh-CN": "\u767e\u53f6\u7a97\u53f6\u7247",
+        "fr-FR": "Lamelle",
+        "de-DE": "Lamelle",
+        "ja-JP": "\u30b9\u30e9\u30c3\u30c8",
+        "ko-KR": "\uc2ac\ub7ab",
+        "es-ES": "Lama",
+        "pt-BR": "L\u00e2mina"
+    },
     "required-properties": [
         "urn:homekit-spec:property:slat-type:000000C0",
         "urn:homekit-spec:property:current-slat-state:000000AA"

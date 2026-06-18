@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:lightbulb:00000043",
-    "description": "Lightbulb",
+    "description": {
+        "en-US": "Lightbulb",
+        "zh-CN": "\u706f\u6ce1",
+        "fr-FR": "Ampoule",
+        "de-DE": "Gl\u00fchbirne",
+        "ja-JP": "\u96fb\u7403",
+        "ko-KR": "\uc804\uad6c",
+        "es-ES": "Bombilla",
+        "pt-BR": "L\u00e2mpada"
+    },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"
     ],

@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:microphone:00000112",
-    "description": "Microphone",
+    "description": {
+        "en-US": "Microphone",
+        "zh-CN": "\u9ea6\u514b\u98ce",
+        "fr-FR": "Microphone",
+        "de-DE": "Mikrofon",
+        "ja-JP": "\u30de\u30a4\u30af",
+        "ko-KR": "\ub9c8\uc774\ud06c",
+        "es-ES": "Micr\u00f3fono",
+        "pt-BR": "Microfone"
+    },
     "required-properties": [
         "urn:homekit-spec:property:volume:00000119",
         "urn:homekit-spec:property:mute:0000011A"

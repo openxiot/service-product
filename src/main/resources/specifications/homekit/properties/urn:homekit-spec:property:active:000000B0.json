@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:active:000000B0",
-    "description": "Active",
+    "description": {
+        "en-US": "Active",
+        "zh-CN": "\u6d3b\u52a8\u72b6\u6001",
+        "fr-FR": "Actif",
+        "de-DE": "Aktiv",
+        "ja-JP": "\u30a2\u30af\u30c6\u30a3\u30d6",
+        "ko-KR": "\ud65c\uc131",
+        "es-ES": "Activo",
+        "pt-BR": "Ativo"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "INACTIVE"},
-        {"value": 1, "description": "ACTIVE"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "INACTIVE",
+                "zh-CN": "\u975e\u6d3b\u52a8",
+                "fr-FR": "INACTIF",
+                "de-DE": "INAKTIV",
+                "ja-JP": "\u975e\u30a2\u30af\u30c6\u30a3\u30d6",
+                "ko-KR": "\ube44\ud65c\uc131",
+                "es-ES": "INACTIVO",
+                "pt-BR": "INATIVO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "ACTIVE",
+                "zh-CN": "\u6d3b\u52a8",
+                "fr-FR": "ACTIF",
+                "de-DE": "AKTIV",
+                "ja-JP": "\u30a2\u30af\u30c6\u30a3\u30d6",
+                "ko-KR": "\ud65c\uc131",
+                "es-ES": "ACTIVO",
+                "pt-BR": "ATIVO"
+            }
+        }
     ]
 }

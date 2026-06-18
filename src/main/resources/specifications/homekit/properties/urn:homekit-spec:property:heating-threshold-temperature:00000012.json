@@ -1,8 +1,25 @@
 {
     "type": "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-    "description": "Heating Threshold Temperature",
+    "description": {
+        "en-US": "Heating Threshold Temperature",
+        "zh-CN": "\u5236\u70ed\u9608\u503c\u6e29\u5ea6",
+        "fr-FR": "Temp\u00e9rature seuil de chauffage",
+        "de-DE": "Heizschwellentemperatur",
+        "ja-JP": "\u52a0\u71b1\u3057\u304d\u3044\u5024\u6e29\u5ea6",
+        "ko-KR": "\ub09c\ubc29 \uc784\uacc4 \uc628\ub3c4",
+        "es-ES": "Umbral de temperatura de calefacci\u00f3n",
+        "pt-BR": "Temperatura limite de aquecimento"
+    },
     "format": "float",
-    "access": ["read", "write", "notify"],
-    "value-range": [0, 25, 0.1],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        25,
+        0.1
+    ],
     "unit": "celsius"
 }

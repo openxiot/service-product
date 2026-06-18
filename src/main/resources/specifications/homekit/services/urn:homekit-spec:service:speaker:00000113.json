@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:speaker:00000113",
-    "description": "Speaker",
+    "description": {
+        "en-US": "Speaker",
+        "zh-CN": "\u626c\u58f0\u5668",
+        "fr-FR": "Haut-parleur",
+        "de-DE": "Lautsprecher",
+        "ja-JP": "\u30b9\u30d4\u30fc\u30ab\u30fc",
+        "ko-KR": "\uc2a4\ud53c\ucee4",
+        "es-ES": "Altavoz",
+        "pt-BR": "Alto-falante"
+    },
     "required-properties": [
         "urn:homekit-spec:property:mute:0000011A"
     ],

@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:unit:percentage:00000003",
+    "description": {
+        "en-US": "percentage",
+        "zh-CN": "\u767e\u5206\u6bd4",
+        "fr-FR": "pourcentage",
+        "de-DE": "Prozentsatz",
+        "ja-JP": "\u30d1\u30fc\u30bb\u30f3\u30c8",
+        "ko-KR": "\ubc31\ubd84\uc728",
+        "es-ES": "porcentaje",
+        "pt-BR": "porcentagem"
+    }
+}

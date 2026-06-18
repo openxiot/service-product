@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:firmware-revision:00000052",
-    "description": "Firmware Revision",
+    "description": {
+        "en-US": "Firmware Revision",
+        "zh-CN": "\u56fa\u4ef6\u7248\u672c",
+        "fr-FR": "Version du firmware",
+        "de-DE": "Firmware-Version",
+        "ja-JP": "\u30d5\u30a1\u30fc\u30e0\u30a6\u30a7\u30a2\u30ea\u30d3\u30b8\u30e7\u30f3",
+        "ko-KR": "\ud38c\uc6e8\uc5b4 \ubc84\uc804",
+        "es-ES": "Revisi\u00f3n del firmware",
+        "pt-BR": "Revis\u00e3o do firmware"
+    },
     "format": "string",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

@@ -1,8 +1,25 @@
 {
     "type": "urn:homekit-spec:property:rotation-speed:00000029",
-    "description": "Rotation Speed",
+    "description": {
+        "en-US": "Rotation Speed",
+        "zh-CN": "\u65cb\u8f6c\u901f\u5ea6",
+        "fr-FR": "Vitesse de rotation",
+        "de-DE": "Drehgeschwindigkeit",
+        "ja-JP": "\u56de\u8ee2\u901f\u5ea6",
+        "ko-KR": "\ud68c\uc804 \uc18d\ub3c4",
+        "es-ES": "Velocidad de rotaci\u00f3n",
+        "pt-BR": "Velocidade de rota\u00e7\u00e3o"
+    },
     "format": "float",
-    "access": ["read", "write", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

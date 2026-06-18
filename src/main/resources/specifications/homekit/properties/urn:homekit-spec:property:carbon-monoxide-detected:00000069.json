@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:carbon-monoxide-detected:00000069",
-    "description": "Carbon Monoxide Detected",
+    "description": {
+        "en-US": "Carbon Monoxide Detected",
+        "zh-CN": "\u4e00\u6c27\u5316\u78b3\u68c0\u6d4b\u5230",
+        "fr-FR": "Monoxyde de carbone d\u00e9tect\u00e9",
+        "de-DE": "Kohlenmonoxid erkannt",
+        "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u691c\u51fa",
+        "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \uac10\uc9c0\ub428",
+        "es-ES": "Mon\u00f3xido de carbono detectado",
+        "pt-BR": "Mon\u00f3xido de carbono detectado"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "CO_LEVELS_NORMAL"},
-        {"value": 1, "description": "CO_LEVELS_ABNORMAL"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "CO_LEVELS_NORMAL",
+                "zh-CN": "\u4e00\u6c27\u5316\u78b3\u6d53\u5ea6\u6b63\u5e38",
+                "fr-FR": "NIVEAUX DE CO NORMAUX",
+                "de-DE": "CO-WERTE NORMAL",
+                "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u6b63\u5e38",
+                "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \uc815\uc0c1",
+                "es-ES": "NIVELES DE CO NORMALES",
+                "pt-BR": "N\u00cdVEIS DE CO NORMAIS"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CO_LEVELS_ABNORMAL",
+                "zh-CN": "\u4e00\u6c27\u5316\u78b3\u6d53\u5ea6\u5f02\u5e38",
+                "fr-FR": "NIVEAUX DE CO ANORMAUX",
+                "de-DE": "CO-WERTE ANORMAL",
+                "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u7570\u5e38",
+                "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \ube44\uc815\uc0c1",
+                "es-ES": "NIVELES DE CO ANORMALES",
+                "pt-BR": "N\u00cdVEIS DE CO ANORMAIS"
+            }
+        }
     ]
 }

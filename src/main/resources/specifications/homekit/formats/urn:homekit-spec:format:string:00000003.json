@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:format:string:00000003",
+    "description": {
+        "en-US": "string",
+        "zh-CN": "\u5b57\u7b26\u4e32",
+        "fr-FR": "cha\u00eene",
+        "de-DE": "Zeichenkette",
+        "ja-JP": "\u6587\u5b57\u5217",
+        "ko-KR": "\ubb38\uc790\uc5f4",
+        "es-ES": "cadena",
+        "pt-BR": "string"
+    }
+}

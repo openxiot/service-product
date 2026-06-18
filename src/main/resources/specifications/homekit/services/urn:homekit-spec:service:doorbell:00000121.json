@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:doorbell:00000121",
-    "description": "Doorbell",
+    "description": {
+        "en-US": "Doorbell",
+        "zh-CN": "\u95e8\u94c3",
+        "fr-FR": "Sonnette",
+        "de-DE": "T\u00fcrklingel",
+        "ja-JP": "\u30c9\u30a2\u30d9\u30eb",
+        "ko-KR": "\ucd08\uc778\uc885",
+        "es-ES": "Timbre",
+        "pt-BR": "Campainha"
+    },
     "required-properties": [
         "urn:homekit-spec:property:programmable-switch-event:00000073"
     ],

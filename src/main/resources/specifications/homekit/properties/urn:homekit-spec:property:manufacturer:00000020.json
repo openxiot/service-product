@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:manufacturer:00000020",
-    "description": "Manufacturer",
+    "description": {
+        "en-US": "Manufacturer",
+        "zh-CN": "\u5236\u9020\u5546",
+        "fr-FR": "Fabricant",
+        "de-DE": "Hersteller",
+        "ja-JP": "\u30e1\u30fc\u30ab\u30fc",
+        "ko-KR": "\uc81c\uc870\uc5c5\uccb4",
+        "es-ES": "Fabricante",
+        "pt-BR": "Fabricante"
+    },
     "format": "string",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

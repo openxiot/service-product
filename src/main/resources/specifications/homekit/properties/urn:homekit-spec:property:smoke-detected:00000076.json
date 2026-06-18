@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:smoke-detected:00000076",
-    "description": "Smoke Detected",
+    "description": {
+        "en-US": "Smoke Detected",
+        "zh-CN": "\u68c0\u6d4b\u5230\u70df\u96fe",
+        "fr-FR": "Fum\u00e9e d\u00e9tect\u00e9e",
+        "de-DE": "Rauch erkannt",
+        "ja-JP": "\u7159\u691c\u51fa",
+        "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
+        "es-ES": "Humo detectado",
+        "pt-BR": "Fuma\u00e7a detectada"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "SMOKE_NOT_DETECTED"},
-        {"value": 1, "description": "SMOKE_DETECTED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "SMOKE_NOT_DETECTED",
+                "zh-CN": "\u672a\u68c0\u6d4b\u5230\u70df\u96fe",
+                "fr-FR": "AUCUNE FUM\u00c9E D\u00c9TECT\u00c9E",
+                "de-DE": "KEIN RAUCH ERKANNT",
+                "ja-JP": "\u7159\u672a\u691c\u51fa",
+                "ko-KR": "\uc5f0\uae30 \ubbf8\uac10\uc9c0",
+                "es-ES": "HUMO NO DETECTADO",
+                "pt-BR": "FUMA\u00c7A N\u00c3O DETECTADA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "SMOKE_DETECTED",
+                "zh-CN": "\u68c0\u6d4b\u5230\u70df\u96fe",
+                "fr-FR": "FUM\u00c9E D\u00c9TECT\u00c9E",
+                "de-DE": "RAUCH ERKANNT",
+                "ja-JP": "\u7159\u691c\u51fa",
+                "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
+                "es-ES": "HUMO DETECTADO",
+                "pt-BR": "FUMA\u00c7A DETECTADA"
+            }
+        }
     ]
 }

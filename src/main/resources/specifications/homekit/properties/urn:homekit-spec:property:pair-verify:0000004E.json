@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:pair-verify:0000004E",
-    "description": "Pair Verify",
+    "description": {
+        "en-US": "Pair Verify",
+        "zh-CN": "\u914d\u5bf9\u9a8c\u8bc1",
+        "fr-FR": "V\u00e9rification de l'appairage",
+        "de-DE": "Pairing-Verifizierung",
+        "ja-JP": "\u30da\u30a2\u691c\u8a3c",
+        "ko-KR": "\ud398\uc5b4 \ud655\uc778",
+        "es-ES": "Verificaci\u00f3n de emparejamiento",
+        "pt-BR": "Verifica\u00e7\u00e3o de pareamento"
+    },
     "format": "tlv8",
-    "access": ["read", "write"]
+    "access": [
+        "read",
+        "write"
+    ]
 }

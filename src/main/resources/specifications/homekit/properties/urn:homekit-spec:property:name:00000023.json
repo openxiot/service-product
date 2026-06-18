@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:name:00000023",
-    "description": "Name",
+    "description": {
+        "en-US": "Name",
+        "zh-CN": "\u540d\u79f0",
+        "fr-FR": "Nom",
+        "de-DE": "Name",
+        "ja-JP": "\u540d\u524d",
+        "ko-KR": "\uc774\ub984",
+        "es-ES": "Nombre",
+        "pt-BR": "Nome"
+    },
     "format": "string",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

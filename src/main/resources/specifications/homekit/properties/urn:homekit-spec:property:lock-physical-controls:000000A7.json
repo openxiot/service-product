@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:lock-physical-controls:000000A7",
-    "description": "Lock Physical Controls",
+    "description": {
+        "en-US": "Lock Physical Controls",
+        "zh-CN": "\u9501\u7269\u7406\u63a7\u5236",
+        "fr-FR": "Commandes physiques du verrouillage",
+        "de-DE": "Physische Schlosssteuerung",
+        "ja-JP": "\u30ed\u30c3\u30af\u7269\u7406\u5236\u5fa1",
+        "ko-KR": "\uc7a0\uae08 \ubb3c\ub9ac\uc801 \uc81c\uc5b4",
+        "es-ES": "Controles f\u00edsicos de la cerradura",
+        "pt-BR": "Controles f\u00edsicos da fechadura"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "CONTROL_LOCK_DISABLED"},
-        {"value": 1, "description": "CONTROL_LOCK_ENABLED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "CONTROL_LOCK_DISABLED",
+                "zh-CN": "\u63a7\u5236\u9501\u5df2\u7981\u7528",
+                "fr-FR": "VERROUILLAGE DES COMMANDES D\u00c9SACTIV\u00c9",
+                "de-DE": "STEUERUNGSSPERRE DEAKTIVIERT",
+                "ja-JP": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30ed\u30c3\u30af\u7121\u52b9",
+                "ko-KR": "\uc81c\uc5b4 \uc7a0\uae08 \ube44\ud65c\uc131\ud654\ub428",
+                "es-ES": "BLOQUEO DE CONTROL DESACTIVADO",
+                "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CONTROL_LOCK_ENABLED",
+                "zh-CN": "\u63a7\u5236\u9501\u5df2\u542f\u7528",
+                "fr-FR": "VERROUILLAGE DES COMMANDES ACTIV\u00c9",
+                "de-DE": "STEUERUNGSSPERRE AKTIVIERT",
+                "ja-JP": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30ed\u30c3\u30af\u6709\u52b9",
+                "ko-KR": "\uc81c\uc5b4 \uc7a0\uae08 \ud65c\uc131\ud654\ub428",
+                "es-ES": "BLOQUEO DE CONTROL ACTIVADO",
+                "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO"
+            }
+        }
     ]
 }

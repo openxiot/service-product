@@ -1,11 +1,59 @@
 {
     "type": "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
-    "description": "Current Heating Cooling State",
+    "description": {
+        "en-US": "Current Heating Cooling State",
+        "zh-CN": "\u5f53\u524d\u52a0\u70ed/\u51b7\u5374\u72b6\u6001",
+        "fr-FR": "\u00c9tat actuel de chauffage/refroidissement",
+        "de-DE": "Aktueller Heiz-/K\u00fchlstatus",
+        "ja-JP": "\u73fe\u5728\u306e\u52a0\u71b1\u30fb\u51b7\u5374\u72b6\u614b",
+        "ko-KR": "\ud604\uc7ac \ub09c\ubc29/\ub0c9\ubc29 \uc0c1\ud0dc",
+        "es-ES": "Estado actual de calefacci\u00f3n/refrigeraci\u00f3n",
+        "pt-BR": "Estado atual de aquecimento/resfriamento"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "OFF"},
-        {"value": 1, "description": "HEAT"},
-        {"value": 2, "description": "COOL"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "OFF",
+                "zh-CN": "\u5173\u95ed",
+                "fr-FR": "\u00c9TEINT",
+                "de-DE": "AUS",
+                "ja-JP": "\u30aa\u30d5",
+                "ko-KR": "\uaebc\uc9d0",
+                "es-ES": "APAGADO",
+                "pt-BR": "DESLIGADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "HEAT",
+                "zh-CN": "\u5236\u70ed",
+                "fr-FR": "CHAUD",
+                "de-DE": "HEIZEN",
+                "ja-JP": "\u6696\u623f",
+                "ko-KR": "\ub09c\ubc29",
+                "es-ES": "CALOR",
+                "pt-BR": "CALOR"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "COOL",
+                "zh-CN": "\u5236\u51b7",
+                "fr-FR": "FROID",
+                "de-DE": "K\u00dcHLEN",
+                "ja-JP": "\u51b7\u623f",
+                "ko-KR": "\ub0c9\ubc29",
+                "es-ES": "FR\u00cdO",
+                "pt-BR": "FRIO"
+            }
+        }
     ]
 }

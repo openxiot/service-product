@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:model:00000021",
-    "description": "Model",
+    "description": {
+        "en-US": "Model",
+        "zh-CN": "\u578b\u53f7",
+        "fr-FR": "Mod\u00e8le",
+        "de-DE": "Modell",
+        "ja-JP": "\u30e2\u30c7\u30eb",
+        "ko-KR": "\ubaa8\ub378",
+        "es-ES": "Modelo",
+        "pt-BR": "Modelo"
+    },
     "format": "string",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

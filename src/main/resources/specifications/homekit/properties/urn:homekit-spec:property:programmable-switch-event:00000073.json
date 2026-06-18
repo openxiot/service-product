@@ -1,11 +1,59 @@
 {
     "type": "urn:homekit-spec:property:programmable-switch-event:00000073",
-    "description": "Programmable Switch Event",
+    "description": {
+        "en-US": "Programmable Switch Event",
+        "zh-CN": "\u53ef\u7f16\u7a0b\u5f00\u5173\u4e8b\u4ef6",
+        "fr-FR": "\u00c9v\u00e9nement d'interrupteur programmable",
+        "de-DE": "Programmierbares Schalterereignis",
+        "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30de\u30d6\u30eb\u30b9\u30a4\u30c3\u30c1\u30a4\u30d9\u30f3\u30c8",
+        "ko-KR": "\ud504\ub85c\uadf8\ub798\ubc0d \uac00\ub2a5 \uc2a4\uc704\uce58 \uc774\ubca4\ud2b8",
+        "es-ES": "Evento de interruptor programable",
+        "pt-BR": "Evento de interruptor program\u00e1vel"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "SINGLE_PRESS"},
-        {"value": 1, "description": "DOUBLE_PRESS"},
-        {"value": 2, "description": "LONG_PRESS"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "SINGLE_PRESS",
+                "zh-CN": "\u5355\u51fb",
+                "fr-FR": "APPUI SIMPLE",
+                "de-DE": "EINMALIGES DR\u00dcCKEN",
+                "ja-JP": "\u30b7\u30f3\u30b0\u30eb\u30d7\u30ec\u30b9",
+                "ko-KR": "\ud55c \ubc88 \ub204\ub984",
+                "es-ES": "PRESI\u00d3N SIMPLE",
+                "pt-BR": "PRESS\u00c3O \u00daNICA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "DOUBLE_PRESS",
+                "zh-CN": "\u53cc\u51fb",
+                "fr-FR": "DOUBLE APPUI",
+                "de-DE": "ZWEIMALIGES DR\u00dcCKEN",
+                "ja-JP": "\u30c0\u30d6\u30eb\u30d7\u30ec\u30b9",
+                "ko-KR": "\ub450 \ubc88 \ub204\ub984",
+                "es-ES": "DOBLE PRESI\u00d3N",
+                "pt-BR": "PRESS\u00c3O DUPLA"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "LONG_PRESS",
+                "zh-CN": "\u957f\u6309",
+                "fr-FR": "APPUI LONG",
+                "de-DE": "LANGES DR\u00dcCKEN",
+                "ja-JP": "\u9577\u62bc\u3057",
+                "ko-KR": "\uae38\uac8c \ub204\ub984",
+                "es-ES": "PRESI\u00d3N LARGA",
+                "pt-BR": "PRESS\u00c3O LONGA"
+            }
+        }
     ]
 }

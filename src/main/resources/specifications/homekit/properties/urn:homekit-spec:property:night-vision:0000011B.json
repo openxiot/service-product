@@ -1,6 +1,19 @@
 {
     "type": "urn:homekit-spec:property:night-vision:0000011B",
-    "description": "Night Vision",
+    "description": {
+        "en-US": "Night Vision",
+        "zh-CN": "\u591c\u89c6",
+        "fr-FR": "Vision nocturne",
+        "de-DE": "Nachtsicht",
+        "ja-JP": "\u30ca\u30a4\u30c8\u30d3\u30b8\u30e7\u30f3",
+        "ko-KR": "\uc57c\uac04 \ud22c\uc2dc",
+        "es-ES": "Visi\u00f3n nocturna",
+        "pt-BR": "Vis\u00e3o noturna"
+    },
     "format": "bool",
-    "access": ["read", "write", "notify"]
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ]
 }

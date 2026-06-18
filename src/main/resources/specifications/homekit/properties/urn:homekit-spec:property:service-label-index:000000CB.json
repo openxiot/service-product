@@ -1,7 +1,22 @@
 {
     "type": "urn:homekit-spec:property:service-label-index:000000CB",
-    "description": "Service Label Index",
+    "description": {
+        "en-US": "Service Label Index",
+        "zh-CN": "\u670d\u52a1\u6807\u7b7e\u7d22\u5f15",
+        "fr-FR": "Index d'\u00e9tiquette de service",
+        "de-DE": "Dienstkennzeichnungsindex",
+        "ja-JP": "\u30b5\u30fc\u30d3\u30b9\u30e9\u30d9\u30eb\u30a4\u30f3\u30c7\u30c3\u30af\u30b9",
+        "ko-KR": "\uc11c\ube44\uc2a4 \ub808\uc774\ube14 \uc778\ub371\uc2a4",
+        "es-ES": "\u00cdndice de etiqueta de servicio",
+        "pt-BR": "\u00cdndice de etiqueta de servi\u00e7o"
+    },
     "format": "uint8",
-    "access": ["read"],
-    "value-range": [1, 255, 1]
+    "access": [
+        "read"
+    ],
+    "value-range": [
+        1,
+        255,
+        1
+    ]
 }

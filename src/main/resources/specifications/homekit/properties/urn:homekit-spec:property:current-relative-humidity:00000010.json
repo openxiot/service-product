@@ -1,8 +1,24 @@
 {
     "type": "urn:homekit-spec:property:current-relative-humidity:00000010",
-    "description": "Current Relative Humidity",
+    "description": {
+        "en-US": "Current Relative Humidity",
+        "zh-CN": "\u5f53\u524d\u76f8\u5bf9\u6e7f\u5ea6",
+        "fr-FR": "Humidit\u00e9 relative actuelle",
+        "de-DE": "Aktuelle relative Luftfeuchtigkeit",
+        "ja-JP": "\u73fe\u5728\u306e\u76f8\u5bfe\u6e7f\u5ea6",
+        "ko-KR": "\ud604\uc7ac \uc0c1\ub300 \uc2b5\ub3c4",
+        "es-ES": "Humedad relativa actual",
+        "pt-BR": "Umidade relativa atual"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

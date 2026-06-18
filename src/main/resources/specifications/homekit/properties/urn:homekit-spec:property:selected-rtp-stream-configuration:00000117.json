@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
-    "description": "Selected RTP Stream Configuration",
+    "description": {
+        "en-US": "Selected RTP Stream Configuration",
+        "zh-CN": "\u6240\u9009 RTP \u6d41\u914d\u7f6e",
+        "fr-FR": "Configuration de flux RTP s\u00e9lectionn\u00e9e",
+        "de-DE": "Ausgew\u00e4hlte RTP-Stream-Konfiguration",
+        "ja-JP": "\u9078\u629e\u6e08\u307fRTP\u30b9\u30c8\u30ea\u30fc\u30e0\u8a2d\u5b9a",
+        "ko-KR": "\uc120\ud0dd\ub41c RTP \uc2a4\ud2b8\ub9bc \uad6c\uc131",
+        "es-ES": "Configuraci\u00f3n de flujo RTP seleccionada",
+        "pt-BR": "Configura\u00e7\u00e3o de fluxo RTP selecionada"
+    },
     "format": "tlv8",
-    "access": ["read", "write"]
+    "access": [
+        "read",
+        "write"
+    ]
 }

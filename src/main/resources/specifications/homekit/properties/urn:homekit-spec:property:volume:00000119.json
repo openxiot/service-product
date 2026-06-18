@@ -1,8 +1,25 @@
 {
     "type": "urn:homekit-spec:property:volume:00000119",
-    "description": "Volume",
+    "description": {
+        "en-US": "Volume",
+        "zh-CN": "\u97f3\u91cf",
+        "fr-FR": "Volume",
+        "de-DE": "Lautst\u00e4rke",
+        "ja-JP": "\u97f3\u91cf",
+        "ko-KR": "\ubcfc\ub968",
+        "es-ES": "Volumen",
+        "pt-BR": "Volume"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
-    "value-range": [0, 100, 1],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        100,
+        1
+    ],
     "unit": "percentage"
 }

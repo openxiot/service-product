@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:window:0000008B",
-    "description": "Window",
+    "description": {
+        "en-US": "Window",
+        "zh-CN": "\u7a97\u6237",
+        "fr-FR": "Fen\u00eatre",
+        "de-DE": "Fenster",
+        "ja-JP": "\u7a93",
+        "ko-KR": "\ucc3d\ubb38",
+        "es-ES": "Ventana",
+        "pt-BR": "Janela"
+    },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",
         "urn:homekit-spec:property:target-position:0000007C",

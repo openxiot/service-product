@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:air-quality-sensor:0000008D",
-    "description": "Air Quality Sensor",
+    "description": {
+        "en-US": "Air Quality Sensor",
+        "zh-CN": "\u7a7a\u6c14\u8d28\u91cf\u4f20\u611f\u5668",
+        "fr-FR": "Capteur de qualit\u00e9 de l'air",
+        "de-DE": "Luftqualit\u00e4tssensor",
+        "ja-JP": "\u7a7a\u6c17\u54c1\u8cea\u30bb\u30f3\u30b5\u30fc",
+        "ko-KR": "\uacf5\uae30\uc9c8 \uc13c\uc11c",
+        "es-ES": "Sensor de calidad del aire",
+        "pt-BR": "Sensor de qualidade do ar"
+    },
     "required-properties": [
         "urn:homekit-spec:property:air-quality:00000095"
     ],

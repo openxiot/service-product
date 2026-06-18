@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:unit:lux:00000002",
+    "description": {
+        "en-US": "lux",
+        "zh-CN": "\u52d2\u514b\u65af",
+        "fr-FR": "lux",
+        "de-DE": "Lux",
+        "ja-JP": "\u30eb\u30af\u30b9",
+        "ko-KR": "\ub7ed\uc2a4",
+        "es-ES": "lux",
+        "pt-BR": "lux"
+    }
+}

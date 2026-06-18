@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:swing-mode:000000B6",
-    "description": "Swing Mode",
+    "description": {
+        "en-US": "Swing Mode",
+        "zh-CN": "\u6446\u52a8\u6a21\u5f0f",
+        "fr-FR": "Mode oscillation",
+        "de-DE": "Schwenkmodus",
+        "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u30e2\u30fc\u30c9",
+        "ko-KR": "\uc2a4\uc719 \ubaa8\ub4dc",
+        "es-ES": "Modo oscilaci\u00f3n",
+        "pt-BR": "Modo oscilante"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "SWING_DISABLED"},
-        {"value": 1, "description": "SWING_ENABLED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "SWING_DISABLED",
+                "zh-CN": "\u6446\u52a8\u5df2\u7981\u7528",
+                "fr-FR": "OSCILLATION D\u00c9SACTIV\u00c9E",
+                "de-DE": "SCHWENKEN DEAKTIVIERT",
+                "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u7121\u52b9",
+                "ko-KR": "\uc2a4\uc719 \ube44\ud65c\uc131\ud654\ub428",
+                "es-ES": "OSCILACI\u00d3N DESACTIVADA",
+                "pt-BR": "OSCILA\u00c7\u00c3O DESATIVADA"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "SWING_ENABLED",
+                "zh-CN": "\u6446\u52a8\u5df2\u542f\u7528",
+                "fr-FR": "OSCILLATION ACTIV\u00c9E",
+                "de-DE": "SCHWENKEN AKTIVIERT",
+                "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u6709\u52b9",
+                "ko-KR": "\uc2a4\uc719 \ud65c\uc131\ud654\ub428",
+                "es-ES": "OSCILACI\u00d3N ACTIVADA",
+                "pt-BR": "OSCILA\u00c7\u00c3O ATIVADA"
+            }
+        }
     ]
 }

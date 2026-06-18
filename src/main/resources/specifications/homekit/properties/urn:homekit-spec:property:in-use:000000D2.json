@@ -1,10 +1,46 @@
 {
     "type": "urn:homekit-spec:property:in-use:000000D2",
-    "description": "In Use",
+    "description": {
+        "en-US": "In Use",
+        "zh-CN": "\u4f7f\u7528\u4e2d",
+        "fr-FR": "En cours d'utilisation",
+        "de-DE": "In Benutzung",
+        "ja-JP": "\u4f7f\u7528\u4e2d",
+        "ko-KR": "\uc0ac\uc6a9 \uc911",
+        "es-ES": "En uso",
+        "pt-BR": "Em uso"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NOT_IN_USE"},
-        {"value": 1, "description": "IN_USE"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NOT_IN_USE",
+                "zh-CN": "\u672a\u4f7f\u7528",
+                "fr-FR": "PAS EN COURS D'UTILISATION",
+                "de-DE": "NICHT IN BENUTZUNG",
+                "ja-JP": "\u672a\u4f7f\u7528",
+                "ko-KR": "\uc0ac\uc6a9 \uc911 \uc544\ub2d8",
+                "es-ES": "NO EN USO",
+                "pt-BR": "N\u00c3O EM USO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "IN_USE",
+                "zh-CN": "\u4f7f\u7528\u4e2d",
+                "fr-FR": "EN COURS D'UTILISATION",
+                "de-DE": "IN BENUTZUNG",
+                "ja-JP": "\u4f7f\u7528\u4e2d",
+                "ko-KR": "\uc0ac\uc6a9 \uc911",
+                "es-ES": "EN USO",
+                "pt-BR": "EM USO"
+            }
+        }
     ]
 }

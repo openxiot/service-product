@@ -1,6 +1,15 @@
 {
     "type": "urn:homekit-spec:service:outlet:00000047",
-    "description": "Outlet",
+    "description": {
+        "en-US": "Outlet",
+        "zh-CN": "\u63d2\u5ea7",
+        "fr-FR": "Prise",
+        "de-DE": "Steckdose",
+        "ja-JP": "\u30b3\u30f3\u30bb\u30f3\u30c8",
+        "ko-KR": "\ucf58\uc13c\ud2b8",
+        "es-ES": "Enchufe",
+        "pt-BR": "Tomada"
+    },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025",
         "urn:homekit-spec:property:outlet-in-use:00000026"

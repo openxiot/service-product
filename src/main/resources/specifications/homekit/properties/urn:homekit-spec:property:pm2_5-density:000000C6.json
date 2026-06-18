@@ -1,7 +1,23 @@
 {
     "type": "urn:homekit-spec:property:pm2_5-density:000000C6",
-    "description": "PM2.5 Density",
+    "description": {
+        "en-US": "PM2.5 Density",
+        "zh-CN": "PM2.5 \u6d53\u5ea6",
+        "fr-FR": "Densit\u00e9 PM2.5",
+        "de-DE": "PM2.5-Dichte",
+        "ja-JP": "PM2.5\u6fc3\u5ea6",
+        "ko-KR": "PM2.5 \ubc00\ub3c4",
+        "es-ES": "Densidad PM2.5",
+        "pt-BR": "Densidade PM2.5"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0, 1000, 1]
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0,
+        1000,
+        1
+    ]
 }

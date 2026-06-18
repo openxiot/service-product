@@ -1,11 +1,59 @@
 {
     "type": "urn:homekit-spec:property:charging-state:0000008F",
-    "description": "Charging State",
+    "description": {
+        "en-US": "Charging State",
+        "zh-CN": "\u5145\u7535\u72b6\u6001",
+        "fr-FR": "\u00c9tat de charge",
+        "de-DE": "Ladezustand",
+        "ja-JP": "\u5145\u96fb\u72b6\u614b",
+        "ko-KR": "\ucda9\uc804 \uc0c1\ud0dc",
+        "es-ES": "Estado de carga",
+        "pt-BR": "Estado de carga"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "NOT_CHARGING"},
-        {"value": 1, "description": "CHARGING"},
-        {"value": 2, "description": "NOT_CHARGEABLE"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "NOT_CHARGING",
+                "zh-CN": "\u672a\u5145\u7535",
+                "fr-FR": "NE CHARGE PAS",
+                "de-DE": "L\u00c4DT NICHT",
+                "ja-JP": "\u5145\u96fb\u306a\u3057",
+                "ko-KR": "\ucda9\uc804 \uc911 \uc544\ub2d8",
+                "es-ES": "NO CARGANDO",
+                "pt-BR": "N\u00c3O CARREGANDO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "CHARGING",
+                "zh-CN": "\u5145\u7535\u4e2d",
+                "fr-FR": "EN CHARGE",
+                "de-DE": "L\u00c4DT",
+                "ja-JP": "\u5145\u96fb\u4e2d",
+                "ko-KR": "\ucda9\uc804 \uc911",
+                "es-ES": "CARGANDO",
+                "pt-BR": "CARREGANDO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "NOT_CHARGEABLE",
+                "zh-CN": "\u4e0d\u53ef\u5145\u7535",
+                "fr-FR": "NON RECHARGEABLE",
+                "de-DE": "NICHT AUFLADBAR",
+                "ja-JP": "\u5145\u96fb\u4e0d\u53ef",
+                "ko-KR": "\ucda9\uc804 \ubd88\uac00",
+                "es-ES": "NO RECARGABLE",
+                "pt-BR": "N\u00c3O RECARREG\u00c1VEL"
+            }
+        }
     ]
 }

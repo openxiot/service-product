@@ -1,8 +1,24 @@
 {
     "type": "urn:homekit-spec:property:current-ambient-light-level:0000006B",
-    "description": "Current Ambient Light Level",
+    "description": {
+        "en-US": "Current Ambient Light Level",
+        "zh-CN": "\u5f53\u524d\u73af\u5883\u5149\u5f3a\u5ea6",
+        "fr-FR": "Niveau de lumi\u00e8re ambiante actuel",
+        "de-DE": "Aktuelle Umgebungslichtst\u00e4rke",
+        "ja-JP": "\u73fe\u5728\u306e\u74b0\u5883\u5149\u30ec\u30d9\u30eb",
+        "ko-KR": "\ud604\uc7ac \uc8fc\ubcc0 \uc870\ub3c4",
+        "es-ES": "Nivel de luz ambiental actual",
+        "pt-BR": "N\u00edvel de luz ambiente atual"
+    },
     "format": "float",
-    "access": ["read", "notify"],
-    "value-range": [0.0001, 100000, 1],
+    "access": [
+        "read",
+        "notify"
+    ],
+    "value-range": [
+        0.0001,
+        100000,
+        1
+    ],
     "unit": "lux"
 }

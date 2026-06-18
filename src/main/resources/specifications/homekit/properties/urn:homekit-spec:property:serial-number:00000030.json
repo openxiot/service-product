@@ -1,6 +1,17 @@
 {
     "type": "urn:homekit-spec:property:serial-number:00000030",
-    "description": "Serial Number",
+    "description": {
+        "en-US": "Serial Number",
+        "zh-CN": "\u5e8f\u5217\u53f7",
+        "fr-FR": "Num\u00e9ro de s\u00e9rie",
+        "de-DE": "Seriennummer",
+        "ja-JP": "\u30b7\u30ea\u30a2\u30eb\u756a\u53f7",
+        "ko-KR": "\uc77c\ub828\ubc88\ud638",
+        "es-ES": "N\u00famero de serie",
+        "pt-BR": "N\u00famero de s\u00e9rie"
+    },
     "format": "string",
-    "access": ["read"]
+    "access": [
+        "read"
+    ]
 }

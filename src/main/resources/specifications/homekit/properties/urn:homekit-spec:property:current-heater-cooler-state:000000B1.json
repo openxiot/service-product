@@ -1,12 +1,72 @@
 {
     "type": "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
-    "description": "Current Heater Cooler State",
+    "description": {
+        "en-US": "Current Heater Cooler State",
+        "zh-CN": "\u5f53\u524d\u52a0\u70ed\u5668/\u51b7\u5374\u5668\u72b6\u6001",
+        "fr-FR": "\u00c9tat actuel du chauffage/refroidisseur",
+        "de-DE": "Aktueller Heizer-K\u00fchler-Status",
+        "ja-JP": "\u73fe\u5728\u306e\u52a0\u71b1\u30fb\u51b7\u5374\u5668\u72b6\u614b",
+        "ko-KR": "\ud604\uc7ac \ud788\ud130/\ucfe8\ub7ec \uc0c1\ud0dc",
+        "es-ES": "Estado actual del calefactor/enfriador",
+        "pt-BR": "Estado atual do aquecedor/refrigerador"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "INACTIVE"},
-        {"value": 1, "description": "IDLE"},
-        {"value": 2, "description": "HEATING"},
-        {"value": 3, "description": "COOLING"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "INACTIVE",
+                "zh-CN": "\u975e\u6d3b\u52a8",
+                "fr-FR": "INACTIF",
+                "de-DE": "INAKTIV",
+                "ja-JP": "\u975e\u30a2\u30af\u30c6\u30a3\u30d6",
+                "ko-KR": "\ube44\ud65c\uc131",
+                "es-ES": "INACTIVO",
+                "pt-BR": "INATIVO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "IDLE",
+                "zh-CN": "\u7a7a\u95f2",
+                "fr-FR": "INACTIF",
+                "de-DE": "BEREIT",
+                "ja-JP": "\u30a2\u30a4\u30c9\u30eb",
+                "ko-KR": "\ub300\uae30 \uc911",
+                "es-ES": "INACTIVO",
+                "pt-BR": "OCIOSO"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "HEATING",
+                "zh-CN": "\u52a0\u70ed\u4e2d",
+                "fr-FR": "EN CHAUFFAGE",
+                "de-DE": "HEIZT",
+                "ja-JP": "\u52a0\u71b1\u4e2d",
+                "ko-KR": "\ub09c\ubc29 \uc911",
+                "es-ES": "CALEFACCI\u00d3N",
+                "pt-BR": "AQUECENDO"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "COOLING",
+                "zh-CN": "\u5236\u51b7\u4e2d",
+                "fr-FR": "EN REFROIDISSEMENT",
+                "de-DE": "K\u00dcHLT",
+                "ja-JP": "\u51b7\u5374\u4e2d",
+                "ko-KR": "\ub0c9\ubc29 \uc911",
+                "es-ES": "ENFRIANDO",
+                "pt-BR": "RESFRIANDO"
+            }
+        }
     ]
 }

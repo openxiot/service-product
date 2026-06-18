@@ -1,6 +1,18 @@
 {
     "type": "urn:homekit-spec:property:accessory-flags:000000A6",
-    "description": "Accessory Flags",
+    "description": {
+        "en-US": "Accessory Flags",
+        "zh-CN": "\u9644\u4ef6\u6807\u5fd7",
+        "fr-FR": "Indicateurs d'accessoire",
+        "de-DE": "Zubeh\u00f6r-Flags",
+        "ja-JP": "\u30a2\u30af\u30bb\u30b5\u30ea\u30d5\u30e9\u30b0",
+        "ko-KR": "\uc561\uc138\uc11c\ub9ac \ud50c\ub798\uadf8",
+        "es-ES": "Indicadores de accesorio",
+        "pt-BR": "Sinalizadores do acess\u00f3rio"
+    },
     "format": "uint32",
-    "access": ["read", "notify"]
+    "access": [
+        "read",
+        "notify"
+    ]
 }

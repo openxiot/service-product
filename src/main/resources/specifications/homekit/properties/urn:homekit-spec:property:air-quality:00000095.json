@@ -1,14 +1,98 @@
 {
     "type": "urn:homekit-spec:property:air-quality:00000095",
-    "description": "Air Quality",
+    "description": {
+        "en-US": "Air Quality",
+        "zh-CN": "\u7a7a\u6c14\u8d28\u91cf",
+        "fr-FR": "Qualit\u00e9 de l'air",
+        "de-DE": "Luftqualit\u00e4t",
+        "ja-JP": "\u7a7a\u6c17\u54c1\u8cea",
+        "ko-KR": "\uacf5\uae30 \uc9c8",
+        "es-ES": "Calidad del aire",
+        "pt-BR": "Qualidade do ar"
+    },
     "format": "uint8",
-    "access": ["read", "notify"],
+    "access": [
+        "read",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "UNKNOWN"},
-        {"value": 1, "description": "EXCELLENT"},
-        {"value": 2, "description": "GOOD"},
-        {"value": 3, "description": "FAIR"},
-        {"value": 4, "description": "INFERIOR"},
-        {"value": 5, "description": "POOR"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "UNKNOWN",
+                "zh-CN": "\u672a\u77e5",
+                "fr-FR": "INCONNU",
+                "de-DE": "UNBEKANNT",
+                "ja-JP": "\u4e0d\u660e",
+                "ko-KR": "\uc54c \uc218 \uc5c6\uc74c",
+                "es-ES": "DESCONOCIDO",
+                "pt-BR": "DESCONHECIDO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "EXCELLENT",
+                "zh-CN": "\u4f18\u79c0",
+                "fr-FR": "EXCELLENT",
+                "de-DE": "HERVORRAGEND",
+                "ja-JP": "\u512a\u826f",
+                "ko-KR": "\uc6b0\uc218",
+                "es-ES": "EXCELENTE",
+                "pt-BR": "EXCELENTE"
+            }
+        },
+        {
+            "value": 2,
+            "description": {
+                "en-US": "GOOD",
+                "zh-CN": "\u826f\u597d",
+                "fr-FR": "BON",
+                "de-DE": "GUT",
+                "ja-JP": "\u826f\u597d",
+                "ko-KR": "\uc88b\uc74c",
+                "es-ES": "BUENO",
+                "pt-BR": "BOM"
+            }
+        },
+        {
+            "value": 3,
+            "description": {
+                "en-US": "FAIR",
+                "zh-CN": "\u4e00\u822c",
+                "fr-FR": "MOYEN",
+                "de-DE": "MITTELM\u00c4\u00dfIG",
+                "ja-JP": "\u666e\u901a",
+                "ko-KR": "\ubcf4\ud1b5",
+                "es-ES": "REGULAR",
+                "pt-BR": "REGULAR"
+            }
+        },
+        {
+            "value": 4,
+            "description": {
+                "en-US": "INFERIOR",
+                "zh-CN": "\u8f83\u5dee",
+                "fr-FR": "INF\u00c9RIEUR",
+                "de-DE": "SCHLECHT",
+                "ja-JP": "\u4e0d\u826f",
+                "ko-KR": "\ub098\uc068",
+                "es-ES": "INFERIOR",
+                "pt-BR": "INFERIOR"
+            }
+        },
+        {
+            "value": 5,
+            "description": {
+                "en-US": "POOR",
+                "zh-CN": "\u5dee",
+                "fr-FR": "MAUVAIS",
+                "de-DE": "ARM",
+                "ja-JP": "\u52a3\u60aa",
+                "ko-KR": "\ub9e4\uc6b0 \ub098\uc068",
+                "es-ES": "POBRE",
+                "pt-BR": "RUIM"
+            }
+        }
     ]
 }

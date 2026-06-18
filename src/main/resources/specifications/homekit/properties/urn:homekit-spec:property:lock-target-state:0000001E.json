@@ -1,10 +1,47 @@
 {
     "type": "urn:homekit-spec:property:lock-target-state:0000001E",
-    "description": "Lock Target State",
+    "description": {
+        "en-US": "Lock Target State",
+        "zh-CN": "\u9501\u76ee\u6807\u72b6\u6001",
+        "fr-FR": "\u00c9tat cible de la serrure",
+        "de-DE": "Gew\u00fcnschter Schlossstatus",
+        "ja-JP": "\u30ed\u30c3\u30af\u76ee\u6a19\u72b6\u614b",
+        "ko-KR": "\uc7a0\uae08 \ubaa9\ud45c \uc0c1\ud0dc",
+        "es-ES": "Estado objetivo de la cerradura",
+        "pt-BR": "Estado alvo da fechadura"
+    },
     "format": "uint8",
-    "access": ["read", "write", "notify"],
+    "access": [
+        "read",
+        "write",
+        "notify"
+    ],
     "value-list": [
-        {"value": 0, "description": "UNSECURED"},
-        {"value": 1, "description": "SECURED"}
+        {
+            "value": 0,
+            "description": {
+                "en-US": "UNSECURED",
+                "zh-CN": "\u672a\u9501\u5b9a",
+                "fr-FR": "D\u00c9VERROUILL\u00c9",
+                "de-DE": "ENTRIEGELT",
+                "ja-JP": "\u89e3\u9320\u6e08\u307f",
+                "ko-KR": "\uc7a0\uae08 \ud574\uc81c\ub428",
+                "es-ES": "DESEGURADO",
+                "pt-BR": "DESTRAVADO"
+            }
+        },
+        {
+            "value": 1,
+            "description": {
+                "en-US": "SECURED",
+                "zh-CN": "\u5df2\u9501\u5b9a",
+                "fr-FR": "VERROUILL\u00c9",
+                "de-DE": "GESICHERT",
+                "ja-JP": "\u65bd\u9320\u6e08\u307f",
+                "ko-KR": "\uc7a0\uae40",
+                "es-ES": "SEGURADO",
+                "pt-BR": "SEGURO"
+            }
+        }
     ]
 }
