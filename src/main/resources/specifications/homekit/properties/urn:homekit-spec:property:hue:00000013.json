@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:hue:00000013",
+    "description": "Hue",
+    "format": "float",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 360, 1],
+    "unit": "arcdegrees"
+}

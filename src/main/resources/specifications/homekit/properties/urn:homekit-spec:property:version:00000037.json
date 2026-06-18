@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:version:00000037",
+    "description": "Version",
+    "format": "string",
+    "access": ["read"]
+}

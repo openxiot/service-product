@@ -1,0 +1,16 @@
+{
+    "type": "urn:homekit-spec:service:accessory-information:0000003E",
+    "description": "Accessory Information",
+    "required-properties": [
+        "urn:homekit-spec:property:identify:00000014",
+        "urn:homekit-spec:property:manufacturer:00000020",
+        "urn:homekit-spec:property:model:00000021",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:serial-number:00000030",
+        "urn:homekit-spec:property:firmware-revision:00000052"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:hardware-revision:00000053",
+        "urn:homekit-spec:property:accessory-flags:000000A6"
+    ]
+}

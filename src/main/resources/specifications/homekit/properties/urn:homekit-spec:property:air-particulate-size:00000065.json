@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:air-particulate-size:00000065",
+    "description": "Air Particulate Size",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "2_5_ΜM"},
+        {"value": 1, "description": "10_ΜM"}
+    ]
+}

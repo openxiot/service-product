@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:service:slat:000000B9",
+    "description": "Slat",
+    "required-properties": [
+        "urn:homekit-spec:property:slat-type:000000C0",
+        "urn:homekit-spec:property:current-slat-state:000000AA"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:current-tilt-angle:000000C1",
+        "urn:homekit-spec:property:target-tilt-angle:000000C2",
+        "urn:homekit-spec:property:swing-mode:000000B6"
+    ]
+}

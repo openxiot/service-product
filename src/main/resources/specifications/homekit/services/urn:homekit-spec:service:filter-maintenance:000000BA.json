@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:service:filter-maintenance:000000BA",
+    "description": "Filter Maintenance",
+    "required-properties": [
+        "urn:homekit-spec:property:filter-change-indication:000000AC"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:filter-life-level:000000AB",
+        "urn:homekit-spec:property:reset-filter-indication:000000AD",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

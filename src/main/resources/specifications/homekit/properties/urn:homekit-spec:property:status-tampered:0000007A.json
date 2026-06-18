@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:status-tampered:0000007A",
+    "description": "Status Tampered",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NOT_TAMPERED"},
+        {"value": 1, "description": "TAMPERED"}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:current-slat-state:000000AA",
+    "description": "Current Slat State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "FIXED"},
+        {"value": 1, "description": "JAMMED"},
+        {"value": 2, "description": "SWINGING"}
+    ]
+}

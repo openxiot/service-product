@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:current-tilt-angle:000000C1",
+    "description": "Current Tilt Angle",
+    "format": "int32",
+    "access": ["read", "notify"],
+    "value-range": [-90, 90, 1],
+    "unit": "arcdegrees"
+}

@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:service:doorbell:00000121",
+    "description": "Doorbell",
+    "required-properties": [
+        "urn:homekit-spec:property:programmable-switch-event:00000073"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:brightness:00000008",
+        "urn:homekit-spec:property:volume:00000119",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

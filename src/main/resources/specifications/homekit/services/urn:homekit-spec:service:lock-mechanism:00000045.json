@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:service:lock-mechanism:00000045",
+    "description": "Lock Mechanism",
+    "required-properties": [
+        "urn:homekit-spec:property:lock-current-state:0000001D",
+        "urn:homekit-spec:property:lock-target-state:0000001E"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

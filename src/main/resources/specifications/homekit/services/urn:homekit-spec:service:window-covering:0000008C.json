@@ -1,0 +1,18 @@
+{
+    "type": "urn:homekit-spec:service:window-covering:0000008C",
+    "description": "Window Covering",
+    "required-properties": [
+        "urn:homekit-spec:property:current-position:0000006D",
+        "urn:homekit-spec:property:target-position:0000007C",
+        "urn:homekit-spec:property:position-state:00000072"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:hold-position:0000006F",
+        "urn:homekit-spec:property:target-horizontal-tilt-angle:0000007B",
+        "urn:homekit-spec:property:target-vertical-tilt-angle:0000007D",
+        "urn:homekit-spec:property:current-horizontal-tilt-angle:0000006C",
+        "urn:homekit-spec:property:current-vertical-tilt-angle:0000006E",
+        "urn:homekit-spec:property:obstruction-detected:00000024",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
+    "description": "Sulphur Dioxide Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:rotation-speed:00000029",
+    "description": "Rotation Speed",
+    "format": "float",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

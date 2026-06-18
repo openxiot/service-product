@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:service:service-label:000000CC",
+    "description": "Service Label",
+    "required-properties": [
+        "urn:homekit-spec:property:service-label-namespace:000000CD"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

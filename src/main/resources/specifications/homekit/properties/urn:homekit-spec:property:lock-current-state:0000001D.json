@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:lock-current-state:0000001D",
+    "description": "Lock Current State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "UNSECURED"},
+        {"value": 1, "description": "SECURED"},
+        {"value": 2, "description": "JAMMED"},
+        {"value": 3, "description": "UNKNOWN"}
+    ]
+}

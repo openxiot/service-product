@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:brightness:00000008",
+    "description": "Brightness",
+    "format": "int32",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

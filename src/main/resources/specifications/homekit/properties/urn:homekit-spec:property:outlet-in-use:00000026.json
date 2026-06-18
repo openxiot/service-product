@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:outlet-in-use:00000026",
+    "description": "Outlet In Use",
+    "format": "bool",
+    "access": ["read", "notify"]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "urn:homekit-spec:service:lock-management:00000044",
+    "description": "Lock Management",
+    "required-properties": [
+        "urn:homekit-spec:property:lock-control-point:00000019",
+        "urn:homekit-spec:property:version:00000037"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:logs:0000001F",
+        "urn:homekit-spec:property:audio-feedback:00000005",
+        "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
+        "urn:homekit-spec:property:administrator-only-access:00000001",
+        "urn:homekit-spec:property:lock-last-known-action:0000001C",
+        "urn:homekit-spec:property:current-door-state:0000000E",
+        "urn:homekit-spec:property:motion-detected:00000022",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

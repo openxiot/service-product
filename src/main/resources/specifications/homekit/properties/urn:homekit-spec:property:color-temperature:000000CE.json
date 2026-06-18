@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:color-temperature:000000CE",
+    "description": "Color Temperature",
+    "format": "uint32",
+    "access": ["read", "write", "notify"],
+    "value-range": [140, 500, 1]
+}

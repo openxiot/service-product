@@ -1,0 +1,15 @@
+{
+    "type": "urn:homekit-spec:service:air-purifier:000000BB",
+    "description": "Air Purifier",
+    "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:current-air-purifier-state:000000A9",
+        "urn:homekit-spec:property:target-air-purifier-state:000000A8"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:swing-mode:000000B6",
+        "urn:homekit-spec:property:rotation-speed:00000029"
+    ]
+}

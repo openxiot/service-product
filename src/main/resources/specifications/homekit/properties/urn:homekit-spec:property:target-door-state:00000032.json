@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:target-door-state:00000032",
+    "description": "Target Door State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "OPEN"},
+        {"value": 1, "description": "CLOSED"}
+    ]
+}

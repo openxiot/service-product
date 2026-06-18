@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:status-low-battery:00000079",
+    "description": "Status Low Battery",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "BATTERY_LEVEL_NORMAL"},
+        {"value": 1, "description": "BATTERY_LEVEL_LOW"}
+    ]
+}

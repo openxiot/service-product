@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:reset-filter-indication:000000AD",
+    "description": "Reset Filter Indication",
+    "format": "uint8",
+    "access": ["write"],
+    "value-range": [1, 1, 1]
+}

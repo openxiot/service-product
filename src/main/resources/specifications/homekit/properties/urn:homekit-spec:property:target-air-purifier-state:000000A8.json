@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:target-air-purifier-state:000000A8",
+    "description": "Target Air Purifier State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "MANUAL"},
+        {"value": 1, "description": "AUTO"}
+    ]
+}

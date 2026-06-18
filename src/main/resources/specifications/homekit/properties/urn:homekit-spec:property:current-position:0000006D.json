@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:current-position:0000006D",
+    "description": "Current Position",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

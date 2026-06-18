@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:pair-verify:0000004E",
+    "description": "Pair Verify",
+    "format": "tlv8",
+    "access": ["read", "write"]
+}

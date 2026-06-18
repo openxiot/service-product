@@ -1,0 +1,19 @@
+{
+    "type": "urn:homekit-spec:service:humidifier-dehumidifier:000000BD",
+    "description": "Humidifier Dehumidifier",
+    "required-properties": [
+        "urn:homekit-spec:property:current-relative-humidity:00000010",
+        "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
+        "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
+        "urn:homekit-spec:property:active:000000B0"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:swing-mode:000000B6",
+        "urn:homekit-spec:property:water-level:000000B5",
+        "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
+        "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
+        "urn:homekit-spec:property:rotation-speed:00000029"
+    ]
+}

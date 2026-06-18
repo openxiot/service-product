@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:serial-number:00000030",
+    "description": "Serial Number",
+    "format": "string",
+    "access": ["read"]
+}

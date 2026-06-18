@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:service:garage-door-opener:00000041",
+    "description": "Garage Door Opener",
+    "required-properties": [
+        "urn:homekit-spec:property:current-door-state:0000000E",
+        "urn:homekit-spec:property:target-door-state:00000032",
+        "urn:homekit-spec:property:obstruction-detected:00000024"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:lock-current-state:0000001D",
+        "urn:homekit-spec:property:lock-target-state:0000001E",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:pairing-features:0000004F",
+    "description": "Pairing Features",
+    "format": "uint8",
+    "access": ["read"]
+}

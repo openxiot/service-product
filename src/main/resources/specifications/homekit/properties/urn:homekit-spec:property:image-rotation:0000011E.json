@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:image-rotation:0000011E",
+    "description": "Image Rotation",
+    "format": "float",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 270, 90],
+    "unit": "arcdegrees"
+}

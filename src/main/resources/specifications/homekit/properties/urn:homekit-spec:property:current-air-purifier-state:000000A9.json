@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:current-air-purifier-state:000000A9",
+    "description": "Current Air Purifier State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "INACTIVE"},
+        {"value": 1, "description": "IDLE"},
+        {"value": 2, "description": "PURIFYING_AIR"}
+    ]
+}

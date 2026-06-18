@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:volume:00000119",
+    "description": "Volume",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

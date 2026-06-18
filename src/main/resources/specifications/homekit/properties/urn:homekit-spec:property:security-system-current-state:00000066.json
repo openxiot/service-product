@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:property:security-system-current-state:00000066",
+    "description": "Security System Current State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "STAY_ARM"},
+        {"value": 1, "description": "AWAY_ARM"},
+        {"value": 2, "description": "NIGHT_ARM"},
+        {"value": 3, "description": "DISARMED"},
+        {"value": 4, "description": "ALARM_TRIGGERED"}
+    ]
+}

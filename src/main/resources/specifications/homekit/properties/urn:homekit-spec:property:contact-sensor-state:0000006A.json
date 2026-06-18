@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:contact-sensor-state:0000006A",
+    "description": "Contact Sensor State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "CONTACT_DETECTED"},
+        {"value": 1, "description": "CONTACT_NOT_DETECTED"}
+    ]
+}

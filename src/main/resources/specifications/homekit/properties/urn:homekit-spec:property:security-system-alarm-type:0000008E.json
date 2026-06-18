@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:security-system-alarm-type:0000008E",
+    "description": "Security System Alarm Type",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-range": [0, 1, 1]
+}

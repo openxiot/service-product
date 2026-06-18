@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:program-mode:000000D1",
+    "description": "Program Mode",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NO_PROGRAM_SCHEDULED"},
+        {"value": 1, "description": "PROGRAM_SCHEDULED"},
+        {"value": 2, "description": "PROGRAM_SCHEDULED_(MANUAL_MODE)"}
+    ]
+}

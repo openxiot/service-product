@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:service:outlet:00000047",
+    "description": "Outlet",
+    "required-properties": [
+        "urn:homekit-spec:property:on:00000025",
+        "urn:homekit-spec:property:outlet-in-use:00000026"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

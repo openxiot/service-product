@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:manufacturer:00000020",
+    "description": "Manufacturer",
+    "format": "string",
+    "access": ["read"]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:position-state:00000072",
+    "description": "Position State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "DECREASING"},
+        {"value": 1, "description": "INCREASING"},
+        {"value": 2, "description": "STOPPED"}
+    ]
+}

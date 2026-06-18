@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:identify:00000014",
+    "description": "Identify",
+    "format": "bool",
+    "access": ["write"]
+}

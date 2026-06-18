@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
+    "description": "Current Heating Cooling State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "OFF"},
+        {"value": 1, "description": "HEAT"},
+        {"value": 2, "description": "COOL"}
+    ]
+}

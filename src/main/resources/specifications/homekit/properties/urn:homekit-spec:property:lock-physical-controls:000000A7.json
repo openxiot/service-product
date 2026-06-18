@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:lock-physical-controls:000000A7",
+    "description": "Lock Physical Controls",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "CONTROL_LOCK_DISABLED"},
+        {"value": 1, "description": "CONTROL_LOCK_ENABLED"}
+    ]
+}

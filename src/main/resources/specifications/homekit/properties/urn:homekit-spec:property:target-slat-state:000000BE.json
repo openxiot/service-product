@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:target-slat-state:000000BE",
+    "description": "Target Slat State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "MANUAL"},
+        {"value": 1, "description": "AUTO"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:battery-level:00000068",
+    "description": "Battery Level",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:service:security-system:0000007E",
+    "description": "Security System",
+    "required-properties": [
+        "urn:homekit-spec:property:security-system-current-state:00000066",
+        "urn:homekit-spec:property:security-system-target-state:00000067"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:security-system-alarm-type:0000008E",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

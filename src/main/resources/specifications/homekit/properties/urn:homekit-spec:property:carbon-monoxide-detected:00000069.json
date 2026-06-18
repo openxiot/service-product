@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:carbon-monoxide-detected:00000069",
+    "description": "Carbon Monoxide Detected",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "CO_LEVELS_NORMAL"},
+        {"value": 1, "description": "CO_LEVELS_ABNORMAL"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:pm10-density:000000C7",
+    "description": "PM10 Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

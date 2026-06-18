@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:target-air-quality:000000AE",
+    "description": "Target Air Quality",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "EXCELLENT"},
+        {"value": 1, "description": "GOOD"},
+        {"value": 2, "description": "FAIR"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:image-mirroring:0000011F",
+    "description": "Image Mirroring",
+    "format": "bool",
+    "access": ["read", "write", "notify"]
+}

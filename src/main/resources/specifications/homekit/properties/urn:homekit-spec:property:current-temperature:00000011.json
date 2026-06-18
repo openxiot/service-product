@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:current-temperature:00000011",
+    "description": "Current Temperature",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 100, 0.1],
+    "unit": "celsius"
+}

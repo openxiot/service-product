@@ -1,0 +1,17 @@
+{
+    "type": "urn:homekit-spec:service:valve:000000D0",
+    "description": "Valve",
+    "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:in-use:000000D2",
+        "urn:homekit-spec:property:valve-type:000000D5"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:set-duration:000000D3",
+        "urn:homekit-spec:property:remaining-duration:000000D4",
+        "urn:homekit-spec:property:is-configured:000000D6",
+        "urn:homekit-spec:property:service-label-index:000000CB",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

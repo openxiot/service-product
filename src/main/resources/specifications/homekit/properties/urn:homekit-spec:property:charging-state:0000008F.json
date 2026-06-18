@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:charging-state:0000008F",
+    "description": "Charging State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NOT_CHARGING"},
+        {"value": 1, "description": "CHARGING"},
+        {"value": 2, "description": "NOT_CHARGEABLE"}
+    ]
+}

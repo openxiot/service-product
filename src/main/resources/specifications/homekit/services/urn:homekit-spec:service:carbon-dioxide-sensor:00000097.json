@@ -1,0 +1,16 @@
+{
+    "type": "urn:homekit-spec:service:carbon-dioxide-sensor:00000097",
+    "description": "Carbon Dioxide Sensor",
+    "required-properties": [
+        "urn:homekit-spec:property:carbon-dioxide-detected:00000092"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:carbon-dioxide-level:00000093",
+        "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

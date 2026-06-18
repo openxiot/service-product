@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:voc-density:000000C8",
+    "description": "VOC Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

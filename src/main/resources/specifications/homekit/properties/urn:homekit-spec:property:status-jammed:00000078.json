@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:status-jammed:00000078",
+    "description": "Status Jammed",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NOT_JAMMED"},
+        {"value": 1, "description": "JAMMED"}
+    ]
+}

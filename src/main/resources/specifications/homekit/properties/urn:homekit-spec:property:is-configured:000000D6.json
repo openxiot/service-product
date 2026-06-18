@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:is-configured:000000D6",
+    "description": "Is Configured",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NOT_CONFIGURED"},
+        {"value": 1, "description": "CONFIGURED"}
+    ]
+}

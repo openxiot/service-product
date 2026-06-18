@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
+    "description": "Nitrogen Dioxide Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

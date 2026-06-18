@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:smoke-detected:00000076",
+    "description": "Smoke Detected",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "SMOKE_NOT_DETECTED"},
+        {"value": 1, "description": "SMOKE_DETECTED"}
+    ]
+}

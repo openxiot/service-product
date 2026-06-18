@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
+    "description": "Supported Audio Stream Configuration",
+    "format": "tlv8",
+    "access": ["read"]
+}

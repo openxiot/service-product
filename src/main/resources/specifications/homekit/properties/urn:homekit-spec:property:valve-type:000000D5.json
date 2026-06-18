@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:valve-type:000000D5",
+    "description": "Valve Type",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "GENERIC_VALVE"},
+        {"value": 1, "description": "IRRIGATION"},
+        {"value": 2, "description": "SHOWER_HEAD"},
+        {"value": 3, "description": "WATER_FAUCET"}
+    ]
+}

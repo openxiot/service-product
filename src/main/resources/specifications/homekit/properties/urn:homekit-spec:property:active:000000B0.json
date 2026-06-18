@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:active:000000B0",
+    "description": "Active",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "INACTIVE"},
+        {"value": 1, "description": "ACTIVE"}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:swing-mode:000000B6",
+    "description": "Swing Mode",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "SWING_DISABLED"},
+        {"value": 1, "description": "SWING_ENABLED"}
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:pm2_5-density:000000C6",
+    "description": "PM2.5 Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:water-level:000000B5",
+    "description": "Water Level",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

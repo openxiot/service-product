@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:service:lightbulb:00000043",
+    "description": "Lightbulb",
+    "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:brightness:00000008",
+        "urn:homekit-spec:property:hue:00000013",
+        "urn:homekit-spec:property:saturation:0000002F",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

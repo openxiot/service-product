@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:motion-detected:00000022",
+    "description": "Motion Detected",
+    "format": "bool",
+    "access": ["read", "notify"]
+}

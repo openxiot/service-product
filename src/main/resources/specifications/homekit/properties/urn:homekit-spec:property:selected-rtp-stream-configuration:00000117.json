@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
+    "description": "Selected RTP Stream Configuration",
+    "format": "tlv8",
+    "access": ["read", "write"]
+}

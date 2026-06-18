@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:target-heating-cooling-state:00000033",
+    "description": "Target Heating Cooling State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "OFF"},
+        {"value": 1, "description": "HEAT"},
+        {"value": 2, "description": "COOL"},
+        {"value": 3, "description": "AUTO"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:pair-setup:0000004C",
+    "description": "Pair Setup",
+    "format": "tlv8",
+    "access": ["read", "write"]
+}

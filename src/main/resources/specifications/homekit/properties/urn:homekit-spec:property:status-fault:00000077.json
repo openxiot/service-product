@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:status-fault:00000077",
+    "description": "Status Fault",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "NO_FAULT"},
+        {"value": 1, "description": "GENERAL_FAULT"}
+    ]
+}

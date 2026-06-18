@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:set-duration:000000D3",
+    "description": "Set Duration",
+    "format": "uint32",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 3600, 1]
+}

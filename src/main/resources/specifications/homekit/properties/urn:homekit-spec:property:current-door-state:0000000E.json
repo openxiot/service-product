@@ -1,0 +1,13 @@
+{
+    "type": "urn:homekit-spec:property:current-door-state:0000000E",
+    "description": "Current Door State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "OPEN"},
+        {"value": 1, "description": "CLOSED"},
+        {"value": 2, "description": "OPENING"},
+        {"value": 3, "description": "CLOSING"},
+        {"value": 4, "description": "STOPPED"}
+    ]
+}

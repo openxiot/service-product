@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:service:stateless-programmable-switch:00000089",
+    "description": "Stateless Programmable Switch",
+    "required-properties": [
+        "urn:homekit-spec:property:programmable-switch-event:00000073"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:service-label-index:000000CB"
+    ]
+}

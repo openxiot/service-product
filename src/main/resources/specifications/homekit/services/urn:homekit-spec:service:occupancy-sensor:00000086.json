@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:service:occupancy-sensor:00000086",
+    "description": "Occupancy Sensor",
+    "required-properties": [
+        "urn:homekit-spec:property:occupancy-detected:00000071"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079"
+    ]
+}

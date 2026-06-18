@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:lock-target-state:0000001E",
+    "description": "Lock Target State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "UNSECURED"},
+        {"value": 1, "description": "SECURED"}
+    ]
+}

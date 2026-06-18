@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:night-vision:0000011B",
+    "description": "Night Vision",
+    "format": "bool",
+    "access": ["read", "write", "notify"]
+}

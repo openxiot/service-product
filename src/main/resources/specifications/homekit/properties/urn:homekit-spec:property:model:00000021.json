@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:model:00000021",
+    "description": "Model",
+    "format": "string",
+    "access": ["read"]
+}

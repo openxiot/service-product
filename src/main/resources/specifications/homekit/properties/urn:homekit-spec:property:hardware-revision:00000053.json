@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:hardware-revision:00000053",
+    "description": "Hardware Revision",
+    "format": "string",
+    "access": ["read"]
+}

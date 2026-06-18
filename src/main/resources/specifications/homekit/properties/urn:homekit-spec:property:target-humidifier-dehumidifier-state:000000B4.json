@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
+    "description": "Target Humidifier Dehumidifier State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "HUMIDIFIER_OR_DEHUMIDIFIER"},
+        {"value": 1, "description": "HUMIDIFIER"},
+        {"value": 2, "description": "DEHUMIDIFIER"}
+    ]
+}

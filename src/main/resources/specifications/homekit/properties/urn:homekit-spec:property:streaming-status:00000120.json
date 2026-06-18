@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:streaming-status:00000120",
+    "description": "Streaming Status",
+    "format": "tlv8",
+    "access": ["read", "notify"]
+}

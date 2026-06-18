@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:remaining-duration:000000D4",
+    "description": "Remaining Duration",
+    "format": "uint32",
+    "access": ["read", "notify"],
+    "value-range": [0, 3600, 1]
+}

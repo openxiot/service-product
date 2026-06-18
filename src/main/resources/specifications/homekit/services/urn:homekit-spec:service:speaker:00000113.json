@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:service:speaker:00000113",
+    "description": "Speaker",
+    "required-properties": [
+        "urn:homekit-spec:property:mute:0000011A"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:volume:00000119"
+    ]
+}

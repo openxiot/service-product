@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:occupancy-detected:00000071",
+    "description": "Occupancy Detected",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "OCCUPANCY_NOT_DETECTED"},
+        {"value": 1, "description": "OCCUPANCY_DETECTED"}
+    ]
+}

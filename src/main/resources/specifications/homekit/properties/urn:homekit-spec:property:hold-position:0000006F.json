@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:hold-position:0000006F",
+    "description": "Hold Position",
+    "format": "bool",
+    "access": ["write"]
+}

@@ -1,0 +1,18 @@
+{
+    "type": "urn:homekit-spec:service:thermostat:0000004A",
+    "description": "Thermostat",
+    "required-properties": [
+        "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
+        "urn:homekit-spec:property:target-heating-cooling-state:00000033",
+        "urn:homekit-spec:property:current-temperature:00000011",
+        "urn:homekit-spec:property:target-temperature:00000035",
+        "urn:homekit-spec:property:temperature-display-units:00000036"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:current-relative-humidity:00000010",
+        "urn:homekit-spec:property:target-relative-humidity:00000034",
+        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

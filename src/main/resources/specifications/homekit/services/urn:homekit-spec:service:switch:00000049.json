@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:service:switch:00000049",
+    "description": "Switch",
+    "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

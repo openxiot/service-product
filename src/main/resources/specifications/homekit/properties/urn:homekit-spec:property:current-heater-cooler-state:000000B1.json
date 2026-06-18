@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
+    "description": "Current Heater Cooler State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "INACTIVE"},
+        {"value": 1, "description": "IDLE"},
+        {"value": 2, "description": "HEATING"},
+        {"value": 3, "description": "COOLING"}
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
+    "description": "Current Humidifier Dehumidifier State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "INACTIVE"},
+        {"value": 1, "description": "IDLE"},
+        {"value": 2, "description": "HUMIDIFYING"},
+        {"value": 3, "description": "DEHUMIDIFYING"}
+    ]
+}

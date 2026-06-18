@@ -1,0 +1,22 @@
+{
+    "type": "urn:homekit-spec:service:air-quality-sensor:0000008D",
+    "description": "Air Quality Sensor",
+    "required-properties": [
+        "urn:homekit-spec:property:air-quality:00000095"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:ozone-density:000000C3",
+        "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
+        "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
+        "urn:homekit-spec:property:pm2_5-density:000000C6",
+        "urn:homekit-spec:property:pm10-density:000000C7",
+        "urn:homekit-spec:property:voc-density:000000C8",
+        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
+        "urn:homekit-spec:property:carbon-dioxide-level:00000093"
+    ]
+}

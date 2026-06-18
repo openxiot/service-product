@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:target-relative-humidity:00000034",
+    "description": "Target Relative Humidity",
+    "format": "float",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 100, 1],
+    "unit": "percentage"
+}

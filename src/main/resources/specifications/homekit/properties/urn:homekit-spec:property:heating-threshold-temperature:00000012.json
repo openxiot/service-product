@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+    "description": "Heating Threshold Temperature",
+    "format": "float",
+    "access": ["read", "write", "notify"],
+    "value-range": [0, 25, 0.1],
+    "unit": "celsius"
+}

@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:air-particulate-density:00000064",
+    "description": "Air Particulate Density",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 1000, 1]
+}

@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:digital-zoom:0000011D",
+    "description": "Digital Zoom",
+    "format": "float",
+    "access": ["read", "write", "notify"]
+}

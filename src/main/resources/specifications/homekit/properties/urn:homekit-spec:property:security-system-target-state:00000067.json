@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:property:security-system-target-state:00000067",
+    "description": "Security System Target State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "STAY_ARM"},
+        {"value": 1, "description": "AWAY_ARM"},
+        {"value": 2, "description": "NIGHT_ARM"},
+        {"value": 3, "description": "DISARM"}
+    ]
+}

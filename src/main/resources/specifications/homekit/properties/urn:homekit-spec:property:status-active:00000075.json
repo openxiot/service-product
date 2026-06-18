@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:status-active:00000075",
+    "description": "Status Active",
+    "format": "bool",
+    "access": ["read", "notify"]
+}

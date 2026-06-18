@@ -1,0 +1,12 @@
+{
+    "type": "urn:homekit-spec:service:fan:00000040",
+    "description": "Fan",
+    "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:rotation-direction:00000028",
+        "urn:homekit-spec:property:rotation-speed:00000029",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

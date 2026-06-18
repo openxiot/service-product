@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
+    "description": "Target Heater Cooler State",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "AUTO"},
+        {"value": 1, "description": "HEAT"},
+        {"value": 2, "description": "COOL"}
+    ]
+}

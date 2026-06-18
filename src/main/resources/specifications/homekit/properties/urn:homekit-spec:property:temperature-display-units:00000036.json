@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:temperature-display-units:00000036",
+    "description": "Temperature Display Units",
+    "format": "uint8",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "CELSIUS"},
+        {"value": 1, "description": "FAHRENHEIT"}
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:accessory-flags:000000A6",
+    "description": "Accessory Flags",
+    "format": "uint32",
+    "access": ["read", "notify"]
+}

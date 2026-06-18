@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:supported-rtp-configuration:00000116",
+    "description": "Supported RTP Configuration",
+    "format": "tlv8",
+    "access": ["read"]
+}

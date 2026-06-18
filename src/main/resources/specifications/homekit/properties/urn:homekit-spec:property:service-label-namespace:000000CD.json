@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:service-label-namespace:000000CD",
+    "description": "Service Label Namespace",
+    "format": "uint8",
+    "access": ["read"],
+    "value-list": [
+        {"value": 0, "description": "DOTS"},
+        {"value": 1, "description": "ARABIC_NUMERALS"}
+    ]
+}

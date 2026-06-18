@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:current-fan-state:000000AF",
+    "description": "Current Fan State",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "INACTIVE"},
+        {"value": 1, "description": "IDLE"},
+        {"value": 2, "description": "BLOWING_AIR"}
+    ]
+}

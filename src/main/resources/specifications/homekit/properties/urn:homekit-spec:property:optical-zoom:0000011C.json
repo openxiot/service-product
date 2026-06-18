@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:optical-zoom:0000011C",
+    "description": "Optical Zoom",
+    "format": "float",
+    "access": ["read", "write", "notify"]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "urn:homekit-spec:property:lock-last-known-action:0000001C",
+    "description": "Lock Last Known Action",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "SECURED_PHYSICALLY_INTERIOR"},
+        {"value": 1, "description": "UNSECURED_PHYSICALLY_INTERIOR"},
+        {"value": 2, "description": "SECURED_PHYSICALLY_EXTERIOR"},
+        {"value": 3, "description": "UNSECURED_PHYSICALLY_EXTERIOR"},
+        {"value": 4, "description": "SECURED_BY_KEYPAD"},
+        {"value": 5, "description": "UNSECURED_BY_KEYPAD"},
+        {"value": 6, "description": "SECURED_REMOTELY"},
+        {"value": 7, "description": "UNSECURED_REMOTELY"},
+        {"value": 8, "description": "SECURED_BY_AUTO_SECURE_TIMEOUT"}
+    ]
+}

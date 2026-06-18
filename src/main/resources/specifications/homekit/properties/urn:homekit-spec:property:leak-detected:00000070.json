@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:leak-detected:00000070",
+    "description": "Leak Detected",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "LEAK_NOT_DETECTED"},
+        {"value": 1, "description": "LEAK_DETECTED"}
+    ]
+}

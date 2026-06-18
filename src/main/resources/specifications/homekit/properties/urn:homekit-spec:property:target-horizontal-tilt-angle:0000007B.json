@@ -1,0 +1,8 @@
+{
+    "type": "urn:homekit-spec:property:target-horizontal-tilt-angle:0000007B",
+    "description": "Target Horizontal Tilt Angle",
+    "format": "int32",
+    "access": ["read", "write", "notify"],
+    "value-range": [-90, 90, 1],
+    "unit": "arcdegrees"
+}

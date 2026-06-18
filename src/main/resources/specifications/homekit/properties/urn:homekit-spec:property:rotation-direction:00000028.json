@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:rotation-direction:00000028",
+    "description": "Rotation Direction",
+    "format": "int32",
+    "access": ["read", "write", "notify"],
+    "value-list": [
+        {"value": 0, "description": "CLOCKWISE"},
+        {"value": 1, "description": "COUNTER_CLOCKWISE"}
+    ]
+}

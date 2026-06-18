@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:audio-feedback:00000005",
+    "description": "Audio Feedback",
+    "format": "bool",
+    "access": ["read", "write", "notify"]
+}

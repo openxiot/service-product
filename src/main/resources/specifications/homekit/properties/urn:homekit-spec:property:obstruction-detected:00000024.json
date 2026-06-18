@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:obstruction-detected:00000024",
+    "description": "Obstruction Detected",
+    "format": "bool",
+    "access": ["read", "notify"]
+}

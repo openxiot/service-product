@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:setup-endpoints:00000118",
+    "description": "Setup Endpoints",
+    "format": "tlv8",
+    "access": ["read", "write"]
+}

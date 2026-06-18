@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:property:programmable-switch-event:00000073",
+    "description": "Programmable Switch Event",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "SINGLE_PRESS"},
+        {"value": 1, "description": "DOUBLE_PRESS"},
+        {"value": 2, "description": "LONG_PRESS"}
+    ]
+}

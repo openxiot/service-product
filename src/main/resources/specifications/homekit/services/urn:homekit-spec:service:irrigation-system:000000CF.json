@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:service:irrigation-system:000000CF",
+    "description": "Irrigation System",
+    "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:program-mode:000000D1",
+        "urn:homekit-spec:property:in-use:000000D2"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:remaining-duration:000000D4",
+        "urn:homekit-spec:property:status-fault:00000077"
+    ]
+}

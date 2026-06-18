@@ -1,0 +1,16 @@
+{
+    "type": "urn:homekit-spec:service:carbon-monoxide-sensor:0000007F",
+    "description": "Carbon Monoxide Sensor",
+    "required-properties": [
+        "urn:homekit-spec:property:carbon-monoxide-detected:00000069"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
+        "urn:homekit-spec:property:carbon-monoxide-peak-level:00000091",
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

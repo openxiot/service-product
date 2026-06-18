@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:on:00000025",
+    "description": "On",
+    "format": "bool",
+    "access": ["read", "write", "notify"]
+}

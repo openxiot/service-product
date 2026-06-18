@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:property:air-quality:00000095",
+    "description": "Air Quality",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "UNKNOWN"},
+        {"value": 1, "description": "EXCELLENT"},
+        {"value": 2, "description": "GOOD"},
+        {"value": 3, "description": "FAIR"},
+        {"value": 4, "description": "INFERIOR"},
+        {"value": 5, "description": "POOR"}
+    ]
+}

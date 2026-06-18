@@ -1,0 +1,10 @@
+{
+    "type": "urn:homekit-spec:property:filter-change-indication:000000AC",
+    "description": "Filter Change Indication",
+    "format": "uint8",
+    "access": ["read", "notify"],
+    "value-list": [
+        {"value": 0, "description": "FILTER_OK"},
+        {"value": 1, "description": "CHANGE_FILTER"}
+    ]
+}

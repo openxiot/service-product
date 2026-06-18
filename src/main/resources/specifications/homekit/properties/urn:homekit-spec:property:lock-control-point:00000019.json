@@ -1,0 +1,6 @@
+{
+    "type": "urn:homekit-spec:property:lock-control-point:00000019",
+    "description": "Lock Control Point",
+    "format": "tlv8",
+    "access": ["write"]
+}

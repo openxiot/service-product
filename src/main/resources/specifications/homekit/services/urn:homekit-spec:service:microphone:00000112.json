@@ -1,0 +1,11 @@
+{
+    "type": "urn:homekit-spec:service:microphone:00000112",
+    "description": "Microphone",
+    "required-properties": [
+        "urn:homekit-spec:property:volume:00000119",
+        "urn:homekit-spec:property:mute:0000011A"
+    ],
+    "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+    ]
+}

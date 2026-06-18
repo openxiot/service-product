@@ -1,0 +1,7 @@
+{
+    "type": "urn:homekit-spec:property:carbon-dioxide-level:00000093",
+    "description": "Carbon Dioxide Level",
+    "format": "float",
+    "access": ["read", "notify"],
+    "value-range": [0, 100000, 1]
+}
