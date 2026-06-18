@@ -84,7 +84,7 @@ public class ServiceService {
             throw new IllegalArgumentException("service not found!");
         }
 
-        return ServiceDefinitionMapper.toDefinition(spec.namespace.code, found);
+        return ServiceDefinitionMapper.toDefinition(spec, found);
     }
 
     public List<ServiceDefinition> findByNamespace(String ns) {
@@ -95,7 +95,7 @@ public class ServiceService {
 
         return spec.services.values()
                 .stream()
-                .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
+                .map(x -> ServiceDefinitionMapper.toDefinition(spec, x))
                 .toList();
     }
 
@@ -108,7 +108,7 @@ public class ServiceService {
             if (spec.services !=null) {
                 List<ServiceDefinition> services = spec.services.values()
                         .stream()
-                        .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .map(x -> ServiceDefinitionMapper.toDefinition(spec, x))
                         .toList();
 
                 result.addAll(services);

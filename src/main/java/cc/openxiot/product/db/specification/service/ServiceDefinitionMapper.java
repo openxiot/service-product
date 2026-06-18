@@ -1,10 +1,8 @@
 package cc.openxiot.product.db.specification.service;
 
+import cc.openxiot.product.db.specification.SpecificationEntity;
 import cn.geekcity.xiot.spec.definition.ServiceDefinition;
-import cn.geekcity.xiot.spec.definition.urn.ActionType;
-import cn.geekcity.xiot.spec.definition.urn.EventType;
-import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.definition.urn.ServiceType;
+import cn.geekcity.xiot.spec.definition.urn.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,54 +18,42 @@ public class ServiceDefinitionMapper {
         entity.code = definition.type().name();
         entity.value = definition.type().value();
         entity.description = definition.description();
-        entity.optionalProperties = definition.optionalProperties().stream().map(x -> x.type().name()).toList();
-        entity.requiredProperties = definition.requiredProperties().stream().map(x -> x.type().name()).toList();
-        entity.optionalActions = definition.optionalActions().stream().map(x -> x.type().name()).toList();
-        entity.requiredActions = definition.requiredActions().stream().map(x -> x.type().name()).toList();
-        entity.optionalEvents = definition.optionalEvents().stream().map(x -> x.type().name()).toList();
-        entity.requiredEvents = definition.requiredEvents().stream().map(x -> x.type().name()).toList();
+        entity.optionalProperties = definition.optionalProperties().stream().map(Urn::name).toList();
+        entity.requiredProperties = definition.requiredProperties().stream().map(Urn::name).toList();
+        entity.optionalActions = definition.optionalActions().stream().map(Urn::name).toList();
+        entity.requiredActions = definition.requiredActions().stream().map(Urn::name).toList();
+        entity.optionalEvents = definition.optionalEvents().stream().map(Urn::name).toList();
+        entity.requiredEvents = definition.requiredEvents().stream().map(Urn::name).toList();
 
         entity.lifecycle = definition.lifecycle().toString();
 
         return entity;
     }
 
-    public static ServiceDefinition toDefinition(String ns, ServiceDefinitionEntity entity) {
+    public static ServiceDefinition toDefinition(SpecificationEntity spec, ServiceDefinitionEntity entity) {
         if (entity == null) {
             return null;
         }
 
-        ServiceType type = new ServiceType(ns, entity.code, entity.value);
+        ServiceType type = new ServiceType(spec.namespace.code, entity.code, entity.value);
 
         List<PropertyType> optionalProperties = entity.optionalProperties == null ? new ArrayList<>():
-                entity.optionalProperties.stream()
-                .map(x -> new PropertyType(ns, entity.code, entity.value))
-                .toList();
+                entity.optionalProperties.stream().map(spec::getPropertyType).toList();
 
         List<PropertyType> requiredProperties = entity.requiredProperties == null ? new ArrayList<>():
-                entity.requiredProperties.stream()
-                .map(x -> new PropertyType(ns, entity.code, entity.value))
-                .toList();
+                entity.requiredProperties.stream().map(spec::getPropertyType).toList();
 
         List<ActionType> optionalActions = entity.optionalActions == null ? new ArrayList<>():
-                entity.optionalActions.stream()
-                .map(x -> new ActionType(ns, entity.code, entity.value))
-                .toList();
+                entity.optionalActions.stream().map(spec::getActionType).toList();
 
         List<ActionType> requiredActions = entity.requiredActions == null ? new ArrayList<>():
-                entity.requiredActions.stream()
-                .map(x -> new ActionType(ns, entity.code, entity.value))
-                .toList();
+                entity.requiredActions.stream().map(spec::getActionType).toList();
 
         List<EventType> optionalEvents = entity.optionalEvents == null ? new ArrayList<>():
-                entity.optionalEvents.stream()
-                .map(x -> new EventType(ns, entity.code, entity.value))
-                .toList();
+                entity.optionalEvents.stream().map(spec::getEventType).toList();
 
         List<EventType> requiredEvents = entity.requiredEvents == null ? new ArrayList<>():
-                entity.requiredEvents.stream()
-                .map(x -> new EventType(ns, entity.code, entity.value))
-                .toList();
+                entity.requiredEvents.stream().map(spec::getEventType).toList();
 
         ServiceDefinition def =
                 new ServiceDefinition(

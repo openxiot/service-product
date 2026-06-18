@@ -86,7 +86,7 @@ public class SpecificationPrepared {
         }
 
         return spec.services.values().stream()
-                .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
+                .map(x -> ServiceDefinitionMapper.toDefinition(spec, x))
                 .toList();
     }
 
@@ -101,7 +101,7 @@ public class SpecificationPrepared {
             throw new IOException("Device not found: " + type.name());
         }
 
-        return ServiceDefinitionMapper.toDefinition(spec.namespace.code, entity);
+        return ServiceDefinitionMapper.toDefinition(spec, entity);
     }
 
     public List<PropertyDefinition<?>> getProperties(String namespace) throws IOException {

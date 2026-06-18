@@ -1514,9 +1514,9 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:alert-status:00002A43",
-        "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
-        "urn:bluetooth-spec:property:alert-notification-control-point:00002A42"
+        "alert-status",
+        "alert-category-id-bit-mask",
+        "alert-notification-control-point"
       ]
     },
     "automation-io": {
@@ -1534,9 +1534,9 @@
       },
       "lifecycle": "released",
       "optional-properties": [
-        "urn:bluetooth-spec:property:digital:00002A56",
-        "urn:bluetooth-spec:property:analog:00002A58",
-        "urn:bluetooth-spec:property:aggregate:00002A6C"
+        "digital",
+        "analog",
+        "aggregate"
       ]
     },
     "battery-service": {
@@ -1554,7 +1554,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:battery-level:00002A19"
+        "battery-level"
       ]
     },
     "blood-pressure": {
@@ -1572,11 +1572,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35"
+        "blood-pressure-measurement"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:intermediate-cuff-pressure:00002A36",
-        "urn:bluetooth-spec:property:blood-pressure-feature:00002A49"
+        "intermediate-cuff-pressure",
+        "blood-pressure-feature"
       ]
     },
     "body-composition": {
@@ -1594,7 +1594,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:body-composition-measurement:00002A9B"
+        "body-composition-measurement"
       ]
     },
     "current-time": {
@@ -1612,11 +1612,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:current-time:00002A2B"
+        "current-time"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:local-time-information:00002A0F",
-        "urn:bluetooth-spec:property:reference-time-information:00002A14"
+        "local-time-information",
+        "reference-time-information"
       ]
     },
     "cycling-power": {
@@ -1634,8 +1634,8 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
-        "urn:bluetooth-spec:property:cycling-power-feature:00002A64"
+        "cycling-power-measurement",
+        "cycling-power-feature"
       ]
     },
     "cycling-speed-and-cadence": {
@@ -1653,8 +1653,8 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:csc-measurement:00002A5B",
-        "urn:bluetooth-spec:property:csc-feature:00002A5C"
+        "csc-measurement",
+        "csc-feature"
       ]
     },
     "device-information": {
@@ -1672,16 +1672,16 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:manufacturer-name-string:00002A29",
-        "urn:bluetooth-spec:property:model-number-string:00002A24"
+        "manufacturer-name-string",
+        "model-number-string"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:serial-number-string:00002A25",
-        "urn:bluetooth-spec:property:firmware-revision-string:00002A26",
-        "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
-        "urn:bluetooth-spec:property:software-revision-string:00002A28",
-        "urn:bluetooth-spec:property:system-id:00002A23",
-        "urn:bluetooth-spec:property:pnp-id:00002A50"
+        "serial-number-string",
+        "firmware-revision-string",
+        "hardware-revision-string",
+        "software-revision-string",
+        "system-id",
+        "pnp-id"
       ]
     },
     "environmental-sensing": {
@@ -1699,9 +1699,9 @@
       },
       "lifecycle": "released",
       "optional-properties": [
-        "urn:bluetooth-spec:property:temperature:00002A6E",
-        "urn:bluetooth-spec:property:humidity:00002A6F",
-        "urn:bluetooth-spec:property:pressure:00002A6D"
+        "temperature",
+        "humidity",
+        "pressure"
       ]
     },
     "fitness-machine": {
@@ -1719,14 +1719,14 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC"
+        "fitness-machine-feature"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:treadmill-data:00002ACD",
-        "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
-        "urn:bluetooth-spec:property:step-climber-data:00002ACF",
-        "urn:bluetooth-spec:property:stair-climber-data:00002AD0",
-        "urn:bluetooth-spec:property:indoor-bike-data:00002AD1"
+        "treadmill-data",
+        "cross-trainer-data",
+        "step-climber-data",
+        "stair-climber-data",
+        "indoor-bike-data"
       ]
     },
     "generic-access": {
@@ -1744,13 +1744,13 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:device-name:00002A00",
-        "urn:bluetooth-spec:property:appearance:00002A01"
+        "device-name",
+        "appearance"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:peripheral-privacy-flag:00002A02",
-        "urn:bluetooth-spec:property:reconnection-address:00002A03",
-        "urn:bluetooth-spec:property:peripheral-preferred-connection-parameters:00002A04"
+        "peripheral-privacy-flag",
+        "reconnection-address",
+        "peripheral-preferred-connection-parameters"
       ]
     },
     "generic-attribute": {
@@ -1768,7 +1768,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:service-changed:00002A05"
+        "service-changed"
       ]
     },
     "glucose": {
@@ -1786,11 +1786,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:glucose-measurement:00002A18"
+        "glucose-measurement"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
-        "urn:bluetooth-spec:property:glucose-feature:00002A20"
+        "glucose-measurement-context",
+        "glucose-feature"
       ]
     },
     "health-thermometer": {
@@ -1808,11 +1808,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:temperature-measurement:00002A1C"
+        "temperature-measurement"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:temperature-type:00002A1D",
-        "urn:bluetooth-spec:property:intermediate-temperature:00002A1E"
+        "temperature-type",
+        "intermediate-temperature"
       ]
     },
     "heart-rate": {
@@ -1830,11 +1830,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:heart-rate-measurement:00002A37"
+        "heart-rate-measurement"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:body-sensor-location:00002A38",
-        "urn:bluetooth-spec:property:heart-rate-control-point:00002A39"
+        "body-sensor-location",
+        "heart-rate-control-point"
       ]
     },
     "http-proxy": {
@@ -1852,10 +1852,10 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:http-headers:00002AB7",
-        "urn:bluetooth-spec:property:http-status-code:00002AB8",
-        "urn:bluetooth-spec:property:http-entity-body:00002AB9",
-        "urn:bluetooth-spec:property:http-control-point:00002ABA"
+        "http-headers",
+        "http-status-code",
+        "http-entity-body",
+        "http-control-point"
       ]
     },
     "immediate-alert": {
@@ -1873,7 +1873,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:alert-level:00002A06"
+        "alert-level"
       ]
     },
     "link-loss": {
@@ -1891,7 +1891,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:alert-level:00002A06"
+        "alert-level"
       ]
     },
     "location-and-navigation": {
@@ -1909,11 +1909,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:location-and-speed:00002A67"
+        "location-and-speed"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:navigation:00002A68",
-        "urn:bluetooth-spec:property:position-quality:00002A69"
+        "navigation",
+        "position-quality"
       ]
     },
     "pulse-oximeter": {
@@ -1931,11 +1931,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:plx-features:00002A5F"
+        "plx-features"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60",
-        "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E"
+        "plx-spot-check-measurement",
+        "plx-continuous-measurement"
       ]
     },
     "running-speed-and-cadence": {
@@ -1953,11 +1953,11 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:rsc-measurement:00002A53",
-        "urn:bluetooth-spec:property:rsc-feature:00002A54"
+        "rsc-measurement",
+        "rsc-feature"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:sc-control-point:00002A55"
+        "sc-control-point"
       ]
     },
     "scan-parameters": {
@@ -1975,10 +1975,10 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:scan-interval-window:00002A4F"
+        "scan-interval-window"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:scan-refresh:00002A31"
+        "scan-refresh"
       ]
     },
     "tx-power": {
@@ -1996,7 +1996,7 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:tx-power-level:00002A07"
+        "tx-power-level"
       ]
     },
     "user-data": {
@@ -2014,10 +2014,10 @@
       },
       "lifecycle": "released",
       "optional-properties": [
-        "urn:bluetooth-spec:property:age:00002A8A",
-        "urn:bluetooth-spec:property:gender:00002A8C",
-        "urn:bluetooth-spec:property:height:00002A8E",
-        "urn:bluetooth-spec:property:weight:00002A87"
+        "age",
+        "gender",
+        "height",
+        "weight"
       ]
     },
     "weight-scale": {
@@ -2035,10 +2035,10 @@
       },
       "lifecycle": "released",
       "required-properties": [
-        "urn:bluetooth-spec:property:weight-measurement:00002A9D"
+        "weight-measurement"
       ],
       "optional-properties": [
-        "urn:bluetooth-spec:property:weight-scale-feature:00002A9E"
+        "weight-scale-feature"
       ]
     }
   },

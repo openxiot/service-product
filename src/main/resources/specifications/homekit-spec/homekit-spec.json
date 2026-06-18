@@ -4637,16 +4637,16 @@
         "pt-BR": "Informações do acessório"
       },
       "required-properties": [
-        "urn:homekit-spec:property:identify:00000014",
-        "urn:homekit-spec:property:manufacturer:00000020",
-        "urn:homekit-spec:property:model:00000021",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:serial-number:00000030",
-        "urn:homekit-spec:property:firmware-revision:00000052"
+        "identify",
+        "manufacturer",
+        "model",
+        "name",
+        "serial-number",
+        "firmware-revision"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:hardware-revision:00000053",
-        "urn:homekit-spec:property:accessory-flags:000000A6"
+        "hardware-revision",
+        "accessory-flags"
       ],
       "lifecycle": "released"
     },
@@ -4664,15 +4664,15 @@
         "pt-BR": "Purificador de ar"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:current-air-purifier-state:000000A9",
-        "urn:homekit-spec:property:target-air-purifier-state:000000A8"
+        "active",
+        "current-air-purifier-state",
+        "target-air-purifier-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:rotation-speed:00000029"
+        "lock-physical-controls",
+        "name",
+        "swing-mode",
+        "rotation-speed"
       ],
       "lifecycle": "released"
     },
@@ -4690,22 +4690,22 @@
         "pt-BR": "Sensor de qualidade do ar"
       },
       "required-properties": [
-        "urn:homekit-spec:property:air-quality:00000095"
+        "air-quality"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:ozone-density:000000C3",
-        "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
-        "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
-        "urn:homekit-spec:property:pm2_5-density:000000C6",
-        "urn:homekit-spec:property:pm10-density:000000C7",
-        "urn:homekit-spec:property:voc-density:000000C8",
-        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
-        "urn:homekit-spec:property:carbon-dioxide-level:00000093"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name",
+        "ozone-density",
+        "nitrogen-dioxide-density",
+        "sulphur-dioxide-density",
+        "pm2_5-density",
+        "pm10-density",
+        "voc-density",
+        "carbon-monoxide-level",
+        "carbon-dioxide-level"
       ],
       "lifecycle": "released"
     },
@@ -4723,12 +4723,12 @@
         "pt-BR": "Serviço de bateria"
       },
       "required-properties": [
-        "urn:homekit-spec:property:battery-level:00000068",
-        "urn:homekit-spec:property:charging-state:0000008F",
-        "urn:homekit-spec:property:status-low-battery:00000079"
+        "battery-level",
+        "charging-state",
+        "status-low-battery"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4746,15 +4746,15 @@
         "pt-BR": "Gerenciamento de fluxo RTP da câmera"
       },
       "required-properties": [
-        "urn:homekit-spec:property:supported-video-stream-configuration:00000114",
-        "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
-        "urn:homekit-spec:property:supported-rtp-configuration:00000116",
-        "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
-        "urn:homekit-spec:property:streaming-status:00000120",
-        "urn:homekit-spec:property:setup-endpoints:00000118"
+        "supported-video-stream-configuration",
+        "supported-audio-stream-configuration",
+        "supported-rtp-configuration",
+        "selected-rtp-stream-configuration",
+        "streaming-status",
+        "setup-endpoints"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4772,16 +4772,16 @@
         "pt-BR": "Sensor de dióxido de carbono"
       },
       "required-properties": [
-        "urn:homekit-spec:property:carbon-dioxide-detected:00000092"
+        "carbon-dioxide-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:carbon-dioxide-level:00000093",
-        "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-low-battery",
+        "status-tampered",
+        "carbon-dioxide-level",
+        "carbon-dioxide-peak-level",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4799,16 +4799,16 @@
         "pt-BR": "Sensor de monóxido de carbono"
       },
       "required-properties": [
-        "urn:homekit-spec:property:carbon-monoxide-detected:00000069"
+        "carbon-monoxide-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
-        "urn:homekit-spec:property:carbon-monoxide-peak-level:00000091",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-low-battery",
+        "status-tampered",
+        "carbon-monoxide-level",
+        "carbon-monoxide-peak-level",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4826,14 +4826,14 @@
         "pt-BR": "Sensor de contato"
       },
       "required-properties": [
-        "urn:homekit-spec:property:contact-sensor-state:0000006A"
+        "contact-sensor-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4851,14 +4851,14 @@
         "pt-BR": "Porta"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-position:0000006D",
-        "urn:homekit-spec:property:position-state:00000072",
-        "urn:homekit-spec:property:target-position:0000007C"
+        "current-position",
+        "position-state",
+        "target-position"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:hold-position:0000006F",
-        "urn:homekit-spec:property:obstruction-detected:00000024",
-        "urn:homekit-spec:property:name:00000023"
+        "hold-position",
+        "obstruction-detected",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4876,12 +4876,12 @@
         "pt-BR": "Campainha"
       },
       "required-properties": [
-        "urn:homekit-spec:property:programmable-switch-event:00000073"
+        "programmable-switch-event"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:brightness:00000008",
-        "urn:homekit-spec:property:volume:00000119",
-        "urn:homekit-spec:property:name:00000023"
+        "brightness",
+        "volume",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4899,16 +4899,16 @@
         "pt-BR": "Ventilador v2"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0"
+        "active"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:current-fan-state:000000AF",
-        "urn:homekit-spec:property:target-fan-state:000000BF",
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:rotation-direction:00000028",
-        "urn:homekit-spec:property:rotation-speed:00000029",
-        "urn:homekit-spec:property:swing-mode:000000B6"
+        "current-fan-state",
+        "target-fan-state",
+        "lock-physical-controls",
+        "name",
+        "rotation-direction",
+        "rotation-speed",
+        "swing-mode"
       ],
       "lifecycle": "released"
     },
@@ -4926,12 +4926,12 @@
         "pt-BR": "Ventilador"
       },
       "required-properties": [
-        "urn:homekit-spec:property:on:00000025"
+        "on"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:rotation-direction:00000028",
-        "urn:homekit-spec:property:rotation-speed:00000029",
-        "urn:homekit-spec:property:name:00000023"
+        "rotation-direction",
+        "rotation-speed",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4949,11 +4949,11 @@
         "pt-BR": "Torneira"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0"
+        "active"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:status-fault:00000077"
+        "name",
+        "status-fault"
       ],
       "lifecycle": "released"
     },
@@ -4971,12 +4971,12 @@
         "pt-BR": "Manutenção do filtro"
       },
       "required-properties": [
-        "urn:homekit-spec:property:filter-change-indication:000000AC"
+        "filter-change-indication"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:filter-life-level:000000AB",
-        "urn:homekit-spec:property:reset-filter-indication:000000AD",
-        "urn:homekit-spec:property:name:00000023"
+        "filter-life-level",
+        "reset-filter-indication",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -4994,14 +4994,14 @@
         "pt-BR": "Abre-porta de garagem"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-door-state:0000000E",
-        "urn:homekit-spec:property:target-door-state:00000032",
-        "urn:homekit-spec:property:obstruction-detected:00000024"
+        "current-door-state",
+        "target-door-state",
+        "obstruction-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:lock-current-state:0000001D",
-        "urn:homekit-spec:property:lock-target-state:0000001E",
-        "urn:homekit-spec:property:name:00000023"
+        "lock-current-state",
+        "lock-target-state",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5019,19 +5019,19 @@
         "pt-BR": "Aquecedor/Refrigerador"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
-        "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
-        "urn:homekit-spec:property:current-temperature:00000011"
+        "active",
+        "current-heater-cooler-state",
+        "target-heater-cooler-state",
+        "current-temperature"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
-        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-        "urn:homekit-spec:property:temperature-display-units:00000036",
-        "urn:homekit-spec:property:rotation-speed:00000029"
+        "lock-physical-controls",
+        "name",
+        "swing-mode",
+        "cooling-threshold-temperature",
+        "heating-threshold-temperature",
+        "temperature-display-units",
+        "rotation-speed"
       ],
       "lifecycle": "released"
     },
@@ -5049,19 +5049,19 @@
         "pt-BR": "Umidificador/Desumidificador"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-relative-humidity:00000010",
-        "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
-        "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
-        "urn:homekit-spec:property:active:000000B0"
+        "current-relative-humidity",
+        "current-humidifier-dehumidifier-state",
+        "target-humidifier-dehumidifier-state",
+        "active"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:water-level:000000B5",
-        "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
-        "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
-        "urn:homekit-spec:property:rotation-speed:00000029"
+        "lock-physical-controls",
+        "name",
+        "swing-mode",
+        "water-level",
+        "relative-humidity-dehumidifier-threshold",
+        "relative-humidity-humidifier-threshold",
+        "rotation-speed"
       ],
       "lifecycle": "released"
     },
@@ -5079,14 +5079,14 @@
         "pt-BR": "Sensor de umidade"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-relative-humidity:00000010"
+        "current-relative-humidity"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5104,14 +5104,14 @@
         "pt-BR": "Sistema de irrigação"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:program-mode:000000D1",
-        "urn:homekit-spec:property:in-use:000000D2"
+        "active",
+        "program-mode",
+        "in-use"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:remaining-duration:000000D4",
-        "urn:homekit-spec:property:status-fault:00000077"
+        "name",
+        "remaining-duration",
+        "status-fault"
       ],
       "lifecycle": "released"
     },
@@ -5129,14 +5129,14 @@
         "pt-BR": "Sensor de vazamento"
       },
       "required-properties": [
-        "urn:homekit-spec:property:leak-detected:00000070"
+        "leak-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5154,14 +5154,14 @@
         "pt-BR": "Sensor de luz"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-ambient-light-level:0000006B"
+        "current-ambient-light-level"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079"
+        "name",
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery"
       ],
       "lifecycle": "released"
     },
@@ -5179,13 +5179,13 @@
         "pt-BR": "Lâmpada"
       },
       "required-properties": [
-        "urn:homekit-spec:property:on:00000025"
+        "on"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:brightness:00000008",
-        "urn:homekit-spec:property:hue:00000013",
-        "urn:homekit-spec:property:saturation:0000002F",
-        "urn:homekit-spec:property:name:00000023"
+        "brightness",
+        "hue",
+        "saturation",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5203,18 +5203,18 @@
         "pt-BR": "Gerenciamento da fechadura"
       },
       "required-properties": [
-        "urn:homekit-spec:property:lock-control-point:00000019",
-        "urn:homekit-spec:property:version:00000037"
+        "lock-control-point",
+        "version"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:logs:0000001F",
-        "urn:homekit-spec:property:audio-feedback:00000005",
-        "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
-        "urn:homekit-spec:property:administrator-only-access:00000001",
-        "urn:homekit-spec:property:lock-last-known-action:0000001C",
-        "urn:homekit-spec:property:current-door-state:0000000E",
-        "urn:homekit-spec:property:motion-detected:00000022",
-        "urn:homekit-spec:property:name:00000023"
+        "logs",
+        "audio-feedback",
+        "lock-management-auto-security-timeout",
+        "administrator-only-access",
+        "lock-last-known-action",
+        "current-door-state",
+        "motion-detected",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5232,11 +5232,11 @@
         "pt-BR": "Mecanismo da fechadura"
       },
       "required-properties": [
-        "urn:homekit-spec:property:lock-current-state:0000001D",
-        "urn:homekit-spec:property:lock-target-state:0000001E"
+        "lock-current-state",
+        "lock-target-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5254,11 +5254,11 @@
         "pt-BR": "Microfone"
       },
       "required-properties": [
-        "urn:homekit-spec:property:volume:00000119",
-        "urn:homekit-spec:property:mute:0000011A"
+        "volume",
+        "mute"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5276,14 +5276,14 @@
         "pt-BR": "Sensor de movimento"
       },
       "required-properties": [
-        "urn:homekit-spec:property:motion-detected:00000022"
+        "motion-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5301,14 +5301,14 @@
         "pt-BR": "Sensor de ocupação"
       },
       "required-properties": [
-        "urn:homekit-spec:property:occupancy-detected:00000071"
+        "occupancy-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079"
+        "name",
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery"
       ],
       "lifecycle": "released"
     },
@@ -5326,11 +5326,11 @@
         "pt-BR": "Tomada"
       },
       "required-properties": [
-        "urn:homekit-spec:property:on:00000025",
-        "urn:homekit-spec:property:outlet-in-use:00000026"
+        "on",
+        "outlet-in-use"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5348,14 +5348,14 @@
         "pt-BR": "Sistema de segurança"
       },
       "required-properties": [
-        "urn:homekit-spec:property:security-system-current-state:00000066",
-        "urn:homekit-spec:property:security-system-target-state:00000067"
+        "security-system-current-state",
+        "security-system-target-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:security-system-alarm-type:0000008E",
-        "urn:homekit-spec:property:name:00000023"
+        "status-fault",
+        "status-tampered",
+        "security-system-alarm-type",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5373,10 +5373,10 @@
         "pt-BR": "Etiqueta de serviço"
       },
       "required-properties": [
-        "urn:homekit-spec:property:service-label-namespace:000000CD"
+        "service-label-namespace"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5394,14 +5394,14 @@
         "pt-BR": "Lâmina"
       },
       "required-properties": [
-        "urn:homekit-spec:property:slat-type:000000C0",
-        "urn:homekit-spec:property:current-slat-state:000000AA"
+        "slat-type",
+        "current-slat-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:current-tilt-angle:000000C1",
-        "urn:homekit-spec:property:target-tilt-angle:000000C2",
-        "urn:homekit-spec:property:swing-mode:000000B6"
+        "name",
+        "current-tilt-angle",
+        "target-tilt-angle",
+        "swing-mode"
       ],
       "lifecycle": "released"
     },
@@ -5419,14 +5419,14 @@
         "pt-BR": "Sensor de fumaça"
       },
       "required-properties": [
-        "urn:homekit-spec:property:smoke-detected:00000076"
+        "smoke-detected"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-tampered",
+        "status-low-battery",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5444,11 +5444,11 @@
         "pt-BR": "Alto-falante"
       },
       "required-properties": [
-        "urn:homekit-spec:property:mute:0000011A"
+        "mute"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:volume:00000119"
+        "name",
+        "volume"
       ],
       "lifecycle": "released"
     },
@@ -5466,11 +5466,11 @@
         "pt-BR": "Interruptor programável sem estado"
       },
       "required-properties": [
-        "urn:homekit-spec:property:programmable-switch-event:00000073"
+        "programmable-switch-event"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:service-label-index:000000CB"
+        "name",
+        "service-label-index"
       ],
       "lifecycle": "released"
     },
@@ -5488,10 +5488,10 @@
         "pt-BR": "Interruptor"
       },
       "required-properties": [
-        "urn:homekit-spec:property:on:00000025"
+        "on"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5509,14 +5509,14 @@
         "pt-BR": "Sensor de temperatura"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-temperature:00000011"
+        "current-temperature"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:name:00000023"
+        "status-active",
+        "status-fault",
+        "status-low-battery",
+        "status-tampered",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5534,18 +5534,18 @@
         "pt-BR": "Termostato"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
-        "urn:homekit-spec:property:target-heating-cooling-state:00000033",
-        "urn:homekit-spec:property:current-temperature:00000011",
-        "urn:homekit-spec:property:target-temperature:00000035",
-        "urn:homekit-spec:property:temperature-display-units:00000036"
+        "current-heating-cooling-state",
+        "target-heating-cooling-state",
+        "current-temperature",
+        "target-temperature",
+        "temperature-display-units"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:current-relative-humidity:00000010",
-        "urn:homekit-spec:property:target-relative-humidity:00000034",
-        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
-        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-        "urn:homekit-spec:property:name:00000023"
+        "current-relative-humidity",
+        "target-relative-humidity",
+        "cooling-threshold-temperature",
+        "heating-threshold-temperature",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5563,17 +5563,17 @@
         "pt-BR": "Válvula"
       },
       "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:in-use:000000D2",
-        "urn:homekit-spec:property:valve-type:000000D5"
+        "active",
+        "in-use",
+        "valve-type"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:set-duration:000000D3",
-        "urn:homekit-spec:property:remaining-duration:000000D4",
-        "urn:homekit-spec:property:is-configured:000000D6",
-        "urn:homekit-spec:property:service-label-index:000000CB",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:name:00000023"
+        "set-duration",
+        "remaining-duration",
+        "is-configured",
+        "service-label-index",
+        "status-fault",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5591,18 +5591,18 @@
         "pt-BR": "Persiana"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-position:0000006D",
-        "urn:homekit-spec:property:target-position:0000007C",
-        "urn:homekit-spec:property:position-state:00000072"
+        "current-position",
+        "target-position",
+        "position-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:hold-position:0000006F",
-        "urn:homekit-spec:property:target-horizontal-tilt-angle:0000007B",
-        "urn:homekit-spec:property:target-vertical-tilt-angle:0000007D",
-        "urn:homekit-spec:property:current-horizontal-tilt-angle:0000006C",
-        "urn:homekit-spec:property:current-vertical-tilt-angle:0000006E",
-        "urn:homekit-spec:property:obstruction-detected:00000024",
-        "urn:homekit-spec:property:name:00000023"
+        "hold-position",
+        "target-horizontal-tilt-angle",
+        "target-vertical-tilt-angle",
+        "current-horizontal-tilt-angle",
+        "current-vertical-tilt-angle",
+        "obstruction-detected",
+        "name"
       ],
       "lifecycle": "released"
     },
@@ -5620,14 +5620,14 @@
         "pt-BR": "Janela"
       },
       "required-properties": [
-        "urn:homekit-spec:property:current-position:0000006D",
-        "urn:homekit-spec:property:target-position:0000007C",
-        "urn:homekit-spec:property:position-state:00000072"
+        "current-position",
+        "target-position",
+        "position-state"
       ],
       "optional-properties": [
-        "urn:homekit-spec:property:hold-position:0000006F",
-        "urn:homekit-spec:property:obstruction-detected:00000024",
-        "urn:homekit-spec:property:name:00000023"
+        "hold-position",
+        "obstruction-detected",
+        "name"
       ],
       "lifecycle": "released"
     }
