@@ -1,11 +1,11 @@
 package cc.openxiot.product.api.statistic;
 
-import cc.openxiot.product.db.organization.Organization;
+import cc.openxiot.account.db.organization.Organization;
 import cc.openxiot.product.db.product.ProductRepository;
 import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.template.TemplateRepository;
 import cc.openxiot.product.prepared.SpecificationPrepared;
-import cc.openxiot.product.response.OxResponse;
+import cc.openxiot.common.response.OxResponse;
 import io.vertx.core.json.JsonObject;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.inject.Inject;

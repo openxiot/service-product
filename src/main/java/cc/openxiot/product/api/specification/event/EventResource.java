@@ -1,15 +1,12 @@
 package cc.openxiot.product.api.specification.event;
 
-import cc.openxiot.product.exception.OxException;
+import cc.openxiot.common.exception.OxException;
 import cc.openxiot.product.prepared.SpecificationPrepared;
-import cc.openxiot.product.resource.AbstractResource;
-import cc.openxiot.product.response.OxResponse;
-import cc.openxiot.product.role.OxRole;
+import cc.openxiot.common.resource.AbstractResource;
+import cc.openxiot.common.response.OxResponse;
+import cc.openxiot.common.role.OxRole;
 import cn.geekcity.xiot.spec.codec.vertx.definition.EventDefinitionCodec;
-import cn.geekcity.xiot.spec.definition.DeviceDefinition;
 import cn.geekcity.xiot.spec.definition.EventDefinition;
-import cn.geekcity.xiot.spec.definition.FormatDefinition;
-import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;

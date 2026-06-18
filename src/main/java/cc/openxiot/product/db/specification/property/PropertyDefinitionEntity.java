@@ -1,8 +1,11 @@
 package cc.openxiot.product.db.specification.property;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 import java.util.List;
 import java.util.Map;
 
+@RegisterForReflection
 public class PropertyDefinitionEntity {
 
     public String lifecycle;

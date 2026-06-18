@@ -1,11 +1,13 @@
 package cc.openxiot.product.db.specification.service;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.bson.codecs.pojo.annotations.BsonProperty;
 
 import java.util.List;
 import java.util.Map;
 
+@RegisterForReflection
 public class ServiceDefinitionEntity {
 
     public String lifecycle;

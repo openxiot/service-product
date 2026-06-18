@@ -1,7 +1,10 @@
 package cc.openxiot.product.db.specification.device;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 import java.util.Map;
 
+@RegisterForReflection
 public class DeviceDefinitionEntity {
 
     public String lifecycle;

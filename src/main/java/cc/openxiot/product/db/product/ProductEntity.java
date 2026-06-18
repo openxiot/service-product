@@ -1,6 +1,5 @@
 package cc.openxiot.product.db.product;
 
-import cc.openxiot.product.db.person.Person;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicEntity;
 import cc.openxiot.product.db.product.instance.ProductInstanceEntity;
@@ -8,12 +7,14 @@ import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.List;
 
 @MongoEntity(collection = "products")
 @BsonDiscriminator
+@RegisterForReflection
 public class ProductEntity extends PanacheMongoEntity {
 
     public ProductBasicEntity basic;

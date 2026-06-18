@@ -1,7 +1,10 @@
 package cc.openxiot.product.db.specification.format;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 import java.util.Map;
 
+@RegisterForReflection
 public class FormatDefinitionEntity {
 
     public String lifecycle;

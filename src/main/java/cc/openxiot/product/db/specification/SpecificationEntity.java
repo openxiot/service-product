@@ -13,12 +13,14 @@ import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.Map;
 
 @MongoEntity(collection = "specifications")
 @BsonDiscriminator
+@RegisterForReflection
 public class SpecificationEntity extends PanacheMongoEntity {
 
     public NamespaceDefinitionEntity namespace;

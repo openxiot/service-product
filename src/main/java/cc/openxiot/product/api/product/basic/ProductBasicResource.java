@@ -1,11 +1,10 @@
 package cc.openxiot.product.api.product.basic;
 
-import cc.openxiot.product.db.history.History;
-import cc.openxiot.product.db.product.ProductEntity;
-import cc.openxiot.product.exception.OxException;
-import cc.openxiot.product.resource.AbstractResource;
-import cc.openxiot.product.response.OxResponse;
-import cc.openxiot.product.role.OxRole;
+import cc.openxiot.account.db.history.History;
+import cc.openxiot.common.resource.AbstractResource;
+import cc.openxiot.common.exception.OxException;
+import cc.openxiot.common.response.OxResponse;
+import cc.openxiot.common.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.codec.vertx.product.basic.ProductBasicCodec;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
@@ -18,9 +17,6 @@ import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.Operation;
-import org.eclipse.microprofile.openapi.annotations.enums.SchemaType;
-import org.eclipse.microprofile.openapi.annotations.media.Content;
-import org.eclipse.microprofile.openapi.annotations.media.Schema;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;

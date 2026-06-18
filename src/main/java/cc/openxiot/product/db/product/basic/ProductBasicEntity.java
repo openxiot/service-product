@@ -1,9 +1,11 @@
 package cc.openxiot.product.db.product.basic;
 
 import cc.openxiot.product.db.person.Person;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 
 import java.util.List;
 
+@RegisterForReflection
 public class ProductBasicEntity {
 
     public String organization;
