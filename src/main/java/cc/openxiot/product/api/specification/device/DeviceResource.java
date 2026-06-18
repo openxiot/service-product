@@ -19,6 +19,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/spec/device")
@@ -92,13 +93,14 @@ public class DeviceResource extends AbstractResource {
         logger.infov("getOne, {0}", type);
 
         try {
-            DeviceDefinition def = service.find(DeviceType.parse(type));
+            DeviceType t = DeviceType.parse(type);
+            DeviceDefinition def = prepared.contains(t.ns()) ? prepared.getDevice(t) : service.find(t);
             if (def == null) {
                 return OxResponse.error("action not found");
             } else {
                 return OxResponse.ok(DeviceDefinitionCodec.encode(def));
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -111,10 +113,12 @@ public class DeviceResource extends AbstractResource {
         logger.infov("getMany: {0}", namespace);
 
         try {
-            List<DeviceDefinition> list = service.findByNamespace(namespace);
+            List<DeviceDefinition> list = prepared.contains(namespace) ?
+                    prepared.getDevices(namespace) :
+                    service.findByNamespace(namespace);
             List<JsonObject> array = DeviceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -123,8 +127,13 @@ public class DeviceResource extends AbstractResource {
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");
-        List<DeviceDefinition> list = service.findAll();
-        List<JsonObject> array = DeviceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<DeviceDefinition> list = service.findAll();
+            list.addAll(prepared.getDevices(SpecificationPrepared.HOMEKIT_SPEC));
+            List<JsonObject> array = DeviceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }

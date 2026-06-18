@@ -4,11 +4,13 @@ import cc.openxiot.product.db.specification.SpecificationEntity;
 import cc.openxiot.product.db.specification.action.ActionDefinitionMapper;
 import cc.openxiot.product.db.specification.device.DeviceDefinitionMapper;
 import cc.openxiot.product.db.specification.event.EventDefinitionMapper;
+import cc.openxiot.product.db.specification.format.FormatDefinitionMapper;
 import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
 import cc.openxiot.product.db.specification.property.PropertyDefinitionMapper;
 import cc.openxiot.product.db.specification.service.ServiceDefinitionMapper;
+import cc.openxiot.product.db.specification.unit.UnitDefinitionMapper;
 import cn.geekcity.xiot.spec.definition.*;
-import cn.geekcity.xiot.spec.definition.urn.ActionType;
+import cn.geekcity.xiot.spec.definition.urn.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -54,6 +56,20 @@ public class SpecificationPrepared {
                 .toList();
     }
 
+    public DeviceDefinition getDevice(DeviceType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.devices.get(type.name());
+        if (entity == null) {
+            throw new IOException("Device not found: " + type.name());
+        }
+
+        return DeviceDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+
     public List<ServiceDefinition> getServices(String namespace) throws IOException {
         SpecificationEntity entity = getSpecification(namespace);
         if (entity == null) {
@@ -65,6 +81,20 @@ public class SpecificationPrepared {
                 .toList();
     }
 
+    public ServiceDefinition getService(ServiceType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.services.get(type.name());
+        if (entity == null) {
+            throw new IOException("Device not found: " + type.name());
+        }
+
+        return ServiceDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+
     public List<PropertyDefinition<?>> getProperties(String namespace) throws IOException {
         SpecificationEntity spec = getSpecification(namespace);
         if (spec == null) {
@@ -74,6 +104,44 @@ public class SpecificationPrepared {
         return spec.properties.values().stream()
                 .map(x -> PropertyDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .collect(Collectors.toList());
+    }
+
+    public PropertyDefinition<?> getProperty(PropertyType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.properties.get(type.name());
+        if (entity == null) {
+            throw new IOException("Property not found: " + type.name());
+        }
+
+        return PropertyDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+    public PropertyDefinition<?> getService(PropertyType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.properties.get(type.name());
+        if (entity == null) {
+            throw new IOException("Device not found: " + type.name());
+        }
+
+        return PropertyDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+
+    public List<ActionDefinition> getActions(String namespace) throws IOException {
+        SpecificationEntity entity = getSpecification(namespace);
+        if (entity == null) {
+            throw new IOException("Specification not found: " + namespace);
+        }
+
+        return entity.actions.values().stream()
+                .map(x -> ActionDefinitionMapper.toDefinition(entity.namespace.code, x))
+                .toList();
     }
 
     public ActionDefinition getAction(ActionType type) throws IOException {
@@ -90,17 +158,6 @@ public class SpecificationPrepared {
         return ActionDefinitionMapper.toDefinition(spec.namespace.code, entity);
     }
 
-    public List<ActionDefinition> getActions(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
-            throw new IOException("Specification not found: " + namespace);
-        }
-
-        return entity.actions.values().stream()
-                .map(x -> ActionDefinitionMapper.toDefinition(entity.namespace.code, x))
-                .toList();
-    }
-
     public List<EventDefinition> getEvents(String namespace) throws IOException {
         SpecificationEntity entity = getSpecification(namespace);
         if (entity == null) {
@@ -110,6 +167,70 @@ public class SpecificationPrepared {
         return entity.events.values().stream()
                 .map(x -> EventDefinitionMapper.toDefinition(entity.namespace.code, x))
                 .toList();
+    }
+
+    public EventDefinition getEvent(EventType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.events.get(type.name());
+        if (entity == null) {
+            throw new IOException("Event not found: " + type.name());
+        }
+
+        return EventDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+
+    public List<FormatDefinition> getFormats(String namespace) throws IOException {
+        SpecificationEntity entity = getSpecification(namespace);
+        if (entity == null) {
+            throw new IOException("Specification not found: " + namespace);
+        }
+
+        return entity.formats.values().stream()
+                .map(x -> FormatDefinitionMapper.toDefinition(entity.namespace.code, x))
+                .toList();
+    }
+
+    public FormatDefinition getFormat(FormatType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.formats.get(type.name());
+        if (entity == null) {
+            throw new IOException("Event not found: " + type.name());
+        }
+
+        return FormatDefinitionMapper.toDefinition(spec.namespace.code, entity);
+    }
+
+    public List<UnitDefinition> getUnits(String namespace) throws IOException {
+        SpecificationEntity entity = getSpecification(namespace);
+        if (entity == null) {
+            throw new IOException("Specification not found: " + namespace);
+        }
+
+        return entity.units.values().stream()
+                .map(x -> UnitDefinitionMapper.toDefinition(entity.namespace.code, x))
+                .toList();
+    }
+
+    public UnitDefinition getUnit(UnitType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.units.get(type.name());
+        if (entity == null) {
+            throw new IOException("Event not found: " + type.name());
+        }
+
+        return UnitDefinitionMapper.toDefinition(spec.namespace.code, entity);
     }
 
     private SpecificationEntity getSpecification(String namespace) throws IOException {

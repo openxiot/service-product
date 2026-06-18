@@ -94,9 +94,7 @@ public class ActionResource extends AbstractResource {
 
         try {
             ActionType t = ActionType.parse(type);
-            ActionDefinition def = prepared.contains(t.ns()) ?
-                    prepared.getAction(t) :
-                    service.find(ActionType.parse(type));
+            ActionDefinition def = prepared.contains(t.ns()) ? prepared.getAction(t) : service.find(t);
             if (def == null) {
                 return OxResponse.error("action not found");
             } else {
@@ -116,7 +114,7 @@ public class ActionResource extends AbstractResource {
 
         try {
             List<ActionDefinition> list = prepared.contains(namespace) ?
-                    prepared.getActions(SpecificationPrepared.HOMEKIT_SPEC) :
+                    prepared.getActions(namespace) :
                     service.findByNamespace(namespace);
             List<JsonObject> array = ActionDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));

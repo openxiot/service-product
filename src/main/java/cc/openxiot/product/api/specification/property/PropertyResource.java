@@ -6,7 +6,10 @@ import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
 import cn.geekcity.xiot.spec.codec.vertx.definition.PropertyDefinitionCodec;
+import cn.geekcity.xiot.spec.definition.FormatDefinition;
 import cn.geekcity.xiot.spec.definition.PropertyDefinition;
+import cn.geekcity.xiot.spec.definition.ServiceDefinition;
+import cn.geekcity.xiot.spec.definition.urn.FormatType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -19,6 +22,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/spec/property")
@@ -92,13 +96,14 @@ public class PropertyResource extends AbstractResource {
         logger.infov("getOne, {0}", type);
 
         try {
-            PropertyDefinition<?> def = service.find(PropertyType.parse(type));
+            PropertyType t = PropertyType.parse(type);
+            PropertyDefinition<?> def = prepared.contains(t.ns()) ? prepared.getProperty(t) : service.find(t);
             if (def == null) {
                 return OxResponse.error("action not found");
             } else {
                 return OxResponse.ok(PropertyDefinitionCodec.encode(def));
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -111,10 +116,12 @@ public class PropertyResource extends AbstractResource {
         logger.infov("getMany: {0}", namespace);
 
         try {
-            List<PropertyDefinition<?>> list = service.findByNamespace(namespace);
+            List<PropertyDefinition<?>> list = prepared.contains(namespace) ?
+                    prepared.getProperties(namespace) :
+                    service.findByNamespace(namespace);
             List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
             return OxResponse.ok(new JsonArray(array));
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -123,8 +130,13 @@ public class PropertyResource extends AbstractResource {
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");
-        List<PropertyDefinition<?>> list = service.findAll();
-        List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<PropertyDefinition<?>> list = service.findAll();
+            list.addAll(prepared.getProperties(SpecificationPrepared.HOMEKIT_SPEC));
+            List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }

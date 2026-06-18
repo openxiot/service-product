@@ -6,7 +6,10 @@ import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
 import cn.geekcity.xiot.spec.codec.vertx.definition.ServiceDefinitionCodec;
+import cn.geekcity.xiot.spec.definition.PropertyDefinition;
 import cn.geekcity.xiot.spec.definition.ServiceDefinition;
+import cn.geekcity.xiot.spec.definition.UnitDefinition;
+import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import cn.geekcity.xiot.spec.definition.urn.ServiceType;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -19,6 +22,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/spec/service")
@@ -92,13 +96,14 @@ public class ServiceResource extends AbstractResource {
         logger.infov("getOne, {0}", type);
 
         try {
-            ServiceDefinition def = service.find(ServiceType.parse(type));
+            ServiceType t = ServiceType.parse(type);
+            ServiceDefinition def = prepared.contains(t.ns()) ? prepared.getService(t) : service.find(t);
             if (def == null) {
                 return OxResponse.error("service not found");
             } else {
                 return OxResponse.ok(ServiceDefinitionCodec.encode(def));
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -110,10 +115,12 @@ public class ServiceResource extends AbstractResource {
     ) {
         logger.infov("getMany: {0}", namespace);
         try {
-            List<ServiceDefinition> list = service.findByNamespace(namespace);
+            List<ServiceDefinition> list = prepared.contains(namespace) ?
+                    prepared.getServices(namespace) :
+                    service.findByNamespace(namespace);
             List<JsonObject> array = ServiceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -122,8 +129,14 @@ public class ServiceResource extends AbstractResource {
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");
-        List<ServiceDefinition> list = service.findAll();
-        List<JsonObject> array = ServiceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<ServiceDefinition> list = service.findAll();
+            list.addAll(prepared.getServices(SpecificationPrepared.HOMEKIT_SPEC));
+            List<JsonObject> array = ServiceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }
