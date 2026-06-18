@@ -168,7 +168,7 @@
         "es-ES": "Analogico",
         "pt-BR": "Analogico"
       },
-      "format": "sfloat",
+      "format": "float",
       "access": [
         "read",
         "notify"
@@ -481,7 +481,7 @@
         "es-ES": "Digital",
         "pt-BR": "Digital"
       },
-      "format": "boolean",
+      "format": "bool",
       "access": [
         "read",
         "notify"
@@ -812,7 +812,7 @@
         "es-ES": "Presion intermedia del brazalete",
         "pt-BR": "Pressao intermediaria da bracadeira"
       },
-      "format": "sfloat",
+      "format": "float",
       "access": [
         "notify"
       ],
@@ -832,7 +832,7 @@
         "es-ES": "Temperatura intermedia",
         "pt-BR": "Temperatura intermediaria"
       },
-      "format": "sfloat",
+      "format": "float",
       "access": [
         "notify"
       ],
@@ -966,7 +966,7 @@
         "es-ES": "Indicador de privacidad del periferico",
         "pt-BR": "Sinalizador de privacidade do periferico"
       },
-      "format": "boolean",
+      "format": "bool",
       "access": [
         "read",
         "write"
@@ -1351,7 +1351,7 @@
         "es-ES": "Medicion de temperatura",
         "pt-BR": "Medicao de temperatura"
       },
-      "format": "sfloat",
+      "format": "float",
       "access": [
         "notify"
       ],
@@ -2043,11 +2043,11 @@
     }
   },
   "formats": {
-    "boolean": {
-      "code": "boolean",
+    "bool": {
+      "code": "bool",
       "value": 0,
       "description": {
-        "en-US": "boolean",
+        "en-US": "bool",
         "zh-CN": "布尔",
         "fr-FR": "booleen",
         "de-DE": "Boolean",
@@ -2058,11 +2058,11 @@
       },
       "lifecycle": "released"
     },
-    "float32": {
-      "code": "float32",
-      "value": 9,
+    "float": {
+      "code": "float",
+      "value": 8,
       "description": {
-        "en-US": "float32",
+        "en-US": "float",
         "zh-CN": "32 位浮点数",
         "fr-FR": "flottant 32 bits",
         "de-DE": "32-Bit-Gleitkommazahl",
@@ -2118,24 +2118,9 @@
       },
       "lifecycle": "released"
     },
-    "sfloat": {
-      "code": "sfloat",
-      "value": 8,
-      "description": {
-        "en-US": "sfloat",
-        "zh-CN": "IEEE-11073 半精度浮点数",
-        "fr-FR": "SFLOAT IEEE-11073",
-        "de-DE": "IEEE-11073 SFLOAT",
-        "ja-JP": "IEEE-11073 SFLOAT",
-        "ko-KR": "IEEE-11073 SFLOAT",
-        "es-ES": "SFLOAT IEEE-11073",
-        "pt-BR": "SFLOAT IEEE-11073"
-      },
-      "lifecycle": "released"
-    },
     "string": {
       "code": "string",
-      "value": 10,
+      "value": 9,
       "description": {
         "en-US": "string",
         "zh-CN": "UTF-8 字符串",
@@ -2375,6 +2360,21 @@
       },
       "lifecycle": "released"
     },
+    "kilograms-per-cubic-meter": {
+      "code": "kilograms-per-cubic-meter",
+      "value": 24,
+      "description": {
+        "en-US": "kilograms_per_cubic_meter",
+        "zh-CN": "千克/立方米",
+        "fr-FR": "kg/m3",
+        "de-DE": "kg/m3",
+        "ja-JP": "kg/m3",
+        "ko-KR": "kg/m3",
+        "es-ES": "kg/m3",
+        "pt-BR": "kg/m3"
+      },
+      "lifecycle": "released"
+    },
     "kilograms": {
       "code": "kilograms",
       "value": 14,
@@ -2387,21 +2387,6 @@
         "ko-KR": "킬로그램",
         "es-ES": "kilogramos",
         "pt-BR": "quilogramas"
-      },
-      "lifecycle": "released"
-    },
-    "kilograms_per_cubic_meter": {
-      "code": "kilograms_per_cubic_meter",
-      "value": 24,
-      "description": {
-        "en-US": "kilograms_per_cubic_meter",
-        "zh-CN": "千克/立方米",
-        "fr-FR": "kg/m3",
-        "de-DE": "kg/m3",
-        "ja-JP": "kg/m3",
-        "ko-KR": "kg/m3",
-        "es-ES": "kg/m3",
-        "pt-BR": "kg/m3"
       },
       "lifecycle": "released"
     },
@@ -2420,6 +2405,21 @@
       },
       "lifecycle": "released"
     },
+    "meters-per-second": {
+      "code": "meters-per-second",
+      "value": 23,
+      "description": {
+        "en-US": "meters_per_second",
+        "zh-CN": "米/秒",
+        "fr-FR": "metres par seconde",
+        "de-DE": "Meter pro Sekunde",
+        "ja-JP": "メートル毎秒",
+        "ko-KR": "미터 매 초",
+        "es-ES": "metros por segundo",
+        "pt-BR": "metros por segundo"
+      },
+      "lifecycle": "released"
+    },
     "meters": {
       "code": "meters",
       "value": 13,
@@ -2432,21 +2432,6 @@
         "ko-KR": "미터",
         "es-ES": "metros",
         "pt-BR": "metros"
-      },
-      "lifecycle": "released"
-    },
-    "meters_per_second": {
-      "code": "meters_per_second",
-      "value": 23,
-      "description": {
-        "en-US": "meters_per_second",
-        "zh-CN": "米/秒",
-        "fr-FR": "metres par seconde",
-        "de-DE": "Meter pro Sekunde",
-        "ja-JP": "メートル毎秒",
-        "ko-KR": "미터 매 초",
-        "es-ES": "metros por segundo",
-        "pt-BR": "metros por segundo"
       },
       "lifecycle": "released"
     },

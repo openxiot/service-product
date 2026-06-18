@@ -1,5 +1,5 @@
 {
-    "type": "urn:bluetooth-spec:format:string:0000000A",
+    "type": "urn:bluetooth-spec:format:string:00000009",
     "description": {
         "en-US": "string",
         "zh-CN": "UTF-8 字符串",

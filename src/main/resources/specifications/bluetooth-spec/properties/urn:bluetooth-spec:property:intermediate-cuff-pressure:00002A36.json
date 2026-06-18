@@ -10,7 +10,7 @@
         "es-ES": "Presion intermedia del brazalete",
         "pt-BR": "Pressao intermediaria da bracadeira"
     },
-    "format": "sfloat",
+    "format": "float",
     "access": [
         "notify"
     ],

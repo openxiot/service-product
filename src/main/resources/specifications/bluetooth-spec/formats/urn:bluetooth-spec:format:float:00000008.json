@@ -1,7 +1,7 @@
 {
-    "type": "urn:bluetooth-spec:format:float32:00000009",
+    "type": "urn:bluetooth-spec:format:float:00000008",
     "description": {
-        "en-US": "float32",
+        "en-US": "float",
         "zh-CN": "32 位浮点数",
         "fr-FR": "flottant 32 bits",
         "de-DE": "32-Bit-Gleitkommazahl",

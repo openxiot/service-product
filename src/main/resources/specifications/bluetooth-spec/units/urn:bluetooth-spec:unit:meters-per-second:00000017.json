@@ -1,5 +1,5 @@
 {
-    "type": "urn:bluetooth-spec:unit:meters_per_second:00000017",
+    "type": "urn:bluetooth-spec:unit:meters-per-second:00000017",
     "description": {
         "en-US": "meters_per_second",
         "zh-CN": "米/秒",

@@ -1,7 +1,7 @@
 {
-    "type": "urn:bluetooth-spec:format:boolean:00000000",
+    "type": "urn:bluetooth-spec:format:bool:00000000",
     "description": {
-        "en-US": "boolean",
+        "en-US": "bool",
         "zh-CN": "布尔",
         "fr-FR": "booleen",
         "de-DE": "Boolean",

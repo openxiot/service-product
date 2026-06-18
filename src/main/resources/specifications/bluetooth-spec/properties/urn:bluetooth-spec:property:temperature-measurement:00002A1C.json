@@ -10,7 +10,7 @@
         "es-ES": "Medicion de temperatura",
         "pt-BR": "Medicao de temperatura"
     },
-    "format": "sfloat",
+    "format": "float",
     "access": [
         "notify"
     ],

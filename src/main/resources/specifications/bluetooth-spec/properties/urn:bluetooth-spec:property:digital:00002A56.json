@@ -10,7 +10,7 @@
         "es-ES": "Digital",
         "pt-BR": "Digital"
     },
-    "format": "boolean",
+    "format": "bool",
     "access": [
         "read",
         "notify"

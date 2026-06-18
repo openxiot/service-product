@@ -10,7 +10,7 @@
         "es-ES": "Indicador de privacidad del periferico",
         "pt-BR": "Sinalizador de privacidade do periferico"
     },
-    "format": "boolean",
+    "format": "bool",
     "access": [
         "read",
         "write"

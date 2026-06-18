@@ -10,7 +10,7 @@
         "es-ES": "Temperatura intermedia",
         "pt-BR": "Temperatura intermediaria"
     },
-    "format": "sfloat",
+    "format": "float",
     "access": [
         "notify"
     ],

@@ -10,7 +10,7 @@
         "es-ES": "Analogico",
         "pt-BR": "Analogico"
     },
-    "format": "sfloat",
+    "format": "float",
     "access": [
         "read",
         "notify"

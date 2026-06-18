@@ -1,5 +1,5 @@
 {
-    "type": "urn:bluetooth-spec:unit:kilograms_per_cubic_meter:00000018",
+    "type": "urn:bluetooth-spec:unit:kilograms-per-cubic-meter:00000018",
     "description": {
         "en-US": "kilograms_per_cubic_meter",
         "zh-CN": "千克/立方米",
