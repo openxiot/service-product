@@ -1,7 +1,5 @@
 package cc.openxiot.product.db.specification.property;
 
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
-
 import java.util.List;
 import java.util.Map;
 

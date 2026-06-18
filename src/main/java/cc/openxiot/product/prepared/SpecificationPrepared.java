@@ -47,13 +47,17 @@ public class SpecificationPrepared {
     }
 
     public List<DeviceDefinition> getDevices(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.devices.values().stream()
-                .map(x -> DeviceDefinitionMapper.toDefinition(entity.namespace.code, x))
+        if (spec.devices == null) {
+            return List.of();
+        }
+
+        return spec.devices.values().stream()
+                .map(x -> DeviceDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .toList();
     }
 
@@ -72,13 +76,17 @@ public class SpecificationPrepared {
     }
 
     public List<ServiceDefinition> getServices(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.services.values().stream()
-                .map(x -> ServiceDefinitionMapper.toDefinition(entity.namespace.code, x))
+        if (spec.services == null) {
+            return List.of();
+        }
+
+        return spec.services.values().stream()
+                .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .toList();
     }
 
@@ -102,6 +110,10 @@ public class SpecificationPrepared {
             throw new IOException("Specification not found: " + namespace);
         }
 
+        if (spec.properties == null) {
+            return List.of();
+        }
+
         return spec.properties.values().stream()
                 .map(x -> PropertyDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .collect(Collectors.toList());
@@ -120,28 +132,19 @@ public class SpecificationPrepared {
 
         return PropertyDefinitionMapper.toDefinition(spec.namespace.code, entity);
     }
-    public PropertyDefinition<?> getService(PropertyType type) throws IOException {
-        SpecificationEntity spec = getSpecification(type.ns());
-        if (spec == null) {
-            throw new IOException("Specification not found: " + type.ns());
-        }
-
-        var entity = spec.properties.get(type.name());
-        if (entity == null) {
-            throw new IOException("Device not found: " + type.name());
-        }
-
-        return PropertyDefinitionMapper.toDefinition(spec.namespace.code, entity);
-    }
 
     public List<ActionDefinition> getActions(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.actions.values().stream()
-                .map(x -> ActionDefinitionMapper.toDefinition(entity.namespace.code, x))
+        if (spec.actions == null) {
+            return List.of();
+        }
+
+        return spec.actions.values().stream()
+                .map(x -> ActionDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .toList();
     }
 
@@ -160,13 +163,17 @@ public class SpecificationPrepared {
     }
 
     public List<EventDefinition> getEvents(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.events.values().stream()
-                .map(x -> EventDefinitionMapper.toDefinition(entity.namespace.code, x))
+        if (spec.events == null) {
+            return List.of();
+        }
+
+        return spec.events.values().stream()
+                .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .toList();
     }
 
@@ -185,13 +192,17 @@ public class SpecificationPrepared {
     }
 
     public List<FormatDefinition> getFormats(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.formats.values().stream()
-                .map(x -> FormatDefinitionMapper.toDefinition(entity.namespace.code, x))
+        if (spec.events == null) {
+            return List.of();
+        }
+
+        return spec.formats.values().stream()
+                .map(x -> FormatDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .toList();
     }
 

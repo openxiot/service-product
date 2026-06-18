@@ -6,6 +6,7 @@ import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import cn.geekcity.xiot.spec.definition.urn.ServiceType;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ServiceDefinitionMapper {
@@ -38,27 +39,33 @@ public class ServiceDefinitionMapper {
 
         ServiceType type = new ServiceType(ns, entity.code, entity.value);
 
-        List<PropertyType> optionalProperties = entity.optionalProperties.stream()
+        List<PropertyType> optionalProperties = entity.optionalProperties == null ? new ArrayList<>():
+                entity.optionalProperties.stream()
                 .map(x -> new PropertyType(ns, entity.code, entity.value))
                 .toList();
 
-        List<PropertyType> requiredProperties = entity.requiredProperties.stream()
+        List<PropertyType> requiredProperties = entity.requiredProperties == null ? new ArrayList<>():
+                entity.requiredProperties.stream()
                 .map(x -> new PropertyType(ns, entity.code, entity.value))
                 .toList();
 
-        List<ActionType> optionalActions = entity.optionalActions.stream()
+        List<ActionType> optionalActions = entity.optionalActions == null ? new ArrayList<>():
+                entity.optionalActions.stream()
                 .map(x -> new ActionType(ns, entity.code, entity.value))
                 .toList();
 
-        List<ActionType> requiredActions = entity.requiredActions.stream()
+        List<ActionType> requiredActions = entity.requiredActions == null ? new ArrayList<>():
+                entity.requiredActions.stream()
                 .map(x -> new ActionType(ns, entity.code, entity.value))
                 .toList();
 
-        List<EventType> optionalEvents = entity.optionalEvents.stream()
+        List<EventType> optionalEvents = entity.optionalEvents == null ? new ArrayList<>():
+                entity.optionalEvents.stream()
                 .map(x -> new EventType(ns, entity.code, entity.value))
                 .toList();
 
-        List<EventType> requiredEvents = entity.requiredEvents.stream()
+        List<EventType> requiredEvents = entity.requiredEvents == null ? new ArrayList<>():
+                entity.requiredEvents.stream()
                 .map(x -> new EventType(ns, entity.code, entity.value))
                 .toList();
 
