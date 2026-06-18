@@ -2,7 +2,6 @@
     "type": "urn:homekit-spec:service:camera-rtp-stream-management:00000110",
     "description": "Camera RTP Stream Management",
     "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
         "urn:homekit-spec:property:supported-video-stream-configuration:00000114",
         "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
         "urn:homekit-spec:property:supported-rtp-configuration:00000116",
