@@ -8,6 +8,7 @@ import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
 import cc.openxiot.product.db.specification.property.PropertyDefinitionMapper;
 import cc.openxiot.product.db.specification.service.ServiceDefinitionMapper;
 import cn.geekcity.xiot.spec.definition.*;
+import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -28,6 +29,10 @@ public class SpecificationPrepared {
     ObjectMapper objectMapper;
 
     private final Map<String, SpecificationEntity> specifications = new HashMap<>();
+
+    public boolean contains(String namespace) {
+        return HOMEKIT_SPEC.equals(namespace);
+    }
 
     public NamespaceDefinition getNamespaceDefinition(String namespace) throws IOException {
         SpecificationEntity entity = getSpecification(namespace);
@@ -61,14 +66,28 @@ public class SpecificationPrepared {
     }
 
     public List<PropertyDefinition<?>> getProperties(String namespace) throws IOException {
-        SpecificationEntity entity = getSpecification(namespace);
-        if (entity == null) {
+        SpecificationEntity spec = getSpecification(namespace);
+        if (spec == null) {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        return entity.properties.values().stream()
-                .map(x -> PropertyDefinitionMapper.toDefinition(entity.namespace.code, x))
+        return spec.properties.values().stream()
+                .map(x -> PropertyDefinitionMapper.toDefinition(spec.namespace.code, x))
                 .collect(Collectors.toList());
+    }
+
+    public ActionDefinition getAction(ActionType type) throws IOException {
+        SpecificationEntity spec = getSpecification(type.ns());
+        if (spec == null) {
+            throw new IOException("Specification not found: " + type.ns());
+        }
+
+        var entity = spec.actions.get(type.name());
+        if (entity == null) {
+            throw new IOException("Action not found: " + type.name());
+        }
+
+        return ActionDefinitionMapper.toDefinition(spec.namespace.code, entity);
     }
 
     public List<ActionDefinition> getActions(String namespace) throws IOException {

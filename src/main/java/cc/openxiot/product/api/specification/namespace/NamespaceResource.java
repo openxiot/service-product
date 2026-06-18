@@ -94,13 +94,22 @@ public class NamespaceResource extends AbstractResource {
         logger.infov("getOne: {0}", namespace);
 
         try {
-            NamespaceDefinition def = service.find(namespace);
-            if (def == null) {
-                return OxResponse.error("namespace not found");
+            if (SpecificationPrepared.HOMEKIT_SPEC.equals(namespace)) {
+                NamespaceDefinition def = prepared.getNamespaceDefinition(namespace);
+                if (def == null) {
+                    return OxResponse.error("namespace not found");
+                } else {
+                    return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
+                }
             } else {
-                return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
+                NamespaceDefinition def = service.find(namespace);
+                if (def == null) {
+                    return OxResponse.error("namespace not found");
+                } else {
+                    return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
+                }
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }

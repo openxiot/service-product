@@ -19,6 +19,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/spec/action")
@@ -92,13 +93,16 @@ public class ActionResource extends AbstractResource {
         logger.infov("getOne, {0}", type);
 
         try {
-            ActionDefinition def = service.find(ActionType.parse(type));
+            ActionType t = ActionType.parse(type);
+            ActionDefinition def = prepared.contains(t.ns()) ?
+                    prepared.getAction(t) :
+                    service.find(ActionType.parse(type));
             if (def == null) {
                 return OxResponse.error("action not found");
             } else {
                 return OxResponse.ok(ActionDefinitionCodec.encode(def));
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -111,10 +115,12 @@ public class ActionResource extends AbstractResource {
         logger.infov("getMany: {0}", namespace);
 
         try {
-            List<ActionDefinition> list = service.findByNamespace(namespace);
+            List<ActionDefinition> list = prepared.contains(namespace) ?
+                    prepared.getActions(SpecificationPrepared.HOMEKIT_SPEC) :
+                    service.findByNamespace(namespace);
             List<JsonObject> array = ActionDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -123,8 +129,14 @@ public class ActionResource extends AbstractResource {
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");
-        List<ActionDefinition> list = service.findAll();
-        List<JsonObject> array = ActionDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<ActionDefinition> list = service.findAll();
+            list.addAll(prepared.getActions(SpecificationPrepared.HOMEKIT_SPEC));
+            List<JsonObject> array = ActionDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }
