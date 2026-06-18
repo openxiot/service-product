@@ -4,6 +4,7 @@ import cc.openxiot.product.db.organization.Organization;
 import cc.openxiot.product.db.product.ProductRepository;
 import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.template.TemplateRepository;
+import cc.openxiot.product.prepared.SpecificationPrepared;
 import cc.openxiot.product.response.OxResponse;
 import io.vertx.core.json.JsonObject;
 import jakarta.enterprise.context.RequestScoped;
@@ -34,13 +35,16 @@ public class StatisticResource {
     @Inject
     TemplateRepository template;
 
+    @Inject
+    SpecificationPrepared prepared;
+
     @GET
     @Path("/")
     public Response get() {
         logger.infov("get");
 
         long products = product.count();
-        long specifications = specification.count() + 1; // add homekit-spec
+        long specifications = specification.count() + prepared.count();
         long templates = template.count();
         long organizations = Organization.count();
 

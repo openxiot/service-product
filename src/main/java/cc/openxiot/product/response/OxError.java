@@ -1,5 +1,8 @@
 package cc.openxiot.product.response;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class OxError {
 
     public boolean success = false;

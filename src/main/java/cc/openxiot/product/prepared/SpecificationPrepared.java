@@ -20,6 +20,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @ApplicationScoped
@@ -32,9 +33,14 @@ public class SpecificationPrepared {
     ObjectMapper objectMapper;
 
     private final Map<String, SpecificationEntity> specifications = new HashMap<>();
+    private final Set<String> preloaded = Set.of(HOMEKIT_SPEC, BLUETOOTH_SPEC);
+
+    public int count() {
+        return preloaded.size();
+    }
 
     public boolean contains(String namespace) {
-        return HOMEKIT_SPEC.equals(namespace) || BLUETOOTH_SPEC.equals(namespace);
+        return preloaded.contains(namespace);
     }
 
     public NamespaceDefinition getNamespaceDefinition(String namespace) throws IOException {
