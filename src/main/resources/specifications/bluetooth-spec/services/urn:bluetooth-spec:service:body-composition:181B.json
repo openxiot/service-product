@@ -1,0 +1,17 @@
+{
+    "type": "urn:bluetooth-spec:service:body-composition:181B",
+    "description": {
+        "en-US": "Body Composition",
+        "zh-CN": "身体成分",
+        "fr-FR": "Composition corporelle",
+        "de-DE": "Korperzusammensetzung",
+        "ja-JP": "体組成",
+        "ko-KR": "체성분",
+        "es-ES": "Composicion corporal",
+        "pt-BR": "Composicao corporal"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:body-composition-measurement:00002A9B"
+    ]
+}

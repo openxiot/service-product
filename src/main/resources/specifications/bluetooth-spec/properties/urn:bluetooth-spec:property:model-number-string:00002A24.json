@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:model-number-string:00002A24",
+    "description": {
+        "en-US": "Model Number String",
+        "zh-CN": "型号字符串",
+        "fr-FR": "Chaine du numero de modele",
+        "de-DE": "Modellnummer",
+        "ja-JP": "モデル番号",
+        "ko-KR": "모델 번호",
+        "es-ES": "Numero de modelo",
+        "pt-BR": "Numero do modelo"
+    },
+    "format": "string",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

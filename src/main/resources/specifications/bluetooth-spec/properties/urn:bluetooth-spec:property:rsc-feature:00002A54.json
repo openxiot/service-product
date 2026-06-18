@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:rsc-feature:00002A54",
+    "description": {
+        "en-US": "RSC Feature",
+        "zh-CN": "跑步传感器特征",
+        "fr-FR": "Caracteristique RSC",
+        "de-DE": "RSC-Funktion",
+        "ja-JP": "RSC機能",
+        "ko-KR": "RSC 기능",
+        "es-ES": "Caracteristica RSC",
+        "pt-BR": "Recurso RSC"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

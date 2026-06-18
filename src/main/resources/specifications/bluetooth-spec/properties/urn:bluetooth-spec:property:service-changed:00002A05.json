@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:service-changed:00002A05",
+    "description": {
+        "en-US": "Service Changed",
+        "zh-CN": "服务变更",
+        "fr-FR": "Service modifie",
+        "de-DE": "Dienst geandert",
+        "ja-JP": "サービス変更",
+        "ko-KR": "서비스 변경됨",
+        "es-ES": "Servicio cambiado",
+        "pt-BR": "Servico alterado"
+    },
+    "format": "uint8",
+    "access": [
+        "indicate"
+    ],
+    "lifecycle": "released"
+}

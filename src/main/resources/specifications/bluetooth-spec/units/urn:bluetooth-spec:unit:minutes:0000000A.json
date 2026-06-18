@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:minutes:0000000A",
+    "description": {
+        "en-US": "minutes",
+        "zh-CN": "分钟",
+        "fr-FR": "minutes",
+        "de-DE": "Minuten",
+        "ja-JP": "分",
+        "ko-KR": "분",
+        "es-ES": "minutos",
+        "pt-BR": "minutos"
+    },
+    "lifecycle": "released"
+}

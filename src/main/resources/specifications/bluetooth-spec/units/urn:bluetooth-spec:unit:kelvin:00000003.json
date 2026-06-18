@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:kelvin:00000003",
+    "description": {
+        "en-US": "kelvin",
+        "zh-CN": "开尔文",
+        "fr-FR": "kelvin",
+        "de-DE": "Kelvin",
+        "ja-JP": "ケルビン",
+        "ko-KR": "켈빈",
+        "es-ES": "kelvin",
+        "pt-BR": "kelvin"
+    },
+    "lifecycle": "released"
+}

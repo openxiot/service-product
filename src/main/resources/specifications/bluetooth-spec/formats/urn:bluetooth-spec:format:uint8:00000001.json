@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:uint8:00000001",
+    "description": {
+        "en-US": "uint8",
+        "zh-CN": "无符号 8 位整数",
+        "fr-FR": "uint8",
+        "de-DE": "uint8",
+        "ja-JP": "uint8",
+        "ko-KR": "uint8",
+        "es-ES": "uint8",
+        "pt-BR": "uint8"
+    },
+    "lifecycle": "released"
+}

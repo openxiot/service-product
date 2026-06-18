@@ -130,6 +130,7 @@ public class DeviceResource extends AbstractResource {
         try {
             List<DeviceDefinition> list = service.findAll();
             list.addAll(prepared.getDevices(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getDevices(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = DeviceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

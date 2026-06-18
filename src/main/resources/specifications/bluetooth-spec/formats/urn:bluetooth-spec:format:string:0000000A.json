@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:string:0000000A",
+    "description": {
+        "en-US": "string",
+        "zh-CN": "UTF-8 字符串",
+        "fr-FR": "chaine UTF-8",
+        "de-DE": "UTF-8-Zeichenkette",
+        "ja-JP": "UTF-8文字列",
+        "ko-KR": "UTF-8 문자열",
+        "es-ES": "cadena UTF-8",
+        "pt-BR": "string UTF-8"
+    },
+    "lifecycle": "released"
+}

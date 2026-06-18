@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:alert-category-id:00002A40",
+    "description": {
+        "en-US": "Alert Category ID",
+        "zh-CN": "警报类别 ID",
+        "fr-FR": "ID de categorie d'alerte",
+        "de-DE": "Alarmkategorie-ID",
+        "ja-JP": "通知カテゴリID",
+        "ko-KR": "알림 카테고리 ID",
+        "es-ES": "ID de categoria de alerta",
+        "pt-BR": "ID da categoria de alerta"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

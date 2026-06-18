@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:temperature-measurement:00002A1C",
+    "description": {
+        "en-US": "Temperature Measurement",
+        "zh-CN": "温度测量",
+        "fr-FR": "Mesure de temperature",
+        "de-DE": "Temperaturmessung",
+        "ja-JP": "温度測定",
+        "ko-KR": "온도 측정",
+        "es-ES": "Medicion de temperatura",
+        "pt-BR": "Medicao de temperatura"
+    },
+    "format": "sfloat",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "celsius"
+}

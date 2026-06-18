@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:float32:00000009",
+    "description": {
+        "en-US": "float32",
+        "zh-CN": "32 位浮点数",
+        "fr-FR": "flottant 32 bits",
+        "de-DE": "32-Bit-Gleitkommazahl",
+        "ja-JP": "32ビット浮動小数点",
+        "ko-KR": "32비트 부동 소수점",
+        "es-ES": "flotante 32 bits",
+        "pt-BR": "ponto flutuante 32 bits"
+    },
+    "lifecycle": "released"
+}

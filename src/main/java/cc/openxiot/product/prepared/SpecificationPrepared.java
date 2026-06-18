@@ -26,6 +26,7 @@ import java.util.stream.Collectors;
 public class SpecificationPrepared {
 
     public static String HOMEKIT_SPEC = "homekit-spec";
+    public static String BLUETOOTH_SPEC = "bluetooth-spec";
 
     @Inject
     ObjectMapper objectMapper;
@@ -33,7 +34,7 @@ public class SpecificationPrepared {
     private final Map<String, SpecificationEntity> specifications = new HashMap<>();
 
     public boolean contains(String namespace) {
-        return HOMEKIT_SPEC.equals(namespace);
+        return HOMEKIT_SPEC.equals(namespace) || BLUETOOTH_SPEC.equals(namespace);
     }
 
     public NamespaceDefinition getNamespaceDefinition(String namespace) throws IOException {

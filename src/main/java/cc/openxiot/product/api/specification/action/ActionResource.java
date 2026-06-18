@@ -131,6 +131,7 @@ public class ActionResource extends AbstractResource {
         try {
             List<ActionDefinition> list = service.findAll();
             list.addAll(prepared.getActions(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getActions(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = ActionDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

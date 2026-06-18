@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:meters:0000000D",
+    "description": {
+        "en-US": "meters",
+        "zh-CN": "米",
+        "fr-FR": "metres",
+        "de-DE": "Meter",
+        "ja-JP": "メートル",
+        "ko-KR": "미터",
+        "es-ES": "metros",
+        "pt-BR": "metros"
+    },
+    "lifecycle": "released"
+}

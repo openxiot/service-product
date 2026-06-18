@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:step-climber-data:00002ACF",
+    "description": {
+        "en-US": "Step Climber Data",
+        "zh-CN": "台阶机数据",
+        "fr-FR": "Donnees du simulateur d'escalier",
+        "de-DE": "Treppensteiger-Daten",
+        "ja-JP": "ステップクライマーデータ",
+        "ko-KR": "스텝 클라이머 데이터",
+        "es-ES": "Datos de escalador",
+        "pt-BR": "Dados do escalador"
+    },
+    "format": "uint16",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

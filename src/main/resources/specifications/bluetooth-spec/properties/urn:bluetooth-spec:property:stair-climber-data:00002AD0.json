@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:stair-climber-data:00002AD0",
+    "description": {
+        "en-US": "Stair Climber Data",
+        "zh-CN": "楼梯机数据",
+        "fr-FR": "Donnees du monte-escalier",
+        "de-DE": "Treppensteiger-Daten",
+        "ja-JP": "階段昇降機データ",
+        "ko-KR": "계단 오르기 데이터",
+        "es-ES": "Datos de escalera",
+        "pt-BR": "Dados de escada"
+    },
+    "format": "uint16",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

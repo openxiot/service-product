@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:int16:00000006",
+    "description": {
+        "en-US": "int16",
+        "zh-CN": "有符号 16 位整数",
+        "fr-FR": "int16",
+        "de-DE": "int16",
+        "ja-JP": "int16",
+        "ko-KR": "int16",
+        "es-ES": "int16",
+        "pt-BR": "int16"
+    },
+    "lifecycle": "released"
+}

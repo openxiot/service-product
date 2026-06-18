@@ -1,0 +1,21 @@
+{
+    "type": "urn:bluetooth-spec:service:blood-pressure:1810",
+    "description": {
+        "en-US": "Blood Pressure",
+        "zh-CN": "血压",
+        "fr-FR": "Pression arterielle",
+        "de-DE": "Blutdruck",
+        "ja-JP": "血圧",
+        "ko-KR": "혈압",
+        "es-ES": "Presion arterial",
+        "pt-BR": "Pressao arterial"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:intermediate-cuff-pressure:00002A36",
+        "urn:bluetooth-spec:property:blood-pressure-feature:00002A49"
+    ]
+}

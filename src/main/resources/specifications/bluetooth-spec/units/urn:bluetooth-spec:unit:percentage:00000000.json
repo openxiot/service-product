@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:percentage:00000000",
+    "description": {
+        "en-US": "percentage",
+        "zh-CN": "百分比",
+        "fr-FR": "pourcentage",
+        "de-DE": "Prozentsatz",
+        "ja-JP": "パーセント",
+        "ko-KR": "백분율",
+        "es-ES": "porcentaje",
+        "pt-BR": "porcentagem"
+    },
+    "lifecycle": "released"
+}

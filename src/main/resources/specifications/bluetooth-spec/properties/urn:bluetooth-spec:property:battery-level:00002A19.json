@@ -1,0 +1,25 @@
+{
+    "type": "urn:bluetooth-spec:property:battery-level:00002A19",
+    "description": {
+        "en-US": "Battery Level",
+        "zh-CN": "电池电量",
+        "fr-FR": "Niveau de batterie",
+        "de-DE": "Batterieladestand",
+        "ja-JP": "バッテリーレベル",
+        "ko-KR": "배터리 잔량",
+        "es-ES": "Nivel de bateria",
+        "pt-BR": "Nivel da bateria"
+    },
+    "format": "uint8",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "percentage",
+    "value-range": [
+        0,
+        100,
+        1
+    ]
+}

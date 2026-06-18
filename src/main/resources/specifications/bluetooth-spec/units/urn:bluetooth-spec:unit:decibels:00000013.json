@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:decibels:00000013",
+    "description": {
+        "en-US": "decibels",
+        "zh-CN": "分贝",
+        "fr-FR": "decibels",
+        "de-DE": "Dezibel",
+        "ja-JP": "デシベル",
+        "ko-KR": "데시벨",
+        "es-ES": "decibelios",
+        "pt-BR": "decibeis"
+    },
+    "lifecycle": "released"
+}

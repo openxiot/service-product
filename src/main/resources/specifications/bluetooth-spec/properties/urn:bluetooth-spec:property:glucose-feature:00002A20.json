@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:glucose-feature:00002A20",
+    "description": {
+        "en-US": "Glucose Feature",
+        "zh-CN": "血糖特征",
+        "fr-FR": "Caracteristique du glucose",
+        "de-DE": "Glukosefunktion",
+        "ja-JP": "血糖機能",
+        "ko-KR": "혈당 기능",
+        "es-ES": "Caracteristica de glucosa",
+        "pt-BR": "Recurso de glicose"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

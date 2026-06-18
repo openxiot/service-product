@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:celsius:00000001",
+    "description": {
+        "en-US": "celsius",
+        "zh-CN": "摄氏度",
+        "fr-FR": "degres Celsius",
+        "de-DE": "Grad Celsius",
+        "ja-JP": "摂氏度",
+        "ko-KR": "섭씨",
+        "es-ES": "grados Celsius",
+        "pt-BR": "graus Celsius"
+    },
+    "lifecycle": "released"
+}

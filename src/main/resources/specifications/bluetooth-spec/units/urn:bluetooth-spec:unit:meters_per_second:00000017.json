@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:meters_per_second:00000017",
+    "description": {
+        "en-US": "meters_per_second",
+        "zh-CN": "米/秒",
+        "fr-FR": "metres par seconde",
+        "de-DE": "Meter pro Sekunde",
+        "ja-JP": "メートル毎秒",
+        "ko-KR": "미터 매 초",
+        "es-ES": "metros por segundo",
+        "pt-BR": "metros por segundo"
+    },
+    "lifecycle": "released"
+}

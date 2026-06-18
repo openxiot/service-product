@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:http-status-code:00002AB8",
+    "description": {
+        "en-US": "HTTP Status Code",
+        "zh-CN": "HTTP 状态码",
+        "fr-FR": "Code d'etat HTTP",
+        "de-DE": "HTTP-Statuscode",
+        "ja-JP": "HTTPステータスコード",
+        "ko-KR": "HTTP 상태 코드",
+        "es-ES": "Codigo de estado HTTP",
+        "pt-BR": "Codigo de status HTTP"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

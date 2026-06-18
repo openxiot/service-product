@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:kilograms:0000000E",
+    "description": {
+        "en-US": "kilograms",
+        "zh-CN": "千克",
+        "fr-FR": "kilogrammes",
+        "de-DE": "Kilogramm",
+        "ja-JP": "キログラム",
+        "ko-KR": "킬로그램",
+        "es-ES": "kilogramos",
+        "pt-BR": "quilogramas"
+    },
+    "lifecycle": "released"
+}

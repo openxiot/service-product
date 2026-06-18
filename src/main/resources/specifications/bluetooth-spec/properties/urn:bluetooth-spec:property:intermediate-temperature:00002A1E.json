@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:intermediate-temperature:00002A1E",
+    "description": {
+        "en-US": "Intermediate Temperature",
+        "zh-CN": "中间温度",
+        "fr-FR": "Temperature intermediaire",
+        "de-DE": "Zwischentemperatur",
+        "ja-JP": "中間温度",
+        "ko-KR": "중간 온도",
+        "es-ES": "Temperatura intermedia",
+        "pt-BR": "Temperatura intermediaria"
+    },
+    "format": "sfloat",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "celsius"
+}

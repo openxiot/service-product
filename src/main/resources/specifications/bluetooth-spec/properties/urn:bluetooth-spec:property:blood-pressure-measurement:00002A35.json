@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35",
+    "description": {
+        "en-US": "Blood Pressure Measurement",
+        "zh-CN": "血压测量",
+        "fr-FR": "Mesure de la pression arterielle",
+        "de-DE": "Blutdruckmessung",
+        "ja-JP": "血圧測定",
+        "ko-KR": "혈압 측정",
+        "es-ES": "Medicion de presion arterial",
+        "pt-BR": "Medicao da pressao arterial"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

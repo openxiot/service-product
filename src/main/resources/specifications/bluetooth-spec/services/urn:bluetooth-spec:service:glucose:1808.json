@@ -1,0 +1,21 @@
+{
+    "type": "urn:bluetooth-spec:service:glucose:1808",
+    "description": {
+        "en-US": "Glucose",
+        "zh-CN": "血糖",
+        "fr-FR": "Glucose",
+        "de-DE": "Glukose",
+        "ja-JP": "グルコース",
+        "ko-KR": "혈당",
+        "es-ES": "Glucosa",
+        "pt-BR": "Glicose"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:glucose-measurement:00002A18"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
+        "urn:bluetooth-spec:property:glucose-feature:00002A20"
+    ]
+}

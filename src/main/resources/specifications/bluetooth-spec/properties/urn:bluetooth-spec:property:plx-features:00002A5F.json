@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:plx-features:00002A5F",
+    "description": {
+        "en-US": "PLX Features",
+        "zh-CN": "脉搏血氧仪特征",
+        "fr-FR": "Fonctionnalites PLX",
+        "de-DE": "PLX-Funktionen",
+        "ja-JP": "PLX機能",
+        "ko-KR": "PLX 기능",
+        "es-ES": "Funciones PLX",
+        "pt-BR": "Recursos PLX"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "urn:bluetooth-spec:service:generic-attribute:1801",
+    "description": {
+        "en-US": "Generic Attribute",
+        "zh-CN": "通用属性",
+        "fr-FR": "Attribut generique",
+        "de-DE": "Generisches Attribut",
+        "ja-JP": "汎用属性",
+        "ko-KR": "일반 속성",
+        "es-ES": "Atributo generico",
+        "pt-BR": "Atributo generico"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:service-changed:00002A05"
+    ]
+}

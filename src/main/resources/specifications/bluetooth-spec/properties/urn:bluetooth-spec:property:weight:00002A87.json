@@ -1,0 +1,20 @@
+{
+    "type": "urn:bluetooth-spec:property:weight:00002A87",
+    "description": {
+        "en-US": "Weight",
+        "zh-CN": "体重",
+        "fr-FR": "Poids",
+        "de-DE": "Gewicht",
+        "ja-JP": "体重",
+        "ko-KR": "체중",
+        "es-ES": "Peso",
+        "pt-BR": "Peso"
+    },
+    "format": "uint16",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released",
+    "unit": "kilograms"
+}

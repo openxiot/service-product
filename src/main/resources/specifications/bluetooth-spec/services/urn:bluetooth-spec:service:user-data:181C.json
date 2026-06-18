@@ -1,0 +1,20 @@
+{
+    "type": "urn:bluetooth-spec:service:user-data:181C",
+    "description": {
+        "en-US": "User Data",
+        "zh-CN": "用户数据",
+        "fr-FR": "Donnees utilisateur",
+        "de-DE": "Benutzerdaten",
+        "ja-JP": "ユーザーデータ",
+        "ko-KR": "사용자 데이터",
+        "es-ES": "Datos de usuario",
+        "pt-BR": "Dados do usuario"
+    },
+    "lifecycle": "released",
+    "optional-properties": [
+        "urn:bluetooth-spec:property:age:00002A8A",
+        "urn:bluetooth-spec:property:gender:00002A8C",
+        "urn:bluetooth-spec:property:height:00002A8E",
+        "urn:bluetooth-spec:property:weight:00002A87"
+    ]
+}

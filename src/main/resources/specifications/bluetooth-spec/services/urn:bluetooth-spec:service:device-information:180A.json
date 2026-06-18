@@ -1,0 +1,26 @@
+{
+    "type": "urn:bluetooth-spec:service:device-information:180A",
+    "description": {
+        "en-US": "Device Information",
+        "zh-CN": "设备信息",
+        "fr-FR": "Informations sur l'appareil",
+        "de-DE": "Gerateinformationen",
+        "ja-JP": "デバイス情報",
+        "ko-KR": "장치 정보",
+        "es-ES": "Informacion del dispositivo",
+        "pt-BR": "Informacoes do dispositivo"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:manufacturer-name-string:00002A29",
+        "urn:bluetooth-spec:property:model-number-string:00002A24"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:serial-number-string:00002A25",
+        "urn:bluetooth-spec:property:firmware-revision-string:00002A26",
+        "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
+        "urn:bluetooth-spec:property:software-revision-string:00002A28",
+        "urn:bluetooth-spec:property:system-id:00002A23",
+        "urn:bluetooth-spec:property:pnp-id:00002A50"
+    ]
+}

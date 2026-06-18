@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:kilograms_per_cubic_meter:00000018",
+    "description": {
+        "en-US": "kilograms_per_cubic_meter",
+        "zh-CN": "千克/立方米",
+        "fr-FR": "kg/m3",
+        "de-DE": "kg/m3",
+        "ja-JP": "kg/m3",
+        "ko-KR": "kg/m3",
+        "es-ES": "kg/m3",
+        "pt-BR": "kg/m3"
+    },
+    "lifecycle": "released"
+}

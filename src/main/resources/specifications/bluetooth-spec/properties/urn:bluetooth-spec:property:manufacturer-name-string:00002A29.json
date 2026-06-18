@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29",
+    "description": {
+        "en-US": "Manufacturer Name String",
+        "zh-CN": "制造商名称字符串",
+        "fr-FR": "Nom du fabricant",
+        "de-DE": "Herstellername",
+        "ja-JP": "メーカー名",
+        "ko-KR": "제조업체 이름",
+        "es-ES": "Nombre del fabricante",
+        "pt-BR": "Nome do fabricante"
+    },
+    "format": "string",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

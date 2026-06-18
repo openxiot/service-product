@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:treadmill-data:00002ACD",
+    "description": {
+        "en-US": "Treadmill Data",
+        "zh-CN": "跑步机数据",
+        "fr-FR": "Donnees du tapis roulant",
+        "de-DE": "Laufbanddaten",
+        "ja-JP": "トレッドミルデータ",
+        "ko-KR": "트레드밀 데이터",
+        "es-ES": "Datos de la cinta de correr",
+        "pt-BR": "Dados da esteira"
+    },
+    "format": "uint16",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

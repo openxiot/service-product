@@ -2,7 +2,6 @@ package cc.openxiot.product.db.specification.unit;
 
 import cn.geekcity.xiot.spec.definition.UnitDefinition;
 import cn.geekcity.xiot.spec.definition.urn.UnitType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class UnitDefinitionMapper {
 
@@ -28,7 +27,7 @@ public class UnitDefinitionMapper {
         UnitType type = new UnitType(ns, entity.code, entity.value);
 
         UnitDefinition def = new UnitDefinition(type, entity.description);
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
         return def;
     }
 }

@@ -1,0 +1,20 @@
+{
+    "type": "urn:bluetooth-spec:property:humidity:00002A6F",
+    "description": {
+        "en-US": "Humidity",
+        "zh-CN": "湿度",
+        "fr-FR": "Humidite",
+        "de-DE": "Luftfeuchtigkeit",
+        "ja-JP": "湿度",
+        "ko-KR": "습도",
+        "es-ES": "Humedad",
+        "pt-BR": "Umidade"
+    },
+    "format": "uint16",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "percentage"
+}

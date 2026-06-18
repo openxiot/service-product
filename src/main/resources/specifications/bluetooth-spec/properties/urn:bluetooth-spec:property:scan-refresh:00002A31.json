@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:scan-refresh:00002A31",
+    "description": {
+        "en-US": "Scan Refresh",
+        "zh-CN": "扫描刷新",
+        "fr-FR": "Rafraichissement du scan",
+        "de-DE": "Scan-Aktualisierung",
+        "ja-JP": "スキャンリフレッシュ",
+        "ko-KR": "스캔 새로고침",
+        "es-ES": "Actualizacion del escaneo",
+        "pt-BR": "Atualizacao da varredura"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

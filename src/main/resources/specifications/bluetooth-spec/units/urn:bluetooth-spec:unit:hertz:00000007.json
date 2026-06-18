@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:hertz:00000007",
+    "description": {
+        "en-US": "hertz",
+        "zh-CN": "赫兹",
+        "fr-FR": "hertz",
+        "de-DE": "Hertz",
+        "ja-JP": "ヘルツ",
+        "ko-KR": "헤르츠",
+        "es-ES": "hercios",
+        "pt-BR": "hertz"
+    },
+    "lifecycle": "released"
+}

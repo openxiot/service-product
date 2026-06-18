@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:sfloat:00000008",
+    "description": {
+        "en-US": "sfloat",
+        "zh-CN": "IEEE-11073 半精度浮点数",
+        "fr-FR": "SFLOAT IEEE-11073",
+        "de-DE": "IEEE-11073 SFLOAT",
+        "ja-JP": "IEEE-11073 SFLOAT",
+        "ko-KR": "IEEE-11073 SFLOAT",
+        "es-ES": "SFLOAT IEEE-11073",
+        "pt-BR": "SFLOAT IEEE-11073"
+    },
+    "lifecycle": "released"
+}

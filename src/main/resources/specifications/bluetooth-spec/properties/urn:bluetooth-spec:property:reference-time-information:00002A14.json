@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:reference-time-information:00002A14",
+    "description": {
+        "en-US": "Reference Time Information",
+        "zh-CN": "参考时间信息",
+        "fr-FR": "Informations de temps de reference",
+        "de-DE": "Referenzzeitinformationen",
+        "ja-JP": "基準時刻情報",
+        "ko-KR": "참조 시간 정보",
+        "es-ES": "Informacion de tiempo de referencia",
+        "pt-BR": "Informacoes de tempo de referencia"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

@@ -135,6 +135,11 @@ public class NamespaceResource extends AbstractResource {
                 list.add(homekit);
             }
 
+            NamespaceDefinition bluetooth = prepared.getNamespaceDefinition(SpecificationPrepared.BLUETOOTH_SPEC);
+            if (bluetooth != null) {
+                list.add(bluetooth);
+            }
+
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {
@@ -155,6 +160,11 @@ public class NamespaceResource extends AbstractResource {
                 list.add(homekit);
             }
 
+            NamespaceDefinition bluetooth = prepared.getNamespaceDefinition(SpecificationPrepared.BLUETOOTH_SPEC);
+            if (bluetooth != null) {
+                list.add(bluetooth);
+            }
+
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {
@@ -173,6 +183,11 @@ public class NamespaceResource extends AbstractResource {
             NamespaceDefinition homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
             if (homekit != null) {
                 list.add(homekit);
+            }
+
+            NamespaceDefinition bluetooth = prepared.getNamespaceDefinition(SpecificationPrepared.BLUETOOTH_SPEC);
+            if (homekit != null) {
+                list.add(bluetooth);
             }
 
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);

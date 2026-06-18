@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:peripheral-privacy-flag:00002A02",
+    "description": {
+        "en-US": "Peripheral Privacy Flag",
+        "zh-CN": "外设隐私标志",
+        "fr-FR": "Drapeau de confidentialite peripherique",
+        "de-DE": "Datenschutzflag fur Peripherie",
+        "ja-JP": "ペリフェラルプライバシーフラグ",
+        "ko-KR": "주변기기 개인정보 플래그",
+        "es-ES": "Indicador de privacidad del periferico",
+        "pt-BR": "Sinalizador de privacidade do periferico"
+    },
+    "format": "boolean",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released"
+}

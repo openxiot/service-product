@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:service:environmental-sensing:181A",
+    "description": {
+        "en-US": "Environmental Sensing",
+        "zh-CN": "环境传感",
+        "fr-FR": "Detection environnementale",
+        "de-DE": "Umgebungssensorik",
+        "ja-JP": "環境センシング",
+        "ko-KR": "환경 센싱",
+        "es-ES": "Deteccion ambiental",
+        "pt-BR": "Sensoriamento ambiental"
+    },
+    "lifecycle": "released",
+    "optional-properties": [
+        "urn:bluetooth-spec:property:temperature:00002A6E",
+        "urn:bluetooth-spec:property:humidity:00002A6F",
+        "urn:bluetooth-spec:property:pressure:00002A6D"
+    ]
+}

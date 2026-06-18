@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:watts:00000004",
+    "description": {
+        "en-US": "watts",
+        "zh-CN": "瓦特",
+        "fr-FR": "watts",
+        "de-DE": "Watt",
+        "ja-JP": "ワット",
+        "ko-KR": "와트",
+        "es-ES": "vatios",
+        "pt-BR": "watts"
+    },
+    "lifecycle": "released"
+}

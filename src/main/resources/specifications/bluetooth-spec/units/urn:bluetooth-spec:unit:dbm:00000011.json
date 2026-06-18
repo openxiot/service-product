@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:dbm:00000011",
+    "description": {
+        "en-US": "dbm",
+        "zh-CN": "dBm",
+        "fr-FR": "dBm",
+        "de-DE": "dBm",
+        "ja-JP": "dBm",
+        "ko-KR": "dBm",
+        "es-ES": "dBm",
+        "pt-BR": "dBm"
+    },
+    "lifecycle": "released"
+}

@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60",
+    "description": {
+        "en-US": "PLX Spot-Check Measurement",
+        "zh-CN": "脉搏血氧仪点测",
+        "fr-FR": "Mesure ponctuelle PLX",
+        "de-DE": "PLX-Stichprobenmessung",
+        "ja-JP": "PLXスポットチェック測定",
+        "ko-KR": "PLX 스팟 체크 측정",
+        "es-ES": "Medicion puntual PLX",
+        "pt-BR": "Medicao pontual PLX"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

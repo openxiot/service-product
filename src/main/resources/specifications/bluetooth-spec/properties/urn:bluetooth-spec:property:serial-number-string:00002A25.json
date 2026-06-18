@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:serial-number-string:00002A25",
+    "description": {
+        "en-US": "Serial Number String",
+        "zh-CN": "序列号字符串",
+        "fr-FR": "Chaine du numero de serie",
+        "de-DE": "Seriennummer",
+        "ja-JP": "シリアル番号",
+        "ko-KR": "일련 번호",
+        "es-ES": "Numero de serie",
+        "pt-BR": "Numero de serie"
+    },
+    "format": "string",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

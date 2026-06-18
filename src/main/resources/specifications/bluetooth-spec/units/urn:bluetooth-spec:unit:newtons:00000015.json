@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:newtons:00000015",
+    "description": {
+        "en-US": "newtons",
+        "zh-CN": "牛顿",
+        "fr-FR": "newtons",
+        "de-DE": "Newton",
+        "ja-JP": "ニュートン",
+        "ko-KR": "뉴턴",
+        "es-ES": "newtons",
+        "pt-BR": "newtons"
+    },
+    "lifecycle": "released"
+}

@@ -1,0 +1,20 @@
+{
+    "type": "urn:bluetooth-spec:property:temperature:00002A6E",
+    "description": {
+        "en-US": "Temperature",
+        "zh-CN": "温度",
+        "fr-FR": "Temperature",
+        "de-DE": "Temperatur",
+        "ja-JP": "温度",
+        "ko-KR": "온도",
+        "es-ES": "Temperatura",
+        "pt-BR": "Temperatura"
+    },
+    "format": "int16",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "celsius"
+}

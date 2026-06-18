@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:local-time-information:00002A0F",
+    "description": {
+        "en-US": "Local Time Information",
+        "zh-CN": "本地时间信息",
+        "fr-FR": "Informations sur l'heure locale",
+        "de-DE": "Ortszeitinformationen",
+        "ja-JP": "ローカル時刻情報",
+        "ko-KR": "현지 시간 정보",
+        "es-ES": "Informacion de hora local",
+        "pt-BR": "Informacoes de horario local"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

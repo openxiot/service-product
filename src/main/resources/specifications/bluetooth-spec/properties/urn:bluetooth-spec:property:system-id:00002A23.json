@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:system-id:00002A23",
+    "description": {
+        "en-US": "System ID",
+        "zh-CN": "系统 ID",
+        "fr-FR": "ID systeme",
+        "de-DE": "System-ID",
+        "ja-JP": "システムID",
+        "ko-KR": "시스템 ID",
+        "es-ES": "ID del sistema",
+        "pt-BR": "ID do sistema"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

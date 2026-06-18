@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:alert-status:00002A43",
+    "description": {
+        "en-US": "Alert Status",
+        "zh-CN": "警报状态",
+        "fr-FR": "Statut d'alerte",
+        "de-DE": "Alarmstatus",
+        "ja-JP": "通知状態",
+        "ko-KR": "알림 상태",
+        "es-ES": "Estado de alerta",
+        "pt-BR": "Status de alerta"
+    },
+    "format": "uint8",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released"
+}

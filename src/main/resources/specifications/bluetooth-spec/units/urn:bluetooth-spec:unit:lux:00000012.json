@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:lux:00000012",
+    "description": {
+        "en-US": "lux",
+        "zh-CN": "勒克斯",
+        "fr-FR": "lux",
+        "de-DE": "Lux",
+        "ja-JP": "ルクス",
+        "ko-KR": "럭스",
+        "es-ES": "lux",
+        "pt-BR": "lux"
+    },
+    "lifecycle": "released"
+}

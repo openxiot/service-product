@@ -4,7 +4,6 @@ import cn.geekcity.xiot.spec.definition.ActionDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -40,7 +39,7 @@ public class ActionDefinitionMapper {
                 .toList();
 
         ActionDefinition def = new ActionDefinition(type, entity.description, in, out);
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
         return def;
     }
 }

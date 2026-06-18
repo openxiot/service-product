@@ -133,6 +133,7 @@ public class PropertyResource extends AbstractResource {
         try {
             List<PropertyDefinition<?>> list = service.findAll();
             list.addAll(prepared.getProperties(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getProperties(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = list.stream().map(PropertyDefinitionCodec::encode).toList();
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

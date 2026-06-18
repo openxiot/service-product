@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:gender:00002A8C",
+    "description": {
+        "en-US": "Gender",
+        "zh-CN": "性别",
+        "fr-FR": "Genre",
+        "de-DE": "Geschlecht",
+        "ja-JP": "性別",
+        "ko-KR": "성별",
+        "es-ES": "Genero",
+        "pt-BR": "Genero"
+    },
+    "format": "uint8",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released"
+}

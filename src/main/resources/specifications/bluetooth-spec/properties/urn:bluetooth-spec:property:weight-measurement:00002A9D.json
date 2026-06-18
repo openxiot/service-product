@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:weight-measurement:00002A9D",
+    "description": {
+        "en-US": "Weight Measurement",
+        "zh-CN": "体重测量",
+        "fr-FR": "Mesure du poids",
+        "de-DE": "Gewichtsmessung",
+        "ja-JP": "体重測定",
+        "ko-KR": "체중 측정",
+        "es-ES": "Medicion de peso",
+        "pt-BR": "Medicao de peso"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "kilograms"
+}

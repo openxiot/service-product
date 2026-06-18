@@ -1,0 +1,20 @@
+{
+    "type": "urn:bluetooth-spec:property:height:00002A8E",
+    "description": {
+        "en-US": "Height",
+        "zh-CN": "身高",
+        "fr-FR": "Taille",
+        "de-DE": "Korpergroße",
+        "ja-JP": "身長",
+        "ko-KR": "키",
+        "es-ES": "Altura",
+        "pt-BR": "Altura"
+    },
+    "format": "uint16",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released",
+    "unit": "meters"
+}

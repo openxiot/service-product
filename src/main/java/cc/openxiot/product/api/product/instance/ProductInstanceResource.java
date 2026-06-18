@@ -22,7 +22,6 @@ import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import org.eclipse.microprofile.jwt.JsonWebToken;
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
@@ -125,7 +124,7 @@ public class ProductInstanceResource extends AbstractResource {
             checkManagerPermission(urn.organization());
 
             Updater updater = getUpdater(urn.organization());
-            service.update(urn, Lifecycle.fromString(lifecycle), updater);
+            service.update(urn, Lifecycle.of(lifecycle), updater);
 
             JsonObject o = new JsonObject().put("type", type).put("lifecycle", lifecycle);
             History.addDeveloper(urn.organization(), updater.id(), "UPDATE", "ProductInstance.Lifecycle", o.encode());

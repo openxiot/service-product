@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:glucose-measurement:00002A18",
+    "description": {
+        "en-US": "Glucose Measurement",
+        "zh-CN": "血糖测量",
+        "fr-FR": "Mesure du glucose",
+        "de-DE": "Glukosemessung",
+        "ja-JP": "血糖測定",
+        "ko-KR": "혈당 측정",
+        "es-ES": "Medicion de glucosa",
+        "pt-BR": "Medicao de glicose"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

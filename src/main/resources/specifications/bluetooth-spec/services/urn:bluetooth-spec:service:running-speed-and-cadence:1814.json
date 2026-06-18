@@ -1,0 +1,21 @@
+{
+    "type": "urn:bluetooth-spec:service:running-speed-and-cadence:1814",
+    "description": {
+        "en-US": "Running Speed and Cadence",
+        "zh-CN": "跑步速度和步频",
+        "fr-FR": "Vitesse et cadence de course",
+        "de-DE": "Laufgeschwindigkeit und Trittfrequenz",
+        "ja-JP": "ランニング速度とケイデンス",
+        "ko-KR": "달리기 속도 및 케이던스",
+        "es-ES": "Velocidad y cadencia de carrera",
+        "pt-BR": "Velocidade e cadencia de corrida"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:rsc-measurement:00002A53",
+        "urn:bluetooth-spec:property:rsc-feature:00002A54"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:sc-control-point:00002A55"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:volts:00000005",
+    "description": {
+        "en-US": "volts",
+        "zh-CN": "伏特",
+        "fr-FR": "volts",
+        "de-DE": "Volt",
+        "ja-JP": "ボルト",
+        "ko-KR": "볼트",
+        "es-ES": "voltios",
+        "pt-BR": "volts"
+    },
+    "lifecycle": "released"
+}

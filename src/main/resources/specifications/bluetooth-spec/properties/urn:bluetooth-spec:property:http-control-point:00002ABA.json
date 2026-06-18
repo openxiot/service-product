@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:http-control-point:00002ABA",
+    "description": {
+        "en-US": "HTTP Control Point",
+        "zh-CN": "HTTP 控制点",
+        "fr-FR": "Point de controle HTTP",
+        "de-DE": "HTTP-Kontrollpunkt",
+        "ja-JP": "HTTP制御ポイント",
+        "ko-KR": "HTTP 제어 포인트",
+        "es-ES": "Punto de control HTTP",
+        "pt-BR": "Ponto de controle HTTP"
+    },
+    "format": "uint8",
+    "access": [
+        "write"
+    ],
+    "lifecycle": "released"
+}

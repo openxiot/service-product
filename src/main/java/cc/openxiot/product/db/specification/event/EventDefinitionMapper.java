@@ -4,7 +4,6 @@ import cn.geekcity.xiot.spec.definition.EventDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -36,7 +35,7 @@ public class EventDefinitionMapper {
                 .toList();
 
         EventDefinition def = new EventDefinition(type, entity.description, arguments);
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
         return def;
     }
 }

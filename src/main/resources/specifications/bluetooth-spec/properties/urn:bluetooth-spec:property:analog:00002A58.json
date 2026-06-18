@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:analog:00002A58",
+    "description": {
+        "en-US": "Analog",
+        "zh-CN": "模拟",
+        "fr-FR": "Analogique",
+        "de-DE": "Analog",
+        "ja-JP": "アナログ",
+        "ko-KR": "아날로그",
+        "es-ES": "Analogico",
+        "pt-BR": "Analogico"
+    },
+    "format": "sfloat",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released"
+}

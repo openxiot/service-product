@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:http-entity-body:00002AB9",
+    "description": {
+        "en-US": "HTTP Entity Body",
+        "zh-CN": "HTTP 实体主体",
+        "fr-FR": "Corps d'entite HTTP",
+        "de-DE": "HTTP-Entitatskorper",
+        "ja-JP": "HTTPエンティティボディ",
+        "ko-KR": "HTTP 엔티티 본문",
+        "es-ES": "Cuerpo de entidad HTTP",
+        "pt-BR": "Corpo da entidade HTTP"
+    },
+    "format": "uint8",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released"
+}

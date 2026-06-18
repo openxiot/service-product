@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
+    "description": {
+        "en-US": "Hardware Revision String",
+        "zh-CN": "硬件版本字符串",
+        "fr-FR": "Chaine de revision du materiel",
+        "de-DE": "Hardware-Version",
+        "ja-JP": "ハードウェアリビジョン",
+        "ko-KR": "하드웨어 버전",
+        "es-ES": "Revision del hardware",
+        "pt-BR": "Revisao do hardware"
+    },
+    "format": "string",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:age:00002A8A",
+    "description": {
+        "en-US": "Age",
+        "zh-CN": "年龄",
+        "fr-FR": "Age",
+        "de-DE": "Alter",
+        "ja-JP": "年齢",
+        "ko-KR": "나이",
+        "es-ES": "Edad",
+        "pt-BR": "Idade"
+    },
+    "format": "uint8",
+    "access": [
+        "read",
+        "write"
+    ],
+    "lifecycle": "released"
+}

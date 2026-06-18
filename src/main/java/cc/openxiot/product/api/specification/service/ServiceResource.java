@@ -133,6 +133,7 @@ public class ServiceResource extends AbstractResource {
         try {
             List<ServiceDefinition> list = service.findAll();
             list.addAll(prepared.getServices(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getServices(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = ServiceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

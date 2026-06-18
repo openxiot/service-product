@@ -1,0 +1,17 @@
+{
+    "type": "urn:bluetooth-spec:service:link-loss:1803",
+    "description": {
+        "en-US": "Link Loss",
+        "zh-CN": "链路丢失",
+        "fr-FR": "Perte de liaison",
+        "de-DE": "Verbindungsverlust",
+        "ja-JP": "リンクロス",
+        "ko-KR": "링크 손실",
+        "es-ES": "Perdida de enlace",
+        "pt-BR": "Perda de link"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:alert-level:00002A06"
+    ]
+}

@@ -1,0 +1,2589 @@
+{
+  "namespace": {
+    "code": "bluetooth-spec",
+    "description": {
+      "en-US": "Bluetooth BLE GATT Specification",
+      "zh-CN": "蓝牙 BLE GATT 规范",
+      "fr-FR": "Specification Bluetooth BLE GATT",
+      "de-DE": "Bluetooth BLE GATT Spezifikation",
+      "ja-JP": "Bluetooth BLE GATT仕様",
+      "ko-KR": "블루투스 BLE GATT 사양",
+      "es-ES": "Especificacion Bluetooth BLE GATT",
+      "pt-BR": "Especificacao Bluetooth BLE GATT"
+    },
+    "organization": "openxiot",
+    "visibility": "public",
+    "lifecycle": "released"
+  },
+  "actions": {},
+  "events": {},
+  "properties": {
+    "age": {
+      "code": "age",
+      "value": 10890,
+      "description": {
+        "en-US": "Age",
+        "zh-CN": "年龄",
+        "fr-FR": "Age",
+        "de-DE": "Alter",
+        "ja-JP": "年齢",
+        "ko-KR": "나이",
+        "es-ES": "Edad",
+        "pt-BR": "Idade"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "aggregate": {
+      "code": "aggregate",
+      "value": 10860,
+      "description": {
+        "en-US": "Aggregate",
+        "zh-CN": "聚合",
+        "fr-FR": "Agrege",
+        "de-DE": "Aggregat",
+        "ja-JP": "集計",
+        "ko-KR": "집계",
+        "es-ES": "Agregado",
+        "pt-BR": "Agregado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "alert-category-id-bit-mask": {
+      "code": "alert-category-id-bit-mask",
+      "value": 10817,
+      "description": {
+        "en-US": "Alert Category ID Bit Mask",
+        "zh-CN": "警报类别 ID 位掩码",
+        "fr-FR": "Masque de bits ID de categorie d'alerte",
+        "de-DE": "Bitmaske der Alarmkategorie-ID",
+        "ja-JP": "通知カテゴリIDビットマスク",
+        "ko-KR": "알림 카테고리 ID 비트 마스크",
+        "es-ES": "Mascara de bits de ID de categoria de alerta",
+        "pt-BR": "Mascara de bits da ID da categoria de alerta"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "alert-category-id": {
+      "code": "alert-category-id",
+      "value": 10816,
+      "description": {
+        "en-US": "Alert Category ID",
+        "zh-CN": "警报类别 ID",
+        "fr-FR": "ID de categorie d'alerte",
+        "de-DE": "Alarmkategorie-ID",
+        "ja-JP": "通知カテゴリID",
+        "ko-KR": "알림 카테고리 ID",
+        "es-ES": "ID de categoria de alerta",
+        "pt-BR": "ID da categoria de alerta"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "alert-level": {
+      "code": "alert-level",
+      "value": 10758,
+      "description": {
+        "en-US": "Alert Level",
+        "zh-CN": "警报级别",
+        "fr-FR": "Niveau d'alerte",
+        "de-DE": "Alarmstufe",
+        "ja-JP": "アラートレベル",
+        "ko-KR": "알림 수준",
+        "es-ES": "Nivel de alerta",
+        "pt-BR": "Nivel de alerta"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "alert-notification-control-point": {
+      "code": "alert-notification-control-point",
+      "value": 10818,
+      "description": {
+        "en-US": "Alert Notification Control Point",
+        "zh-CN": "警报通知控制点",
+        "fr-FR": "Point de controle des notifications d'alerte",
+        "de-DE": "Alarmbenachrichtigungs-Kontrollpunkt",
+        "ja-JP": "通知通知制御ポイント",
+        "ko-KR": "알림 제어 포인트",
+        "es-ES": "Punto de control de notificacion de alerta",
+        "pt-BR": "Ponto de controle de notificacao de alerta"
+      },
+      "format": "uint8",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "alert-status": {
+      "code": "alert-status",
+      "value": 10819,
+      "description": {
+        "en-US": "Alert Status",
+        "zh-CN": "警报状态",
+        "fr-FR": "Statut d'alerte",
+        "de-DE": "Alarmstatus",
+        "ja-JP": "通知状態",
+        "ko-KR": "알림 상태",
+        "es-ES": "Estado de alerta",
+        "pt-BR": "Status de alerta"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "analog": {
+      "code": "analog",
+      "value": 10840,
+      "description": {
+        "en-US": "Analog",
+        "zh-CN": "模拟",
+        "fr-FR": "Analogique",
+        "de-DE": "Analog",
+        "ja-JP": "アナログ",
+        "ko-KR": "아날로그",
+        "es-ES": "Analogico",
+        "pt-BR": "Analogico"
+      },
+      "format": "sfloat",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "appearance": {
+      "code": "appearance",
+      "value": 10753,
+      "description": {
+        "en-US": "Appearance",
+        "zh-CN": "外观",
+        "fr-FR": "Apparence",
+        "de-DE": "Erscheinungsbild",
+        "ja-JP": "外観",
+        "ko-KR": "외관",
+        "es-ES": "Apariencia",
+        "pt-BR": "Aparencia"
+      },
+      "format": "uint16",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "battery-level": {
+      "code": "battery-level",
+      "value": 10777,
+      "description": {
+        "en-US": "Battery Level",
+        "zh-CN": "电池电量",
+        "fr-FR": "Niveau de batterie",
+        "de-DE": "Batterieladestand",
+        "ja-JP": "バッテリーレベル",
+        "ko-KR": "배터리 잔량",
+        "es-ES": "Nivel de bateria",
+        "pt-BR": "Nivel da bateria"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "percentage",
+      "value-range": [
+        0,
+        100,
+        1
+      ]
+    },
+    "blood-pressure-feature": {
+      "code": "blood-pressure-feature",
+      "value": 10825,
+      "description": {
+        "en-US": "Blood Pressure Feature",
+        "zh-CN": "血压特征",
+        "fr-FR": "Caracteristique de la pression arterielle",
+        "de-DE": "Blutdruckmerkmal",
+        "ja-JP": "血圧機能",
+        "ko-KR": "혈압 기능",
+        "es-ES": "Caracteristica de presion arterial",
+        "pt-BR": "Recurso de pressao arterial"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "blood-pressure-measurement": {
+      "code": "blood-pressure-measurement",
+      "value": 10805,
+      "description": {
+        "en-US": "Blood Pressure Measurement",
+        "zh-CN": "血压测量",
+        "fr-FR": "Mesure de la pression arterielle",
+        "de-DE": "Blutdruckmessung",
+        "ja-JP": "血圧測定",
+        "ko-KR": "혈압 측정",
+        "es-ES": "Medicion de presion arterial",
+        "pt-BR": "Medicao da pressao arterial"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "body-composition-measurement": {
+      "code": "body-composition-measurement",
+      "value": 10907,
+      "description": {
+        "en-US": "Body Composition Measurement",
+        "zh-CN": "身体成分测量",
+        "fr-FR": "Mesure de la composition corporelle",
+        "de-DE": "Korperzusammensetzungsmessung",
+        "ja-JP": "体組成測定",
+        "ko-KR": "체성분 측정",
+        "es-ES": "Medicion de composicion corporal",
+        "pt-BR": "Medicao da composicao corporal"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "body-sensor-location": {
+      "code": "body-sensor-location",
+      "value": 10808,
+      "description": {
+        "en-US": "Body Sensor Location",
+        "zh-CN": "身体传感器位置",
+        "fr-FR": "Emplacement du capteur corporel",
+        "de-DE": "Korpersensorposition",
+        "ja-JP": "身体センサー位置",
+        "ko-KR": "신체 센서 위치",
+        "es-ES": "Ubicacion del sensor corporal",
+        "pt-BR": "Localizacao do sensor corporal"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "cross-trainer-data": {
+      "code": "cross-trainer-data",
+      "value": 10958,
+      "description": {
+        "en-US": "Cross Trainer Data",
+        "zh-CN": "椭圆机数据",
+        "fr-FR": "Donnees du cross-trainer",
+        "de-DE": "Crosstrainer-Daten",
+        "ja-JP": "クロストレーナーデータ",
+        "ko-KR": "크로스 트레이너 데이터",
+        "es-ES": "Datos de eliptica",
+        "pt-BR": "Dados do eliptico"
+      },
+      "format": "uint16",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "csc-feature": {
+      "code": "csc-feature",
+      "value": 10844,
+      "description": {
+        "en-US": "CSC Feature",
+        "zh-CN": "骑行传感器特征",
+        "fr-FR": "Caracteristique CSC",
+        "de-DE": "CSC-Funktion",
+        "ja-JP": "CSC機能",
+        "ko-KR": "CSC 기능",
+        "es-ES": "Caracteristica CSC",
+        "pt-BR": "Recurso CSC"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "csc-measurement": {
+      "code": "csc-measurement",
+      "value": 10843,
+      "description": {
+        "en-US": "CSC Measurement",
+        "zh-CN": "骑行传感器测量",
+        "fr-FR": "Mesure CSC",
+        "de-DE": "CSC-Messung",
+        "ja-JP": "CSC測定",
+        "ko-KR": "CSC 측정",
+        "es-ES": "Medicion CSC",
+        "pt-BR": "Medicao CSC"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "current-time": {
+      "code": "current-time",
+      "value": 10795,
+      "description": {
+        "en-US": "Current Time",
+        "zh-CN": "当前时间",
+        "fr-FR": "Heure actuelle",
+        "de-DE": "Aktuelle Uhrzeit",
+        "ja-JP": "現在時刻",
+        "ko-KR": "현재 시간",
+        "es-ES": "Hora actual",
+        "pt-BR": "Hora atual"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "cycling-power-feature": {
+      "code": "cycling-power-feature",
+      "value": 10852,
+      "description": {
+        "en-US": "Cycling Power Feature",
+        "zh-CN": "骑行功率特征",
+        "fr-FR": "Caracteristique de puissance cycliste",
+        "de-DE": "Radfahrleistungsmerkmal",
+        "ja-JP": "サイクリングパワー機能",
+        "ko-KR": "사이클링 파워 기능",
+        "es-ES": "Caracteristica de potencia ciclista",
+        "pt-BR": "Recurso de potencia ciclistica"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "cycling-power-measurement": {
+      "code": "cycling-power-measurement",
+      "value": 10851,
+      "description": {
+        "en-US": "Cycling Power Measurement",
+        "zh-CN": "骑行功率测量",
+        "fr-FR": "Mesure de puissance cycliste",
+        "de-DE": "Radfahrleistungsmessung",
+        "ja-JP": "サイクリングパワー測定",
+        "ko-KR": "사이클링 파워 측정",
+        "es-ES": "Medicion de potencia ciclista",
+        "pt-BR": "Medicao de potencia ciclistica"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "date-time": {
+      "code": "date-time",
+      "value": 10760,
+      "description": {
+        "en-US": "Date Time",
+        "zh-CN": "日期时间",
+        "fr-FR": "Date et heure",
+        "de-DE": "Datum und Uhrzeit",
+        "ja-JP": "日付と時刻",
+        "ko-KR": "날짜 및 시간",
+        "es-ES": "Fecha y hora",
+        "pt-BR": "Data e hora"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "day-date-time": {
+      "code": "day-date-time",
+      "value": 10764,
+      "description": {
+        "en-US": "Day Date Time",
+        "zh-CN": "日期时间",
+        "fr-FR": "Date et heure",
+        "de-DE": "Datum Uhrzeit",
+        "ja-JP": "日付時刻",
+        "ko-KR": "날짜 시간",
+        "es-ES": "Fecha y hora",
+        "pt-BR": "Data e hora"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "device-name": {
+      "code": "device-name",
+      "value": 10752,
+      "description": {
+        "en-US": "Device Name",
+        "zh-CN": "设备名称",
+        "fr-FR": "Nom de l'appareil",
+        "de-DE": "Geratename",
+        "ja-JP": "デバイス名",
+        "ko-KR": "장치 이름",
+        "es-ES": "Nombre del dispositivo",
+        "pt-BR": "Nome do dispositivo"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "digital": {
+      "code": "digital",
+      "value": 10838,
+      "description": {
+        "en-US": "Digital",
+        "zh-CN": "数字",
+        "fr-FR": "Numerique",
+        "de-DE": "Digital",
+        "ja-JP": "デジタル",
+        "ko-KR": "디지털",
+        "es-ES": "Digital",
+        "pt-BR": "Digital"
+      },
+      "format": "boolean",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "firmware-revision-string": {
+      "code": "firmware-revision-string",
+      "value": 10790,
+      "description": {
+        "en-US": "Firmware Revision String",
+        "zh-CN": "固件版本字符串",
+        "fr-FR": "Chaine de revision du firmware",
+        "de-DE": "Firmware-Version",
+        "ja-JP": "ファームウェアリビジョン",
+        "ko-KR": "펌웨어 버전",
+        "es-ES": "Revision del firmware",
+        "pt-BR": "Revisao do firmware"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "fitness-machine-feature": {
+      "code": "fitness-machine-feature",
+      "value": 10956,
+      "description": {
+        "en-US": "Fitness Machine Feature",
+        "zh-CN": "健身器材特征",
+        "fr-FR": "Caracteristique de la machine de fitness",
+        "de-DE": "Fitnessgerate-Funktion",
+        "ja-JP": "フィットネスマシン機能",
+        "ko-KR": "피트니스 머신 기능",
+        "es-ES": "Caracteristica de la maquina de fitness",
+        "pt-BR": "Recurso da maquina de fitness"
+      },
+      "format": "uint32",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "gender": {
+      "code": "gender",
+      "value": 10892,
+      "description": {
+        "en-US": "Gender",
+        "zh-CN": "性别",
+        "fr-FR": "Genre",
+        "de-DE": "Geschlecht",
+        "ja-JP": "性別",
+        "ko-KR": "성별",
+        "es-ES": "Genero",
+        "pt-BR": "Genero"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "glucose-feature": {
+      "code": "glucose-feature",
+      "value": 10784,
+      "description": {
+        "en-US": "Glucose Feature",
+        "zh-CN": "血糖特征",
+        "fr-FR": "Caracteristique du glucose",
+        "de-DE": "Glukosefunktion",
+        "ja-JP": "血糖機能",
+        "ko-KR": "혈당 기능",
+        "es-ES": "Caracteristica de glucosa",
+        "pt-BR": "Recurso de glicose"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "glucose-measurement-context": {
+      "code": "glucose-measurement-context",
+      "value": 10804,
+      "description": {
+        "en-US": "Glucose Measurement Context",
+        "zh-CN": "血糖测量上下文",
+        "fr-FR": "Contexte de mesure du glucose",
+        "de-DE": "Glukosemessungskontext",
+        "ja-JP": "血糖測定コンテキスト",
+        "ko-KR": "혈당 측정 컨텍스트",
+        "es-ES": "Contexto de medicion de glucosa",
+        "pt-BR": "Contexto de medicao de glicose"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "glucose-measurement": {
+      "code": "glucose-measurement",
+      "value": 10776,
+      "description": {
+        "en-US": "Glucose Measurement",
+        "zh-CN": "血糖测量",
+        "fr-FR": "Mesure du glucose",
+        "de-DE": "Glukosemessung",
+        "ja-JP": "血糖測定",
+        "ko-KR": "혈당 측정",
+        "es-ES": "Medicion de glucosa",
+        "pt-BR": "Medicao de glicose"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "hardware-revision-string": {
+      "code": "hardware-revision-string",
+      "value": 10791,
+      "description": {
+        "en-US": "Hardware Revision String",
+        "zh-CN": "硬件版本字符串",
+        "fr-FR": "Chaine de revision du materiel",
+        "de-DE": "Hardware-Version",
+        "ja-JP": "ハードウェアリビジョン",
+        "ko-KR": "하드웨어 버전",
+        "es-ES": "Revision del hardware",
+        "pt-BR": "Revisao do hardware"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "heart-rate-control-point": {
+      "code": "heart-rate-control-point",
+      "value": 10809,
+      "description": {
+        "en-US": "Heart Rate Control Point",
+        "zh-CN": "心率控制点",
+        "fr-FR": "Point de controle de la frequence cardiaque",
+        "de-DE": "Herzfrequenz-Kontrollpunkt",
+        "ja-JP": "心拍数制御ポイント",
+        "ko-KR": "심박수 제어 포인트",
+        "es-ES": "Punto de control de frecuencia cardiaca",
+        "pt-BR": "Ponto de controle da frequencia cardiaca"
+      },
+      "format": "uint8",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "heart-rate-measurement": {
+      "code": "heart-rate-measurement",
+      "value": 10807,
+      "description": {
+        "en-US": "Heart Rate Measurement",
+        "zh-CN": "心率测量",
+        "fr-FR": "Mesure de la frequence cardiaque",
+        "de-DE": "Herzfrequenzmessung",
+        "ja-JP": "心拍数測定",
+        "ko-KR": "심박수 측정",
+        "es-ES": "Medicion de frecuencia cardiaca",
+        "pt-BR": "Medicao da frequencia cardiaca"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "height": {
+      "code": "height",
+      "value": 10894,
+      "description": {
+        "en-US": "Height",
+        "zh-CN": "身高",
+        "fr-FR": "Taille",
+        "de-DE": "Korpergroße",
+        "ja-JP": "身長",
+        "ko-KR": "키",
+        "es-ES": "Altura",
+        "pt-BR": "Altura"
+      },
+      "format": "uint16",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released",
+      "unit": "meters"
+    },
+    "http-control-point": {
+      "code": "http-control-point",
+      "value": 10938,
+      "description": {
+        "en-US": "HTTP Control Point",
+        "zh-CN": "HTTP 控制点",
+        "fr-FR": "Point de controle HTTP",
+        "de-DE": "HTTP-Kontrollpunkt",
+        "ja-JP": "HTTP制御ポイント",
+        "ko-KR": "HTTP 제어 포인트",
+        "es-ES": "Punto de control HTTP",
+        "pt-BR": "Ponto de controle HTTP"
+      },
+      "format": "uint8",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "http-entity-body": {
+      "code": "http-entity-body",
+      "value": 10937,
+      "description": {
+        "en-US": "HTTP Entity Body",
+        "zh-CN": "HTTP 实体主体",
+        "fr-FR": "Corps d'entite HTTP",
+        "de-DE": "HTTP-Entitatskorper",
+        "ja-JP": "HTTPエンティティボディ",
+        "ko-KR": "HTTP 엔티티 본문",
+        "es-ES": "Cuerpo de entidad HTTP",
+        "pt-BR": "Corpo da entidade HTTP"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "http-headers": {
+      "code": "http-headers",
+      "value": 10935,
+      "description": {
+        "en-US": "HTTP Headers",
+        "zh-CN": "HTTP 头部",
+        "fr-FR": "En-tetes HTTP",
+        "de-DE": "HTTP-Header",
+        "ja-JP": "HTTPヘッダー",
+        "ko-KR": "HTTP 헤더",
+        "es-ES": "Encabezados HTTP",
+        "pt-BR": "Cabecalhos HTTP"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "http-status-code": {
+      "code": "http-status-code",
+      "value": 10936,
+      "description": {
+        "en-US": "HTTP Status Code",
+        "zh-CN": "HTTP 状态码",
+        "fr-FR": "Code d'etat HTTP",
+        "de-DE": "HTTP-Statuscode",
+        "ja-JP": "HTTPステータスコード",
+        "ko-KR": "HTTP 상태 코드",
+        "es-ES": "Codigo de estado HTTP",
+        "pt-BR": "Codigo de status HTTP"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "humidity": {
+      "code": "humidity",
+      "value": 10863,
+      "description": {
+        "en-US": "Humidity",
+        "zh-CN": "湿度",
+        "fr-FR": "Humidite",
+        "de-DE": "Luftfeuchtigkeit",
+        "ja-JP": "湿度",
+        "ko-KR": "습도",
+        "es-ES": "Humedad",
+        "pt-BR": "Umidade"
+      },
+      "format": "uint16",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "percentage"
+    },
+    "indoor-bike-data": {
+      "code": "indoor-bike-data",
+      "value": 10961,
+      "description": {
+        "en-US": "Indoor Bike Data",
+        "zh-CN": "室内自行车数据",
+        "fr-FR": "Donnees du velo d'interieur",
+        "de-DE": "Heimtrainer-Daten",
+        "ja-JP": "インドアバイクデータ",
+        "ko-KR": "실내 자전거 데이터",
+        "es-ES": "Datos de bicicleta estatica",
+        "pt-BR": "Dados de bicicleta indoor"
+      },
+      "format": "uint16",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "intermediate-cuff-pressure": {
+      "code": "intermediate-cuff-pressure",
+      "value": 10806,
+      "description": {
+        "en-US": "Intermediate Cuff Pressure",
+        "zh-CN": "中间袖带压力",
+        "fr-FR": "Pression intermediaire du brassard",
+        "de-DE": "Mittlerer Manschettendruck",
+        "ja-JP": "中間カフ圧",
+        "ko-KR": "중간 커프 압력",
+        "es-ES": "Presion intermedia del brazalete",
+        "pt-BR": "Pressao intermediaria da bracadeira"
+      },
+      "format": "sfloat",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "mmhg"
+    },
+    "intermediate-temperature": {
+      "code": "intermediate-temperature",
+      "value": 10782,
+      "description": {
+        "en-US": "Intermediate Temperature",
+        "zh-CN": "中间温度",
+        "fr-FR": "Temperature intermediaire",
+        "de-DE": "Zwischentemperatur",
+        "ja-JP": "中間温度",
+        "ko-KR": "중간 온도",
+        "es-ES": "Temperatura intermedia",
+        "pt-BR": "Temperatura intermediaria"
+      },
+      "format": "sfloat",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "celsius"
+    },
+    "local-time-information": {
+      "code": "local-time-information",
+      "value": 10767,
+      "description": {
+        "en-US": "Local Time Information",
+        "zh-CN": "本地时间信息",
+        "fr-FR": "Informations sur l'heure locale",
+        "de-DE": "Ortszeitinformationen",
+        "ja-JP": "ローカル時刻情報",
+        "ko-KR": "현지 시간 정보",
+        "es-ES": "Informacion de hora local",
+        "pt-BR": "Informacoes de horario local"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "location-and-speed": {
+      "code": "location-and-speed",
+      "value": 10855,
+      "description": {
+        "en-US": "Location and Speed",
+        "zh-CN": "位置和速度",
+        "fr-FR": "Emplacement et vitesse",
+        "de-DE": "Standort und Geschwindigkeit",
+        "ja-JP": "位置と速度",
+        "ko-KR": "위치 및 속도",
+        "es-ES": "Ubicacion y velocidad",
+        "pt-BR": "Localizacao e velocidade"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "manufacturer-name-string": {
+      "code": "manufacturer-name-string",
+      "value": 10793,
+      "description": {
+        "en-US": "Manufacturer Name String",
+        "zh-CN": "制造商名称字符串",
+        "fr-FR": "Nom du fabricant",
+        "de-DE": "Herstellername",
+        "ja-JP": "メーカー名",
+        "ko-KR": "제조업체 이름",
+        "es-ES": "Nombre del fabricante",
+        "pt-BR": "Nome do fabricante"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "model-number-string": {
+      "code": "model-number-string",
+      "value": 10788,
+      "description": {
+        "en-US": "Model Number String",
+        "zh-CN": "型号字符串",
+        "fr-FR": "Chaine du numero de modele",
+        "de-DE": "Modellnummer",
+        "ja-JP": "モデル番号",
+        "ko-KR": "모델 번호",
+        "es-ES": "Numero de modelo",
+        "pt-BR": "Numero do modelo"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "navigation": {
+      "code": "navigation",
+      "value": 10856,
+      "description": {
+        "en-US": "Navigation",
+        "zh-CN": "导航",
+        "fr-FR": "Navigation",
+        "de-DE": "Navigation",
+        "ja-JP": "ナビゲーション",
+        "ko-KR": "내비게이션",
+        "es-ES": "Navegacion",
+        "pt-BR": "Navegacao"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "peripheral-preferred-connection-parameters": {
+      "code": "peripheral-preferred-connection-parameters",
+      "value": 10756,
+      "description": {
+        "en-US": "Peripheral Preferred Connection Parameters",
+        "zh-CN": "外设首选连接参数",
+        "fr-FR": "Parametres de connexion preferes du peripherique",
+        "de-DE": "Bevorzugte Verbindungsparameter des Peripheriegerats",
+        "ja-JP": "周辺機器の優先接続パラメータ",
+        "ko-KR": "주변기기 선호 연결 매개변수",
+        "es-ES": "Parametros de conexion preferidos del periferico",
+        "pt-BR": "Parametros de conexao preferidos do periferico"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "peripheral-privacy-flag": {
+      "code": "peripheral-privacy-flag",
+      "value": 10754,
+      "description": {
+        "en-US": "Peripheral Privacy Flag",
+        "zh-CN": "外设隐私标志",
+        "fr-FR": "Drapeau de confidentialite peripherique",
+        "de-DE": "Datenschutzflag fur Peripherie",
+        "ja-JP": "ペリフェラルプライバシーフラグ",
+        "ko-KR": "주변기기 개인정보 플래그",
+        "es-ES": "Indicador de privacidad del periferico",
+        "pt-BR": "Sinalizador de privacidade do periferico"
+      },
+      "format": "boolean",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "plx-continuous-measurement": {
+      "code": "plx-continuous-measurement",
+      "value": 10846,
+      "description": {
+        "en-US": "PLX Continuous Measurement",
+        "zh-CN": "脉搏血氧仪连续测量",
+        "fr-FR": "Mesure continue PLX",
+        "de-DE": "PLX-Kontinuierliche Messung",
+        "ja-JP": "PLX連続測定",
+        "ko-KR": "PLX 연속 측정",
+        "es-ES": "Medicion continua PLX",
+        "pt-BR": "Medicao continua PLX"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "plx-features": {
+      "code": "plx-features",
+      "value": 10847,
+      "description": {
+        "en-US": "PLX Features",
+        "zh-CN": "脉搏血氧仪特征",
+        "fr-FR": "Fonctionnalites PLX",
+        "de-DE": "PLX-Funktionen",
+        "ja-JP": "PLX機能",
+        "ko-KR": "PLX 기능",
+        "es-ES": "Funciones PLX",
+        "pt-BR": "Recursos PLX"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "plx-spot-check-measurement": {
+      "code": "plx-spot-check-measurement",
+      "value": 10848,
+      "description": {
+        "en-US": "PLX Spot-Check Measurement",
+        "zh-CN": "脉搏血氧仪点测",
+        "fr-FR": "Mesure ponctuelle PLX",
+        "de-DE": "PLX-Stichprobenmessung",
+        "ja-JP": "PLXスポットチェック測定",
+        "ko-KR": "PLX 스팟 체크 측정",
+        "es-ES": "Medicion puntual PLX",
+        "pt-BR": "Medicao pontual PLX"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "pnp-id": {
+      "code": "pnp-id",
+      "value": 10832,
+      "description": {
+        "en-US": "PnP ID",
+        "zh-CN": "PnP ID",
+        "fr-FR": "ID PnP",
+        "de-DE": "PnP-ID",
+        "ja-JP": "PnP ID",
+        "ko-KR": "PnP ID",
+        "es-ES": "ID PnP",
+        "pt-BR": "ID PnP"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "position-quality": {
+      "code": "position-quality",
+      "value": 10857,
+      "description": {
+        "en-US": "Position Quality",
+        "zh-CN": "位置质量",
+        "fr-FR": "Qualite de position",
+        "de-DE": "Positionsqualitat",
+        "ja-JP": "位置品質",
+        "ko-KR": "위치 품질",
+        "es-ES": "Calidad de posicion",
+        "pt-BR": "Qualidade da posicao"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "pressure": {
+      "code": "pressure",
+      "value": 10861,
+      "description": {
+        "en-US": "Pressure",
+        "zh-CN": "气压",
+        "fr-FR": "Pression",
+        "de-DE": "Luftdruck",
+        "ja-JP": "気圧",
+        "ko-KR": "기압",
+        "es-ES": "Presion",
+        "pt-BR": "Pressao"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "pascals"
+    },
+    "reconnection-address": {
+      "code": "reconnection-address",
+      "value": 10755,
+      "description": {
+        "en-US": "Reconnection Address",
+        "zh-CN": "重连地址",
+        "fr-FR": "Adresse de reconnexion",
+        "de-DE": "Wiederverbindungsadresse",
+        "ja-JP": "再接続アドレス",
+        "ko-KR": "재연결 주소",
+        "es-ES": "Direccion de reconexion",
+        "pt-BR": "Endereco de reconexao"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "reference-time-information": {
+      "code": "reference-time-information",
+      "value": 10772,
+      "description": {
+        "en-US": "Reference Time Information",
+        "zh-CN": "参考时间信息",
+        "fr-FR": "Informations de temps de reference",
+        "de-DE": "Referenzzeitinformationen",
+        "ja-JP": "基準時刻情報",
+        "ko-KR": "참조 시간 정보",
+        "es-ES": "Informacion de tiempo de referencia",
+        "pt-BR": "Informacoes de tempo de referencia"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "rsc-feature": {
+      "code": "rsc-feature",
+      "value": 10836,
+      "description": {
+        "en-US": "RSC Feature",
+        "zh-CN": "跑步传感器特征",
+        "fr-FR": "Caracteristique RSC",
+        "de-DE": "RSC-Funktion",
+        "ja-JP": "RSC機能",
+        "ko-KR": "RSC 기능",
+        "es-ES": "Caracteristica RSC",
+        "pt-BR": "Recurso RSC"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "rsc-measurement": {
+      "code": "rsc-measurement",
+      "value": 10835,
+      "description": {
+        "en-US": "RSC Measurement",
+        "zh-CN": "跑步传感器测量",
+        "fr-FR": "Mesure RSC",
+        "de-DE": "RSC-Messung",
+        "ja-JP": "RSC測定",
+        "ko-KR": "RSC 측정",
+        "es-ES": "Medicion RSC",
+        "pt-BR": "Medicao RSC"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "sc-control-point": {
+      "code": "sc-control-point",
+      "value": 10837,
+      "description": {
+        "en-US": "SC Control Point",
+        "zh-CN": "跑步骑行控制点",
+        "fr-FR": "Point de controle SC",
+        "de-DE": "SC-Kontrollpunkt",
+        "ja-JP": "SC制御ポイント",
+        "ko-KR": "SC 제어 포인트",
+        "es-ES": "Punto de control SC",
+        "pt-BR": "Ponto de controle SC"
+      },
+      "format": "uint8",
+      "access": [
+        "indicate",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "scan-interval-window": {
+      "code": "scan-interval-window",
+      "value": 10831,
+      "description": {
+        "en-US": "Scan Interval Window",
+        "zh-CN": "扫描间隔窗口",
+        "fr-FR": "Fenetre d'intervalle de scan",
+        "de-DE": "Scan-Intervall-Fenster",
+        "ja-JP": "スキャン間隔ウィンドウ",
+        "ko-KR": "스캔 간격 윈도우",
+        "es-ES": "Ventana de intervalo de escaneo",
+        "pt-BR": "Janela de intervalo de varredura"
+      },
+      "format": "uint16",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "scan-refresh": {
+      "code": "scan-refresh",
+      "value": 10801,
+      "description": {
+        "en-US": "Scan Refresh",
+        "zh-CN": "扫描刷新",
+        "fr-FR": "Rafraichissement du scan",
+        "de-DE": "Scan-Aktualisierung",
+        "ja-JP": "スキャンリフレッシュ",
+        "ko-KR": "스캔 새로고침",
+        "es-ES": "Actualizacion del escaneo",
+        "pt-BR": "Atualizacao da varredura"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "serial-number-string": {
+      "code": "serial-number-string",
+      "value": 10789,
+      "description": {
+        "en-US": "Serial Number String",
+        "zh-CN": "序列号字符串",
+        "fr-FR": "Chaine du numero de serie",
+        "de-DE": "Seriennummer",
+        "ja-JP": "シリアル番号",
+        "ko-KR": "일련 번호",
+        "es-ES": "Numero de serie",
+        "pt-BR": "Numero de serie"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "service-changed": {
+      "code": "service-changed",
+      "value": 10757,
+      "description": {
+        "en-US": "Service Changed",
+        "zh-CN": "服务变更",
+        "fr-FR": "Service modifie",
+        "de-DE": "Dienst geandert",
+        "ja-JP": "サービス変更",
+        "ko-KR": "서비스 변경됨",
+        "es-ES": "Servicio cambiado",
+        "pt-BR": "Servico alterado"
+      },
+      "format": "uint8",
+      "access": [
+        "indicate"
+      ],
+      "lifecycle": "released"
+    },
+    "software-revision-string": {
+      "code": "software-revision-string",
+      "value": 10792,
+      "description": {
+        "en-US": "Software Revision String",
+        "zh-CN": "软件版本字符串",
+        "fr-FR": "Chaine de revision du logiciel",
+        "de-DE": "Software-Version",
+        "ja-JP": "ソフトウェアリビジョン",
+        "ko-KR": "소프트웨어 버전",
+        "es-ES": "Revision del software",
+        "pt-BR": "Revisao do software"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "stair-climber-data": {
+      "code": "stair-climber-data",
+      "value": 10960,
+      "description": {
+        "en-US": "Stair Climber Data",
+        "zh-CN": "楼梯机数据",
+        "fr-FR": "Donnees du monte-escalier",
+        "de-DE": "Treppensteiger-Daten",
+        "ja-JP": "階段昇降機データ",
+        "ko-KR": "계단 오르기 데이터",
+        "es-ES": "Datos de escalera",
+        "pt-BR": "Dados de escada"
+      },
+      "format": "uint16",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "step-climber-data": {
+      "code": "step-climber-data",
+      "value": 10959,
+      "description": {
+        "en-US": "Step Climber Data",
+        "zh-CN": "台阶机数据",
+        "fr-FR": "Donnees du simulateur d'escalier",
+        "de-DE": "Treppensteiger-Daten",
+        "ja-JP": "ステップクライマーデータ",
+        "ko-KR": "스텝 클라이머 데이터",
+        "es-ES": "Datos de escalador",
+        "pt-BR": "Dados do escalador"
+      },
+      "format": "uint16",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "system-id": {
+      "code": "system-id",
+      "value": 10787,
+      "description": {
+        "en-US": "System ID",
+        "zh-CN": "系统 ID",
+        "fr-FR": "ID systeme",
+        "de-DE": "System-ID",
+        "ja-JP": "システムID",
+        "ko-KR": "시스템 ID",
+        "es-ES": "ID del sistema",
+        "pt-BR": "ID do sistema"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "temperature-measurement": {
+      "code": "temperature-measurement",
+      "value": 10780,
+      "description": {
+        "en-US": "Temperature Measurement",
+        "zh-CN": "温度测量",
+        "fr-FR": "Mesure de temperature",
+        "de-DE": "Temperaturmessung",
+        "ja-JP": "温度測定",
+        "ko-KR": "온도 측정",
+        "es-ES": "Medicion de temperatura",
+        "pt-BR": "Medicao de temperatura"
+      },
+      "format": "sfloat",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "celsius"
+    },
+    "temperature-type": {
+      "code": "temperature-type",
+      "value": 10781,
+      "description": {
+        "en-US": "Temperature Type",
+        "zh-CN": "温度类型",
+        "fr-FR": "Type de temperature",
+        "de-DE": "Temperaturtyp",
+        "ja-JP": "温度タイプ",
+        "ko-KR": "온도 유형",
+        "es-ES": "Tipo de temperatura",
+        "pt-BR": "Tipo de temperatura"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "temperature": {
+      "code": "temperature",
+      "value": 10862,
+      "description": {
+        "en-US": "Temperature",
+        "zh-CN": "温度",
+        "fr-FR": "Temperature",
+        "de-DE": "Temperatur",
+        "ja-JP": "温度",
+        "ko-KR": "온도",
+        "es-ES": "Temperatura",
+        "pt-BR": "Temperatura"
+      },
+      "format": "int16",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "celsius"
+    },
+    "treadmill-data": {
+      "code": "treadmill-data",
+      "value": 10957,
+      "description": {
+        "en-US": "Treadmill Data",
+        "zh-CN": "跑步机数据",
+        "fr-FR": "Donnees du tapis roulant",
+        "de-DE": "Laufbanddaten",
+        "ja-JP": "トレッドミルデータ",
+        "ko-KR": "트레드밀 데이터",
+        "es-ES": "Datos de la cinta de correr",
+        "pt-BR": "Dados da esteira"
+      },
+      "format": "uint16",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "tx-power-level": {
+      "code": "tx-power-level",
+      "value": 10759,
+      "description": {
+        "en-US": "TX Power Level",
+        "zh-CN": "发射功率",
+        "fr-FR": "Niveau de puissance TX",
+        "de-DE": "Sendeleistung",
+        "ja-JP": "送信電力レベル",
+        "ko-KR": "송신 전력 레벨",
+        "es-ES": "Nivel de potencia TX",
+        "pt-BR": "Nivel de potencia de transmissao"
+      },
+      "format": "int8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released",
+      "unit": "dbm"
+    },
+    "weight-measurement": {
+      "code": "weight-measurement",
+      "value": 10909,
+      "description": {
+        "en-US": "Weight Measurement",
+        "zh-CN": "体重测量",
+        "fr-FR": "Mesure du poids",
+        "de-DE": "Gewichtsmessung",
+        "ja-JP": "体重測定",
+        "ko-KR": "체중 측정",
+        "es-ES": "Medicion de peso",
+        "pt-BR": "Medicao de peso"
+      },
+      "format": "uint8",
+      "access": [
+        "notify"
+      ],
+      "lifecycle": "released",
+      "unit": "kilograms"
+    },
+    "weight-scale-feature": {
+      "code": "weight-scale-feature",
+      "value": 10910,
+      "description": {
+        "en-US": "Weight Scale Feature",
+        "zh-CN": "体重秤特征",
+        "fr-FR": "Caracteristique du pese-personne",
+        "de-DE": "Waagenfunktion",
+        "ja-JP": "体重計機能",
+        "ko-KR": "체중계 기능",
+        "es-ES": "Caracteristica de la bascula",
+        "pt-BR": "Recurso da balanca"
+      },
+      "format": "uint32",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "weight": {
+      "code": "weight",
+      "value": 10887,
+      "description": {
+        "en-US": "Weight",
+        "zh-CN": "体重",
+        "fr-FR": "Poids",
+        "de-DE": "Gewicht",
+        "ja-JP": "体重",
+        "ko-KR": "체중",
+        "es-ES": "Peso",
+        "pt-BR": "Peso"
+      },
+      "format": "uint16",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released",
+      "unit": "kilograms"
+    }
+  },
+  "services": {
+    "alert-notification": {
+      "code": "alert-notification",
+      "value": 6161,
+      "description": {
+        "en-US": "Alert Notification",
+        "zh-CN": "警报通知",
+        "fr-FR": "Notification d'alerte",
+        "de-DE": "Alarmbenachrichtigung",
+        "ja-JP": "通知通知",
+        "ko-KR": "알림 알림",
+        "es-ES": "Notificacion de alerta",
+        "pt-BR": "Notificacao de alerta"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:alert-status:00002A43",
+        "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
+        "urn:bluetooth-spec:property:alert-notification-control-point:00002A42"
+      ]
+    },
+    "automation-io": {
+      "code": "automation-io",
+      "value": 6165,
+      "description": {
+        "en-US": "Automation IO",
+        "zh-CN": "自动化 IO",
+        "fr-FR": "IO d'automatisation",
+        "de-DE": "Automatisierung E/A",
+        "ja-JP": "オートメーションIO",
+        "ko-KR": "자동화 IO",
+        "es-ES": "IO de automatizacion",
+        "pt-BR": "IO de automacao"
+      },
+      "lifecycle": "released",
+      "optional-properties": [
+        "urn:bluetooth-spec:property:digital:00002A56",
+        "urn:bluetooth-spec:property:analog:00002A58",
+        "urn:bluetooth-spec:property:aggregate:00002A6C"
+      ]
+    },
+    "battery-service": {
+      "code": "battery-service",
+      "value": 6159,
+      "description": {
+        "en-US": "Battery Service",
+        "zh-CN": "电池服务",
+        "fr-FR": "Service de batterie",
+        "de-DE": "Batteriedienst",
+        "ja-JP": "バッテリーサービス",
+        "ko-KR": "배터리 서비스",
+        "es-ES": "Servicio de bateria",
+        "pt-BR": "Servico de bateria"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:battery-level:00002A19"
+      ]
+    },
+    "blood-pressure": {
+      "code": "blood-pressure",
+      "value": 6160,
+      "description": {
+        "en-US": "Blood Pressure",
+        "zh-CN": "血压",
+        "fr-FR": "Pression arterielle",
+        "de-DE": "Blutdruck",
+        "ja-JP": "血圧",
+        "ko-KR": "혈압",
+        "es-ES": "Presion arterial",
+        "pt-BR": "Pressao arterial"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:intermediate-cuff-pressure:00002A36",
+        "urn:bluetooth-spec:property:blood-pressure-feature:00002A49"
+      ]
+    },
+    "body-composition": {
+      "code": "body-composition",
+      "value": 6171,
+      "description": {
+        "en-US": "Body Composition",
+        "zh-CN": "身体成分",
+        "fr-FR": "Composition corporelle",
+        "de-DE": "Korperzusammensetzung",
+        "ja-JP": "体組成",
+        "ko-KR": "체성분",
+        "es-ES": "Composicion corporal",
+        "pt-BR": "Composicao corporal"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:body-composition-measurement:00002A9B"
+      ]
+    },
+    "current-time": {
+      "code": "current-time",
+      "value": 6149,
+      "description": {
+        "en-US": "Current Time",
+        "zh-CN": "当前时间",
+        "fr-FR": "Heure actuelle",
+        "de-DE": "Aktuelle Uhrzeit",
+        "ja-JP": "現在時刻",
+        "ko-KR": "현재 시간",
+        "es-ES": "Hora actual",
+        "pt-BR": "Hora atual"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:current-time:00002A2B"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:local-time-information:00002A0F",
+        "urn:bluetooth-spec:property:reference-time-information:00002A14"
+      ]
+    },
+    "cycling-power": {
+      "code": "cycling-power",
+      "value": 6168,
+      "description": {
+        "en-US": "Cycling Power",
+        "zh-CN": "骑行功率",
+        "fr-FR": "Puissance cycliste",
+        "de-DE": "Radfahrleistung",
+        "ja-JP": "サイクリングパワー",
+        "ko-KR": "사이클링 파워",
+        "es-ES": "Potencia ciclista",
+        "pt-BR": "Potencia ciclistica"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
+        "urn:bluetooth-spec:property:cycling-power-feature:00002A64"
+      ]
+    },
+    "cycling-speed-and-cadence": {
+      "code": "cycling-speed-and-cadence",
+      "value": 6166,
+      "description": {
+        "en-US": "Cycling Speed and Cadence",
+        "zh-CN": "骑行速度和步频",
+        "fr-FR": "Vitesse et cadence cyclistes",
+        "de-DE": "Radfahrgeschwindigkeit und Trittfrequenz",
+        "ja-JP": "サイクリング速度とケイデンス",
+        "ko-KR": "사이클링 속도 및 케이던스",
+        "es-ES": "Velocidad y cadencia ciclista",
+        "pt-BR": "Velocidade e cadencia ciclistica"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:csc-measurement:00002A5B",
+        "urn:bluetooth-spec:property:csc-feature:00002A5C"
+      ]
+    },
+    "device-information": {
+      "code": "device-information",
+      "value": 6154,
+      "description": {
+        "en-US": "Device Information",
+        "zh-CN": "设备信息",
+        "fr-FR": "Informations sur l'appareil",
+        "de-DE": "Gerateinformationen",
+        "ja-JP": "デバイス情報",
+        "ko-KR": "장치 정보",
+        "es-ES": "Informacion del dispositivo",
+        "pt-BR": "Informacoes do dispositivo"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:manufacturer-name-string:00002A29",
+        "urn:bluetooth-spec:property:model-number-string:00002A24"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:serial-number-string:00002A25",
+        "urn:bluetooth-spec:property:firmware-revision-string:00002A26",
+        "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
+        "urn:bluetooth-spec:property:software-revision-string:00002A28",
+        "urn:bluetooth-spec:property:system-id:00002A23",
+        "urn:bluetooth-spec:property:pnp-id:00002A50"
+      ]
+    },
+    "environmental-sensing": {
+      "code": "environmental-sensing",
+      "value": 6170,
+      "description": {
+        "en-US": "Environmental Sensing",
+        "zh-CN": "环境传感",
+        "fr-FR": "Detection environnementale",
+        "de-DE": "Umgebungssensorik",
+        "ja-JP": "環境センシング",
+        "ko-KR": "환경 센싱",
+        "es-ES": "Deteccion ambiental",
+        "pt-BR": "Sensoriamento ambiental"
+      },
+      "lifecycle": "released",
+      "optional-properties": [
+        "urn:bluetooth-spec:property:temperature:00002A6E",
+        "urn:bluetooth-spec:property:humidity:00002A6F",
+        "urn:bluetooth-spec:property:pressure:00002A6D"
+      ]
+    },
+    "fitness-machine": {
+      "code": "fitness-machine",
+      "value": 6182,
+      "description": {
+        "en-US": "Fitness Machine",
+        "zh-CN": "健身器材",
+        "fr-FR": "Machine de fitness",
+        "de-DE": "Fitnessgerat",
+        "ja-JP": "フィットネスマシン",
+        "ko-KR": "피트니스 머신",
+        "es-ES": "Maquina de fitness",
+        "pt-BR": "Maquina de fitness"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:treadmill-data:00002ACD",
+        "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
+        "urn:bluetooth-spec:property:step-climber-data:00002ACF",
+        "urn:bluetooth-spec:property:stair-climber-data:00002AD0",
+        "urn:bluetooth-spec:property:indoor-bike-data:00002AD1"
+      ]
+    },
+    "generic-access": {
+      "code": "generic-access",
+      "value": 6144,
+      "description": {
+        "en-US": "Generic Access",
+        "zh-CN": "通用访问",
+        "fr-FR": "Acces generique",
+        "de-DE": "Generischer Zugriff",
+        "ja-JP": "汎用アクセス",
+        "ko-KR": "일반 액세스",
+        "es-ES": "Acceso generico",
+        "pt-BR": "Acesso generico"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:device-name:00002A00",
+        "urn:bluetooth-spec:property:appearance:00002A01"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:peripheral-privacy-flag:00002A02",
+        "urn:bluetooth-spec:property:reconnection-address:00002A03",
+        "urn:bluetooth-spec:property:peripheral-preferred-connection-parameters:00002A04"
+      ]
+    },
+    "generic-attribute": {
+      "code": "generic-attribute",
+      "value": 6145,
+      "description": {
+        "en-US": "Generic Attribute",
+        "zh-CN": "通用属性",
+        "fr-FR": "Attribut generique",
+        "de-DE": "Generisches Attribut",
+        "ja-JP": "汎用属性",
+        "ko-KR": "일반 속성",
+        "es-ES": "Atributo generico",
+        "pt-BR": "Atributo generico"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:service-changed:00002A05"
+      ]
+    },
+    "glucose": {
+      "code": "glucose",
+      "value": 6152,
+      "description": {
+        "en-US": "Glucose",
+        "zh-CN": "血糖",
+        "fr-FR": "Glucose",
+        "de-DE": "Glukose",
+        "ja-JP": "グルコース",
+        "ko-KR": "혈당",
+        "es-ES": "Glucosa",
+        "pt-BR": "Glicose"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:glucose-measurement:00002A18"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
+        "urn:bluetooth-spec:property:glucose-feature:00002A20"
+      ]
+    },
+    "health-thermometer": {
+      "code": "health-thermometer",
+      "value": 6153,
+      "description": {
+        "en-US": "Health Thermometer",
+        "zh-CN": "健康体温计",
+        "fr-FR": "Thermometre de sante",
+        "de-DE": "Gesundheitsthermometer",
+        "ja-JP": "健康体温計",
+        "ko-KR": "건강 체온계",
+        "es-ES": "Termometro de salud",
+        "pt-BR": "Termometro de saude"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:temperature-measurement:00002A1C"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:temperature-type:00002A1D",
+        "urn:bluetooth-spec:property:intermediate-temperature:00002A1E"
+      ]
+    },
+    "heart-rate": {
+      "code": "heart-rate",
+      "value": 6157,
+      "description": {
+        "en-US": "Heart Rate",
+        "zh-CN": "心率",
+        "fr-FR": "Frequence cardiaque",
+        "de-DE": "Herzfrequenz",
+        "ja-JP": "心拍数",
+        "ko-KR": "심박수",
+        "es-ES": "Frecuencia cardiaca",
+        "pt-BR": "Frequencia cardiaca"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:heart-rate-measurement:00002A37"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:body-sensor-location:00002A38",
+        "urn:bluetooth-spec:property:heart-rate-control-point:00002A39"
+      ]
+    },
+    "http-proxy": {
+      "code": "http-proxy",
+      "value": 6179,
+      "description": {
+        "en-US": "HTTP Proxy",
+        "zh-CN": "HTTP 代理",
+        "fr-FR": "Proxy HTTP",
+        "de-DE": "HTTP-Proxy",
+        "ja-JP": "HTTPプロキシ",
+        "ko-KR": "HTTP 프록시",
+        "es-ES": "Proxy HTTP",
+        "pt-BR": "Proxy HTTP"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:http-headers:00002AB7",
+        "urn:bluetooth-spec:property:http-status-code:00002AB8",
+        "urn:bluetooth-spec:property:http-entity-body:00002AB9",
+        "urn:bluetooth-spec:property:http-control-point:00002ABA"
+      ]
+    },
+    "immediate-alert": {
+      "code": "immediate-alert",
+      "value": 6146,
+      "description": {
+        "en-US": "Immediate Alert",
+        "zh-CN": "即时警报",
+        "fr-FR": "Alarme immediate",
+        "de-DE": "Sofortalarm",
+        "ja-JP": "即時通知",
+        "ko-KR": "즉시 알림",
+        "es-ES": "Alerta inmediata",
+        "pt-BR": "Alerta imediata"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:alert-level:00002A06"
+      ]
+    },
+    "link-loss": {
+      "code": "link-loss",
+      "value": 6147,
+      "description": {
+        "en-US": "Link Loss",
+        "zh-CN": "链路丢失",
+        "fr-FR": "Perte de liaison",
+        "de-DE": "Verbindungsverlust",
+        "ja-JP": "リンクロス",
+        "ko-KR": "링크 손실",
+        "es-ES": "Perdida de enlace",
+        "pt-BR": "Perda de link"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:alert-level:00002A06"
+      ]
+    },
+    "location-and-navigation": {
+      "code": "location-and-navigation",
+      "value": 6169,
+      "description": {
+        "en-US": "Location and Navigation",
+        "zh-CN": "位置和导航",
+        "fr-FR": "Emplacement et navigation",
+        "de-DE": "Standort und Navigation",
+        "ja-JP": "位置とナビゲーション",
+        "ko-KR": "위치 및 내비게이션",
+        "es-ES": "Ubicacion y navegacion",
+        "pt-BR": "Localizacao e navegacao"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:location-and-speed:00002A67"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:navigation:00002A68",
+        "urn:bluetooth-spec:property:position-quality:00002A69"
+      ]
+    },
+    "pulse-oximeter": {
+      "code": "pulse-oximeter",
+      "value": 6178,
+      "description": {
+        "en-US": "Pulse Oximeter",
+        "zh-CN": "脉搏血氧仪",
+        "fr-FR": "Oxymetre de pouls",
+        "de-DE": "Pulsoximeter",
+        "ja-JP": "パルスオキシメータ",
+        "ko-KR": "맥박 산소 측정기",
+        "es-ES": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:plx-features:00002A5F"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60",
+        "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E"
+      ]
+    },
+    "running-speed-and-cadence": {
+      "code": "running-speed-and-cadence",
+      "value": 6164,
+      "description": {
+        "en-US": "Running Speed and Cadence",
+        "zh-CN": "跑步速度和步频",
+        "fr-FR": "Vitesse et cadence de course",
+        "de-DE": "Laufgeschwindigkeit und Trittfrequenz",
+        "ja-JP": "ランニング速度とケイデンス",
+        "ko-KR": "달리기 속도 및 케이던스",
+        "es-ES": "Velocidad y cadencia de carrera",
+        "pt-BR": "Velocidade e cadencia de corrida"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:rsc-measurement:00002A53",
+        "urn:bluetooth-spec:property:rsc-feature:00002A54"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:sc-control-point:00002A55"
+      ]
+    },
+    "scan-parameters": {
+      "code": "scan-parameters",
+      "value": 6163,
+      "description": {
+        "en-US": "Scan Parameters",
+        "zh-CN": "扫描参数",
+        "fr-FR": "Parametres de scan",
+        "de-DE": "Scan-Parameter",
+        "ja-JP": "スキャンパラメータ",
+        "ko-KR": "스캔 매개변수",
+        "es-ES": "Parametros de escaneo",
+        "pt-BR": "Parametros de varredura"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:scan-interval-window:00002A4F"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:scan-refresh:00002A31"
+      ]
+    },
+    "tx-power": {
+      "code": "tx-power",
+      "value": 6148,
+      "description": {
+        "en-US": "TX Power",
+        "zh-CN": "发射功率",
+        "fr-FR": "Puissance TX",
+        "de-DE": "Sendeleistung",
+        "ja-JP": "送信電力",
+        "ko-KR": "송신 전력",
+        "es-ES": "Potencia TX",
+        "pt-BR": "Potencia de transmissao"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:tx-power-level:00002A07"
+      ]
+    },
+    "user-data": {
+      "code": "user-data",
+      "value": 6172,
+      "description": {
+        "en-US": "User Data",
+        "zh-CN": "用户数据",
+        "fr-FR": "Donnees utilisateur",
+        "de-DE": "Benutzerdaten",
+        "ja-JP": "ユーザーデータ",
+        "ko-KR": "사용자 데이터",
+        "es-ES": "Datos de usuario",
+        "pt-BR": "Dados do usuario"
+      },
+      "lifecycle": "released",
+      "optional-properties": [
+        "urn:bluetooth-spec:property:age:00002A8A",
+        "urn:bluetooth-spec:property:gender:00002A8C",
+        "urn:bluetooth-spec:property:height:00002A8E",
+        "urn:bluetooth-spec:property:weight:00002A87"
+      ]
+    },
+    "weight-scale": {
+      "code": "weight-scale",
+      "value": 6173,
+      "description": {
+        "en-US": "Weight Scale",
+        "zh-CN": "体重秤",
+        "fr-FR": "Pese-personne",
+        "de-DE": "Waage",
+        "ja-JP": "体重計",
+        "ko-KR": "체중계",
+        "es-ES": "Bascula",
+        "pt-BR": "Balanca"
+      },
+      "lifecycle": "released",
+      "required-properties": [
+        "urn:bluetooth-spec:property:weight-measurement:00002A9D"
+      ],
+      "optional-properties": [
+        "urn:bluetooth-spec:property:weight-scale-feature:00002A9E"
+      ]
+    }
+  },
+  "formats": {
+    "boolean": {
+      "code": "boolean",
+      "value": 0,
+      "description": {
+        "en-US": "boolean",
+        "zh-CN": "布尔",
+        "fr-FR": "booleen",
+        "de-DE": "Boolean",
+        "ja-JP": "ブール",
+        "ko-KR": "부울",
+        "es-ES": "booleano",
+        "pt-BR": "booleano"
+      },
+      "lifecycle": "released"
+    },
+    "float32": {
+      "code": "float32",
+      "value": 9,
+      "description": {
+        "en-US": "float32",
+        "zh-CN": "32 位浮点数",
+        "fr-FR": "flottant 32 bits",
+        "de-DE": "32-Bit-Gleitkommazahl",
+        "ja-JP": "32ビット浮動小数点",
+        "ko-KR": "32비트 부동 소수점",
+        "es-ES": "flotante 32 bits",
+        "pt-BR": "ponto flutuante 32 bits"
+      },
+      "lifecycle": "released"
+    },
+    "int16": {
+      "code": "int16",
+      "value": 6,
+      "description": {
+        "en-US": "int16",
+        "zh-CN": "有符号 16 位整数",
+        "fr-FR": "int16",
+        "de-DE": "int16",
+        "ja-JP": "int16",
+        "ko-KR": "int16",
+        "es-ES": "int16",
+        "pt-BR": "int16"
+      },
+      "lifecycle": "released"
+    },
+    "int32": {
+      "code": "int32",
+      "value": 7,
+      "description": {
+        "en-US": "int32",
+        "zh-CN": "有符号 32 位整数",
+        "fr-FR": "int32",
+        "de-DE": "int32",
+        "ja-JP": "int32",
+        "ko-KR": "int32",
+        "es-ES": "int32",
+        "pt-BR": "int32"
+      },
+      "lifecycle": "released"
+    },
+    "int8": {
+      "code": "int8",
+      "value": 5,
+      "description": {
+        "en-US": "int8",
+        "zh-CN": "有符号 8 位整数",
+        "fr-FR": "int8",
+        "de-DE": "int8",
+        "ja-JP": "int8",
+        "ko-KR": "int8",
+        "es-ES": "int8",
+        "pt-BR": "int8"
+      },
+      "lifecycle": "released"
+    },
+    "sfloat": {
+      "code": "sfloat",
+      "value": 8,
+      "description": {
+        "en-US": "sfloat",
+        "zh-CN": "IEEE-11073 半精度浮点数",
+        "fr-FR": "SFLOAT IEEE-11073",
+        "de-DE": "IEEE-11073 SFLOAT",
+        "ja-JP": "IEEE-11073 SFLOAT",
+        "ko-KR": "IEEE-11073 SFLOAT",
+        "es-ES": "SFLOAT IEEE-11073",
+        "pt-BR": "SFLOAT IEEE-11073"
+      },
+      "lifecycle": "released"
+    },
+    "string": {
+      "code": "string",
+      "value": 10,
+      "description": {
+        "en-US": "string",
+        "zh-CN": "UTF-8 字符串",
+        "fr-FR": "chaine UTF-8",
+        "de-DE": "UTF-8-Zeichenkette",
+        "ja-JP": "UTF-8文字列",
+        "ko-KR": "UTF-8 문자열",
+        "es-ES": "cadena UTF-8",
+        "pt-BR": "string UTF-8"
+      },
+      "lifecycle": "released"
+    },
+    "uint16": {
+      "code": "uint16",
+      "value": 2,
+      "description": {
+        "en-US": "uint16",
+        "zh-CN": "无符号 16 位整数",
+        "fr-FR": "uint16",
+        "de-DE": "uint16",
+        "ja-JP": "uint16",
+        "ko-KR": "uint16",
+        "es-ES": "uint16",
+        "pt-BR": "uint16"
+      },
+      "lifecycle": "released"
+    },
+    "uint32": {
+      "code": "uint32",
+      "value": 3,
+      "description": {
+        "en-US": "uint32",
+        "zh-CN": "无符号 32 位整数",
+        "fr-FR": "uint32",
+        "de-DE": "uint32",
+        "ja-JP": "uint32",
+        "ko-KR": "uint32",
+        "es-ES": "uint32",
+        "pt-BR": "uint32"
+      },
+      "lifecycle": "released"
+    },
+    "uint64": {
+      "code": "uint64",
+      "value": 4,
+      "description": {
+        "en-US": "uint64",
+        "zh-CN": "无符号 64 位整数",
+        "fr-FR": "uint64",
+        "de-DE": "uint64",
+        "ja-JP": "uint64",
+        "ko-KR": "uint64",
+        "es-ES": "uint64",
+        "pt-BR": "uint64"
+      },
+      "lifecycle": "released"
+    },
+    "uint8": {
+      "code": "uint8",
+      "value": 1,
+      "description": {
+        "en-US": "uint8",
+        "zh-CN": "无符号 8 位整数",
+        "fr-FR": "uint8",
+        "de-DE": "uint8",
+        "ja-JP": "uint8",
+        "ko-KR": "uint8",
+        "es-ES": "uint8",
+        "pt-BR": "uint8"
+      },
+      "lifecycle": "released"
+    }
+  },
+  "units": {
+    "amperes": {
+      "code": "amperes",
+      "value": 6,
+      "description": {
+        "en-US": "amperes",
+        "zh-CN": "安培",
+        "fr-FR": "amperes",
+        "de-DE": "Ampere",
+        "ja-JP": "アンペア",
+        "ko-KR": "암페어",
+        "es-ES": "amperios",
+        "pt-BR": "amperes"
+      },
+      "lifecycle": "released"
+    },
+    "bpm": {
+      "code": "bpm",
+      "value": 15,
+      "description": {
+        "en-US": "bpm",
+        "zh-CN": "每分钟心跳次数",
+        "fr-FR": "BPM",
+        "de-DE": "BPM",
+        "ja-JP": "BPM",
+        "ko-KR": "BPM",
+        "es-ES": "BPM",
+        "pt-BR": "BPM"
+      },
+      "lifecycle": "released"
+    },
+    "celsius": {
+      "code": "celsius",
+      "value": 1,
+      "description": {
+        "en-US": "celsius",
+        "zh-CN": "摄氏度",
+        "fr-FR": "degres Celsius",
+        "de-DE": "Grad Celsius",
+        "ja-JP": "摂氏度",
+        "ko-KR": "섭씨",
+        "es-ES": "grados Celsius",
+        "pt-BR": "graus Celsius"
+      },
+      "lifecycle": "released"
+    },
+    "days": {
+      "code": "days",
+      "value": 12,
+      "description": {
+        "en-US": "days",
+        "zh-CN": "天",
+        "fr-FR": "jours",
+        "de-DE": "Tage",
+        "ja-JP": "日",
+        "ko-KR": "일",
+        "es-ES": "dias",
+        "pt-BR": "dias"
+      },
+      "lifecycle": "released"
+    },
+    "dbm": {
+      "code": "dbm",
+      "value": 17,
+      "description": {
+        "en-US": "dbm",
+        "zh-CN": "dBm",
+        "fr-FR": "dBm",
+        "de-DE": "dBm",
+        "ja-JP": "dBm",
+        "ko-KR": "dBm",
+        "es-ES": "dBm",
+        "pt-BR": "dBm"
+      },
+      "lifecycle": "released"
+    },
+    "decibels": {
+      "code": "decibels",
+      "value": 19,
+      "description": {
+        "en-US": "decibels",
+        "zh-CN": "分贝",
+        "fr-FR": "decibels",
+        "de-DE": "Dezibel",
+        "ja-JP": "デシベル",
+        "ko-KR": "데시벨",
+        "es-ES": "decibelios",
+        "pt-BR": "decibeis"
+      },
+      "lifecycle": "released"
+    },
+    "degrees": {
+      "code": "degrees",
+      "value": 20,
+      "description": {
+        "en-US": "degrees",
+        "zh-CN": "度",
+        "fr-FR": "degres",
+        "de-DE": "Grad",
+        "ja-JP": "度",
+        "ko-KR": "도",
+        "es-ES": "grados",
+        "pt-BR": "graus"
+      },
+      "lifecycle": "released"
+    },
+    "fahrenheit": {
+      "code": "fahrenheit",
+      "value": 2,
+      "description": {
+        "en-US": "fahrenheit",
+        "zh-CN": "华氏度",
+        "fr-FR": "degres Fahrenheit",
+        "de-DE": "Grad Fahrenheit",
+        "ja-JP": "華氏度",
+        "ko-KR": "화씨",
+        "es-ES": "grados Fahrenheit",
+        "pt-BR": "graus Fahrenheit"
+      },
+      "lifecycle": "released"
+    },
+    "hertz": {
+      "code": "hertz",
+      "value": 7,
+      "description": {
+        "en-US": "hertz",
+        "zh-CN": "赫兹",
+        "fr-FR": "hertz",
+        "de-DE": "Hertz",
+        "ja-JP": "ヘルツ",
+        "ko-KR": "헤르츠",
+        "es-ES": "hercios",
+        "pt-BR": "hertz"
+      },
+      "lifecycle": "released"
+    },
+    "hours": {
+      "code": "hours",
+      "value": 11,
+      "description": {
+        "en-US": "hours",
+        "zh-CN": "小时",
+        "fr-FR": "heures",
+        "de-DE": "Stunden",
+        "ja-JP": "時",
+        "ko-KR": "시간",
+        "es-ES": "horas",
+        "pt-BR": "horas"
+      },
+      "lifecycle": "released"
+    },
+    "kelvin": {
+      "code": "kelvin",
+      "value": 3,
+      "description": {
+        "en-US": "kelvin",
+        "zh-CN": "开尔文",
+        "fr-FR": "kelvin",
+        "de-DE": "Kelvin",
+        "ja-JP": "ケルビン",
+        "ko-KR": "켈빈",
+        "es-ES": "kelvin",
+        "pt-BR": "kelvin"
+      },
+      "lifecycle": "released"
+    },
+    "kilograms": {
+      "code": "kilograms",
+      "value": 14,
+      "description": {
+        "en-US": "kilograms",
+        "zh-CN": "千克",
+        "fr-FR": "kilogrammes",
+        "de-DE": "Kilogramm",
+        "ja-JP": "キログラム",
+        "ko-KR": "킬로그램",
+        "es-ES": "kilogramos",
+        "pt-BR": "quilogramas"
+      },
+      "lifecycle": "released"
+    },
+    "kilograms_per_cubic_meter": {
+      "code": "kilograms_per_cubic_meter",
+      "value": 24,
+      "description": {
+        "en-US": "kilograms_per_cubic_meter",
+        "zh-CN": "千克/立方米",
+        "fr-FR": "kg/m3",
+        "de-DE": "kg/m3",
+        "ja-JP": "kg/m3",
+        "ko-KR": "kg/m3",
+        "es-ES": "kg/m3",
+        "pt-BR": "kg/m3"
+      },
+      "lifecycle": "released"
+    },
+    "lux": {
+      "code": "lux",
+      "value": 18,
+      "description": {
+        "en-US": "lux",
+        "zh-CN": "勒克斯",
+        "fr-FR": "lux",
+        "de-DE": "Lux",
+        "ja-JP": "ルクス",
+        "ko-KR": "럭스",
+        "es-ES": "lux",
+        "pt-BR": "lux"
+      },
+      "lifecycle": "released"
+    },
+    "meters": {
+      "code": "meters",
+      "value": 13,
+      "description": {
+        "en-US": "meters",
+        "zh-CN": "米",
+        "fr-FR": "metres",
+        "de-DE": "Meter",
+        "ja-JP": "メートル",
+        "ko-KR": "미터",
+        "es-ES": "metros",
+        "pt-BR": "metros"
+      },
+      "lifecycle": "released"
+    },
+    "meters_per_second": {
+      "code": "meters_per_second",
+      "value": 23,
+      "description": {
+        "en-US": "meters_per_second",
+        "zh-CN": "米/秒",
+        "fr-FR": "metres par seconde",
+        "de-DE": "Meter pro Sekunde",
+        "ja-JP": "メートル毎秒",
+        "ko-KR": "미터 매 초",
+        "es-ES": "metros por segundo",
+        "pt-BR": "metros por segundo"
+      },
+      "lifecycle": "released"
+    },
+    "milliseconds": {
+      "code": "milliseconds",
+      "value": 9,
+      "description": {
+        "en-US": "milliseconds",
+        "zh-CN": "毫秒",
+        "fr-FR": "millisecondes",
+        "de-DE": "Millisekunden",
+        "ja-JP": "ミリ秒",
+        "ko-KR": "밀리초",
+        "es-ES": "milisegundos",
+        "pt-BR": "milissegundos"
+      },
+      "lifecycle": "released"
+    },
+    "minutes": {
+      "code": "minutes",
+      "value": 10,
+      "description": {
+        "en-US": "minutes",
+        "zh-CN": "分钟",
+        "fr-FR": "minutes",
+        "de-DE": "Minuten",
+        "ja-JP": "分",
+        "ko-KR": "분",
+        "es-ES": "minutos",
+        "pt-BR": "minutos"
+      },
+      "lifecycle": "released"
+    },
+    "mmhg": {
+      "code": "mmhg",
+      "value": 16,
+      "description": {
+        "en-US": "mmhg",
+        "zh-CN": "毫米汞柱",
+        "fr-FR": "mmHg",
+        "de-DE": "mmHg",
+        "ja-JP": "mmHg",
+        "ko-KR": "mmHg",
+        "es-ES": "mmHg",
+        "pt-BR": "mmHg"
+      },
+      "lifecycle": "released"
+    },
+    "newtons": {
+      "code": "newtons",
+      "value": 21,
+      "description": {
+        "en-US": "newtons",
+        "zh-CN": "牛顿",
+        "fr-FR": "newtons",
+        "de-DE": "Newton",
+        "ja-JP": "ニュートン",
+        "ko-KR": "뉴턴",
+        "es-ES": "newtons",
+        "pt-BR": "newtons"
+      },
+      "lifecycle": "released"
+    },
+    "pascals": {
+      "code": "pascals",
+      "value": 22,
+      "description": {
+        "en-US": "pascals",
+        "zh-CN": "帕斯卡",
+        "fr-FR": "pascals",
+        "de-DE": "Pascal",
+        "ja-JP": "パスカル",
+        "ko-KR": "파스칼",
+        "es-ES": "pascales",
+        "pt-BR": "pascals"
+      },
+      "lifecycle": "released"
+    },
+    "percentage": {
+      "code": "percentage",
+      "value": 0,
+      "description": {
+        "en-US": "percentage",
+        "zh-CN": "百分比",
+        "fr-FR": "pourcentage",
+        "de-DE": "Prozentsatz",
+        "ja-JP": "パーセント",
+        "ko-KR": "백분율",
+        "es-ES": "porcentaje",
+        "pt-BR": "porcentagem"
+      },
+      "lifecycle": "released"
+    },
+    "seconds": {
+      "code": "seconds",
+      "value": 8,
+      "description": {
+        "en-US": "seconds",
+        "zh-CN": "秒",
+        "fr-FR": "secondes",
+        "de-DE": "Sekunden",
+        "ja-JP": "秒",
+        "ko-KR": "초",
+        "es-ES": "segundos",
+        "pt-BR": "segundos"
+      },
+      "lifecycle": "released"
+    },
+    "volts": {
+      "code": "volts",
+      "value": 5,
+      "description": {
+        "en-US": "volts",
+        "zh-CN": "伏特",
+        "fr-FR": "volts",
+        "de-DE": "Volt",
+        "ja-JP": "ボルト",
+        "ko-KR": "볼트",
+        "es-ES": "voltios",
+        "pt-BR": "volts"
+      },
+      "lifecycle": "released"
+    },
+    "watts": {
+      "code": "watts",
+      "value": 4,
+      "description": {
+        "en-US": "watts",
+        "zh-CN": "瓦特",
+        "fr-FR": "watts",
+        "de-DE": "Watt",
+        "ja-JP": "ワット",
+        "ko-KR": "와트",
+        "es-ES": "vatios",
+        "pt-BR": "watts"
+      },
+      "lifecycle": "released"
+    }
+  }
+}

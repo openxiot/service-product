@@ -133,6 +133,7 @@ public class FormatResource extends AbstractResource {
         try {
             List<FormatDefinition> list = service.findAll();
             list.addAll(prepared.getFormats(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getFormats(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = FormatDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:intermediate-cuff-pressure:00002A36",
+    "description": {
+        "en-US": "Intermediate Cuff Pressure",
+        "zh-CN": "中间袖带压力",
+        "fr-FR": "Pression intermediaire du brassard",
+        "de-DE": "Mittlerer Manschettendruck",
+        "ja-JP": "中間カフ圧",
+        "ko-KR": "중간 커프 압력",
+        "es-ES": "Presion intermedia del brazalete",
+        "pt-BR": "Pressao intermediaria da bracadeira"
+    },
+    "format": "sfloat",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released",
+    "unit": "mmhg"
+}

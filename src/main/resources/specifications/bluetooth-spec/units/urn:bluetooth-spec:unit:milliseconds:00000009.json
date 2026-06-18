@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:milliseconds:00000009",
+    "description": {
+        "en-US": "milliseconds",
+        "zh-CN": "毫秒",
+        "fr-FR": "millisecondes",
+        "de-DE": "Millisekunden",
+        "ja-JP": "ミリ秒",
+        "ko-KR": "밀리초",
+        "es-ES": "milisegundos",
+        "pt-BR": "milissegundos"
+    },
+    "lifecycle": "released"
+}

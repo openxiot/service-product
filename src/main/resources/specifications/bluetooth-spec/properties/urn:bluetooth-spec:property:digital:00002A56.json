@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:digital:00002A56",
+    "description": {
+        "en-US": "Digital",
+        "zh-CN": "数字",
+        "fr-FR": "Numerique",
+        "de-DE": "Digital",
+        "ja-JP": "デジタル",
+        "ko-KR": "디지털",
+        "es-ES": "Digital",
+        "pt-BR": "Digital"
+    },
+    "format": "boolean",
+    "access": [
+        "read",
+        "notify"
+    ],
+    "lifecycle": "released"
+}

@@ -134,6 +134,7 @@ public class UnitResource extends AbstractResource {
         try {
             List<UnitDefinition> list = service.findAll();
             list.addAll(prepared.getUnits(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getUnits(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = UnitDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

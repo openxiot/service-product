@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:bpm:0000000F",
+    "description": {
+        "en-US": "bpm",
+        "zh-CN": "每分钟心跳次数",
+        "fr-FR": "BPM",
+        "de-DE": "BPM",
+        "ja-JP": "BPM",
+        "ko-KR": "BPM",
+        "es-ES": "BPM",
+        "pt-BR": "BPM"
+    },
+    "lifecycle": "released"
+}

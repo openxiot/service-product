@@ -2,7 +2,6 @@ package cc.openxiot.product.db.specification.device;
 
 import cn.geekcity.xiot.spec.definition.DeviceDefinition;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class DeviceDefinitionMapper {
 
@@ -28,7 +27,7 @@ public class DeviceDefinitionMapper {
         DeviceType type = new DeviceType(ns, entity.code, entity.value);
 
         DeviceDefinition def = new DeviceDefinition(type, entity.description);
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
         return def;
     }
 }

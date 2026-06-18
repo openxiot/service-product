@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:navigation:00002A68",
+    "description": {
+        "en-US": "Navigation",
+        "zh-CN": "导航",
+        "fr-FR": "Navigation",
+        "de-DE": "Navigation",
+        "ja-JP": "ナビゲーション",
+        "ko-KR": "내비게이션",
+        "es-ES": "Navegacion",
+        "pt-BR": "Navegacao"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

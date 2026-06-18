@@ -1,0 +1,21 @@
+{
+    "type": "urn:bluetooth-spec:service:current-time:1805",
+    "description": {
+        "en-US": "Current Time",
+        "zh-CN": "当前时间",
+        "fr-FR": "Heure actuelle",
+        "de-DE": "Aktuelle Uhrzeit",
+        "ja-JP": "現在時刻",
+        "ko-KR": "현재 시간",
+        "es-ES": "Hora actual",
+        "pt-BR": "Hora atual"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:current-time:00002A2B"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:local-time-information:00002A0F",
+        "urn:bluetooth-spec:property:reference-time-information:00002A14"
+    ]
+}

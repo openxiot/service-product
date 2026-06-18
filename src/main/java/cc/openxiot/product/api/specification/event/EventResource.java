@@ -133,6 +133,7 @@ public class EventResource extends AbstractResource {
         try {
             List<EventDefinition> list = service.findAll();
             list.addAll(prepared.getEvents(SpecificationPrepared.HOMEKIT_SPEC));
+            list.addAll(prepared.getEvents(SpecificationPrepared.BLUETOOTH_SPEC));
             List<JsonObject> array = EventDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IOException e) {

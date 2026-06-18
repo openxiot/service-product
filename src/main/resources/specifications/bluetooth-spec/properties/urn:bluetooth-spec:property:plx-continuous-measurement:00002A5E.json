@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E",
+    "description": {
+        "en-US": "PLX Continuous Measurement",
+        "zh-CN": "脉搏血氧仪连续测量",
+        "fr-FR": "Mesure continue PLX",
+        "de-DE": "PLX-Kontinuierliche Messung",
+        "ja-JP": "PLX連続測定",
+        "ko-KR": "PLX 연속 측정",
+        "es-ES": "Medicion continua PLX",
+        "pt-BR": "Medicao continua PLX"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

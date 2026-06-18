@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:body-composition-measurement:00002A9B",
+    "description": {
+        "en-US": "Body Composition Measurement",
+        "zh-CN": "身体成分测量",
+        "fr-FR": "Mesure de la composition corporelle",
+        "de-DE": "Korperzusammensetzungsmessung",
+        "ja-JP": "体組成測定",
+        "ko-KR": "체성분 측정",
+        "es-ES": "Medicion de composicion corporal",
+        "pt-BR": "Medicao da composicao corporal"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

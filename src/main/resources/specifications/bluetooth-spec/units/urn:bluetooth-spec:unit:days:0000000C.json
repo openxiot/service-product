@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:days:0000000C",
+    "description": {
+        "en-US": "days",
+        "zh-CN": "天",
+        "fr-FR": "jours",
+        "de-DE": "Tage",
+        "ja-JP": "日",
+        "ko-KR": "일",
+        "es-ES": "dias",
+        "pt-BR": "dias"
+    },
+    "lifecycle": "released"
+}

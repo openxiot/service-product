@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:temperature-type:00002A1D",
+    "description": {
+        "en-US": "Temperature Type",
+        "zh-CN": "温度类型",
+        "fr-FR": "Type de temperature",
+        "de-DE": "Temperaturtyp",
+        "ja-JP": "温度タイプ",
+        "ko-KR": "온도 유형",
+        "es-ES": "Tipo de temperatura",
+        "pt-BR": "Tipo de temperatura"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

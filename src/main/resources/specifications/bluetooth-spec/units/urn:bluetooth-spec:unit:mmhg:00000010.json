@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:mmhg:00000010",
+    "description": {
+        "en-US": "mmhg",
+        "zh-CN": "毫米汞柱",
+        "fr-FR": "mmHg",
+        "de-DE": "mmHg",
+        "ja-JP": "mmHg",
+        "ko-KR": "mmHg",
+        "es-ES": "mmHg",
+        "pt-BR": "mmHg"
+    },
+    "lifecycle": "released"
+}

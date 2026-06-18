@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:heart-rate-measurement:00002A37",
+    "description": {
+        "en-US": "Heart Rate Measurement",
+        "zh-CN": "心率测量",
+        "fr-FR": "Mesure de la frequence cardiaque",
+        "de-DE": "Herzfrequenzmessung",
+        "ja-JP": "心拍数測定",
+        "ko-KR": "심박수 측정",
+        "es-ES": "Medicion de frecuencia cardiaca",
+        "pt-BR": "Medicao da frequencia cardiaca"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

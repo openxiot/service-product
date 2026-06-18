@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
+    "description": {
+        "en-US": "Cycling Power Measurement",
+        "zh-CN": "骑行功率测量",
+        "fr-FR": "Mesure de puissance cycliste",
+        "de-DE": "Radfahrleistungsmessung",
+        "ja-JP": "サイクリングパワー測定",
+        "ko-KR": "사이클링 파워 측정",
+        "es-ES": "Medicion de potencia ciclista",
+        "pt-BR": "Medicao de potencia ciclistica"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

@@ -14,6 +14,7 @@
     "organization": "openxiot",
     "visibility": "public"
   },
+  "devices": {},
   "actions": {},
   "events": {},
   "properties": {

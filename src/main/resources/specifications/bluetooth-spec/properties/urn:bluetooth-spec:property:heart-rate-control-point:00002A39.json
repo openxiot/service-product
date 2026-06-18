@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:heart-rate-control-point:00002A39",
+    "description": {
+        "en-US": "Heart Rate Control Point",
+        "zh-CN": "心率控制点",
+        "fr-FR": "Point de controle de la frequence cardiaque",
+        "de-DE": "Herzfrequenz-Kontrollpunkt",
+        "ja-JP": "心拍数制御ポイント",
+        "ko-KR": "심박수 제어 포인트",
+        "es-ES": "Punto de control de frecuencia cardiaca",
+        "pt-BR": "Ponto de controle da frequencia cardiaca"
+    },
+    "format": "uint8",
+    "access": [
+        "write"
+    ],
+    "lifecycle": "released"
+}

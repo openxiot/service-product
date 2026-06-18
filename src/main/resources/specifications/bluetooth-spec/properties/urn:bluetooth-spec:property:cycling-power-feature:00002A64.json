@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:cycling-power-feature:00002A64",
+    "description": {
+        "en-US": "Cycling Power Feature",
+        "zh-CN": "骑行功率特征",
+        "fr-FR": "Caracteristique de puissance cycliste",
+        "de-DE": "Radfahrleistungsmerkmal",
+        "ja-JP": "サイクリングパワー機能",
+        "ko-KR": "사이클링 파워 기능",
+        "es-ES": "Caracteristica de potencia ciclista",
+        "pt-BR": "Recurso de potencia ciclistica"
+    },
+    "format": "uint8",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

@@ -10,7 +10,6 @@ import cn.geekcity.xiot.spec.definition.property.ValueList;
 import cn.geekcity.xiot.spec.definition.property.ValueRange;
 import cn.geekcity.xiot.spec.definition.property.data.DataFormat;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import io.vertx.core.json.JsonArray;
 
 import java.util.List;
@@ -92,7 +91,7 @@ public class PropertyDefinitionMapper {
             }
         }
 
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
 
         return def;
     }

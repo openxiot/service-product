@@ -1,0 +1,21 @@
+{
+    "type": "urn:bluetooth-spec:service:location-and-navigation:1819",
+    "description": {
+        "en-US": "Location and Navigation",
+        "zh-CN": "位置和导航",
+        "fr-FR": "Emplacement et navigation",
+        "de-DE": "Standort und Navigation",
+        "ja-JP": "位置とナビゲーション",
+        "ko-KR": "위치 및 내비게이션",
+        "es-ES": "Ubicacion y navegacion",
+        "pt-BR": "Localizacao e navegacao"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:location-and-speed:00002A67"
+    ],
+    "optional-properties": [
+        "urn:bluetooth-spec:property:navigation:00002A68",
+        "urn:bluetooth-spec:property:position-quality:00002A69"
+    ]
+}

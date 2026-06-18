@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:unit:pascals:00000016",
+    "description": {
+        "en-US": "pascals",
+        "zh-CN": "帕斯卡",
+        "fr-FR": "pascals",
+        "de-DE": "Pascal",
+        "ja-JP": "パスカル",
+        "ko-KR": "파스칼",
+        "es-ES": "pascales",
+        "pt-BR": "pascals"
+    },
+    "lifecycle": "released"
+}

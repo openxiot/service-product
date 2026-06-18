@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26",
+    "description": {
+        "en-US": "Firmware Revision String",
+        "zh-CN": "固件版本字符串",
+        "fr-FR": "Chaine de revision du firmware",
+        "de-DE": "Firmware-Version",
+        "ja-JP": "ファームウェアリビジョン",
+        "ko-KR": "펌웨어 버전",
+        "es-ES": "Revision del firmware",
+        "pt-BR": "Revisao do firmware"
+    },
+    "format": "string",
+    "access": [
+        "read"
+    ],
+    "lifecycle": "released"
+}

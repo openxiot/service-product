@@ -5,7 +5,6 @@ import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import cn.geekcity.xiot.spec.definition.urn.ServiceType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -75,7 +74,7 @@ public class ServiceDefinitionMapper {
                         requiredEvents
                 );
 
-        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
+        def.lifecycle(entity.lifecycle);
 
         return def;
     }

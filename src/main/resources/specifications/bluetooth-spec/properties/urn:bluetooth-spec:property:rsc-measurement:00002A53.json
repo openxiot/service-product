@@ -1,0 +1,18 @@
+{
+    "type": "urn:bluetooth-spec:property:rsc-measurement:00002A53",
+    "description": {
+        "en-US": "RSC Measurement",
+        "zh-CN": "跑步传感器测量",
+        "fr-FR": "Mesure RSC",
+        "de-DE": "RSC-Messung",
+        "ja-JP": "RSC測定",
+        "ko-KR": "RSC 측정",
+        "es-ES": "Medicion RSC",
+        "pt-BR": "Medicao RSC"
+    },
+    "format": "uint8",
+    "access": [
+        "notify"
+    ],
+    "lifecycle": "released"
+}

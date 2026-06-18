@@ -1,0 +1,19 @@
+{
+    "type": "urn:bluetooth-spec:property:sc-control-point:00002A55",
+    "description": {
+        "en-US": "SC Control Point",
+        "zh-CN": "跑步骑行控制点",
+        "fr-FR": "Point de controle SC",
+        "de-DE": "SC-Kontrollpunkt",
+        "ja-JP": "SC制御ポイント",
+        "ko-KR": "SC 제어 포인트",
+        "es-ES": "Punto de control SC",
+        "pt-BR": "Ponto de controle SC"
+    },
+    "format": "uint8",
+    "access": [
+        "indicate",
+        "write"
+    ],
+    "lifecycle": "released"
+}

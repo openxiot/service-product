@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:format:boolean:00000000",
+    "description": {
+        "en-US": "boolean",
+        "zh-CN": "布尔",
+        "fr-FR": "booleen",
+        "de-DE": "Boolean",
+        "ja-JP": "ブール",
+        "ko-KR": "부울",
+        "es-ES": "booleano",
+        "pt-BR": "booleano"
+    },
+    "lifecycle": "released"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "urn:bluetooth-spec:service:tx-power:1804",
+    "description": {
+        "en-US": "TX Power",
+        "zh-CN": "发射功率",
+        "fr-FR": "Puissance TX",
+        "de-DE": "Sendeleistung",
+        "ja-JP": "送信電力",
+        "ko-KR": "송신 전력",
+        "es-ES": "Potencia TX",
+        "pt-BR": "Potencia de transmissao"
+    },
+    "lifecycle": "released",
+    "required-properties": [
+        "urn:bluetooth-spec:property:tx-power-level:00002A07"
+    ]
+}
