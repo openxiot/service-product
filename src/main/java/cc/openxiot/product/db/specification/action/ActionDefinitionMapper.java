@@ -4,6 +4,7 @@ import cn.geekcity.xiot.spec.definition.ActionDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class ActionDefinitionMapper {
         entity.description = definition.description();
         entity.in = definition.in().stream().map(x -> x.type().name()).toList();
         entity.out = definition.out().stream().map(x -> x.type().name()).toList();
-        entity.lifecycle = definition.lifecycle();
+        entity.lifecycle = definition.lifecycle().toString();
 
         return entity;
     }
@@ -39,7 +40,7 @@ public class ActionDefinitionMapper {
                 .toList();
 
         ActionDefinition def = new ActionDefinition(type, entity.description, in, out);
-        def.lifecycle(entity.lifecycle);
+        def.lifecycle(Lifecycle.valueOf(entity.lifecycle));
         return def;
     }
 }

@@ -1,8 +1,5 @@
 package cc.openxiot.product.db.specification.property;
 
-import cn.geekcity.xiot.spec.by.Creator;
-import cn.geekcity.xiot.spec.by.Updater;
-import cn.geekcity.xiot.spec.definition.property.data.DataFormat;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
@@ -10,7 +7,7 @@ import java.util.Map;
 
 public class PropertyDefinitionEntity {
 
-    public Lifecycle lifecycle;
+    public String lifecycle;
 
     public String code;
 
@@ -18,7 +15,7 @@ public class PropertyDefinitionEntity {
 
     public Map<String, String> description;
 
-    public DataFormat format;
+    public String format;
 
     public List<String> access;
 
@@ -27,10 +24,6 @@ public class PropertyDefinitionEntity {
     public ConstraintValueEntity constraintValue;
 
     public List<String> members;
-
-//    public Creator creator;
-//
-//    public Updater updater;
 
     public static class ConstraintValueEntity {
 

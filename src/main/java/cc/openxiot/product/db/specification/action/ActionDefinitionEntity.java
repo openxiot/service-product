@@ -1,13 +1,11 @@
 package cc.openxiot.product.db.specification.action;
 
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
-
 import java.util.List;
 import java.util.Map;
 
 public class ActionDefinitionEntity {
 
-    public Lifecycle lifecycle;
+    public String lifecycle;
 
     public String code;
 

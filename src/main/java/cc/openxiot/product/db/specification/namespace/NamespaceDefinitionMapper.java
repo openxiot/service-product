@@ -12,7 +12,7 @@ public class NamespaceDefinitionMapper {
         NamespaceDefinitionEntity entity = new NamespaceDefinitionEntity();
         entity.code = definition.namespace();
         entity.description = definition.description();
-        entity.visibility = definition.visibility();
+        entity.visibility = definition.visibility().toString();
         entity.organization = definition.organization();
 
         return entity;

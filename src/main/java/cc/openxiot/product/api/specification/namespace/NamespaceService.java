@@ -77,7 +77,7 @@ public class NamespaceService {
         permission.check(spec.namespace.organization);
 
         spec.namespace.description = def.description();
-        spec.namespace.visibility = def.visibility();
+        spec.namespace.visibility = def.visibility().toString();
 
         spec.update();
     }

@@ -1,0 +1,5818 @@
+{
+  "namespace": {
+    "code": "homekit-spec",
+    "description": {
+      "en-US": "HomeKit Accessory Specification",
+      "zh-CN": "HomeKit 配件规范",
+      "fr-FR": "Spécification des accessoires HomeKit",
+      "de-DE": "HomeKit-Zubehörspezifikation",
+      "ja-JP": "HomeKit アクセサリ仕様",
+      "ko-KR": "HomeKit 액세서리 사양",
+      "es-ES": "Especificación de accesorios HomeKit",
+      "pt-BR": "Especificação de acessórios HomeKit"
+    },
+    "organization": "openxiot",
+    "visibility": "public"
+  },
+  "actions": {},
+  "events": {},
+  "properties": {
+    "accessory-flags": {
+      "code": "accessory-flags",
+      "value": 166,
+      "description": {
+        "en-US": "Accessory Flags",
+        "zh-CN": "附件标志",
+        "fr-FR": "Indicateurs d'accessoire",
+        "de-DE": "Zubehör-Flags",
+        "ja-JP": "アクセサリフラグ",
+        "ko-KR": "액세서리 플래그",
+        "es-ES": "Indicadores de accesorio",
+        "pt-BR": "Sinalizadores do acessório"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "active": {
+      "code": "active",
+      "value": 176,
+      "description": {
+        "en-US": "Active",
+        "zh-CN": "活动状态",
+        "fr-FR": "Actif",
+        "de-DE": "Aktiv",
+        "ja-JP": "アクティブ",
+        "ko-KR": "활성",
+        "es-ES": "Activo",
+        "pt-BR": "Ativo"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "INACTIVE",
+            "zh-CN": "非活动",
+            "fr-FR": "INACTIF",
+            "de-DE": "INAKTIV",
+            "ja-JP": "非アクティブ",
+            "ko-KR": "비활성",
+            "es-ES": "INACTIVO",
+            "pt-BR": "INATIVO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "ACTIVE",
+            "zh-CN": "活动",
+            "fr-FR": "ACTIF",
+            "de-DE": "AKTIV",
+            "ja-JP": "アクティブ",
+            "ko-KR": "활성",
+            "es-ES": "ACTIVO",
+            "pt-BR": "ATIVO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "administrator-only-access": {
+      "code": "administrator-only-access",
+      "value": 1,
+      "description": {
+        "en-US": "Administrator Only Access",
+        "zh-CN": "仅管理员访问",
+        "fr-FR": "Accès administrateur uniquement",
+        "de-DE": "Nur Administrator-Zugriff",
+        "ja-JP": "管理者のみアクセス",
+        "ko-KR": "관리자만 접근",
+        "es-ES": "Solo acceso de administrador",
+        "pt-BR": "Acesso apenas do administrador"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "air-particulate-density": {
+      "code": "air-particulate-density",
+      "value": 100,
+      "description": {
+        "en-US": "Air Particulate Density",
+        "zh-CN": "空气颗粒物密度",
+        "fr-FR": "Densité de particules en suspension",
+        "de-DE": "Luftpartikeldichte",
+        "ja-JP": "空気微粒子濃度",
+        "ko-KR": "공기 중 미세 입자 밀도",
+        "es-ES": "Densidad de partículas en suspensión",
+        "pt-BR": "Densidade de partículas no ar"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "air-particulate-size": {
+      "code": "air-particulate-size",
+      "value": 101,
+      "description": {
+        "en-US": "Air Particulate Size",
+        "zh-CN": "空气颗粒物大小",
+        "fr-FR": "Taille des particules en suspension",
+        "de-DE": "Luftpartikelgröße",
+        "ja-JP": "空気微粒子サイズ",
+        "ko-KR": "공기 중 미세 입자 크기",
+        "es-ES": "Tamaño de partículas en suspensión",
+        "pt-BR": "Tamanho de partículas no ar"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "2_5_ΜM",
+            "zh-CN": "2.5 微米",
+            "fr-FR": "2,5 ΜM",
+            "de-DE": "2,5 ΜM",
+            "ja-JP": "2.5 ΜM",
+            "ko-KR": "2.5 ΜM",
+            "es-ES": "2,5 ΜM",
+            "pt-BR": "2,5 ΜM"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "10_ΜM",
+            "zh-CN": "10 微米",
+            "fr-FR": "10 ΜM",
+            "de-DE": "10 ΜM",
+            "ja-JP": "10 ΜM",
+            "ko-KR": "10 ΜM",
+            "es-ES": "10 ΜM",
+            "pt-BR": "10 ΜM"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "air-quality": {
+      "code": "air-quality",
+      "value": 149,
+      "description": {
+        "en-US": "Air Quality",
+        "zh-CN": "空气质量",
+        "fr-FR": "Qualité de l'air",
+        "de-DE": "Luftqualität",
+        "ja-JP": "空気品質",
+        "ko-KR": "공기 질",
+        "es-ES": "Calidad del aire",
+        "pt-BR": "Qualidade do ar"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "UNKNOWN",
+            "zh-CN": "未知",
+            "fr-FR": "INCONNU",
+            "de-DE": "UNBEKANNT",
+            "ja-JP": "不明",
+            "ko-KR": "알 수 없음",
+            "es-ES": "DESCONOCIDO",
+            "pt-BR": "DESCONHECIDO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "EXCELLENT",
+            "zh-CN": "优秀",
+            "fr-FR": "EXCELLENT",
+            "de-DE": "HERVORRAGEND",
+            "ja-JP": "優良",
+            "ko-KR": "우수",
+            "es-ES": "EXCELENTE",
+            "pt-BR": "EXCELENTE"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "GOOD",
+            "zh-CN": "良好",
+            "fr-FR": "BON",
+            "de-DE": "GUT",
+            "ja-JP": "良好",
+            "ko-KR": "좋음",
+            "es-ES": "BUENO",
+            "pt-BR": "BOM"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "FAIR",
+            "zh-CN": "一般",
+            "fr-FR": "MOYEN",
+            "de-DE": "MITTELMÄßIG",
+            "ja-JP": "普通",
+            "ko-KR": "보통",
+            "es-ES": "REGULAR",
+            "pt-BR": "REGULAR"
+          }
+        },
+        {
+          "value": 4,
+          "description": {
+            "en-US": "INFERIOR",
+            "zh-CN": "较差",
+            "fr-FR": "INFÉRIEUR",
+            "de-DE": "SCHLECHT",
+            "ja-JP": "不良",
+            "ko-KR": "나쁨",
+            "es-ES": "INFERIOR",
+            "pt-BR": "INFERIOR"
+          }
+        },
+        {
+          "value": 5,
+          "description": {
+            "en-US": "POOR",
+            "zh-CN": "差",
+            "fr-FR": "MAUVAIS",
+            "de-DE": "ARM",
+            "ja-JP": "劣悪",
+            "ko-KR": "매우 나쁨",
+            "es-ES": "POBRE",
+            "pt-BR": "RUIM"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "audio-feedback": {
+      "code": "audio-feedback",
+      "value": 5,
+      "description": {
+        "en-US": "Audio Feedback",
+        "zh-CN": "音频反馈",
+        "fr-FR": "Retour audio",
+        "de-DE": "Audio-Feedback",
+        "ja-JP": "オーディオフィードバック",
+        "ko-KR": "오디오 피드백",
+        "es-ES": "Comentario de audio",
+        "pt-BR": "Feedback de áudio"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "battery-level": {
+      "code": "battery-level",
+      "value": 104,
+      "description": {
+        "en-US": "Battery Level",
+        "zh-CN": "电池电量",
+        "fr-FR": "Niveau de batterie",
+        "de-DE": "Batterieladestand",
+        "ja-JP": "バッテリーレベル",
+        "ko-KR": "배터리 잔량",
+        "es-ES": "Nivel de batería",
+        "pt-BR": "Nível da bateria"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "brightness": {
+      "code": "brightness",
+      "value": 8,
+      "description": {
+        "en-US": "Brightness",
+        "zh-CN": "亮度",
+        "fr-FR": "Luminosité",
+        "de-DE": "Helligkeit",
+        "ja-JP": "明るさ",
+        "ko-KR": "밝기",
+        "es-ES": "Brillo",
+        "pt-BR": "Brilho"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "carbon-dioxide-detected": {
+      "code": "carbon-dioxide-detected",
+      "value": 146,
+      "description": {
+        "en-US": "Carbon Dioxide Detected",
+        "zh-CN": "二氧化碳检测到",
+        "fr-FR": "Dioxyde de carbone détecté",
+        "de-DE": "Kohlendioxid erkannt",
+        "ja-JP": "二酸化炭素検出",
+        "ko-KR": "이산화탄소 감지됨",
+        "es-ES": "Dióxido de carbono detectado",
+        "pt-BR": "Dióxido de carbono detectado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CO2_LEVELS_NORMAL",
+            "zh-CN": "二氧化碳浓度正常",
+            "fr-FR": "NIVEAUX DE CO2 NORMAUX",
+            "de-DE": "CO2-WERTE NORMAL",
+            "ja-JP": "二酸化炭素濃度正常",
+            "ko-KR": "이산화탄소 농도 정상",
+            "es-ES": "NIVELES DE CO2 NORMALES",
+            "pt-BR": "NÍVEIS DE CO2 NORMAIS"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CO2_LEVELS_ABNORMAL",
+            "zh-CN": "二氧化碳浓度异常",
+            "fr-FR": "NIVEAUX DE CO2 ANORMAUX",
+            "de-DE": "CO2-WERTE ANORMAL",
+            "ja-JP": "二酸化炭素濃度異常",
+            "ko-KR": "이산화탄소 농도 비정상",
+            "es-ES": "NIVELES DE CO2 ANORMALES",
+            "pt-BR": "NÍVEIS DE CO2 ANORMAIS"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-dioxide-level": {
+      "code": "carbon-dioxide-level",
+      "value": 147,
+      "description": {
+        "en-US": "Carbon Dioxide Level",
+        "zh-CN": "二氧化碳浓度",
+        "fr-FR": "Niveau de dioxyde de carbone",
+        "de-DE": "Kohlendioxidgehalt",
+        "ja-JP": "二酸化炭素濃度",
+        "ko-KR": "이산화탄소 농도",
+        "es-ES": "Nivel de dióxido de carbono",
+        "pt-BR": "Nível de dióxido de carbono"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-dioxide-peak-level": {
+      "code": "carbon-dioxide-peak-level",
+      "value": 148,
+      "description": {
+        "en-US": "Carbon Dioxide Peak Level",
+        "zh-CN": "二氧化碳峰值浓度",
+        "fr-FR": "Niveau de pointe de dioxyde de carbone",
+        "de-DE": "Kohlendioxid-Spitzenwert",
+        "ja-JP": "二酸化炭素ピーク濃度",
+        "ko-KR": "이산화탄소 최고 농도",
+        "es-ES": "Nivel máximo de dióxido de carbono",
+        "pt-BR": "Nível máximo de dióxido de carbono"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-monoxide-detected": {
+      "code": "carbon-monoxide-detected",
+      "value": 105,
+      "description": {
+        "en-US": "Carbon Monoxide Detected",
+        "zh-CN": "一氧化碳检测到",
+        "fr-FR": "Monoxyde de carbone détecté",
+        "de-DE": "Kohlenmonoxid erkannt",
+        "ja-JP": "一酸化炭素検出",
+        "ko-KR": "일산화탄소 감지됨",
+        "es-ES": "Monóxido de carbono detectado",
+        "pt-BR": "Monóxido de carbono detectado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CO_LEVELS_NORMAL",
+            "zh-CN": "一氧化碳浓度正常",
+            "fr-FR": "NIVEAUX DE CO NORMAUX",
+            "de-DE": "CO-WERTE NORMAL",
+            "ja-JP": "一酸化炭素濃度正常",
+            "ko-KR": "일산화탄소 농도 정상",
+            "es-ES": "NIVELES DE CO NORMALES",
+            "pt-BR": "NÍVEIS DE CO NORMAIS"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CO_LEVELS_ABNORMAL",
+            "zh-CN": "一氧化碳浓度异常",
+            "fr-FR": "NIVEAUX DE CO ANORMAUX",
+            "de-DE": "CO-WERTE ANORMAL",
+            "ja-JP": "一酸化炭素濃度異常",
+            "ko-KR": "일산화탄소 농도 비정상",
+            "es-ES": "NIVELES DE CO ANORMALES",
+            "pt-BR": "NÍVEIS DE CO ANORMAIS"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-monoxide-level": {
+      "code": "carbon-monoxide-level",
+      "value": 144,
+      "description": {
+        "en-US": "Carbon Monoxide Level",
+        "zh-CN": "一氧化碳浓度",
+        "fr-FR": "Niveau de monoxyde de carbone",
+        "de-DE": "Kohlenmonoxidgehalt",
+        "ja-JP": "一酸化炭素濃度",
+        "ko-KR": "일산화탄소 농도",
+        "es-ES": "Nivel de monóxido de carbono",
+        "pt-BR": "Nível de monóxido de carbono"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-monoxide-peak-level": {
+      "code": "carbon-monoxide-peak-level",
+      "value": 145,
+      "description": {
+        "en-US": "Carbon Monoxide Peak Level",
+        "zh-CN": "一氧化碳峰值浓度",
+        "fr-FR": "Niveau de pointe de monoxyde de carbone",
+        "de-DE": "Kohlenmonoxid-Spitzenwert",
+        "ja-JP": "一酸化炭素ピーク濃度",
+        "ko-KR": "일산화탄소 최고 농도",
+        "es-ES": "Nivel máximo de monóxido de carbono",
+        "pt-BR": "Nível máximo de monóxido de carbono"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "charging-state": {
+      "code": "charging-state",
+      "value": 143,
+      "description": {
+        "en-US": "Charging State",
+        "zh-CN": "充电状态",
+        "fr-FR": "État de charge",
+        "de-DE": "Ladezustand",
+        "ja-JP": "充電状態",
+        "ko-KR": "충전 상태",
+        "es-ES": "Estado de carga",
+        "pt-BR": "Estado de carga"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NOT_CHARGING",
+            "zh-CN": "未充电",
+            "fr-FR": "NE CHARGE PAS",
+            "de-DE": "LÄDT NICHT",
+            "ja-JP": "充電なし",
+            "ko-KR": "충전 중 아님",
+            "es-ES": "NO CARGANDO",
+            "pt-BR": "NÃO CARREGANDO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CHARGING",
+            "zh-CN": "充电中",
+            "fr-FR": "EN CHARGE",
+            "de-DE": "LÄDT",
+            "ja-JP": "充電中",
+            "ko-KR": "충전 중",
+            "es-ES": "CARGANDO",
+            "pt-BR": "CARREGANDO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "NOT_CHARGEABLE",
+            "zh-CN": "不可充电",
+            "fr-FR": "NON RECHARGEABLE",
+            "de-DE": "NICHT AUFLADBAR",
+            "ja-JP": "充電不可",
+            "ko-KR": "충전 불가",
+            "es-ES": "NO RECARGABLE",
+            "pt-BR": "NÃO RECARREGÁVEL"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "color-temperature": {
+      "code": "color-temperature",
+      "value": 206,
+      "description": {
+        "en-US": "Color Temperature",
+        "zh-CN": "色温",
+        "fr-FR": "Température de couleur",
+        "de-DE": "Farbtemperatur",
+        "ja-JP": "色温度",
+        "ko-KR": "색온도",
+        "es-ES": "Temperatura de color",
+        "pt-BR": "Temperatura da cor"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        140,
+        500,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "contact-sensor-state": {
+      "code": "contact-sensor-state",
+      "value": 106,
+      "description": {
+        "en-US": "Contact Sensor State",
+        "zh-CN": "接触传感器状态",
+        "fr-FR": "État du capteur de contact",
+        "de-DE": "Kontaktsensorstatus",
+        "ja-JP": "接触センサー状態",
+        "ko-KR": "접촉 센서 상태",
+        "es-ES": "Estado del sensor de contacto",
+        "pt-BR": "Estado do sensor de contato"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CONTACT_DETECTED",
+            "zh-CN": "接触已检测",
+            "fr-FR": "CONTACT DÉTECTÉ",
+            "de-DE": "KONTAKT ERKANNT",
+            "ja-JP": "接触検出",
+            "ko-KR": "접촉 감지됨",
+            "es-ES": "CONTACTO DETECTADO",
+            "pt-BR": "CONTATO DETECTADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CONTACT_NOT_DETECTED",
+            "zh-CN": "接触未检测",
+            "fr-FR": "CONTACT NON DÉTECTÉ",
+            "de-DE": "KEIN KONTAKT ERKANNT",
+            "ja-JP": "接触未検出",
+            "ko-KR": "접촉 미감지",
+            "es-ES": "CONTACTO NO DETECTADO",
+            "pt-BR": "CONTATO NÃO DETECTADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "cooling-threshold-temperature": {
+      "code": "cooling-threshold-temperature",
+      "value": 13,
+      "description": {
+        "en-US": "Cooling Threshold Temperature",
+        "zh-CN": "制冷阈值温度",
+        "fr-FR": "Température seuil de refroidissement",
+        "de-DE": "Kühlschwellentemperatur",
+        "ja-JP": "冷却しきい値温度",
+        "ko-KR": "냉방 임계 온도",
+        "es-ES": "Umbral de temperatura de enfriamiento",
+        "pt-BR": "Temperatura limite de resfriamento"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        10,
+        35,
+        0.1
+      ],
+      "unit": "celsius",
+      "lifecycle": "released"
+    },
+    "current-air-purifier-state": {
+      "code": "current-air-purifier-state",
+      "value": 169,
+      "description": {
+        "en-US": "Current Air Purifier State",
+        "zh-CN": "当前空气净化器状态",
+        "fr-FR": "État actuel du purificateur d'air",
+        "de-DE": "Aktueller Luftreinigerstatus",
+        "ja-JP": "現在の空気清浄機の状態",
+        "ko-KR": "현재 공기 청정기 상태",
+        "es-ES": "Estado actual del purificador de aire",
+        "pt-BR": "Estado atual do purificador de ar"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "INACTIVE",
+            "zh-CN": "非活动",
+            "fr-FR": "INACTIF",
+            "de-DE": "INAKTIV",
+            "ja-JP": "非アクティブ",
+            "ko-KR": "비활성",
+            "es-ES": "INACTIVO",
+            "pt-BR": "INATIVO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IDLE",
+            "zh-CN": "空闲",
+            "fr-FR": "INACTIF",
+            "de-DE": "BEREIT",
+            "ja-JP": "アイドル",
+            "ko-KR": "대기 중",
+            "es-ES": "INACTIVO",
+            "pt-BR": "OCIOSO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "PURIFYING_AIR",
+            "zh-CN": "净化空气中",
+            "fr-FR": "PURIFICATION D'AIR",
+            "de-DE": "LUFTREINIGUNG",
+            "ja-JP": "空気清浄中",
+            "ko-KR": "공기 정화 중",
+            "es-ES": "PURIFICANDO AIRE",
+            "pt-BR": "PURIFICANDO AR"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-ambient-light-level": {
+      "code": "current-ambient-light-level",
+      "value": 107,
+      "description": {
+        "en-US": "Current Ambient Light Level",
+        "zh-CN": "当前环境光强度",
+        "fr-FR": "Niveau de lumière ambiante actuel",
+        "de-DE": "Aktuelle Umgebungslichtstärke",
+        "ja-JP": "現在の環境光レベル",
+        "ko-KR": "현재 주변 조도",
+        "es-ES": "Nivel de luz ambiental actual",
+        "pt-BR": "Nível de luz ambiente atual"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0.0001,
+        100000,
+        1
+      ],
+      "unit": "lux",
+      "lifecycle": "released"
+    },
+    "current-door-state": {
+      "code": "current-door-state",
+      "value": 14,
+      "description": {
+        "en-US": "Current Door State",
+        "zh-CN": "当前门状态",
+        "fr-FR": "État actuel de la porte",
+        "de-DE": "Aktueller Türstatus",
+        "ja-JP": "現在のドア状態",
+        "ko-KR": "현재 문 상태",
+        "es-ES": "Estado actual de la puerta",
+        "pt-BR": "Estado atual da porta"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "OPEN",
+            "zh-CN": "打开",
+            "fr-FR": "OUVERT",
+            "de-DE": "OFFEN",
+            "ja-JP": "開",
+            "ko-KR": "열림",
+            "es-ES": "ABIERTO",
+            "pt-BR": "ABERTO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CLOSED",
+            "zh-CN": "关闭",
+            "fr-FR": "FERMÉ",
+            "de-DE": "GESCHLOSSEN",
+            "ja-JP": "閉",
+            "ko-KR": "닫힘",
+            "es-ES": "CERRADO",
+            "pt-BR": "FECHADO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "OPENING",
+            "zh-CN": "正在打开",
+            "fr-FR": "EN OUVERTURE",
+            "de-DE": "ÖFFNEND",
+            "ja-JP": "開け中",
+            "ko-KR": "열리는 중",
+            "es-ES": "ABRIENDO",
+            "pt-BR": "ABRINDO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "CLOSING",
+            "zh-CN": "正在关闭",
+            "fr-FR": "EN FERMETURE",
+            "de-DE": "SCHLIESSEND",
+            "ja-JP": "閉じ中",
+            "ko-KR": "닫히는 중",
+            "es-ES": "CERRANDO",
+            "pt-BR": "FECHANDO"
+          }
+        },
+        {
+          "value": 4,
+          "description": {
+            "en-US": "STOPPED",
+            "zh-CN": "已停止",
+            "fr-FR": "ARRÊTÉ",
+            "de-DE": "GESTOPPT",
+            "ja-JP": "停止中",
+            "ko-KR": "정지됨",
+            "es-ES": "DETENIDO",
+            "pt-BR": "PARADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-fan-state": {
+      "code": "current-fan-state",
+      "value": 175,
+      "description": {
+        "en-US": "Current Fan State",
+        "zh-CN": "当前风扇状态",
+        "fr-FR": "État actuel du ventilateur",
+        "de-DE": "Aktueller Lüfterstatus",
+        "ja-JP": "現在のファン状態",
+        "ko-KR": "현재 팬 상태",
+        "es-ES": "Estado actual del ventilador",
+        "pt-BR": "Estado atual do ventilador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "INACTIVE",
+            "zh-CN": "非活动",
+            "fr-FR": "INACTIF",
+            "de-DE": "INAKTIV",
+            "ja-JP": "非アクティブ",
+            "ko-KR": "비활성",
+            "es-ES": "INACTIVO",
+            "pt-BR": "INATIVO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IDLE",
+            "zh-CN": "空闲",
+            "fr-FR": "INACTIF",
+            "de-DE": "BEREIT",
+            "ja-JP": "アイドル",
+            "ko-KR": "대기 중",
+            "es-ES": "INACTIVO",
+            "pt-BR": "OCIOSO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "BLOWING_AIR",
+            "zh-CN": "送风中",
+            "fr-FR": "SOUFFLE D'AIR",
+            "de-DE": "BLÄST LUFT",
+            "ja-JP": "送風中",
+            "ko-KR": "송풍 중",
+            "es-ES": "SOPLANDO AIRE",
+            "pt-BR": "SOPRANDO AR"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-heater-cooler-state": {
+      "code": "current-heater-cooler-state",
+      "value": 177,
+      "description": {
+        "en-US": "Current Heater Cooler State",
+        "zh-CN": "当前加热器/冷却器状态",
+        "fr-FR": "État actuel du chauffage/refroidisseur",
+        "de-DE": "Aktueller Heizer-Kühler-Status",
+        "ja-JP": "現在の加熱・冷却器状態",
+        "ko-KR": "현재 히터/쿨러 상태",
+        "es-ES": "Estado actual del calefactor/enfriador",
+        "pt-BR": "Estado atual do aquecedor/refrigerador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "INACTIVE",
+            "zh-CN": "非活动",
+            "fr-FR": "INACTIF",
+            "de-DE": "INAKTIV",
+            "ja-JP": "非アクティブ",
+            "ko-KR": "비활성",
+            "es-ES": "INACTIVO",
+            "pt-BR": "INATIVO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IDLE",
+            "zh-CN": "空闲",
+            "fr-FR": "INACTIF",
+            "de-DE": "BEREIT",
+            "ja-JP": "アイドル",
+            "ko-KR": "대기 중",
+            "es-ES": "INACTIVO",
+            "pt-BR": "OCIOSO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "HEATING",
+            "zh-CN": "加热中",
+            "fr-FR": "EN CHAUFFAGE",
+            "de-DE": "HEIZT",
+            "ja-JP": "加熱中",
+            "ko-KR": "난방 중",
+            "es-ES": "CALEFACCIÓN",
+            "pt-BR": "AQUECENDO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "COOLING",
+            "zh-CN": "制冷中",
+            "fr-FR": "EN REFROIDISSEMENT",
+            "de-DE": "KÜHLT",
+            "ja-JP": "冷却中",
+            "ko-KR": "냉방 중",
+            "es-ES": "ENFRIANDO",
+            "pt-BR": "RESFRIANDO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-heating-cooling-state": {
+      "code": "current-heating-cooling-state",
+      "value": 15,
+      "description": {
+        "en-US": "Current Heating Cooling State",
+        "zh-CN": "当前加热/冷却状态",
+        "fr-FR": "État actuel de chauffage/refroidissement",
+        "de-DE": "Aktueller Heiz-/Kühlstatus",
+        "ja-JP": "現在の加熱・冷却状態",
+        "ko-KR": "현재 난방/냉방 상태",
+        "es-ES": "Estado actual de calefacción/refrigeración",
+        "pt-BR": "Estado atual de aquecimento/resfriamento"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "OFF",
+            "zh-CN": "关闭",
+            "fr-FR": "ÉTEINT",
+            "de-DE": "AUS",
+            "ja-JP": "オフ",
+            "ko-KR": "꺼짐",
+            "es-ES": "APAGADO",
+            "pt-BR": "DESLIGADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "HEAT",
+            "zh-CN": "制热",
+            "fr-FR": "CHAUD",
+            "de-DE": "HEIZEN",
+            "ja-JP": "暖房",
+            "ko-KR": "난방",
+            "es-ES": "CALOR",
+            "pt-BR": "CALOR"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "COOL",
+            "zh-CN": "制冷",
+            "fr-FR": "FROID",
+            "de-DE": "KÜHLEN",
+            "ja-JP": "冷房",
+            "ko-KR": "냉방",
+            "es-ES": "FRÍO",
+            "pt-BR": "FRIO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-horizontal-tilt-angle": {
+      "code": "current-horizontal-tilt-angle",
+      "value": 108,
+      "description": {
+        "en-US": "Current Horizontal Tilt Angle",
+        "zh-CN": "当前水平倾斜角度",
+        "fr-FR": "Angle d'inclinaison horizontal actuel",
+        "de-DE": "Aktueller horizontaler Neigungswinkel",
+        "ja-JP": "現在の水平傾斜角",
+        "ko-KR": "현재 수평 기울기 각도",
+        "es-ES": "Ángulo de inclinación horizontal actual",
+        "pt-BR": "Ângulo de inclinação horizontal atual"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "current-humidifier-dehumidifier-state": {
+      "code": "current-humidifier-dehumidifier-state",
+      "value": 179,
+      "description": {
+        "en-US": "Current Humidifier Dehumidifier State",
+        "zh-CN": "当前加湿器/除湿器状态",
+        "fr-FR": "État actuel de l'humidificateur/déshumidificateur",
+        "de-DE": "Aktueller Luftbefeuchter-Entfeuchter-Status",
+        "ja-JP": "現在の加湿器・除湿器状態",
+        "ko-KR": "현재 가습기/제습기 상태",
+        "es-ES": "Estado actual del humidificador/deshumidificador",
+        "pt-BR": "Estado atual do umidificador/desumidificador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "INACTIVE",
+            "zh-CN": "非活动",
+            "fr-FR": "INACTIF",
+            "de-DE": "INAKTIV",
+            "ja-JP": "非アクティブ",
+            "ko-KR": "비활성",
+            "es-ES": "INACTIVO",
+            "pt-BR": "INATIVO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IDLE",
+            "zh-CN": "空闲",
+            "fr-FR": "INACTIF",
+            "de-DE": "BEREIT",
+            "ja-JP": "アイドル",
+            "ko-KR": "대기 중",
+            "es-ES": "INACTIVO",
+            "pt-BR": "OCIOSO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "HUMIDIFYING",
+            "zh-CN": "加湿中",
+            "fr-FR": "HUMIDIFICATION",
+            "de-DE": "BEFEUCHTET",
+            "ja-JP": "加湿中",
+            "ko-KR": "가습 중",
+            "es-ES": "HUMIDIFICANDO",
+            "pt-BR": "UMIDIFICANDO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "DEHUMIDIFYING",
+            "zh-CN": "除湿中",
+            "fr-FR": "DÉSHUMIDIFICATION",
+            "de-DE": "ENTFEUCHTET",
+            "ja-JP": "除湿中",
+            "ko-KR": "제습 중",
+            "es-ES": "DESHUMIDIFICANDO",
+            "pt-BR": "DESUMIDIFICANDO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-position": {
+      "code": "current-position",
+      "value": 109,
+      "description": {
+        "en-US": "Current Position",
+        "zh-CN": "当前位置",
+        "fr-FR": "Position actuelle",
+        "de-DE": "Aktuelle Position",
+        "ja-JP": "現在位置",
+        "ko-KR": "현재 위치",
+        "es-ES": "Posición actual",
+        "pt-BR": "Posição atual"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "current-relative-humidity": {
+      "code": "current-relative-humidity",
+      "value": 16,
+      "description": {
+        "en-US": "Current Relative Humidity",
+        "zh-CN": "当前相对湿度",
+        "fr-FR": "Humidité relative actuelle",
+        "de-DE": "Aktuelle relative Luftfeuchtigkeit",
+        "ja-JP": "現在の相対湿度",
+        "ko-KR": "현재 상대 습도",
+        "es-ES": "Humedad relativa actual",
+        "pt-BR": "Umidade relativa atual"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "current-slat-state": {
+      "code": "current-slat-state",
+      "value": 170,
+      "description": {
+        "en-US": "Current Slat State",
+        "zh-CN": "当前百叶窗叶片状态",
+        "fr-FR": "État actuel des lamelles",
+        "de-DE": "Aktueller Lamellenstatus",
+        "ja-JP": "現在のスラット状態",
+        "ko-KR": "현재 슬랫 상태",
+        "es-ES": "Estado actual de las lamas",
+        "pt-BR": "Estado atual das lâminas"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "FIXED",
+            "zh-CN": "固定",
+            "fr-FR": "FIXE",
+            "de-DE": "FEST",
+            "ja-JP": "固定",
+            "ko-KR": "고정",
+            "es-ES": "FIJO",
+            "pt-BR": "FIXO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "JAMMED",
+            "zh-CN": "卡住",
+            "fr-FR": "BLOQUÉ",
+            "de-DE": "BLOCKIERT",
+            "ja-JP": "詰まり",
+            "ko-KR": "걸림",
+            "es-ES": "ATASCADO",
+            "pt-BR": "TRAVADO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "SWINGING",
+            "zh-CN": "摆动中",
+            "fr-FR": "OSCILLATION",
+            "de-DE": "SCHWENKT",
+            "ja-JP": "スイング中",
+            "ko-KR": "스윙 중",
+            "es-ES": "OSCILANDO",
+            "pt-BR": "OSCILANDO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "current-temperature": {
+      "code": "current-temperature",
+      "value": 17,
+      "description": {
+        "en-US": "Current Temperature",
+        "zh-CN": "当前温度",
+        "fr-FR": "Température actuelle",
+        "de-DE": "Aktuelle Temperatur",
+        "ja-JP": "現在の温度",
+        "ko-KR": "현재 온도",
+        "es-ES": "Temperatura actual",
+        "pt-BR": "Temperatura atual"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        0.1
+      ],
+      "unit": "celsius",
+      "lifecycle": "released"
+    },
+    "current-tilt-angle": {
+      "code": "current-tilt-angle",
+      "value": 193,
+      "description": {
+        "en-US": "Current Tilt Angle",
+        "zh-CN": "当前倾斜角度",
+        "fr-FR": "Angle d'inclinaison actuel",
+        "de-DE": "Aktueller Neigungswinkel",
+        "ja-JP": "現在の傾斜角",
+        "ko-KR": "현재 기울기 각도",
+        "es-ES": "Ángulo de inclinación actual",
+        "pt-BR": "Ângulo de inclinação atual"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "current-vertical-tilt-angle": {
+      "code": "current-vertical-tilt-angle",
+      "value": 110,
+      "description": {
+        "en-US": "Current Vertical Tilt Angle",
+        "zh-CN": "当前垂直倾斜角度",
+        "fr-FR": "Angle d'inclinaison vertical actuel",
+        "de-DE": "Aktueller vertikaler Neigungswinkel",
+        "ja-JP": "現在の垂直傾斜角",
+        "ko-KR": "현재 수직 기울기 각도",
+        "es-ES": "Ángulo de inclinación vertical actual",
+        "pt-BR": "Ângulo de inclinação vertical atual"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "digital-zoom": {
+      "code": "digital-zoom",
+      "value": 285,
+      "description": {
+        "en-US": "Digital Zoom",
+        "zh-CN": "数字变焦",
+        "fr-FR": "Zoom numérique",
+        "de-DE": "Digitalzoom",
+        "ja-JP": "デジタルズーム",
+        "ko-KR": "디지털 줌",
+        "es-ES": "Zoom digital",
+        "pt-BR": "Zoom digital"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "filter-change-indication": {
+      "code": "filter-change-indication",
+      "value": 172,
+      "description": {
+        "en-US": "Filter Change Indication",
+        "zh-CN": "滤芯更换提示",
+        "fr-FR": "Indication de changement de filtre",
+        "de-DE": "Filterwechselanzeige",
+        "ja-JP": "フィルター交換表示",
+        "ko-KR": "필터 교체 표시",
+        "es-ES": "Indicación de cambio de filtro",
+        "pt-BR": "Indicação de troca de filtro"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "FILTER_OK",
+            "zh-CN": "滤芯正常",
+            "fr-FR": "FILTRE OK",
+            "de-DE": "FILTER OK",
+            "ja-JP": "フィルター正常",
+            "ko-KR": "필터 정상",
+            "es-ES": "FILTRO OK",
+            "pt-BR": "FILTRO OK"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CHANGE_FILTER",
+            "zh-CN": "更换滤芯",
+            "fr-FR": "CHANGER LE FILTRE",
+            "de-DE": "FILTER WECHSELN",
+            "ja-JP": "フィルター交換",
+            "ko-KR": "필터 교체",
+            "es-ES": "CAMBIAR FILTRO",
+            "pt-BR": "TROCAR FILTRO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "filter-life-level": {
+      "code": "filter-life-level",
+      "value": 171,
+      "description": {
+        "en-US": "Filter Life Level",
+        "zh-CN": "滤芯寿命",
+        "fr-FR": "Niveau de vie du filtre",
+        "de-DE": "Filterlebensdauer",
+        "ja-JP": "フィルター寿命レベル",
+        "ko-KR": "필터 수명",
+        "es-ES": "Nivel de vida útil del filtro",
+        "pt-BR": "Nível de vida do filtro"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "firmware-revision": {
+      "code": "firmware-revision",
+      "value": 82,
+      "description": {
+        "en-US": "Firmware Revision",
+        "zh-CN": "固件版本",
+        "fr-FR": "Version du firmware",
+        "de-DE": "Firmware-Version",
+        "ja-JP": "ファームウェアリビジョン",
+        "ko-KR": "펌웨어 버전",
+        "es-ES": "Revisión del firmware",
+        "pt-BR": "Revisão do firmware"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "hardware-revision": {
+      "code": "hardware-revision",
+      "value": 83,
+      "description": {
+        "en-US": "Hardware Revision",
+        "zh-CN": "硬件版本",
+        "fr-FR": "Version du matériel",
+        "de-DE": "Hardware-Version",
+        "ja-JP": "ハードウェアリビジョン",
+        "ko-KR": "하드웨어 버전",
+        "es-ES": "Revisión del hardware",
+        "pt-BR": "Revisão do hardware"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "heating-threshold-temperature": {
+      "code": "heating-threshold-temperature",
+      "value": 18,
+      "description": {
+        "en-US": "Heating Threshold Temperature",
+        "zh-CN": "制热阈值温度",
+        "fr-FR": "Température seuil de chauffage",
+        "de-DE": "Heizschwellentemperatur",
+        "ja-JP": "加熱しきい値温度",
+        "ko-KR": "난방 임계 온도",
+        "es-ES": "Umbral de temperatura de calefacción",
+        "pt-BR": "Temperatura limite de aquecimento"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        25,
+        0.1
+      ],
+      "unit": "celsius",
+      "lifecycle": "released"
+    },
+    "hold-position": {
+      "code": "hold-position",
+      "value": 111,
+      "description": {
+        "en-US": "Hold Position",
+        "zh-CN": "保持位置",
+        "fr-FR": "Maintenir la position",
+        "de-DE": "Position halten",
+        "ja-JP": "位置保持",
+        "ko-KR": "위치 유지",
+        "es-ES": "Mantener posición",
+        "pt-BR": "Manter posição"
+      },
+      "format": "bool",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "hue": {
+      "code": "hue",
+      "value": 19,
+      "description": {
+        "en-US": "Hue",
+        "zh-CN": "色调",
+        "fr-FR": "Teinte",
+        "de-DE": "Farbton",
+        "ja-JP": "色相",
+        "ko-KR": "색조",
+        "es-ES": "Tono",
+        "pt-BR": "Matiz"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        360,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "identify": {
+      "code": "identify",
+      "value": 20,
+      "description": {
+        "en-US": "Identify",
+        "zh-CN": "识别",
+        "fr-FR": "Identifier",
+        "de-DE": "Identifizieren",
+        "ja-JP": "識別",
+        "ko-KR": "식별",
+        "es-ES": "Identificar",
+        "pt-BR": "Identificar"
+      },
+      "format": "bool",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "image-mirroring": {
+      "code": "image-mirroring",
+      "value": 287,
+      "description": {
+        "en-US": "Image Mirroring",
+        "zh-CN": "图像镜像",
+        "fr-FR": "Miroir d'image",
+        "de-DE": "Bildspiegelung",
+        "ja-JP": "画像ミラーリング",
+        "ko-KR": "이미지 미러링",
+        "es-ES": "Espejo de imagen",
+        "pt-BR": "Espelhamento de imagem"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "image-rotation": {
+      "code": "image-rotation",
+      "value": 286,
+      "description": {
+        "en-US": "Image Rotation",
+        "zh-CN": "图像旋转",
+        "fr-FR": "Rotation d'image",
+        "de-DE": "Bilddrehung",
+        "ja-JP": "画像回転",
+        "ko-KR": "이미지 회전",
+        "es-ES": "Rotación de imagen",
+        "pt-BR": "Rotação de imagem"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        270,
+        90
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "in-use": {
+      "code": "in-use",
+      "value": 210,
+      "description": {
+        "en-US": "In Use",
+        "zh-CN": "使用中",
+        "fr-FR": "En cours d'utilisation",
+        "de-DE": "In Benutzung",
+        "ja-JP": "使用中",
+        "ko-KR": "사용 중",
+        "es-ES": "En uso",
+        "pt-BR": "Em uso"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NOT_IN_USE",
+            "zh-CN": "未使用",
+            "fr-FR": "PAS EN COURS D'UTILISATION",
+            "de-DE": "NICHT IN BENUTZUNG",
+            "ja-JP": "未使用",
+            "ko-KR": "사용 중 아님",
+            "es-ES": "NO EN USO",
+            "pt-BR": "NÃO EM USO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IN_USE",
+            "zh-CN": "使用中",
+            "fr-FR": "EN COURS D'UTILISATION",
+            "de-DE": "IN BENUTZUNG",
+            "ja-JP": "使用中",
+            "ko-KR": "사용 중",
+            "es-ES": "EN USO",
+            "pt-BR": "EM USO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "is-configured": {
+      "code": "is-configured",
+      "value": 214,
+      "description": {
+        "en-US": "Is Configured",
+        "zh-CN": "已配置",
+        "fr-FR": "Est configuré",
+        "de-DE": "Ist konfiguriert",
+        "ja-JP": "設定済み",
+        "ko-KR": "구성됨",
+        "es-ES": "Está configurado",
+        "pt-BR": "Está configurado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NOT_CONFIGURED",
+            "zh-CN": "未配置",
+            "fr-FR": "NON CONFIGURÉ",
+            "de-DE": "NICHT KONFIGURIERT",
+            "ja-JP": "未設定",
+            "ko-KR": "구성되지 않음",
+            "es-ES": "NO CONFIGURADO",
+            "pt-BR": "NÃO CONFIGURADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CONFIGURED",
+            "zh-CN": "已配置",
+            "fr-FR": "CONFIGURÉ",
+            "de-DE": "KONFIGURIERT",
+            "ja-JP": "設定済み",
+            "ko-KR": "구성됨",
+            "es-ES": "CONFIGURADO",
+            "pt-BR": "CONFIGURADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "leak-detected": {
+      "code": "leak-detected",
+      "value": 112,
+      "description": {
+        "en-US": "Leak Detected",
+        "zh-CN": "检测到泄漏",
+        "fr-FR": "Fuite détectée",
+        "de-DE": "Leck erkannt",
+        "ja-JP": "漏水検出",
+        "ko-KR": "누수 감지됨",
+        "es-ES": "Fuga detectada",
+        "pt-BR": "Vazamento detectado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "LEAK_NOT_DETECTED",
+            "zh-CN": "未检测到泄漏",
+            "fr-FR": "AUCUNE FUITE DÉTECTÉE",
+            "de-DE": "KEIN LECK ERKANNT",
+            "ja-JP": "漏水未検出",
+            "ko-KR": "누수 미감지",
+            "es-ES": "SIN FUGA DETECTADA",
+            "pt-BR": "VAZAMENTO NÃO DETECTADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "LEAK_DETECTED",
+            "zh-CN": "检测到泄漏",
+            "fr-FR": "FUITE DÉTECTÉE",
+            "de-DE": "LECK ERKANNT",
+            "ja-JP": "漏水検出",
+            "ko-KR": "누수 감지됨",
+            "es-ES": "FUGA DETECTADA",
+            "pt-BR": "VAZAMENTO DETECTADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "lock-control-point": {
+      "code": "lock-control-point",
+      "value": 25,
+      "description": {
+        "en-US": "Lock Control Point",
+        "zh-CN": "锁控制点",
+        "fr-FR": "Point de contrôle de verrouillage",
+        "de-DE": "Steuerpunkt für Schloss",
+        "ja-JP": "ロック制御ポイント",
+        "ko-KR": "잠금 제어 포인트",
+        "es-ES": "Punto de control de la cerradura",
+        "pt-BR": "Ponto de controle da fechadura"
+      },
+      "format": "tlv8",
+      "access": [
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "lock-current-state": {
+      "code": "lock-current-state",
+      "value": 29,
+      "description": {
+        "en-US": "Lock Current State",
+        "zh-CN": "锁当前状态",
+        "fr-FR": "État actuel de la serrure",
+        "de-DE": "Aktueller Schlossstatus",
+        "ja-JP": "ロック現在状態",
+        "ko-KR": "잠금 현재 상태",
+        "es-ES": "Estado actual de la cerradura",
+        "pt-BR": "Estado atual da fechadura"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "UNSECURED",
+            "zh-CN": "未锁定",
+            "fr-FR": "DÉVERROUILLÉ",
+            "de-DE": "ENTRIEGELT",
+            "ja-JP": "解錠済み",
+            "ko-KR": "잠금 해제됨",
+            "es-ES": "DESEGURADO",
+            "pt-BR": "DESTRAVADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "SECURED",
+            "zh-CN": "已锁定",
+            "fr-FR": "VERROUILLÉ",
+            "de-DE": "GESICHERT",
+            "ja-JP": "施錠済み",
+            "ko-KR": "잠김",
+            "es-ES": "SEGURADO",
+            "pt-BR": "SEGURO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "JAMMED",
+            "zh-CN": "卡住",
+            "fr-FR": "BLOQUÉ",
+            "de-DE": "BLOCKIERT",
+            "ja-JP": "詰まり",
+            "ko-KR": "걸림",
+            "es-ES": "ATASCADO",
+            "pt-BR": "TRAVADO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "UNKNOWN",
+            "zh-CN": "未知",
+            "fr-FR": "INCONNU",
+            "de-DE": "UNBEKANNT",
+            "ja-JP": "不明",
+            "ko-KR": "알 수 없음",
+            "es-ES": "DESCONOCIDO",
+            "pt-BR": "DESCONHECIDO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "lock-last-known-action": {
+      "code": "lock-last-known-action",
+      "value": 28,
+      "description": {
+        "en-US": "Lock Last Known Action",
+        "zh-CN": "锁上次操作",
+        "fr-FR": "Dernière action connue de la serrure",
+        "de-DE": "Letzte bekannte Schlosshandlung",
+        "ja-JP": "ロック最終既知アクション",
+        "ko-KR": "잠금 마지막 동작",
+        "es-ES": "Última acción conocida de la cerradura",
+        "pt-BR": "Última ação conhecida da fechadura"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "SECURED_PHYSICALLY_INTERIOR",
+            "zh-CN": "内部物理锁定",
+            "fr-FR": "VERROUILLAGE PHYSIQUE INTÉRIEUR",
+            "de-DE": "PHYSISCH VON INNEN GESICHERT",
+            "ja-JP": "内部物理施錠",
+            "ko-KR": "내부 물리적 잠김",
+            "es-ES": "ASEGURADO FÍSICAMENTE INTERIOR",
+            "pt-BR": "SEGURO FISICAMENTE INTERNO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "UNSECURED_PHYSICALLY_INTERIOR",
+            "zh-CN": "内部物理解锁",
+            "fr-FR": "DÉVERROUILLAGE PHYSIQUE INTÉRIEUR",
+            "de-DE": "PHYSISCH VON INNEN ENTRIEGELT",
+            "ja-JP": "内部物理解錠",
+            "ko-KR": "내부 물리적 잠금 해제",
+            "es-ES": "DESEGURADO FÍSICAMENTE INTERIOR",
+            "pt-BR": "DESTRAVADO FISICAMENTE INTERNO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "SECURED_PHYSICALLY_EXTERIOR",
+            "zh-CN": "外部物理锁定",
+            "fr-FR": "VERROUILLAGE PHYSIQUE EXTÉRIEUR",
+            "de-DE": "PHYSISCH VON AUBEN GESICHERT",
+            "ja-JP": "外部物理施錠",
+            "ko-KR": "외부 물리적 잠김",
+            "es-ES": "ASEGURADO FÍSICAMENTE EXTERIOR",
+            "pt-BR": "SEGURO FISICAMENTE EXTERNO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "UNSECURED_PHYSICALLY_EXTERIOR",
+            "zh-CN": "外部物理解锁",
+            "fr-FR": "DÉVERROUILLAGE PHYSIQUE EXTÉRIEUR",
+            "de-DE": "PHYSISCH VON AUBEN ENTRIEGELT",
+            "ja-JP": "外部物理解錠",
+            "ko-KR": "외부 물리적 잠금 해제",
+            "es-ES": "DESEGURADO FÍSICAMENTE EXTERIOR",
+            "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO"
+          }
+        },
+        {
+          "value": 4,
+          "description": {
+            "en-US": "SECURED_BY_KEYPAD",
+            "zh-CN": "键盘锁定",
+            "fr-FR": "VERROUILLÉ PAR CLAVIER",
+            "de-DE": "DURCH TASTATUR GESICHERT",
+            "ja-JP": "キーパッドで施錠",
+            "ko-KR": "키패드로 잠김",
+            "es-ES": "ASEGURADO POR TECLADO",
+            "pt-BR": "SEGURO POR TECLADO"
+          }
+        },
+        {
+          "value": 5,
+          "description": {
+            "en-US": "UNSECURED_BY_KEYPAD",
+            "zh-CN": "键盘解锁",
+            "fr-FR": "DÉVERROUILLÉ PAR CLAVIER",
+            "de-DE": "DURCH TASTATUR ENTRIEGELT",
+            "ja-JP": "キーパッドで解錠",
+            "ko-KR": "키패드로 잠금 해제",
+            "es-ES": "DESEGURADO POR TECLADO",
+            "pt-BR": "DESTRAVADO POR TECLADO"
+          }
+        },
+        {
+          "value": 6,
+          "description": {
+            "en-US": "SECURED_REMOTELY",
+            "zh-CN": "远程锁定",
+            "fr-FR": "VERROUILLÉ À DISTANCE",
+            "de-DE": "FERN GESICHERT",
+            "ja-JP": "遠隔施錠",
+            "ko-KR": "원격 잠김",
+            "es-ES": "ASEGURADO REMOTAMENTE",
+            "pt-BR": "SEGURO REMOTAMENTE"
+          }
+        },
+        {
+          "value": 7,
+          "description": {
+            "en-US": "UNSECURED_REMOTELY",
+            "zh-CN": "远程解锁",
+            "fr-FR": "DÉVERROUILLÉ À DISTANCE",
+            "de-DE": "FERN ENTRIEGELT",
+            "ja-JP": "遠隔解錠",
+            "ko-KR": "원격 잠금 해제",
+            "es-ES": "DESEGURADO REMOTAMENTE",
+            "pt-BR": "DESTRAVADO REMOTAMENTE"
+          }
+        },
+        {
+          "value": 8,
+          "description": {
+            "en-US": "SECURED_BY_AUTO_SECURE_TIMEOUT",
+            "zh-CN": "自动安全超时已锁定",
+            "fr-FR": "VERROUILLÉ PAR DÉLAI DE SÉCURITÉ AUTO",
+            "de-DE": "DURCH AUTOMATISCHES SICHERHEITSTIMEOUT GESICHERT",
+            "ja-JP": "自動セキュリティタイムアウトにより施錠",
+            "ko-KR": "자동 보안 시간 초과로 잠김",
+            "es-ES": "ASEGURADO POR TIEMPO DE SEGURIDAD AUTOMÁTICO",
+            "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURANÇA AUTOMÁTICO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "lock-management-auto-security-timeout": {
+      "code": "lock-management-auto-security-timeout",
+      "value": 26,
+      "description": {
+        "en-US": "Lock Management Auto Security Timeout",
+        "zh-CN": "锁管理自动安全超时",
+        "fr-FR": "Délai de sécurité automatique de la serrure",
+        "de-DE": "Automatisches Sicherheits-Timeout der Schlossverwaltung",
+        "ja-JP": "ロック管理自動セキュリティタイムアウト",
+        "ko-KR": "잠금 관리 자동 보안 시간 초과",
+        "es-ES": "Tiempo de espera de seguridad automática de la cerradura",
+        "pt-BR": "Tempo limite de segurança automática da fechadura"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "unit": "seconds",
+      "lifecycle": "released"
+    },
+    "lock-physical-controls": {
+      "code": "lock-physical-controls",
+      "value": 167,
+      "description": {
+        "en-US": "Lock Physical Controls",
+        "zh-CN": "锁物理控制",
+        "fr-FR": "Commandes physiques du verrouillage",
+        "de-DE": "Physische Schlosssteuerung",
+        "ja-JP": "ロック物理制御",
+        "ko-KR": "잠금 물리적 제어",
+        "es-ES": "Controles físicos de la cerradura",
+        "pt-BR": "Controles físicos da fechadura"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CONTROL_LOCK_DISABLED",
+            "zh-CN": "控制锁已禁用",
+            "fr-FR": "VERROUILLAGE DES COMMANDES DÉSACTIVÉ",
+            "de-DE": "STEUERUNGSSPERRE DEAKTIVIERT",
+            "ja-JP": "コントロールロック無効",
+            "ko-KR": "제어 잠금 비활성화됨",
+            "es-ES": "BLOQUEO DE CONTROL DESACTIVADO",
+            "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CONTROL_LOCK_ENABLED",
+            "zh-CN": "控制锁已启用",
+            "fr-FR": "VERROUILLAGE DES COMMANDES ACTIVÉ",
+            "de-DE": "STEUERUNGSSPERRE AKTIVIERT",
+            "ja-JP": "コントロールロック有効",
+            "ko-KR": "제어 잠금 활성화됨",
+            "es-ES": "BLOQUEO DE CONTROL ACTIVADO",
+            "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "lock-target-state": {
+      "code": "lock-target-state",
+      "value": 30,
+      "description": {
+        "en-US": "Lock Target State",
+        "zh-CN": "锁目标状态",
+        "fr-FR": "État cible de la serrure",
+        "de-DE": "Gewünschter Schlossstatus",
+        "ja-JP": "ロック目標状態",
+        "ko-KR": "잠금 목표 상태",
+        "es-ES": "Estado objetivo de la cerradura",
+        "pt-BR": "Estado alvo da fechadura"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "UNSECURED",
+            "zh-CN": "未锁定",
+            "fr-FR": "DÉVERROUILLÉ",
+            "de-DE": "ENTRIEGELT",
+            "ja-JP": "解錠済み",
+            "ko-KR": "잠금 해제됨",
+            "es-ES": "DESEGURADO",
+            "pt-BR": "DESTRAVADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "SECURED",
+            "zh-CN": "已锁定",
+            "fr-FR": "VERROUILLÉ",
+            "de-DE": "GESICHERT",
+            "ja-JP": "施錠済み",
+            "ko-KR": "잠김",
+            "es-ES": "SEGURADO",
+            "pt-BR": "SEGURO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "logs": {
+      "code": "logs",
+      "value": 31,
+      "description": {
+        "en-US": "Logs",
+        "zh-CN": "日志",
+        "fr-FR": "Journaux",
+        "de-DE": "Protokolle",
+        "ja-JP": "ログ",
+        "ko-KR": "로그",
+        "es-ES": "Registros",
+        "pt-BR": "Registros"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "manufacturer": {
+      "code": "manufacturer",
+      "value": 32,
+      "description": {
+        "en-US": "Manufacturer",
+        "zh-CN": "制造商",
+        "fr-FR": "Fabricant",
+        "de-DE": "Hersteller",
+        "ja-JP": "メーカー",
+        "ko-KR": "제조업체",
+        "es-ES": "Fabricante",
+        "pt-BR": "Fabricante"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "model": {
+      "code": "model",
+      "value": 33,
+      "description": {
+        "en-US": "Model",
+        "zh-CN": "型号",
+        "fr-FR": "Modèle",
+        "de-DE": "Modell",
+        "ja-JP": "モデル",
+        "ko-KR": "모델",
+        "es-ES": "Modelo",
+        "pt-BR": "Modelo"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "motion-detected": {
+      "code": "motion-detected",
+      "value": 34,
+      "description": {
+        "en-US": "Motion Detected",
+        "zh-CN": "检测到移动",
+        "fr-FR": "Mouvement détecté",
+        "de-DE": "Bewegung erkannt",
+        "ja-JP": "動体検出",
+        "ko-KR": "움직임 감지됨",
+        "es-ES": "Movimiento detectado",
+        "pt-BR": "Movimento detectado"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "mute": {
+      "code": "mute",
+      "value": 282,
+      "description": {
+        "en-US": "Mute",
+        "zh-CN": "静音",
+        "fr-FR": "Sourdine",
+        "de-DE": "Stumm",
+        "ja-JP": "ミュート",
+        "ko-KR": "음소거",
+        "es-ES": "Silencio",
+        "pt-BR": "Mudo"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "name": {
+      "code": "name",
+      "value": 35,
+      "description": {
+        "en-US": "Name",
+        "zh-CN": "名称",
+        "fr-FR": "Nom",
+        "de-DE": "Name",
+        "ja-JP": "名前",
+        "ko-KR": "이름",
+        "es-ES": "Nombre",
+        "pt-BR": "Nome"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "night-vision": {
+      "code": "night-vision",
+      "value": 283,
+      "description": {
+        "en-US": "Night Vision",
+        "zh-CN": "夜视",
+        "fr-FR": "Vision nocturne",
+        "de-DE": "Nachtsicht",
+        "ja-JP": "ナイトビジョン",
+        "ko-KR": "야간 투시",
+        "es-ES": "Visión nocturna",
+        "pt-BR": "Visão noturna"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "nitrogen-dioxide-density": {
+      "code": "nitrogen-dioxide-density",
+      "value": 196,
+      "description": {
+        "en-US": "Nitrogen Dioxide Density",
+        "zh-CN": "二氧化氮密度",
+        "fr-FR": "Densité de dioxyde d'azote",
+        "de-DE": "Stickstoffdioxid-Dichte",
+        "ja-JP": "二酸化窒素濃度",
+        "ko-KR": "이산화질소 밀도",
+        "es-ES": "Densidad de dióxido de nitrógeno",
+        "pt-BR": "Densidade de dióxido de nitrogênio"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "obstruction-detected": {
+      "code": "obstruction-detected",
+      "value": 36,
+      "description": {
+        "en-US": "Obstruction Detected",
+        "zh-CN": "检测到障碍物",
+        "fr-FR": "Obstruction détectée",
+        "de-DE": "Hindernis erkannt",
+        "ja-JP": "障害物検出",
+        "ko-KR": "장애물 감지됨",
+        "es-ES": "Obstrucción detectada",
+        "pt-BR": "Obstrução detectada"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "occupancy-detected": {
+      "code": "occupancy-detected",
+      "value": 113,
+      "description": {
+        "en-US": "Occupancy Detected",
+        "zh-CN": "检测到占用",
+        "fr-FR": "Présence détectée",
+        "de-DE": "Belegung erkannt",
+        "ja-JP": "人在検出",
+        "ko-KR": "재실 감지됨",
+        "es-ES": "Ocupación detectada",
+        "pt-BR": "Ocupação detectada"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "OCCUPANCY_NOT_DETECTED",
+            "zh-CN": "未检测到有人",
+            "fr-FR": "PRÉSENCE NON DÉTECTÉE",
+            "de-DE": "KEINE BELEGUNG ERKANNT",
+            "ja-JP": "人在未検出",
+            "ko-KR": "재실 미감지",
+            "es-ES": "OCUPACIÓN NO DETECTADA",
+            "pt-BR": "OCUPAÇÃO NÃO DETECTADA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "OCCUPANCY_DETECTED",
+            "zh-CN": "检测到有人",
+            "fr-FR": "PRÉSENCE DÉTECTÉE",
+            "de-DE": "BELEGUNG ERKANNT",
+            "ja-JP": "人在検出",
+            "ko-KR": "재실 감지됨",
+            "es-ES": "OCUPACIÓN DETECTADA",
+            "pt-BR": "OCUPAÇÃO DETECTADA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "on": {
+      "code": "on",
+      "value": 37,
+      "description": {
+        "en-US": "On",
+        "zh-CN": "开关",
+        "fr-FR": "Marche/Arrêt",
+        "de-DE": "Ein/Aus",
+        "ja-JP": "オン/オフ",
+        "ko-KR": "켜기/끄기",
+        "es-ES": "Encendido/Apagado",
+        "pt-BR": "Ligado/Desligado"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "optical-zoom": {
+      "code": "optical-zoom",
+      "value": 284,
+      "description": {
+        "en-US": "Optical Zoom",
+        "zh-CN": "光学变焦",
+        "fr-FR": "Zoom optique",
+        "de-DE": "Optischer Zoom",
+        "ja-JP": "光学ズーム",
+        "ko-KR": "광학 줌",
+        "es-ES": "Zoom óptico",
+        "pt-BR": "Zoom óptico"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "outlet-in-use": {
+      "code": "outlet-in-use",
+      "value": 38,
+      "description": {
+        "en-US": "Outlet In Use",
+        "zh-CN": "插座使用中",
+        "fr-FR": "Prise en cours d'utilisation",
+        "de-DE": "Steckdose in Benutzung",
+        "ja-JP": "コンセント使用中",
+        "ko-KR": "콘센트 사용 중",
+        "es-ES": "Enchufe en uso",
+        "pt-BR": "Tomada em uso"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "ozone-density": {
+      "code": "ozone-density",
+      "value": 195,
+      "description": {
+        "en-US": "Ozone Density",
+        "zh-CN": "臭氧浓度",
+        "fr-FR": "Densité d'ozone",
+        "de-DE": "Ozondichte",
+        "ja-JP": "オゾン濃度",
+        "ko-KR": "오존 밀도",
+        "es-ES": "Densidad de ozono",
+        "pt-BR": "Densidade de ozônio"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "pair-setup": {
+      "code": "pair-setup",
+      "value": 76,
+      "description": {
+        "en-US": "Pair Setup",
+        "zh-CN": "配对设置",
+        "fr-FR": "Configuration de l'appairage",
+        "de-DE": "Pairing-Setup",
+        "ja-JP": "ペア設定",
+        "ko-KR": "페어 설정",
+        "es-ES": "Configuración de emparejamiento",
+        "pt-BR": "Configuração de pareamento"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "pair-verify": {
+      "code": "pair-verify",
+      "value": 78,
+      "description": {
+        "en-US": "Pair Verify",
+        "zh-CN": "配对验证",
+        "fr-FR": "Vérification de l'appairage",
+        "de-DE": "Pairing-Verifizierung",
+        "ja-JP": "ペア検証",
+        "ko-KR": "페어 확인",
+        "es-ES": "Verificación de emparejamiento",
+        "pt-BR": "Verificação de pareamento"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "pairing-features": {
+      "code": "pairing-features",
+      "value": 79,
+      "description": {
+        "en-US": "Pairing Features",
+        "zh-CN": "配对功能",
+        "fr-FR": "Fonctionnalités d'appairage",
+        "de-DE": "Pairing-Funktionen",
+        "ja-JP": "ペアリング機能",
+        "ko-KR": "페어링 기능",
+        "es-ES": "Funciones de emparejamiento",
+        "pt-BR": "Recursos de pareamento"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "pairing-pairings": {
+      "code": "pairing-pairings",
+      "value": 80,
+      "description": {
+        "en-US": "Pairing Pairings",
+        "zh-CN": "配对列表",
+        "fr-FR": "Appairages",
+        "de-DE": "Pairing-Liste",
+        "ja-JP": "ペアリング一覧",
+        "ko-KR": "페어링 목록",
+        "es-ES": "Emparejamientos",
+        "pt-BR": "Pareamentos"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "pm10-density": {
+      "code": "pm10-density",
+      "value": 199,
+      "description": {
+        "en-US": "PM10 Density",
+        "zh-CN": "PM10 浓度",
+        "fr-FR": "Densité PM10",
+        "de-DE": "PM10-Dichte",
+        "ja-JP": "PM10濃度",
+        "ko-KR": "PM10 밀도",
+        "es-ES": "Densidad PM10",
+        "pt-BR": "Densidade PM10"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "pm2_5-density": {
+      "code": "pm2_5-density",
+      "value": 198,
+      "description": {
+        "en-US": "PM2.5 Density",
+        "zh-CN": "PM2.5 浓度",
+        "fr-FR": "Densité PM2.5",
+        "de-DE": "PM2.5-Dichte",
+        "ja-JP": "PM2.5濃度",
+        "ko-KR": "PM2.5 밀도",
+        "es-ES": "Densidad PM2.5",
+        "pt-BR": "Densidade PM2.5"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "position-state": {
+      "code": "position-state",
+      "value": 114,
+      "description": {
+        "en-US": "Position State",
+        "zh-CN": "位置状态",
+        "fr-FR": "État de la position",
+        "de-DE": "Positionsstatus",
+        "ja-JP": "位置状態",
+        "ko-KR": "위치 상태",
+        "es-ES": "Estado de la posición",
+        "pt-BR": "Estado da posição"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "DECREASING",
+            "zh-CN": "减少中",
+            "fr-FR": "EN DIMINUTION",
+            "de-DE": "SINKEND",
+            "ja-JP": "減少中",
+            "ko-KR": "감소 중",
+            "es-ES": "DISMINUYENDO",
+            "pt-BR": "DIMINUINDO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "INCREASING",
+            "zh-CN": "增加中",
+            "fr-FR": "EN AUGMENTATION",
+            "de-DE": "STEIGEND",
+            "ja-JP": "増加中",
+            "ko-KR": "증가 중",
+            "es-ES": "AUMENTANDO",
+            "pt-BR": "AUMENTANDO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "STOPPED",
+            "zh-CN": "已停止",
+            "fr-FR": "ARRÊTÉ",
+            "de-DE": "GESTOPPT",
+            "ja-JP": "停止中",
+            "ko-KR": "정지됨",
+            "es-ES": "DETENIDO",
+            "pt-BR": "PARADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "program-mode": {
+      "code": "program-mode",
+      "value": 209,
+      "description": {
+        "en-US": "Program Mode",
+        "zh-CN": "程序模式",
+        "fr-FR": "Mode programmé",
+        "de-DE": "Programmmodus",
+        "ja-JP": "プログラムモード",
+        "ko-KR": "프로그램 모드",
+        "es-ES": "Modo de programa",
+        "pt-BR": "Modo de programa"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NO_PROGRAM_SCHEDULED",
+            "zh-CN": "无计划程序",
+            "fr-FR": "AUCUN PROGRAMME PLANIFIÉ",
+            "de-DE": "KEIN PROGRAMM GEPLANT",
+            "ja-JP": "プログラム未予定",
+            "ko-KR": "예약된 프로그램 없음",
+            "es-ES": "SIN PROGRAMA PROGRAMADO",
+            "pt-BR": "NENHUM PROGRAMA AGENDADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "PROGRAM_SCHEDULED",
+            "zh-CN": "已计划程序",
+            "fr-FR": "PROGRAMME PLANIFIÉ",
+            "de-DE": "PROGRAMM GEPLANT",
+            "ja-JP": "プログラム予定",
+            "ko-KR": "프로그램 예약됨",
+            "es-ES": "PROGRAMA PROGRAMADO",
+            "pt-BR": "PROGRAMA AGENDADO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "PROGRAM_SCHEDULED_(MANUAL_MODE)",
+            "zh-CN": "计划程序（手动模式）",
+            "fr-FR": "PROGRAMME PLANIFIÉ (MODE MANUEL)",
+            "de-DE": "PROGRAMM GEPLANT (MANUELLER MODUS)",
+            "ja-JP": "プログラム予定（手動モード）",
+            "ko-KR": "프로그램 예약됨 (수동 모드)",
+            "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
+            "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "programmable-switch-event": {
+      "code": "programmable-switch-event",
+      "value": 115,
+      "description": {
+        "en-US": "Programmable Switch Event",
+        "zh-CN": "可编程开关事件",
+        "fr-FR": "Événement d'interrupteur programmable",
+        "de-DE": "Programmierbares Schalterereignis",
+        "ja-JP": "プログラマブルスイッチイベント",
+        "ko-KR": "프로그래밍 가능 스위치 이벤트",
+        "es-ES": "Evento de interruptor programable",
+        "pt-BR": "Evento de interruptor programável"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "SINGLE_PRESS",
+            "zh-CN": "单击",
+            "fr-FR": "APPUI SIMPLE",
+            "de-DE": "EINMALIGES DRÜCKEN",
+            "ja-JP": "シングルプレス",
+            "ko-KR": "한 번 누름",
+            "es-ES": "PRESIÓN SIMPLE",
+            "pt-BR": "PRESSÃO ÚNICA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "DOUBLE_PRESS",
+            "zh-CN": "双击",
+            "fr-FR": "DOUBLE APPUI",
+            "de-DE": "ZWEIMALIGES DRÜCKEN",
+            "ja-JP": "ダブルプレス",
+            "ko-KR": "두 번 누름",
+            "es-ES": "DOBLE PRESIÓN",
+            "pt-BR": "PRESSÃO DUPLA"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "LONG_PRESS",
+            "zh-CN": "长按",
+            "fr-FR": "APPUI LONG",
+            "de-DE": "LANGES DRÜCKEN",
+            "ja-JP": "長押し",
+            "ko-KR": "길게 누름",
+            "es-ES": "PRESIÓN LARGA",
+            "pt-BR": "PRESSÃO LONGA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "relative-humidity-dehumidifier-threshold": {
+      "code": "relative-humidity-dehumidifier-threshold",
+      "value": 201,
+      "description": {
+        "en-US": "Relative Humidity Dehumidifier Threshold",
+        "zh-CN": "相对湿度除湿阈值",
+        "fr-FR": "Seuil de déshumidification de l'humidité relative",
+        "de-DE": "Entfeuchter-Schwellwert für relative Luftfeuchtigkeit",
+        "ja-JP": "相対湿度除湿しきい値",
+        "ko-KR": "상대 습도 제습 임계값",
+        "es-ES": "Umbral de deshumidificador de humedad relativa",
+        "pt-BR": "Limiar de desumidificação da umidade relativa"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "relative-humidity-humidifier-threshold": {
+      "code": "relative-humidity-humidifier-threshold",
+      "value": 202,
+      "description": {
+        "en-US": "Relative Humidity Humidifier Threshold",
+        "zh-CN": "相对湿度加湿阈值",
+        "fr-FR": "Seuil d'humidification de l'humidité relative",
+        "de-DE": "Befeuchter-Schwellwert für relative Luftfeuchtigkeit",
+        "ja-JP": "相対湿度加湿しきい値",
+        "ko-KR": "상대 습도 가습 임계값",
+        "es-ES": "Umbral de humidificador de humedad relativa",
+        "pt-BR": "Limiar de umidificação da umidade relativa"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "remaining-duration": {
+      "code": "remaining-duration",
+      "value": 212,
+      "description": {
+        "en-US": "Remaining Duration",
+        "zh-CN": "剩余时长",
+        "fr-FR": "Durée restante",
+        "de-DE": "Verbleibende Dauer",
+        "ja-JP": "残り時間",
+        "ko-KR": "남은 시간",
+        "es-ES": "Duración restante",
+        "pt-BR": "Duração restante"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        3600,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "reset-filter-indication": {
+      "code": "reset-filter-indication",
+      "value": 173,
+      "description": {
+        "en-US": "Reset Filter Indication",
+        "zh-CN": "重置滤芯提示",
+        "fr-FR": "Réinitialiser l'indication du filtre",
+        "de-DE": "Filteranzeige zurücksetzen",
+        "ja-JP": "フィルター表示リセット",
+        "ko-KR": "필터 표시 재설정",
+        "es-ES": "Restablecer indicación del filtro",
+        "pt-BR": "Redefinir indicação do filtro"
+      },
+      "format": "uint8",
+      "access": [
+        "write"
+      ],
+      "value-range": [
+        1,
+        1,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "rotation-direction": {
+      "code": "rotation-direction",
+      "value": 40,
+      "description": {
+        "en-US": "Rotation Direction",
+        "zh-CN": "旋转方向",
+        "fr-FR": "Sens de rotation",
+        "de-DE": "Drehrichtung",
+        "ja-JP": "回転方向",
+        "ko-KR": "회전 방향",
+        "es-ES": "Dirección de rotación",
+        "pt-BR": "Direção de rotação"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CLOCKWISE",
+            "zh-CN": "顺时针",
+            "fr-FR": "SENS DES AIGUILLES",
+            "de-DE": "UHRZEIGERSINN",
+            "ja-JP": "時計回り",
+            "ko-KR": "시계 방향",
+            "es-ES": "HORARIO",
+            "pt-BR": "HORÁRIO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "COUNTER_CLOCKWISE",
+            "zh-CN": "逆时针",
+            "fr-FR": "SENS INVERSE DES AIGUILLES",
+            "de-DE": "GEGEN UHRZEIGERSINN",
+            "ja-JP": "反時計回り",
+            "ko-KR": "반시계 방향",
+            "es-ES": "ANTIHORARIO",
+            "pt-BR": "ANTI-HORÁRIO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "rotation-speed": {
+      "code": "rotation-speed",
+      "value": 41,
+      "description": {
+        "en-US": "Rotation Speed",
+        "zh-CN": "旋转速度",
+        "fr-FR": "Vitesse de rotation",
+        "de-DE": "Drehgeschwindigkeit",
+        "ja-JP": "回転速度",
+        "ko-KR": "회전 속도",
+        "es-ES": "Velocidad de rotación",
+        "pt-BR": "Velocidade de rotação"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "saturation": {
+      "code": "saturation",
+      "value": 47,
+      "description": {
+        "en-US": "Saturation",
+        "zh-CN": "饱和度",
+        "fr-FR": "Saturation",
+        "de-DE": "Sättigung",
+        "ja-JP": "彩度",
+        "ko-KR": "채도",
+        "es-ES": "Saturación",
+        "pt-BR": "Saturação"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "security-system-alarm-type": {
+      "code": "security-system-alarm-type",
+      "value": 142,
+      "description": {
+        "en-US": "Security System Alarm Type",
+        "zh-CN": "安全系统警报类型",
+        "fr-FR": "Type d'alarme du système de sécurité",
+        "de-DE": "Alarmtyp des Sicherheitssystems",
+        "ja-JP": "セキュリティシステム警報タイプ",
+        "ko-KR": "보안 시스템 알람 유형",
+        "es-ES": "Tipo de alarma del sistema de seguridad",
+        "pt-BR": "Tipo de alarme do sistema de segurança"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "security-system-current-state": {
+      "code": "security-system-current-state",
+      "value": 102,
+      "description": {
+        "en-US": "Security System Current State",
+        "zh-CN": "安全系统当前状态",
+        "fr-FR": "État actuel du système de sécurité",
+        "de-DE": "Aktueller Sicherheitssystemstatus",
+        "ja-JP": "セキュリティシステム現在状態",
+        "ko-KR": "보안 시스템 현재 상태",
+        "es-ES": "Estado actual del sistema de seguridad",
+        "pt-BR": "Estado atual do sistema de segurança"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "STAY_ARM",
+            "zh-CN": "在家布防",
+            "fr-FR": "ARMER PRÉSENT",
+            "de-DE": "SCHARF (ANWESEND)",
+            "ja-JP": "在宅警備",
+            "ko-KR": "재실 설정",
+            "es-ES": "ARMAR EN CASA",
+            "pt-BR": "ARMAR EM CASA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "AWAY_ARM",
+            "zh-CN": "离家布防",
+            "fr-FR": "ARMER ABSENT",
+            "de-DE": "SCHARF (ABWESEND)",
+            "ja-JP": "外出警備",
+            "ko-KR": "외출 설정",
+            "es-ES": "ARMAR AUSENTE",
+            "pt-BR": "ARMAR AUSENTE"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "NIGHT_ARM",
+            "zh-CN": "夜间布防",
+            "fr-FR": "ARMER NUIT",
+            "de-DE": "SCHARF (NACHT)",
+            "ja-JP": "夜間警備",
+            "ko-KR": "야간 설정",
+            "es-ES": "ARMAR NOCTURNO",
+            "pt-BR": "ARMAR NOTURNO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "DISARMED",
+            "zh-CN": "已解除",
+            "fr-FR": "DÉSARMÉ",
+            "de-DE": "ENTSCHÄRFT",
+            "ja-JP": "解除済み",
+            "ko-KR": "해제됨",
+            "es-ES": "DESARMADO",
+            "pt-BR": "DESARMADO"
+          }
+        },
+        {
+          "value": 4,
+          "description": {
+            "en-US": "ALARM_TRIGGERED",
+            "zh-CN": "警报触发",
+            "fr-FR": "ALARME DÉCLENCHÉE",
+            "de-DE": "ALARM AUSGELÖST",
+            "ja-JP": "警報発報",
+            "ko-KR": "알람 트리거됨",
+            "es-ES": "ALARMA ACTIVADA",
+            "pt-BR": "ALARME ACIONADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "security-system-target-state": {
+      "code": "security-system-target-state",
+      "value": 103,
+      "description": {
+        "en-US": "Security System Target State",
+        "zh-CN": "安全系统目标状态",
+        "fr-FR": "État cible du système de sécurité",
+        "de-DE": "Gewünschter Sicherheitssystemstatus",
+        "ja-JP": "セキュリティシステム目標状態",
+        "ko-KR": "보안 시스템 목표 상태",
+        "es-ES": "Estado objetivo del sistema de seguridad",
+        "pt-BR": "Estado alvo do sistema de segurança"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "STAY_ARM",
+            "zh-CN": "在家布防",
+            "fr-FR": "ARMER PRÉSENT",
+            "de-DE": "SCHARF (ANWESEND)",
+            "ja-JP": "在宅警備",
+            "ko-KR": "재실 설정",
+            "es-ES": "ARMAR EN CASA",
+            "pt-BR": "ARMAR EM CASA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "AWAY_ARM",
+            "zh-CN": "离家布防",
+            "fr-FR": "ARMER ABSENT",
+            "de-DE": "SCHARF (ABWESEND)",
+            "ja-JP": "外出警備",
+            "ko-KR": "외출 설정",
+            "es-ES": "ARMAR AUSENTE",
+            "pt-BR": "ARMAR AUSENTE"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "NIGHT_ARM",
+            "zh-CN": "夜间布防",
+            "fr-FR": "ARMER NUIT",
+            "de-DE": "SCHARF (NACHT)",
+            "ja-JP": "夜間警備",
+            "ko-KR": "야간 설정",
+            "es-ES": "ARMAR NOCTURNO",
+            "pt-BR": "ARMAR NOTURNO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "DISARM",
+            "zh-CN": "解除",
+            "fr-FR": "DÉSARMER",
+            "de-DE": "ENTSCHÄRFEN",
+            "ja-JP": "解除",
+            "ko-KR": "해제",
+            "es-ES": "DESARMAR",
+            "pt-BR": "DESARMAR"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "selected-rtp-stream-configuration": {
+      "code": "selected-rtp-stream-configuration",
+      "value": 279,
+      "description": {
+        "en-US": "Selected RTP Stream Configuration",
+        "zh-CN": "所选 RTP 流配置",
+        "fr-FR": "Configuration de flux RTP sélectionnée",
+        "de-DE": "Ausgewählte RTP-Stream-Konfiguration",
+        "ja-JP": "選択済みRTPストリーム設定",
+        "ko-KR": "선택된 RTP 스트림 구성",
+        "es-ES": "Configuración de flujo RTP seleccionada",
+        "pt-BR": "Configuração de fluxo RTP selecionada"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "serial-number": {
+      "code": "serial-number",
+      "value": 48,
+      "description": {
+        "en-US": "Serial Number",
+        "zh-CN": "序列号",
+        "fr-FR": "Numéro de série",
+        "de-DE": "Seriennummer",
+        "ja-JP": "シリアル番号",
+        "ko-KR": "일련번호",
+        "es-ES": "Número de serie",
+        "pt-BR": "Número de série"
+      },
+      "format": "string",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "service-label-index": {
+      "code": "service-label-index",
+      "value": 203,
+      "description": {
+        "en-US": "Service Label Index",
+        "zh-CN": "服务标签索引",
+        "fr-FR": "Index d'étiquette de service",
+        "de-DE": "Dienstkennzeichnungsindex",
+        "ja-JP": "サービスラベルインデックス",
+        "ko-KR": "서비스 레이블 인덱스",
+        "es-ES": "Índice de etiqueta de servicio",
+        "pt-BR": "Índice de etiqueta de serviço"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "value-range": [
+        1,
+        255,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "service-label-namespace": {
+      "code": "service-label-namespace",
+      "value": 205,
+      "description": {
+        "en-US": "Service Label Namespace",
+        "zh-CN": "服务标签命名空间",
+        "fr-FR": "Espace de noms d'étiquette de service",
+        "de-DE": "Dienstkennzeichnungs-Namensraum",
+        "ja-JP": "サービスラベル名前空間",
+        "ko-KR": "서비스 레이블 네임스페이스",
+        "es-ES": "Espacio de nombres de etiqueta de servicio",
+        "pt-BR": "Espaço de nomes de etiqueta de serviço"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "DOTS",
+            "zh-CN": "点阵",
+            "fr-FR": "POINTS",
+            "de-DE": "PUNKTE",
+            "ja-JP": "ドット",
+            "ko-KR": "점",
+            "es-ES": "PUNTOS",
+            "pt-BR": "PONTOS"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "ARABIC_NUMERALS",
+            "zh-CN": "阿拉伯数字",
+            "fr-FR": "CHIFFRES ARABES",
+            "de-DE": "ARABISCHE ZIFFERN",
+            "ja-JP": "アラビア数字",
+            "ko-KR": "아라비아 숫자",
+            "es-ES": "NÚMEROS ARÁBIGOS",
+            "pt-BR": "ALGARISMOS ARÁBICOS"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "set-duration": {
+      "code": "set-duration",
+      "value": 211,
+      "description": {
+        "en-US": "Set Duration",
+        "zh-CN": "设置时长",
+        "fr-FR": "Définir la durée",
+        "de-DE": "Dauer einstellen",
+        "ja-JP": "時間設定",
+        "ko-KR": "시간 설정",
+        "es-ES": "Establecer duración",
+        "pt-BR": "Definir duração"
+      },
+      "format": "uint32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        3600,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "setup-endpoints": {
+      "code": "setup-endpoints",
+      "value": 280,
+      "description": {
+        "en-US": "Setup Endpoints",
+        "zh-CN": "设置端点",
+        "fr-FR": "Configurer les points d'accès",
+        "de-DE": "Endpunkte einrichten",
+        "ja-JP": "エンドポイント設定",
+        "ko-KR": "엔드포인트 설정",
+        "es-ES": "Configurar endpoints",
+        "pt-BR": "Configurar endpoints"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "write"
+      ],
+      "lifecycle": "released"
+    },
+    "slat-type": {
+      "code": "slat-type",
+      "value": 192,
+      "description": {
+        "en-US": "Slat Type",
+        "zh-CN": "百叶窗叶片类型",
+        "fr-FR": "Type de lamelle",
+        "de-DE": "Lamellentyp",
+        "ja-JP": "スラットタイプ",
+        "ko-KR": "슬랫 유형",
+        "es-ES": "Tipo de lama",
+        "pt-BR": "Tipo de lâmina"
+      },
+      "format": "uint8",
+      "access": [
+        "read"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "HORIZONTAL",
+            "zh-CN": "水平",
+            "fr-FR": "HORIZONTAL",
+            "de-DE": "HORIZONTAL",
+            "ja-JP": "水平",
+            "ko-KR": "수평",
+            "es-ES": "HORIZONTAL",
+            "pt-BR": "HORIZONTAL"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "VERTICAL",
+            "zh-CN": "垂直",
+            "fr-FR": "VERTICAL",
+            "de-DE": "VERTIKAL",
+            "ja-JP": "垂直",
+            "ko-KR": "수직",
+            "es-ES": "VERTICAL",
+            "pt-BR": "VERTICAL"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "smoke-detected": {
+      "code": "smoke-detected",
+      "value": 118,
+      "description": {
+        "en-US": "Smoke Detected",
+        "zh-CN": "检测到烟雾",
+        "fr-FR": "Fumée détectée",
+        "de-DE": "Rauch erkannt",
+        "ja-JP": "煙検出",
+        "ko-KR": "연기 감지됨",
+        "es-ES": "Humo detectado",
+        "pt-BR": "Fumaça detectada"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "SMOKE_NOT_DETECTED",
+            "zh-CN": "未检测到烟雾",
+            "fr-FR": "AUCUNE FUMÉE DÉTECTÉE",
+            "de-DE": "KEIN RAUCH ERKANNT",
+            "ja-JP": "煙未検出",
+            "ko-KR": "연기 미감지",
+            "es-ES": "HUMO NO DETECTADO",
+            "pt-BR": "FUMAÇA NÃO DETECTADA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "SMOKE_DETECTED",
+            "zh-CN": "检测到烟雾",
+            "fr-FR": "FUMÉE DÉTECTÉE",
+            "de-DE": "RAUCH ERKANNT",
+            "ja-JP": "煙検出",
+            "ko-KR": "연기 감지됨",
+            "es-ES": "HUMO DETECTADO",
+            "pt-BR": "FUMAÇA DETECTADA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "status-active": {
+      "code": "status-active",
+      "value": 117,
+      "description": {
+        "en-US": "Status Active",
+        "zh-CN": "状态活跃",
+        "fr-FR": "Statut actif",
+        "de-DE": "Status aktiv",
+        "ja-JP": "ステータスアクティブ",
+        "ko-KR": "상태 활성",
+        "es-ES": "Estado activo",
+        "pt-BR": "Status ativo"
+      },
+      "format": "bool",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "status-fault": {
+      "code": "status-fault",
+      "value": 119,
+      "description": {
+        "en-US": "Status Fault",
+        "zh-CN": "状态故障",
+        "fr-FR": "Statut de défaut",
+        "de-DE": "Status Fehler",
+        "ja-JP": "ステータス障害",
+        "ko-KR": "상태 오류",
+        "es-ES": "Estado de fallo",
+        "pt-BR": "Status de falha"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NO_FAULT",
+            "zh-CN": "无故障",
+            "fr-FR": "AUCUN DÉFAUT",
+            "de-DE": "KEIN FEHLER",
+            "ja-JP": "障害なし",
+            "ko-KR": "오류 없음",
+            "es-ES": "SIN FALLO",
+            "pt-BR": "SEM FALHA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "GENERAL_FAULT",
+            "zh-CN": "一般故障",
+            "fr-FR": "DÉFAUT GÉNÉRAL",
+            "de-DE": "ALLGEMEINER FEHLER",
+            "ja-JP": "一般障害",
+            "ko-KR": "일반 오류",
+            "es-ES": "FALLO GENERAL",
+            "pt-BR": "FALHA GERAL"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "status-jammed": {
+      "code": "status-jammed",
+      "value": 120,
+      "description": {
+        "en-US": "Status Jammed",
+        "zh-CN": "状态卡住",
+        "fr-FR": "Statut bloqué",
+        "de-DE": "Status blockiert",
+        "ja-JP": "ステータス詰まり",
+        "ko-KR": "상태 걸림",
+        "es-ES": "Estado atascado",
+        "pt-BR": "Status travado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NOT_JAMMED",
+            "zh-CN": "未卡住",
+            "fr-FR": "NON BLOQUÉ",
+            "de-DE": "NICHT BLOCKIERT",
+            "ja-JP": "詰まりなし",
+            "ko-KR": "걸리지 않음",
+            "es-ES": "NO ATASCADO",
+            "pt-BR": "NÃO TRAVADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "JAMMED",
+            "zh-CN": "卡住",
+            "fr-FR": "BLOQUÉ",
+            "de-DE": "BLOCKIERT",
+            "ja-JP": "詰まり",
+            "ko-KR": "걸림",
+            "es-ES": "ATASCADO",
+            "pt-BR": "TRAVADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "status-low-battery": {
+      "code": "status-low-battery",
+      "value": 121,
+      "description": {
+        "en-US": "Status Low Battery",
+        "zh-CN": "状态低电量",
+        "fr-FR": "Statut batterie faible",
+        "de-DE": "Status Batterie schwach",
+        "ja-JP": "ステータスバッテリー低下",
+        "ko-KR": "상태 배터리 부족",
+        "es-ES": "Estado de batería baja",
+        "pt-BR": "Status bateria fraca"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "BATTERY_LEVEL_NORMAL",
+            "zh-CN": "电池电量正常",
+            "fr-FR": "BATTERIE NORMALE",
+            "de-DE": "BATTERIE NORMAL",
+            "ja-JP": "バッテリー正常",
+            "ko-KR": "배터리 정상",
+            "es-ES": "BATERÍA NORMAL",
+            "pt-BR": "BATERIA NORMAL"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "BATTERY_LEVEL_LOW",
+            "zh-CN": "电池电量低",
+            "fr-FR": "BATTERIE FAIBLE",
+            "de-DE": "BATTERIE NIEDRIG",
+            "ja-JP": "バッテリー低下",
+            "ko-KR": "배터리 부족",
+            "es-ES": "BATERÍA BAJA",
+            "pt-BR": "BATERIA FRACA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "status-tampered": {
+      "code": "status-tampered",
+      "value": 122,
+      "description": {
+        "en-US": "Status Tampered",
+        "zh-CN": "状态篡改",
+        "fr-FR": "Statut altéré",
+        "de-DE": "Status manipuliert",
+        "ja-JP": "ステータス不正操作",
+        "ko-KR": "상태 변조됨",
+        "es-ES": "Estado manipulado",
+        "pt-BR": "Status violado"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "NOT_TAMPERED",
+            "zh-CN": "未被篡改",
+            "fr-FR": "NON ALTÉRÉ",
+            "de-DE": "NICHT MANIPULIERT",
+            "ja-JP": "不正操作なし",
+            "ko-KR": "변조되지 않음",
+            "es-ES": "NO MANIPULADO",
+            "pt-BR": "NÃO VIOLADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "TAMPERED",
+            "zh-CN": "被篡改",
+            "fr-FR": "ALTÉRÉ",
+            "de-DE": "MANIPULIERT",
+            "ja-JP": "不正操作",
+            "ko-KR": "변조됨",
+            "es-ES": "MANIPULADO",
+            "pt-BR": "VIOLADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "streaming-status": {
+      "code": "streaming-status",
+      "value": 288,
+      "description": {
+        "en-US": "Streaming Status",
+        "zh-CN": "流媒体状态",
+        "fr-FR": "Statut du flux",
+        "de-DE": "Streaming-Status",
+        "ja-JP": "ストリーミング状態",
+        "ko-KR": "스트리밍 상태",
+        "es-ES": "Estado de transmisión",
+        "pt-BR": "Status de streaming"
+      },
+      "format": "tlv8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "sulphur-dioxide-density": {
+      "code": "sulphur-dioxide-density",
+      "value": 197,
+      "description": {
+        "en-US": "Sulphur Dioxide Density",
+        "zh-CN": "二氧化硫浓度",
+        "fr-FR": "Densité de dioxyde de soufre",
+        "de-DE": "Schwefeldioxid-Dichte",
+        "ja-JP": "二酸化硫黄濃度",
+        "ko-KR": "이산화황 밀도",
+        "es-ES": "Densidad de dióxido de azufre",
+        "pt-BR": "Densidade de dióxido de enxofre"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "supported-audio-stream-configuration": {
+      "code": "supported-audio-stream-configuration",
+      "value": 277,
+      "description": {
+        "en-US": "Supported Audio Stream Configuration",
+        "zh-CN": "支持的音频流配置",
+        "fr-FR": "Configuration de flux audio prise en charge",
+        "de-DE": "Unterstützte Audiostream-Konfiguration",
+        "ja-JP": "対応オーディオストリーム設定",
+        "ko-KR": "지원되는 오디오 스트림 구성",
+        "es-ES": "Configuración de flujo de audio compatible",
+        "pt-BR": "Configuração de fluxo de áudio compatível"
+      },
+      "format": "tlv8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "supported-rtp-configuration": {
+      "code": "supported-rtp-configuration",
+      "value": 278,
+      "description": {
+        "en-US": "Supported RTP Configuration",
+        "zh-CN": "支持的 RTP 配置",
+        "fr-FR": "Configuration RTP prise en charge",
+        "de-DE": "Unterstützte RTP-Konfiguration",
+        "ja-JP": "対応RTP設定",
+        "ko-KR": "지원되는 RTP 구성",
+        "es-ES": "Configuración RTP compatible",
+        "pt-BR": "Configuração RTP compatível"
+      },
+      "format": "tlv8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "supported-video-stream-configuration": {
+      "code": "supported-video-stream-configuration",
+      "value": 276,
+      "description": {
+        "en-US": "Supported Video Stream Configuration",
+        "zh-CN": "支持的视频流配置",
+        "fr-FR": "Configuration de flux vidéo prise en charge",
+        "de-DE": "Unterstützte Videostream-Konfiguration",
+        "ja-JP": "対応ビデオストリーム設定",
+        "ko-KR": "지원되는 비디오 스트림 구성",
+        "es-ES": "Configuración de flujo de video compatible",
+        "pt-BR": "Configuração de fluxo de vídeo compatível"
+      },
+      "format": "tlv8",
+      "access": [
+        "read"
+      ],
+      "lifecycle": "released"
+    },
+    "swing-mode": {
+      "code": "swing-mode",
+      "value": 182,
+      "description": {
+        "en-US": "Swing Mode",
+        "zh-CN": "摆动模式",
+        "fr-FR": "Mode oscillation",
+        "de-DE": "Schwenkmodus",
+        "ja-JP": "スイングモード",
+        "ko-KR": "스윙 모드",
+        "es-ES": "Modo oscilación",
+        "pt-BR": "Modo oscilante"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "SWING_DISABLED",
+            "zh-CN": "摆动已禁用",
+            "fr-FR": "OSCILLATION DÉSACTIVÉE",
+            "de-DE": "SCHWENKEN DEAKTIVIERT",
+            "ja-JP": "スイング無効",
+            "ko-KR": "스윙 비활성화됨",
+            "es-ES": "OSCILACIÓN DESACTIVADA",
+            "pt-BR": "OSCILAÇÃO DESATIVADA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "SWING_ENABLED",
+            "zh-CN": "摆动已启用",
+            "fr-FR": "OSCILLATION ACTIVÉE",
+            "de-DE": "SCHWENKEN AKTIVIERT",
+            "ja-JP": "スイング有効",
+            "ko-KR": "스윙 활성화됨",
+            "es-ES": "OSCILACIÓN ACTIVADA",
+            "pt-BR": "OSCILAÇÃO ATIVADA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-air-purifier-state": {
+      "code": "target-air-purifier-state",
+      "value": 168,
+      "description": {
+        "en-US": "Target Air Purifier State",
+        "zh-CN": "目标空气净化器状态",
+        "fr-FR": "État cible du purificateur d'air",
+        "de-DE": "Gewünschter Luftreinigerstatus",
+        "ja-JP": "目標空気清浄機状態",
+        "ko-KR": "목표 공기 청정기 상태",
+        "es-ES": "Estado objetivo del purificador de aire",
+        "pt-BR": "Estado alvo do purificador de ar"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "MANUAL",
+            "zh-CN": "手动",
+            "fr-FR": "MANUEL",
+            "de-DE": "MANUELL",
+            "ja-JP": "手動",
+            "ko-KR": "수동",
+            "es-ES": "MANUAL",
+            "pt-BR": "MANUAL"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "AUTO",
+            "zh-CN": "自动",
+            "fr-FR": "AUTO",
+            "de-DE": "AUTO",
+            "ja-JP": "自動",
+            "ko-KR": "자동",
+            "es-ES": "AUTO",
+            "pt-BR": "AUTO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-air-quality": {
+      "code": "target-air-quality",
+      "value": 174,
+      "description": {
+        "en-US": "Target Air Quality",
+        "zh-CN": "目标空气质量",
+        "fr-FR": "Qualité d'air cible",
+        "de-DE": "Gewünschte Luftqualität",
+        "ja-JP": "目標空気品質",
+        "ko-KR": "목표 공기 질",
+        "es-ES": "Calidad del aire objetivo",
+        "pt-BR": "Qualidade do ar alvo"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "EXCELLENT",
+            "zh-CN": "优秀",
+            "fr-FR": "EXCELLENT",
+            "de-DE": "HERVORRAGEND",
+            "ja-JP": "優良",
+            "ko-KR": "우수",
+            "es-ES": "EXCELENTE",
+            "pt-BR": "EXCELENTE"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "GOOD",
+            "zh-CN": "良好",
+            "fr-FR": "BON",
+            "de-DE": "GUT",
+            "ja-JP": "良好",
+            "ko-KR": "좋음",
+            "es-ES": "BUENO",
+            "pt-BR": "BOM"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "FAIR",
+            "zh-CN": "一般",
+            "fr-FR": "MOYEN",
+            "de-DE": "MITTELMÄßIG",
+            "ja-JP": "普通",
+            "ko-KR": "보통",
+            "es-ES": "REGULAR",
+            "pt-BR": "REGULAR"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-door-state": {
+      "code": "target-door-state",
+      "value": 50,
+      "description": {
+        "en-US": "Target Door State",
+        "zh-CN": "目标门状态",
+        "fr-FR": "État cible de la porte",
+        "de-DE": "Gewünschter Türstatus",
+        "ja-JP": "目標ドア状態",
+        "ko-KR": "목표 문 상태",
+        "es-ES": "Estado objetivo de la puerta",
+        "pt-BR": "Estado alvo da porta"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "OPEN",
+            "zh-CN": "打开",
+            "fr-FR": "OUVERT",
+            "de-DE": "OFFEN",
+            "ja-JP": "開",
+            "ko-KR": "열림",
+            "es-ES": "ABIERTO",
+            "pt-BR": "ABERTO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "CLOSED",
+            "zh-CN": "关闭",
+            "fr-FR": "FERMÉ",
+            "de-DE": "GESCHLOSSEN",
+            "ja-JP": "閉",
+            "ko-KR": "닫힘",
+            "es-ES": "CERRADO",
+            "pt-BR": "FECHADO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-fan-state": {
+      "code": "target-fan-state",
+      "value": 191,
+      "description": {
+        "en-US": "Target Fan State",
+        "zh-CN": "目标风扇状态",
+        "fr-FR": "État cible du ventilateur",
+        "de-DE": "Gewünschter Lüfterstatus",
+        "ja-JP": "目標ファン状態",
+        "ko-KR": "목표 팬 상태",
+        "es-ES": "Estado objetivo del ventilador",
+        "pt-BR": "Estado alvo do ventilador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "MANUAL",
+            "zh-CN": "手动",
+            "fr-FR": "MANUEL",
+            "de-DE": "MANUELL",
+            "ja-JP": "手動",
+            "ko-KR": "수동",
+            "es-ES": "MANUAL",
+            "pt-BR": "MANUAL"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "AUTO",
+            "zh-CN": "自动",
+            "fr-FR": "AUTO",
+            "de-DE": "AUTO",
+            "ja-JP": "自動",
+            "ko-KR": "자동",
+            "es-ES": "AUTO",
+            "pt-BR": "AUTO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-heater-cooler-state": {
+      "code": "target-heater-cooler-state",
+      "value": 178,
+      "description": {
+        "en-US": "Target Heater Cooler State",
+        "zh-CN": "目标加热器/冷却器状态",
+        "fr-FR": "État cible du chauffage/refroidisseur",
+        "de-DE": "Gewünschter Heizer-Kühler-Status",
+        "ja-JP": "目標加熱・冷却器状態",
+        "ko-KR": "목표 히터/쿨러 상태",
+        "es-ES": "Estado objetivo del calefactor/enfriador",
+        "pt-BR": "Estado alvo do aquecedor/refrigerador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "AUTO",
+            "zh-CN": "自动",
+            "fr-FR": "AUTO",
+            "de-DE": "AUTO",
+            "ja-JP": "自動",
+            "ko-KR": "자동",
+            "es-ES": "AUTO",
+            "pt-BR": "AUTO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "HEAT",
+            "zh-CN": "制热",
+            "fr-FR": "CHAUD",
+            "de-DE": "HEIZEN",
+            "ja-JP": "暖房",
+            "ko-KR": "난방",
+            "es-ES": "CALOR",
+            "pt-BR": "CALOR"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "COOL",
+            "zh-CN": "制冷",
+            "fr-FR": "FROID",
+            "de-DE": "KÜHLEN",
+            "ja-JP": "冷房",
+            "ko-KR": "냉방",
+            "es-ES": "FRÍO",
+            "pt-BR": "FRIO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-heating-cooling-state": {
+      "code": "target-heating-cooling-state",
+      "value": 51,
+      "description": {
+        "en-US": "Target Heating Cooling State",
+        "zh-CN": "目标加热/冷却状态",
+        "fr-FR": "État cible de chauffage/refroidissement",
+        "de-DE": "Gewünschter Heiz-/Kühlstatus",
+        "ja-JP": "目標加熱・冷却状態",
+        "ko-KR": "목표 난방/냉방 상태",
+        "es-ES": "Estado objetivo de calefacción/refrigeración",
+        "pt-BR": "Estado alvo de aquecimento/resfriamento"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "OFF",
+            "zh-CN": "关闭",
+            "fr-FR": "ÉTEINT",
+            "de-DE": "AUS",
+            "ja-JP": "オフ",
+            "ko-KR": "꺼짐",
+            "es-ES": "APAGADO",
+            "pt-BR": "DESLIGADO"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "HEAT",
+            "zh-CN": "制热",
+            "fr-FR": "CHAUD",
+            "de-DE": "HEIZEN",
+            "ja-JP": "暖房",
+            "ko-KR": "난방",
+            "es-ES": "CALOR",
+            "pt-BR": "CALOR"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "COOL",
+            "zh-CN": "制冷",
+            "fr-FR": "FROID",
+            "de-DE": "KÜHLEN",
+            "ja-JP": "冷房",
+            "ko-KR": "냉방",
+            "es-ES": "FRÍO",
+            "pt-BR": "FRIO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "AUTO",
+            "zh-CN": "自动",
+            "fr-FR": "AUTO",
+            "de-DE": "AUTO",
+            "ja-JP": "自動",
+            "ko-KR": "자동",
+            "es-ES": "AUTO",
+            "pt-BR": "AUTO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-horizontal-tilt-angle": {
+      "code": "target-horizontal-tilt-angle",
+      "value": 123,
+      "description": {
+        "en-US": "Target Horizontal Tilt Angle",
+        "zh-CN": "目标水平倾斜角度",
+        "fr-FR": "Angle d'inclinaison horizontal cible",
+        "de-DE": "Gewünschter horizontaler Neigungswinkel",
+        "ja-JP": "目標水平傾斜角",
+        "ko-KR": "목표 수평 기울기 각도",
+        "es-ES": "Ángulo de inclinación horizontal objetivo",
+        "pt-BR": "Ângulo de inclinação horizontal alvo"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "target-humidifier-dehumidifier-state": {
+      "code": "target-humidifier-dehumidifier-state",
+      "value": 180,
+      "description": {
+        "en-US": "Target Humidifier Dehumidifier State",
+        "zh-CN": "目标加湿器/除湿器状态",
+        "fr-FR": "État cible de l'humidificateur/déshumidificateur",
+        "de-DE": "Gewünschter Luftbefeuchter-Entfeuchter-Status",
+        "ja-JP": "目標加湿器・除湿器状態",
+        "ko-KR": "목표 가습기/제습기 상태",
+        "es-ES": "Estado objetivo del humidificador/deshumidificador",
+        "pt-BR": "Estado alvo do umidificador/desumidificador"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "HUMIDIFIER_OR_DEHUMIDIFIER",
+            "zh-CN": "加湿或除湿器",
+            "fr-FR": "HUMIDIFICATEUR OU DÉSHUMIDIFICATEUR",
+            "de-DE": "BEFEUCHTER ODER ENTFEUCHTER",
+            "ja-JP": "加湿器または除湿器",
+            "ko-KR": "가습기 또는 제습기",
+            "es-ES": "HUMIDIFICADOR O DESHUMIDIFICADOR",
+            "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "HUMIDIFIER",
+            "zh-CN": "加湿器",
+            "fr-FR": "HUMIDIFICATEUR",
+            "de-DE": "LUFTBEFEUCHTER",
+            "ja-JP": "加湿器",
+            "ko-KR": "가습기",
+            "es-ES": "HUMIDIFICADOR",
+            "pt-BR": "UMIDIFICADOR"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "DEHUMIDIFIER",
+            "zh-CN": "除湿器",
+            "fr-FR": "DÉSHUMIDIFICATEUR",
+            "de-DE": "LUFTENTFEUCHTER",
+            "ja-JP": "除湿器",
+            "ko-KR": "제습기",
+            "es-ES": "DESHUMIDIFICADOR",
+            "pt-BR": "DESUMIDIFICADOR"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-position": {
+      "code": "target-position",
+      "value": 124,
+      "description": {
+        "en-US": "Target Position",
+        "zh-CN": "目标位置",
+        "fr-FR": "Position cible",
+        "de-DE": "Zielposition",
+        "ja-JP": "目標位置",
+        "ko-KR": "목표 위치",
+        "es-ES": "Posición objetivo",
+        "pt-BR": "Posição alvo"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "target-relative-humidity": {
+      "code": "target-relative-humidity",
+      "value": 52,
+      "description": {
+        "en-US": "Target Relative Humidity",
+        "zh-CN": "目标相对湿度",
+        "fr-FR": "Humidité relative cible",
+        "de-DE": "Gewünschte relative Luftfeuchtigkeit",
+        "ja-JP": "目標相対湿度",
+        "ko-KR": "목표 상대 습도",
+        "es-ES": "Humedad relativa objetivo",
+        "pt-BR": "Umidade relativa alvo"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "target-slat-state": {
+      "code": "target-slat-state",
+      "value": 190,
+      "description": {
+        "en-US": "Target Slat State",
+        "zh-CN": "目标百叶窗叶片状态",
+        "fr-FR": "État cible des lamelles",
+        "de-DE": "Gewünschter Lamellenstatus",
+        "ja-JP": "目標スラット状態",
+        "ko-KR": "목표 슬랫 상태",
+        "es-ES": "Estado objetivo de las lamas",
+        "pt-BR": "Estado alvo das lâminas"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "MANUAL",
+            "zh-CN": "手动",
+            "fr-FR": "MANUEL",
+            "de-DE": "MANUELL",
+            "ja-JP": "手動",
+            "ko-KR": "수동",
+            "es-ES": "MANUAL",
+            "pt-BR": "MANUAL"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "AUTO",
+            "zh-CN": "自动",
+            "fr-FR": "AUTO",
+            "de-DE": "AUTO",
+            "ja-JP": "自動",
+            "ko-KR": "자동",
+            "es-ES": "AUTO",
+            "pt-BR": "AUTO"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "target-temperature": {
+      "code": "target-temperature",
+      "value": 53,
+      "description": {
+        "en-US": "Target Temperature",
+        "zh-CN": "目标温度",
+        "fr-FR": "Température cible",
+        "de-DE": "Zieltemperatur",
+        "ja-JP": "目標温度",
+        "ko-KR": "목표 온도",
+        "es-ES": "Temperatura objetivo",
+        "pt-BR": "Temperatura alvo"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        10,
+        38,
+        0.1
+      ],
+      "unit": "celsius",
+      "lifecycle": "released"
+    },
+    "target-tilt-angle": {
+      "code": "target-tilt-angle",
+      "value": 194,
+      "description": {
+        "en-US": "Target Tilt Angle",
+        "zh-CN": "目标倾斜角度",
+        "fr-FR": "Angle d'inclinaison cible",
+        "de-DE": "Gewünschter Neigungswinkel",
+        "ja-JP": "目標傾斜角",
+        "ko-KR": "목표 기울기 각도",
+        "es-ES": "Ángulo de inclinación objetivo",
+        "pt-BR": "Ângulo de inclinação alvo"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "target-vertical-tilt-angle": {
+      "code": "target-vertical-tilt-angle",
+      "value": 125,
+      "description": {
+        "en-US": "Target Vertical Tilt Angle",
+        "zh-CN": "目标垂直倾斜角度",
+        "fr-FR": "Angle d'inclinaison vertical cible",
+        "de-DE": "Gewünschter vertikaler Neigungswinkel",
+        "ja-JP": "目標垂直傾斜角",
+        "ko-KR": "목표 수직 기울기 각도",
+        "es-ES": "Ángulo de inclinación vertical objetivo",
+        "pt-BR": "Ângulo de inclinação vertical alvo"
+      },
+      "format": "int32",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        -90,
+        90,
+        1
+      ],
+      "unit": "arcdegrees",
+      "lifecycle": "released"
+    },
+    "temperature-display-units": {
+      "code": "temperature-display-units",
+      "value": 54,
+      "description": {
+        "en-US": "Temperature Display Units",
+        "zh-CN": "温度显示单位",
+        "fr-FR": "Unités d'affichage de la température",
+        "de-DE": "Temperatureinheit",
+        "ja-JP": "温度表示単位",
+        "ko-KR": "온도 표시 단위",
+        "es-ES": "Unidades de visualización de temperatura",
+        "pt-BR": "Unidades de exibição de temperatura"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "CELSIUS",
+            "zh-CN": "摄氏度",
+            "fr-FR": "CELSIUS",
+            "de-DE": "CELSIUS",
+            "ja-JP": "摂氏",
+            "ko-KR": "섭씨",
+            "es-ES": "CELSIUS",
+            "pt-BR": "CELSIUS"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "FAHRENHEIT",
+            "zh-CN": "华氏度",
+            "fr-FR": "FAHRENHEIT",
+            "de-DE": "FAHRENHEIT",
+            "ja-JP": "華氏",
+            "ko-KR": "화씨",
+            "es-ES": "FAHRENHEIT",
+            "pt-BR": "FAHRENHEIT"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "valve-type": {
+      "code": "valve-type",
+      "value": 213,
+      "description": {
+        "en-US": "Valve Type",
+        "zh-CN": "阀门类型",
+        "fr-FR": "Type de vanne",
+        "de-DE": "Ventiltyp",
+        "ja-JP": "バルブタイプ",
+        "ko-KR": "밸브 유형",
+        "es-ES": "Tipo de válvula",
+        "pt-BR": "Tipo de válvula"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-list": [
+        {
+          "value": 0,
+          "description": {
+            "en-US": "GENERIC_VALVE",
+            "zh-CN": "通用阀门",
+            "fr-FR": "VANNE GÉNÉRIQUE",
+            "de-DE": "ALLGEMEINES VENTIL",
+            "ja-JP": "汎用バルブ",
+            "ko-KR": "일반 밸브",
+            "es-ES": "VÁLVULA GENÉRICA",
+            "pt-BR": "VÁLVULA GENÉRICA"
+          }
+        },
+        {
+          "value": 1,
+          "description": {
+            "en-US": "IRRIGATION",
+            "zh-CN": "灌溉",
+            "fr-FR": "IRRIGATION",
+            "de-DE": "BEWÄSSERUNG",
+            "ja-JP": "灌漑",
+            "ko-KR": "관개",
+            "es-ES": "RIEGO",
+            "pt-BR": "IRRIGAÇÃO"
+          }
+        },
+        {
+          "value": 2,
+          "description": {
+            "en-US": "SHOWER_HEAD",
+            "zh-CN": "淋浴花洒",
+            "fr-FR": "POMME DE DOUCHE",
+            "de-DE": "DUSCHKOPF",
+            "ja-JP": "シャワーヘッド",
+            "ko-KR": "샤워 헤드",
+            "es-ES": "DUCHA",
+            "pt-BR": "CHUVEIRO"
+          }
+        },
+        {
+          "value": 3,
+          "description": {
+            "en-US": "WATER_FAUCET",
+            "zh-CN": "水龙头",
+            "fr-FR": "ROBINET D'EAU",
+            "de-DE": "WASSERHAHN",
+            "ja-JP": "水道蛇口",
+            "ko-KR": "수도꼭지",
+            "es-ES": "GRIFO DE AGUA",
+            "pt-BR": "TORNEIRA"
+          }
+        }
+      ],
+      "lifecycle": "released"
+    },
+    "version": {
+      "code": "version",
+      "value": 55,
+      "description": {
+        "en-US": "Version",
+        "zh-CN": "版本",
+        "fr-FR": "Version",
+        "de-DE": "Version",
+        "ja-JP": "バージョン",
+        "ko-KR": "버전",
+        "es-ES": "Versión",
+        "pt-BR": "Versão"
+      },
+      "format": "string",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "lifecycle": "released"
+    },
+    "voc-density": {
+      "code": "voc-density",
+      "value": 200,
+      "description": {
+        "en-US": "VOC Density",
+        "zh-CN": "VOC 浓度",
+        "fr-FR": "Densité de COV",
+        "de-DE": "VOC-Dichte",
+        "ja-JP": "VOC濃度",
+        "ko-KR": "VOC 밀도",
+        "es-ES": "Densidad de COV",
+        "pt-BR": "Densidade de COV"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        1000,
+        1
+      ],
+      "lifecycle": "released"
+    },
+    "volume": {
+      "code": "volume",
+      "value": 281,
+      "description": {
+        "en-US": "Volume",
+        "zh-CN": "音量",
+        "fr-FR": "Volume",
+        "de-DE": "Lautstärke",
+        "ja-JP": "音量",
+        "ko-KR": "볼륨",
+        "es-ES": "Volumen",
+        "pt-BR": "Volume"
+      },
+      "format": "uint8",
+      "access": [
+        "read",
+        "write",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    },
+    "water-level": {
+      "code": "water-level",
+      "value": 181,
+      "description": {
+        "en-US": "Water Level",
+        "zh-CN": "水位",
+        "fr-FR": "Niveau d'eau",
+        "de-DE": "Wasserstand",
+        "ja-JP": "水位",
+        "ko-KR": "수위",
+        "es-ES": "Nivel de agua",
+        "pt-BR": "Nível da água"
+      },
+      "format": "float",
+      "access": [
+        "read",
+        "notify"
+      ],
+      "value-range": [
+        0,
+        100,
+        1
+      ],
+      "unit": "percentage",
+      "lifecycle": "released"
+    }
+  },
+  "services": {
+    "accessory-information": {
+      "code": "accessory-information",
+      "value": 62,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:identify:00000014",
+        "urn:homekit-spec:property:manufacturer:00000020",
+        "urn:homekit-spec:property:model:00000021",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:serial-number:00000030",
+        "urn:homekit-spec:property:firmware-revision:00000052"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:hardware-revision:00000053",
+        "urn:homekit-spec:property:accessory-flags:000000A6"
+      ],
+      "lifecycle": "released"
+    },
+    "air-purifier": {
+      "code": "air-purifier",
+      "value": 187,
+      "description": {
+        "en-US": "Air Purifier",
+        "zh-CN": "空气净化器",
+        "fr-FR": "Purificateur d'air",
+        "de-DE": "Luftreiniger",
+        "ja-JP": "空気清浄機",
+        "ko-KR": "공기 청정기",
+        "es-ES": "Purificador de aire",
+        "pt-BR": "Purificador de ar"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:current-air-purifier-state:000000A9",
+        "urn:homekit-spec:property:target-air-purifier-state:000000A8"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:swing-mode:000000B6",
+        "urn:homekit-spec:property:rotation-speed:00000029"
+      ],
+      "lifecycle": "released"
+    },
+    "air-quality-sensor": {
+      "code": "air-quality-sensor",
+      "value": 141,
+      "description": {
+        "en-US": "Air Quality Sensor",
+        "zh-CN": "空气质量传感器",
+        "fr-FR": "Capteur de qualité de l'air",
+        "de-DE": "Luftqualitätssensor",
+        "ja-JP": "空気品質センサー",
+        "ko-KR": "공기질 센서",
+        "es-ES": "Sensor de calidad del aire",
+        "pt-BR": "Sensor de qualidade do ar"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:air-quality:00000095"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:ozone-density:000000C3",
+        "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
+        "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
+        "urn:homekit-spec:property:pm2_5-density:000000C6",
+        "urn:homekit-spec:property:pm10-density:000000C7",
+        "urn:homekit-spec:property:voc-density:000000C8",
+        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
+        "urn:homekit-spec:property:carbon-dioxide-level:00000093"
+      ],
+      "lifecycle": "released"
+    },
+    "battery-service": {
+      "code": "battery-service",
+      "value": 150,
+      "description": {
+        "en-US": "Battery Service",
+        "zh-CN": "电池服务",
+        "fr-FR": "Service de batterie",
+        "de-DE": "Batteriedienst",
+        "ja-JP": "バッテリーサービス",
+        "ko-KR": "배터리 서비스",
+        "es-ES": "Servicio de batería",
+        "pt-BR": "Serviço de bateria"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:battery-level:00000068",
+        "urn:homekit-spec:property:charging-state:0000008F",
+        "urn:homekit-spec:property:status-low-battery:00000079"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "camera-rtp-stream-management": {
+      "code": "camera-rtp-stream-management",
+      "value": 272,
+      "description": {
+        "en-US": "Camera RTP Stream Management",
+        "zh-CN": "摄像头 RTP 流管理",
+        "fr-FR": "Gestion de flux RTP de la caméra",
+        "de-DE": "Kamera-RTP-Stream-Verwaltung",
+        "ja-JP": "カメラRTPストリーム管理",
+        "ko-KR": "카메라 RTP 스트림 관리",
+        "es-ES": "Gestión de flujo RTP de cámara",
+        "pt-BR": "Gerenciamento de fluxo RTP da câmera"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:supported-video-stream-configuration:00000114",
+        "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
+        "urn:homekit-spec:property:supported-rtp-configuration:00000116",
+        "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
+        "urn:homekit-spec:property:streaming-status:00000120",
+        "urn:homekit-spec:property:setup-endpoints:00000118"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-dioxide-sensor": {
+      "code": "carbon-dioxide-sensor",
+      "value": 151,
+      "description": {
+        "en-US": "Carbon Dioxide Sensor",
+        "zh-CN": "二氧化碳传感器",
+        "fr-FR": "Capteur de dioxyde de carbone",
+        "de-DE": "Kohlendioxidsensor",
+        "ja-JP": "二酸化炭素センサー",
+        "ko-KR": "이산화탄소 센서",
+        "es-ES": "Sensor de dióxido de carbono",
+        "pt-BR": "Sensor de dióxido de carbono"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:carbon-dioxide-detected:00000092"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:carbon-dioxide-level:00000093",
+        "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "carbon-monoxide-sensor": {
+      "code": "carbon-monoxide-sensor",
+      "value": 127,
+      "description": {
+        "en-US": "Carbon Monoxide Sensor",
+        "zh-CN": "一氧化碳传感器",
+        "fr-FR": "Capteur de monoxyde de carbone",
+        "de-DE": "Kohlenmonoxidsensor",
+        "ja-JP": "一酸化炭素センサー",
+        "ko-KR": "일산화탄소 센서",
+        "es-ES": "Sensor de monóxido de carbono",
+        "pt-BR": "Sensor de monóxido de carbono"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:carbon-monoxide-detected:00000069"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:carbon-monoxide-level:00000090",
+        "urn:homekit-spec:property:carbon-monoxide-peak-level:00000091",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "contact-sensor": {
+      "code": "contact-sensor",
+      "value": 128,
+      "description": {
+        "en-US": "Contact Sensor",
+        "zh-CN": "接触传感器",
+        "fr-FR": "Capteur de contact",
+        "de-DE": "Kontaktsensor",
+        "ja-JP": "接触センサー",
+        "ko-KR": "접촉 센서",
+        "es-ES": "Sensor de contacto",
+        "pt-BR": "Sensor de contato"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:contact-sensor-state:0000006A"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "door": {
+      "code": "door",
+      "value": 129,
+      "description": {
+        "en-US": "Door",
+        "zh-CN": "门",
+        "fr-FR": "Porte",
+        "de-DE": "Tür",
+        "ja-JP": "ドア",
+        "ko-KR": "문",
+        "es-ES": "Puerta",
+        "pt-BR": "Porta"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-position:0000006D",
+        "urn:homekit-spec:property:position-state:00000072",
+        "urn:homekit-spec:property:target-position:0000007C"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:hold-position:0000006F",
+        "urn:homekit-spec:property:obstruction-detected:00000024",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "doorbell": {
+      "code": "doorbell",
+      "value": 289,
+      "description": {
+        "en-US": "Doorbell",
+        "zh-CN": "门铃",
+        "fr-FR": "Sonnette",
+        "de-DE": "Türklingel",
+        "ja-JP": "ドアベル",
+        "ko-KR": "초인종",
+        "es-ES": "Timbre",
+        "pt-BR": "Campainha"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:programmable-switch-event:00000073"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:brightness:00000008",
+        "urn:homekit-spec:property:volume:00000119",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "fan-v2": {
+      "code": "fan-v2",
+      "value": 183,
+      "description": {
+        "en-US": "Fan v2",
+        "zh-CN": "风扇 v2",
+        "fr-FR": "Ventilateur v2",
+        "de-DE": "Lüfter v2",
+        "ja-JP": "ファン v2",
+        "ko-KR": "팬 v2",
+        "es-ES": "Ventilador v2",
+        "pt-BR": "Ventilador v2"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:current-fan-state:000000AF",
+        "urn:homekit-spec:property:target-fan-state:000000BF",
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:rotation-direction:00000028",
+        "urn:homekit-spec:property:rotation-speed:00000029",
+        "urn:homekit-spec:property:swing-mode:000000B6"
+      ],
+      "lifecycle": "released"
+    },
+    "fan": {
+      "code": "fan",
+      "value": 64,
+      "description": {
+        "en-US": "Fan",
+        "zh-CN": "风扇",
+        "fr-FR": "Ventilateur",
+        "de-DE": "Lüfter",
+        "ja-JP": "ファン",
+        "ko-KR": "팬",
+        "es-ES": "Ventilador",
+        "pt-BR": "Ventilador"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:rotation-direction:00000028",
+        "urn:homekit-spec:property:rotation-speed:00000029",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "faucet": {
+      "code": "faucet",
+      "value": 215,
+      "description": {
+        "en-US": "Faucet",
+        "zh-CN": "水龙头",
+        "fr-FR": "Robinet",
+        "de-DE": "Wasserhahn",
+        "ja-JP": "蛇口",
+        "ko-KR": "수도꼭지",
+        "es-ES": "Grifo",
+        "pt-BR": "Torneira"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:status-fault:00000077"
+      ],
+      "lifecycle": "released"
+    },
+    "filter-maintenance": {
+      "code": "filter-maintenance",
+      "value": 186,
+      "description": {
+        "en-US": "Filter Maintenance",
+        "zh-CN": "滤芯维护",
+        "fr-FR": "Entretien du filtre",
+        "de-DE": "Filterwartung",
+        "ja-JP": "フィルター保守",
+        "ko-KR": "필터 유지 관리",
+        "es-ES": "Mantenimiento del filtro",
+        "pt-BR": "Manutenção do filtro"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:filter-change-indication:000000AC"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:filter-life-level:000000AB",
+        "urn:homekit-spec:property:reset-filter-indication:000000AD",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "garage-door-opener": {
+      "code": "garage-door-opener",
+      "value": 65,
+      "description": {
+        "en-US": "Garage Door Opener",
+        "zh-CN": "车库门开启器",
+        "fr-FR": "Ouvre-porte de garage",
+        "de-DE": "Garagentoröffner",
+        "ja-JP": "ガレージドア開閉器",
+        "ko-KR": "차고 문 개폐기",
+        "es-ES": "Abrepuertas de garaje",
+        "pt-BR": "Abre-porta de garagem"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-door-state:0000000E",
+        "urn:homekit-spec:property:target-door-state:00000032",
+        "urn:homekit-spec:property:obstruction-detected:00000024"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:lock-current-state:0000001D",
+        "urn:homekit-spec:property:lock-target-state:0000001E",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "heater-cooler": {
+      "code": "heater-cooler",
+      "value": 188,
+      "description": {
+        "en-US": "Heater Cooler",
+        "zh-CN": "加热器/冷却器",
+        "fr-FR": "Chauffage/Refroidisseur",
+        "de-DE": "Heizung/Kühler",
+        "ja-JP": "加熱器/冷却器",
+        "ko-KR": "히터/쿨러",
+        "es-ES": "Calefactor/Enfriador",
+        "pt-BR": "Aquecedor/Refrigerador"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
+        "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
+        "urn:homekit-spec:property:current-temperature:00000011"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:swing-mode:000000B6",
+        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+        "urn:homekit-spec:property:temperature-display-units:00000036",
+        "urn:homekit-spec:property:rotation-speed:00000029"
+      ],
+      "lifecycle": "released"
+    },
+    "humidifier-dehumidifier": {
+      "code": "humidifier-dehumidifier",
+      "value": 189,
+      "description": {
+        "en-US": "Humidifier Dehumidifier",
+        "zh-CN": "加湿器/除湿器",
+        "fr-FR": "Humidificateur/Déshumidificateur",
+        "de-DE": "Befeuchter/Entfeuchter",
+        "ja-JP": "加湿器/除湿器",
+        "ko-KR": "가습기/제습기",
+        "es-ES": "Humidificador/Deshumidificador",
+        "pt-BR": "Umidificador/Desumidificador"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-relative-humidity:00000010",
+        "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
+        "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
+        "urn:homekit-spec:property:active:000000B0"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:lock-physical-controls:000000A7",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:swing-mode:000000B6",
+        "urn:homekit-spec:property:water-level:000000B5",
+        "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
+        "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
+        "urn:homekit-spec:property:rotation-speed:00000029"
+      ],
+      "lifecycle": "released"
+    },
+    "humidity-sensor": {
+      "code": "humidity-sensor",
+      "value": 130,
+      "description": {
+        "en-US": "Humidity Sensor",
+        "zh-CN": "湿度传感器",
+        "fr-FR": "Capteur d'humidité",
+        "de-DE": "Feuchtigkeitssensor",
+        "ja-JP": "湿度センサー",
+        "ko-KR": "습도 센서",
+        "es-ES": "Sensor de humedad",
+        "pt-BR": "Sensor de umidade"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-relative-humidity:00000010"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "irrigation-system": {
+      "code": "irrigation-system",
+      "value": 207,
+      "description": {
+        "en-US": "Irrigation System",
+        "zh-CN": "灌溉系统",
+        "fr-FR": "Système d'irrigation",
+        "de-DE": "Bewässerungssystem",
+        "ja-JP": "灌漑システム",
+        "ko-KR": "관개 시스템",
+        "es-ES": "Sistema de riego",
+        "pt-BR": "Sistema de irrigação"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:program-mode:000000D1",
+        "urn:homekit-spec:property:in-use:000000D2"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:remaining-duration:000000D4",
+        "urn:homekit-spec:property:status-fault:00000077"
+      ],
+      "lifecycle": "released"
+    },
+    "leak-sensor": {
+      "code": "leak-sensor",
+      "value": 131,
+      "description": {
+        "en-US": "Leak Sensor",
+        "zh-CN": "泄漏传感器",
+        "fr-FR": "Capteur de fuite",
+        "de-DE": "Lecksensor",
+        "ja-JP": "漏水センサー",
+        "ko-KR": "누수 센서",
+        "es-ES": "Sensor de fuga",
+        "pt-BR": "Sensor de vazamento"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:leak-detected:00000070"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "light-sensor": {
+      "code": "light-sensor",
+      "value": 132,
+      "description": {
+        "en-US": "Light Sensor",
+        "zh-CN": "光线传感器",
+        "fr-FR": "Capteur de lumière",
+        "de-DE": "Lichtsensor",
+        "ja-JP": "光センサー",
+        "ko-KR": "조도 센서",
+        "es-ES": "Sensor de luz",
+        "pt-BR": "Sensor de luz"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-ambient-light-level:0000006B"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079"
+      ],
+      "lifecycle": "released"
+    },
+    "lightbulb": {
+      "code": "lightbulb",
+      "value": 67,
+      "description": {
+        "en-US": "Lightbulb",
+        "zh-CN": "灯泡",
+        "fr-FR": "Ampoule",
+        "de-DE": "Glühbirne",
+        "ja-JP": "電球",
+        "ko-KR": "전구",
+        "es-ES": "Bombilla",
+        "pt-BR": "Lâmpada"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:brightness:00000008",
+        "urn:homekit-spec:property:hue:00000013",
+        "urn:homekit-spec:property:saturation:0000002F",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "lock-management": {
+      "code": "lock-management",
+      "value": 68,
+      "description": {
+        "en-US": "Lock Management",
+        "zh-CN": "锁管理",
+        "fr-FR": "Gestion de la serrure",
+        "de-DE": "Schlossverwaltung",
+        "ja-JP": "ロック管理",
+        "ko-KR": "잠금 관리",
+        "es-ES": "Gestión de cerradura",
+        "pt-BR": "Gerenciamento da fechadura"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:lock-control-point:00000019",
+        "urn:homekit-spec:property:version:00000037"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:logs:0000001F",
+        "urn:homekit-spec:property:audio-feedback:00000005",
+        "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
+        "urn:homekit-spec:property:administrator-only-access:00000001",
+        "urn:homekit-spec:property:lock-last-known-action:0000001C",
+        "urn:homekit-spec:property:current-door-state:0000000E",
+        "urn:homekit-spec:property:motion-detected:00000022",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "lock-mechanism": {
+      "code": "lock-mechanism",
+      "value": 69,
+      "description": {
+        "en-US": "Lock Mechanism",
+        "zh-CN": "锁机制",
+        "fr-FR": "Mécanisme de verrouillage",
+        "de-DE": "Schlossmechanismus",
+        "ja-JP": "ロック機構",
+        "ko-KR": "잠금 메커니즘",
+        "es-ES": "Mecanismo de cerradura",
+        "pt-BR": "Mecanismo da fechadura"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:lock-current-state:0000001D",
+        "urn:homekit-spec:property:lock-target-state:0000001E"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "microphone": {
+      "code": "microphone",
+      "value": 274,
+      "description": {
+        "en-US": "Microphone",
+        "zh-CN": "麦克风",
+        "fr-FR": "Microphone",
+        "de-DE": "Mikrofon",
+        "ja-JP": "マイク",
+        "ko-KR": "마이크",
+        "es-ES": "Micrófono",
+        "pt-BR": "Microfone"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:volume:00000119",
+        "urn:homekit-spec:property:mute:0000011A"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "motion-sensor": {
+      "code": "motion-sensor",
+      "value": 133,
+      "description": {
+        "en-US": "Motion Sensor",
+        "zh-CN": "运动传感器",
+        "fr-FR": "Capteur de mouvement",
+        "de-DE": "Bewegungssensor",
+        "ja-JP": "動体センサー",
+        "ko-KR": "움직임 센서",
+        "es-ES": "Sensor de movimiento",
+        "pt-BR": "Sensor de movimento"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:motion-detected:00000022"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "occupancy-sensor": {
+      "code": "occupancy-sensor",
+      "value": 134,
+      "description": {
+        "en-US": "Occupancy Sensor",
+        "zh-CN": "占用传感器",
+        "fr-FR": "Capteur de présence",
+        "de-DE": "Anwesenheitssensor",
+        "ja-JP": "人在センサー",
+        "ko-KR": "재실 센서",
+        "es-ES": "Sensor de ocupación",
+        "pt-BR": "Sensor de ocupação"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:occupancy-detected:00000071"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079"
+      ],
+      "lifecycle": "released"
+    },
+    "outlet": {
+      "code": "outlet",
+      "value": 71,
+      "description": {
+        "en-US": "Outlet",
+        "zh-CN": "插座",
+        "fr-FR": "Prise",
+        "de-DE": "Steckdose",
+        "ja-JP": "コンセント",
+        "ko-KR": "콘센트",
+        "es-ES": "Enchufe",
+        "pt-BR": "Tomada"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:on:00000025",
+        "urn:homekit-spec:property:outlet-in-use:00000026"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "security-system": {
+      "code": "security-system",
+      "value": 126,
+      "description": {
+        "en-US": "Security System",
+        "zh-CN": "安全系统",
+        "fr-FR": "Système de sécurité",
+        "de-DE": "Sicherheitssystem",
+        "ja-JP": "セキュリティシステム",
+        "ko-KR": "보안 시스템",
+        "es-ES": "Sistema de seguridad",
+        "pt-BR": "Sistema de segurança"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:security-system-current-state:00000066",
+        "urn:homekit-spec:property:security-system-target-state:00000067"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:security-system-alarm-type:0000008E",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "service-label": {
+      "code": "service-label",
+      "value": 204,
+      "description": {
+        "en-US": "Service Label",
+        "zh-CN": "服务标签",
+        "fr-FR": "Étiquette de service",
+        "de-DE": "Dienstkennzeichnung",
+        "ja-JP": "サービスラベル",
+        "ko-KR": "서비스 레이블",
+        "es-ES": "Etiqueta de servicio",
+        "pt-BR": "Etiqueta de serviço"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:service-label-namespace:000000CD"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "slat": {
+      "code": "slat",
+      "value": 185,
+      "description": {
+        "en-US": "Slat",
+        "zh-CN": "百叶窗叶片",
+        "fr-FR": "Lamelle",
+        "de-DE": "Lamelle",
+        "ja-JP": "スラット",
+        "ko-KR": "슬랫",
+        "es-ES": "Lama",
+        "pt-BR": "Lâmina"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:slat-type:000000C0",
+        "urn:homekit-spec:property:current-slat-state:000000AA"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:current-tilt-angle:000000C1",
+        "urn:homekit-spec:property:target-tilt-angle:000000C2",
+        "urn:homekit-spec:property:swing-mode:000000B6"
+      ],
+      "lifecycle": "released"
+    },
+    "smoke-sensor": {
+      "code": "smoke-sensor",
+      "value": 135,
+      "description": {
+        "en-US": "Smoke Sensor",
+        "zh-CN": "烟雾传感器",
+        "fr-FR": "Capteur de fumée",
+        "de-DE": "Rauchsensor",
+        "ja-JP": "煙センサー",
+        "ko-KR": "연기 센서",
+        "es-ES": "Sensor de humo",
+        "pt-BR": "Sensor de fumaça"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:smoke-detected:00000076"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "speaker": {
+      "code": "speaker",
+      "value": 275,
+      "description": {
+        "en-US": "Speaker",
+        "zh-CN": "扬声器",
+        "fr-FR": "Haut-parleur",
+        "de-DE": "Lautsprecher",
+        "ja-JP": "スピーカー",
+        "ko-KR": "스피커",
+        "es-ES": "Altavoz",
+        "pt-BR": "Alto-falante"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:mute:0000011A"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:volume:00000119"
+      ],
+      "lifecycle": "released"
+    },
+    "stateless-programmable-switch": {
+      "code": "stateless-programmable-switch",
+      "value": 137,
+      "description": {
+        "en-US": "Stateless Programmable Switch",
+        "zh-CN": "无状态可编程开关",
+        "fr-FR": "Interrupteur programmable sans état",
+        "de-DE": "Zustandsloser programmierbarer Schalter",
+        "ja-JP": "ステートレスプログラマブルスイッチ",
+        "ko-KR": "무상태 프로그래밍 가능 스위치",
+        "es-ES": "Interruptor programable sin estado",
+        "pt-BR": "Interruptor programável sem estado"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:programmable-switch-event:00000073"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:service-label-index:000000CB"
+      ],
+      "lifecycle": "released"
+    },
+    "switch": {
+      "code": "switch",
+      "value": 73,
+      "description": {
+        "en-US": "Switch",
+        "zh-CN": "开关",
+        "fr-FR": "Interrupteur",
+        "de-DE": "Schalter",
+        "ja-JP": "スイッチ",
+        "ko-KR": "스위치",
+        "es-ES": "Interruptor",
+        "pt-BR": "Interruptor"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:on:00000025"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "temperature-sensor": {
+      "code": "temperature-sensor",
+      "value": 138,
+      "description": {
+        "en-US": "Temperature Sensor",
+        "zh-CN": "温度传感器",
+        "fr-FR": "Capteur de température",
+        "de-DE": "Temperatursensor",
+        "ja-JP": "温度センサー",
+        "ko-KR": "온도 센서",
+        "es-ES": "Sensor de temperatura",
+        "pt-BR": "Sensor de temperatura"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-temperature:00000011"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:status-active:00000075",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:status-low-battery:00000079",
+        "urn:homekit-spec:property:status-tampered:0000007A",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "thermostat": {
+      "code": "thermostat",
+      "value": 74,
+      "description": {
+        "en-US": "Thermostat",
+        "zh-CN": "恒温器",
+        "fr-FR": "Thermostat",
+        "de-DE": "Thermostat",
+        "ja-JP": "サーモスタット",
+        "ko-KR": "온도 조절기",
+        "es-ES": "Termostato",
+        "pt-BR": "Termostato"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
+        "urn:homekit-spec:property:target-heating-cooling-state:00000033",
+        "urn:homekit-spec:property:current-temperature:00000011",
+        "urn:homekit-spec:property:target-temperature:00000035",
+        "urn:homekit-spec:property:temperature-display-units:00000036"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:current-relative-humidity:00000010",
+        "urn:homekit-spec:property:target-relative-humidity:00000034",
+        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "valve": {
+      "code": "valve",
+      "value": 208,
+      "description": {
+        "en-US": "Valve",
+        "zh-CN": "阀门",
+        "fr-FR": "Vanne",
+        "de-DE": "Ventil",
+        "ja-JP": "バルブ",
+        "ko-KR": "밸브",
+        "es-ES": "Válvula",
+        "pt-BR": "Válvula"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:active:000000B0",
+        "urn:homekit-spec:property:in-use:000000D2",
+        "urn:homekit-spec:property:valve-type:000000D5"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:set-duration:000000D3",
+        "urn:homekit-spec:property:remaining-duration:000000D4",
+        "urn:homekit-spec:property:is-configured:000000D6",
+        "urn:homekit-spec:property:service-label-index:000000CB",
+        "urn:homekit-spec:property:status-fault:00000077",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "window-covering": {
+      "code": "window-covering",
+      "value": 140,
+      "description": {
+        "en-US": "Window Covering",
+        "zh-CN": "窗帘",
+        "fr-FR": "Couverture de fenêtre",
+        "de-DE": "Fensterabdeckung",
+        "ja-JP": "窓覆い",
+        "ko-KR": "윈도우 커버링",
+        "es-ES": "Cubierta de ventana",
+        "pt-BR": "Persiana"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-position:0000006D",
+        "urn:homekit-spec:property:target-position:0000007C",
+        "urn:homekit-spec:property:position-state:00000072"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:hold-position:0000006F",
+        "urn:homekit-spec:property:target-horizontal-tilt-angle:0000007B",
+        "urn:homekit-spec:property:target-vertical-tilt-angle:0000007D",
+        "urn:homekit-spec:property:current-horizontal-tilt-angle:0000006C",
+        "urn:homekit-spec:property:current-vertical-tilt-angle:0000006E",
+        "urn:homekit-spec:property:obstruction-detected:00000024",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    },
+    "window": {
+      "code": "window",
+      "value": 139,
+      "description": {
+        "en-US": "Window",
+        "zh-CN": "窗户",
+        "fr-FR": "Fenêtre",
+        "de-DE": "Fenster",
+        "ja-JP": "窓",
+        "ko-KR": "창문",
+        "es-ES": "Ventana",
+        "pt-BR": "Janela"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:current-position:0000006D",
+        "urn:homekit-spec:property:target-position:0000007C",
+        "urn:homekit-spec:property:position-state:00000072"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:hold-position:0000006F",
+        "urn:homekit-spec:property:obstruction-detected:00000024",
+        "urn:homekit-spec:property:name:00000023"
+      ],
+      "lifecycle": "released"
+    }
+  },
+  "formats": {
+    "bool": {
+      "code": "bool",
+      "value": 0,
+      "description": {
+        "en-US": "bool",
+        "zh-CN": "布尔",
+        "fr-FR": "booléen",
+        "de-DE": "Boolean",
+        "ja-JP": "ブール",
+        "ko-KR": "부울",
+        "es-ES": "booleano",
+        "pt-BR": "booleano"
+      },
+      "lifecycle": "released"
+    },
+    "float": {
+      "code": "float",
+      "value": 1,
+      "description": {
+        "en-US": "float",
+        "zh-CN": "浮点数",
+        "fr-FR": "flottant",
+        "de-DE": "Fließkommazahl",
+        "ja-JP": "浮動小数点",
+        "ko-KR": "부동 소수점",
+        "es-ES": "flotante",
+        "pt-BR": "ponto flutuante"
+      },
+      "lifecycle": "released"
+    },
+    "int32": {
+      "code": "int32",
+      "value": 2,
+      "description": {
+        "en-US": "int32",
+        "zh-CN": "有符号 32 位整数",
+        "fr-FR": "int32",
+        "de-DE": "int32",
+        "ja-JP": "int32",
+        "ko-KR": "int32",
+        "es-ES": "int32",
+        "pt-BR": "int32"
+      },
+      "lifecycle": "released"
+    },
+    "string": {
+      "code": "string",
+      "value": 3,
+      "description": {
+        "en-US": "string",
+        "zh-CN": "字符串",
+        "fr-FR": "chaîne",
+        "de-DE": "Zeichenkette",
+        "ja-JP": "文字列",
+        "ko-KR": "문자열",
+        "es-ES": "cadena",
+        "pt-BR": "string"
+      },
+      "lifecycle": "released"
+    },
+    "tlv8": {
+      "code": "tlv8",
+      "value": 4,
+      "description": {
+        "en-US": "tlv8",
+        "zh-CN": "TLV8 格式",
+        "fr-FR": "tlv8",
+        "de-DE": "tlv8",
+        "ja-JP": "tlv8",
+        "ko-KR": "tlv8",
+        "es-ES": "tlv8",
+        "pt-BR": "tlv8"
+      },
+      "lifecycle": "released"
+    },
+    "uint32": {
+      "code": "uint32",
+      "value": 5,
+      "description": {
+        "en-US": "uint32",
+        "zh-CN": "无符号 32 位整数",
+        "fr-FR": "uint32",
+        "de-DE": "uint32",
+        "ja-JP": "uint32",
+        "ko-KR": "uint32",
+        "es-ES": "uint32",
+        "pt-BR": "uint32"
+      },
+      "lifecycle": "released"
+    },
+    "uint8": {
+      "code": "uint8",
+      "value": 6,
+      "description": {
+        "en-US": "uint8",
+        "zh-CN": "无符号 8 位整数",
+        "fr-FR": "uint8",
+        "de-DE": "uint8",
+        "ja-JP": "uint8",
+        "ko-KR": "uint8",
+        "es-ES": "uint8",
+        "pt-BR": "uint8"
+      },
+      "lifecycle": "released"
+    }
+  },
+  "units": {
+    "arcdegrees": {
+      "code": "arcdegrees",
+      "value": 0,
+      "description": {
+        "en-US": "arcdegrees",
+        "zh-CN": "角度",
+        "fr-FR": "degrés d'arc",
+        "de-DE": "Winkelgrad",
+        "ja-JP": "角度",
+        "ko-KR": "각도",
+        "es-ES": "grados de arco",
+        "pt-BR": "graus de arco"
+      },
+      "lifecycle": "released"
+    },
+    "celsius": {
+      "code": "celsius",
+      "value": 1,
+      "description": {
+        "en-US": "celsius",
+        "zh-CN": "摄氏度",
+        "fr-FR": "celsius",
+        "de-DE": "Celsius",
+        "ja-JP": "摂氏",
+        "ko-KR": "섭씨",
+        "es-ES": "celsius",
+        "pt-BR": "celsius"
+      },
+      "lifecycle": "released"
+    },
+    "lux": {
+      "code": "lux",
+      "value": 2,
+      "description": {
+        "en-US": "lux",
+        "zh-CN": "勒克斯",
+        "fr-FR": "lux",
+        "de-DE": "Lux",
+        "ja-JP": "ルクス",
+        "ko-KR": "럭스",
+        "es-ES": "lux",
+        "pt-BR": "lux"
+      },
+      "lifecycle": "released"
+    },
+    "percentage": {
+      "code": "percentage",
+      "value": 3,
+      "description": {
+        "en-US": "percentage",
+        "zh-CN": "百分比",
+        "fr-FR": "pourcentage",
+        "de-DE": "Prozentsatz",
+        "ja-JP": "パーセント",
+        "ko-KR": "백분율",
+        "es-ES": "porcentaje",
+        "pt-BR": "porcentagem"
+      },
+      "lifecycle": "released"
+    },
+    "seconds": {
+      "code": "seconds",
+      "value": 4,
+      "description": {
+        "en-US": "seconds",
+        "zh-CN": "秒",
+        "fr-FR": "secondes",
+        "de-DE": "Sekunden",
+        "ja-JP": "秒",
+        "ko-KR": "초",
+        "es-ES": "segundos",
+        "pt-BR": "segundos"
+      },
+      "lifecycle": "released"
+    }
+  }
+}

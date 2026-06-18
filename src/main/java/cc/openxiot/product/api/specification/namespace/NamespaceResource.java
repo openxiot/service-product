@@ -1,7 +1,5 @@
 package cc.openxiot.product.api.specification.namespace;
 
-import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionEntity;
-import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
 import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.prepared.SpecificationPrepared;
 import cc.openxiot.product.resource.AbstractResource;
@@ -129,9 +127,9 @@ public class NamespaceResource extends AbstractResource {
         try {
             List<NamespaceDefinition> list = service.findVisible(organization);
 
-            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            NamespaceDefinition homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
             if (homekit != null) {
-                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+                list.add(homekit);
             }
 
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
@@ -149,9 +147,9 @@ public class NamespaceResource extends AbstractResource {
         try {
             List<NamespaceDefinition> list = service.findPublic();
 
-            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            NamespaceDefinition homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
             if (homekit != null) {
-                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+                list.add(homekit);
             }
 
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
@@ -169,9 +167,9 @@ public class NamespaceResource extends AbstractResource {
         try {
             List<NamespaceDefinition> list = service.findAll();
 
-            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            NamespaceDefinition homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
             if (homekit != null) {
-                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+                list.add(homekit);
             }
 
             List<JsonObject> array = NamespaceDefinitionCodec.encode(list);

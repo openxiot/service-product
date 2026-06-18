@@ -1,14 +1,12 @@
 package cc.openxiot.product.db.specification.namespace;
 
-import cn.geekcity.xiot.spec.visibility.Visibility;
-
 import java.util.Map;
 
 public class NamespaceDefinitionEntity {
 
     public String organization;
 
-    public Visibility visibility;
+    public String visibility;
 
     public String code;
 

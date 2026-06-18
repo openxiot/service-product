@@ -1,15 +1,11 @@
 package cc.openxiot.product.db.specification.service;
 
-import cn.geekcity.xiot.spec.by.Creator;
-import cn.geekcity.xiot.spec.by.Updater;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
-
 import java.util.List;
 import java.util.Map;
 
 public class ServiceDefinitionEntity {
 
-    public Lifecycle lifecycle;
+    public String lifecycle;
 
     public String code;
 
@@ -28,8 +24,4 @@ public class ServiceDefinitionEntity {
     public List<String> optionalEvents;
 
     public List<String> requiredEvents;
-
-//    public Creator creator;
-//
-//    public Updater updater;
 }
