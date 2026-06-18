@@ -40,7 +40,7 @@ public class StatisticResource {
         logger.infov("get");
 
         long products = product.count();
-        long specifications = specification.count();
+        long specifications = specification.count() + 1; // add homekit-spec
         long templates = template.count();
         long organizations = Organization.count();
 

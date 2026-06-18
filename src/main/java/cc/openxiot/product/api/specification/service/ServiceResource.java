@@ -1,6 +1,7 @@
 package cc.openxiot.product.api.specification.service;
 
 import cc.openxiot.product.exception.OxException;
+import cc.openxiot.product.prepared.SpecificationPrepared;
 import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
@@ -32,6 +33,9 @@ public class ServiceResource extends AbstractResource {
     @Inject
     ServiceService service;
 
+    @Inject
+    SpecificationPrepared prepared;
+
     @POST
     @Path("/one")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
@@ -44,7 +48,7 @@ public class ServiceResource extends AbstractResource {
             service.add(ServiceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -60,7 +64,7 @@ public class ServiceResource extends AbstractResource {
             service.delete(ServiceType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -76,7 +80,7 @@ public class ServiceResource extends AbstractResource {
             service.update(ServiceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -95,7 +99,7 @@ public class ServiceResource extends AbstractResource {
                 return OxResponse.ok(ServiceDefinitionCodec.encode(def));
             }
         } catch (IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -110,7 +114,7 @@ public class ServiceResource extends AbstractResource {
             List<JsonObject> array = ServiceDefinitionCodec.encode(list);
             return OxResponse.ok(new JsonArray(array));
         } catch (IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 

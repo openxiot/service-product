@@ -23,5 +23,6 @@
         "urn:homekit-spec:property:current-vertical-tilt-angle:0000006E",
         "urn:homekit-spec:property:obstruction-detected:00000024",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

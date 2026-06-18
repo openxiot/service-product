@@ -22,5 +22,6 @@
         "urn:homekit-spec:property:service-label-index:000000CB",
         "urn:homekit-spec:property:status-fault:00000077",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

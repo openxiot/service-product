@@ -9,5 +9,6 @@
         "ko-KR": "\ubd80\uc6b8",
         "es-ES": "booleano",
         "pt-BR": "booleano"
-    }
+    },
+    "lifecycle": "released"
 }

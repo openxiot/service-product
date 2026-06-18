@@ -1,12 +1,10 @@
 package cc.openxiot.product.db.specification.service;
 
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.ServiceDefinition;
 import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 import cn.geekcity.xiot.spec.definition.urn.ServiceType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 

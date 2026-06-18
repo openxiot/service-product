@@ -9,5 +9,6 @@
         "ko-KR": "\uac01\ub3c4",
         "es-ES": "grados de arco",
         "pt-BR": "graus de arco"
-    }
+    },
+    "lifecycle": "released"
 }

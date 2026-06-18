@@ -9,5 +9,6 @@
         "ko-KR": "uint8",
         "es-ES": "uint8",
         "pt-BR": "uint8"
-    }
+    },
+    "lifecycle": "released"
 }

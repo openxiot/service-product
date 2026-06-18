@@ -43,5 +43,6 @@
                 "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

@@ -14,5 +14,6 @@
     "access": [
         "read",
         "write"
-    ]
+    ],
+    "lifecycle": "released"
 }

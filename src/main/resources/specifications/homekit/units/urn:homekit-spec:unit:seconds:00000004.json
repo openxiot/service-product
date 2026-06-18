@@ -9,5 +9,6 @@
         "ko-KR": "\ucd08",
         "es-ES": "segundos",
         "pt-BR": "segundos"
-    }
+    },
+    "lifecycle": "released"
 }

@@ -1,6 +1,9 @@
 package cc.openxiot.product.api.specification.namespace;
 
+import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionEntity;
+import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
 import cc.openxiot.product.exception.OxException;
+import cc.openxiot.product.prepared.SpecificationPrepared;
 import cc.openxiot.product.resource.AbstractResource;
 import cc.openxiot.product.response.OxResponse;
 import cc.openxiot.product.role.OxRole;
@@ -17,6 +20,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/spec/namespace")
@@ -31,6 +35,9 @@ public class NamespaceResource extends AbstractResource {
     @Inject
     NamespaceService service;
 
+    @Inject
+    SpecificationPrepared prepared;
+
     @POST
     @Path("/one")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
@@ -44,7 +51,7 @@ public class NamespaceResource extends AbstractResource {
 
             return OxResponse.created();
         } catch (IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -61,7 +68,7 @@ public class NamespaceResource extends AbstractResource {
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -77,7 +84,7 @@ public class NamespaceResource extends AbstractResource {
             service.update(NamespaceDefinitionCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -96,7 +103,7 @@ public class NamespaceResource extends AbstractResource {
                 return OxResponse.ok(NamespaceDefinitionCodec.encode(def));
             }
         } catch (IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -119,9 +126,19 @@ public class NamespaceResource extends AbstractResource {
     ) {
         logger.infov("getVisible: {0}", organization);
 
-        List<NamespaceDefinition> list = service.findVisible(organization);
-        List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<NamespaceDefinition> list = service.findVisible(organization);
+
+            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            if (homekit != null) {
+                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+            }
+
+            List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 
     @GET
@@ -129,9 +146,19 @@ public class NamespaceResource extends AbstractResource {
     public Response getPublic() {
         logger.infov("getPublic");
 
-        List<NamespaceDefinition> list = service.findPublic();
-        List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<NamespaceDefinition> list = service.findPublic();
+
+            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            if (homekit != null) {
+                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+            }
+
+            List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 
     @GET
@@ -139,8 +166,18 @@ public class NamespaceResource extends AbstractResource {
     public Response getAll() {
         logger.infov("getAll");
 
-        List<NamespaceDefinition> list = service.findAll();
-        List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
-        return OxResponse.ok(new JsonArray(array));
+        try {
+            List<NamespaceDefinition> list = service.findAll();
+
+            NamespaceDefinitionEntity homekit = prepared.getNamespaceDefinition(SpecificationPrepared.HOMEKIT_SPEC);
+            if (homekit != null) {
+                list.add(NamespaceDefinitionMapper.toDefinition(homekit));
+            }
+
+            List<JsonObject> array = NamespaceDefinitionCodec.encode(list);
+            return OxResponse.ok(new JsonArray(array));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }

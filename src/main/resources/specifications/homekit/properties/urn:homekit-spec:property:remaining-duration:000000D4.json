@@ -19,5 +19,6 @@
         0,
         3600,
         1
-    ]
+    ],
+    "lifecycle": "released"
 }

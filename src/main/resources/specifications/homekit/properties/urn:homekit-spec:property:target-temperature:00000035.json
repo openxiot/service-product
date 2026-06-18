@@ -21,5 +21,6 @@
         38,
         0.1
     ],
-    "unit": "celsius"
+    "unit": "celsius",
+    "lifecycle": "released"
 }

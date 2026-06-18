@@ -43,5 +43,6 @@
                 "pt-BR": "AUTO"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

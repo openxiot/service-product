@@ -1,6 +1,5 @@
 package cc.openxiot.product.db.specification.property;
 
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.codec.vertx.definition.ValueLengthCodec;
 import cn.geekcity.xiot.spec.codec.vertx.definition.ValueListCodec;
 import cn.geekcity.xiot.spec.codec.vertx.definition.ValueRangeCodec;
@@ -10,7 +9,6 @@ import cn.geekcity.xiot.spec.definition.property.ValueLength;
 import cn.geekcity.xiot.spec.definition.property.ValueList;
 import cn.geekcity.xiot.spec.definition.property.ValueRange;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import io.vertx.core.json.JsonArray;
 
 import java.util.List;

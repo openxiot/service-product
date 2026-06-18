@@ -9,5 +9,6 @@
         "ko-KR": "\uc12d\uc528",
         "es-ES": "celsius",
         "pt-BR": "celsius"
-    }
+    },
+    "lifecycle": "released"
 }

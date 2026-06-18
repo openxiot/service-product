@@ -24,5 +24,6 @@
         "urn:homekit-spec:property:heating-threshold-temperature:00000012",
         "urn:homekit-spec:property:temperature-display-units:00000036",
         "urn:homekit-spec:property:rotation-speed:00000029"
-    ]
+    ],
+    "lifecycle": "released"
 }

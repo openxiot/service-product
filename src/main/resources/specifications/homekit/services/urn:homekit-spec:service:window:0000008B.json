@@ -19,5 +19,6 @@
         "urn:homekit-spec:property:hold-position:0000006F",
         "urn:homekit-spec:property:obstruction-detected:00000024",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

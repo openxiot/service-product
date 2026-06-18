@@ -1,0 +1,89 @@
+{
+  "namespace": {
+    "code": "homekit-spec",
+    "description": {
+      "en-US": "HomeKit Accessory Specification",
+      "zh-CN": "HomeKit \u914d\u4ef6\u89c4\u8303",
+      "fr-FR": "Sp\u00e9cification des accessoires HomeKit",
+      "de-DE": "HomeKit-Zubeh\u00f6rspezifikation",
+      "ja-JP": "HomeKit \u30a2\u30af\u30bb\u30b5\u30ea\u4ed5\u69d8",
+      "ko-KR": "HomeKit \uc561\uc138\uc11c\ub9ac \uc0ac\uc591",
+      "es-ES": "Especificaci\u00f3n de accesorios HomeKit",
+      "pt-BR": "Especifica\u00e7\u00e3o de acess\u00f3rios HomeKit"
+    },
+    "organization": "openxiot",
+    "visibility": "public"
+  },
+  "actions": {
+  },
+  "events": {
+  },
+  "properties": {
+    "accessory-flags": {
+
+    }
+  },
+  "services": {
+    "accessory-information": {
+      "code": "accessory-information",
+      "value": 62,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "\u914d\u4ef6\u4fe1\u606f",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubeh\u00f6rinformationen",
+        "ja-JP": "\u30a2\u30af\u30bb\u30b5\u30ea\u60c5\u5831",
+        "ko-KR": "\uc561\uc138\uc11c\ub9ac \uc815\ubcf4",
+        "es-ES": "Informaci\u00f3n del accesorio",
+        "pt-BR": "Informa\u00e7\u00f5es do acess\u00f3rio"
+      },
+      "required-properties": [
+        "urn:homekit-spec:property:identify:00000014",
+        "urn:homekit-spec:property:manufacturer:00000020",
+        "urn:homekit-spec:property:model:00000021",
+        "urn:homekit-spec:property:name:00000023",
+        "urn:homekit-spec:property:serial-number:00000030",
+        "urn:homekit-spec:property:firmware-revision:00000052"
+      ],
+      "optional-properties": [
+        "urn:homekit-spec:property:hardware-revision:00000053",
+        "urn:homekit-spec:property:accessory-flags:000000A6"
+      ],
+      "lifecycle": "released"
+    }
+  },
+  "formats": {
+    "bool": {
+      "code": "bool",
+      "value": 0,
+      "description": {
+        "en-US": "bool",
+        "zh-CN": "\u5e03\u5c14",
+        "fr-FR": "bool\u00e9en",
+        "de-DE": "Boolean",
+        "ja-JP": "\u30d6\u30fc\u30eb",
+        "ko-KR": "\ubd80\uc6b8",
+        "es-ES": "booleano",
+        "pt-BR": "booleano"
+      },
+      "lifecycle": "released"
+    }
+  },
+  "units": {
+    "arcdegrees": {
+      "code": "arcdegrees",
+      "value": 0,
+      "description": {
+        "en-US": "arcdegrees",
+        "zh-CN": "\u89d2\u5ea6",
+        "fr-FR": "degr\u00e9s d'arc",
+        "de-DE": "Winkelgrad",
+        "ja-JP": "\u89d2\u5ea6",
+        "ko-KR": "\uac01\ub3c4",
+        "es-ES": "grados de arco",
+        "pt-BR": "graus de arco"
+      },
+      "lifecycle": "released"
+    }
+  }
+}

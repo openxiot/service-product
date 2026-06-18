@@ -19,5 +19,6 @@
         "urn:homekit-spec:property:status-fault:00000077",
         "urn:homekit-spec:property:status-tampered:0000007A",
         "urn:homekit-spec:property:status-low-battery:00000079"
-    ]
+    ],
+    "lifecycle": "released"
 }

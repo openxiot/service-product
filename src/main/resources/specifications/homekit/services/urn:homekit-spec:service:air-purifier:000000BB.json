@@ -20,5 +20,6 @@
         "urn:homekit-spec:property:name:00000023",
         "urn:homekit-spec:property:swing-mode:000000B6",
         "urn:homekit-spec:property:rotation-speed:00000029"
-    ]
+    ],
+    "lifecycle": "released"
 }

@@ -21,5 +21,6 @@
     "optional-properties": [
         "urn:homekit-spec:property:hardware-revision:00000053",
         "urn:homekit-spec:property:accessory-flags:000000A6"
-    ]
+    ],
+    "lifecycle": "released"
 }

@@ -1,9 +1,7 @@
 package cc.openxiot.product.db.specification.format;
 
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.FormatDefinition;
 import cn.geekcity.xiot.spec.definition.urn.FormatType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class FormatDefinitionMapper {
 

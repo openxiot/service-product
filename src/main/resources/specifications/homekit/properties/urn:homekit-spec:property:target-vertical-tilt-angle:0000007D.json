@@ -21,5 +21,6 @@
         90,
         1
     ],
-    "unit": "arcdegrees"
+    "unit": "arcdegrees",
+    "lifecycle": "released"
 }

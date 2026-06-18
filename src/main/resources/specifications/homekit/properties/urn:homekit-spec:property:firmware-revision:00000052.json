@@ -13,5 +13,6 @@
     "format": "string",
     "access": [
         "read"
-    ]
+    ],
+    "lifecycle": "released"
 }

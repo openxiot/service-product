@@ -63,7 +63,7 @@ public class ProductInstanceResource extends AbstractResource {
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -86,7 +86,7 @@ public class ProductInstanceResource extends AbstractResource {
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -106,7 +106,7 @@ public class ProductInstanceResource extends AbstractResource {
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -132,7 +132,7 @@ public class ProductInstanceResource extends AbstractResource {
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 

@@ -20,5 +20,6 @@
         100,
         1
     ],
-    "unit": "percentage"
+    "unit": "percentage",
+    "lifecycle": "released"
 }

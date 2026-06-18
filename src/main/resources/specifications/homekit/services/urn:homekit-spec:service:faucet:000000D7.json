@@ -16,5 +16,6 @@
     "optional-properties": [
         "urn:homekit-spec:property:name:00000023",
         "urn:homekit-spec:property:status-fault:00000077"
-    ]
+    ],
+    "lifecycle": "released"
 }

@@ -15,5 +15,6 @@
         "read",
         "write",
         "notify"
-    ]
+    ],
+    "lifecycle": "released"
 }

@@ -13,8 +13,4 @@ public class NamespaceDefinitionEntity {
     public String code;
 
     public Map<String, String> description;
-
-//    public Creator creator;
-//
-//    public Updater updater;
 }

@@ -20,5 +20,6 @@
         100000,
         1
     ],
-    "unit": "lux"
+    "unit": "lux",
+    "lifecycle": "released"
 }

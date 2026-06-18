@@ -13,5 +13,6 @@
     "format": "bool",
     "access": [
         "write"
-    ]
+    ],
+    "lifecycle": "released"
 }

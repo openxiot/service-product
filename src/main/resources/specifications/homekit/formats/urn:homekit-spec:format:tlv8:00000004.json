@@ -9,5 +9,6 @@
         "ko-KR": "tlv8",
         "es-ES": "tlv8",
         "pt-BR": "tlv8"
-    }
+    },
+    "lifecycle": "released"
 }

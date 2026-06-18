@@ -16,5 +16,6 @@
         "write",
         "notify"
     ],
-    "unit": "seconds"
+    "unit": "seconds",
+    "lifecycle": "released"
 }

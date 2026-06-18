@@ -1,9 +1,7 @@
 package cc.openxiot.product.db.specification.unit;
 
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.UnitDefinition;
 import cn.geekcity.xiot.spec.definition.urn.UnitType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 public class UnitDefinitionMapper {
 

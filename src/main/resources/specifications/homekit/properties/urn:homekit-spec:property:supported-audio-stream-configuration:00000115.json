@@ -13,5 +13,6 @@
     "format": "tlv8",
     "access": [
         "read"
-    ]
+    ],
+    "lifecycle": "released"
 }

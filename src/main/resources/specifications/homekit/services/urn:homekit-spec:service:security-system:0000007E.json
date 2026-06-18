@@ -19,5 +19,6 @@
         "urn:homekit-spec:property:status-tampered:0000007A",
         "urn:homekit-spec:property:security-system-alarm-type:0000008E",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

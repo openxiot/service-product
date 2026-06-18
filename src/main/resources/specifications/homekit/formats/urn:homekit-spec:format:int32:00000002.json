@@ -9,5 +9,6 @@
         "ko-KR": "int32",
         "es-ES": "int32",
         "pt-BR": "int32"
-    }
+    },
+    "lifecycle": "released"
 }

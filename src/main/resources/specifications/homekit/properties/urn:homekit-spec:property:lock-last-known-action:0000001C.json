@@ -133,5 +133,6 @@
                 "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURAN\u00c7A AUTOM\u00c1TICO"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

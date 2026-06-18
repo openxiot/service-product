@@ -69,5 +69,6 @@
                 "pt-BR": "DESARMAR"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

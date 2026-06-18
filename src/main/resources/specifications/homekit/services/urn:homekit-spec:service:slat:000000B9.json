@@ -19,5 +19,6 @@
         "urn:homekit-spec:property:current-tilt-angle:000000C1",
         "urn:homekit-spec:property:target-tilt-angle:000000C2",
         "urn:homekit-spec:property:swing-mode:000000B6"
-    ]
+    ],
+    "lifecycle": "released"
 }

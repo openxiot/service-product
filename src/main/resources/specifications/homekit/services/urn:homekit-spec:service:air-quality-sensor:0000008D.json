@@ -27,5 +27,6 @@
         "urn:homekit-spec:property:voc-density:000000C8",
         "urn:homekit-spec:property:carbon-monoxide-level:00000090",
         "urn:homekit-spec:property:carbon-dioxide-level:00000093"
-    ]
+    ],
+    "lifecycle": "released"
 }

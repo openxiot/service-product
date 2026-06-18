@@ -5,7 +5,6 @@ import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.specification.namespace.NamespaceDefinitionMapper;
 import cc.openxiot.product.exception.OxException;
 import cc.openxiot.product.resource.NamespacePermission;
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.NamespaceDefinition;
 import cn.geekcity.xiot.spec.visibility.Visibility;
 import jakarta.enterprise.context.ApplicationScoped;

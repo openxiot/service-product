@@ -44,7 +44,7 @@ public class TemplateResource extends AbstractResource {
             service.add(DeviceTemplateCodec.decode(item), this::checkManagerPermission);
             return OxResponse.created();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -60,7 +60,7 @@ public class TemplateResource extends AbstractResource {
             service.delete(DeviceType.parse(type), this::checkManagerPermission);
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -76,7 +76,7 @@ public class TemplateResource extends AbstractResource {
             service.update(DeviceTemplateCodec.decode(item), this::checkManagerPermission);
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 
@@ -95,7 +95,7 @@ public class TemplateResource extends AbstractResource {
                 return OxResponse.ok(DeviceTemplateCodec.encode(template));
             }
         } catch (IllegalArgumentException e) {
-            return OxResponse.error(e.getMessage());
+            return OxResponse.error(e);
         }
     }
 

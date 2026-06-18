@@ -43,5 +43,6 @@
                 "pt-BR": "FAHRENHEIT"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

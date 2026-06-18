@@ -23,5 +23,6 @@
         "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
         "urn:homekit-spec:property:heating-threshold-temperature:00000012",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

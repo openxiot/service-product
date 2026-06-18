@@ -24,5 +24,6 @@
         "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
         "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
         "urn:homekit-spec:property:rotation-speed:00000029"
-    ]
+    ],
+    "lifecycle": "released"
 }

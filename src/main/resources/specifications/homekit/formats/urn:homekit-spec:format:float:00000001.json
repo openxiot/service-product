@@ -9,5 +9,6 @@
         "ko-KR": "\ubd80\ub3d9 \uc18c\uc218\uc810",
         "es-ES": "flotante",
         "pt-BR": "ponto flutuante"
-    }
+    },
+    "lifecycle": "released"
 }

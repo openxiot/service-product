@@ -9,5 +9,6 @@
         "ko-KR": "\ubb38\uc790\uc5f4",
         "es-ES": "cadena",
         "pt-BR": "string"
-    }
+    },
+    "lifecycle": "released"
 }

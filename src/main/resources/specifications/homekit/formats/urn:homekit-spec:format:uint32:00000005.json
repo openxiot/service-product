@@ -9,5 +9,6 @@
         "ko-KR": "uint32",
         "es-ES": "uint32",
         "pt-BR": "uint32"
-    }
+    },
+    "lifecycle": "released"
 }

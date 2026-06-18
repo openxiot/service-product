@@ -14,5 +14,6 @@
     "access": [
         "read",
         "notify"
-    ]
+    ],
+    "lifecycle": "released"
 }

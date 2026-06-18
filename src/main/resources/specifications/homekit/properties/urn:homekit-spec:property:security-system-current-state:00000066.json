@@ -81,5 +81,6 @@
                 "pt-BR": "ALARME ACIONADO"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

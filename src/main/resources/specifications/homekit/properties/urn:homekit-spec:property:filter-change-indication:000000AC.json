@@ -42,5 +42,6 @@
                 "pt-BR": "TROCAR FILTRO"
             }
         }
-    ]
+    ],
+    "lifecycle": "released"
 }

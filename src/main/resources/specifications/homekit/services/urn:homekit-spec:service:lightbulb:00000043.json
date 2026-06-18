@@ -18,5 +18,6 @@
         "urn:homekit-spec:property:hue:00000013",
         "urn:homekit-spec:property:saturation:0000002F",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }

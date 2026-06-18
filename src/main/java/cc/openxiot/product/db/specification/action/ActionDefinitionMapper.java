@@ -1,11 +1,9 @@
 package cc.openxiot.product.db.specification.action;
 
-import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.definition.ActionDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.ActionType;
 import cn.geekcity.xiot.spec.definition.urn.PropertyType;
-import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 
 import java.util.List;
 

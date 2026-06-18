@@ -17,5 +17,6 @@
         "urn:homekit-spec:property:rotation-direction:00000028",
         "urn:homekit-spec:property:rotation-speed:00000029",
         "urn:homekit-spec:property:name:00000023"
-    ]
+    ],
+    "lifecycle": "released"
 }
