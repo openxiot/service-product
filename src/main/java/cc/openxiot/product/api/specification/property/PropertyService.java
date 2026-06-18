@@ -106,11 +106,13 @@ public class PropertyService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<PropertyDefinition<?>> properties = spec.properties.values().stream()
-                    .map(x -> PropertyDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .collect(Collectors.toList());
+            if (spec.properties !=null) {
+                List<PropertyDefinition<?>> properties = spec.properties.values().stream()
+                        .map(x -> PropertyDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .collect(Collectors.toList());
 
-            result.addAll(properties);
+                result.addAll(properties);
+            }
         }
 
         return result;

@@ -106,12 +106,14 @@ public class FormatService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<FormatDefinition> formats = spec.formats.values()
-                    .stream()
-                    .map(x -> FormatDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
+            if (spec.formats !=null) {
+                List<FormatDefinition> formats = spec.formats.values()
+                        .stream()
+                        .map(x -> FormatDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
 
-            result.addAll(formats);
+                result.addAll(formats);
+            }
         }
 
         return result;

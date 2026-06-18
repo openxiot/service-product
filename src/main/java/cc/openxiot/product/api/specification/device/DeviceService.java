@@ -106,12 +106,14 @@ public class DeviceService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<DeviceDefinition> devices = spec.devices.values()
-                    .stream()
-                    .map(x -> DeviceDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
+            if (spec.devices != null) {
+                List<DeviceDefinition> devices = spec.devices.values()
+                        .stream()
+                        .map(x -> DeviceDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
 
-            result.addAll(devices);
+                result.addAll(devices);
+            }
         }
 
         return result;

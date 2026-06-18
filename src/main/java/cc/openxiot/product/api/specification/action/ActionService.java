@@ -106,12 +106,13 @@ public class ActionService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<ActionDefinition> actions = spec.actions.values()
-                    .stream()
-                    .map(x -> ActionDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
-
-            result.addAll(actions);
+            if (spec.actions != null) {
+                List<ActionDefinition> actions = spec.actions.values()
+                        .stream()
+                        .map(x -> ActionDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
+                result.addAll(actions);
+            }
         }
 
         return result;

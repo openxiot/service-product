@@ -106,12 +106,14 @@ public class UnitService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<UnitDefinition> units = spec.units.values()
-                    .stream()
-                    .map(x -> UnitDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
+            if (spec.units !=null) {
+                List<UnitDefinition> units = spec.units.values()
+                        .stream()
+                        .map(x -> UnitDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
 
-            result.addAll(units);
+                result.addAll(units);
+            }
         }
 
         return result;

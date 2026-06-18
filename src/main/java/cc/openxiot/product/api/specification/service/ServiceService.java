@@ -105,12 +105,14 @@ public class ServiceService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<ServiceDefinition> services = spec.services.values()
-                    .stream()
-                    .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
+            if (spec.services !=null) {
+                List<ServiceDefinition> services = spec.services.values()
+                        .stream()
+                        .map(x -> ServiceDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
 
-            result.addAll(services);
+                result.addAll(services);
+            }
         }
 
         return result;

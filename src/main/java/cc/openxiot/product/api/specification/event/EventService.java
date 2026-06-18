@@ -106,12 +106,14 @@ public class EventService {
         List<SpecificationEntity> list = repository.listAll();
 
         for (SpecificationEntity spec : list) {
-            List<EventDefinition> events = spec.events.values()
-                    .stream()
-                    .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
-                    .toList();
+            if (spec.events !=null) {
+                List<EventDefinition> events = spec.events.values()
+                        .stream()
+                        .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .toList();
 
-            result.addAll(events);
+                result.addAll(events);
+            }
         }
 
         return result;
