@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:tag:0200",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Tag",
+        "zh-CN": "标签",
+        "fr-FR": "Etiquette",
+        "de-DE": "Tag",
+        "ja-JP": "タグ",
+        "ko-KR": "태그",
+        "es-ES": "Etiqueta",
+        "pt-BR": "Etiqueta"
+    }
+}

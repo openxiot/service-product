@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:blood-pressure:0380",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Blood Pressure",
+        "zh-CN": "血压计",
+        "fr-FR": "Tensiometre",
+        "de-DE": "Blutdruckmessgerat",
+        "ja-JP": "血圧計",
+        "ko-KR": "혈압계",
+        "es-ES": "Tensiometro",
+        "pt-BR": "Medidor de pressao arterial"
+    }
+}

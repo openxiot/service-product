@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:audio-receiver:00000023",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Audio Receiver",
+        "zh-CN": "音频接收器",
+        "fr-FR": "Recepteur audio",
+        "de-DE": "Audio-Empfanger",
+        "ja-JP": "オーディオレシーバー",
+        "ko-KR": "오디오 리시버",
+        "es-ES": "Receptor de audio",
+        "pt-BR": "Receptor de audio"
+    }
+}

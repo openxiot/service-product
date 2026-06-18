@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:lightbulb:00000005",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Lightbulb",
+        "zh-CN": "灯泡",
+        "fr-FR": "Ampoule",
+        "de-DE": "Glühbirne",
+        "ja-JP": "電球",
+        "ko-KR": "전구",
+        "es-ES": "Bombilla",
+        "pt-BR": "Lampada"
+    }
+}

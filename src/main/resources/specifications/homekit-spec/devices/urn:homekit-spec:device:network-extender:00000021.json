@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:network-extender:00000021",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Network Extender",
+        "zh-CN": "网络扩展器",
+        "fr-FR": "Extenseur reseau",
+        "de-DE": "Netzwerk-Extender",
+        "ja-JP": "ネットワークエクステンダー",
+        "ko-KR": "네트워크 익스텐더",
+        "es-ES": "Extensor de red",
+        "pt-BR": "Extensor de rede"
+    }
+}

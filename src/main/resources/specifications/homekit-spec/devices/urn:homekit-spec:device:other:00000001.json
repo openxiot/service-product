@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:other:00000001",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Other",
+        "zh-CN": "其他",
+        "fr-FR": "Autre",
+        "de-DE": "Andere",
+        "ja-JP": "その他",
+        "ko-KR": "기타",
+        "es-ES": "Otro",
+        "pt-BR": "Outro"
+    }
+}

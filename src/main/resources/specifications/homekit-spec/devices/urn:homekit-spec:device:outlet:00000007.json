@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:outlet:00000007",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Outlet",
+        "zh-CN": "插座",
+        "fr-FR": "Prise",
+        "de-DE": "Steckdose",
+        "ja-JP": "コンセント",
+        "ko-KR": "콘센트",
+        "es-ES": "Enchufe",
+        "pt-BR": "Tomada"
+    }
+}

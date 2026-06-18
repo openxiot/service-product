@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:clock:0100",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Clock",
+        "zh-CN": "时钟",
+        "fr-FR": "Horloge",
+        "de-DE": "Wecker",
+        "ja-JP": "時計",
+        "ko-KR": "시계",
+        "es-ES": "Reloj",
+        "pt-BR": "Relogio"
+    }
+}

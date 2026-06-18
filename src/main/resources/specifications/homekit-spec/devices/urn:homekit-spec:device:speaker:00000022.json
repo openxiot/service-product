@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:speaker:00000022",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Speaker",
+        "zh-CN": "扬声器",
+        "fr-FR": "Haut-parleur",
+        "de-DE": "Lautsprecher",
+        "ja-JP": "スピーカー",
+        "ko-KR": "스피커",
+        "es-ES": "Altavoz",
+        "pt-BR": "Alto-falante"
+    }
+}

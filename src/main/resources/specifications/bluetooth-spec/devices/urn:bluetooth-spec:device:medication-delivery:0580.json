@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:medication-delivery:0580",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Medication Delivery",
+        "zh-CN": "药物输送设备",
+        "fr-FR": "Dispositif d'administration de medicaments",
+        "de-DE": "Medikamentenabgabegerat",
+        "ja-JP": "薬剤送達装置",
+        "ko-KR": "약물 전달 장치",
+        "es-ES": "Dispositivo de administracion de medicamentos",
+        "pt-BR": "Dispositivo de administracao de medicamentos"
+    }
+}

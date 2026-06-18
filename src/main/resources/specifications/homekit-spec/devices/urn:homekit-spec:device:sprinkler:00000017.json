@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:sprinkler:00000017",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Sprinkler",
+        "zh-CN": "洒水器",
+        "fr-FR": "Arroseur",
+        "de-DE": "Sprinkler",
+        "ja-JP": "スプリンクラー",
+        "ko-KR": "스프링클러",
+        "es-ES": "Aspersor",
+        "pt-BR": "Aspersor"
+    }
+}

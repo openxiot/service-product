@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:fitness-machine:0D40",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Fitness Machine",
+        "zh-CN": "健身器材",
+        "fr-FR": "Machine de fitness",
+        "de-DE": "Fitnessgerat",
+        "ja-JP": "フィットネスマシン",
+        "ko-KR": "피트니스 머신",
+        "es-ES": "Maquina de fitness",
+        "pt-BR": "Maquina de fitness"
+    }
+}

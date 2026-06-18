@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:pulse-oximeter-fingertip:0D80",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Pulse Oximeter (Fingertip)",
+        "zh-CN": "脉搏血氧仪（指尖）",
+        "fr-FR": "Oxymetre de pouls (doigt)",
+        "de-DE": "Pulsoximeter (Fingerspitze)",
+        "ja-JP": "パルスオキシメータ（指先）",
+        "ko-KR": "맥박 산소 측정기(손가락 끝)",
+        "es-ES": "Oximetro de pulso (dedo)",
+        "pt-BR": "Oximetro de pulso (dedo)"
+    }
+}

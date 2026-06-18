@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:location-navigation-device:0D00",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Location & Navigation Device",
+        "zh-CN": "位置导航设备",
+        "fr-FR": "Dispositif de localisation et navigation",
+        "de-DE": "Standort- und Navigationsgerat",
+        "ja-JP": "位置情報・ナビゲーション機器",
+        "ko-KR": "위치 및 내비게이션 장치",
+        "es-ES": "Dispositivo de ubicacion y navegacion",
+        "pt-BR": "Dispositivo de localizacao e navegacao"
+    }
+}

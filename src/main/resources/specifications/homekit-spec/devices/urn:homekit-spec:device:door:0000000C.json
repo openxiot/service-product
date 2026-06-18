@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:door:0000000C",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Door",
+        "zh-CN": "门",
+        "fr-FR": "Porte",
+        "de-DE": "Tür",
+        "ja-JP": "ドア",
+        "ko-KR": "문",
+        "es-ES": "Puerta",
+        "pt-BR": "Porta"
+    }
+}

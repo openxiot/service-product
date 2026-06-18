@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:pulse-oximeter-wrist-worn:0DC0",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Pulse Oximeter (Wrist Worn)",
+        "zh-CN": "脉搏血氧仪（腕式）",
+        "fr-FR": "Oxymetre de pouls (poignet)",
+        "de-DE": "Pulsoximeter (Handgelenk)",
+        "ja-JP": "パルスオキシメータ（手首）",
+        "ko-KR": "맥박 산소 측정기(손목)",
+        "es-ES": "Oximetro de pulso (muneca)",
+        "pt-BR": "Oximetro de pulso (pulso)"
+    }
+}

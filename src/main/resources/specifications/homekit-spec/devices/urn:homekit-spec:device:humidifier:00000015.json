@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:humidifier:00000015",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Humidifier",
+        "zh-CN": "加湿器",
+        "fr-FR": "Humidificateur",
+        "de-DE": "Befeuchter",
+        "ja-JP": "加湿器",
+        "ko-KR": "가습기",
+        "es-ES": "Humidificador",
+        "pt-BR": "Umidificador"
+    }
+}

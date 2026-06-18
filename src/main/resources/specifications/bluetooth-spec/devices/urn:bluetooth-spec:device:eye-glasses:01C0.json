@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:eye-glasses:01C0",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Eye Glasses",
+        "zh-CN": "眼镜",
+        "fr-FR": "Lunettes",
+        "de-DE": "Brille",
+        "ja-JP": "メガネ",
+        "ko-KR": "안경",
+        "es-ES": "Gafas",
+        "pt-BR": "Oculos"
+    }
+}

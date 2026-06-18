@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:bridge:00000002",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Bridge",
+        "zh-CN": "桥接器",
+        "fr-FR": "Pont",
+        "de-DE": "Brucke",
+        "ja-JP": "ブリッジ",
+        "ko-KR": "브리지",
+        "es-ES": "Puente",
+        "pt-BR": "Ponte"
+    }
+}

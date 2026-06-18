@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:alarm-system:0000001A",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Alarm System",
+        "zh-CN": "警报系统",
+        "fr-FR": "Systeme d'alarme",
+        "de-DE": "Alarmanlage",
+        "ja-JP": "警報システム",
+        "ko-KR": "경보 시스템",
+        "es-ES": "Sistema de alarma",
+        "pt-BR": "Sistema de alarme"
+    }
+}

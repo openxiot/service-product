@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:media-player:0280",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Media Player",
+        "zh-CN": "媒体播放器",
+        "fr-FR": "Lecteur multimedia",
+        "de-DE": "Medienabspielgerat",
+        "ja-JP": "メディアプレーヤー",
+        "ko-KR": "미디어 플레이어",
+        "es-ES": "Reproductor multimedia",
+        "pt-BR": "Reprodutor de midia"
+    }
+}

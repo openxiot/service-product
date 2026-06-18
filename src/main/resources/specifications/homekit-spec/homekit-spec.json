@@ -14,7 +14,548 @@
     "organization": "openxiot",
     "visibility": "public"
   },
-  "devices": {},
+  "devices": {
+    "air-conditioner": {
+      "code": "air-conditioner",
+      "value": 20,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Air Conditioner",
+        "zh-CN": "空调",
+        "fr-FR": "Climatiseur",
+        "de-DE": "Klimagerat",
+        "ja-JP": "エアコン",
+        "ko-KR": "에어컨",
+        "es-ES": "Aire acondicionado",
+        "pt-BR": "Ar condicionado"
+      }
+    },
+    "air-purifier": {
+      "code": "air-purifier",
+      "value": 18,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Air Purifier",
+        "zh-CN": "空气净化器",
+        "fr-FR": "Purificateur d'air",
+        "de-DE": "Luftreiniger",
+        "ja-JP": "空気清浄機",
+        "ko-KR": "공기 청정기",
+        "es-ES": "Purificador de aire",
+        "pt-BR": "Purificador de ar"
+      }
+    },
+    "airplay-receiver": {
+      "code": "airplay-receiver",
+      "value": 36,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "AirPlay Receiver",
+        "zh-CN": "AirPlay 接收器",
+        "fr-FR": "Recepteur AirPlay",
+        "de-DE": "AirPlay-Empfanger",
+        "ja-JP": "AirPlayレシーバー",
+        "ko-KR": "AirPlay 리시버",
+        "es-ES": "Receptor AirPlay",
+        "pt-BR": "Receptor AirPlay"
+      }
+    },
+    "alarm-system": {
+      "code": "alarm-system",
+      "value": 26,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Alarm System",
+        "zh-CN": "警报系统",
+        "fr-FR": "Systeme d'alarme",
+        "de-DE": "Alarmanlage",
+        "ja-JP": "警報システム",
+        "ko-KR": "경보 시스템",
+        "es-ES": "Sistema de alarma",
+        "pt-BR": "Sistema de alarme"
+      }
+    },
+    "apple-tv": {
+      "code": "apple-tv",
+      "value": 27,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Apple TV",
+        "zh-CN": "Apple TV",
+        "fr-FR": "Apple TV",
+        "de-DE": "Apple TV",
+        "ja-JP": "Apple TV",
+        "ko-KR": "Apple TV",
+        "es-ES": "Apple TV",
+        "pt-BR": "Apple TV"
+      }
+    },
+    "apple-watch": {
+      "code": "apple-watch",
+      "value": 29,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Apple Watch",
+        "zh-CN": "Apple Watch",
+        "fr-FR": "Apple Watch",
+        "de-DE": "Apple Watch",
+        "ja-JP": "Apple Watch",
+        "ko-KR": "Apple Watch",
+        "es-ES": "Apple Watch",
+        "pt-BR": "Apple Watch"
+      }
+    },
+    "audio-receiver": {
+      "code": "audio-receiver",
+      "value": 35,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Audio Receiver",
+        "zh-CN": "音频接收器",
+        "fr-FR": "Recepteur audio",
+        "de-DE": "Audio-Empfanger",
+        "ja-JP": "オーディオレシーバー",
+        "ko-KR": "오디오 리시버",
+        "es-ES": "Receptor de audio",
+        "pt-BR": "Receptor de audio"
+      }
+    },
+    "bridge": {
+      "code": "bridge",
+      "value": 2,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Bridge",
+        "zh-CN": "桥接器",
+        "fr-FR": "Pont",
+        "de-DE": "Brucke",
+        "ja-JP": "ブリッジ",
+        "ko-KR": "브리지",
+        "es-ES": "Puente",
+        "pt-BR": "Ponte"
+      }
+    },
+    "dehumidifier": {
+      "code": "dehumidifier",
+      "value": 22,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Dehumidifier",
+        "zh-CN": "除湿器",
+        "fr-FR": "Deshumidificateur",
+        "de-DE": "Entfeuchter",
+        "ja-JP": "除湿器",
+        "ko-KR": "제습기",
+        "es-ES": "Deshumidificador",
+        "pt-BR": "Desumidificador"
+      }
+    },
+    "door-lock": {
+      "code": "door-lock",
+      "value": 6,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Door Lock",
+        "zh-CN": "门锁",
+        "fr-FR": "Serrure de porte",
+        "de-DE": "Türschloss",
+        "ja-JP": "ドアロック",
+        "ko-KR": "도어 잠금",
+        "es-ES": "Cerradura de puerta",
+        "pt-BR": "Fechadura"
+      }
+    },
+    "door": {
+      "code": "door",
+      "value": 12,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Door",
+        "zh-CN": "门",
+        "fr-FR": "Porte",
+        "de-DE": "Tür",
+        "ja-JP": "ドア",
+        "ko-KR": "문",
+        "es-ES": "Puerta",
+        "pt-BR": "Porta"
+      }
+    },
+    "fan": {
+      "code": "fan",
+      "value": 3,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Fan",
+        "zh-CN": "风扇",
+        "fr-FR": "Ventilateur",
+        "de-DE": "Lüfter",
+        "ja-JP": "ファン",
+        "ko-KR": "팬",
+        "es-ES": "Ventilador",
+        "pt-BR": "Ventilador"
+      }
+    },
+    "faucet": {
+      "code": "faucet",
+      "value": 24,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Faucet",
+        "zh-CN": "水龙头",
+        "fr-FR": "Robinet",
+        "de-DE": "Wasserhahn",
+        "ja-JP": "蛇口",
+        "ko-KR": "수도꼭지",
+        "es-ES": "Grifo",
+        "pt-BR": "Torneira"
+      }
+    },
+    "garage-door-opener": {
+      "code": "garage-door-opener",
+      "value": 4,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Garage Door Opener",
+        "zh-CN": "车库门",
+        "fr-FR": "Ouvre-porte de garage",
+        "de-DE": "Garagentoroffner",
+        "ja-JP": "ガレージドア開閉器",
+        "ko-KR": "차고 문 개폐기",
+        "es-ES": "Abrepuertas de garaje",
+        "pt-BR": "Abre-porta de garagem"
+      }
+    },
+    "heater": {
+      "code": "heater",
+      "value": 19,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Heater",
+        "zh-CN": "加热器",
+        "fr-FR": "Chauffage",
+        "de-DE": "Heizung",
+        "ja-JP": "ヒーター",
+        "ko-KR": "히터",
+        "es-ES": "Calefactor",
+        "pt-BR": "Aquecedor"
+      }
+    },
+    "homepod": {
+      "code": "homepod",
+      "value": 28,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "HomePod",
+        "zh-CN": "HomePod",
+        "fr-FR": "HomePod",
+        "de-DE": "HomePod",
+        "ja-JP": "HomePod",
+        "ko-KR": "HomePod",
+        "es-ES": "HomePod",
+        "pt-BR": "HomePod"
+      }
+    },
+    "humidifier": {
+      "code": "humidifier",
+      "value": 21,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Humidifier",
+        "zh-CN": "加湿器",
+        "fr-FR": "Humidificateur",
+        "de-DE": "Befeuchter",
+        "ja-JP": "加湿器",
+        "ko-KR": "가습기",
+        "es-ES": "Humidificador",
+        "pt-BR": "Umidificador"
+      }
+    },
+    "ip-camera": {
+      "code": "ip-camera",
+      "value": 16,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "IP Camera",
+        "zh-CN": "IP 摄像头",
+        "fr-FR": "Camera IP",
+        "de-DE": "IP-Kamera",
+        "ja-JP": "IPカメラ",
+        "ko-KR": "IP 카메라",
+        "es-ES": "Camara IP",
+        "pt-BR": "Camera IP"
+      }
+    },
+    "lightbulb": {
+      "code": "lightbulb",
+      "value": 5,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Lightbulb",
+        "zh-CN": "灯泡",
+        "fr-FR": "Ampoule",
+        "de-DE": "Glühbirne",
+        "ja-JP": "電球",
+        "ko-KR": "전구",
+        "es-ES": "Bombilla",
+        "pt-BR": "Lampada"
+      }
+    },
+    "network-extender": {
+      "code": "network-extender",
+      "value": 33,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Network Extender",
+        "zh-CN": "网络扩展器",
+        "fr-FR": "Extenseur reseau",
+        "de-DE": "Netzwerk-Extender",
+        "ja-JP": "ネットワークエクステンダー",
+        "ko-KR": "네트워크 익스텐더",
+        "es-ES": "Extensor de red",
+        "pt-BR": "Extensor de rede"
+      }
+    },
+    "other": {
+      "code": "other",
+      "value": 1,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Other",
+        "zh-CN": "其他",
+        "fr-FR": "Autre",
+        "de-DE": "Andere",
+        "ja-JP": "その他",
+        "ko-KR": "기타",
+        "es-ES": "Otro",
+        "pt-BR": "Outro"
+      }
+    },
+    "outlet": {
+      "code": "outlet",
+      "value": 7,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Outlet",
+        "zh-CN": "插座",
+        "fr-FR": "Prise",
+        "de-DE": "Steckdose",
+        "ja-JP": "コンセント",
+        "ko-KR": "콘센트",
+        "es-ES": "Enchufe",
+        "pt-BR": "Tomada"
+      }
+    },
+    "programmable-switch": {
+      "code": "programmable-switch",
+      "value": 15,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Programmable Switch",
+        "zh-CN": "可编程开关",
+        "fr-FR": "Interrupteur programmable",
+        "de-DE": "Programmierbarer Schalter",
+        "ja-JP": "プログラマブルスイッチ",
+        "ko-KR": "프로그래밍 가능 스위치",
+        "es-ES": "Interruptor programable",
+        "pt-BR": "Interruptor programavel"
+      }
+    },
+    "remote": {
+      "code": "remote",
+      "value": 31,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Remote",
+        "zh-CN": "遥控器",
+        "fr-FR": "Telecommande",
+        "de-DE": "Fernbedienung",
+        "ja-JP": "リモコン",
+        "ko-KR": "리모컨",
+        "es-ES": "Control remoto",
+        "pt-BR": "Controle remoto"
+      }
+    },
+    "router": {
+      "code": "router",
+      "value": 32,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Router",
+        "zh-CN": "路由器",
+        "fr-FR": "Routeur",
+        "de-DE": "Router",
+        "ja-JP": "ルーター",
+        "ko-KR": "라우터",
+        "es-ES": "Enrutador",
+        "pt-BR": "Roteador"
+      }
+    },
+    "security-system": {
+      "code": "security-system",
+      "value": 11,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Security System",
+        "zh-CN": "安全系统",
+        "fr-FR": "Systeme de securite",
+        "de-DE": "Sicherheitssystem",
+        "ja-JP": "セキュリティシステム",
+        "ko-KR": "보안 시스템",
+        "es-ES": "Sistema de seguridad",
+        "pt-BR": "Sistema de seguranca"
+      }
+    },
+    "sensor": {
+      "code": "sensor",
+      "value": 10,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Sensor",
+        "zh-CN": "传感器",
+        "fr-FR": "Capteur",
+        "de-DE": "Sensor",
+        "ja-JP": "センサー",
+        "ko-KR": "센서",
+        "es-ES": "Sensor",
+        "pt-BR": "Sensor"
+      }
+    },
+    "shower-head": {
+      "code": "shower-head",
+      "value": 25,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Shower Head",
+        "zh-CN": "花洒",
+        "fr-FR": "Pomme de douche",
+        "de-DE": "Duschkopf",
+        "ja-JP": "シャワーヘッド",
+        "ko-KR": "샤워 헤드",
+        "es-ES": "Ducha",
+        "pt-BR": "Chuveiro"
+      }
+    },
+    "speaker": {
+      "code": "speaker",
+      "value": 34,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Speaker",
+        "zh-CN": "扬声器",
+        "fr-FR": "Haut-parleur",
+        "de-DE": "Lautsprecher",
+        "ja-JP": "スピーカー",
+        "ko-KR": "스피커",
+        "es-ES": "Altavoz",
+        "pt-BR": "Alto-falante"
+      }
+    },
+    "sprinkler": {
+      "code": "sprinkler",
+      "value": 23,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Sprinkler",
+        "zh-CN": "洒水器",
+        "fr-FR": "Arroseur",
+        "de-DE": "Sprinkler",
+        "ja-JP": "スプリンクラー",
+        "ko-KR": "스프링클러",
+        "es-ES": "Aspersor",
+        "pt-BR": "Aspersor"
+      }
+    },
+    "switch": {
+      "code": "switch",
+      "value": 8,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Switch",
+        "zh-CN": "开关",
+        "fr-FR": "Interrupteur",
+        "de-DE": "Schalter",
+        "ja-JP": "スイッチ",
+        "ko-KR": "스위치",
+        "es-ES": "Interruptor",
+        "pt-BR": "Interruptor"
+      }
+    },
+    "television": {
+      "code": "television",
+      "value": 30,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Television",
+        "zh-CN": "电视",
+        "fr-FR": "Television",
+        "de-DE": "Fernseher",
+        "ja-JP": "テレビ",
+        "ko-KR": "텔레비전",
+        "es-ES": "Television",
+        "pt-BR": "Televisao"
+      }
+    },
+    "thermostat": {
+      "code": "thermostat",
+      "value": 9,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Thermostat",
+        "zh-CN": "恒温器",
+        "fr-FR": "Thermostat",
+        "de-DE": "Thermostat",
+        "ja-JP": "サーモスタット",
+        "ko-KR": "온도 조절기",
+        "es-ES": "Termostato",
+        "pt-BR": "Termostato"
+      }
+    },
+    "video-doorbell": {
+      "code": "video-doorbell",
+      "value": 17,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Video Doorbell",
+        "zh-CN": "可视门铃",
+        "fr-FR": "Sonnette video",
+        "de-DE": "Video-Türklingel",
+        "ja-JP": "ビデオドアベル",
+        "ko-KR": "비디오 초인종",
+        "es-ES": "Timbre con video",
+        "pt-BR": "Campainha com video"
+      }
+    },
+    "window-covering": {
+      "code": "window-covering",
+      "value": 14,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Window Covering",
+        "zh-CN": "窗帘",
+        "fr-FR": "Couverture de fenetre",
+        "de-DE": "Fensterabdeckung",
+        "ja-JP": "窓覆い",
+        "ko-KR": "윈도우 커버링",
+        "es-ES": "Cubierta de ventana",
+        "pt-BR": "Persiana"
+      }
+    },
+    "window": {
+      "code": "window",
+      "value": 13,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Window",
+        "zh-CN": "窗户",
+        "fr-FR": "Fenetre",
+        "de-DE": "Fenster",
+        "ja-JP": "窓",
+        "ko-KR": "창문",
+        "es-ES": "Ventana",
+        "pt-BR": "Janela"
+      }
+    }
+  },
   "actions": {},
   "events": {},
   "properties": {

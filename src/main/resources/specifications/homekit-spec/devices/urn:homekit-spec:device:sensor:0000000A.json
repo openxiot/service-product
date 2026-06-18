@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:sensor:0000000A",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Sensor",
+        "zh-CN": "传感器",
+        "fr-FR": "Capteur",
+        "de-DE": "Sensor",
+        "ja-JP": "センサー",
+        "ko-KR": "센서",
+        "es-ES": "Sensor",
+        "pt-BR": "Sensor"
+    }
+}

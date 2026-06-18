@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:window-covering:0000000E",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Window Covering",
+        "zh-CN": "窗帘",
+        "fr-FR": "Couverture de fenetre",
+        "de-DE": "Fensterabdeckung",
+        "ja-JP": "窓覆い",
+        "ko-KR": "윈도우 커버링",
+        "es-ES": "Cubierta de ventana",
+        "pt-BR": "Persiana"
+    }
+}

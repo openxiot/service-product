@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:generic-cycling:14C0",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Generic Cycling",
+        "zh-CN": "骑行",
+        "fr-FR": "Cyclisme generique",
+        "de-DE": "Radfahren",
+        "ja-JP": "サイクリング",
+        "ko-KR": "사이클링",
+        "es-ES": "Ciclismo",
+        "pt-BR": "Ciclismo"
+    }
+}

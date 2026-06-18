@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:programmable-switch:0000000F",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Programmable Switch",
+        "zh-CN": "可编程开关",
+        "fr-FR": "Interrupteur programmable",
+        "de-DE": "Programmierbarer Schalter",
+        "ja-JP": "プログラマブルスイッチ",
+        "ko-KR": "프로그래밍 가능 스위치",
+        "es-ES": "Interruptor programable",
+        "pt-BR": "Interruptor programavel"
+    }
+}

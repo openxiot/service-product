@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:glucose-meter:0400",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Glucose Meter",
+        "zh-CN": "血糖仪",
+        "fr-FR": "Glucometre",
+        "de-DE": "Blutzuckermessgerat",
+        "ja-JP": "血糖計",
+        "ko-KR": "혈당 측정기",
+        "es-ES": "Glucómetro",
+        "pt-BR": "Glicosimetro"
+    }
+}

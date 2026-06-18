@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:generic-walking:1440",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Generic Walking",
+        "zh-CN": "步行",
+        "fr-FR": "Marche generique",
+        "de-DE": "Gehen",
+        "ja-JP": "ウォーキング",
+        "ko-KR": "걷기",
+        "es-ES": "Caminar",
+        "pt-BR": "Caminhada"
+    }
+}

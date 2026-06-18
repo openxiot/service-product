@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:door-lock:00000006",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Door Lock",
+        "zh-CN": "门锁",
+        "fr-FR": "Serrure de porte",
+        "de-DE": "Türschloss",
+        "ja-JP": "ドアロック",
+        "ko-KR": "도어 잠금",
+        "es-ES": "Cerradura de puerta",
+        "pt-BR": "Fechadura"
+    }
+}

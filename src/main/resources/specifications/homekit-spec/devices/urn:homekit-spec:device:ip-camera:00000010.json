@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:ip-camera:00000010",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "IP Camera",
+        "zh-CN": "IP 摄像头",
+        "fr-FR": "Camera IP",
+        "de-DE": "IP-Kamera",
+        "ja-JP": "IPカメラ",
+        "ko-KR": "IP 카메라",
+        "es-ES": "Camara IP",
+        "pt-BR": "Camera IP"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:pulse-oximeter:0440",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Pulse Oximeter",
+        "zh-CN": "脉搏血氧仪",
+        "fr-FR": "Oxymetre de pouls",
+        "de-DE": "Pulsoximeter",
+        "ja-JP": "パルスオキシメータ",
+        "ko-KR": "맥박 산소 측정기",
+        "es-ES": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
+    }
+}

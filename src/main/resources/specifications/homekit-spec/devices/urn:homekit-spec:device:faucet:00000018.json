@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:faucet:00000018",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Faucet",
+        "zh-CN": "水龙头",
+        "fr-FR": "Robinet",
+        "de-DE": "Wasserhahn",
+        "ja-JP": "蛇口",
+        "ko-KR": "수도꼭지",
+        "es-ES": "Grifo",
+        "pt-BR": "Torneira"
+    }
+}

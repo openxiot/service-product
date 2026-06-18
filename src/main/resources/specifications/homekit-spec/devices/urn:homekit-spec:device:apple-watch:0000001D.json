@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:apple-watch:0000001D",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Apple Watch",
+        "zh-CN": "Apple Watch",
+        "fr-FR": "Apple Watch",
+        "de-DE": "Apple Watch",
+        "ja-JP": "Apple Watch",
+        "ko-KR": "Apple Watch",
+        "es-ES": "Apple Watch",
+        "pt-BR": "Apple Watch"
+    }
+}

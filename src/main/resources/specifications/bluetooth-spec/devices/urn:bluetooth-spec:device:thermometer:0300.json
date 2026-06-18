@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:thermometer:0300",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Thermometer",
+        "zh-CN": "体温计",
+        "fr-FR": "Thermometre",
+        "de-DE": "Thermometer",
+        "ja-JP": "体温計",
+        "ko-KR": "체온계",
+        "es-ES": "Termometro",
+        "pt-BR": "Termometro"
+    }
+}

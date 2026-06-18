@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:airplay-receiver:00000024",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "AirPlay Receiver",
+        "zh-CN": "AirPlay 接收器",
+        "fr-FR": "Recepteur AirPlay",
+        "de-DE": "AirPlay-Empfanger",
+        "ja-JP": "AirPlayレシーバー",
+        "ko-KR": "AirPlay 리시버",
+        "es-ES": "Receptor AirPlay",
+        "pt-BR": "Receptor AirPlay"
+    }
+}

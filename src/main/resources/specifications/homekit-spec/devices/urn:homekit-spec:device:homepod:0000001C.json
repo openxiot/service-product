@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:homepod:0000001C",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "HomePod",
+        "zh-CN": "HomePod",
+        "fr-FR": "HomePod",
+        "de-DE": "HomePod",
+        "ja-JP": "HomePod",
+        "ko-KR": "HomePod",
+        "es-ES": "HomePod",
+        "pt-BR": "HomePod"
+    }
+}

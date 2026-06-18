@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:apple-tv:0000001B",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Apple TV",
+        "zh-CN": "Apple TV",
+        "fr-FR": "Apple TV",
+        "de-DE": "Apple TV",
+        "ja-JP": "Apple TV",
+        "ko-KR": "Apple TV",
+        "es-ES": "Apple TV",
+        "pt-BR": "Apple TV"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:security-system:0000000B",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Security System",
+        "zh-CN": "安全系统",
+        "fr-FR": "Systeme de securite",
+        "de-DE": "Sicherheitssystem",
+        "ja-JP": "セキュリティシステム",
+        "ko-KR": "보안 시스템",
+        "es-ES": "Sistema de seguridad",
+        "pt-BR": "Sistema de seguranca"
+    }
+}

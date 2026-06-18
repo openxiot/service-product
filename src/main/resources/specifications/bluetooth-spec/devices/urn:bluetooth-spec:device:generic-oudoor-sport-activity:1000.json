@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:generic-oudoor-sport-activity:1000",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Generic Outdoor Sport Activity",
+        "zh-CN": "户外运动活动",
+        "fr-FR": "Activite sportive de plein air generique",
+        "de-DE": "Allgemeine Outdoor-Sportaktivitat",
+        "ja-JP": "汎用アウトドアスポーツ活動",
+        "ko-KR": "일반 야외 스포츠 활동",
+        "es-ES": "Actividad deportiva al aire libre generica",
+        "pt-BR": "Atividade esportiva ao ar livre generica"
+    }
+}

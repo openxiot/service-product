@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:thermostat:00000009",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Thermostat",
+        "zh-CN": "恒温器",
+        "fr-FR": "Thermostat",
+        "de-DE": "Thermostat",
+        "ja-JP": "サーモスタット",
+        "ko-KR": "온도 조절기",
+        "es-ES": "Termostato",
+        "pt-BR": "Termostato"
+    }
+}

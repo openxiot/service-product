@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:computer:0080",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Computer",
+        "zh-CN": "电脑",
+        "fr-FR": "Ordinateur",
+        "de-DE": "Computer",
+        "ja-JP": "コンピュータ",
+        "ko-KR": "컴퓨터",
+        "es-ES": "Ordenador",
+        "pt-BR": "Computador"
+    }
+}

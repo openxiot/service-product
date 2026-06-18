@@ -2570,5 +2570,547 @@
       },
       "lifecycle": "released"
     }
+  },
+  "devices": {
+    "barcode-scanner": {
+      "code": "barcode-scanner",
+      "value": 704,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Barcode Scanner",
+        "zh-CN": "条码扫描器",
+        "fr-FR": "Scanner de codes-barres",
+        "de-DE": "Barcode-Scanner",
+        "ja-JP": "バーコードスキャナー",
+        "ko-KR": "바코드 스캐너",
+        "es-ES": "Escáner de codigos de barras",
+        "pt-BR": "Leitor de codigo de barras"
+      }
+    },
+    "blood-pressure": {
+      "code": "blood-pressure",
+      "value": 896,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Blood Pressure",
+        "zh-CN": "血压计",
+        "fr-FR": "Tensiometre",
+        "de-DE": "Blutdruckmessgerat",
+        "ja-JP": "血圧計",
+        "ko-KR": "혈압계",
+        "es-ES": "Tensiometro",
+        "pt-BR": "Medidor de pressao arterial"
+      }
+    },
+    "clock": {
+      "code": "clock",
+      "value": 256,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Clock",
+        "zh-CN": "时钟",
+        "fr-FR": "Horloge",
+        "de-DE": "Wecker",
+        "ja-JP": "時計",
+        "ko-KR": "시계",
+        "es-ES": "Reloj",
+        "pt-BR": "Relogio"
+      }
+    },
+    "computer": {
+      "code": "computer",
+      "value": 128,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Computer",
+        "zh-CN": "电脑",
+        "fr-FR": "Ordinateur",
+        "de-DE": "Computer",
+        "ja-JP": "コンピュータ",
+        "ko-KR": "컴퓨터",
+        "es-ES": "Ordenador",
+        "pt-BR": "Computador"
+      }
+    },
+    "continuous-glucose-monitor": {
+      "code": "continuous-glucose-monitor",
+      "value": 1280,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Continuous Glucose Monitor",
+        "zh-CN": "持续血糖监测仪",
+        "fr-FR": "Monitor continu de glucose",
+        "de-DE": "Kontinuierlicher Glukosemonitor",
+        "ja-JP": "持続血糖測定器",
+        "ko-KR": "연속 혈당 측정기",
+        "es-ES": "Monitor continuo de glucosa",
+        "pt-BR": "Monitor continuo de glicose"
+      }
+    },
+    "cycling-cadence-sensor": {
+      "code": "cycling-cadence-sensor",
+      "value": 3200,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Cycling Cadence Sensor",
+        "zh-CN": "骑行踏频传感器",
+        "fr-FR": "Capteur de cadence cycliste",
+        "de-DE": "Fahrradkadenzsensor",
+        "ja-JP": "サイクリングケイデンスセンサー",
+        "ko-KR": "사이클링 케이던스 센서",
+        "es-ES": "Sensor de cadencia de ciclismo",
+        "pt-BR": "Sensor de cadencia de ciclismo"
+      }
+    },
+    "cycling-computer": {
+      "code": "cycling-computer",
+      "value": 3072,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Cycling Computer",
+        "zh-CN": "骑行电脑",
+        "fr-FR": "Ordinateur de cyclisme",
+        "de-DE": "Fahrradcomputer",
+        "ja-JP": "サイクリングコンピュータ",
+        "ko-KR": "사이클링 컴퓨터",
+        "es-ES": "Ordenador de ciclismo",
+        "pt-BR": "Computador de ciclismo"
+      }
+    },
+    "cycling-power-sensor": {
+      "code": "cycling-power-sensor",
+      "value": 3264,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Cycling Power Sensor",
+        "zh-CN": "骑行功率传感器",
+        "fr-FR": "Capteur de puissance cycliste",
+        "de-DE": "Fahrradleistungssensor",
+        "ja-JP": "サイクリングパワーセンサー",
+        "ko-KR": "사이클링 파워 센서",
+        "es-ES": "Sensor de potencia de ciclismo",
+        "pt-BR": "Sensor de potencia de ciclismo"
+      }
+    },
+    "cycling-speed-sensor": {
+      "code": "cycling-speed-sensor",
+      "value": 3136,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Cycling Speed Sensor",
+        "zh-CN": "骑行速度传感器",
+        "fr-FR": "Capteur de vitesse cycliste",
+        "de-DE": "Fahrradgeschwindigkeitssensor",
+        "ja-JP": "サイクリング速度センサー",
+        "ko-KR": "사이클링 속도 센서",
+        "es-ES": "Sensor de velocidad de ciclismo",
+        "pt-BR": "Sensor de velocidade de ciclismo"
+      }
+    },
+    "display": {
+      "code": "display",
+      "value": 320,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Display",
+        "zh-CN": "显示器",
+        "fr-FR": "Ecran",
+        "de-DE": "Bildschirm",
+        "ja-JP": "ディスプレイ",
+        "ko-KR": "디스플레이",
+        "es-ES": "Pantalla",
+        "pt-BR": "Monitor"
+      }
+    },
+    "eye-glasses": {
+      "code": "eye-glasses",
+      "value": 448,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Eye Glasses",
+        "zh-CN": "眼镜",
+        "fr-FR": "Lunettes",
+        "de-DE": "Brille",
+        "ja-JP": "メガネ",
+        "ko-KR": "안경",
+        "es-ES": "Gafas",
+        "pt-BR": "Oculos"
+      }
+    },
+    "fitness-machine": {
+      "code": "fitness-machine",
+      "value": 3392,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Fitness Machine",
+        "zh-CN": "健身器材",
+        "fr-FR": "Machine de fitness",
+        "de-DE": "Fitnessgerat",
+        "ja-JP": "フィットネスマシン",
+        "ko-KR": "피트니스 머신",
+        "es-ES": "Maquina de fitness",
+        "pt-BR": "Maquina de fitness"
+      }
+    },
+    "generic-cycling": {
+      "code": "generic-cycling",
+      "value": 5312,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Generic Cycling",
+        "zh-CN": "骑行",
+        "fr-FR": "Cyclisme generique",
+        "de-DE": "Radfahren",
+        "ja-JP": "サイクリング",
+        "ko-KR": "사이클링",
+        "es-ES": "Ciclismo",
+        "pt-BR": "Ciclismo"
+      }
+    },
+    "generic-oudoor-sport-activity": {
+      "code": "generic-oudoor-sport-activity",
+      "value": 4096,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Generic Outdoor Sport Activity",
+        "zh-CN": "户外运动活动",
+        "fr-FR": "Activite sportive de plein air generique",
+        "de-DE": "Allgemeine Outdoor-Sportaktivitat",
+        "ja-JP": "汎用アウトドアスポーツ活動",
+        "ko-KR": "일반 야외 스포츠 활동",
+        "es-ES": "Actividad deportiva al aire libre generica",
+        "pt-BR": "Atividade esportiva ao ar livre generica"
+      }
+    },
+    "generic-running": {
+      "code": "generic-running",
+      "value": 5248,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Generic Running",
+        "zh-CN": "跑步",
+        "fr-FR": "Course generique",
+        "de-DE": "Laufen",
+        "ja-JP": "ランニング",
+        "ko-KR": "달리기",
+        "es-ES": "Correr",
+        "pt-BR": "Corrida"
+      }
+    },
+    "generic-walking": {
+      "code": "generic-walking",
+      "value": 5184,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Generic Walking",
+        "zh-CN": "步行",
+        "fr-FR": "Marche generique",
+        "de-DE": "Gehen",
+        "ja-JP": "ウォーキング",
+        "ko-KR": "걷기",
+        "es-ES": "Caminar",
+        "pt-BR": "Caminhada"
+      }
+    },
+    "glucose-meter": {
+      "code": "glucose-meter",
+      "value": 1024,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Glucose Meter",
+        "zh-CN": "血糖仪",
+        "fr-FR": "Glucometre",
+        "de-DE": "Blutzuckermessgerat",
+        "ja-JP": "血糖計",
+        "ko-KR": "혈당 측정기",
+        "es-ES": "Glucómetro",
+        "pt-BR": "Glicosimetro"
+      }
+    },
+    "heart-rate-sensor": {
+      "code": "heart-rate-sensor",
+      "value": 832,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Heart Rate Sensor",
+        "zh-CN": "心率传感器",
+        "fr-FR": "Cardiofrequencemetre",
+        "de-DE": "Herzfrequenzsensor",
+        "ja-JP": "心拍数センサー",
+        "ko-KR": "심박수 센서",
+        "es-ES": "Sensor de frecuencia cardiaca",
+        "pt-BR": "Sensor de frequencia cardiaca"
+      }
+    },
+    "hid": {
+      "code": "hid",
+      "value": 960,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Human Interface Device",
+        "zh-CN": "人机交互设备",
+        "fr-FR": "Dispositif d'interface humaine",
+        "de-DE": "Menschliche Schnittstelle",
+        "ja-JP": "HID",
+        "ko-KR": "HID",
+        "es-ES": "Dispositivo de interfaz humana",
+        "pt-BR": "Dispositivo de interface humana"
+      }
+    },
+    "insulin-pump": {
+      "code": "insulin-pump",
+      "value": 1344,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Insulin Pump",
+        "zh-CN": "胰岛素泵",
+        "fr-FR": "Pompe a insuline",
+        "de-DE": "Insulinpumpe",
+        "ja-JP": "インスリンポンプ",
+        "ko-KR": "인슐린 펌프",
+        "es-ES": "Bomba de insulina",
+        "pt-BR": "Bomba de insulina"
+      }
+    },
+    "keyring": {
+      "code": "keyring",
+      "value": 576,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Keyring",
+        "zh-CN": "钥匙扣",
+        "fr-FR": "Porte-cles",
+        "de-DE": "Schlusselring",
+        "ja-JP": "キーリング",
+        "ko-KR": "열쇠고리",
+        "es-ES": "Llavero",
+        "pt-BR": "Chaveiro"
+      }
+    },
+    "location-navigation-device": {
+      "code": "location-navigation-device",
+      "value": 3328,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Location & Navigation Device",
+        "zh-CN": "位置导航设备",
+        "fr-FR": "Dispositif de localisation et navigation",
+        "de-DE": "Standort- und Navigationsgerat",
+        "ja-JP": "位置情報・ナビゲーション機器",
+        "ko-KR": "위치 및 내비게이션 장치",
+        "es-ES": "Dispositivo de ubicacion y navegacion",
+        "pt-BR": "Dispositivo de localizacao e navegacao"
+      }
+    },
+    "media-player": {
+      "code": "media-player",
+      "value": 640,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Media Player",
+        "zh-CN": "媒体播放器",
+        "fr-FR": "Lecteur multimedia",
+        "de-DE": "Medienabspielgerat",
+        "ja-JP": "メディアプレーヤー",
+        "ko-KR": "미디어 플레이어",
+        "es-ES": "Reproductor multimedia",
+        "pt-BR": "Reprodutor de midia"
+      }
+    },
+    "medication-delivery": {
+      "code": "medication-delivery",
+      "value": 1408,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Medication Delivery",
+        "zh-CN": "药物输送设备",
+        "fr-FR": "Dispositif d'administration de medicaments",
+        "de-DE": "Medikamentenabgabegerat",
+        "ja-JP": "薬剤送達装置",
+        "ko-KR": "약물 전달 장치",
+        "es-ES": "Dispositivo de administracion de medicamentos",
+        "pt-BR": "Dispositivo de administracao de medicamentos"
+      }
+    },
+    "personal-mobility-device": {
+      "code": "personal-mobility-device",
+      "value": 1216,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Personal Mobility Device",
+        "zh-CN": "个人移动设备",
+        "fr-FR": "Dispositif de mobilite personnelle",
+        "de-DE": "Personliches Mobilitatsgerat",
+        "ja-JP": "パーソナルモビリティ",
+        "ko-KR": "개인 이동 장치",
+        "es-ES": "Dispositivo de movilidad personal",
+        "pt-BR": "Dispositivo de mobilidade pessoal"
+      }
+    },
+    "phone": {
+      "code": "phone",
+      "value": 64,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Phone",
+        "zh-CN": "手机",
+        "fr-FR": "Telephone",
+        "de-DE": "Telefon",
+        "ja-JP": "電話",
+        "ko-KR": "전화",
+        "es-ES": "Telefono",
+        "pt-BR": "Telefone"
+      }
+    },
+    "pulse-oximeter-fingertip": {
+      "code": "pulse-oximeter-fingertip",
+      "value": 3456,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Pulse Oximeter (Fingertip)",
+        "zh-CN": "脉搏血氧仪（指尖）",
+        "fr-FR": "Oxymetre de pouls (doigt)",
+        "de-DE": "Pulsoximeter (Fingerspitze)",
+        "ja-JP": "パルスオキシメータ（指先）",
+        "ko-KR": "맥박 산소 측정기(손가락 끝)",
+        "es-ES": "Oximetro de pulso (dedo)",
+        "pt-BR": "Oximetro de pulso (dedo)"
+      }
+    },
+    "pulse-oximeter-handheld": {
+      "code": "pulse-oximeter-handheld",
+      "value": 3584,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Pulse Oximeter (Handheld)",
+        "zh-CN": "脉搏血氧仪（手持）",
+        "fr-FR": "Oxymetre de pouls (portatif)",
+        "de-DE": "Pulsoximeter (handhalt)",
+        "ja-JP": "パルスオキシメータ（ハンドヘルド）",
+        "ko-KR": "맥박 산소 측정기(휴대용)",
+        "es-ES": "Oximetro de pulso (manual)",
+        "pt-BR": "Oximetro de pulso (portatil)"
+      }
+    },
+    "pulse-oximeter-wrist-worn": {
+      "code": "pulse-oximeter-wrist-worn",
+      "value": 3520,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Pulse Oximeter (Wrist Worn)",
+        "zh-CN": "脉搏血氧仪（腕式）",
+        "fr-FR": "Oxymetre de pouls (poignet)",
+        "de-DE": "Pulsoximeter (Handgelenk)",
+        "ja-JP": "パルスオキシメータ（手首）",
+        "ko-KR": "맥박 산소 측정기(손목)",
+        "es-ES": "Oximetro de pulso (muneca)",
+        "pt-BR": "Oximetro de pulso (pulso)"
+      }
+    },
+    "pulse-oximeter": {
+      "code": "pulse-oximeter",
+      "value": 1088,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Pulse Oximeter",
+        "zh-CN": "脉搏血氧仪",
+        "fr-FR": "Oxymetre de pouls",
+        "de-DE": "Pulsoximeter",
+        "ja-JP": "パルスオキシメータ",
+        "ko-KR": "맥박 산소 측정기",
+        "es-ES": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
+      }
+    },
+    "remote-control": {
+      "code": "remote-control",
+      "value": 384,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Remote Control",
+        "zh-CN": "遥控器",
+        "fr-FR": "Telecommande",
+        "de-DE": "Fernbedienung",
+        "ja-JP": "リモコン",
+        "ko-KR": "리모컨",
+        "es-ES": "Control remoto",
+        "pt-BR": "Controle remoto"
+      }
+    },
+    "tag": {
+      "code": "tag",
+      "value": 512,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Tag",
+        "zh-CN": "标签",
+        "fr-FR": "Etiquette",
+        "de-DE": "Tag",
+        "ja-JP": "タグ",
+        "ko-KR": "태그",
+        "es-ES": "Etiqueta",
+        "pt-BR": "Etiqueta"
+      }
+    },
+    "thermometer": {
+      "code": "thermometer",
+      "value": 768,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Thermometer",
+        "zh-CN": "体温计",
+        "fr-FR": "Thermometre",
+        "de-DE": "Thermometer",
+        "ja-JP": "体温計",
+        "ko-KR": "체온계",
+        "es-ES": "Termometro",
+        "pt-BR": "Termometro"
+      }
+    },
+    "unknown": {
+      "code": "unknown",
+      "value": 0,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Unknown",
+        "zh-CN": "未知",
+        "fr-FR": "Inconnu",
+        "de-DE": "Unbekannt",
+        "ja-JP": "不明",
+        "ko-KR": "알 수 없음",
+        "es-ES": "Desconocido",
+        "pt-BR": "Desconhecido"
+      }
+    },
+    "watch": {
+      "code": "watch",
+      "value": 192,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Watch",
+        "zh-CN": "手表",
+        "fr-FR": "Montre",
+        "de-DE": "Uhr",
+        "ja-JP": "腕時計",
+        "ko-KR": "시계",
+        "es-ES": "Reloj",
+        "pt-BR": "Relogio"
+      }
+    },
+    "weight-scale": {
+      "code": "weight-scale",
+      "value": 1152,
+      "lifecycle": "released",
+      "description": {
+        "en-US": "Weight Scale",
+        "zh-CN": "体重秤",
+        "fr-FR": "Pese-personne",
+        "de-DE": "Waage",
+        "ja-JP": "体重計",
+        "ko-KR": "체중계",
+        "es-ES": "Báscula",
+        "pt-BR": "Balança"
+      }
+    }
   }
 }

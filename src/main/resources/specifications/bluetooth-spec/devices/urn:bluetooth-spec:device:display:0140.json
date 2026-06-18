@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:display:0140",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Display",
+        "zh-CN": "显示器",
+        "fr-FR": "Ecran",
+        "de-DE": "Bildschirm",
+        "ja-JP": "ディスプレイ",
+        "ko-KR": "디스플레이",
+        "es-ES": "Pantalla",
+        "pt-BR": "Monitor"
+    }
+}

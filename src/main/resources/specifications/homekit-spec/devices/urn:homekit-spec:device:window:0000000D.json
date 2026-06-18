@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:window:0000000D",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Window",
+        "zh-CN": "窗户",
+        "fr-FR": "Fenetre",
+        "de-DE": "Fenster",
+        "ja-JP": "窓",
+        "ko-KR": "창문",
+        "es-ES": "Ventana",
+        "pt-BR": "Janela"
+    }
+}

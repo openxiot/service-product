@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:phone:0040",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Phone",
+        "zh-CN": "手机",
+        "fr-FR": "Telephone",
+        "de-DE": "Telefon",
+        "ja-JP": "電話",
+        "ko-KR": "전화",
+        "es-ES": "Telefono",
+        "pt-BR": "Telefone"
+    }
+}

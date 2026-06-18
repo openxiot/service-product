@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:insulin-pump:0540",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Insulin Pump",
+        "zh-CN": "胰岛素泵",
+        "fr-FR": "Pompe a insuline",
+        "de-DE": "Insulinpumpe",
+        "ja-JP": "インスリンポンプ",
+        "ko-KR": "인슐린 펌프",
+        "es-ES": "Bomba de insulina",
+        "pt-BR": "Bomba de insulina"
+    }
+}

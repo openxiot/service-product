@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:cycling-power-sensor:0CC0",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Cycling Power Sensor",
+        "zh-CN": "骑行功率传感器",
+        "fr-FR": "Capteur de puissance cycliste",
+        "de-DE": "Fahrradleistungssensor",
+        "ja-JP": "サイクリングパワーセンサー",
+        "ko-KR": "사이클링 파워 센서",
+        "es-ES": "Sensor de potencia de ciclismo",
+        "pt-BR": "Sensor de potencia de ciclismo"
+    }
+}

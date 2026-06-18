@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:unknown:0000",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Unknown",
+        "zh-CN": "未知",
+        "fr-FR": "Inconnu",
+        "de-DE": "Unbekannt",
+        "ja-JP": "不明",
+        "ko-KR": "알 수 없음",
+        "es-ES": "Desconocido",
+        "pt-BR": "Desconhecido"
+    }
+}

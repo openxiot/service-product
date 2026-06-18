@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:video-doorbell:00000011",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Video Doorbell",
+        "zh-CN": "可视门铃",
+        "fr-FR": "Sonnette video",
+        "de-DE": "Video-Türklingel",
+        "ja-JP": "ビデオドアベル",
+        "ko-KR": "비디오 초인종",
+        "es-ES": "Timbre con video",
+        "pt-BR": "Campainha com video"
+    }
+}

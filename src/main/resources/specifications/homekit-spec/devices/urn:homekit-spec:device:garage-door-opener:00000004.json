@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:garage-door-opener:00000004",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Garage Door Opener",
+        "zh-CN": "车库门",
+        "fr-FR": "Ouvre-porte de garage",
+        "de-DE": "Garagentoroffner",
+        "ja-JP": "ガレージドア開閉器",
+        "ko-KR": "차고 문 개폐기",
+        "es-ES": "Abrepuertas de garaje",
+        "pt-BR": "Abre-porta de garagem"
+    }
+}

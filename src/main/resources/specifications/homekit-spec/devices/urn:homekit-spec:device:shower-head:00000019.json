@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:shower-head:00000019",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Shower Head",
+        "zh-CN": "花洒",
+        "fr-FR": "Pomme de douche",
+        "de-DE": "Duschkopf",
+        "ja-JP": "シャワーヘッド",
+        "ko-KR": "샤워 헤드",
+        "es-ES": "Ducha",
+        "pt-BR": "Chuveiro"
+    }
+}

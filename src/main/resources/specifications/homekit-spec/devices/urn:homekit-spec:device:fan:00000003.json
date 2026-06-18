@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:fan:00000003",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Fan",
+        "zh-CN": "风扇",
+        "fr-FR": "Ventilateur",
+        "de-DE": "Lüfter",
+        "ja-JP": "ファン",
+        "ko-KR": "팬",
+        "es-ES": "Ventilador",
+        "pt-BR": "Ventilador"
+    }
+}

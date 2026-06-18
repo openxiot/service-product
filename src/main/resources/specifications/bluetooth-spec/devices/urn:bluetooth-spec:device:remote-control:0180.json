@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:remote-control:0180",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Remote Control",
+        "zh-CN": "遥控器",
+        "fr-FR": "Telecommande",
+        "de-DE": "Fernbedienung",
+        "ja-JP": "リモコン",
+        "ko-KR": "리모컨",
+        "es-ES": "Control remoto",
+        "pt-BR": "Controle remoto"
+    }
+}

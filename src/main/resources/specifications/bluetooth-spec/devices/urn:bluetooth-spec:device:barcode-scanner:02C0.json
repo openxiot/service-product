@@ -1,0 +1,14 @@
+{
+    "type": "urn:bluetooth-spec:device:barcode-scanner:02C0",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Barcode Scanner",
+        "zh-CN": "条码扫描器",
+        "fr-FR": "Scanner de codes-barres",
+        "de-DE": "Barcode-Scanner",
+        "ja-JP": "バーコードスキャナー",
+        "ko-KR": "바코드 스캐너",
+        "es-ES": "Escáner de codigos de barras",
+        "pt-BR": "Leitor de codigo de barras"
+    }
+}

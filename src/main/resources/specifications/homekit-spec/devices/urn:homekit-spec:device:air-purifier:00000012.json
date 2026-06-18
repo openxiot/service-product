@@ -1,0 +1,14 @@
+{
+    "type": "urn:homekit-spec:device:air-purifier:00000012",
+    "lifecycle": "released",
+    "description": {
+        "en-US": "Air Purifier",
+        "zh-CN": "空气净化器",
+        "fr-FR": "Purificateur d'air",
+        "de-DE": "Luftreiniger",
+        "ja-JP": "空気清浄機",
+        "ko-KR": "공기 청정기",
+        "es-ES": "Purificador de aire",
+        "pt-BR": "Purificador de ar"
+    }
+}
