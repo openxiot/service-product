@@ -23,11 +23,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 升级为 GraalVM 21 官方发行版（支持 Native 编译）
-      - name: Set up GraalVM 21
+      # 升级为 GraalVM 25 官方发行版（支持 Native 编译）
+      - name: Set up GraalVM 25
         uses: actions/setup-java@v4
         with:
-          java-version: 21
+          java-version: 25
           distribution: 'graalvm'
           package-type: jdk
 
