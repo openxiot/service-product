@@ -1,0 +1,258 @@
+{
+  "type": "urn:homekit-spec:device:sensor:0000000A:openxiot:crater:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Temperature & Humidity Sensor",
+    "zh-CN": "温湿度传感器",
+    "fr-FR": "Temperature & Humidity Sensor",
+    "de-DE": "Temperature & Humidity Sensor",
+    "ja-JP": "Temperature & Humidity Sensor",
+    "ko-KR": "Temperature & Humidity Sensor",
+    "es-ES": "Temperature & Humidity Sensor",
+    "pt-BR": "Temperature & Humidity Sensor"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:homekit-spec:service:accessory-information:0000003e:openxiot:crater:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:firmware-revision:00000052:openxiot:crater:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-TW": "固件版本",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:homekit-spec:property:identify:00000014:openxiot:crater:1",
+          "description": {
+            "en-US": "Identify",
+            "zh-TW": "辨認",
+            "zh-CN": "辨认"
+          },
+          "format": "bool",
+          "access": [
+            "write"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:crater:1",
+          "description": {
+            "en-US": "Manufacturer",
+            "zh-TW": "制造商",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 4
+        },
+        {
+          "type": "urn:homekit-spec:property:model:00000021:openxiot:crater:1",
+          "description": {
+            "en-US": "Model",
+            "zh-TW": "型號",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 5
+        },
+        {
+          "type": "urn:homekit-spec:property:name:00000023:openxiot:crater:1",
+          "description": {
+            "en-US": "name",
+            "zh-TW": "名稱",
+            "zh-CN": "名称"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 6
+        },
+        {
+          "type": "urn:homekit-spec:property:serial-number:00000030:openxiot:crater:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-TW": "序列號",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 7
+        },
+        {
+          "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:crater:1",
+          "description": {
+            "en-US": "Accessory Flags",
+            "zh-TW": "配件屬性",
+            "zh-CN": "配件属性"
+          },
+          "format": "uint32",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            65535,
+            1
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:homekit-spec:property:hardware-revision:00000053:openxiot:crater:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-TW": "硬件版本",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:homekit-spec:service:temperature-sensor:0000008A:openxiot:crater:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Temperature Sensor",
+        "zh-CN": "温度传感器",
+        "fr-FR": "Capteur de température",
+        "de-DE": "Temperatursensor",
+        "ja-JP": "温度センサー",
+        "ko-KR": "온도 센서",
+        "es-ES": "Sensor de temperatura",
+        "pt-BR": "Sensor de temperatura"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:current-temperature:00000011:openxiot:crater:1",
+          "description": {
+            "en-US": "Current Temperature",
+            "zh-CN": "当前温度"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            -50,
+            100,
+            0.1
+          ],
+          "unit": "celsius",
+          "x-required": true,
+          "iid": 11
+        },
+        {
+          "type": "urn:homekit-spec:property:status-low-battery:00000079:openxiot:crater:1",
+          "description": {
+            "en-US": "Low Battery",
+            "zh-CN": "低电量"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Battery Normal"
+            },
+            {
+              "value": 1,
+              "description": "Battery Low"
+            }
+          ],
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": false,
+          "iid": 12
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 12,
+      "type": "urn:homekit-spec:service:humidity-sensor:00000082:openxiot:crater:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Humidity Sensor",
+        "zh-CN": "湿度传感器",
+        "fr-FR": "Capteur d'humidité",
+        "de-DE": "Feuchtigkeitssensor",
+        "ja-JP": "湿度センサー",
+        "ko-KR": "습도 센서",
+        "es-ES": "Sensor de humedad",
+        "pt-BR": "Sensor de umidade"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:current-relative-humidity:00000010:openxiot:crater:1",
+          "description": {
+            "en-US": "Current Humidity",
+            "zh-CN": "当前湿度"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            1
+          ],
+          "unit": "percentage",
+          "x-required": true,
+          "iid": 13
+        }
+      ]
+    }
+  ]
+}

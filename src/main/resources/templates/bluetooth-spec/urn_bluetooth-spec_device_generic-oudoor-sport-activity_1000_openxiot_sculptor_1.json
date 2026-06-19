@@ -1,0 +1,174 @@
+{
+  "type": "urn:bluetooth-spec:device:generic-oudoor-sport-activity:1000:openxiot:sculptor:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Generic Outdoor Sport",
+    "zh-CN": "通用户外运动设备",
+    "fr-FR": "Generic Outdoor Sport",
+    "de-DE": "Generic Outdoor Sport",
+    "ja-JP": "Generic Outdoor Sport",
+    "ko-KR": "Generic Outdoor Sport",
+    "es-ES": "Generic Outdoor Sport",
+    "pt-BR": "Generic Outdoor Sport"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:bluetooth-spec:service:device-information:180A:openxiot:sculptor:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Device Information",
+        "zh-CN": "设备信息",
+        "fr-FR": "Informations sur l'appareil",
+        "de-DE": "Gerateinformationen",
+        "ja-JP": "デバイス情報",
+        "ko-KR": "장치 정보",
+        "es-ES": "Informacion del dispositivo",
+        "pt-BR": "Informacoes do dispositivo"
+      },
+      "properties": [
+        {
+          "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Manufacturer Name",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:bluetooth-spec:property:model-number-string:00002A24:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Model Number",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:bluetooth-spec:property:serial-number-string:00002A25:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 4
+        },
+        {
+          "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 5
+        },
+        {
+          "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 6
+        },
+        {
+          "type": "urn:bluetooth-spec:property:software-revision-string:00002A28:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Software Revision",
+            "zh-CN": "软件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 7
+        },
+        {
+          "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:sculptor:1",
+          "description": {
+            "en-US": "System ID",
+            "zh-CN": "系统ID"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:sculptor:1",
+          "description": {
+            "en-US": "PnP ID",
+            "zh-CN": "即插即用ID"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:bluetooth-spec:service:location-and-navigation:1819:openxiot:sculptor:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": true,
+      "description": {
+        "en-US": "Location & Navigation",
+        "zh-CN": "位置和导航",
+        "fr-FR": "Location & Navigation",
+        "de-DE": "Location & Navigation",
+        "ja-JP": "Location & Navigation",
+        "ko-KR": "Location & Navigation",
+        "es-ES": "Location & Navigation",
+        "pt-BR": "Location & Navigation"
+      },
+      "properties": [
+        {
+          "type": "urn:bluetooth-spec:property:location-and-speed:00002A67:openxiot:sculptor:1",
+          "description": {
+            "en-US": "Location and Speed",
+            "zh-CN": "位置和速度"
+          },
+          "format": "uint16",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 11
+        }
+      ]
+    }
+  ]
+}

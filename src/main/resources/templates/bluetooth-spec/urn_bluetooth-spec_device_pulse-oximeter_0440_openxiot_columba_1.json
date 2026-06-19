@@ -1,0 +1,227 @@
+{
+  "type": "urn:bluetooth-spec:device:pulse-oximeter:0440:openxiot:columba:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Pulse Oximeter",
+    "zh-CN": "脉搏血氧仪",
+    "fr-FR": "Oxymetre de pouls",
+    "de-DE": "Pulsoximeter",
+    "ja-JP": "パルスオキシメータ",
+    "ko-KR": "맥박 산소 측정기",
+    "es-ES": "Oximetro de pulso",
+    "pt-BR": "Oximetro de pulso"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:bluetooth-spec:service:device-information:180A:openxiot:columba:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Device Information",
+        "zh-CN": "设备信息",
+        "fr-FR": "Informations sur l'appareil",
+        "de-DE": "Gerateinformationen",
+        "ja-JP": "デバイス情報",
+        "ko-KR": "장치 정보",
+        "es-ES": "Informacion del dispositivo",
+        "pt-BR": "Informacoes do dispositivo"
+      },
+      "properties": [
+        {
+          "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29:openxiot:columba:1",
+          "description": {
+            "en-US": "Manufacturer Name",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:bluetooth-spec:property:model-number-string:00002A24:openxiot:columba:1",
+          "description": {
+            "en-US": "Model Number",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:bluetooth-spec:property:serial-number-string:00002A25:openxiot:columba:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 4
+        },
+        {
+          "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26:openxiot:columba:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 5
+        },
+        {
+          "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27:openxiot:columba:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 6
+        },
+        {
+          "type": "urn:bluetooth-spec:property:software-revision-string:00002A28:openxiot:columba:1",
+          "description": {
+            "en-US": "Software Revision",
+            "zh-CN": "软件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 7
+        },
+        {
+          "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:columba:1",
+          "description": {
+            "en-US": "System ID",
+            "zh-CN": "系统ID"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:columba:1",
+          "description": {
+            "en-US": "PnP ID",
+            "zh-CN": "即插即用ID"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:bluetooth-spec:service:pulse-oximeter:1822:openxiot:columba:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Pulse Oximeter",
+        "zh-CN": "脉搏血氧仪",
+        "fr-FR": "Oxymetre de pouls",
+        "de-DE": "Pulsoximeter",
+        "ja-JP": "パルスオキシメータ",
+        "ko-KR": "맥박 산소 측정기",
+        "es-ES": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
+      },
+      "properties": [
+        {
+          "type": "urn:bluetooth-spec:property:plx-features:00002A5F:openxiot:columba:1",
+          "description": {
+            "en-US": "PLX Features",
+            "zh-CN": "血氧特征"
+          },
+          "format": "uint16",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 11
+        },
+        {
+          "type": "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60:openxiot:columba:1",
+          "description": {
+            "en-US": "Spot-check Measurement",
+            "zh-CN": "点测测量"
+          },
+          "format": "uint16",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": false,
+          "iid": 12
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 12,
+      "type": "urn:bluetooth-spec:service:battery-service:180F:openxiot:columba:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Battery Service",
+        "zh-CN": "电池服务",
+        "fr-FR": "Service de batterie",
+        "de-DE": "Batteriedienst",
+        "ja-JP": "バッテリーサービス",
+        "ko-KR": "배터리 서비스",
+        "es-ES": "Servicio de bateria",
+        "pt-BR": "Servico de bateria"
+      },
+      "properties": [
+        {
+          "type": "urn:bluetooth-spec:property:battery-level:00002A19:openxiot:columba:1",
+          "description": {
+            "en-US": "Battery Level",
+            "zh-CN": "电量"
+          },
+          "format": "uint8",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            1
+          ],
+          "unit": "percentage",
+          "x-required": true,
+          "iid": 13
+        }
+      ]
+    }
+  ]
+}

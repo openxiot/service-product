@@ -1,0 +1,276 @@
+{
+  "type": "urn:homekit-spec:device:humidifier:00000015:openxiot:cancer:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Humidifier",
+    "zh-CN": "加湿器",
+    "fr-FR": "Humidificateur",
+    "de-DE": "Befeuchter",
+    "ja-JP": "加湿器",
+    "ko-KR": "가습기",
+    "es-ES": "Humidificador",
+    "pt-BR": "Umidificador"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:homekit-spec:service:accessory-information:0000003e:openxiot:cancer:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:firmware-revision:00000052:openxiot:cancer:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-TW": "固件版本",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:homekit-spec:property:identify:00000014:openxiot:cancer:1",
+          "description": {
+            "en-US": "Identify",
+            "zh-TW": "辨認",
+            "zh-CN": "辨认"
+          },
+          "format": "bool",
+          "access": [
+            "write"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:cancer:1",
+          "description": {
+            "en-US": "Manufacturer",
+            "zh-TW": "制造商",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 4
+        },
+        {
+          "type": "urn:homekit-spec:property:model:00000021:openxiot:cancer:1",
+          "description": {
+            "en-US": "Model",
+            "zh-TW": "型號",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 5
+        },
+        {
+          "type": "urn:homekit-spec:property:name:00000023:openxiot:cancer:1",
+          "description": {
+            "en-US": "name",
+            "zh-TW": "名稱",
+            "zh-CN": "名称"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 6
+        },
+        {
+          "type": "urn:homekit-spec:property:serial-number:00000030:openxiot:cancer:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-TW": "序列號",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 7
+        },
+        {
+          "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:cancer:1",
+          "description": {
+            "en-US": "Accessory Flags",
+            "zh-TW": "配件屬性",
+            "zh-CN": "配件属性"
+          },
+          "format": "uint32",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            65535,
+            1
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:homekit-spec:property:hardware-revision:00000053:openxiot:cancer:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-TW": "硬件版本",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:homekit-spec:service:humidifier-dehumidifier:000000BD:openxiot:cancer:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": true,
+      "description": {
+        "en-US": "Humidifier Dehumidifier",
+        "zh-CN": "加湿器/除湿器",
+        "fr-FR": "Humidificateur/Déshumidificateur",
+        "de-DE": "Befeuchter/Entfeuchter",
+        "ja-JP": "加湿器/除湿器",
+        "ko-KR": "가습기/제습기",
+        "es-ES": "Humidificador/Deshumidificador",
+        "pt-BR": "Umidificador/Desumidificador"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:active:000000B0:openxiot:cancer:1",
+          "description": {
+            "en-US": "Active",
+            "zh-CN": "开关"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Inactive"
+            },
+            {
+              "value": 1,
+              "description": "Active"
+            }
+          ],
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 11
+        },
+        {
+          "type": "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3:openxiot:cancer:1",
+          "description": {
+            "en-US": "Current State",
+            "zh-CN": "当前状态"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Inactive"
+            },
+            {
+              "value": 1,
+              "description": "Idle"
+            },
+            {
+              "value": 2,
+              "description": "Humidifying"
+            }
+          ],
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 12
+        },
+        {
+          "type": "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4:openxiot:cancer:1",
+          "description": {
+            "en-US": "Target State",
+            "zh-CN": "目标状态"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Auto"
+            },
+            {
+              "value": 1,
+              "description": "Humidify"
+            },
+            {
+              "value": 3,
+              "description": "Off"
+            }
+          ],
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 13
+        },
+        {
+          "type": "urn:homekit-spec:property:current-relative-humidity:00000010:openxiot:cancer:1",
+          "description": {
+            "en-US": "Current Humidity",
+            "zh-CN": "当前湿度"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            1
+          ],
+          "unit": "percentage",
+          "x-required": true,
+          "iid": 14
+        }
+      ]
+    }
+  ]
+}

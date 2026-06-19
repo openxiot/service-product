@@ -1,0 +1,297 @@
+{
+  "type": "urn:homekit-spec:device:heater:00000013:openxiot:orion:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Heater",
+    "zh-CN": "加热器",
+    "fr-FR": "Chauffage",
+    "de-DE": "Heizung",
+    "ja-JP": "ヒーター",
+    "ko-KR": "히터",
+    "es-ES": "Calefactor",
+    "pt-BR": "Aquecedor"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:homekit-spec:service:accessory-information:0000003e:openxiot:orion:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:firmware-revision:00000052:openxiot:orion:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-TW": "固件版本",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:homekit-spec:property:identify:00000014:openxiot:orion:1",
+          "description": {
+            "en-US": "Identify",
+            "zh-TW": "辨認",
+            "zh-CN": "辨认"
+          },
+          "format": "bool",
+          "access": [
+            "write"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:orion:1",
+          "description": {
+            "en-US": "Manufacturer",
+            "zh-TW": "制造商",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 4
+        },
+        {
+          "type": "urn:homekit-spec:property:model:00000021:openxiot:orion:1",
+          "description": {
+            "en-US": "Model",
+            "zh-TW": "型號",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 5
+        },
+        {
+          "type": "urn:homekit-spec:property:name:00000023:openxiot:orion:1",
+          "description": {
+            "en-US": "name",
+            "zh-TW": "名稱",
+            "zh-CN": "名称"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 6
+        },
+        {
+          "type": "urn:homekit-spec:property:serial-number:00000030:openxiot:orion:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-TW": "序列號",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 7
+        },
+        {
+          "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:orion:1",
+          "description": {
+            "en-US": "Accessory Flags",
+            "zh-TW": "配件屬性",
+            "zh-CN": "配件属性"
+          },
+          "format": "uint32",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            65535,
+            1
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:homekit-spec:property:hardware-revision:00000053:openxiot:orion:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-TW": "硬件版本",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:homekit-spec:service:heater-cooler:000000BC:openxiot:orion:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": true,
+      "description": {
+        "en-US": "Heater Cooler",
+        "zh-CN": "加热器/冷却器",
+        "fr-FR": "Chauffage/Refroidisseur",
+        "de-DE": "Heizung/Kühler",
+        "ja-JP": "加熱器/冷却器",
+        "ko-KR": "히터/쿨러",
+        "es-ES": "Calefactor/Enfriador",
+        "pt-BR": "Aquecedor/Refrigerador"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:active:000000B0:openxiot:orion:1",
+          "description": {
+            "en-US": "Active",
+            "zh-CN": "开关"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Inactive"
+            },
+            {
+              "value": 1,
+              "description": "Active"
+            }
+          ],
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 11
+        },
+        {
+          "type": "urn:homekit-spec:property:current-heater-cooler-state:000000B1:openxiot:orion:1",
+          "description": {
+            "en-US": "Current State",
+            "zh-CN": "当前状态"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Inactive"
+            },
+            {
+              "value": 1,
+              "description": "Idle"
+            },
+            {
+              "value": 2,
+              "description": "Heating"
+            }
+          ],
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 12
+        },
+        {
+          "type": "urn:homekit-spec:property:target-heater-cooler-state:000000B2:openxiot:orion:1",
+          "description": {
+            "en-US": "Target State",
+            "zh-CN": "目标状态"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Auto"
+            },
+            {
+              "value": 1,
+              "description": "Heat"
+            },
+            {
+              "value": 3,
+              "description": "Off"
+            }
+          ],
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 13
+        },
+        {
+          "type": "urn:homekit-spec:property:current-temperature:00000011:openxiot:orion:1",
+          "description": {
+            "en-US": "Current Temperature",
+            "zh-CN": "当前温度"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            0.5
+          ],
+          "unit": "celsius",
+          "x-required": true,
+          "iid": 14
+        },
+        {
+          "type": "urn:homekit-spec:property:heating-threshold-temperature:00000012:openxiot:orion:1",
+          "description": {
+            "en-US": "Heating Threshold",
+            "zh-CN": "制热阈值"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "value-range": [
+            16,
+            32,
+            0.5
+          ],
+          "unit": "celsius",
+          "x-required": false,
+          "iid": 15
+        }
+      ]
+    }
+  ]
+}

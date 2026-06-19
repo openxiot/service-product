@@ -1,0 +1,252 @@
+{
+  "type": "urn:homekit-spec:device:lightbulb:00000005:openxiot:castor:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Color Bulb",
+    "zh-CN": "可调色彩灯泡",
+    "fr-FR": "Color Bulb",
+    "de-DE": "Color Bulb",
+    "ja-JP": "Color Bulb",
+    "ko-KR": "Color Bulb",
+    "es-ES": "Color Bulb",
+    "pt-BR": "Color Bulb"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:homekit-spec:service:accessory-information:0000003e:openxiot:castor:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:firmware-revision:00000052:openxiot:castor:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-TW": "固件版本",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:homekit-spec:property:identify:00000014:openxiot:castor:1",
+          "description": {
+            "en-US": "Identify",
+            "zh-TW": "辨認",
+            "zh-CN": "辨认"
+          },
+          "format": "bool",
+          "access": [
+            "write"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:castor:1",
+          "description": {
+            "en-US": "Manufacturer",
+            "zh-TW": "制造商",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 4
+        },
+        {
+          "type": "urn:homekit-spec:property:model:00000021:openxiot:castor:1",
+          "description": {
+            "en-US": "Model",
+            "zh-TW": "型號",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 5
+        },
+        {
+          "type": "urn:homekit-spec:property:name:00000023:openxiot:castor:1",
+          "description": {
+            "en-US": "name",
+            "zh-TW": "名稱",
+            "zh-CN": "名称"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 6
+        },
+        {
+          "type": "urn:homekit-spec:property:serial-number:00000030:openxiot:castor:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-TW": "序列號",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 7
+        },
+        {
+          "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:castor:1",
+          "description": {
+            "en-US": "Accessory Flags",
+            "zh-TW": "配件屬性",
+            "zh-CN": "配件属性"
+          },
+          "format": "uint32",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            65535,
+            1
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:homekit-spec:property:hardware-revision:00000053:openxiot:castor:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-TW": "硬件版本",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:homekit-spec:service:lightbulb:00000043:openxiot:castor:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Light Bulb",
+        "zh-CN": "灯泡",
+        "fr-FR": "Light Bulb",
+        "de-DE": "Light Bulb",
+        "ja-JP": "Light Bulb",
+        "ko-KR": "Light Bulb",
+        "es-ES": "Light Bulb",
+        "pt-BR": "Light Bulb"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:on:00000025:openxiot:castor:1",
+          "description": {
+            "en-US": "On",
+            "zh-CN": "开关"
+          },
+          "format": "bool",
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 11
+        },
+        {
+          "type": "urn:homekit-spec:property:brightness:00000008:openxiot:castor:1",
+          "description": {
+            "en-US": "Brightness",
+            "zh-CN": "亮度"
+          },
+          "format": "int32",
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            1
+          ],
+          "unit": "percentage",
+          "x-required": false,
+          "iid": 12
+        },
+        {
+          "type": "urn:homekit-spec:property:hue:00000013:openxiot:castor:1",
+          "description": {
+            "en-US": "Hue",
+            "zh-CN": "色调"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            360,
+            1
+          ],
+          "unit": "arcdegrees",
+          "x-required": false,
+          "iid": 13
+        },
+        {
+          "type": "urn:homekit-spec:property:saturation:0000002F:openxiot:castor:1",
+          "description": {
+            "en-US": "Saturation",
+            "zh-CN": "饱和度"
+          },
+          "format": "float",
+          "access": [
+            "read",
+            "write",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            100,
+            1
+          ],
+          "unit": "percentage",
+          "x-required": false,
+          "iid": 14
+        }
+      ]
+    }
+  ]
+}

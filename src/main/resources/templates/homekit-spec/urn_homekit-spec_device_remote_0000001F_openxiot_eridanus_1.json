@@ -1,0 +1,202 @@
+{
+  "type": "urn:homekit-spec:device:remote:0000001F:openxiot:eridanus:1",
+  "lifecycle": "development",
+  "description": {
+    "en-US": "Remote Control",
+    "zh-CN": "遥控器",
+    "fr-FR": "Telecommande",
+    "de-DE": "Fernbedienung",
+    "ja-JP": "リモコン",
+    "ko-KR": "리모컨",
+    "es-ES": "Control remoto",
+    "pt-BR": "Controle remoto"
+  },
+  "services": [
+    {
+      "x-required": true,
+      "iid": 1,
+      "type": "urn:homekit-spec:service:accessory-information:0000003e:openxiot:eridanus:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Accessory Information",
+        "zh-CN": "配件信息",
+        "fr-FR": "Informations sur l'accessoire",
+        "de-DE": "Zubehörinformationen",
+        "ja-JP": "アクセサリ情報",
+        "ko-KR": "액세서리 정보",
+        "es-ES": "Información del accesorio",
+        "pt-BR": "Informações do acessório"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:firmware-revision:00000052:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Firmware Revision",
+            "zh-TW": "固件版本",
+            "zh-CN": "固件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 2
+        },
+        {
+          "type": "urn:homekit-spec:property:identify:00000014:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Identify",
+            "zh-TW": "辨認",
+            "zh-CN": "辨认"
+          },
+          "format": "bool",
+          "access": [
+            "write"
+          ],
+          "x-required": true,
+          "iid": 3
+        },
+        {
+          "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Manufacturer",
+            "zh-TW": "制造商",
+            "zh-CN": "制造商"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 4
+        },
+        {
+          "type": "urn:homekit-spec:property:model:00000021:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Model",
+            "zh-TW": "型號",
+            "zh-CN": "型号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 5
+        },
+        {
+          "type": "urn:homekit-spec:property:name:00000023:openxiot:eridanus:1",
+          "description": {
+            "en-US": "name",
+            "zh-TW": "名稱",
+            "zh-CN": "名称"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 6
+        },
+        {
+          "type": "urn:homekit-spec:property:serial-number:00000030:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Serial Number",
+            "zh-TW": "序列號",
+            "zh-CN": "序列号"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": true,
+          "iid": 7
+        },
+        {
+          "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Accessory Flags",
+            "zh-TW": "配件屬性",
+            "zh-CN": "配件属性"
+          },
+          "format": "uint32",
+          "access": [
+            "read",
+            "notify"
+          ],
+          "value-range": [
+            0,
+            65535,
+            1
+          ],
+          "x-required": false,
+          "iid": 8
+        },
+        {
+          "type": "urn:homekit-spec:property:hardware-revision:00000053:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Hardware Revision",
+            "zh-TW": "硬件版本",
+            "zh-CN": "硬件版本"
+          },
+          "format": "string",
+          "access": [
+            "read"
+          ],
+          "x-required": false,
+          "iid": 9
+        }
+      ]
+    },
+    {
+      "x-required": true,
+      "iid": 11,
+      "type": "urn:homekit-spec:service:stateless-programmable-switch:00000089:openxiot:eridanus:1",
+      "x-action-addable": false,
+      "x-event-addable": false,
+      "x-property-addable": false,
+      "description": {
+        "en-US": "Stateless Switch",
+        "zh-CN": "无状态开关",
+        "fr-FR": "Stateless Switch",
+        "de-DE": "Stateless Switch",
+        "ja-JP": "Stateless Switch",
+        "ko-KR": "Stateless Switch",
+        "es-ES": "Stateless Switch",
+        "pt-BR": "Stateless Switch"
+      },
+      "properties": [
+        {
+          "type": "urn:homekit-spec:property:programmable-switch-event:00000073:openxiot:eridanus:1",
+          "description": {
+            "en-US": "Switch Event",
+            "zh-CN": "按键事件"
+          },
+          "format": "uint8",
+          "value-list": [
+            {
+              "value": 0,
+              "description": "Single Press"
+            },
+            {
+              "value": 1,
+              "description": "Double Press"
+            },
+            {
+              "value": 2,
+              "description": "Long Press"
+            }
+          ],
+          "access": [
+            "read",
+            "notify"
+          ],
+          "x-required": true,
+          "iid": 11
+        }
+      ]
+    }
+  ]
+}
