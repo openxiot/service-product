@@ -23,7 +23,6 @@ import java.util.stream.Collectors;
 public class Organization extends PanacheMongoEntityBase {
 
     @BsonId
-    @BsonProperty("code")
     public String code;
 
     @BsonProperty("name")

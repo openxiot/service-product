@@ -4,10 +4,12 @@ import cc.openxiot.common.exception.OxException;
 import cc.openxiot.common.resource.AbstractResource;
 import cc.openxiot.common.response.OxResponse;
 import cc.openxiot.common.role.OxRole;
+import cc.openxiot.product.prepared.TemplatePrepared;
 import cn.geekcity.xiot.spec.codec.vertx.template.DeviceTemplateCodec;
+import cn.geekcity.xiot.spec.codec.vertx.template.TemplateSummaryCodec;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.template.DeviceTemplate;
-import io.vertx.core.json.JsonArray;
+import cn.geekcity.xiot.spec.template.TemplateSummary;
 import io.vertx.core.json.JsonObject;
 import jakarta.annotation.security.RolesAllowed;
 import jakarta.enterprise.context.RequestScoped;
@@ -18,6 +20,7 @@ import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.logging.Logger;
 
+import java.io.IOException;
 import java.util.List;
 
 @Path("/v1/template")
@@ -31,6 +34,9 @@ public class TemplateResource extends AbstractResource {
 
     @Inject
     TemplateService service;
+
+    @Inject
+    TemplatePrepared prepared;
 
     @POST
     @Path("/one")
@@ -88,13 +94,14 @@ public class TemplateResource extends AbstractResource {
         logger.infov("getOne, {0}", type);
 
         try {
-            DeviceTemplate template = service.find(DeviceType.parse(type));
+            DeviceType t = DeviceType.parse(type);
+            DeviceTemplate template = prepared.contains(t.ns()) ? prepared.getTemplate(t) : service.find(t);
             if (template == null) {
                 return OxResponse.error("template not found");
             } else {
                 return OxResponse.ok(DeviceTemplateCodec.encode(template));
             }
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException | IOException e) {
             return OxResponse.error(e);
         }
     }
@@ -105,17 +112,29 @@ public class TemplateResource extends AbstractResource {
             @PathParam("namespace") String namespace
     ) {
         logger.infov("getMany: {0}", namespace);
-        List<DeviceTemplate> list = service.findByNamespace(namespace);
-        List<String> array = list.stream().map(x -> x.type().toString()).toList();
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<TemplateSummary> list = service.getSummaryByNamespace(namespace);
+            list.addAll(prepared.getTemplates(namespace));
+
+            return OxResponse.ok(TemplateSummaryCodec.encode(list));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 
     @GET
     @Path("/all")
     public Response getAll() {
         logger.infov("getAll");
-        List<DeviceTemplate> list = service.findAll();
-        List<String> array = list.stream().map(x -> x.type().toString()).toList();
-        return OxResponse.ok(new JsonArray(array));
+
+        try {
+            List<TemplateSummary> list = service.getAllTemplate();
+            list.addAll(prepared.getAllTemplate());
+
+            return OxResponse.ok(TemplateSummaryCodec.encode(list));
+        } catch (IOException e) {
+            return OxResponse.error(e);
+        }
     }
 }

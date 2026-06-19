@@ -10,6 +10,7 @@ import cc.openxiot.product.permission.NamespacePermission;
 import cn.geekcity.xiot.spec.codec.vertx.template.DeviceTemplateCodec;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.template.DeviceTemplate;
+import cn.geekcity.xiot.spec.template.TemplateSummary;
 import io.vertx.core.json.JsonObject;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -85,10 +86,10 @@ public class TemplateService {
         return DeviceTemplateCodec.decode(new JsonObject(found.content));
     }
 
-    public List<DeviceTemplate> findByNamespace(String ns) {
-        return repository.findByNamespace(ns)
+    public List<TemplateSummary> getSummaryByNamespace(String ns) {
+        return repository.getSummaryByNamespace(ns)
                 .stream()
-                .map(x -> DeviceTemplateCodec.decode(new JsonObject(x.content)))
+                .map(TemplateMapper::toSummary)
                 .collect(Collectors.toList());
     }
 
@@ -99,10 +100,10 @@ public class TemplateService {
                 .collect(Collectors.toList());
     }
 
-    public List<DeviceTemplate> findAll() {
-        return repository.listAll()
+    public List<TemplateSummary> getAllTemplate() {
+        return repository.getAllSummary()
                 .stream()
-                .map(x -> DeviceTemplateCodec.decode(new JsonObject(x.content)))
+                .map(TemplateMapper::toSummary)
                 .collect(Collectors.toList());
     }
 }

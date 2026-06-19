@@ -20,6 +20,24 @@ public class TemplateRepository implements PanacheMongoRepository<TemplateEntity
         return find("namespace = ?1", namespace).stream().toList();
     }
 
+    public List<TemplateSummaryEntity> getSummaryByOrganization(String organization) {
+        return find("organization = ?1", organization)
+                .project(TemplateSummaryEntity.class)
+                .list();
+    }
+
+    public List<TemplateSummaryEntity> getSummaryByNamespace(String namespace) {
+        return find("namespace = ?1", namespace)
+                .project(TemplateSummaryEntity.class)
+                .list();
+    }
+
+    public List<TemplateSummaryEntity> getAllSummary() {
+        return findAll()
+                .project(TemplateSummaryEntity.class)
+                .list();
+    }
+
     public TemplateEntity findBy(String namespace, String organization, String model, int version) {
         Map<String, Object> params = new HashMap<>();
         StringBuilder query = new StringBuilder();
