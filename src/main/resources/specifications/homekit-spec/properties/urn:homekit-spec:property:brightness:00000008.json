@@ -8,7 +8,8 @@
         "ja-JP": "\u660e\u308b\u3055",
         "ko-KR": "\ubc1d\uae30",
         "es-ES": "Brillo",
-        "pt-BR": "Brilho"
+        "pt-BR": "Brilho",
+        "zh-TW": "\u4eae\u5ea6"
     },
     "format": "int32",
     "access": [

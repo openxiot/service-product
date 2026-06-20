@@ -8,7 +8,8 @@
         "ja-JP": "アンペア",
         "ko-KR": "암페어",
         "es-ES": "amperios",
-        "pt-BR": "amperes"
+        "pt-BR": "amperes",
+        "zh-TW": "安培"
     },
     "lifecycle": "released"
 }

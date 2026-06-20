@@ -8,7 +8,8 @@
         "ja-JP": "スキャンリフレッシュ",
         "ko-KR": "스캔 새로고침",
         "es-ES": "Actualizacion del escaneo",
-        "pt-BR": "Atualizacao da varredura"
+        "pt-BR": "Atualizacao da varredura",
+        "zh-TW": "掃描刷新"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u30c9\u30a2\u72b6\u614b",
         "ko-KR": "\ud604\uc7ac \ubb38 \uc0c1\ud0dc",
         "es-ES": "Estado actual de la puerta",
-        "pt-BR": "Estado atual da porta"
+        "pt-BR": "Estado atual da porta",
+        "zh-TW": "\u7576\u524d\u9580\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u958b",
                 "ko-KR": "\uc5f4\ub9bc",
                 "es-ES": "ABIERTO",
-                "pt-BR": "ABERTO"
+                "pt-BR": "ABERTO",
+                "zh-TW": "\u6253\u958b"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u9589",
                 "ko-KR": "\ub2eb\ud798",
                 "es-ES": "CERRADO",
-                "pt-BR": "FECHADO"
+                "pt-BR": "FECHADO",
+                "zh-TW": "\u95dc\u9589"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u958b\u3051\u4e2d",
                 "ko-KR": "\uc5f4\ub9ac\ub294 \uc911",
                 "es-ES": "ABRIENDO",
-                "pt-BR": "ABRINDO"
+                "pt-BR": "ABRINDO",
+                "zh-TW": "\u6b63\u5728\u6253\u958b"
             }
         },
         {
@@ -65,7 +69,8 @@
                 "ja-JP": "\u9589\u3058\u4e2d",
                 "ko-KR": "\ub2eb\ud788\ub294 \uc911",
                 "es-ES": "CERRANDO",
-                "pt-BR": "FECHANDO"
+                "pt-BR": "FECHANDO",
+                "zh-TW": "\u6b63\u5728\u95dc\u9589"
             }
         },
         {
@@ -78,7 +83,8 @@
                 "ja-JP": "\u505c\u6b62\u4e2d",
                 "ko-KR": "\uc815\uc9c0\ub428",
                 "es-ES": "DETENIDO",
-                "pt-BR": "PARADO"
+                "pt-BR": "PARADO",
+                "zh-TW": "\u5df2\u505c\u6b62"
             }
         }
     ],

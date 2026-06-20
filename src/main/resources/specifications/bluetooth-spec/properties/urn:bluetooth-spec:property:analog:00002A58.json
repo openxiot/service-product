@@ -8,7 +8,8 @@
         "ja-JP": "アナログ",
         "ko-KR": "아날로그",
         "es-ES": "Analogico",
-        "pt-BR": "Analogico"
+        "pt-BR": "Analogico",
+        "zh-TW": "模擬"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "VOC\u6fc3\u5ea6",
         "ko-KR": "VOC \ubc00\ub3c4",
         "es-ES": "Densidad de COV",
-        "pt-BR": "Densidade de COV"
+        "pt-BR": "Densidade de COV",
+        "zh-TW": "VOC \u6fc3\u5ea6"
     },
     "format": "float",
     "access": [

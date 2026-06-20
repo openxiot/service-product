@@ -8,7 +8,8 @@
         "ja-JP": "HTTPヘッダー",
         "ko-KR": "HTTP 헤더",
         "es-ES": "Encabezados HTTP",
-        "pt-BR": "Cabecalhos HTTP"
+        "pt-BR": "Cabecalhos HTTP",
+        "zh-TW": "HTTP 頭部"
     },
     "format": "uint8",
     "access": [

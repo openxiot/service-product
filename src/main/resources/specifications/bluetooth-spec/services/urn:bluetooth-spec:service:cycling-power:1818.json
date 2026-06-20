@@ -8,7 +8,8 @@
         "ja-JP": "サイクリングパワー",
         "ko-KR": "사이클링 파워",
         "es-ES": "Potencia ciclista",
-        "pt-BR": "Potencia ciclistica"
+        "pt-BR": "Potencia ciclistica",
+        "zh-TW": "騎行功率"
     },
     "lifecycle": "released",
     "required-properties": [

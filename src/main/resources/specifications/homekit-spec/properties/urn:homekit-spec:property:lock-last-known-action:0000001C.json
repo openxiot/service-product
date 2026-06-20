@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u6700\u7d42\u65e2\u77e5\u30a2\u30af\u30b7\u30e7\u30f3",
         "ko-KR": "\uc7a0\uae08 \ub9c8\uc9c0\ub9c9 \ub3d9\uc791",
         "es-ES": "\u00daltima acci\u00f3n conocida de la cerradura",
-        "pt-BR": "\u00daltima a\u00e7\u00e3o conhecida da fechadura"
+        "pt-BR": "\u00daltima a\u00e7\u00e3o conhecida da fechadura",
+        "zh-TW": "\u9396\u4e0a\u6b21\u64cd\u4f5c"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u5185\u90e8\u7269\u7406\u65bd\u9320",
                 "ko-KR": "\ub0b4\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae40",
                 "es-ES": "ASEGURADO F\u00cdSICAMENTE INTERIOR",
-                "pt-BR": "SEGURO FISICAMENTE INTERNO"
+                "pt-BR": "SEGURO FISICAMENTE INTERNO",
+                "zh-TW": "\u5167\u90e8\u7269\u7406\u9396\u5b9a"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u5185\u90e8\u7269\u7406\u89e3\u9320",
                 "ko-KR": "\ub0b4\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae08 \ud574\uc81c",
                 "es-ES": "DESEGURADO F\u00cdSICAMENTE INTERIOR",
-                "pt-BR": "DESTRAVADO FISICAMENTE INTERNO"
+                "pt-BR": "DESTRAVADO FISICAMENTE INTERNO",
+                "zh-TW": "\u5167\u90e8\u7269\u7406\u89e3\u9396"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u5916\u90e8\u7269\u7406\u65bd\u9320",
                 "ko-KR": "\uc678\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae40",
                 "es-ES": "ASEGURADO F\u00cdSICAMENTE EXTERIOR",
-                "pt-BR": "SEGURO FISICAMENTE EXTERNO"
+                "pt-BR": "SEGURO FISICAMENTE EXTERNO",
+                "zh-TW": "\u5916\u90e8\u7269\u7406\u9396\u5b9a"
             }
         },
         {
@@ -65,7 +69,8 @@
                 "ja-JP": "\u5916\u90e8\u7269\u7406\u89e3\u9320",
                 "ko-KR": "\uc678\ubd80 \ubb3c\ub9ac\uc801 \uc7a0\uae08 \ud574\uc81c",
                 "es-ES": "DESEGURADO F\u00cdSICAMENTE EXTERIOR",
-                "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO"
+                "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO",
+                "zh-TW": "\u5916\u90e8\u7269\u7406\u89e3\u9396"
             }
         },
         {
@@ -78,7 +83,8 @@
                 "ja-JP": "\u30ad\u30fc\u30d1\u30c3\u30c9\u3067\u65bd\u9320",
                 "ko-KR": "\ud0a4\ud328\ub4dc\ub85c \uc7a0\uae40",
                 "es-ES": "ASEGURADO POR TECLADO",
-                "pt-BR": "SEGURO POR TECLADO"
+                "pt-BR": "SEGURO POR TECLADO",
+                "zh-TW": "\u9375\u76e4\u9396\u5b9a"
             }
         },
         {
@@ -91,7 +97,8 @@
                 "ja-JP": "\u30ad\u30fc\u30d1\u30c3\u30c9\u3067\u89e3\u9320",
                 "ko-KR": "\ud0a4\ud328\ub4dc\ub85c \uc7a0\uae08 \ud574\uc81c",
                 "es-ES": "DESEGURADO POR TECLADO",
-                "pt-BR": "DESTRAVADO POR TECLADO"
+                "pt-BR": "DESTRAVADO POR TECLADO",
+                "zh-TW": "\u9375\u76e4\u89e3\u9396"
             }
         },
         {
@@ -104,7 +111,8 @@
                 "ja-JP": "\u9060\u9694\u65bd\u9320",
                 "ko-KR": "\uc6d0\uaca9 \uc7a0\uae40",
                 "es-ES": "ASEGURADO REMOTAMENTE",
-                "pt-BR": "SEGURO REMOTAMENTE"
+                "pt-BR": "SEGURO REMOTAMENTE",
+                "zh-TW": "\u9060\u7a0b\u9396\u5b9a"
             }
         },
         {
@@ -117,7 +125,8 @@
                 "ja-JP": "\u9060\u9694\u89e3\u9320",
                 "ko-KR": "\uc6d0\uaca9 \uc7a0\uae08 \ud574\uc81c",
                 "es-ES": "DESEGURADO REMOTAMENTE",
-                "pt-BR": "DESTRAVADO REMOTAMENTE"
+                "pt-BR": "DESTRAVADO REMOTAMENTE",
+                "zh-TW": "\u9060\u7a0b\u89e3\u9396"
             }
         },
         {
@@ -130,7 +139,8 @@
                 "ja-JP": "\u81ea\u52d5\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30bf\u30a4\u30e0\u30a2\u30a6\u30c8\u306b\u3088\u308a\u65bd\u9320",
                 "ko-KR": "\uc790\ub3d9 \ubcf4\uc548 \uc2dc\uac04 \ucd08\uacfc\ub85c \uc7a0\uae40",
                 "es-ES": "ASEGURADO POR TIEMPO DE SEGURIDAD AUTOM\u00c1TICO",
-                "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURAN\u00c7A AUTOM\u00c1TICO"
+                "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURAN\u00c7A AUTOM\u00c1TICO",
+                "zh-TW": "\u81ea\u52d5\u5b89\u5168\u8d85\u6642\u5df2\u9396\u5b9a"
             }
         }
     ],

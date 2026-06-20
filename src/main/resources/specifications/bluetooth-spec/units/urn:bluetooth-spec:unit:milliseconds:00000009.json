@@ -8,7 +8,8 @@
         "ja-JP": "ミリ秒",
         "ko-KR": "밀리초",
         "es-ES": "milisegundos",
-        "pt-BR": "milissegundos"
+        "pt-BR": "milissegundos",
+        "zh-TW": "毫秒"
     },
     "lifecycle": "released"
 }

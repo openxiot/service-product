@@ -8,7 +8,8 @@
         "ja-JP": "湿度",
         "ko-KR": "습도",
         "es-ES": "Humedad",
-        "pt-BR": "Umidade"
+        "pt-BR": "Umidade",
+        "zh-TW": "溼度"
     },
     "format": "uint16",
     "access": [

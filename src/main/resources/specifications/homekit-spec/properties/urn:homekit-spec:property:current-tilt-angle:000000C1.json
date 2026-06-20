@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u50be\u659c\u89d2",
         "ko-KR": "\ud604\uc7ac \uae30\uc6b8\uae30 \uac01\ub3c4",
         "es-ES": "\u00c1ngulo de inclinaci\u00f3n actual",
-        "pt-BR": "\u00c2ngulo de inclina\u00e7\u00e3o atual"
+        "pt-BR": "\u00c2ngulo de inclina\u00e7\u00e3o atual",
+        "zh-TW": "\u7576\u524d\u50be\u659c\u89d2\u5ea6"
     },
     "format": "int32",
     "access": [

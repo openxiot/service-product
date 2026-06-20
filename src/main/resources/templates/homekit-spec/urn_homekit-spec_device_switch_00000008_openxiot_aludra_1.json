@@ -9,7 +9,8 @@
     "ja-JP": "Five-key Switch",
     "ko-KR": "Five-key Switch",
     "es-ES": "Five-key Switch",
-    "pt-BR": "Five-key Switch"
+    "pt-BR": "Five-key Switch",
+    "zh-TW": "五鍵開關"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:aludra:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "Left Switch",
         "ko-KR": "Left Switch",
         "es-ES": "Left Switch",
-        "pt-BR": "Left Switch"
+        "pt-BR": "Left Switch",
+        "zh-TW": "左鍵"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:on:00000025:openxiot:aludra:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [
@@ -200,14 +204,16 @@
         "ja-JP": "Right Switch",
         "ko-KR": "Right Switch",
         "es-ES": "Right Switch",
-        "pt-BR": "Right Switch"
+        "pt-BR": "Right Switch",
+        "zh-TW": "右鍵"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:on:00000025:openxiot:aludra:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [
@@ -242,7 +248,8 @@
           "type": "urn:homekit-spec:property:on:00000025:openxiot:aludra:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [
@@ -277,7 +284,8 @@
           "type": "urn:homekit-spec:property:on:00000025:openxiot:aludra:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [
@@ -312,7 +320,8 @@
           "type": "urn:homekit-spec:property:on:00000025:openxiot:aludra:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [

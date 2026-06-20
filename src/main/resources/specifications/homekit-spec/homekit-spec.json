@@ -9,7 +9,8 @@
       "ja-JP": "HomeKit アクセサリ仕様",
       "ko-KR": "HomeKit 액세서리 사양",
       "es-ES": "Especificación de accesorios HomeKit",
-      "pt-BR": "Especificação de acessórios HomeKit"
+      "pt-BR": "Especificação de acessórios HomeKit",
+      "zh-TW": "HomeKit 配件規範"
     },
     "organization": "openxiot",
     "visibility": "public"
@@ -27,7 +28,8 @@
         "ja-JP": "エアコン",
         "ko-KR": "에어컨",
         "es-ES": "Aire acondicionado",
-        "pt-BR": "Ar condicionado"
+        "pt-BR": "Ar condicionado",
+        "zh-TW": "空調"
       }
     },
     "air-purifier": {
@@ -42,7 +44,8 @@
         "ja-JP": "空気清浄機",
         "ko-KR": "공기 청정기",
         "es-ES": "Purificador de aire",
-        "pt-BR": "Purificador de ar"
+        "pt-BR": "Purificador de ar",
+        "zh-TW": "空氣淨化器"
       }
     },
     "airplay-receiver": {
@@ -57,7 +60,8 @@
         "ja-JP": "AirPlayレシーバー",
         "ko-KR": "AirPlay 리시버",
         "es-ES": "Receptor AirPlay",
-        "pt-BR": "Receptor AirPlay"
+        "pt-BR": "Receptor AirPlay",
+        "zh-TW": "AirPlay 接收器"
       }
     },
     "alarm-system": {
@@ -72,7 +76,8 @@
         "ja-JP": "警報システム",
         "ko-KR": "경보 시스템",
         "es-ES": "Sistema de alarma",
-        "pt-BR": "Sistema de alarme"
+        "pt-BR": "Sistema de alarme",
+        "zh-TW": "警報系統"
       }
     },
     "apple-tv": {
@@ -117,7 +122,8 @@
         "ja-JP": "オーディオレシーバー",
         "ko-KR": "오디오 리시버",
         "es-ES": "Receptor de audio",
-        "pt-BR": "Receptor de audio"
+        "pt-BR": "Receptor de audio",
+        "zh-TW": "音頻接收器"
       }
     },
     "bridge": {
@@ -132,7 +138,8 @@
         "ja-JP": "ブリッジ",
         "ko-KR": "브리지",
         "es-ES": "Puente",
-        "pt-BR": "Ponte"
+        "pt-BR": "Ponte",
+        "zh-TW": "橋接器"
       }
     },
     "dehumidifier": {
@@ -147,7 +154,8 @@
         "ja-JP": "除湿器",
         "ko-KR": "제습기",
         "es-ES": "Deshumidificador",
-        "pt-BR": "Desumidificador"
+        "pt-BR": "Desumidificador",
+        "zh-TW": "除溼器"
       }
     },
     "door-lock": {
@@ -162,7 +170,8 @@
         "ja-JP": "ドアロック",
         "ko-KR": "도어 잠금",
         "es-ES": "Cerradura de puerta",
-        "pt-BR": "Fechadura"
+        "pt-BR": "Fechadura",
+        "zh-TW": "門鎖"
       }
     },
     "door": {
@@ -177,7 +186,8 @@
         "ja-JP": "ドア",
         "ko-KR": "문",
         "es-ES": "Puerta",
-        "pt-BR": "Porta"
+        "pt-BR": "Porta",
+        "zh-TW": "門"
       }
     },
     "fan": {
@@ -192,7 +202,8 @@
         "ja-JP": "ファン",
         "ko-KR": "팬",
         "es-ES": "Ventilador",
-        "pt-BR": "Ventilador"
+        "pt-BR": "Ventilador",
+        "zh-TW": "風扇"
       }
     },
     "faucet": {
@@ -207,7 +218,8 @@
         "ja-JP": "蛇口",
         "ko-KR": "수도꼭지",
         "es-ES": "Grifo",
-        "pt-BR": "Torneira"
+        "pt-BR": "Torneira",
+        "zh-TW": "水龍頭"
       }
     },
     "garage-door-opener": {
@@ -222,7 +234,8 @@
         "ja-JP": "ガレージドア開閉器",
         "ko-KR": "차고 문 개폐기",
         "es-ES": "Abrepuertas de garaje",
-        "pt-BR": "Abre-porta de garagem"
+        "pt-BR": "Abre-porta de garagem",
+        "zh-TW": "車庫門"
       }
     },
     "heater": {
@@ -237,7 +250,8 @@
         "ja-JP": "ヒーター",
         "ko-KR": "히터",
         "es-ES": "Calefactor",
-        "pt-BR": "Aquecedor"
+        "pt-BR": "Aquecedor",
+        "zh-TW": "加熱器"
       }
     },
     "homepod": {
@@ -267,7 +281,8 @@
         "ja-JP": "加湿器",
         "ko-KR": "가습기",
         "es-ES": "Humidificador",
-        "pt-BR": "Umidificador"
+        "pt-BR": "Umidificador",
+        "zh-TW": "加溼器"
       }
     },
     "ip-camera": {
@@ -282,7 +297,8 @@
         "ja-JP": "IPカメラ",
         "ko-KR": "IP 카메라",
         "es-ES": "Camara IP",
-        "pt-BR": "Camera IP"
+        "pt-BR": "Camera IP",
+        "zh-TW": "IP 攝像頭"
       }
     },
     "lightbulb": {
@@ -297,7 +313,8 @@
         "ja-JP": "電球",
         "ko-KR": "전구",
         "es-ES": "Bombilla",
-        "pt-BR": "Lampada"
+        "pt-BR": "Lampada",
+        "zh-TW": "燈泡"
       }
     },
     "network-extender": {
@@ -312,7 +329,8 @@
         "ja-JP": "ネットワークエクステンダー",
         "ko-KR": "네트워크 익스텐더",
         "es-ES": "Extensor de red",
-        "pt-BR": "Extensor de rede"
+        "pt-BR": "Extensor de rede",
+        "zh-TW": "網絡擴展器"
       }
     },
     "other": {
@@ -327,7 +345,8 @@
         "ja-JP": "その他",
         "ko-KR": "기타",
         "es-ES": "Otro",
-        "pt-BR": "Outro"
+        "pt-BR": "Outro",
+        "zh-TW": "其他"
       }
     },
     "outlet": {
@@ -342,7 +361,8 @@
         "ja-JP": "コンセント",
         "ko-KR": "콘센트",
         "es-ES": "Enchufe",
-        "pt-BR": "Tomada"
+        "pt-BR": "Tomada",
+        "zh-TW": "插座"
       }
     },
     "programmable-switch": {
@@ -357,7 +377,8 @@
         "ja-JP": "プログラマブルスイッチ",
         "ko-KR": "프로그래밍 가능 스위치",
         "es-ES": "Interruptor programable",
-        "pt-BR": "Interruptor programavel"
+        "pt-BR": "Interruptor programavel",
+        "zh-TW": "可編程開關"
       }
     },
     "remote": {
@@ -372,7 +393,8 @@
         "ja-JP": "リモコン",
         "ko-KR": "리모컨",
         "es-ES": "Control remoto",
-        "pt-BR": "Controle remoto"
+        "pt-BR": "Controle remoto",
+        "zh-TW": "遙控器"
       }
     },
     "router": {
@@ -387,7 +409,8 @@
         "ja-JP": "ルーター",
         "ko-KR": "라우터",
         "es-ES": "Enrutador",
-        "pt-BR": "Roteador"
+        "pt-BR": "Roteador",
+        "zh-TW": "路由器"
       }
     },
     "security-system": {
@@ -402,7 +425,8 @@
         "ja-JP": "セキュリティシステム",
         "ko-KR": "보안 시스템",
         "es-ES": "Sistema de seguridad",
-        "pt-BR": "Sistema de seguranca"
+        "pt-BR": "Sistema de seguranca",
+        "zh-TW": "安全系統"
       }
     },
     "sensor": {
@@ -417,7 +441,8 @@
         "ja-JP": "センサー",
         "ko-KR": "센서",
         "es-ES": "Sensor",
-        "pt-BR": "Sensor"
+        "pt-BR": "Sensor",
+        "zh-TW": "傳感器"
       }
     },
     "shower-head": {
@@ -432,7 +457,8 @@
         "ja-JP": "シャワーヘッド",
         "ko-KR": "샤워 헤드",
         "es-ES": "Ducha",
-        "pt-BR": "Chuveiro"
+        "pt-BR": "Chuveiro",
+        "zh-TW": "花灑"
       }
     },
     "speaker": {
@@ -447,7 +473,8 @@
         "ja-JP": "スピーカー",
         "ko-KR": "스피커",
         "es-ES": "Altavoz",
-        "pt-BR": "Alto-falante"
+        "pt-BR": "Alto-falante",
+        "zh-TW": "揚聲器"
       }
     },
     "sprinkler": {
@@ -462,7 +489,8 @@
         "ja-JP": "スプリンクラー",
         "ko-KR": "스프링클러",
         "es-ES": "Aspersor",
-        "pt-BR": "Aspersor"
+        "pt-BR": "Aspersor",
+        "zh-TW": "灑水器"
       }
     },
     "switch": {
@@ -477,7 +505,8 @@
         "ja-JP": "スイッチ",
         "ko-KR": "스위치",
         "es-ES": "Interruptor",
-        "pt-BR": "Interruptor"
+        "pt-BR": "Interruptor",
+        "zh-TW": "開關"
       }
     },
     "television": {
@@ -492,7 +521,8 @@
         "ja-JP": "テレビ",
         "ko-KR": "텔레비전",
         "es-ES": "Television",
-        "pt-BR": "Televisao"
+        "pt-BR": "Televisao",
+        "zh-TW": "電視"
       }
     },
     "thermostat": {
@@ -507,7 +537,8 @@
         "ja-JP": "サーモスタット",
         "ko-KR": "온도 조절기",
         "es-ES": "Termostato",
-        "pt-BR": "Termostato"
+        "pt-BR": "Termostato",
+        "zh-TW": "恆溫器"
       }
     },
     "video-doorbell": {
@@ -522,7 +553,8 @@
         "ja-JP": "ビデオドアベル",
         "ko-KR": "비디오 초인종",
         "es-ES": "Timbre con video",
-        "pt-BR": "Campainha com video"
+        "pt-BR": "Campainha com video",
+        "zh-TW": "可視門鈴"
       }
     },
     "window-covering": {
@@ -537,7 +569,8 @@
         "ja-JP": "窓覆い",
         "ko-KR": "윈도우 커버링",
         "es-ES": "Cubierta de ventana",
-        "pt-BR": "Persiana"
+        "pt-BR": "Persiana",
+        "zh-TW": "窗簾"
       }
     },
     "window": {
@@ -552,7 +585,8 @@
         "ja-JP": "窓",
         "ko-KR": "창문",
         "es-ES": "Ventana",
-        "pt-BR": "Janela"
+        "pt-BR": "Janela",
+        "zh-TW": "窗戶"
       }
     }
   },
@@ -570,7 +604,8 @@
         "ja-JP": "アクセサリフラグ",
         "ko-KR": "액세서리 플래그",
         "es-ES": "Indicadores de accesorio",
-        "pt-BR": "Sinalizadores do acessório"
+        "pt-BR": "Sinalizadores do acessório",
+        "zh-TW": "附件標誌"
       },
       "format": "uint32",
       "access": [
@@ -590,7 +625,8 @@
         "ja-JP": "アクティブ",
         "ko-KR": "활성",
         "es-ES": "Activo",
-        "pt-BR": "Ativo"
+        "pt-BR": "Ativo",
+        "zh-TW": "活動狀態"
       },
       "format": "uint8",
       "access": [
@@ -609,7 +645,8 @@
             "ja-JP": "非アクティブ",
             "ko-KR": "비활성",
             "es-ES": "INACTIVO",
-            "pt-BR": "INATIVO"
+            "pt-BR": "INATIVO",
+            "zh-TW": "非活動"
           }
         },
         {
@@ -622,7 +659,8 @@
             "ja-JP": "アクティブ",
             "ko-KR": "활성",
             "es-ES": "ACTIVO",
-            "pt-BR": "ATIVO"
+            "pt-BR": "ATIVO",
+            "zh-TW": "活動"
           }
         }
       ],
@@ -639,7 +677,8 @@
         "ja-JP": "管理者のみアクセス",
         "ko-KR": "관리자만 접근",
         "es-ES": "Solo acceso de administrador",
-        "pt-BR": "Acesso apenas do administrador"
+        "pt-BR": "Acesso apenas do administrador",
+        "zh-TW": "僅管理員訪問"
       },
       "format": "bool",
       "access": [
@@ -660,7 +699,8 @@
         "ja-JP": "空気微粒子濃度",
         "ko-KR": "공기 중 미세 입자 밀도",
         "es-ES": "Densidad de partículas en suspensión",
-        "pt-BR": "Densidade de partículas no ar"
+        "pt-BR": "Densidade de partículas no ar",
+        "zh-TW": "空氣顆粒物密度"
       },
       "format": "float",
       "access": [
@@ -685,7 +725,8 @@
         "ja-JP": "空気微粒子サイズ",
         "ko-KR": "공기 중 미세 입자 크기",
         "es-ES": "Tamaño de partículas en suspensión",
-        "pt-BR": "Tamanho de partículas no ar"
+        "pt-BR": "Tamanho de partículas no ar",
+        "zh-TW": "空氣顆粒物大小"
       },
       "format": "uint8",
       "access": [
@@ -703,7 +744,8 @@
             "ja-JP": "2.5 ΜM",
             "ko-KR": "2.5 ΜM",
             "es-ES": "2,5 ΜM",
-            "pt-BR": "2,5 ΜM"
+            "pt-BR": "2,5 ΜM",
+            "zh-TW": "2.5 微米"
           }
         },
         {
@@ -716,7 +758,8 @@
             "ja-JP": "10 ΜM",
             "ko-KR": "10 ΜM",
             "es-ES": "10 ΜM",
-            "pt-BR": "10 ΜM"
+            "pt-BR": "10 ΜM",
+            "zh-TW": "10 微米"
           }
         }
       ],
@@ -733,7 +776,8 @@
         "ja-JP": "空気品質",
         "ko-KR": "공기 질",
         "es-ES": "Calidad del aire",
-        "pt-BR": "Qualidade do ar"
+        "pt-BR": "Qualidade do ar",
+        "zh-TW": "空氣質量"
       },
       "format": "uint8",
       "access": [
@@ -751,7 +795,8 @@
             "ja-JP": "不明",
             "ko-KR": "알 수 없음",
             "es-ES": "DESCONOCIDO",
-            "pt-BR": "DESCONHECIDO"
+            "pt-BR": "DESCONHECIDO",
+            "zh-TW": "未知"
           }
         },
         {
@@ -764,7 +809,8 @@
             "ja-JP": "優良",
             "ko-KR": "우수",
             "es-ES": "EXCELENTE",
-            "pt-BR": "EXCELENTE"
+            "pt-BR": "EXCELENTE",
+            "zh-TW": "優秀"
           }
         },
         {
@@ -777,7 +823,8 @@
             "ja-JP": "良好",
             "ko-KR": "좋음",
             "es-ES": "BUENO",
-            "pt-BR": "BOM"
+            "pt-BR": "BOM",
+            "zh-TW": "良好"
           }
         },
         {
@@ -790,7 +837,8 @@
             "ja-JP": "普通",
             "ko-KR": "보통",
             "es-ES": "REGULAR",
-            "pt-BR": "REGULAR"
+            "pt-BR": "REGULAR",
+            "zh-TW": "一般"
           }
         },
         {
@@ -803,7 +851,8 @@
             "ja-JP": "不良",
             "ko-KR": "나쁨",
             "es-ES": "INFERIOR",
-            "pt-BR": "INFERIOR"
+            "pt-BR": "INFERIOR",
+            "zh-TW": "較差"
           }
         },
         {
@@ -816,7 +865,8 @@
             "ja-JP": "劣悪",
             "ko-KR": "매우 나쁨",
             "es-ES": "POBRE",
-            "pt-BR": "RUIM"
+            "pt-BR": "RUIM",
+            "zh-TW": "差"
           }
         }
       ],
@@ -833,7 +883,8 @@
         "ja-JP": "オーディオフィードバック",
         "ko-KR": "오디오 피드백",
         "es-ES": "Comentario de audio",
-        "pt-BR": "Feedback de áudio"
+        "pt-BR": "Feedback de áudio",
+        "zh-TW": "音頻反饋"
       },
       "format": "bool",
       "access": [
@@ -854,7 +905,8 @@
         "ja-JP": "バッテリーレベル",
         "ko-KR": "배터리 잔량",
         "es-ES": "Nivel de batería",
-        "pt-BR": "Nível da bateria"
+        "pt-BR": "Nível da bateria",
+        "zh-TW": "電池電量"
       },
       "format": "uint8",
       "access": [
@@ -880,7 +932,8 @@
         "ja-JP": "明るさ",
         "ko-KR": "밝기",
         "es-ES": "Brillo",
-        "pt-BR": "Brilho"
+        "pt-BR": "Brilho",
+        "zh-TW": "亮度"
       },
       "format": "int32",
       "access": [
@@ -907,7 +960,8 @@
         "ja-JP": "二酸化炭素検出",
         "ko-KR": "이산화탄소 감지됨",
         "es-ES": "Dióxido de carbono detectado",
-        "pt-BR": "Dióxido de carbono detectado"
+        "pt-BR": "Dióxido de carbono detectado",
+        "zh-TW": "二氧化碳檢測到"
       },
       "format": "uint8",
       "access": [
@@ -925,7 +979,8 @@
             "ja-JP": "二酸化炭素濃度正常",
             "ko-KR": "이산화탄소 농도 정상",
             "es-ES": "NIVELES DE CO2 NORMALES",
-            "pt-BR": "NÍVEIS DE CO2 NORMAIS"
+            "pt-BR": "NÍVEIS DE CO2 NORMAIS",
+            "zh-TW": "二氧化碳濃度正常"
           }
         },
         {
@@ -938,7 +993,8 @@
             "ja-JP": "二酸化炭素濃度異常",
             "ko-KR": "이산화탄소 농도 비정상",
             "es-ES": "NIVELES DE CO2 ANORMALES",
-            "pt-BR": "NÍVEIS DE CO2 ANORMAIS"
+            "pt-BR": "NÍVEIS DE CO2 ANORMAIS",
+            "zh-TW": "二氧化碳濃度異常"
           }
         }
       ],
@@ -955,7 +1011,8 @@
         "ja-JP": "二酸化炭素濃度",
         "ko-KR": "이산화탄소 농도",
         "es-ES": "Nivel de dióxido de carbono",
-        "pt-BR": "Nível de dióxido de carbono"
+        "pt-BR": "Nível de dióxido de carbono",
+        "zh-TW": "二氧化碳濃度"
       },
       "format": "float",
       "access": [
@@ -980,7 +1037,8 @@
         "ja-JP": "二酸化炭素ピーク濃度",
         "ko-KR": "이산화탄소 최고 농도",
         "es-ES": "Nivel máximo de dióxido de carbono",
-        "pt-BR": "Nível máximo de dióxido de carbono"
+        "pt-BR": "Nível máximo de dióxido de carbono",
+        "zh-TW": "二氧化碳峰值濃度"
       },
       "format": "float",
       "access": [
@@ -1005,7 +1063,8 @@
         "ja-JP": "一酸化炭素検出",
         "ko-KR": "일산화탄소 감지됨",
         "es-ES": "Monóxido de carbono detectado",
-        "pt-BR": "Monóxido de carbono detectado"
+        "pt-BR": "Monóxido de carbono detectado",
+        "zh-TW": "一氧化碳檢測到"
       },
       "format": "uint8",
       "access": [
@@ -1023,7 +1082,8 @@
             "ja-JP": "一酸化炭素濃度正常",
             "ko-KR": "일산화탄소 농도 정상",
             "es-ES": "NIVELES DE CO NORMALES",
-            "pt-BR": "NÍVEIS DE CO NORMAIS"
+            "pt-BR": "NÍVEIS DE CO NORMAIS",
+            "zh-TW": "一氧化碳濃度正常"
           }
         },
         {
@@ -1036,7 +1096,8 @@
             "ja-JP": "一酸化炭素濃度異常",
             "ko-KR": "일산화탄소 농도 비정상",
             "es-ES": "NIVELES DE CO ANORMALES",
-            "pt-BR": "NÍVEIS DE CO ANORMAIS"
+            "pt-BR": "NÍVEIS DE CO ANORMAIS",
+            "zh-TW": "一氧化碳濃度異常"
           }
         }
       ],
@@ -1053,7 +1114,8 @@
         "ja-JP": "一酸化炭素濃度",
         "ko-KR": "일산화탄소 농도",
         "es-ES": "Nivel de monóxido de carbono",
-        "pt-BR": "Nível de monóxido de carbono"
+        "pt-BR": "Nível de monóxido de carbono",
+        "zh-TW": "一氧化碳濃度"
       },
       "format": "float",
       "access": [
@@ -1078,7 +1140,8 @@
         "ja-JP": "一酸化炭素ピーク濃度",
         "ko-KR": "일산화탄소 최고 농도",
         "es-ES": "Nivel máximo de monóxido de carbono",
-        "pt-BR": "Nível máximo de monóxido de carbono"
+        "pt-BR": "Nível máximo de monóxido de carbono",
+        "zh-TW": "一氧化碳峰值濃度"
       },
       "format": "float",
       "access": [
@@ -1103,7 +1166,8 @@
         "ja-JP": "充電状態",
         "ko-KR": "충전 상태",
         "es-ES": "Estado de carga",
-        "pt-BR": "Estado de carga"
+        "pt-BR": "Estado de carga",
+        "zh-TW": "充電狀態"
       },
       "format": "uint8",
       "access": [
@@ -1121,7 +1185,8 @@
             "ja-JP": "充電なし",
             "ko-KR": "충전 중 아님",
             "es-ES": "NO CARGANDO",
-            "pt-BR": "NÃO CARREGANDO"
+            "pt-BR": "NÃO CARREGANDO",
+            "zh-TW": "未充電"
           }
         },
         {
@@ -1134,7 +1199,8 @@
             "ja-JP": "充電中",
             "ko-KR": "충전 중",
             "es-ES": "CARGANDO",
-            "pt-BR": "CARREGANDO"
+            "pt-BR": "CARREGANDO",
+            "zh-TW": "充電中"
           }
         },
         {
@@ -1147,7 +1213,8 @@
             "ja-JP": "充電不可",
             "ko-KR": "충전 불가",
             "es-ES": "NO RECARGABLE",
-            "pt-BR": "NÃO RECARREGÁVEL"
+            "pt-BR": "NÃO RECARREGÁVEL",
+            "zh-TW": "不可充電"
           }
         }
       ],
@@ -1164,7 +1231,8 @@
         "ja-JP": "色温度",
         "ko-KR": "색온도",
         "es-ES": "Temperatura de color",
-        "pt-BR": "Temperatura da cor"
+        "pt-BR": "Temperatura da cor",
+        "zh-TW": "色溫"
       },
       "format": "uint32",
       "access": [
@@ -1190,7 +1258,8 @@
         "ja-JP": "接触センサー状態",
         "ko-KR": "접촉 센서 상태",
         "es-ES": "Estado del sensor de contacto",
-        "pt-BR": "Estado do sensor de contato"
+        "pt-BR": "Estado do sensor de contato",
+        "zh-TW": "接觸傳感器狀態"
       },
       "format": "uint8",
       "access": [
@@ -1208,7 +1277,8 @@
             "ja-JP": "接触検出",
             "ko-KR": "접촉 감지됨",
             "es-ES": "CONTACTO DETECTADO",
-            "pt-BR": "CONTATO DETECTADO"
+            "pt-BR": "CONTATO DETECTADO",
+            "zh-TW": "接觸已檢測"
           }
         },
         {
@@ -1221,7 +1291,8 @@
             "ja-JP": "接触未検出",
             "ko-KR": "접촉 미감지",
             "es-ES": "CONTACTO NO DETECTADO",
-            "pt-BR": "CONTATO NÃO DETECTADO"
+            "pt-BR": "CONTATO NÃO DETECTADO",
+            "zh-TW": "接觸未檢測"
           }
         }
       ],
@@ -1238,7 +1309,8 @@
         "ja-JP": "冷却しきい値温度",
         "ko-KR": "냉방 임계 온도",
         "es-ES": "Umbral de temperatura de enfriamiento",
-        "pt-BR": "Temperatura limite de resfriamento"
+        "pt-BR": "Temperatura limite de resfriamento",
+        "zh-TW": "製冷閾值溫度"
       },
       "format": "float",
       "access": [
@@ -1265,7 +1337,8 @@
         "ja-JP": "現在の空気清浄機の状態",
         "ko-KR": "현재 공기 청정기 상태",
         "es-ES": "Estado actual del purificador de aire",
-        "pt-BR": "Estado atual do purificador de ar"
+        "pt-BR": "Estado atual do purificador de ar",
+        "zh-TW": "當前空氣淨化器狀態"
       },
       "format": "uint8",
       "access": [
@@ -1283,7 +1356,8 @@
             "ja-JP": "非アクティブ",
             "ko-KR": "비활성",
             "es-ES": "INACTIVO",
-            "pt-BR": "INATIVO"
+            "pt-BR": "INATIVO",
+            "zh-TW": "非活動"
           }
         },
         {
@@ -1296,7 +1370,8 @@
             "ja-JP": "アイドル",
             "ko-KR": "대기 중",
             "es-ES": "INACTIVO",
-            "pt-BR": "OCIOSO"
+            "pt-BR": "OCIOSO",
+            "zh-TW": "空閒"
           }
         },
         {
@@ -1309,7 +1384,8 @@
             "ja-JP": "空気清浄中",
             "ko-KR": "공기 정화 중",
             "es-ES": "PURIFICANDO AIRE",
-            "pt-BR": "PURIFICANDO AR"
+            "pt-BR": "PURIFICANDO AR",
+            "zh-TW": "淨化空氣中"
           }
         }
       ],
@@ -1326,7 +1402,8 @@
         "ja-JP": "現在の環境光レベル",
         "ko-KR": "현재 주변 조도",
         "es-ES": "Nivel de luz ambiental actual",
-        "pt-BR": "Nível de luz ambiente atual"
+        "pt-BR": "Nível de luz ambiente atual",
+        "zh-TW": "當前環境光強度"
       },
       "format": "float",
       "access": [
@@ -1352,7 +1429,8 @@
         "ja-JP": "現在のドア状態",
         "ko-KR": "현재 문 상태",
         "es-ES": "Estado actual de la puerta",
-        "pt-BR": "Estado atual da porta"
+        "pt-BR": "Estado atual da porta",
+        "zh-TW": "當前門狀態"
       },
       "format": "uint8",
       "access": [
@@ -1370,7 +1448,8 @@
             "ja-JP": "開",
             "ko-KR": "열림",
             "es-ES": "ABIERTO",
-            "pt-BR": "ABERTO"
+            "pt-BR": "ABERTO",
+            "zh-TW": "打開"
           }
         },
         {
@@ -1383,7 +1462,8 @@
             "ja-JP": "閉",
             "ko-KR": "닫힘",
             "es-ES": "CERRADO",
-            "pt-BR": "FECHADO"
+            "pt-BR": "FECHADO",
+            "zh-TW": "關閉"
           }
         },
         {
@@ -1396,7 +1476,8 @@
             "ja-JP": "開け中",
             "ko-KR": "열리는 중",
             "es-ES": "ABRIENDO",
-            "pt-BR": "ABRINDO"
+            "pt-BR": "ABRINDO",
+            "zh-TW": "正在打開"
           }
         },
         {
@@ -1409,7 +1490,8 @@
             "ja-JP": "閉じ中",
             "ko-KR": "닫히는 중",
             "es-ES": "CERRANDO",
-            "pt-BR": "FECHANDO"
+            "pt-BR": "FECHANDO",
+            "zh-TW": "正在關閉"
           }
         },
         {
@@ -1422,7 +1504,8 @@
             "ja-JP": "停止中",
             "ko-KR": "정지됨",
             "es-ES": "DETENIDO",
-            "pt-BR": "PARADO"
+            "pt-BR": "PARADO",
+            "zh-TW": "已停止"
           }
         }
       ],
@@ -1439,7 +1522,8 @@
         "ja-JP": "現在のファン状態",
         "ko-KR": "현재 팬 상태",
         "es-ES": "Estado actual del ventilador",
-        "pt-BR": "Estado atual do ventilador"
+        "pt-BR": "Estado atual do ventilador",
+        "zh-TW": "當前風扇狀態"
       },
       "format": "uint8",
       "access": [
@@ -1457,7 +1541,8 @@
             "ja-JP": "非アクティブ",
             "ko-KR": "비활성",
             "es-ES": "INACTIVO",
-            "pt-BR": "INATIVO"
+            "pt-BR": "INATIVO",
+            "zh-TW": "非活動"
           }
         },
         {
@@ -1470,7 +1555,8 @@
             "ja-JP": "アイドル",
             "ko-KR": "대기 중",
             "es-ES": "INACTIVO",
-            "pt-BR": "OCIOSO"
+            "pt-BR": "OCIOSO",
+            "zh-TW": "空閒"
           }
         },
         {
@@ -1483,7 +1569,8 @@
             "ja-JP": "送風中",
             "ko-KR": "송풍 중",
             "es-ES": "SOPLANDO AIRE",
-            "pt-BR": "SOPRANDO AR"
+            "pt-BR": "SOPRANDO AR",
+            "zh-TW": "送風中"
           }
         }
       ],
@@ -1500,7 +1587,8 @@
         "ja-JP": "現在の加熱・冷却器状態",
         "ko-KR": "현재 히터/쿨러 상태",
         "es-ES": "Estado actual del calefactor/enfriador",
-        "pt-BR": "Estado atual do aquecedor/refrigerador"
+        "pt-BR": "Estado atual do aquecedor/refrigerador",
+        "zh-TW": "當前加熱器/冷卻器狀態"
       },
       "format": "uint8",
       "access": [
@@ -1518,7 +1606,8 @@
             "ja-JP": "非アクティブ",
             "ko-KR": "비활성",
             "es-ES": "INACTIVO",
-            "pt-BR": "INATIVO"
+            "pt-BR": "INATIVO",
+            "zh-TW": "非活動"
           }
         },
         {
@@ -1531,7 +1620,8 @@
             "ja-JP": "アイドル",
             "ko-KR": "대기 중",
             "es-ES": "INACTIVO",
-            "pt-BR": "OCIOSO"
+            "pt-BR": "OCIOSO",
+            "zh-TW": "空閒"
           }
         },
         {
@@ -1544,7 +1634,8 @@
             "ja-JP": "加熱中",
             "ko-KR": "난방 중",
             "es-ES": "CALEFACCIÓN",
-            "pt-BR": "AQUECENDO"
+            "pt-BR": "AQUECENDO",
+            "zh-TW": "加熱中"
           }
         },
         {
@@ -1557,7 +1648,8 @@
             "ja-JP": "冷却中",
             "ko-KR": "냉방 중",
             "es-ES": "ENFRIANDO",
-            "pt-BR": "RESFRIANDO"
+            "pt-BR": "RESFRIANDO",
+            "zh-TW": "製冷中"
           }
         }
       ],
@@ -1574,7 +1666,8 @@
         "ja-JP": "現在の加熱・冷却状態",
         "ko-KR": "현재 난방/냉방 상태",
         "es-ES": "Estado actual de calefacción/refrigeración",
-        "pt-BR": "Estado atual de aquecimento/resfriamento"
+        "pt-BR": "Estado atual de aquecimento/resfriamento",
+        "zh-TW": "當前加熱/冷卻狀態"
       },
       "format": "uint8",
       "access": [
@@ -1592,7 +1685,8 @@
             "ja-JP": "オフ",
             "ko-KR": "꺼짐",
             "es-ES": "APAGADO",
-            "pt-BR": "DESLIGADO"
+            "pt-BR": "DESLIGADO",
+            "zh-TW": "關閉"
           }
         },
         {
@@ -1605,7 +1699,8 @@
             "ja-JP": "暖房",
             "ko-KR": "난방",
             "es-ES": "CALOR",
-            "pt-BR": "CALOR"
+            "pt-BR": "CALOR",
+            "zh-TW": "制熱"
           }
         },
         {
@@ -1618,7 +1713,8 @@
             "ja-JP": "冷房",
             "ko-KR": "냉방",
             "es-ES": "FRÍO",
-            "pt-BR": "FRIO"
+            "pt-BR": "FRIO",
+            "zh-TW": "製冷"
           }
         }
       ],
@@ -1635,7 +1731,8 @@
         "ja-JP": "現在の水平傾斜角",
         "ko-KR": "현재 수평 기울기 각도",
         "es-ES": "Ángulo de inclinación horizontal actual",
-        "pt-BR": "Ângulo de inclinação horizontal atual"
+        "pt-BR": "Ângulo de inclinação horizontal atual",
+        "zh-TW": "當前水平傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -1661,7 +1758,8 @@
         "ja-JP": "現在の加湿器・除湿器状態",
         "ko-KR": "현재 가습기/제습기 상태",
         "es-ES": "Estado actual del humidificador/deshumidificador",
-        "pt-BR": "Estado atual do umidificador/desumidificador"
+        "pt-BR": "Estado atual do umidificador/desumidificador",
+        "zh-TW": "當前加溼器/除溼器狀態"
       },
       "format": "uint8",
       "access": [
@@ -1679,7 +1777,8 @@
             "ja-JP": "非アクティブ",
             "ko-KR": "비활성",
             "es-ES": "INACTIVO",
-            "pt-BR": "INATIVO"
+            "pt-BR": "INATIVO",
+            "zh-TW": "非活動"
           }
         },
         {
@@ -1692,7 +1791,8 @@
             "ja-JP": "アイドル",
             "ko-KR": "대기 중",
             "es-ES": "INACTIVO",
-            "pt-BR": "OCIOSO"
+            "pt-BR": "OCIOSO",
+            "zh-TW": "空閒"
           }
         },
         {
@@ -1705,7 +1805,8 @@
             "ja-JP": "加湿中",
             "ko-KR": "가습 중",
             "es-ES": "HUMIDIFICANDO",
-            "pt-BR": "UMIDIFICANDO"
+            "pt-BR": "UMIDIFICANDO",
+            "zh-TW": "加溼中"
           }
         },
         {
@@ -1718,7 +1819,8 @@
             "ja-JP": "除湿中",
             "ko-KR": "제습 중",
             "es-ES": "DESHUMIDIFICANDO",
-            "pt-BR": "DESUMIDIFICANDO"
+            "pt-BR": "DESUMIDIFICANDO",
+            "zh-TW": "除溼中"
           }
         }
       ],
@@ -1735,7 +1837,8 @@
         "ja-JP": "現在位置",
         "ko-KR": "현재 위치",
         "es-ES": "Posición actual",
-        "pt-BR": "Posição atual"
+        "pt-BR": "Posição atual",
+        "zh-TW": "當前位置"
       },
       "format": "uint8",
       "access": [
@@ -1761,7 +1864,8 @@
         "ja-JP": "現在の相対湿度",
         "ko-KR": "현재 상대 습도",
         "es-ES": "Humedad relativa actual",
-        "pt-BR": "Umidade relativa atual"
+        "pt-BR": "Umidade relativa atual",
+        "zh-TW": "當前相對溼度"
       },
       "format": "float",
       "access": [
@@ -1787,7 +1891,8 @@
         "ja-JP": "現在のスラット状態",
         "ko-KR": "현재 슬랫 상태",
         "es-ES": "Estado actual de las lamas",
-        "pt-BR": "Estado atual das lâminas"
+        "pt-BR": "Estado atual das lâminas",
+        "zh-TW": "當前百葉窗葉片狀態"
       },
       "format": "uint8",
       "access": [
@@ -1805,7 +1910,8 @@
             "ja-JP": "固定",
             "ko-KR": "고정",
             "es-ES": "FIJO",
-            "pt-BR": "FIXO"
+            "pt-BR": "FIXO",
+            "zh-TW": "固定"
           }
         },
         {
@@ -1818,7 +1924,8 @@
             "ja-JP": "詰まり",
             "ko-KR": "걸림",
             "es-ES": "ATASCADO",
-            "pt-BR": "TRAVADO"
+            "pt-BR": "TRAVADO",
+            "zh-TW": "卡住"
           }
         },
         {
@@ -1831,7 +1938,8 @@
             "ja-JP": "スイング中",
             "ko-KR": "스윙 중",
             "es-ES": "OSCILANDO",
-            "pt-BR": "OSCILANDO"
+            "pt-BR": "OSCILANDO",
+            "zh-TW": "擺動中"
           }
         }
       ],
@@ -1848,7 +1956,8 @@
         "ja-JP": "現在の温度",
         "ko-KR": "현재 온도",
         "es-ES": "Temperatura actual",
-        "pt-BR": "Temperatura atual"
+        "pt-BR": "Temperatura atual",
+        "zh-TW": "當前溫度"
       },
       "format": "float",
       "access": [
@@ -1874,7 +1983,8 @@
         "ja-JP": "現在の傾斜角",
         "ko-KR": "현재 기울기 각도",
         "es-ES": "Ángulo de inclinación actual",
-        "pt-BR": "Ângulo de inclinação atual"
+        "pt-BR": "Ângulo de inclinação atual",
+        "zh-TW": "當前傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -1900,7 +2010,8 @@
         "ja-JP": "現在の垂直傾斜角",
         "ko-KR": "현재 수직 기울기 각도",
         "es-ES": "Ángulo de inclinación vertical actual",
-        "pt-BR": "Ângulo de inclinação vertical atual"
+        "pt-BR": "Ângulo de inclinação vertical atual",
+        "zh-TW": "當前垂直傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -1926,7 +2037,8 @@
         "ja-JP": "デジタルズーム",
         "ko-KR": "디지털 줌",
         "es-ES": "Zoom digital",
-        "pt-BR": "Zoom digital"
+        "pt-BR": "Zoom digital",
+        "zh-TW": "數字變焦"
       },
       "format": "float",
       "access": [
@@ -1947,7 +2059,8 @@
         "ja-JP": "フィルター交換表示",
         "ko-KR": "필터 교체 표시",
         "es-ES": "Indicación de cambio de filtro",
-        "pt-BR": "Indicação de troca de filtro"
+        "pt-BR": "Indicação de troca de filtro",
+        "zh-TW": "濾芯更換提示"
       },
       "format": "uint8",
       "access": [
@@ -1965,7 +2078,8 @@
             "ja-JP": "フィルター正常",
             "ko-KR": "필터 정상",
             "es-ES": "FILTRO OK",
-            "pt-BR": "FILTRO OK"
+            "pt-BR": "FILTRO OK",
+            "zh-TW": "濾芯正常"
           }
         },
         {
@@ -1978,7 +2092,8 @@
             "ja-JP": "フィルター交換",
             "ko-KR": "필터 교체",
             "es-ES": "CAMBIAR FILTRO",
-            "pt-BR": "TROCAR FILTRO"
+            "pt-BR": "TROCAR FILTRO",
+            "zh-TW": "更換濾芯"
           }
         }
       ],
@@ -1995,7 +2110,8 @@
         "ja-JP": "フィルター寿命レベル",
         "ko-KR": "필터 수명",
         "es-ES": "Nivel de vida útil del filtro",
-        "pt-BR": "Nível de vida do filtro"
+        "pt-BR": "Nível de vida do filtro",
+        "zh-TW": "濾芯壽命"
       },
       "format": "float",
       "access": [
@@ -2020,7 +2136,8 @@
         "ja-JP": "ファームウェアリビジョン",
         "ko-KR": "펌웨어 버전",
         "es-ES": "Revisión del firmware",
-        "pt-BR": "Revisão do firmware"
+        "pt-BR": "Revisão do firmware",
+        "zh-TW": "固件版本"
       },
       "format": "string",
       "access": [
@@ -2039,7 +2156,8 @@
         "ja-JP": "ハードウェアリビジョン",
         "ko-KR": "하드웨어 버전",
         "es-ES": "Revisión del hardware",
-        "pt-BR": "Revisão do hardware"
+        "pt-BR": "Revisão do hardware",
+        "zh-TW": "硬件版本"
       },
       "format": "string",
       "access": [
@@ -2058,7 +2176,8 @@
         "ja-JP": "加熱しきい値温度",
         "ko-KR": "난방 임계 온도",
         "es-ES": "Umbral de temperatura de calefacción",
-        "pt-BR": "Temperatura limite de aquecimento"
+        "pt-BR": "Temperatura limite de aquecimento",
+        "zh-TW": "制熱閾值溫度"
       },
       "format": "float",
       "access": [
@@ -2085,7 +2204,8 @@
         "ja-JP": "位置保持",
         "ko-KR": "위치 유지",
         "es-ES": "Mantener posición",
-        "pt-BR": "Manter posição"
+        "pt-BR": "Manter posição",
+        "zh-TW": "保持位置"
       },
       "format": "bool",
       "access": [
@@ -2104,7 +2224,8 @@
         "ja-JP": "色相",
         "ko-KR": "색조",
         "es-ES": "Tono",
-        "pt-BR": "Matiz"
+        "pt-BR": "Matiz",
+        "zh-TW": "色調"
       },
       "format": "float",
       "access": [
@@ -2131,7 +2252,8 @@
         "ja-JP": "識別",
         "ko-KR": "식별",
         "es-ES": "Identificar",
-        "pt-BR": "Identificar"
+        "pt-BR": "Identificar",
+        "zh-TW": "識別"
       },
       "format": "bool",
       "access": [
@@ -2150,7 +2272,8 @@
         "ja-JP": "画像ミラーリング",
         "ko-KR": "이미지 미러링",
         "es-ES": "Espejo de imagen",
-        "pt-BR": "Espelhamento de imagem"
+        "pt-BR": "Espelhamento de imagem",
+        "zh-TW": "圖像鏡像"
       },
       "format": "bool",
       "access": [
@@ -2171,7 +2294,8 @@
         "ja-JP": "画像回転",
         "ko-KR": "이미지 회전",
         "es-ES": "Rotación de imagen",
-        "pt-BR": "Rotação de imagem"
+        "pt-BR": "Rotação de imagem",
+        "zh-TW": "圖像旋轉"
       },
       "format": "float",
       "access": [
@@ -2198,7 +2322,8 @@
         "ja-JP": "使用中",
         "ko-KR": "사용 중",
         "es-ES": "En uso",
-        "pt-BR": "Em uso"
+        "pt-BR": "Em uso",
+        "zh-TW": "使用中"
       },
       "format": "uint8",
       "access": [
@@ -2216,7 +2341,8 @@
             "ja-JP": "未使用",
             "ko-KR": "사용 중 아님",
             "es-ES": "NO EN USO",
-            "pt-BR": "NÃO EM USO"
+            "pt-BR": "NÃO EM USO",
+            "zh-TW": "未使用"
           }
         },
         {
@@ -2229,7 +2355,8 @@
             "ja-JP": "使用中",
             "ko-KR": "사용 중",
             "es-ES": "EN USO",
-            "pt-BR": "EM USO"
+            "pt-BR": "EM USO",
+            "zh-TW": "使用中"
           }
         }
       ],
@@ -2246,7 +2373,8 @@
         "ja-JP": "設定済み",
         "ko-KR": "구성됨",
         "es-ES": "Está configurado",
-        "pt-BR": "Está configurado"
+        "pt-BR": "Está configurado",
+        "zh-TW": "已配置"
       },
       "format": "uint8",
       "access": [
@@ -2265,7 +2393,8 @@
             "ja-JP": "未設定",
             "ko-KR": "구성되지 않음",
             "es-ES": "NO CONFIGURADO",
-            "pt-BR": "NÃO CONFIGURADO"
+            "pt-BR": "NÃO CONFIGURADO",
+            "zh-TW": "未配置"
           }
         },
         {
@@ -2278,7 +2407,8 @@
             "ja-JP": "設定済み",
             "ko-KR": "구성됨",
             "es-ES": "CONFIGURADO",
-            "pt-BR": "CONFIGURADO"
+            "pt-BR": "CONFIGURADO",
+            "zh-TW": "已配置"
           }
         }
       ],
@@ -2295,7 +2425,8 @@
         "ja-JP": "漏水検出",
         "ko-KR": "누수 감지됨",
         "es-ES": "Fuga detectada",
-        "pt-BR": "Vazamento detectado"
+        "pt-BR": "Vazamento detectado",
+        "zh-TW": "檢測到洩漏"
       },
       "format": "uint8",
       "access": [
@@ -2313,7 +2444,8 @@
             "ja-JP": "漏水未検出",
             "ko-KR": "누수 미감지",
             "es-ES": "SIN FUGA DETECTADA",
-            "pt-BR": "VAZAMENTO NÃO DETECTADO"
+            "pt-BR": "VAZAMENTO NÃO DETECTADO",
+            "zh-TW": "未檢測到洩漏"
           }
         },
         {
@@ -2326,7 +2458,8 @@
             "ja-JP": "漏水検出",
             "ko-KR": "누수 감지됨",
             "es-ES": "FUGA DETECTADA",
-            "pt-BR": "VAZAMENTO DETECTADO"
+            "pt-BR": "VAZAMENTO DETECTADO",
+            "zh-TW": "檢測到洩漏"
           }
         }
       ],
@@ -2343,7 +2476,8 @@
         "ja-JP": "ロック制御ポイント",
         "ko-KR": "잠금 제어 포인트",
         "es-ES": "Punto de control de la cerradura",
-        "pt-BR": "Ponto de controle da fechadura"
+        "pt-BR": "Ponto de controle da fechadura",
+        "zh-TW": "鎖控制點"
       },
       "format": "tlv8",
       "access": [
@@ -2362,7 +2496,8 @@
         "ja-JP": "ロック現在状態",
         "ko-KR": "잠금 현재 상태",
         "es-ES": "Estado actual de la cerradura",
-        "pt-BR": "Estado atual da fechadura"
+        "pt-BR": "Estado atual da fechadura",
+        "zh-TW": "鎖當前狀態"
       },
       "format": "uint8",
       "access": [
@@ -2380,7 +2515,8 @@
             "ja-JP": "解錠済み",
             "ko-KR": "잠금 해제됨",
             "es-ES": "DESEGURADO",
-            "pt-BR": "DESTRAVADO"
+            "pt-BR": "DESTRAVADO",
+            "zh-TW": "未鎖定"
           }
         },
         {
@@ -2393,7 +2529,8 @@
             "ja-JP": "施錠済み",
             "ko-KR": "잠김",
             "es-ES": "SEGURADO",
-            "pt-BR": "SEGURO"
+            "pt-BR": "SEGURO",
+            "zh-TW": "已鎖定"
           }
         },
         {
@@ -2406,7 +2543,8 @@
             "ja-JP": "詰まり",
             "ko-KR": "걸림",
             "es-ES": "ATASCADO",
-            "pt-BR": "TRAVADO"
+            "pt-BR": "TRAVADO",
+            "zh-TW": "卡住"
           }
         },
         {
@@ -2419,7 +2557,8 @@
             "ja-JP": "不明",
             "ko-KR": "알 수 없음",
             "es-ES": "DESCONOCIDO",
-            "pt-BR": "DESCONHECIDO"
+            "pt-BR": "DESCONHECIDO",
+            "zh-TW": "未知"
           }
         }
       ],
@@ -2436,7 +2575,8 @@
         "ja-JP": "ロック最終既知アクション",
         "ko-KR": "잠금 마지막 동작",
         "es-ES": "Última acción conocida de la cerradura",
-        "pt-BR": "Última ação conhecida da fechadura"
+        "pt-BR": "Última ação conhecida da fechadura",
+        "zh-TW": "鎖上次操作"
       },
       "format": "uint8",
       "access": [
@@ -2454,7 +2594,8 @@
             "ja-JP": "内部物理施錠",
             "ko-KR": "내부 물리적 잠김",
             "es-ES": "ASEGURADO FÍSICAMENTE INTERIOR",
-            "pt-BR": "SEGURO FISICAMENTE INTERNO"
+            "pt-BR": "SEGURO FISICAMENTE INTERNO",
+            "zh-TW": "內部物理鎖定"
           }
         },
         {
@@ -2467,7 +2608,8 @@
             "ja-JP": "内部物理解錠",
             "ko-KR": "내부 물리적 잠금 해제",
             "es-ES": "DESEGURADO FÍSICAMENTE INTERIOR",
-            "pt-BR": "DESTRAVADO FISICAMENTE INTERNO"
+            "pt-BR": "DESTRAVADO FISICAMENTE INTERNO",
+            "zh-TW": "內部物理解鎖"
           }
         },
         {
@@ -2480,7 +2622,8 @@
             "ja-JP": "外部物理施錠",
             "ko-KR": "외부 물리적 잠김",
             "es-ES": "ASEGURADO FÍSICAMENTE EXTERIOR",
-            "pt-BR": "SEGURO FISICAMENTE EXTERNO"
+            "pt-BR": "SEGURO FISICAMENTE EXTERNO",
+            "zh-TW": "外部物理鎖定"
           }
         },
         {
@@ -2493,7 +2636,8 @@
             "ja-JP": "外部物理解錠",
             "ko-KR": "외부 물리적 잠금 해제",
             "es-ES": "DESEGURADO FÍSICAMENTE EXTERIOR",
-            "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO"
+            "pt-BR": "DESTRAVADO FISICAMENTE EXTERNO",
+            "zh-TW": "外部物理解鎖"
           }
         },
         {
@@ -2506,7 +2650,8 @@
             "ja-JP": "キーパッドで施錠",
             "ko-KR": "키패드로 잠김",
             "es-ES": "ASEGURADO POR TECLADO",
-            "pt-BR": "SEGURO POR TECLADO"
+            "pt-BR": "SEGURO POR TECLADO",
+            "zh-TW": "鍵盤鎖定"
           }
         },
         {
@@ -2519,7 +2664,8 @@
             "ja-JP": "キーパッドで解錠",
             "ko-KR": "키패드로 잠금 해제",
             "es-ES": "DESEGURADO POR TECLADO",
-            "pt-BR": "DESTRAVADO POR TECLADO"
+            "pt-BR": "DESTRAVADO POR TECLADO",
+            "zh-TW": "鍵盤解鎖"
           }
         },
         {
@@ -2532,7 +2678,8 @@
             "ja-JP": "遠隔施錠",
             "ko-KR": "원격 잠김",
             "es-ES": "ASEGURADO REMOTAMENTE",
-            "pt-BR": "SEGURO REMOTAMENTE"
+            "pt-BR": "SEGURO REMOTAMENTE",
+            "zh-TW": "遠程鎖定"
           }
         },
         {
@@ -2545,7 +2692,8 @@
             "ja-JP": "遠隔解錠",
             "ko-KR": "원격 잠금 해제",
             "es-ES": "DESEGURADO REMOTAMENTE",
-            "pt-BR": "DESTRAVADO REMOTAMENTE"
+            "pt-BR": "DESTRAVADO REMOTAMENTE",
+            "zh-TW": "遠程解鎖"
           }
         },
         {
@@ -2558,7 +2706,8 @@
             "ja-JP": "自動セキュリティタイムアウトにより施錠",
             "ko-KR": "자동 보안 시간 초과로 잠김",
             "es-ES": "ASEGURADO POR TIEMPO DE SEGURIDAD AUTOMÁTICO",
-            "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURANÇA AUTOMÁTICO"
+            "pt-BR": "SEGURO POR TEMPO LIMITE DE SEGURANÇA AUTOMÁTICO",
+            "zh-TW": "自動安全超時已鎖定"
           }
         }
       ],
@@ -2575,7 +2724,8 @@
         "ja-JP": "ロック管理自動セキュリティタイムアウト",
         "ko-KR": "잠금 관리 자동 보안 시간 초과",
         "es-ES": "Tiempo de espera de seguridad automática de la cerradura",
-        "pt-BR": "Tempo limite de segurança automática da fechadura"
+        "pt-BR": "Tempo limite de segurança automática da fechadura",
+        "zh-TW": "鎖管理自動安全超時"
       },
       "format": "uint32",
       "access": [
@@ -2597,7 +2747,8 @@
         "ja-JP": "ロック物理制御",
         "ko-KR": "잠금 물리적 제어",
         "es-ES": "Controles físicos de la cerradura",
-        "pt-BR": "Controles físicos da fechadura"
+        "pt-BR": "Controles físicos da fechadura",
+        "zh-TW": "鎖物理控制"
       },
       "format": "uint8",
       "access": [
@@ -2616,7 +2767,8 @@
             "ja-JP": "コントロールロック無効",
             "ko-KR": "제어 잠금 비활성화됨",
             "es-ES": "BLOQUEO DE CONTROL DESACTIVADO",
-            "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO"
+            "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO",
+            "zh-TW": "控制鎖已禁用"
           }
         },
         {
@@ -2629,7 +2781,8 @@
             "ja-JP": "コントロールロック有効",
             "ko-KR": "제어 잠금 활성화됨",
             "es-ES": "BLOQUEO DE CONTROL ACTIVADO",
-            "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO"
+            "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO",
+            "zh-TW": "控制鎖已啟用"
           }
         }
       ],
@@ -2646,7 +2799,8 @@
         "ja-JP": "ロック目標状態",
         "ko-KR": "잠금 목표 상태",
         "es-ES": "Estado objetivo de la cerradura",
-        "pt-BR": "Estado alvo da fechadura"
+        "pt-BR": "Estado alvo da fechadura",
+        "zh-TW": "鎖目標狀態"
       },
       "format": "uint8",
       "access": [
@@ -2665,7 +2819,8 @@
             "ja-JP": "解錠済み",
             "ko-KR": "잠금 해제됨",
             "es-ES": "DESEGURADO",
-            "pt-BR": "DESTRAVADO"
+            "pt-BR": "DESTRAVADO",
+            "zh-TW": "未鎖定"
           }
         },
         {
@@ -2678,7 +2833,8 @@
             "ja-JP": "施錠済み",
             "ko-KR": "잠김",
             "es-ES": "SEGURADO",
-            "pt-BR": "SEGURO"
+            "pt-BR": "SEGURO",
+            "zh-TW": "已鎖定"
           }
         }
       ],
@@ -2695,7 +2851,8 @@
         "ja-JP": "ログ",
         "ko-KR": "로그",
         "es-ES": "Registros",
-        "pt-BR": "Registros"
+        "pt-BR": "Registros",
+        "zh-TW": "日誌"
       },
       "format": "tlv8",
       "access": [
@@ -2715,7 +2872,8 @@
         "ja-JP": "メーカー",
         "ko-KR": "제조업체",
         "es-ES": "Fabricante",
-        "pt-BR": "Fabricante"
+        "pt-BR": "Fabricante",
+        "zh-TW": "製造商"
       },
       "format": "string",
       "access": [
@@ -2734,7 +2892,8 @@
         "ja-JP": "モデル",
         "ko-KR": "모델",
         "es-ES": "Modelo",
-        "pt-BR": "Modelo"
+        "pt-BR": "Modelo",
+        "zh-TW": "型號"
       },
       "format": "string",
       "access": [
@@ -2753,7 +2912,8 @@
         "ja-JP": "動体検出",
         "ko-KR": "움직임 감지됨",
         "es-ES": "Movimiento detectado",
-        "pt-BR": "Movimento detectado"
+        "pt-BR": "Movimento detectado",
+        "zh-TW": "檢測到移動"
       },
       "format": "bool",
       "access": [
@@ -2773,7 +2933,8 @@
         "ja-JP": "ミュート",
         "ko-KR": "음소거",
         "es-ES": "Silencio",
-        "pt-BR": "Mudo"
+        "pt-BR": "Mudo",
+        "zh-TW": "靜音"
       },
       "format": "bool",
       "access": [
@@ -2794,7 +2955,8 @@
         "ja-JP": "名前",
         "ko-KR": "이름",
         "es-ES": "Nombre",
-        "pt-BR": "Nome"
+        "pt-BR": "Nome",
+        "zh-TW": "名稱"
       },
       "format": "string",
       "access": [
@@ -2813,7 +2975,8 @@
         "ja-JP": "ナイトビジョン",
         "ko-KR": "야간 투시",
         "es-ES": "Visión nocturna",
-        "pt-BR": "Visão noturna"
+        "pt-BR": "Visão noturna",
+        "zh-TW": "夜視"
       },
       "format": "bool",
       "access": [
@@ -2834,7 +2997,8 @@
         "ja-JP": "二酸化窒素濃度",
         "ko-KR": "이산화질소 밀도",
         "es-ES": "Densidad de dióxido de nitrógeno",
-        "pt-BR": "Densidade de dióxido de nitrogênio"
+        "pt-BR": "Densidade de dióxido de nitrogênio",
+        "zh-TW": "二氧化氮密度"
       },
       "format": "float",
       "access": [
@@ -2859,7 +3023,8 @@
         "ja-JP": "障害物検出",
         "ko-KR": "장애물 감지됨",
         "es-ES": "Obstrucción detectada",
-        "pt-BR": "Obstrução detectada"
+        "pt-BR": "Obstrução detectada",
+        "zh-TW": "檢測到障礙物"
       },
       "format": "bool",
       "access": [
@@ -2879,7 +3044,8 @@
         "ja-JP": "人在検出",
         "ko-KR": "재실 감지됨",
         "es-ES": "Ocupación detectada",
-        "pt-BR": "Ocupação detectada"
+        "pt-BR": "Ocupação detectada",
+        "zh-TW": "檢測到佔用"
       },
       "format": "uint8",
       "access": [
@@ -2897,7 +3063,8 @@
             "ja-JP": "人在未検出",
             "ko-KR": "재실 미감지",
             "es-ES": "OCUPACIÓN NO DETECTADA",
-            "pt-BR": "OCUPAÇÃO NÃO DETECTADA"
+            "pt-BR": "OCUPAÇÃO NÃO DETECTADA",
+            "zh-TW": "未檢測到有人"
           }
         },
         {
@@ -2910,7 +3077,8 @@
             "ja-JP": "人在検出",
             "ko-KR": "재실 감지됨",
             "es-ES": "OCUPACIÓN DETECTADA",
-            "pt-BR": "OCUPAÇÃO DETECTADA"
+            "pt-BR": "OCUPAÇÃO DETECTADA",
+            "zh-TW": "檢測到有人"
           }
         }
       ],
@@ -2927,7 +3095,8 @@
         "ja-JP": "オン/オフ",
         "ko-KR": "켜기/끄기",
         "es-ES": "Encendido/Apagado",
-        "pt-BR": "Ligado/Desligado"
+        "pt-BR": "Ligado/Desligado",
+        "zh-TW": "開關"
       },
       "format": "bool",
       "access": [
@@ -2948,7 +3117,8 @@
         "ja-JP": "光学ズーム",
         "ko-KR": "광학 줌",
         "es-ES": "Zoom óptico",
-        "pt-BR": "Zoom óptico"
+        "pt-BR": "Zoom óptico",
+        "zh-TW": "光學變焦"
       },
       "format": "float",
       "access": [
@@ -2969,7 +3139,8 @@
         "ja-JP": "コンセント使用中",
         "ko-KR": "콘센트 사용 중",
         "es-ES": "Enchufe en uso",
-        "pt-BR": "Tomada em uso"
+        "pt-BR": "Tomada em uso",
+        "zh-TW": "插座使用中"
       },
       "format": "bool",
       "access": [
@@ -2989,7 +3160,8 @@
         "ja-JP": "オゾン濃度",
         "ko-KR": "오존 밀도",
         "es-ES": "Densidad de ozono",
-        "pt-BR": "Densidade de ozônio"
+        "pt-BR": "Densidade de ozônio",
+        "zh-TW": "臭氧濃度"
       },
       "format": "float",
       "access": [
@@ -3014,7 +3186,8 @@
         "ja-JP": "ペア設定",
         "ko-KR": "페어 설정",
         "es-ES": "Configuración de emparejamiento",
-        "pt-BR": "Configuração de pareamento"
+        "pt-BR": "Configuração de pareamento",
+        "zh-TW": "配對設置"
       },
       "format": "tlv8",
       "access": [
@@ -3034,7 +3207,8 @@
         "ja-JP": "ペア検証",
         "ko-KR": "페어 확인",
         "es-ES": "Verificación de emparejamiento",
-        "pt-BR": "Verificação de pareamento"
+        "pt-BR": "Verificação de pareamento",
+        "zh-TW": "配對驗證"
       },
       "format": "tlv8",
       "access": [
@@ -3054,7 +3228,8 @@
         "ja-JP": "ペアリング機能",
         "ko-KR": "페어링 기능",
         "es-ES": "Funciones de emparejamiento",
-        "pt-BR": "Recursos de pareamento"
+        "pt-BR": "Recursos de pareamento",
+        "zh-TW": "配對功能"
       },
       "format": "uint8",
       "access": [
@@ -3073,7 +3248,8 @@
         "ja-JP": "ペアリング一覧",
         "ko-KR": "페어링 목록",
         "es-ES": "Emparejamientos",
-        "pt-BR": "Pareamentos"
+        "pt-BR": "Pareamentos",
+        "zh-TW": "配對列表"
       },
       "format": "tlv8",
       "access": [
@@ -3093,7 +3269,8 @@
         "ja-JP": "PM10濃度",
         "ko-KR": "PM10 밀도",
         "es-ES": "Densidad PM10",
-        "pt-BR": "Densidade PM10"
+        "pt-BR": "Densidade PM10",
+        "zh-TW": "PM10 濃度"
       },
       "format": "float",
       "access": [
@@ -3118,7 +3295,8 @@
         "ja-JP": "PM2.5濃度",
         "ko-KR": "PM2.5 밀도",
         "es-ES": "Densidad PM2.5",
-        "pt-BR": "Densidade PM2.5"
+        "pt-BR": "Densidade PM2.5",
+        "zh-TW": "PM2.5 濃度"
       },
       "format": "float",
       "access": [
@@ -3143,7 +3321,8 @@
         "ja-JP": "位置状態",
         "ko-KR": "위치 상태",
         "es-ES": "Estado de la posición",
-        "pt-BR": "Estado da posição"
+        "pt-BR": "Estado da posição",
+        "zh-TW": "位置狀態"
       },
       "format": "uint8",
       "access": [
@@ -3161,7 +3340,8 @@
             "ja-JP": "減少中",
             "ko-KR": "감소 중",
             "es-ES": "DISMINUYENDO",
-            "pt-BR": "DIMINUINDO"
+            "pt-BR": "DIMINUINDO",
+            "zh-TW": "減少中"
           }
         },
         {
@@ -3174,7 +3354,8 @@
             "ja-JP": "増加中",
             "ko-KR": "증가 중",
             "es-ES": "AUMENTANDO",
-            "pt-BR": "AUMENTANDO"
+            "pt-BR": "AUMENTANDO",
+            "zh-TW": "增加中"
           }
         },
         {
@@ -3187,7 +3368,8 @@
             "ja-JP": "停止中",
             "ko-KR": "정지됨",
             "es-ES": "DETENIDO",
-            "pt-BR": "PARADO"
+            "pt-BR": "PARADO",
+            "zh-TW": "已停止"
           }
         }
       ],
@@ -3204,7 +3386,8 @@
         "ja-JP": "プログラムモード",
         "ko-KR": "프로그램 모드",
         "es-ES": "Modo de programa",
-        "pt-BR": "Modo de programa"
+        "pt-BR": "Modo de programa",
+        "zh-TW": "程序模式"
       },
       "format": "uint8",
       "access": [
@@ -3222,7 +3405,8 @@
             "ja-JP": "プログラム未予定",
             "ko-KR": "예약된 프로그램 없음",
             "es-ES": "SIN PROGRAMA PROGRAMADO",
-            "pt-BR": "NENHUM PROGRAMA AGENDADO"
+            "pt-BR": "NENHUM PROGRAMA AGENDADO",
+            "zh-TW": "無計劃程序"
           }
         },
         {
@@ -3235,7 +3419,8 @@
             "ja-JP": "プログラム予定",
             "ko-KR": "프로그램 예약됨",
             "es-ES": "PROGRAMA PROGRAMADO",
-            "pt-BR": "PROGRAMA AGENDADO"
+            "pt-BR": "PROGRAMA AGENDADO",
+            "zh-TW": "已計劃程序"
           }
         },
         {
@@ -3248,7 +3433,8 @@
             "ja-JP": "プログラム予定（手動モード）",
             "ko-KR": "프로그램 예약됨 (수동 모드)",
             "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
-            "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)"
+            "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)",
+            "zh-TW": "計劃程序（手動模式）"
           }
         }
       ],
@@ -3265,7 +3451,8 @@
         "ja-JP": "プログラマブルスイッチイベント",
         "ko-KR": "프로그래밍 가능 스위치 이벤트",
         "es-ES": "Evento de interruptor programable",
-        "pt-BR": "Evento de interruptor programável"
+        "pt-BR": "Evento de interruptor programável",
+        "zh-TW": "可編程開關事件"
       },
       "format": "uint8",
       "access": [
@@ -3283,7 +3470,8 @@
             "ja-JP": "シングルプレス",
             "ko-KR": "한 번 누름",
             "es-ES": "PRESIÓN SIMPLE",
-            "pt-BR": "PRESSÃO ÚNICA"
+            "pt-BR": "PRESSÃO ÚNICA",
+            "zh-TW": "單擊"
           }
         },
         {
@@ -3296,7 +3484,8 @@
             "ja-JP": "ダブルプレス",
             "ko-KR": "두 번 누름",
             "es-ES": "DOBLE PRESIÓN",
-            "pt-BR": "PRESSÃO DUPLA"
+            "pt-BR": "PRESSÃO DUPLA",
+            "zh-TW": "雙擊"
           }
         },
         {
@@ -3309,7 +3498,8 @@
             "ja-JP": "長押し",
             "ko-KR": "길게 누름",
             "es-ES": "PRESIÓN LARGA",
-            "pt-BR": "PRESSÃO LONGA"
+            "pt-BR": "PRESSÃO LONGA",
+            "zh-TW": "長按"
           }
         }
       ],
@@ -3326,7 +3516,8 @@
         "ja-JP": "相対湿度除湿しきい値",
         "ko-KR": "상대 습도 제습 임계값",
         "es-ES": "Umbral de deshumidificador de humedad relativa",
-        "pt-BR": "Limiar de desumidificação da umidade relativa"
+        "pt-BR": "Limiar de desumidificação da umidade relativa",
+        "zh-TW": "相對溼度除溼閾值"
       },
       "format": "float",
       "access": [
@@ -3353,7 +3544,8 @@
         "ja-JP": "相対湿度加湿しきい値",
         "ko-KR": "상대 습도 가습 임계값",
         "es-ES": "Umbral de humidificador de humedad relativa",
-        "pt-BR": "Limiar de umidificação da umidade relativa"
+        "pt-BR": "Limiar de umidificação da umidade relativa",
+        "zh-TW": "相對溼度加溼閾值"
       },
       "format": "float",
       "access": [
@@ -3380,7 +3572,8 @@
         "ja-JP": "残り時間",
         "ko-KR": "남은 시간",
         "es-ES": "Duración restante",
-        "pt-BR": "Duração restante"
+        "pt-BR": "Duração restante",
+        "zh-TW": "剩餘時長"
       },
       "format": "uint32",
       "access": [
@@ -3405,7 +3598,8 @@
         "ja-JP": "フィルター表示リセット",
         "ko-KR": "필터 표시 재설정",
         "es-ES": "Restablecer indicación del filtro",
-        "pt-BR": "Redefinir indicação do filtro"
+        "pt-BR": "Redefinir indicação do filtro",
+        "zh-TW": "重置濾芯提示"
       },
       "format": "uint8",
       "access": [
@@ -3429,7 +3623,8 @@
         "ja-JP": "回転方向",
         "ko-KR": "회전 방향",
         "es-ES": "Dirección de rotación",
-        "pt-BR": "Direção de rotação"
+        "pt-BR": "Direção de rotação",
+        "zh-TW": "旋轉方向"
       },
       "format": "int32",
       "access": [
@@ -3448,7 +3643,8 @@
             "ja-JP": "時計回り",
             "ko-KR": "시계 방향",
             "es-ES": "HORARIO",
-            "pt-BR": "HORÁRIO"
+            "pt-BR": "HORÁRIO",
+            "zh-TW": "順時針"
           }
         },
         {
@@ -3461,7 +3657,8 @@
             "ja-JP": "反時計回り",
             "ko-KR": "반시계 방향",
             "es-ES": "ANTIHORARIO",
-            "pt-BR": "ANTI-HORÁRIO"
+            "pt-BR": "ANTI-HORÁRIO",
+            "zh-TW": "逆時針"
           }
         }
       ],
@@ -3478,7 +3675,8 @@
         "ja-JP": "回転速度",
         "ko-KR": "회전 속도",
         "es-ES": "Velocidad de rotación",
-        "pt-BR": "Velocidade de rotação"
+        "pt-BR": "Velocidade de rotação",
+        "zh-TW": "旋轉速度"
       },
       "format": "float",
       "access": [
@@ -3505,7 +3703,8 @@
         "ja-JP": "彩度",
         "ko-KR": "채도",
         "es-ES": "Saturación",
-        "pt-BR": "Saturação"
+        "pt-BR": "Saturação",
+        "zh-TW": "飽和度"
       },
       "format": "float",
       "access": [
@@ -3532,7 +3731,8 @@
         "ja-JP": "セキュリティシステム警報タイプ",
         "ko-KR": "보안 시스템 알람 유형",
         "es-ES": "Tipo de alarma del sistema de seguridad",
-        "pt-BR": "Tipo de alarme do sistema de segurança"
+        "pt-BR": "Tipo de alarme do sistema de segurança",
+        "zh-TW": "安全系統警報類型"
       },
       "format": "uint8",
       "access": [
@@ -3557,7 +3757,8 @@
         "ja-JP": "セキュリティシステム現在状態",
         "ko-KR": "보안 시스템 현재 상태",
         "es-ES": "Estado actual del sistema de seguridad",
-        "pt-BR": "Estado atual do sistema de segurança"
+        "pt-BR": "Estado atual do sistema de segurança",
+        "zh-TW": "安全系統當前狀態"
       },
       "format": "uint8",
       "access": [
@@ -3575,7 +3776,8 @@
             "ja-JP": "在宅警備",
             "ko-KR": "재실 설정",
             "es-ES": "ARMAR EN CASA",
-            "pt-BR": "ARMAR EM CASA"
+            "pt-BR": "ARMAR EM CASA",
+            "zh-TW": "在家佈防"
           }
         },
         {
@@ -3588,7 +3790,8 @@
             "ja-JP": "外出警備",
             "ko-KR": "외출 설정",
             "es-ES": "ARMAR AUSENTE",
-            "pt-BR": "ARMAR AUSENTE"
+            "pt-BR": "ARMAR AUSENTE",
+            "zh-TW": "離家佈防"
           }
         },
         {
@@ -3601,7 +3804,8 @@
             "ja-JP": "夜間警備",
             "ko-KR": "야간 설정",
             "es-ES": "ARMAR NOCTURNO",
-            "pt-BR": "ARMAR NOTURNO"
+            "pt-BR": "ARMAR NOTURNO",
+            "zh-TW": "夜間佈防"
           }
         },
         {
@@ -3614,7 +3818,8 @@
             "ja-JP": "解除済み",
             "ko-KR": "해제됨",
             "es-ES": "DESARMADO",
-            "pt-BR": "DESARMADO"
+            "pt-BR": "DESARMADO",
+            "zh-TW": "已解除"
           }
         },
         {
@@ -3627,7 +3832,8 @@
             "ja-JP": "警報発報",
             "ko-KR": "알람 트리거됨",
             "es-ES": "ALARMA ACTIVADA",
-            "pt-BR": "ALARME ACIONADO"
+            "pt-BR": "ALARME ACIONADO",
+            "zh-TW": "警報觸發"
           }
         }
       ],
@@ -3644,7 +3850,8 @@
         "ja-JP": "セキュリティシステム目標状態",
         "ko-KR": "보안 시스템 목표 상태",
         "es-ES": "Estado objetivo del sistema de seguridad",
-        "pt-BR": "Estado alvo do sistema de segurança"
+        "pt-BR": "Estado alvo do sistema de segurança",
+        "zh-TW": "安全系統目標狀態"
       },
       "format": "uint8",
       "access": [
@@ -3663,7 +3870,8 @@
             "ja-JP": "在宅警備",
             "ko-KR": "재실 설정",
             "es-ES": "ARMAR EN CASA",
-            "pt-BR": "ARMAR EM CASA"
+            "pt-BR": "ARMAR EM CASA",
+            "zh-TW": "在家佈防"
           }
         },
         {
@@ -3676,7 +3884,8 @@
             "ja-JP": "外出警備",
             "ko-KR": "외출 설정",
             "es-ES": "ARMAR AUSENTE",
-            "pt-BR": "ARMAR AUSENTE"
+            "pt-BR": "ARMAR AUSENTE",
+            "zh-TW": "離家佈防"
           }
         },
         {
@@ -3689,7 +3898,8 @@
             "ja-JP": "夜間警備",
             "ko-KR": "야간 설정",
             "es-ES": "ARMAR NOCTURNO",
-            "pt-BR": "ARMAR NOTURNO"
+            "pt-BR": "ARMAR NOTURNO",
+            "zh-TW": "夜間佈防"
           }
         },
         {
@@ -3702,7 +3912,8 @@
             "ja-JP": "解除",
             "ko-KR": "해제",
             "es-ES": "DESARMAR",
-            "pt-BR": "DESARMAR"
+            "pt-BR": "DESARMAR",
+            "zh-TW": "解除"
           }
         }
       ],
@@ -3719,7 +3930,8 @@
         "ja-JP": "選択済みRTPストリーム設定",
         "ko-KR": "선택된 RTP 스트림 구성",
         "es-ES": "Configuración de flujo RTP seleccionada",
-        "pt-BR": "Configuração de fluxo RTP selecionada"
+        "pt-BR": "Configuração de fluxo RTP selecionada",
+        "zh-TW": "所選 RTP 流配置"
       },
       "format": "tlv8",
       "access": [
@@ -3739,7 +3951,8 @@
         "ja-JP": "シリアル番号",
         "ko-KR": "일련번호",
         "es-ES": "Número de serie",
-        "pt-BR": "Número de série"
+        "pt-BR": "Número de série",
+        "zh-TW": "序列號"
       },
       "format": "string",
       "access": [
@@ -3758,7 +3971,8 @@
         "ja-JP": "サービスラベルインデックス",
         "ko-KR": "서비스 레이블 인덱스",
         "es-ES": "Índice de etiqueta de servicio",
-        "pt-BR": "Índice de etiqueta de serviço"
+        "pt-BR": "Índice de etiqueta de serviço",
+        "zh-TW": "服務標籤索引"
       },
       "format": "uint8",
       "access": [
@@ -3782,7 +3996,8 @@
         "ja-JP": "サービスラベル名前空間",
         "ko-KR": "서비스 레이블 네임스페이스",
         "es-ES": "Espacio de nombres de etiqueta de servicio",
-        "pt-BR": "Espaço de nomes de etiqueta de serviço"
+        "pt-BR": "Espaço de nomes de etiqueta de serviço",
+        "zh-TW": "服務標籤命名空間"
       },
       "format": "uint8",
       "access": [
@@ -3799,7 +4014,8 @@
             "ja-JP": "ドット",
             "ko-KR": "점",
             "es-ES": "PUNTOS",
-            "pt-BR": "PONTOS"
+            "pt-BR": "PONTOS",
+            "zh-TW": "點陣"
           }
         },
         {
@@ -3812,7 +4028,8 @@
             "ja-JP": "アラビア数字",
             "ko-KR": "아라비아 숫자",
             "es-ES": "NÚMEROS ARÁBIGOS",
-            "pt-BR": "ALGARISMOS ARÁBICOS"
+            "pt-BR": "ALGARISMOS ARÁBICOS",
+            "zh-TW": "阿拉伯數字"
           }
         }
       ],
@@ -3829,7 +4046,8 @@
         "ja-JP": "時間設定",
         "ko-KR": "시간 설정",
         "es-ES": "Establecer duración",
-        "pt-BR": "Definir duração"
+        "pt-BR": "Definir duração",
+        "zh-TW": "設置時長"
       },
       "format": "uint32",
       "access": [
@@ -3855,7 +4073,8 @@
         "ja-JP": "エンドポイント設定",
         "ko-KR": "엔드포인트 설정",
         "es-ES": "Configurar endpoints",
-        "pt-BR": "Configurar endpoints"
+        "pt-BR": "Configurar endpoints",
+        "zh-TW": "設置端點"
       },
       "format": "tlv8",
       "access": [
@@ -3875,7 +4094,8 @@
         "ja-JP": "スラットタイプ",
         "ko-KR": "슬랫 유형",
         "es-ES": "Tipo de lama",
-        "pt-BR": "Tipo de lâmina"
+        "pt-BR": "Tipo de lâmina",
+        "zh-TW": "百葉窗葉片類型"
       },
       "format": "uint8",
       "access": [
@@ -3892,7 +4112,8 @@
             "ja-JP": "水平",
             "ko-KR": "수평",
             "es-ES": "HORIZONTAL",
-            "pt-BR": "HORIZONTAL"
+            "pt-BR": "HORIZONTAL",
+            "zh-TW": "水平"
           }
         },
         {
@@ -3905,7 +4126,8 @@
             "ja-JP": "垂直",
             "ko-KR": "수직",
             "es-ES": "VERTICAL",
-            "pt-BR": "VERTICAL"
+            "pt-BR": "VERTICAL",
+            "zh-TW": "垂直"
           }
         }
       ],
@@ -3922,7 +4144,8 @@
         "ja-JP": "煙検出",
         "ko-KR": "연기 감지됨",
         "es-ES": "Humo detectado",
-        "pt-BR": "Fumaça detectada"
+        "pt-BR": "Fumaça detectada",
+        "zh-TW": "檢測到煙霧"
       },
       "format": "uint8",
       "access": [
@@ -3940,7 +4163,8 @@
             "ja-JP": "煙未検出",
             "ko-KR": "연기 미감지",
             "es-ES": "HUMO NO DETECTADO",
-            "pt-BR": "FUMAÇA NÃO DETECTADA"
+            "pt-BR": "FUMAÇA NÃO DETECTADA",
+            "zh-TW": "未檢測到煙霧"
           }
         },
         {
@@ -3953,7 +4177,8 @@
             "ja-JP": "煙検出",
             "ko-KR": "연기 감지됨",
             "es-ES": "HUMO DETECTADO",
-            "pt-BR": "FUMAÇA DETECTADA"
+            "pt-BR": "FUMAÇA DETECTADA",
+            "zh-TW": "檢測到煙霧"
           }
         }
       ],
@@ -3970,7 +4195,8 @@
         "ja-JP": "ステータスアクティブ",
         "ko-KR": "상태 활성",
         "es-ES": "Estado activo",
-        "pt-BR": "Status ativo"
+        "pt-BR": "Status ativo",
+        "zh-TW": "狀態活躍"
       },
       "format": "bool",
       "access": [
@@ -3990,7 +4216,8 @@
         "ja-JP": "ステータス障害",
         "ko-KR": "상태 오류",
         "es-ES": "Estado de fallo",
-        "pt-BR": "Status de falha"
+        "pt-BR": "Status de falha",
+        "zh-TW": "狀態故障"
       },
       "format": "uint8",
       "access": [
@@ -4008,7 +4235,8 @@
             "ja-JP": "障害なし",
             "ko-KR": "오류 없음",
             "es-ES": "SIN FALLO",
-            "pt-BR": "SEM FALHA"
+            "pt-BR": "SEM FALHA",
+            "zh-TW": "無故障"
           }
         },
         {
@@ -4021,7 +4249,8 @@
             "ja-JP": "一般障害",
             "ko-KR": "일반 오류",
             "es-ES": "FALLO GENERAL",
-            "pt-BR": "FALHA GERAL"
+            "pt-BR": "FALHA GERAL",
+            "zh-TW": "一般故障"
           }
         }
       ],
@@ -4038,7 +4267,8 @@
         "ja-JP": "ステータス詰まり",
         "ko-KR": "상태 걸림",
         "es-ES": "Estado atascado",
-        "pt-BR": "Status travado"
+        "pt-BR": "Status travado",
+        "zh-TW": "狀態卡住"
       },
       "format": "uint8",
       "access": [
@@ -4056,7 +4286,8 @@
             "ja-JP": "詰まりなし",
             "ko-KR": "걸리지 않음",
             "es-ES": "NO ATASCADO",
-            "pt-BR": "NÃO TRAVADO"
+            "pt-BR": "NÃO TRAVADO",
+            "zh-TW": "未卡住"
           }
         },
         {
@@ -4069,7 +4300,8 @@
             "ja-JP": "詰まり",
             "ko-KR": "걸림",
             "es-ES": "ATASCADO",
-            "pt-BR": "TRAVADO"
+            "pt-BR": "TRAVADO",
+            "zh-TW": "卡住"
           }
         }
       ],
@@ -4086,7 +4318,8 @@
         "ja-JP": "ステータスバッテリー低下",
         "ko-KR": "상태 배터리 부족",
         "es-ES": "Estado de batería baja",
-        "pt-BR": "Status bateria fraca"
+        "pt-BR": "Status bateria fraca",
+        "zh-TW": "狀態低電量"
       },
       "format": "uint8",
       "access": [
@@ -4104,7 +4337,8 @@
             "ja-JP": "バッテリー正常",
             "ko-KR": "배터리 정상",
             "es-ES": "BATERÍA NORMAL",
-            "pt-BR": "BATERIA NORMAL"
+            "pt-BR": "BATERIA NORMAL",
+            "zh-TW": "電池電量正常"
           }
         },
         {
@@ -4117,7 +4351,8 @@
             "ja-JP": "バッテリー低下",
             "ko-KR": "배터리 부족",
             "es-ES": "BATERÍA BAJA",
-            "pt-BR": "BATERIA FRACA"
+            "pt-BR": "BATERIA FRACA",
+            "zh-TW": "電池電量低"
           }
         }
       ],
@@ -4134,7 +4369,8 @@
         "ja-JP": "ステータス不正操作",
         "ko-KR": "상태 변조됨",
         "es-ES": "Estado manipulado",
-        "pt-BR": "Status violado"
+        "pt-BR": "Status violado",
+        "zh-TW": "狀態篡改"
       },
       "format": "uint8",
       "access": [
@@ -4152,7 +4388,8 @@
             "ja-JP": "不正操作なし",
             "ko-KR": "변조되지 않음",
             "es-ES": "NO MANIPULADO",
-            "pt-BR": "NÃO VIOLADO"
+            "pt-BR": "NÃO VIOLADO",
+            "zh-TW": "未被篡改"
           }
         },
         {
@@ -4165,7 +4402,8 @@
             "ja-JP": "不正操作",
             "ko-KR": "변조됨",
             "es-ES": "MANIPULADO",
-            "pt-BR": "VIOLADO"
+            "pt-BR": "VIOLADO",
+            "zh-TW": "被篡改"
           }
         }
       ],
@@ -4182,7 +4420,8 @@
         "ja-JP": "ストリーミング状態",
         "ko-KR": "스트리밍 상태",
         "es-ES": "Estado de transmisión",
-        "pt-BR": "Status de streaming"
+        "pt-BR": "Status de streaming",
+        "zh-TW": "流媒體狀態"
       },
       "format": "tlv8",
       "access": [
@@ -4202,7 +4441,8 @@
         "ja-JP": "二酸化硫黄濃度",
         "ko-KR": "이산화황 밀도",
         "es-ES": "Densidad de dióxido de azufre",
-        "pt-BR": "Densidade de dióxido de enxofre"
+        "pt-BR": "Densidade de dióxido de enxofre",
+        "zh-TW": "二氧化硫濃度"
       },
       "format": "float",
       "access": [
@@ -4227,7 +4467,8 @@
         "ja-JP": "対応オーディオストリーム設定",
         "ko-KR": "지원되는 오디오 스트림 구성",
         "es-ES": "Configuración de flujo de audio compatible",
-        "pt-BR": "Configuração de fluxo de áudio compatível"
+        "pt-BR": "Configuração de fluxo de áudio compatível",
+        "zh-TW": "支持的音頻流配置"
       },
       "format": "tlv8",
       "access": [
@@ -4246,7 +4487,8 @@
         "ja-JP": "対応RTP設定",
         "ko-KR": "지원되는 RTP 구성",
         "es-ES": "Configuración RTP compatible",
-        "pt-BR": "Configuração RTP compatível"
+        "pt-BR": "Configuração RTP compatível",
+        "zh-TW": "支持的 RTP 配置"
       },
       "format": "tlv8",
       "access": [
@@ -4265,7 +4507,8 @@
         "ja-JP": "対応ビデオストリーム設定",
         "ko-KR": "지원되는 비디오 스트림 구성",
         "es-ES": "Configuración de flujo de video compatible",
-        "pt-BR": "Configuração de fluxo de vídeo compatível"
+        "pt-BR": "Configuração de fluxo de vídeo compatível",
+        "zh-TW": "支持的視頻流配置"
       },
       "format": "tlv8",
       "access": [
@@ -4284,7 +4527,8 @@
         "ja-JP": "スイングモード",
         "ko-KR": "스윙 모드",
         "es-ES": "Modo oscilación",
-        "pt-BR": "Modo oscilante"
+        "pt-BR": "Modo oscilante",
+        "zh-TW": "擺動模式"
       },
       "format": "uint8",
       "access": [
@@ -4303,7 +4547,8 @@
             "ja-JP": "スイング無効",
             "ko-KR": "스윙 비활성화됨",
             "es-ES": "OSCILACIÓN DESACTIVADA",
-            "pt-BR": "OSCILAÇÃO DESATIVADA"
+            "pt-BR": "OSCILAÇÃO DESATIVADA",
+            "zh-TW": "擺動已禁用"
           }
         },
         {
@@ -4316,7 +4561,8 @@
             "ja-JP": "スイング有効",
             "ko-KR": "스윙 활성화됨",
             "es-ES": "OSCILACIÓN ACTIVADA",
-            "pt-BR": "OSCILAÇÃO ATIVADA"
+            "pt-BR": "OSCILAÇÃO ATIVADA",
+            "zh-TW": "擺動已啟用"
           }
         }
       ],
@@ -4333,7 +4579,8 @@
         "ja-JP": "目標空気清浄機状態",
         "ko-KR": "목표 공기 청정기 상태",
         "es-ES": "Estado objetivo del purificador de aire",
-        "pt-BR": "Estado alvo do purificador de ar"
+        "pt-BR": "Estado alvo do purificador de ar",
+        "zh-TW": "目標空氣淨化器狀態"
       },
       "format": "uint8",
       "access": [
@@ -4352,7 +4599,8 @@
             "ja-JP": "手動",
             "ko-KR": "수동",
             "es-ES": "MANUAL",
-            "pt-BR": "MANUAL"
+            "pt-BR": "MANUAL",
+            "zh-TW": "手動"
           }
         },
         {
@@ -4365,7 +4613,8 @@
             "ja-JP": "自動",
             "ko-KR": "자동",
             "es-ES": "AUTO",
-            "pt-BR": "AUTO"
+            "pt-BR": "AUTO",
+            "zh-TW": "自動"
           }
         }
       ],
@@ -4382,7 +4631,8 @@
         "ja-JP": "目標空気品質",
         "ko-KR": "목표 공기 질",
         "es-ES": "Calidad del aire objetivo",
-        "pt-BR": "Qualidade do ar alvo"
+        "pt-BR": "Qualidade do ar alvo",
+        "zh-TW": "目標空氣質量"
       },
       "format": "uint8",
       "access": [
@@ -4401,7 +4651,8 @@
             "ja-JP": "優良",
             "ko-KR": "우수",
             "es-ES": "EXCELENTE",
-            "pt-BR": "EXCELENTE"
+            "pt-BR": "EXCELENTE",
+            "zh-TW": "優秀"
           }
         },
         {
@@ -4414,7 +4665,8 @@
             "ja-JP": "良好",
             "ko-KR": "좋음",
             "es-ES": "BUENO",
-            "pt-BR": "BOM"
+            "pt-BR": "BOM",
+            "zh-TW": "良好"
           }
         },
         {
@@ -4427,7 +4679,8 @@
             "ja-JP": "普通",
             "ko-KR": "보통",
             "es-ES": "REGULAR",
-            "pt-BR": "REGULAR"
+            "pt-BR": "REGULAR",
+            "zh-TW": "一般"
           }
         }
       ],
@@ -4444,7 +4697,8 @@
         "ja-JP": "目標ドア状態",
         "ko-KR": "목표 문 상태",
         "es-ES": "Estado objetivo de la puerta",
-        "pt-BR": "Estado alvo da porta"
+        "pt-BR": "Estado alvo da porta",
+        "zh-TW": "目標門狀態"
       },
       "format": "uint8",
       "access": [
@@ -4463,7 +4717,8 @@
             "ja-JP": "開",
             "ko-KR": "열림",
             "es-ES": "ABIERTO",
-            "pt-BR": "ABERTO"
+            "pt-BR": "ABERTO",
+            "zh-TW": "打開"
           }
         },
         {
@@ -4476,7 +4731,8 @@
             "ja-JP": "閉",
             "ko-KR": "닫힘",
             "es-ES": "CERRADO",
-            "pt-BR": "FECHADO"
+            "pt-BR": "FECHADO",
+            "zh-TW": "關閉"
           }
         }
       ],
@@ -4493,7 +4749,8 @@
         "ja-JP": "目標ファン状態",
         "ko-KR": "목표 팬 상태",
         "es-ES": "Estado objetivo del ventilador",
-        "pt-BR": "Estado alvo do ventilador"
+        "pt-BR": "Estado alvo do ventilador",
+        "zh-TW": "目標風扇狀態"
       },
       "format": "uint8",
       "access": [
@@ -4512,7 +4769,8 @@
             "ja-JP": "手動",
             "ko-KR": "수동",
             "es-ES": "MANUAL",
-            "pt-BR": "MANUAL"
+            "pt-BR": "MANUAL",
+            "zh-TW": "手動"
           }
         },
         {
@@ -4525,7 +4783,8 @@
             "ja-JP": "自動",
             "ko-KR": "자동",
             "es-ES": "AUTO",
-            "pt-BR": "AUTO"
+            "pt-BR": "AUTO",
+            "zh-TW": "自動"
           }
         }
       ],
@@ -4542,7 +4801,8 @@
         "ja-JP": "目標加熱・冷却器状態",
         "ko-KR": "목표 히터/쿨러 상태",
         "es-ES": "Estado objetivo del calefactor/enfriador",
-        "pt-BR": "Estado alvo do aquecedor/refrigerador"
+        "pt-BR": "Estado alvo do aquecedor/refrigerador",
+        "zh-TW": "目標加熱器/冷卻器狀態"
       },
       "format": "uint8",
       "access": [
@@ -4561,7 +4821,8 @@
             "ja-JP": "自動",
             "ko-KR": "자동",
             "es-ES": "AUTO",
-            "pt-BR": "AUTO"
+            "pt-BR": "AUTO",
+            "zh-TW": "自動"
           }
         },
         {
@@ -4574,7 +4835,8 @@
             "ja-JP": "暖房",
             "ko-KR": "난방",
             "es-ES": "CALOR",
-            "pt-BR": "CALOR"
+            "pt-BR": "CALOR",
+            "zh-TW": "制熱"
           }
         },
         {
@@ -4587,7 +4849,8 @@
             "ja-JP": "冷房",
             "ko-KR": "냉방",
             "es-ES": "FRÍO",
-            "pt-BR": "FRIO"
+            "pt-BR": "FRIO",
+            "zh-TW": "製冷"
           }
         }
       ],
@@ -4604,7 +4867,8 @@
         "ja-JP": "目標加熱・冷却状態",
         "ko-KR": "목표 난방/냉방 상태",
         "es-ES": "Estado objetivo de calefacción/refrigeración",
-        "pt-BR": "Estado alvo de aquecimento/resfriamento"
+        "pt-BR": "Estado alvo de aquecimento/resfriamento",
+        "zh-TW": "目標加熱/冷卻狀態"
       },
       "format": "uint8",
       "access": [
@@ -4623,7 +4887,8 @@
             "ja-JP": "オフ",
             "ko-KR": "꺼짐",
             "es-ES": "APAGADO",
-            "pt-BR": "DESLIGADO"
+            "pt-BR": "DESLIGADO",
+            "zh-TW": "關閉"
           }
         },
         {
@@ -4636,7 +4901,8 @@
             "ja-JP": "暖房",
             "ko-KR": "난방",
             "es-ES": "CALOR",
-            "pt-BR": "CALOR"
+            "pt-BR": "CALOR",
+            "zh-TW": "制熱"
           }
         },
         {
@@ -4649,7 +4915,8 @@
             "ja-JP": "冷房",
             "ko-KR": "냉방",
             "es-ES": "FRÍO",
-            "pt-BR": "FRIO"
+            "pt-BR": "FRIO",
+            "zh-TW": "製冷"
           }
         },
         {
@@ -4662,7 +4929,8 @@
             "ja-JP": "自動",
             "ko-KR": "자동",
             "es-ES": "AUTO",
-            "pt-BR": "AUTO"
+            "pt-BR": "AUTO",
+            "zh-TW": "自動"
           }
         }
       ],
@@ -4679,7 +4947,8 @@
         "ja-JP": "目標水平傾斜角",
         "ko-KR": "목표 수평 기울기 각도",
         "es-ES": "Ángulo de inclinación horizontal objetivo",
-        "pt-BR": "Ângulo de inclinação horizontal alvo"
+        "pt-BR": "Ângulo de inclinação horizontal alvo",
+        "zh-TW": "目標水平傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -4706,7 +4975,8 @@
         "ja-JP": "目標加湿器・除湿器状態",
         "ko-KR": "목표 가습기/제습기 상태",
         "es-ES": "Estado objetivo del humidificador/deshumidificador",
-        "pt-BR": "Estado alvo do umidificador/desumidificador"
+        "pt-BR": "Estado alvo do umidificador/desumidificador",
+        "zh-TW": "目標加溼器/除溼器狀態"
       },
       "format": "uint8",
       "access": [
@@ -4725,7 +4995,8 @@
             "ja-JP": "加湿器または除湿器",
             "ko-KR": "가습기 또는 제습기",
             "es-ES": "HUMIDIFICADOR O DESHUMIDIFICADOR",
-            "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR"
+            "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR",
+            "zh-TW": "加溼或除溼器"
           }
         },
         {
@@ -4738,7 +5009,8 @@
             "ja-JP": "加湿器",
             "ko-KR": "가습기",
             "es-ES": "HUMIDIFICADOR",
-            "pt-BR": "UMIDIFICADOR"
+            "pt-BR": "UMIDIFICADOR",
+            "zh-TW": "加溼器"
           }
         },
         {
@@ -4751,7 +5023,8 @@
             "ja-JP": "除湿器",
             "ko-KR": "제습기",
             "es-ES": "DESHUMIDIFICADOR",
-            "pt-BR": "DESUMIDIFICADOR"
+            "pt-BR": "DESUMIDIFICADOR",
+            "zh-TW": "除溼器"
           }
         }
       ],
@@ -4768,7 +5041,8 @@
         "ja-JP": "目標位置",
         "ko-KR": "목표 위치",
         "es-ES": "Posición objetivo",
-        "pt-BR": "Posição alvo"
+        "pt-BR": "Posição alvo",
+        "zh-TW": "目標位置"
       },
       "format": "uint8",
       "access": [
@@ -4795,7 +5069,8 @@
         "ja-JP": "目標相対湿度",
         "ko-KR": "목표 상대 습도",
         "es-ES": "Humedad relativa objetivo",
-        "pt-BR": "Umidade relativa alvo"
+        "pt-BR": "Umidade relativa alvo",
+        "zh-TW": "目標相對溼度"
       },
       "format": "float",
       "access": [
@@ -4822,7 +5097,8 @@
         "ja-JP": "目標スラット状態",
         "ko-KR": "목표 슬랫 상태",
         "es-ES": "Estado objetivo de las lamas",
-        "pt-BR": "Estado alvo das lâminas"
+        "pt-BR": "Estado alvo das lâminas",
+        "zh-TW": "目標百葉窗葉片狀態"
       },
       "format": "uint8",
       "access": [
@@ -4841,7 +5117,8 @@
             "ja-JP": "手動",
             "ko-KR": "수동",
             "es-ES": "MANUAL",
-            "pt-BR": "MANUAL"
+            "pt-BR": "MANUAL",
+            "zh-TW": "手動"
           }
         },
         {
@@ -4854,7 +5131,8 @@
             "ja-JP": "自動",
             "ko-KR": "자동",
             "es-ES": "AUTO",
-            "pt-BR": "AUTO"
+            "pt-BR": "AUTO",
+            "zh-TW": "自動"
           }
         }
       ],
@@ -4871,7 +5149,8 @@
         "ja-JP": "目標温度",
         "ko-KR": "목표 온도",
         "es-ES": "Temperatura objetivo",
-        "pt-BR": "Temperatura alvo"
+        "pt-BR": "Temperatura alvo",
+        "zh-TW": "目標溫度"
       },
       "format": "float",
       "access": [
@@ -4898,7 +5177,8 @@
         "ja-JP": "目標傾斜角",
         "ko-KR": "목표 기울기 각도",
         "es-ES": "Ángulo de inclinación objetivo",
-        "pt-BR": "Ângulo de inclinação alvo"
+        "pt-BR": "Ângulo de inclinação alvo",
+        "zh-TW": "目標傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -4925,7 +5205,8 @@
         "ja-JP": "目標垂直傾斜角",
         "ko-KR": "목표 수직 기울기 각도",
         "es-ES": "Ángulo de inclinación vertical objetivo",
-        "pt-BR": "Ângulo de inclinação vertical alvo"
+        "pt-BR": "Ângulo de inclinação vertical alvo",
+        "zh-TW": "目標垂直傾斜角度"
       },
       "format": "int32",
       "access": [
@@ -4952,7 +5233,8 @@
         "ja-JP": "温度表示単位",
         "ko-KR": "온도 표시 단위",
         "es-ES": "Unidades de visualización de temperatura",
-        "pt-BR": "Unidades de exibição de temperatura"
+        "pt-BR": "Unidades de exibição de temperatura",
+        "zh-TW": "溫度顯示單位"
       },
       "format": "uint8",
       "access": [
@@ -4971,7 +5253,8 @@
             "ja-JP": "摂氏",
             "ko-KR": "섭씨",
             "es-ES": "CELSIUS",
-            "pt-BR": "CELSIUS"
+            "pt-BR": "CELSIUS",
+            "zh-TW": "攝氏度"
           }
         },
         {
@@ -4984,7 +5267,8 @@
             "ja-JP": "華氏",
             "ko-KR": "화씨",
             "es-ES": "FAHRENHEIT",
-            "pt-BR": "FAHRENHEIT"
+            "pt-BR": "FAHRENHEIT",
+            "zh-TW": "華氏度"
           }
         }
       ],
@@ -5001,7 +5285,8 @@
         "ja-JP": "バルブタイプ",
         "ko-KR": "밸브 유형",
         "es-ES": "Tipo de válvula",
-        "pt-BR": "Tipo de válvula"
+        "pt-BR": "Tipo de válvula",
+        "zh-TW": "閥門類型"
       },
       "format": "uint8",
       "access": [
@@ -5019,7 +5304,8 @@
             "ja-JP": "汎用バルブ",
             "ko-KR": "일반 밸브",
             "es-ES": "VÁLVULA GENÉRICA",
-            "pt-BR": "VÁLVULA GENÉRICA"
+            "pt-BR": "VÁLVULA GENÉRICA",
+            "zh-TW": "通用閥門"
           }
         },
         {
@@ -5032,7 +5318,8 @@
             "ja-JP": "灌漑",
             "ko-KR": "관개",
             "es-ES": "RIEGO",
-            "pt-BR": "IRRIGAÇÃO"
+            "pt-BR": "IRRIGAÇÃO",
+            "zh-TW": "灌溉"
           }
         },
         {
@@ -5045,7 +5332,8 @@
             "ja-JP": "シャワーヘッド",
             "ko-KR": "샤워 헤드",
             "es-ES": "DUCHA",
-            "pt-BR": "CHUVEIRO"
+            "pt-BR": "CHUVEIRO",
+            "zh-TW": "淋浴花灑"
           }
         },
         {
@@ -5058,7 +5346,8 @@
             "ja-JP": "水道蛇口",
             "ko-KR": "수도꼭지",
             "es-ES": "GRIFO DE AGUA",
-            "pt-BR": "TORNEIRA"
+            "pt-BR": "TORNEIRA",
+            "zh-TW": "水龍頭"
           }
         }
       ],
@@ -5075,7 +5364,8 @@
         "ja-JP": "バージョン",
         "ko-KR": "버전",
         "es-ES": "Versión",
-        "pt-BR": "Versão"
+        "pt-BR": "Versão",
+        "zh-TW": "版本"
       },
       "format": "string",
       "access": [
@@ -5095,7 +5385,8 @@
         "ja-JP": "VOC濃度",
         "ko-KR": "VOC 밀도",
         "es-ES": "Densidad de COV",
-        "pt-BR": "Densidade de COV"
+        "pt-BR": "Densidade de COV",
+        "zh-TW": "VOC 濃度"
       },
       "format": "float",
       "access": [
@@ -5120,7 +5411,8 @@
         "ja-JP": "音量",
         "ko-KR": "볼륨",
         "es-ES": "Volumen",
-        "pt-BR": "Volume"
+        "pt-BR": "Volume",
+        "zh-TW": "音量"
       },
       "format": "uint8",
       "access": [
@@ -5147,7 +5439,8 @@
         "ja-JP": "水位",
         "ko-KR": "수위",
         "es-ES": "Nivel de agua",
-        "pt-BR": "Nível da água"
+        "pt-BR": "Nível da água",
+        "zh-TW": "水位"
       },
       "format": "float",
       "access": [
@@ -5175,7 +5468,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "required-properties": [
         "identify",
@@ -5202,7 +5496,8 @@
         "ja-JP": "空気清浄機",
         "ko-KR": "공기 청정기",
         "es-ES": "Purificador de aire",
-        "pt-BR": "Purificador de ar"
+        "pt-BR": "Purificador de ar",
+        "zh-TW": "空氣淨化器"
       },
       "required-properties": [
         "active",
@@ -5228,7 +5523,8 @@
         "ja-JP": "空気品質センサー",
         "ko-KR": "공기질 센서",
         "es-ES": "Sensor de calidad del aire",
-        "pt-BR": "Sensor de qualidade do ar"
+        "pt-BR": "Sensor de qualidade do ar",
+        "zh-TW": "空氣質量傳感器"
       },
       "required-properties": [
         "air-quality"
@@ -5261,7 +5557,8 @@
         "ja-JP": "バッテリーサービス",
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de batería",
-        "pt-BR": "Serviço de bateria"
+        "pt-BR": "Serviço de bateria",
+        "zh-TW": "電池服務"
       },
       "required-properties": [
         "battery-level",
@@ -5284,7 +5581,8 @@
         "ja-JP": "カメラRTPストリーム管理",
         "ko-KR": "카메라 RTP 스트림 관리",
         "es-ES": "Gestión de flujo RTP de cámara",
-        "pt-BR": "Gerenciamento de fluxo RTP da câmera"
+        "pt-BR": "Gerenciamento de fluxo RTP da câmera",
+        "zh-TW": "攝像頭 RTP 流管理"
       },
       "required-properties": [
         "supported-video-stream-configuration",
@@ -5310,7 +5608,8 @@
         "ja-JP": "二酸化炭素センサー",
         "ko-KR": "이산화탄소 센서",
         "es-ES": "Sensor de dióxido de carbono",
-        "pt-BR": "Sensor de dióxido de carbono"
+        "pt-BR": "Sensor de dióxido de carbono",
+        "zh-TW": "二氧化碳傳感器"
       },
       "required-properties": [
         "carbon-dioxide-detected"
@@ -5337,7 +5636,8 @@
         "ja-JP": "一酸化炭素センサー",
         "ko-KR": "일산화탄소 센서",
         "es-ES": "Sensor de monóxido de carbono",
-        "pt-BR": "Sensor de monóxido de carbono"
+        "pt-BR": "Sensor de monóxido de carbono",
+        "zh-TW": "一氧化碳傳感器"
       },
       "required-properties": [
         "carbon-monoxide-detected"
@@ -5364,7 +5664,8 @@
         "ja-JP": "接触センサー",
         "ko-KR": "접촉 센서",
         "es-ES": "Sensor de contacto",
-        "pt-BR": "Sensor de contato"
+        "pt-BR": "Sensor de contato",
+        "zh-TW": "接觸傳感器"
       },
       "required-properties": [
         "contact-sensor-state"
@@ -5389,7 +5690,8 @@
         "ja-JP": "ドア",
         "ko-KR": "문",
         "es-ES": "Puerta",
-        "pt-BR": "Porta"
+        "pt-BR": "Porta",
+        "zh-TW": "門"
       },
       "required-properties": [
         "current-position",
@@ -5414,7 +5716,8 @@
         "ja-JP": "ドアベル",
         "ko-KR": "초인종",
         "es-ES": "Timbre",
-        "pt-BR": "Campainha"
+        "pt-BR": "Campainha",
+        "zh-TW": "門鈴"
       },
       "required-properties": [
         "programmable-switch-event"
@@ -5437,7 +5740,8 @@
         "ja-JP": "ファン v2",
         "ko-KR": "팬 v2",
         "es-ES": "Ventilador v2",
-        "pt-BR": "Ventilador v2"
+        "pt-BR": "Ventilador v2",
+        "zh-TW": "風扇 v2"
       },
       "required-properties": [
         "active"
@@ -5464,7 +5768,8 @@
         "ja-JP": "ファン",
         "ko-KR": "팬",
         "es-ES": "Ventilador",
-        "pt-BR": "Ventilador"
+        "pt-BR": "Ventilador",
+        "zh-TW": "風扇"
       },
       "required-properties": [
         "on"
@@ -5487,7 +5792,8 @@
         "ja-JP": "蛇口",
         "ko-KR": "수도꼭지",
         "es-ES": "Grifo",
-        "pt-BR": "Torneira"
+        "pt-BR": "Torneira",
+        "zh-TW": "水龍頭"
       },
       "required-properties": [
         "active"
@@ -5509,7 +5815,8 @@
         "ja-JP": "フィルター保守",
         "ko-KR": "필터 유지 관리",
         "es-ES": "Mantenimiento del filtro",
-        "pt-BR": "Manutenção do filtro"
+        "pt-BR": "Manutenção do filtro",
+        "zh-TW": "濾芯維護"
       },
       "required-properties": [
         "filter-change-indication"
@@ -5532,7 +5839,8 @@
         "ja-JP": "ガレージドア開閉器",
         "ko-KR": "차고 문 개폐기",
         "es-ES": "Abrepuertas de garaje",
-        "pt-BR": "Abre-porta de garagem"
+        "pt-BR": "Abre-porta de garagem",
+        "zh-TW": "車庫門開啟器"
       },
       "required-properties": [
         "current-door-state",
@@ -5557,7 +5865,8 @@
         "ja-JP": "加熱器/冷却器",
         "ko-KR": "히터/쿨러",
         "es-ES": "Calefactor/Enfriador",
-        "pt-BR": "Aquecedor/Refrigerador"
+        "pt-BR": "Aquecedor/Refrigerador",
+        "zh-TW": "加熱器/冷卻器"
       },
       "required-properties": [
         "active",
@@ -5587,7 +5896,8 @@
         "ja-JP": "加湿器/除湿器",
         "ko-KR": "가습기/제습기",
         "es-ES": "Humidificador/Deshumidificador",
-        "pt-BR": "Umidificador/Desumidificador"
+        "pt-BR": "Umidificador/Desumidificador",
+        "zh-TW": "加溼器/除溼器"
       },
       "required-properties": [
         "current-relative-humidity",
@@ -5617,7 +5927,8 @@
         "ja-JP": "湿度センサー",
         "ko-KR": "습도 센서",
         "es-ES": "Sensor de humedad",
-        "pt-BR": "Sensor de umidade"
+        "pt-BR": "Sensor de umidade",
+        "zh-TW": "溼度傳感器"
       },
       "required-properties": [
         "current-relative-humidity"
@@ -5642,7 +5953,8 @@
         "ja-JP": "灌漑システム",
         "ko-KR": "관개 시스템",
         "es-ES": "Sistema de riego",
-        "pt-BR": "Sistema de irrigação"
+        "pt-BR": "Sistema de irrigação",
+        "zh-TW": "灌溉系統"
       },
       "required-properties": [
         "active",
@@ -5667,7 +5979,8 @@
         "ja-JP": "漏水センサー",
         "ko-KR": "누수 센서",
         "es-ES": "Sensor de fuga",
-        "pt-BR": "Sensor de vazamento"
+        "pt-BR": "Sensor de vazamento",
+        "zh-TW": "洩漏傳感器"
       },
       "required-properties": [
         "leak-detected"
@@ -5692,7 +6005,8 @@
         "ja-JP": "光センサー",
         "ko-KR": "조도 센서",
         "es-ES": "Sensor de luz",
-        "pt-BR": "Sensor de luz"
+        "pt-BR": "Sensor de luz",
+        "zh-TW": "光線傳感器"
       },
       "required-properties": [
         "current-ambient-light-level"
@@ -5717,7 +6031,8 @@
         "ja-JP": "電球",
         "ko-KR": "전구",
         "es-ES": "Bombilla",
-        "pt-BR": "Lâmpada"
+        "pt-BR": "Lâmpada",
+        "zh-TW": "燈泡"
       },
       "required-properties": [
         "on"
@@ -5741,7 +6056,8 @@
         "ja-JP": "ロック管理",
         "ko-KR": "잠금 관리",
         "es-ES": "Gestión de cerradura",
-        "pt-BR": "Gerenciamento da fechadura"
+        "pt-BR": "Gerenciamento da fechadura",
+        "zh-TW": "鎖管理"
       },
       "required-properties": [
         "lock-control-point",
@@ -5770,7 +6086,8 @@
         "ja-JP": "ロック機構",
         "ko-KR": "잠금 메커니즘",
         "es-ES": "Mecanismo de cerradura",
-        "pt-BR": "Mecanismo da fechadura"
+        "pt-BR": "Mecanismo da fechadura",
+        "zh-TW": "鎖機制"
       },
       "required-properties": [
         "lock-current-state",
@@ -5792,7 +6109,8 @@
         "ja-JP": "マイク",
         "ko-KR": "마이크",
         "es-ES": "Micrófono",
-        "pt-BR": "Microfone"
+        "pt-BR": "Microfone",
+        "zh-TW": "麥克風"
       },
       "required-properties": [
         "volume",
@@ -5814,7 +6132,8 @@
         "ja-JP": "動体センサー",
         "ko-KR": "움직임 센서",
         "es-ES": "Sensor de movimiento",
-        "pt-BR": "Sensor de movimento"
+        "pt-BR": "Sensor de movimento",
+        "zh-TW": "運動傳感器"
       },
       "required-properties": [
         "motion-detected"
@@ -5839,7 +6158,8 @@
         "ja-JP": "人在センサー",
         "ko-KR": "재실 센서",
         "es-ES": "Sensor de ocupación",
-        "pt-BR": "Sensor de ocupação"
+        "pt-BR": "Sensor de ocupação",
+        "zh-TW": "佔用傳感器"
       },
       "required-properties": [
         "occupancy-detected"
@@ -5864,7 +6184,8 @@
         "ja-JP": "コンセント",
         "ko-KR": "콘센트",
         "es-ES": "Enchufe",
-        "pt-BR": "Tomada"
+        "pt-BR": "Tomada",
+        "zh-TW": "插座"
       },
       "required-properties": [
         "on",
@@ -5886,7 +6207,8 @@
         "ja-JP": "セキュリティシステム",
         "ko-KR": "보안 시스템",
         "es-ES": "Sistema de seguridad",
-        "pt-BR": "Sistema de segurança"
+        "pt-BR": "Sistema de segurança",
+        "zh-TW": "安全系統"
       },
       "required-properties": [
         "security-system-current-state",
@@ -5911,7 +6233,8 @@
         "ja-JP": "サービスラベル",
         "ko-KR": "서비스 레이블",
         "es-ES": "Etiqueta de servicio",
-        "pt-BR": "Etiqueta de serviço"
+        "pt-BR": "Etiqueta de serviço",
+        "zh-TW": "服務標籤"
       },
       "required-properties": [
         "service-label-namespace"
@@ -5932,7 +6255,8 @@
         "ja-JP": "スラット",
         "ko-KR": "슬랫",
         "es-ES": "Lama",
-        "pt-BR": "Lâmina"
+        "pt-BR": "Lâmina",
+        "zh-TW": "百葉窗葉片"
       },
       "required-properties": [
         "slat-type",
@@ -5957,7 +6281,8 @@
         "ja-JP": "煙センサー",
         "ko-KR": "연기 센서",
         "es-ES": "Sensor de humo",
-        "pt-BR": "Sensor de fumaça"
+        "pt-BR": "Sensor de fumaça",
+        "zh-TW": "煙霧傳感器"
       },
       "required-properties": [
         "smoke-detected"
@@ -5982,7 +6307,8 @@
         "ja-JP": "スピーカー",
         "ko-KR": "스피커",
         "es-ES": "Altavoz",
-        "pt-BR": "Alto-falante"
+        "pt-BR": "Alto-falante",
+        "zh-TW": "揚聲器"
       },
       "required-properties": [
         "mute"
@@ -6004,7 +6330,8 @@
         "ja-JP": "ステートレスプログラマブルスイッチ",
         "ko-KR": "무상태 프로그래밍 가능 스위치",
         "es-ES": "Interruptor programable sin estado",
-        "pt-BR": "Interruptor programável sem estado"
+        "pt-BR": "Interruptor programável sem estado",
+        "zh-TW": "無狀態可編程開關"
       },
       "required-properties": [
         "programmable-switch-event"
@@ -6026,7 +6353,8 @@
         "ja-JP": "スイッチ",
         "ko-KR": "스위치",
         "es-ES": "Interruptor",
-        "pt-BR": "Interruptor"
+        "pt-BR": "Interruptor",
+        "zh-TW": "開關"
       },
       "required-properties": [
         "on"
@@ -6047,7 +6375,8 @@
         "ja-JP": "温度センサー",
         "ko-KR": "온도 센서",
         "es-ES": "Sensor de temperatura",
-        "pt-BR": "Sensor de temperatura"
+        "pt-BR": "Sensor de temperatura",
+        "zh-TW": "溫度傳感器"
       },
       "required-properties": [
         "current-temperature"
@@ -6072,7 +6401,8 @@
         "ja-JP": "サーモスタット",
         "ko-KR": "온도 조절기",
         "es-ES": "Termostato",
-        "pt-BR": "Termostato"
+        "pt-BR": "Termostato",
+        "zh-TW": "恆溫器"
       },
       "required-properties": [
         "current-heating-cooling-state",
@@ -6101,7 +6431,8 @@
         "ja-JP": "バルブ",
         "ko-KR": "밸브",
         "es-ES": "Válvula",
-        "pt-BR": "Válvula"
+        "pt-BR": "Válvula",
+        "zh-TW": "閥門"
       },
       "required-properties": [
         "active",
@@ -6129,7 +6460,8 @@
         "ja-JP": "窓覆い",
         "ko-KR": "윈도우 커버링",
         "es-ES": "Cubierta de ventana",
-        "pt-BR": "Persiana"
+        "pt-BR": "Persiana",
+        "zh-TW": "窗簾"
       },
       "required-properties": [
         "current-position",
@@ -6158,7 +6490,8 @@
         "ja-JP": "窓",
         "ko-KR": "창문",
         "es-ES": "Ventana",
-        "pt-BR": "Janela"
+        "pt-BR": "Janela",
+        "zh-TW": "窗戶"
       },
       "required-properties": [
         "current-position",
@@ -6185,7 +6518,8 @@
         "ja-JP": "ブール",
         "ko-KR": "부울",
         "es-ES": "booleano",
-        "pt-BR": "booleano"
+        "pt-BR": "booleano",
+        "zh-TW": "布爾"
       },
       "lifecycle": "released"
     },
@@ -6200,7 +6534,8 @@
         "ja-JP": "浮動小数点",
         "ko-KR": "부동 소수점",
         "es-ES": "flotante",
-        "pt-BR": "ponto flutuante"
+        "pt-BR": "ponto flutuante",
+        "zh-TW": "浮點數"
       },
       "lifecycle": "released"
     },
@@ -6215,7 +6550,8 @@
         "ja-JP": "int32",
         "ko-KR": "int32",
         "es-ES": "int32",
-        "pt-BR": "int32"
+        "pt-BR": "int32",
+        "zh-TW": "有符號 32 位整數"
       },
       "lifecycle": "released"
     },
@@ -6230,7 +6566,8 @@
         "ja-JP": "文字列",
         "ko-KR": "문자열",
         "es-ES": "cadena",
-        "pt-BR": "string"
+        "pt-BR": "string",
+        "zh-TW": "字符串"
       },
       "lifecycle": "released"
     },
@@ -6245,7 +6582,8 @@
         "ja-JP": "tlv8",
         "ko-KR": "tlv8",
         "es-ES": "tlv8",
-        "pt-BR": "tlv8"
+        "pt-BR": "tlv8",
+        "zh-TW": "TLV8 格式"
       },
       "lifecycle": "released"
     },
@@ -6260,7 +6598,8 @@
         "ja-JP": "uint32",
         "ko-KR": "uint32",
         "es-ES": "uint32",
-        "pt-BR": "uint32"
+        "pt-BR": "uint32",
+        "zh-TW": "無符號 32 位整數"
       },
       "lifecycle": "released"
     },
@@ -6275,7 +6614,8 @@
         "ja-JP": "uint8",
         "ko-KR": "uint8",
         "es-ES": "uint8",
-        "pt-BR": "uint8"
+        "pt-BR": "uint8",
+        "zh-TW": "無符號 8 位整數"
       },
       "lifecycle": "released"
     }
@@ -6292,7 +6632,8 @@
         "ja-JP": "角度",
         "ko-KR": "각도",
         "es-ES": "grados de arco",
-        "pt-BR": "graus de arco"
+        "pt-BR": "graus de arco",
+        "zh-TW": "角度"
       },
       "lifecycle": "released"
     },
@@ -6307,7 +6648,8 @@
         "ja-JP": "摂氏",
         "ko-KR": "섭씨",
         "es-ES": "celsius",
-        "pt-BR": "celsius"
+        "pt-BR": "celsius",
+        "zh-TW": "攝氏度"
       },
       "lifecycle": "released"
     },
@@ -6322,7 +6664,8 @@
         "ja-JP": "ルクス",
         "ko-KR": "럭스",
         "es-ES": "lux",
-        "pt-BR": "lux"
+        "pt-BR": "lux",
+        "zh-TW": "勒克斯"
       },
       "lifecycle": "released"
     },
@@ -6337,7 +6680,8 @@
         "ja-JP": "パーセント",
         "ko-KR": "백분율",
         "es-ES": "porcentaje",
-        "pt-BR": "porcentagem"
+        "pt-BR": "porcentagem",
+        "zh-TW": "百分比"
       },
       "lifecycle": "released"
     },
@@ -6352,7 +6696,8 @@
         "ja-JP": "秒",
         "ko-KR": "초",
         "es-ES": "segundos",
-        "pt-BR": "segundos"
+        "pt-BR": "segundos",
+        "zh-TW": "秒"
       },
       "lifecycle": "released"
     }

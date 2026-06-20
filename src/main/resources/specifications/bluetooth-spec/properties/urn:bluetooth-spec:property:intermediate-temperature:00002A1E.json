@@ -8,7 +8,8 @@
         "ja-JP": "中間温度",
         "ko-KR": "중간 온도",
         "es-ES": "Temperatura intermedia",
-        "pt-BR": "Temperatura intermediaria"
+        "pt-BR": "Temperatura intermediaria",
+        "zh-TW": "中間溫度"
     },
     "format": "float",
     "access": [

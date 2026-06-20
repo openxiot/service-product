@@ -8,7 +8,8 @@
         "ja-JP": "環境センシング",
         "ko-KR": "환경 센싱",
         "es-ES": "Deteccion ambiental",
-        "pt-BR": "Sensoriamento ambiental"
+        "pt-BR": "Sensoriamento ambiental",
+        "zh-TW": "環境傳感"
     },
     "lifecycle": "released",
     "optional-properties": [

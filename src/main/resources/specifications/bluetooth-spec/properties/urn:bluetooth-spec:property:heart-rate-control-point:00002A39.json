@@ -8,7 +8,8 @@
         "ja-JP": "心拍数制御ポイント",
         "ko-KR": "심박수 제어 포인트",
         "es-ES": "Punto de control de frecuencia cardiaca",
-        "pt-BR": "Ponto de controle da frequencia cardiaca"
+        "pt-BR": "Ponto de controle da frequencia cardiaca",
+        "zh-TW": "心率控制點"
     },
     "format": "uint8",
     "access": [

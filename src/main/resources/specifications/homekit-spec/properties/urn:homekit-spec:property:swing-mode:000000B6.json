@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u30e2\u30fc\u30c9",
         "ko-KR": "\uc2a4\uc719 \ubaa8\ub4dc",
         "es-ES": "Modo oscilaci\u00f3n",
-        "pt-BR": "Modo oscilante"
+        "pt-BR": "Modo oscilante",
+        "zh-TW": "\u64fa\u52d5\u6a21\u5f0f"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u7121\u52b9",
                 "ko-KR": "\uc2a4\uc719 \ube44\ud65c\uc131\ud654\ub428",
                 "es-ES": "OSCILACI\u00d3N DESACTIVADA",
-                "pt-BR": "OSCILA\u00c7\u00c3O DESATIVADA"
+                "pt-BR": "OSCILA\u00c7\u00c3O DESATIVADA",
+                "zh-TW": "\u64fa\u52d5\u5df2\u7981\u7528"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u6709\u52b9",
                 "ko-KR": "\uc2a4\uc719 \ud65c\uc131\ud654\ub428",
                 "es-ES": "OSCILACI\u00d3N ACTIVADA",
-                "pt-BR": "OSCILA\u00c7\u00c3O ATIVADA"
+                "pt-BR": "OSCILA\u00c7\u00c3O ATIVADA",
+                "zh-TW": "\u64fa\u52d5\u5df2\u555f\u7528"
             }
         }
     ],

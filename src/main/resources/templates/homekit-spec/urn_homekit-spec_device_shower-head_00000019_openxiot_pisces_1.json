@@ -9,7 +9,8 @@
     "ja-JP": "シャワーヘッド",
     "ko-KR": "샤워 헤드",
     "es-ES": "Ducha",
-    "pt-BR": "Chuveiro"
+    "pt-BR": "Chuveiro",
+    "zh-TW": "花灑"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:pisces:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "バルブ",
         "ko-KR": "밸브",
         "es-ES": "Válvula",
-        "pt-BR": "Válvula"
+        "pt-BR": "Válvula",
+        "zh-TW": "閥門"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:active:000000B0:openxiot:pisces:1",
           "description": {
             "en-US": "Active",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "uint8",
           "value-list": [
@@ -197,7 +201,8 @@
           "type": "urn:homekit-spec:property:in-use:000000D2:openxiot:pisces:1",
           "description": {
             "en-US": "In Use",
-            "zh-CN": "使用中"
+            "zh-CN": "使用中",
+            "zh-TW": "使用中"
           },
           "format": "uint8",
           "value-list": [
@@ -221,7 +226,8 @@
           "type": "urn:homekit-spec:property:valve-type:000000D5:openxiot:pisces:1",
           "description": {
             "en-US": "Valve Type",
-            "zh-CN": "阀门类型"
+            "zh-CN": "阀门类型",
+            "zh-TW": "閥門類型"
           },
           "format": "uint8",
           "value-list": [

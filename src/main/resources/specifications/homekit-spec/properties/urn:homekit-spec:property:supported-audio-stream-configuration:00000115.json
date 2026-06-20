@@ -8,7 +8,8 @@
         "ja-JP": "\u5bfe\u5fdc\u30aa\u30fc\u30c7\u30a3\u30aa\u30b9\u30c8\u30ea\u30fc\u30e0\u8a2d\u5b9a",
         "ko-KR": "\uc9c0\uc6d0\ub418\ub294 \uc624\ub514\uc624 \uc2a4\ud2b8\ub9bc \uad6c\uc131",
         "es-ES": "Configuraci\u00f3n de flujo de audio compatible",
-        "pt-BR": "Configura\u00e7\u00e3o de fluxo de \u00e1udio compat\u00edvel"
+        "pt-BR": "Configura\u00e7\u00e3o de fluxo de \u00e1udio compat\u00edvel",
+        "zh-TW": "\u652f\u6301\u7684\u97f3\u983b\u6d41\u914d\u7f6e"
     },
     "format": "tlv8",
     "access": [

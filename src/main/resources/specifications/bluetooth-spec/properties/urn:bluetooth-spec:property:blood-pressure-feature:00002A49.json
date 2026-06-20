@@ -8,7 +8,8 @@
         "ja-JP": "血圧機能",
         "ko-KR": "혈압 기능",
         "es-ES": "Caracteristica de presion arterial",
-        "pt-BR": "Recurso de pressao arterial"
+        "pt-BR": "Recurso de pressao arterial",
+        "zh-TW": "血壓特徵"
     },
     "format": "uint8",
     "access": [

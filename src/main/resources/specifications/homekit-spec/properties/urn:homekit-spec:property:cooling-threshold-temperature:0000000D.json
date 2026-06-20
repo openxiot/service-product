@@ -8,7 +8,8 @@
         "ja-JP": "\u51b7\u5374\u3057\u304d\u3044\u5024\u6e29\u5ea6",
         "ko-KR": "\ub0c9\ubc29 \uc784\uacc4 \uc628\ub3c4",
         "es-ES": "Umbral de temperatura de enfriamiento",
-        "pt-BR": "Temperatura limite de resfriamento"
+        "pt-BR": "Temperatura limite de resfriamento",
+        "zh-TW": "\u88fd\u51b7\u95be\u503c\u6eab\u5ea6"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30cf\u30fc\u30c9\u30a6\u30a7\u30a2\u30ea\u30d3\u30b8\u30e7\u30f3",
         "ko-KR": "\ud558\ub4dc\uc6e8\uc5b4 \ubc84\uc804",
         "es-ES": "Revisi\u00f3n del hardware",
-        "pt-BR": "Revis\u00e3o do hardware"
+        "pt-BR": "Revis\u00e3o do hardware",
+        "zh-TW": "\u786c\u4ef6\u7248\u672c"
     },
     "format": "string",
     "access": [

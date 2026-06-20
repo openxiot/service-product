@@ -8,7 +8,8 @@
         "ja-JP": "\u7a93",
         "ko-KR": "\ucc3d\ubb38",
         "es-ES": "Ventana",
-        "pt-BR": "Janela"
+        "pt-BR": "Janela",
+        "zh-TW": "\u7a97\u6236"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",

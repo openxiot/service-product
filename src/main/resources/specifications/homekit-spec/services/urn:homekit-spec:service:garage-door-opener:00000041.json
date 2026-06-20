@@ -8,7 +8,8 @@
         "ja-JP": "\u30ac\u30ec\u30fc\u30b8\u30c9\u30a2\u958b\u9589\u5668",
         "ko-KR": "\ucc28\uace0 \ubb38 \uac1c\ud3d0\uae30",
         "es-ES": "Abrepuertas de garaje",
-        "pt-BR": "Abre-porta de garagem"
+        "pt-BR": "Abre-porta de garagem",
+        "zh-TW": "\u8eca\u5eab\u9580\u958b\u555f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-door-state:0000000E",

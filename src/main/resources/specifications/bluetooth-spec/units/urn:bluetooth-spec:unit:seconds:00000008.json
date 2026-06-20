@@ -8,7 +8,8 @@
         "ja-JP": "秒",
         "ko-KR": "초",
         "es-ES": "segundos",
-        "pt-BR": "segundos"
+        "pt-BR": "segundos",
+        "zh-TW": "秒"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "スキャン間隔ウィンドウ",
         "ko-KR": "스캔 간격 윈도우",
         "es-ES": "Ventana de intervalo de escaneo",
-        "pt-BR": "Janela de intervalo de varredura"
+        "pt-BR": "Janela de intervalo de varredura",
+        "zh-TW": "掃描間隔窗口"
     },
     "format": "uint16",
     "access": [

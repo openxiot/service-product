@@ -8,7 +8,8 @@
         "ja-JP": "\u540d\u524d",
         "ko-KR": "\uc774\ub984",
         "es-ES": "Nombre",
-        "pt-BR": "Nome"
+        "pt-BR": "Nome",
+        "zh-TW": "\u540d\u7a31"
     },
     "format": "string",
     "access": [

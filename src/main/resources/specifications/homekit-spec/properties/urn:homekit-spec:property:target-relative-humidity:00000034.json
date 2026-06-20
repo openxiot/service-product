@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u76f8\u5bfe\u6e7f\u5ea6",
         "ko-KR": "\ubaa9\ud45c \uc0c1\ub300 \uc2b5\ub3c4",
         "es-ES": "Humedad relativa objetivo",
-        "pt-BR": "Umidade relativa alvo"
+        "pt-BR": "Umidade relativa alvo",
+        "zh-TW": "\u76ee\u6a19\u76f8\u5c0d\u6ebc\u5ea6"
     },
     "format": "float",
     "access": [

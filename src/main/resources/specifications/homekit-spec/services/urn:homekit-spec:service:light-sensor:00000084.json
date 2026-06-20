@@ -8,7 +8,8 @@
         "ja-JP": "\u5149\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc870\ub3c4 \uc13c\uc11c",
         "es-ES": "Sensor de luz",
-        "pt-BR": "Sensor de luz"
+        "pt-BR": "Sensor de luz",
+        "zh-TW": "\u5149\u7dda\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-ambient-light-level:0000006B"

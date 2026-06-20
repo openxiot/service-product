@@ -9,7 +9,8 @@
     "ja-JP": "ドアロック",
     "ko-KR": "도어 잠금",
     "es-ES": "Cerradura de puerta",
-    "pt-BR": "Fechadura"
+    "pt-BR": "Fechadura",
+    "zh-TW": "門鎖"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:taurus:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "ロック機構",
         "ko-KR": "잠금 메커니즘",
         "es-ES": "Mecanismo de cerradura",
-        "pt-BR": "Mecanismo da fechadura"
+        "pt-BR": "Mecanismo da fechadura",
+        "zh-TW": "鎖機制"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:lock-current-state:0000001D:openxiot:taurus:1",
           "description": {
             "en-US": "Current State",
-            "zh-CN": "当前状态"
+            "zh-CN": "当前状态",
+            "zh-TW": "當前狀態"
           },
           "format": "uint8",
           "value-list": [
@@ -204,7 +208,8 @@
           "type": "urn:homekit-spec:property:lock-target-state:0000001E:openxiot:taurus:1",
           "description": {
             "en-US": "Target State",
-            "zh-CN": "目标状态"
+            "zh-CN": "目标状态",
+            "zh-TW": "目標狀態"
           },
           "format": "uint8",
           "value-list": [

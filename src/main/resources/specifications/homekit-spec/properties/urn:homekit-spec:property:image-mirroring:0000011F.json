@@ -8,7 +8,8 @@
         "ja-JP": "\u753b\u50cf\u30df\u30e9\u30fc\u30ea\u30f3\u30b0",
         "ko-KR": "\uc774\ubbf8\uc9c0 \ubbf8\ub7ec\ub9c1",
         "es-ES": "Espejo de imagen",
-        "pt-BR": "Espelhamento de imagem"
+        "pt-BR": "Espelhamento de imagem",
+        "zh-TW": "\u5716\u50cf\u93e1\u50cf"
     },
     "format": "bool",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "温度タイプ",
         "ko-KR": "온도 유형",
         "es-ES": "Tipo de temperatura",
-        "pt-BR": "Tipo de temperatura"
+        "pt-BR": "Tipo de temperatura",
+        "zh-TW": "溫度類型"
     },
     "format": "uint8",
     "access": [

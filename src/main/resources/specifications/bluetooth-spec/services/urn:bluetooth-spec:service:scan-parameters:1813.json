@@ -8,7 +8,8 @@
         "ja-JP": "スキャンパラメータ",
         "ko-KR": "스캔 매개변수",
         "es-ES": "Parametros de escaneo",
-        "pt-BR": "Parametros de varredura"
+        "pt-BR": "Parametros de varredura",
+        "zh-TW": "掃描參數"
     },
     "lifecycle": "released",
     "required-properties": [

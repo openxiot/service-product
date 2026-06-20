@@ -8,7 +8,8 @@
         "ja-JP": "HTTPプロキシ",
         "ko-KR": "HTTP 프록시",
         "es-ES": "Proxy HTTP",
-        "pt-BR": "Proxy HTTP"
+        "pt-BR": "Proxy HTTP",
+        "zh-TW": "HTTP 代理"
     },
     "lifecycle": "released",
     "required-properties": [

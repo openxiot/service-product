@@ -8,7 +8,8 @@
         "ja-JP": "\u30c9\u30a2",
         "ko-KR": "\ubb38",
         "es-ES": "Puerta",
-        "pt-BR": "Porta"
+        "pt-BR": "Porta",
+        "zh-TW": "\u9580"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",

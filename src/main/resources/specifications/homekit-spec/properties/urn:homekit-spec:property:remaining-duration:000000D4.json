@@ -8,7 +8,8 @@
         "ja-JP": "\u6b8b\u308a\u6642\u9593",
         "ko-KR": "\ub0a8\uc740 \uc2dc\uac04",
         "es-ES": "Duraci\u00f3n restante",
-        "pt-BR": "Dura\u00e7\u00e3o restante"
+        "pt-BR": "Dura\u00e7\u00e3o restante",
+        "zh-TW": "\u5269\u9918\u6642\u9577"
     },
     "format": "uint32",
     "access": [

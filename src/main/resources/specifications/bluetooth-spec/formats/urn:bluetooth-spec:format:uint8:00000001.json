@@ -8,7 +8,8 @@
         "ja-JP": "uint8",
         "ko-KR": "uint8",
         "es-ES": "uint8",
-        "pt-BR": "uint8"
+        "pt-BR": "uint8",
+        "zh-TW": "無符號 8 位整數"
     },
     "lifecycle": "released"
 }

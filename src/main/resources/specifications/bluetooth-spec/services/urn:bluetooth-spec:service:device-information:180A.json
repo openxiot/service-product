@@ -8,7 +8,8 @@
         "ja-JP": "デバイス情報",
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
-        "pt-BR": "Informacoes do dispositivo"
+        "pt-BR": "Informacoes do dispositivo",
+        "zh-TW": "設備信息"
     },
     "lifecycle": "released",
     "required-properties": [

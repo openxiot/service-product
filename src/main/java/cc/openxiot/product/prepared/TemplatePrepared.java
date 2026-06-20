@@ -27,8 +27,12 @@ public class TemplatePrepared {
     private final Set<String> preloaded = Set.of(HOMEKIT_SPEC, BLUETOOTH_SPEC);
     private final Map<DeviceType, String> templates = new HashMap<>();
 
-    public int count() {
-        return preloaded.size();
+    public int count() throws IOException {
+        if (templates.isEmpty()) {
+            init();
+        }
+
+        return templates.size();
     }
 
     public boolean contains(String namespace) {

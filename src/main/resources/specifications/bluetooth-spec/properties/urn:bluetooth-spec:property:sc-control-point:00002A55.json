@@ -8,7 +8,8 @@
         "ja-JP": "SC制御ポイント",
         "ko-KR": "SC 제어 포인트",
         "es-ES": "Punto de control SC",
-        "pt-BR": "Ponto de controle SC"
+        "pt-BR": "Ponto de controle SC",
+        "zh-TW": "跑步騎行控制點"
     },
     "format": "uint8",
     "access": [

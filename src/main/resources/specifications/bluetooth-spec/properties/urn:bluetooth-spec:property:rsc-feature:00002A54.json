@@ -8,7 +8,8 @@
         "ja-JP": "RSC機能",
         "ko-KR": "RSC 기능",
         "es-ES": "Caracteristica RSC",
-        "pt-BR": "Recurso RSC"
+        "pt-BR": "Recurso RSC",
+        "zh-TW": "跑步傳感器特徵"
     },
     "format": "uint8",
     "access": [

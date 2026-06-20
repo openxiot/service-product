@@ -8,7 +8,8 @@
         "ja-JP": "\u30d0\u30eb\u30d6",
         "ko-KR": "\ubc38\ube0c",
         "es-ES": "V\u00e1lvula",
-        "pt-BR": "V\u00e1lvula"
+        "pt-BR": "V\u00e1lvula",
+        "zh-TW": "\u95a5\u9580"
     },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",

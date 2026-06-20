@@ -8,7 +8,8 @@
         "ja-JP": "汎用属性",
         "ko-KR": "일반 속성",
         "es-ES": "Atributo generico",
-        "pt-BR": "Atributo generico"
+        "pt-BR": "Atributo generico",
+        "zh-TW": "通用屬性"
     },
     "lifecycle": "released",
     "required-properties": [

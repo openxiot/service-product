@@ -8,7 +8,8 @@
         "ja-JP": "位置と速度",
         "ko-KR": "위치 및 속도",
         "es-ES": "Ubicacion y velocidad",
-        "pt-BR": "Localizacao e velocidade"
+        "pt-BR": "Localizacao e velocidade",
+        "zh-TW": "位置和速度"
     },
     "format": "uint8",
     "access": [

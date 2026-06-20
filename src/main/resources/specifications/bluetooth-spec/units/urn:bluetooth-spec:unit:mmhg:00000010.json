@@ -8,7 +8,8 @@
         "ja-JP": "mmHg",
         "ko-KR": "mmHg",
         "es-ES": "mmHg",
-        "pt-BR": "mmHg"
+        "pt-BR": "mmHg",
+        "zh-TW": "毫米汞柱"
     },
     "lifecycle": "released"
 }

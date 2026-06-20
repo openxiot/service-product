@@ -8,7 +8,8 @@
         "ja-JP": "体組成",
         "ko-KR": "체성분",
         "es-ES": "Composicion corporal",
-        "pt-BR": "Composicao corporal"
+        "pt-BR": "Composicao corporal",
+        "zh-TW": "身體成分"
     },
     "lifecycle": "released",
     "required-properties": [

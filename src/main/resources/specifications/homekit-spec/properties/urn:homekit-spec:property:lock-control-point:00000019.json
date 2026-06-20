@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u5236\u5fa1\u30dd\u30a4\u30f3\u30c8",
         "ko-KR": "\uc7a0\uae08 \uc81c\uc5b4 \ud3ec\uc778\ud2b8",
         "es-ES": "Punto de control de la cerradura",
-        "pt-BR": "Ponto de controle da fechadura"
+        "pt-BR": "Ponto de controle da fechadura",
+        "zh-TW": "\u9396\u63a7\u5236\u9ede"
     },
     "format": "tlv8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30e2\u30c7\u30eb",
         "ko-KR": "\ubaa8\ub378",
         "es-ES": "Modelo",
-        "pt-BR": "Modelo"
+        "pt-BR": "Modelo",
+        "zh-TW": "\u578b\u865f"
     },
     "format": "string",
     "access": [

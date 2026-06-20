@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u30b9\u30e9\u30c3\u30c8\u72b6\u614b",
         "ko-KR": "\ud604\uc7ac \uc2ac\ub7ab \uc0c1\ud0dc",
         "es-ES": "Estado actual de las lamas",
-        "pt-BR": "Estado atual das l\u00e2minas"
+        "pt-BR": "Estado atual das l\u00e2minas",
+        "zh-TW": "\u7576\u524d\u767e\u8449\u7a97\u8449\u7247\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u56fa\u5b9a",
                 "ko-KR": "\uace0\uc815",
                 "es-ES": "FIJO",
-                "pt-BR": "FIXO"
+                "pt-BR": "FIXO",
+                "zh-TW": "\u56fa\u5b9a"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u8a70\u307e\u308a",
                 "ko-KR": "\uac78\ub9bc",
                 "es-ES": "ATASCADO",
-                "pt-BR": "TRAVADO"
+                "pt-BR": "TRAVADO",
+                "zh-TW": "\u5361\u4f4f"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u4e2d",
                 "ko-KR": "\uc2a4\uc719 \uc911",
                 "es-ES": "OSCILANDO",
-                "pt-BR": "OSCILANDO"
+                "pt-BR": "OSCILANDO",
+                "zh-TW": "\u64fa\u52d5\u4e2d"
             }
         }
     ],

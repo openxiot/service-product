@@ -8,7 +8,8 @@
         "ja-JP": "集計",
         "ko-KR": "집계",
         "es-ES": "Agregado",
-        "pt-BR": "Agregado"
+        "pt-BR": "Agregado",
+        "zh-TW": "聚合"
     },
     "format": "uint8",
     "access": [

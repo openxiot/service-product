@@ -8,7 +8,8 @@
         "ja-JP": "BPM",
         "ko-KR": "BPM",
         "es-ES": "BPM",
-        "pt-BR": "BPM"
+        "pt-BR": "BPM",
+        "zh-TW": "每分鐘心跳次數"
     },
     "lifecycle": "released"
 }

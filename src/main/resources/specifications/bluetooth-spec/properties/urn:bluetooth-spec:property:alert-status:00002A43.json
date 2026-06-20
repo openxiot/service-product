@@ -8,7 +8,8 @@
         "ja-JP": "通知状態",
         "ko-KR": "알림 상태",
         "es-ES": "Estado de alerta",
-        "pt-BR": "Status de alerta"
+        "pt-BR": "Status de alerta",
+        "zh-TW": "警報狀態"
     },
     "format": "uint8",
     "access": [

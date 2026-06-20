@@ -8,7 +8,8 @@
         "ja-JP": "\u7ba1\u7406\u8005\u306e\u307f\u30a2\u30af\u30bb\u30b9",
         "ko-KR": "\uad00\ub9ac\uc790\ub9cc \uc811\uadfc",
         "es-ES": "Solo acceso de administrador",
-        "pt-BR": "Acesso apenas do administrador"
+        "pt-BR": "Acesso apenas do administrador",
+        "zh-TW": "\u50c5\u7ba1\u7406\u54e1\u8a2a\u554f"
     },
     "format": "bool",
     "access": [

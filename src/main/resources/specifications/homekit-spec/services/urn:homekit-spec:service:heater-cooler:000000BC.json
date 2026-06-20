@@ -8,7 +8,8 @@
         "ja-JP": "\u52a0\u71b1\u5668/\u51b7\u5374\u5668",
         "ko-KR": "\ud788\ud130/\ucfe8\ub7ec",
         "es-ES": "Calefactor/Enfriador",
-        "pt-BR": "Aquecedor/Refrigerador"
+        "pt-BR": "Aquecedor/Refrigerador",
+        "zh-TW": "\u52a0\u71b1\u5668/\u51b7\u537b\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",

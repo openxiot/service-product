@@ -8,7 +8,8 @@
         "ja-JP": "HTTP制御ポイント",
         "ko-KR": "HTTP 제어 포인트",
         "es-ES": "Punto de control HTTP",
-        "pt-BR": "Ponto de controle HTTP"
+        "pt-BR": "Ponto de controle HTTP",
+        "zh-TW": "HTTP 控制點"
     },
     "format": "uint8",
     "access": [

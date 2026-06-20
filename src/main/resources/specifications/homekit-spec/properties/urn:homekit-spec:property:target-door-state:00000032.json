@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u30c9\u30a2\u72b6\u614b",
         "ko-KR": "\ubaa9\ud45c \ubb38 \uc0c1\ud0dc",
         "es-ES": "Estado objetivo de la puerta",
-        "pt-BR": "Estado alvo da porta"
+        "pt-BR": "Estado alvo da porta",
+        "zh-TW": "\u76ee\u6a19\u9580\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u958b",
                 "ko-KR": "\uc5f4\ub9bc",
                 "es-ES": "ABIERTO",
-                "pt-BR": "ABERTO"
+                "pt-BR": "ABERTO",
+                "zh-TW": "\u6253\u958b"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u9589",
                 "ko-KR": "\ub2eb\ud798",
                 "es-ES": "CERRADO",
-                "pt-BR": "FECHADO"
+                "pt-BR": "FECHADO",
+                "zh-TW": "\u95dc\u9589"
             }
         }
     ],

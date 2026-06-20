@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30e9\u30c3\u30c8",
         "ko-KR": "\uc2ac\ub7ab",
         "es-ES": "Lama",
-        "pt-BR": "L\u00e2mina"
+        "pt-BR": "L\u00e2mina",
+        "zh-TW": "\u767e\u8449\u7a97\u8449\u7247"
     },
     "required-properties": [
         "urn:homekit-spec:property:slat-type:000000C0",

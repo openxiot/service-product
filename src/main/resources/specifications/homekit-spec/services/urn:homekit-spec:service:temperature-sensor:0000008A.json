@@ -8,7 +8,8 @@
         "ja-JP": "\u6e29\u5ea6\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc628\ub3c4 \uc13c\uc11c",
         "es-ES": "Sensor de temperatura",
-        "pt-BR": "Sensor de temperatura"
+        "pt-BR": "Sensor de temperatura",
+        "zh-TW": "\u6eab\u5ea6\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-temperature:00000011"

@@ -8,7 +8,8 @@
         "ja-JP": "基準時刻情報",
         "ko-KR": "참조 시간 정보",
         "es-ES": "Informacion de tiempo de referencia",
-        "pt-BR": "Informacoes de tempo de referencia"
+        "pt-BR": "Informacoes de tempo de referencia",
+        "zh-TW": "參考時間信息"
     },
     "format": "uint8",
     "access": [

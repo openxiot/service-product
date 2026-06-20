@@ -8,7 +8,8 @@
         "ja-JP": "体重",
         "ko-KR": "체중",
         "es-ES": "Peso",
-        "pt-BR": "Peso"
+        "pt-BR": "Peso",
+        "zh-TW": "體重"
     },
     "format": "uint16",
     "access": [

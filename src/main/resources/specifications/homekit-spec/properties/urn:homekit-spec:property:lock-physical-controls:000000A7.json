@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u7269\u7406\u5236\u5fa1",
         "ko-KR": "\uc7a0\uae08 \ubb3c\ub9ac\uc801 \uc81c\uc5b4",
         "es-ES": "Controles f\u00edsicos de la cerradura",
-        "pt-BR": "Controles f\u00edsicos da fechadura"
+        "pt-BR": "Controles f\u00edsicos da fechadura",
+        "zh-TW": "\u9396\u7269\u7406\u63a7\u5236"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30ed\u30c3\u30af\u7121\u52b9",
                 "ko-KR": "\uc81c\uc5b4 \uc7a0\uae08 \ube44\ud65c\uc131\ud654\ub428",
                 "es-ES": "BLOQUEO DE CONTROL DESACTIVADO",
-                "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO"
+                "pt-BR": "BLOQUEIO DE CONTROLE DESATIVADO",
+                "zh-TW": "\u63a7\u5236\u9396\u5df2\u7981\u7528"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30ed\u30c3\u30af\u6709\u52b9",
                 "ko-KR": "\uc81c\uc5b4 \uc7a0\uae08 \ud65c\uc131\ud654\ub428",
                 "es-ES": "BLOQUEO DE CONTROL ACTIVADO",
-                "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO"
+                "pt-BR": "BLOQUEIO DE CONTROLE ATIVADO",
+                "zh-TW": "\u63a7\u5236\u9396\u5df2\u555f\u7528"
             }
         }
     ],

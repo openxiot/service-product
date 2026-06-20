@@ -8,7 +8,8 @@
         "ja-JP": "デジタル",
         "ko-KR": "디지털",
         "es-ES": "Digital",
-        "pt-BR": "Digital"
+        "pt-BR": "Digital",
+        "zh-TW": "數字"
     },
     "format": "bool",
     "access": [

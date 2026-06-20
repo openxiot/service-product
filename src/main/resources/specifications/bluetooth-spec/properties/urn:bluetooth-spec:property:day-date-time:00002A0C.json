@@ -8,7 +8,8 @@
         "ja-JP": "日付時刻",
         "ko-KR": "날짜 시간",
         "es-ES": "Fecha y hora",
-        "pt-BR": "Data e hora"
+        "pt-BR": "Data e hora",
+        "zh-TW": "日期時間"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u704c\u6f11\u30b7\u30b9\u30c6\u30e0",
         "ko-KR": "\uad00\uac1c \uc2dc\uc2a4\ud15c",
         "es-ES": "Sistema de riego",
-        "pt-BR": "Sistema de irriga\u00e7\u00e3o"
+        "pt-BR": "Sistema de irriga\u00e7\u00e3o",
+        "zh-TW": "\u704c\u6e89\u7cfb\u7d71"
     },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0",

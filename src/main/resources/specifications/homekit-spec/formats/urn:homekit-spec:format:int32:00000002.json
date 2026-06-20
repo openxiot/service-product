@@ -8,7 +8,8 @@
         "ja-JP": "int32",
         "ko-KR": "int32",
         "es-ES": "int32",
-        "pt-BR": "int32"
+        "pt-BR": "int32",
+        "zh-TW": "\u6709\u7b26\u865f 32 \u4f4d\u6574\u6578"
     },
     "lifecycle": "released"
 }

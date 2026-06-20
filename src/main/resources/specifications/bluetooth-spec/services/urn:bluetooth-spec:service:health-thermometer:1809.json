@@ -8,7 +8,8 @@
         "ja-JP": "健康体温計",
         "ko-KR": "건강 체온계",
         "es-ES": "Termometro de salud",
-        "pt-BR": "Termometro de saude"
+        "pt-BR": "Termometro de saude",
+        "zh-TW": "健康體溫計"
     },
     "lifecycle": "released",
     "required-properties": [

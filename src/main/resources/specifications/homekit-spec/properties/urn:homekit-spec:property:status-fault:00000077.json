@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u969c\u5bb3",
         "ko-KR": "\uc0c1\ud0dc \uc624\ub958",
         "es-ES": "Estado de fallo",
-        "pt-BR": "Status de falha"
+        "pt-BR": "Status de falha",
+        "zh-TW": "\u72c0\u614b\u6545\u969c"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u969c\u5bb3\u306a\u3057",
                 "ko-KR": "\uc624\ub958 \uc5c6\uc74c",
                 "es-ES": "SIN FALLO",
-                "pt-BR": "SEM FALHA"
+                "pt-BR": "SEM FALHA",
+                "zh-TW": "\u7121\u6545\u969c"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u4e00\u822c\u969c\u5bb3",
                 "ko-KR": "\uc77c\ubc18 \uc624\ub958",
                 "es-ES": "FALLO GENERAL",
-                "pt-BR": "FALHA GERAL"
+                "pt-BR": "FALHA GERAL",
+                "zh-TW": "\u4e00\u822c\u6545\u969c"
             }
         }
     ],

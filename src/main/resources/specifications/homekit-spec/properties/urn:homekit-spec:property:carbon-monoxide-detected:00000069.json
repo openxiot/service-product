@@ -8,7 +8,8 @@
         "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u691c\u51fa",
         "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \uac10\uc9c0\ub428",
         "es-ES": "Mon\u00f3xido de carbono detectado",
-        "pt-BR": "Mon\u00f3xido de carbono detectado"
+        "pt-BR": "Mon\u00f3xido de carbono detectado",
+        "zh-TW": "\u4e00\u6c27\u5316\u78b3\u6aa2\u6e2c\u5230"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u6b63\u5e38",
                 "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \uc815\uc0c1",
                 "es-ES": "NIVELES DE CO NORMALES",
-                "pt-BR": "N\u00cdVEIS DE CO NORMAIS"
+                "pt-BR": "N\u00cdVEIS DE CO NORMAIS",
+                "zh-TW": "\u4e00\u6c27\u5316\u78b3\u6fc3\u5ea6\u6b63\u5e38"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u7570\u5e38",
                 "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \ube44\uc815\uc0c1",
                 "es-ES": "NIVELES DE CO ANORMALES",
-                "pt-BR": "N\u00cdVEIS DE CO ANORMAIS"
+                "pt-BR": "N\u00cdVEIS DE CO ANORMAIS",
+                "zh-TW": "\u4e00\u6c27\u5316\u78b3\u6fc3\u5ea6\u7570\u5e38"
             }
         }
     ],

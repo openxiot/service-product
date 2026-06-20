@@ -8,7 +8,8 @@
         "ja-JP": "\u30de\u30a4\u30af",
         "ko-KR": "\ub9c8\uc774\ud06c",
         "es-ES": "Micr\u00f3fono",
-        "pt-BR": "Microfone"
+        "pt-BR": "Microfone",
+        "zh-TW": "\u9ea5\u514b\u98a8"
     },
     "required-properties": [
         "urn:homekit-spec:property:volume:00000119",

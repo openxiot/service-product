@@ -8,7 +8,8 @@
         "ja-JP": "\u7159\u691c\u51fa",
         "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
         "es-ES": "Humo detectado",
-        "pt-BR": "Fuma\u00e7a detectada"
+        "pt-BR": "Fuma\u00e7a detectada",
+        "zh-TW": "\u6aa2\u6e2c\u5230\u7159\u9727"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u7159\u672a\u691c\u51fa",
                 "ko-KR": "\uc5f0\uae30 \ubbf8\uac10\uc9c0",
                 "es-ES": "HUMO NO DETECTADO",
-                "pt-BR": "FUMA\u00c7A N\u00c3O DETECTADA"
+                "pt-BR": "FUMA\u00c7A N\u00c3O DETECTADA",
+                "zh-TW": "\u672a\u6aa2\u6e2c\u5230\u7159\u9727"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u7159\u691c\u51fa",
                 "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
                 "es-ES": "HUMO DETECTADO",
-                "pt-BR": "FUMA\u00c7A DETECTADA"
+                "pt-BR": "FUMA\u00c7A DETECTADA",
+                "zh-TW": "\u6aa2\u6e2c\u5230\u7159\u9727"
             }
         }
     ],

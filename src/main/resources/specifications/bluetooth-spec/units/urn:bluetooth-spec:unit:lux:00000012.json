@@ -8,7 +8,8 @@
         "ja-JP": "ルクス",
         "ko-KR": "럭스",
         "es-ES": "lux",
-        "pt-BR": "lux"
+        "pt-BR": "lux",
+        "zh-TW": "勒克斯"
     },
     "lifecycle": "released"
 }

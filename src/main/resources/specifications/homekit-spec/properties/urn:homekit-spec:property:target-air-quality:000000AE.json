@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u7a7a\u6c17\u54c1\u8cea",
         "ko-KR": "\ubaa9\ud45c \uacf5\uae30 \uc9c8",
         "es-ES": "Calidad del aire objetivo",
-        "pt-BR": "Qualidade do ar alvo"
+        "pt-BR": "Qualidade do ar alvo",
+        "zh-TW": "\u76ee\u6a19\u7a7a\u6c23\u8cea\u91cf"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u512a\u826f",
                 "ko-KR": "\uc6b0\uc218",
                 "es-ES": "EXCELENTE",
-                "pt-BR": "EXCELENTE"
+                "pt-BR": "EXCELENTE",
+                "zh-TW": "\u512a\u79c0"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u826f\u597d",
                 "ko-KR": "\uc88b\uc74c",
                 "es-ES": "BUENO",
-                "pt-BR": "BOM"
+                "pt-BR": "BOM",
+                "zh-TW": "\u826f\u597d"
             }
         },
         {
@@ -53,7 +56,8 @@
                 "ja-JP": "\u666e\u901a",
                 "ko-KR": "\ubcf4\ud1b5",
                 "es-ES": "REGULAR",
-                "pt-BR": "REGULAR"
+                "pt-BR": "REGULAR",
+                "zh-TW": "\u4e00\u822c"
             }
         }
     ],

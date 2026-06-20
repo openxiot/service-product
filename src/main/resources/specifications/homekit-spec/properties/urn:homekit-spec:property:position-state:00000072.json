@@ -8,7 +8,8 @@
         "ja-JP": "\u4f4d\u7f6e\u72b6\u614b",
         "ko-KR": "\uc704\uce58 \uc0c1\ud0dc",
         "es-ES": "Estado de la posici\u00f3n",
-        "pt-BR": "Estado da posi\u00e7\u00e3o"
+        "pt-BR": "Estado da posi\u00e7\u00e3o",
+        "zh-TW": "\u4f4d\u7f6e\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u6e1b\u5c11\u4e2d",
                 "ko-KR": "\uac10\uc18c \uc911",
                 "es-ES": "DISMINUYENDO",
-                "pt-BR": "DIMINUINDO"
+                "pt-BR": "DIMINUINDO",
+                "zh-TW": "\u6e1b\u5c11\u4e2d"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u5897\u52a0\u4e2d",
                 "ko-KR": "\uc99d\uac00 \uc911",
                 "es-ES": "AUMENTANDO",
-                "pt-BR": "AUMENTANDO"
+                "pt-BR": "AUMENTANDO",
+                "zh-TW": "\u589e\u52a0\u4e2d"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u505c\u6b62\u4e2d",
                 "ko-KR": "\uc815\uc9c0\ub428",
                 "es-ES": "DETENIDO",
-                "pt-BR": "PARADO"
+                "pt-BR": "PARADO",
+                "zh-TW": "\u5df2\u505c\u6b62"
             }
         }
     ],

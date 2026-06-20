@@ -9,7 +9,8 @@
     "ja-JP": "ドア",
     "ko-KR": "문",
     "es-ES": "Puerta",
-    "pt-BR": "Porta"
+    "pt-BR": "Porta",
+    "zh-TW": "門"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:draco:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "ドア",
         "ko-KR": "문",
         "es-ES": "Puerta",
-        "pt-BR": "Porta"
+        "pt-BR": "Porta",
+        "zh-TW": "門"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:current-position:0000006D:openxiot:draco:1",
           "description": {
             "en-US": "Current Position",
-            "zh-CN": "当前位置"
+            "zh-CN": "当前位置",
+            "zh-TW": "當前位置"
           },
           "format": "uint8",
           "access": [
@@ -192,7 +196,8 @@
           "type": "urn:homekit-spec:property:target-position:0000007C:openxiot:draco:1",
           "description": {
             "en-US": "Target Position",
-            "zh-CN": "目标位置"
+            "zh-CN": "目标位置",
+            "zh-TW": "目標位置"
           },
           "format": "uint8",
           "access": [
@@ -213,7 +218,8 @@
           "type": "urn:homekit-spec:property:position-state:00000072:openxiot:draco:1",
           "description": {
             "en-US": "Position State",
-            "zh-CN": "位置状态"
+            "zh-CN": "位置状态",
+            "zh-TW": "位置狀態"
           },
           "format": "uint8",
           "value-list": [

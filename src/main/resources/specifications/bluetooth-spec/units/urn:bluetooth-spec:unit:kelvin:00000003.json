@@ -8,7 +8,8 @@
         "ja-JP": "ケルビン",
         "ko-KR": "켈빈",
         "es-ES": "kelvin",
-        "pt-BR": "kelvin"
+        "pt-BR": "kelvin",
+        "zh-TW": "開爾文"
     },
     "lifecycle": "released"
 }

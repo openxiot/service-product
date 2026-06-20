@@ -8,7 +8,8 @@
         "ja-JP": "バッテリーサービス",
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de bateria",
-        "pt-BR": "Servico de bateria"
+        "pt-BR": "Servico de bateria",
+        "zh-TW": "電池服務"
     },
     "lifecycle": "released",
     "required-properties": [

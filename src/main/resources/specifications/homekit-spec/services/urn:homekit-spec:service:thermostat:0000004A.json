@@ -8,7 +8,8 @@
         "ja-JP": "\u30b5\u30fc\u30e2\u30b9\u30bf\u30c3\u30c8",
         "ko-KR": "\uc628\ub3c4 \uc870\uc808\uae30",
         "es-ES": "Termostato",
-        "pt-BR": "Termostato"
+        "pt-BR": "Termostato",
+        "zh-TW": "\u6046\u6eab\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-heating-cooling-state:0000000F",

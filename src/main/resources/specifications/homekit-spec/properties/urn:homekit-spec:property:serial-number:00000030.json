@@ -8,7 +8,8 @@
         "ja-JP": "\u30b7\u30ea\u30a2\u30eb\u756a\u53f7",
         "ko-KR": "\uc77c\ub828\ubc88\ud638",
         "es-ES": "N\u00famero de serie",
-        "pt-BR": "N\u00famero de s\u00e9rie"
+        "pt-BR": "N\u00famero de s\u00e9rie",
+        "zh-TW": "\u5e8f\u5217\u865f"
     },
     "format": "string",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "32ビット浮動小数点",
         "ko-KR": "32비트 부동 소수점",
         "es-ES": "flotante 32 bits",
-        "pt-BR": "ponto flutuante 32 bits"
+        "pt-BR": "ponto flutuante 32 bits",
+        "zh-TW": "32 位浮點數"
     },
     "lifecycle": "released"
 }

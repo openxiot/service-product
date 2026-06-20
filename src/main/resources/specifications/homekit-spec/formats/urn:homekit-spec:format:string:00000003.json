@@ -8,7 +8,8 @@
         "ja-JP": "\u6587\u5b57\u5217",
         "ko-KR": "\ubb38\uc790\uc5f4",
         "es-ES": "cadena",
-        "pt-BR": "string"
+        "pt-BR": "string",
+        "zh-TW": "\u5b57\u7b26\u4e32"
     },
     "lifecycle": "released"
 }

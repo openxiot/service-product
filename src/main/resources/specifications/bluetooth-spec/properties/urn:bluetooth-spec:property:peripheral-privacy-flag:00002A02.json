@@ -8,7 +8,8 @@
         "ja-JP": "ペリフェラルプライバシーフラグ",
         "ko-KR": "주변기기 개인정보 플래그",
         "es-ES": "Indicador de privacidad del periferico",
-        "pt-BR": "Sinalizador de privacidade do periferico"
+        "pt-BR": "Sinalizador de privacidade do periferico",
+        "zh-TW": "外設隱私標誌"
     },
     "format": "bool",
     "access": [

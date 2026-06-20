@@ -8,7 +8,8 @@
         "ja-JP": "体重計",
         "ko-KR": "체중계",
         "es-ES": "Bascula",
-        "pt-BR": "Balanca"
+        "pt-BR": "Balanca",
+        "zh-TW": "體重秤"
     },
     "lifecycle": "released",
     "required-properties": [

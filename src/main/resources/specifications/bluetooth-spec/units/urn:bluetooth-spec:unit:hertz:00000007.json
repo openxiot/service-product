@@ -8,7 +8,8 @@
         "ja-JP": "ヘルツ",
         "ko-KR": "헤르츠",
         "es-ES": "hercios",
-        "pt-BR": "hertz"
+        "pt-BR": "hertz",
+        "zh-TW": "赫茲"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "\u86c7\u53e3",
         "ko-KR": "\uc218\ub3c4\uaf2d\uc9c0",
         "es-ES": "Grifo",
-        "pt-BR": "Torneira"
+        "pt-BR": "Torneira",
+        "zh-TW": "\u6c34\u9f8d\u982d"
     },
     "required-properties": [
         "urn:homekit-spec:property:active:000000B0"

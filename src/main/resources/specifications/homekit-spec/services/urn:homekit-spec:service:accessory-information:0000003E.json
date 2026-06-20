@@ -8,7 +8,8 @@
         "ja-JP": "\u30a2\u30af\u30bb\u30b5\u30ea\u60c5\u5831",
         "ko-KR": "\uc561\uc138\uc11c\ub9ac \uc815\ubcf4",
         "es-ES": "Informaci\u00f3n del accesorio",
-        "pt-BR": "Informa\u00e7\u00f5es do acess\u00f3rio"
+        "pt-BR": "Informa\u00e7\u00f5es do acess\u00f3rio",
+        "zh-TW": "\u914d\u4ef6\u4fe1\u606f"
     },
     "required-properties": [
         "urn:homekit-spec:property:identify:00000014",

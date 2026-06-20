@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u4f4d\u7f6e",
         "ko-KR": "\ubaa9\ud45c \uc704\uce58",
         "es-ES": "Posici\u00f3n objetivo",
-        "pt-BR": "Posi\u00e7\u00e3o alvo"
+        "pt-BR": "Posi\u00e7\u00e3o alvo",
+        "zh-TW": "\u76ee\u6a19\u4f4d\u7f6e"
     },
     "format": "uint8",
     "access": [

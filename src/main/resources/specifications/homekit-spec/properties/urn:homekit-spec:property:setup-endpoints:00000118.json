@@ -8,7 +8,8 @@
         "ja-JP": "\u30a8\u30f3\u30c9\u30dd\u30a4\u30f3\u30c8\u8a2d\u5b9a",
         "ko-KR": "\uc5d4\ub4dc\ud3ec\uc778\ud2b8 \uc124\uc815",
         "es-ES": "Configurar endpoints",
-        "pt-BR": "Configurar endpoints"
+        "pt-BR": "Configurar endpoints",
+        "zh-TW": "\u8a2d\u7f6e\u7aef\u9ede"
     },
     "format": "tlv8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30e9\u30c3\u30c8\u30bf\u30a4\u30d7",
         "ko-KR": "\uc2ac\ub7ab \uc720\ud615",
         "es-ES": "Tipo de lama",
-        "pt-BR": "Tipo de l\u00e2mina"
+        "pt-BR": "Tipo de l\u00e2mina",
+        "zh-TW": "\u767e\u8449\u7a97\u8449\u7247\u985e\u578b"
     },
     "format": "uint8",
     "access": [
@@ -25,7 +26,8 @@
                 "ja-JP": "\u6c34\u5e73",
                 "ko-KR": "\uc218\ud3c9",
                 "es-ES": "HORIZONTAL",
-                "pt-BR": "HORIZONTAL"
+                "pt-BR": "HORIZONTAL",
+                "zh-TW": "\u6c34\u5e73"
             }
         },
         {
@@ -38,7 +40,8 @@
                 "ja-JP": "\u5782\u76f4",
                 "ko-KR": "\uc218\uc9c1",
                 "es-ES": "VERTICAL",
-                "pt-BR": "VERTICAL"
+                "pt-BR": "VERTICAL",
+                "zh-TW": "\u5782\u76f4"
             }
         }
     ],

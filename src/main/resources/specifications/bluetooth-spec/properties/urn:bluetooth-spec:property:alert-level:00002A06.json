@@ -8,7 +8,8 @@
         "ja-JP": "アラートレベル",
         "ko-KR": "알림 수준",
         "es-ES": "Nivel de alerta",
-        "pt-BR": "Nivel de alerta"
+        "pt-BR": "Nivel de alerta",
+        "zh-TW": "警報級別"
     },
     "format": "uint8",
     "access": [

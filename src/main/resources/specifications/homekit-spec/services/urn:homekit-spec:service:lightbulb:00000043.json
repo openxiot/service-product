@@ -8,7 +8,8 @@
         "ja-JP": "\u96fb\u7403",
         "ko-KR": "\uc804\uad6c",
         "es-ES": "Bombilla",
-        "pt-BR": "L\u00e2mpada"
+        "pt-BR": "L\u00e2mpada",
+        "zh-TW": "\u71c8\u6ce1"
     },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"

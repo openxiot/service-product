@@ -8,7 +8,8 @@
         "ja-JP": "RSC測定",
         "ko-KR": "RSC 측정",
         "es-ES": "Medicion RSC",
-        "pt-BR": "Medicao RSC"
+        "pt-BR": "Medicao RSC",
+        "zh-TW": "跑步傳感器測量"
     },
     "format": "uint8",
     "access": [

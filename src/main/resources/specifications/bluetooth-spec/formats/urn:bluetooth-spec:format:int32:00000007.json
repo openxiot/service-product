@@ -8,7 +8,8 @@
         "ja-JP": "int32",
         "ko-KR": "int32",
         "es-ES": "int32",
-        "pt-BR": "int32"
+        "pt-BR": "int32",
+        "zh-TW": "有符號 32 位整數"
     },
     "lifecycle": "released"
 }

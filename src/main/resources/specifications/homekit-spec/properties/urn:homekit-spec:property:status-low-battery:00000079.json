@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u30d0\u30c3\u30c6\u30ea\u30fc\u4f4e\u4e0b",
         "ko-KR": "\uc0c1\ud0dc \ubc30\ud130\ub9ac \ubd80\uc871",
         "es-ES": "Estado de bater\u00eda baja",
-        "pt-BR": "Status bateria fraca"
+        "pt-BR": "Status bateria fraca",
+        "zh-TW": "\u72c0\u614b\u4f4e\u96fb\u91cf"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u6b63\u5e38",
                 "ko-KR": "\ubc30\ud130\ub9ac \uc815\uc0c1",
                 "es-ES": "BATER\u00cdA NORMAL",
-                "pt-BR": "BATERIA NORMAL"
+                "pt-BR": "BATERIA NORMAL",
+                "zh-TW": "\u96fb\u6c60\u96fb\u91cf\u6b63\u5e38"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u4f4e\u4e0b",
                 "ko-KR": "\ubc30\ud130\ub9ac \ubd80\uc871",
                 "es-ES": "BATER\u00cdA BAJA",
-                "pt-BR": "BATERIA FRACA"
+                "pt-BR": "BATERIA FRACA",
+                "zh-TW": "\u96fb\u6c60\u96fb\u91cf\u4f4e"
             }
         }
     ],

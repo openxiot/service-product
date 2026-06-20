@@ -8,7 +8,8 @@
         "ja-JP": "サイクリングパワー機能",
         "ko-KR": "사이클링 파워 기능",
         "es-ES": "Caracteristica de potencia ciclista",
-        "pt-BR": "Recurso de potencia ciclistica"
+        "pt-BR": "Recurso de potencia ciclistica",
+        "zh-TW": "騎行功率特徵"
     },
     "format": "uint8",
     "access": [

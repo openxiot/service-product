@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u4f4d\u7f6e",
         "ko-KR": "\ud604\uc7ac \uc704\uce58",
         "es-ES": "Posici\u00f3n actual",
-        "pt-BR": "Posi\u00e7\u00e3o atual"
+        "pt-BR": "Posi\u00e7\u00e3o atual",
+        "zh-TW": "\u7576\u524d\u4f4d\u7f6e"
     },
     "format": "uint8",
     "access": [

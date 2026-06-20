@@ -8,7 +8,8 @@
         "ja-JP": "\u30b3\u30f3\u30bb\u30f3\u30c8",
         "ko-KR": "\ucf58\uc13c\ud2b8",
         "es-ES": "Enchufe",
-        "pt-BR": "Tomada"
+        "pt-BR": "Tomada",
+        "zh-TW": "\u63d2\u5ea7"
     },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025",

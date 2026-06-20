@@ -8,7 +8,8 @@
         "ja-JP": "年齢",
         "ko-KR": "나이",
         "es-ES": "Edad",
-        "pt-BR": "Idade"
+        "pt-BR": "Idade",
+        "zh-TW": "年齡"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "オートメーションIO",
         "ko-KR": "자동화 IO",
         "es-ES": "IO de automatizacion",
-        "pt-BR": "IO de automacao"
+        "pt-BR": "IO de automacao",
+        "zh-TW": "自動化 IO"
     },
     "lifecycle": "released",
     "optional-properties": [

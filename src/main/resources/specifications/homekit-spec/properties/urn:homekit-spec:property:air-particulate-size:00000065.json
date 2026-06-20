@@ -8,7 +8,8 @@
         "ja-JP": "\u7a7a\u6c17\u5fae\u7c92\u5b50\u30b5\u30a4\u30ba",
         "ko-KR": "\uacf5\uae30 \uc911 \ubbf8\uc138 \uc785\uc790 \ud06c\uae30",
         "es-ES": "Tama\u00f1o de part\u00edculas en suspensi\u00f3n",
-        "pt-BR": "Tamanho de part\u00edculas no ar"
+        "pt-BR": "Tamanho de part\u00edculas no ar",
+        "zh-TW": "\u7a7a\u6c23\u9846\u7c92\u7269\u5927\u5c0f"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "2.5 \u039cM",
                 "ko-KR": "2.5 \u039cM",
                 "es-ES": "2,5 \u039cM",
-                "pt-BR": "2,5 \u039cM"
+                "pt-BR": "2,5 \u039cM",
+                "zh-TW": "2.5 \u5fae\u7c73"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "10 \u039cM",
                 "ko-KR": "10 \u039cM",
                 "es-ES": "10 \u039cM",
-                "pt-BR": "10 \u039cM"
+                "pt-BR": "10 \u039cM",
+                "zh-TW": "10 \u5fae\u7c73"
             }
         }
     ],

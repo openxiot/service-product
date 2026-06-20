@@ -8,7 +8,8 @@
         "ja-JP": "\u79d2",
         "ko-KR": "\ucd08",
         "es-ES": "segundos",
-        "pt-BR": "segundos"
+        "pt-BR": "segundos",
+        "zh-TW": "\u79d2"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "気圧",
         "ko-KR": "기압",
         "es-ES": "Presion",
-        "pt-BR": "Pressao"
+        "pt-BR": "Pressao",
+        "zh-TW": "氣壓"
     },
     "format": "uint32",
     "access": [

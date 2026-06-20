@@ -8,7 +8,8 @@
         "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30ec\u30d9\u30eb",
         "ko-KR": "\ubc30\ud130\ub9ac \uc794\ub7c9",
         "es-ES": "Nivel de bater\u00eda",
-        "pt-BR": "N\u00edvel da bateria"
+        "pt-BR": "N\u00edvel da bateria",
+        "zh-TW": "\u96fb\u6c60\u96fb\u91cf"
     },
     "format": "uint8",
     "access": [

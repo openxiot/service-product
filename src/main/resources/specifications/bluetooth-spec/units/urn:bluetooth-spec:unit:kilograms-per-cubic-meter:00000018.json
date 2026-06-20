@@ -8,7 +8,8 @@
         "ja-JP": "kg/m3",
         "ko-KR": "kg/m3",
         "es-ES": "kg/m3",
-        "pt-BR": "kg/m3"
+        "pt-BR": "kg/m3",
+        "zh-TW": "千克/立方米"
     },
     "lifecycle": "released"
 }

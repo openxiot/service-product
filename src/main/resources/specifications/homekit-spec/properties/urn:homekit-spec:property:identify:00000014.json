@@ -8,7 +8,8 @@
         "ja-JP": "\u8b58\u5225",
         "ko-KR": "\uc2dd\ubcc4",
         "es-ES": "Identificar",
-        "pt-BR": "Identificar"
+        "pt-BR": "Identificar",
+        "zh-TW": "\u8b58\u5225"
     },
     "format": "bool",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "現在時刻",
         "ko-KR": "현재 시간",
         "es-ES": "Hora actual",
-        "pt-BR": "Hora atual"
+        "pt-BR": "Hora atual",
+        "zh-TW": "當前時間"
     },
     "lifecycle": "released",
     "required-properties": [

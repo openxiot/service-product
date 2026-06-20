@@ -8,7 +8,8 @@
         "ja-JP": "フィットネスマシン機能",
         "ko-KR": "피트니스 머신 기능",
         "es-ES": "Caracteristica de la maquina de fitness",
-        "pt-BR": "Recurso da maquina de fitness"
+        "pt-BR": "Recurso da maquina de fitness",
+        "zh-TW": "健身器材特徵"
     },
     "format": "uint32",
     "access": [

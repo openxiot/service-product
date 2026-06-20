@@ -8,7 +8,8 @@
         "ja-JP": "温度測定",
         "ko-KR": "온도 측정",
         "es-ES": "Medicion de temperatura",
-        "pt-BR": "Medicao de temperatura"
+        "pt-BR": "Medicao de temperatura",
+        "zh-TW": "溫度測量"
     },
     "format": "float",
     "access": [

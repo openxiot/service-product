@@ -8,7 +8,8 @@
         "ja-JP": "\u8272\u76f8",
         "ko-KR": "\uc0c9\uc870",
         "es-ES": "Tono",
-        "pt-BR": "Matiz"
+        "pt-BR": "Matiz",
+        "zh-TW": "\u8272\u8abf"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "デバイス名",
         "ko-KR": "장치 이름",
         "es-ES": "Nombre del dispositivo",
-        "pt-BR": "Nome do dispositivo"
+        "pt-BR": "Nome do dispositivo",
+        "zh-TW": "設備名稱"
     },
     "format": "string",
     "access": [

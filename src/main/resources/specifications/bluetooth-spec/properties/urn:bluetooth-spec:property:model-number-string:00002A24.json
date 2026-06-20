@@ -8,7 +8,8 @@
         "ja-JP": "モデル番号",
         "ko-KR": "모델 번호",
         "es-ES": "Numero de modelo",
-        "pt-BR": "Numero do modelo"
+        "pt-BR": "Numero do modelo",
+        "zh-TW": "型號字符串"
     },
     "format": "string",
     "access": [

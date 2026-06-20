@@ -8,7 +8,8 @@
         "ja-JP": "中間カフ圧",
         "ko-KR": "중간 커프 압력",
         "es-ES": "Presion intermedia del brazalete",
-        "pt-BR": "Pressao intermediaria da bracadeira"
+        "pt-BR": "Pressao intermediaria da bracadeira",
+        "zh-TW": "中間袖帶壓力"
     },
     "format": "float",
     "access": [

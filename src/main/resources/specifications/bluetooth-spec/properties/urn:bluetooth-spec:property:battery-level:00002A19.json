@@ -8,7 +8,8 @@
         "ja-JP": "バッテリーレベル",
         "ko-KR": "배터리 잔량",
         "es-ES": "Nivel de bateria",
-        "pt-BR": "Nivel da bateria"
+        "pt-BR": "Nivel da bateria",
+        "zh-TW": "電池電量"
     },
     "format": "uint8",
     "access": [

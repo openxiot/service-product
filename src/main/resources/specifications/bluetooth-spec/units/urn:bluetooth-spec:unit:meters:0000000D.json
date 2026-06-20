@@ -8,7 +8,8 @@
         "ja-JP": "メートル",
         "ko-KR": "미터",
         "es-ES": "metros",
-        "pt-BR": "metros"
+        "pt-BR": "metros",
+        "zh-TW": "米"
     },
     "lifecycle": "released"
 }

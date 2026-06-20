@@ -8,7 +8,8 @@
         "ja-JP": "\u8a2d\u5b9a\u6e08\u307f",
         "ko-KR": "\uad6c\uc131\ub428",
         "es-ES": "Est\u00e1 configurado",
-        "pt-BR": "Est\u00e1 configurado"
+        "pt-BR": "Est\u00e1 configurado",
+        "zh-TW": "\u5df2\u914d\u7f6e"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u672a\u8a2d\u5b9a",
                 "ko-KR": "\uad6c\uc131\ub418\uc9c0 \uc54a\uc74c",
                 "es-ES": "NO CONFIGURADO",
-                "pt-BR": "N\u00c3O CONFIGURADO"
+                "pt-BR": "N\u00c3O CONFIGURADO",
+                "zh-TW": "\u672a\u914d\u7f6e"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u8a2d\u5b9a\u6e08\u307f",
                 "ko-KR": "\uad6c\uc131\ub428",
                 "es-ES": "CONFIGURADO",
-                "pt-BR": "CONFIGURADO"
+                "pt-BR": "CONFIGURADO",
+                "zh-TW": "\u5df2\u914d\u7f6e"
             }
         }
     ],

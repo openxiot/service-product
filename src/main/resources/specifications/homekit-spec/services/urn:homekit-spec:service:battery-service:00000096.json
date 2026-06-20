@@ -8,7 +8,8 @@
         "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30b5\u30fc\u30d3\u30b9",
         "ko-KR": "\ubc30\ud130\ub9ac \uc11c\ube44\uc2a4",
         "es-ES": "Servicio de bater\u00eda",
-        "pt-BR": "Servi\u00e7o de bateria"
+        "pt-BR": "Servi\u00e7o de bateria",
+        "zh-TW": "\u96fb\u6c60\u670d\u52d9"
     },
     "required-properties": [
         "urn:homekit-spec:property:battery-level:00000068",

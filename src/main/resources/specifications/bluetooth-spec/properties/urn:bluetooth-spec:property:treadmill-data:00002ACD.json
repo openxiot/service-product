@@ -8,7 +8,8 @@
         "ja-JP": "トレッドミルデータ",
         "ko-KR": "트레드밀 데이터",
         "es-ES": "Datos de la cinta de correr",
-        "pt-BR": "Dados da esteira"
+        "pt-BR": "Dados da esteira",
+        "zh-TW": "跑步機數據"
     },
     "format": "uint16",
     "access": [

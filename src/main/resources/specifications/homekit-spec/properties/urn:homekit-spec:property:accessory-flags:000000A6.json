@@ -8,7 +8,8 @@
         "ja-JP": "\u30a2\u30af\u30bb\u30b5\u30ea\u30d5\u30e9\u30b0",
         "ko-KR": "\uc561\uc138\uc11c\ub9ac \ud50c\ub798\uadf8",
         "es-ES": "Indicadores de accesorio",
-        "pt-BR": "Sinalizadores do acess\u00f3rio"
+        "pt-BR": "Sinalizadores do acess\u00f3rio",
+        "zh-TW": "\u9644\u4ef6\u6a19\u8a8c"
     },
     "format": "uint32",
     "access": [

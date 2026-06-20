@@ -8,7 +8,8 @@
         "ja-JP": "サイクリング速度とケイデンス",
         "ko-KR": "사이클링 속도 및 케이던스",
         "es-ES": "Velocidad y cadencia ciclista",
-        "pt-BR": "Velocidade e cadencia ciclistica"
+        "pt-BR": "Velocidade e cadencia ciclistica",
+        "zh-TW": "騎行速度和步頻"
     },
     "lifecycle": "released",
     "required-properties": [

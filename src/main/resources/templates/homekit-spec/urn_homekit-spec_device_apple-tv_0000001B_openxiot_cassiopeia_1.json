@@ -27,7 +27,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +63,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:cassiopeia:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",

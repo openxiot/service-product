@@ -8,7 +8,8 @@
         "ja-JP": "\u30ab\u30e1\u30e9RTP\u30b9\u30c8\u30ea\u30fc\u30e0\u7ba1\u7406",
         "ko-KR": "\uce74\uba54\ub77c RTP \uc2a4\ud2b8\ub9bc \uad00\ub9ac",
         "es-ES": "Gesti\u00f3n de flujo RTP de c\u00e1mara",
-        "pt-BR": "Gerenciamento de fluxo RTP da c\u00e2mera"
+        "pt-BR": "Gerenciamento de fluxo RTP da c\u00e2mera",
+        "zh-TW": "\u651d\u50cf\u982d RTP \u6d41\u7ba1\u7406"
     },
     "required-properties": [
         "urn:homekit-spec:property:supported-video-stream-configuration:00000114",

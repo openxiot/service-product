@@ -8,7 +8,8 @@
         "ja-JP": "ブール",
         "ko-KR": "부울",
         "es-ES": "booleano",
-        "pt-BR": "booleano"
+        "pt-BR": "booleano",
+        "zh-TW": "布爾"
     },
     "lifecycle": "released"
 }

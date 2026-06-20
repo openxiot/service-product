@@ -8,7 +8,8 @@
         "ja-JP": "パーセント",
         "ko-KR": "백분율",
         "es-ES": "porcentaje",
-        "pt-BR": "porcentagem"
+        "pt-BR": "porcentagem",
+        "zh-TW": "百分比"
     },
     "lifecycle": "released"
 }

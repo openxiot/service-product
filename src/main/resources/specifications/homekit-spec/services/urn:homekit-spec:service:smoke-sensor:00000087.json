@@ -8,7 +8,8 @@
         "ja-JP": "\u7159\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc5f0\uae30 \uc13c\uc11c",
         "es-ES": "Sensor de humo",
-        "pt-BR": "Sensor de fuma\u00e7a"
+        "pt-BR": "Sensor de fuma\u00e7a",
+        "zh-TW": "\u7159\u9727\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:smoke-detected:00000076"

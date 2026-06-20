@@ -9,7 +9,8 @@
     "ja-JP": "Pulse Oximeter Handheld",
     "ko-KR": "Pulse Oximeter Handheld",
     "es-ES": "Pulse Oximeter Handheld",
-    "pt-BR": "Pulse Oximeter Handheld"
+    "pt-BR": "Pulse Oximeter Handheld",
+    "zh-TW": "手持脈搏血氧儀"
   },
   "services": [
     {
@@ -27,14 +28,16 @@
         "ja-JP": "デバイス情報",
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
-        "pt-BR": "Informacoes do dispositivo"
+        "pt-BR": "Informacoes do dispositivo",
+        "zh-TW": "設備信息"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29:openxiot:crux:1",
           "description": {
             "en-US": "Manufacturer Name",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "zh-TW": "製造商"
           },
           "format": "string",
           "access": [
@@ -47,7 +50,8 @@
           "type": "urn:bluetooth-spec:property:model-number-string:00002A24:openxiot:crux:1",
           "description": {
             "en-US": "Model Number",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "zh-TW": "型號"
           },
           "format": "string",
           "access": [
@@ -60,7 +64,8 @@
           "type": "urn:bluetooth-spec:property:serial-number-string:00002A25:openxiot:crux:1",
           "description": {
             "en-US": "Serial Number",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "zh-TW": "序列號"
           },
           "format": "string",
           "access": [
@@ -73,7 +78,8 @@
           "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26:openxiot:crux:1",
           "description": {
             "en-US": "Firmware Revision",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "zh-TW": "固件版本"
           },
           "format": "string",
           "access": [
@@ -86,7 +92,8 @@
           "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27:openxiot:crux:1",
           "description": {
             "en-US": "Hardware Revision",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "zh-TW": "硬件版本"
           },
           "format": "string",
           "access": [
@@ -99,7 +106,8 @@
           "type": "urn:bluetooth-spec:property:software-revision-string:00002A28:openxiot:crux:1",
           "description": {
             "en-US": "Software Revision",
-            "zh-CN": "软件版本"
+            "zh-CN": "软件版本",
+            "zh-TW": "軟件版本"
           },
           "format": "string",
           "access": [
@@ -112,7 +120,8 @@
           "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:crux:1",
           "description": {
             "en-US": "System ID",
-            "zh-CN": "系统ID"
+            "zh-CN": "系统ID",
+            "zh-TW": "系統ID"
           },
           "format": "string",
           "access": [
@@ -125,7 +134,8 @@
           "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:crux:1",
           "description": {
             "en-US": "PnP ID",
-            "zh-CN": "即插即用ID"
+            "zh-CN": "即插即用ID",
+            "zh-TW": "即插即用ID"
           },
           "format": "string",
           "access": [
@@ -151,14 +161,16 @@
         "ja-JP": "パルスオキシメータ",
         "ko-KR": "맥박 산소 측정기",
         "es-ES": "Oximetro de pulso",
-        "pt-BR": "Oximetro de pulso"
+        "pt-BR": "Oximetro de pulso",
+        "zh-TW": "脈搏血氧儀"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:plx-features:00002A5F:openxiot:crux:1",
           "description": {
             "en-US": "PLX Features",
-            "zh-CN": "血氧特征"
+            "zh-CN": "血氧特征",
+            "zh-TW": "血氧特徵"
           },
           "format": "uint16",
           "access": [
@@ -171,7 +183,8 @@
           "type": "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E:openxiot:crux:1",
           "description": {
             "en-US": "Continuous Measurement",
-            "zh-CN": "持续测量"
+            "zh-CN": "持续测量",
+            "zh-TW": "持續測量"
           },
           "format": "uint16",
           "access": [
@@ -198,14 +211,16 @@
         "ja-JP": "バッテリーサービス",
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de bateria",
-        "pt-BR": "Servico de bateria"
+        "pt-BR": "Servico de bateria",
+        "zh-TW": "電池服務"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:battery-level:00002A19:openxiot:crux:1",
           "description": {
             "en-US": "Battery Level",
-            "zh-CN": "电量"
+            "zh-CN": "电量",
+            "zh-TW": "電量"
           },
           "format": "uint8",
           "access": [

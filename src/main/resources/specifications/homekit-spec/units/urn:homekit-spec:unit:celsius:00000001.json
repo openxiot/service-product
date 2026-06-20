@@ -8,7 +8,8 @@
         "ja-JP": "\u6442\u6c0f",
         "ko-KR": "\uc12d\uc528",
         "es-ES": "celsius",
-        "pt-BR": "celsius"
+        "pt-BR": "celsius",
+        "zh-TW": "\u651d\u6c0f\u5ea6"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "\u4eba\u5728\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc7ac\uc2e4 \uc13c\uc11c",
         "es-ES": "Sensor de ocupaci\u00f3n",
-        "pt-BR": "Sensor de ocupa\u00e7\u00e3o"
+        "pt-BR": "Sensor de ocupa\u00e7\u00e3o",
+        "zh-TW": "\u4f54\u7528\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:occupancy-detected:00000071"

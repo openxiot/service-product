@@ -8,7 +8,8 @@
         "ja-JP": "クロストレーナーデータ",
         "ko-KR": "크로스 트레이너 데이터",
         "es-ES": "Datos de eliptica",
-        "pt-BR": "Dados do eliptico"
+        "pt-BR": "Dados do eliptico",
+        "zh-TW": "橢圓機數據"
     },
     "format": "uint16",
     "access": [

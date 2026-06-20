@@ -60,18 +60,8 @@ jobs:
 #      - name: Login to Azure
 #        uses: azure/login@v1
 #        with:
-#          creds: ${{ secrets.PRODUCTION_AZURE_CREDENTIALS }}
+#          creds: ${{ secrets.AZURE_OPENXIOT_PRODUCTION_CREDENTIALS }}
 
-      # 构建并推送Docker镜像
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: src/main/docker/Dockerfile.jvm
-          push: true
-          tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
 
 #      # 部署
 #      - name: Deploy to Azure Container Apps

@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30b0",
         "ko-KR": "\ub85c\uadf8",
         "es-ES": "Registros",
-        "pt-BR": "Registros"
+        "pt-BR": "Registros",
+        "zh-TW": "\u65e5\u8a8c"
     },
     "format": "tlv8",
     "access": [

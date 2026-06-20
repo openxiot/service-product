@@ -8,7 +8,8 @@
         "ja-JP": "\u30aa\u30be\u30f3\u6fc3\u5ea6",
         "ko-KR": "\uc624\uc874 \ubc00\ub3c4",
         "es-ES": "Densidad de ozono",
-        "pt-BR": "Densidade de oz\u00f4nio"
+        "pt-BR": "Densidade de oz\u00f4nio",
+        "zh-TW": "\u81ed\u6c27\u6fc3\u5ea6"
     },
     "format": "float",
     "access": [

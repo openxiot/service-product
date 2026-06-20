@@ -8,7 +8,8 @@
         "ja-JP": "血糖測定コンテキスト",
         "ko-KR": "혈당 측정 컨텍스트",
         "es-ES": "Contexto de medicion de glucosa",
-        "pt-BR": "Contexto de medicao de glicose"
+        "pt-BR": "Contexto de medicao de glicose",
+        "zh-TW": "血糖測量上下文"
     },
     "format": "uint8",
     "access": [

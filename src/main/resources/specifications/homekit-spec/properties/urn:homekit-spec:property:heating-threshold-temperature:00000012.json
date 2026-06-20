@@ -8,7 +8,8 @@
         "ja-JP": "\u52a0\u71b1\u3057\u304d\u3044\u5024\u6e29\u5ea6",
         "ko-KR": "\ub09c\ubc29 \uc784\uacc4 \uc628\ub3c4",
         "es-ES": "Umbral de temperatura de calefacci\u00f3n",
-        "pt-BR": "Temperatura limite de aquecimento"
+        "pt-BR": "Temperatura limite de aquecimento",
+        "zh-TW": "\u5236\u71b1\u95be\u503c\u6eab\u5ea6"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30eb\u30af\u30b9",
         "ko-KR": "\ub7ed\uc2a4",
         "es-ES": "lux",
-        "pt-BR": "lux"
+        "pt-BR": "lux",
+        "zh-TW": "\u52d2\u514b\u65af"
     },
     "lifecycle": "released"
 }

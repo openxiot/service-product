@@ -8,7 +8,8 @@
         "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u30d4\u30fc\u30af\u6fc3\u5ea6",
         "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ucd5c\uace0 \ub18d\ub3c4",
         "es-ES": "Nivel m\u00e1ximo de mon\u00f3xido de carbono",
-        "pt-BR": "N\u00edvel m\u00e1ximo de mon\u00f3xido de carbono"
+        "pt-BR": "N\u00edvel m\u00e1ximo de mon\u00f3xido de carbono",
+        "zh-TW": "\u4e00\u6c27\u5316\u78b3\u5cf0\u503c\u6fc3\u5ea6"
     },
     "format": "float",
     "access": [

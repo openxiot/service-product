@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u52a0\u6e7f\u5668\u30fb\u9664\u6e7f\u5668\u72b6\u614b",
         "ko-KR": "\ubaa9\ud45c \uac00\uc2b5\uae30/\uc81c\uc2b5\uae30 \uc0c1\ud0dc",
         "es-ES": "Estado objetivo del humidificador/deshumidificador",
-        "pt-BR": "Estado alvo do umidificador/desumidificador"
+        "pt-BR": "Estado alvo do umidificador/desumidificador",
+        "zh-TW": "\u76ee\u6a19\u52a0\u6ebc\u5668/\u9664\u6ebc\u5668\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u52a0\u6e7f\u5668\u307e\u305f\u306f\u9664\u6e7f\u5668",
                 "ko-KR": "\uac00\uc2b5\uae30 \ub610\ub294 \uc81c\uc2b5\uae30",
                 "es-ES": "HUMIDIFICADOR O DESHUMIDIFICADOR",
-                "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR"
+                "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR",
+                "zh-TW": "\u52a0\u6ebc\u6216\u9664\u6ebc\u5668"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u52a0\u6e7f\u5668",
                 "ko-KR": "\uac00\uc2b5\uae30",
                 "es-ES": "HUMIDIFICADOR",
-                "pt-BR": "UMIDIFICADOR"
+                "pt-BR": "UMIDIFICADOR",
+                "zh-TW": "\u52a0\u6ebc\u5668"
             }
         },
         {
@@ -53,7 +56,8 @@
                 "ja-JP": "\u9664\u6e7f\u5668",
                 "ko-KR": "\uc81c\uc2b5\uae30",
                 "es-ES": "DESHUMIDIFICADOR",
-                "pt-BR": "DESUMIDIFICADOR"
+                "pt-BR": "DESUMIDIFICADOR",
+                "zh-TW": "\u9664\u6ebc\u5668"
             }
         }
     ],

@@ -8,7 +8,8 @@
         "ja-JP": "送信電力",
         "ko-KR": "송신 전력",
         "es-ES": "Potencia TX",
-        "pt-BR": "Potencia de transmissao"
+        "pt-BR": "Potencia de transmissao",
+        "zh-TW": "發射功率"
     },
     "lifecycle": "released",
     "required-properties": [

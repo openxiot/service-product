@@ -8,7 +8,8 @@
         "ja-JP": "位置とナビゲーション",
         "ko-KR": "위치 및 내비게이션",
         "es-ES": "Ubicacion y navegacion",
-        "pt-BR": "Localizacao e navegacao"
+        "pt-BR": "Localizacao e navegacao",
+        "zh-TW": "位置和導航"
     },
     "lifecycle": "released",
     "required-properties": [

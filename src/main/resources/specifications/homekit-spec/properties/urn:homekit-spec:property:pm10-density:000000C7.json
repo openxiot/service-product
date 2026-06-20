@@ -8,7 +8,8 @@
         "ja-JP": "PM10\u6fc3\u5ea6",
         "ko-KR": "PM10 \ubc00\ub3c4",
         "es-ES": "Densidad PM10",
-        "pt-BR": "Densidade PM10"
+        "pt-BR": "Densidade PM10",
+        "zh-TW": "PM10 \u6fc3\u5ea6"
     },
     "format": "float",
     "access": [

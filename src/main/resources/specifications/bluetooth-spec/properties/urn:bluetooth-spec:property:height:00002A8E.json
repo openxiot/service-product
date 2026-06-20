@@ -8,7 +8,8 @@
         "ja-JP": "身長",
         "ko-KR": "키",
         "es-ES": "Altura",
-        "pt-BR": "Altura"
+        "pt-BR": "Altura",
+        "zh-TW": "身高"
     },
     "format": "uint16",
     "access": [

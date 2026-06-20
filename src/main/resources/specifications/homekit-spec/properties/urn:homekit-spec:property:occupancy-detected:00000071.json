@@ -8,7 +8,8 @@
         "ja-JP": "\u4eba\u5728\u691c\u51fa",
         "ko-KR": "\uc7ac\uc2e4 \uac10\uc9c0\ub428",
         "es-ES": "Ocupaci\u00f3n detectada",
-        "pt-BR": "Ocupa\u00e7\u00e3o detectada"
+        "pt-BR": "Ocupa\u00e7\u00e3o detectada",
+        "zh-TW": "\u6aa2\u6e2c\u5230\u4f54\u7528"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u4eba\u5728\u672a\u691c\u51fa",
                 "ko-KR": "\uc7ac\uc2e4 \ubbf8\uac10\uc9c0",
                 "es-ES": "OCUPACI\u00d3N NO DETECTADA",
-                "pt-BR": "OCUPA\u00c7\u00c3O N\u00c3O DETECTADA"
+                "pt-BR": "OCUPA\u00c7\u00c3O N\u00c3O DETECTADA",
+                "zh-TW": "\u672a\u6aa2\u6e2c\u5230\u6709\u4eba"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u4eba\u5728\u691c\u51fa",
                 "ko-KR": "\uc7ac\uc2e4 \uac10\uc9c0\ub428",
                 "es-ES": "OCUPACI\u00d3N DETECTADA",
-                "pt-BR": "OCUPA\u00c7\u00c3O DETECTADA"
+                "pt-BR": "OCUPA\u00c7\u00c3O DETECTADA",
+                "zh-TW": "\u6aa2\u6e2c\u5230\u6709\u4eba"
             }
         }
     ],

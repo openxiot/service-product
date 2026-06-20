@@ -8,7 +8,8 @@
         "ja-JP": "時",
         "ko-KR": "시간",
         "es-ES": "horas",
-        "pt-BR": "horas"
+        "pt-BR": "horas",
+        "zh-TW": "小時"
     },
     "lifecycle": "released"
 }

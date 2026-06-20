@@ -8,7 +8,8 @@
         "ja-JP": "メーカー名",
         "ko-KR": "제조업체 이름",
         "es-ES": "Nombre del fabricante",
-        "pt-BR": "Nome do fabricante"
+        "pt-BR": "Nome do fabricante",
+        "zh-TW": "製造商名稱字符串"
     },
     "format": "string",
     "access": [

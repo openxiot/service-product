@@ -8,7 +8,8 @@
         "ja-JP": "PLXスポットチェック測定",
         "ko-KR": "PLX 스팟 체크 측정",
         "es-ES": "Medicion puntual PLX",
-        "pt-BR": "Medicao pontual PLX"
+        "pt-BR": "Medicao pontual PLX",
+        "zh-TW": "脈搏血氧儀點測"
     },
     "format": "uint8",
     "access": [

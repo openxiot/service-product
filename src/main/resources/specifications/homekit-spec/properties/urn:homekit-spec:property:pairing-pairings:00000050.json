@@ -8,7 +8,8 @@
         "ja-JP": "\u30da\u30a2\u30ea\u30f3\u30b0\u4e00\u89a7",
         "ko-KR": "\ud398\uc5b4\ub9c1 \ubaa9\ub85d",
         "es-ES": "Emparejamientos",
-        "pt-BR": "Pareamentos"
+        "pt-BR": "Pareamentos",
+        "zh-TW": "\u914d\u5c0d\u5217\u8868"
     },
     "format": "tlv8",
     "access": [

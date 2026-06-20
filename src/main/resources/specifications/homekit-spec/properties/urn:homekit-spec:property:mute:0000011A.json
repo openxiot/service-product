@@ -8,7 +8,8 @@
         "ja-JP": "\u30df\u30e5\u30fc\u30c8",
         "ko-KR": "\uc74c\uc18c\uac70",
         "es-ES": "Silencio",
-        "pt-BR": "Mudo"
+        "pt-BR": "Mudo",
+        "zh-TW": "\u975c\u97f3"
     },
     "format": "bool",
     "access": [

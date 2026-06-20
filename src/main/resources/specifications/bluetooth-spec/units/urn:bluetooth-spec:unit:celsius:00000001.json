@@ -8,7 +8,8 @@
         "ja-JP": "摂氏度",
         "ko-KR": "섭씨",
         "es-ES": "grados Celsius",
-        "pt-BR": "graus Celsius"
+        "pt-BR": "graus Celsius",
+        "zh-TW": "攝氏度"
     },
     "lifecycle": "released"
 }

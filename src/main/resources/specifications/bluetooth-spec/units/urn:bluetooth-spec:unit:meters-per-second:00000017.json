@@ -8,7 +8,8 @@
         "ja-JP": "メートル毎秒",
         "ko-KR": "미터 매 초",
         "es-ES": "metros por segundo",
-        "pt-BR": "metros por segundo"
+        "pt-BR": "metros por segundo",
+        "zh-TW": "米/秒"
     },
     "lifecycle": "released"
 }

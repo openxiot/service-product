@@ -8,7 +8,8 @@
         "ja-JP": "\u30da\u30a2\u30ea\u30f3\u30b0\u6a5f\u80fd",
         "ko-KR": "\ud398\uc5b4\ub9c1 \uae30\ub2a5",
         "es-ES": "Funciones de emparejamiento",
-        "pt-BR": "Recursos de pareamento"
+        "pt-BR": "Recursos de pareamento",
+        "zh-TW": "\u914d\u5c0d\u529f\u80fd"
     },
     "format": "uint8",
     "access": [

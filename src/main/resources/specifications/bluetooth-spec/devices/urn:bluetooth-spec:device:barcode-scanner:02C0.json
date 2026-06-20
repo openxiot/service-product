@@ -9,6 +9,7 @@
         "ja-JP": "バーコードスキャナー",
         "ko-KR": "바코드 스캐너",
         "es-ES": "Escáner de codigos de barras",
-        "pt-BR": "Leitor de codigo de barras"
+        "pt-BR": "Leitor de codigo de barras",
+        "zh-TW": "條碼掃描器"
     }
 }

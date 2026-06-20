@@ -8,7 +8,8 @@
         "ja-JP": "\u7a93\u8986\u3044",
         "ko-KR": "\uc708\ub3c4\uc6b0 \ucee4\ubc84\ub9c1",
         "es-ES": "Cubierta de ventana",
-        "pt-BR": "Persiana"
+        "pt-BR": "Persiana",
+        "zh-TW": "\u7a97\u7c3e"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-position:0000006D",

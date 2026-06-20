@@ -8,7 +8,8 @@
         "ja-JP": "キログラム",
         "ko-KR": "킬로그램",
         "es-ES": "kilogramos",
-        "pt-BR": "quilogramas"
+        "pt-BR": "quilogramas",
+        "zh-TW": "千克"
     },
     "lifecycle": "released"
 }

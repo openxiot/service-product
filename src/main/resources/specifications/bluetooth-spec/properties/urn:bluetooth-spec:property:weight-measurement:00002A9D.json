@@ -8,7 +8,8 @@
         "ja-JP": "体重測定",
         "ko-KR": "체중 측정",
         "es-ES": "Medicion de peso",
-        "pt-BR": "Medicao de peso"
+        "pt-BR": "Medicao de peso",
+        "zh-TW": "體重測量"
     },
     "format": "uint8",
     "access": [

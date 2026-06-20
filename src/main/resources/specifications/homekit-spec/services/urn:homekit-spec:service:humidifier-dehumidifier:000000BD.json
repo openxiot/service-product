@@ -8,7 +8,8 @@
         "ja-JP": "\u52a0\u6e7f\u5668/\u9664\u6e7f\u5668",
         "ko-KR": "\uac00\uc2b5\uae30/\uc81c\uc2b5\uae30",
         "es-ES": "Humidificador/Deshumidificador",
-        "pt-BR": "Umidificador/Desumidificador"
+        "pt-BR": "Umidificador/Desumidificador",
+        "zh-TW": "\u52a0\u6ebc\u5668/\u9664\u6ebc\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-relative-humidity:00000010",

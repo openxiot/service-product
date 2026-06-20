@@ -8,7 +8,8 @@
         "ja-JP": "\u30b3\u30f3\u30bb\u30f3\u30c8\u4f7f\u7528\u4e2d",
         "ko-KR": "\ucf58\uc13c\ud2b8 \uc0ac\uc6a9 \uc911",
         "es-ES": "Enchufe en uso",
-        "pt-BR": "Tomada em uso"
+        "pt-BR": "Tomada em uso",
+        "zh-TW": "\u63d2\u5ea7\u4f7f\u7528\u4e2d"
     },
     "format": "bool",
     "access": [

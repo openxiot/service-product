@@ -9,7 +9,8 @@
     "ja-JP": "ビデオドアベル",
     "ko-KR": "비디오 초인종",
     "es-ES": "Timbre con video",
-    "pt-BR": "Campainha com video"
+    "pt-BR": "Campainha com video",
+    "zh-TW": "可視門鈴"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:canis-major:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "ドアベル",
         "ko-KR": "초인종",
         "es-ES": "Timbre",
-        "pt-BR": "Campainha"
+        "pt-BR": "Campainha",
+        "zh-TW": "門鈴"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:programmable-switch-event:00000073:openxiot:canis-major:1",
           "description": {
             "en-US": "Doorbell Event",
-            "zh-CN": "门铃事件"
+            "zh-CN": "门铃事件",
+            "zh-TW": "門鈴事件"
           },
           "format": "uint8",
           "value-list": [
@@ -213,14 +217,16 @@
         "ja-JP": "Camera RTP Stream",
         "ko-KR": "Camera RTP Stream",
         "es-ES": "Camera RTP Stream",
-        "pt-BR": "Camera RTP Stream"
+        "pt-BR": "Camera RTP Stream",
+        "zh-TW": "攝像頭視頻流"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:streaming-status:00000120:openxiot:canis-major:1",
           "description": {
             "en-US": "Streaming Status",
-            "zh-CN": "推流状态"
+            "zh-CN": "推流状态",
+            "zh-TW": "推流狀態"
           },
           "format": "uint8",
           "value-list": [
@@ -248,7 +254,8 @@
           "type": "urn:homekit-spec:property:supported-video-stream-configuration:00000114:openxiot:canis-major:1",
           "description": {
             "en-US": "Supported Video Config",
-            "zh-CN": "支持的视频配置"
+            "zh-CN": "支持的视频配置",
+            "zh-TW": "支持的視頻配置"
           },
           "format": "string",
           "access": [
@@ -261,7 +268,8 @@
           "type": "urn:homekit-spec:property:supported-audio-stream-configuration:00000115:openxiot:canis-major:1",
           "description": {
             "en-US": "Supported Audio Config",
-            "zh-CN": "支持的音频配置"
+            "zh-CN": "支持的音频配置",
+            "zh-TW": "支持的音頻配置"
           },
           "format": "string",
           "access": [
@@ -274,7 +282,8 @@
           "type": "urn:homekit-spec:property:supported-rtp-configuration:00000116:openxiot:canis-major:1",
           "description": {
             "en-US": "Supported RTP Config",
-            "zh-CN": "支持的RTP配置"
+            "zh-CN": "支持的RTP配置",
+            "zh-TW": "支持的RTP配置"
           },
           "format": "string",
           "access": [
@@ -287,7 +296,8 @@
           "type": "urn:homekit-spec:property:setup-endpoints:00000118:openxiot:canis-major:1",
           "description": {
             "en-US": "Setup Endpoints",
-            "zh-CN": "设置端点"
+            "zh-CN": "设置端点",
+            "zh-TW": "設置端點"
           },
           "format": "string",
           "access": [
@@ -301,7 +311,8 @@
           "type": "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117:openxiot:canis-major:1",
           "description": {
             "en-US": "Selected RTP Config",
-            "zh-CN": "选择的RTP配置"
+            "zh-CN": "选择的RTP配置",
+            "zh-TW": "選擇的RTP配置"
           },
           "format": "string",
           "access": [

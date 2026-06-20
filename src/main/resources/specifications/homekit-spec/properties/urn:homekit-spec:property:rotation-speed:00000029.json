@@ -8,7 +8,8 @@
         "ja-JP": "\u56de\u8ee2\u901f\u5ea6",
         "ko-KR": "\ud68c\uc804 \uc18d\ub3c4",
         "es-ES": "Velocidad de rotaci\u00f3n",
-        "pt-BR": "Velocidade de rota\u00e7\u00e3o"
+        "pt-BR": "Velocidade de rota\u00e7\u00e3o",
+        "zh-TW": "\u65cb\u8f49\u901f\u5ea6"
     },
     "format": "float",
     "access": [

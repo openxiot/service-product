@@ -8,7 +8,8 @@
         "ja-JP": "\u30d0\u30fc\u30b8\u30e7\u30f3",
         "ko-KR": "\ubc84\uc804",
         "es-ES": "Versi\u00f3n",
-        "pt-BR": "Vers\u00e3o"
+        "pt-BR": "Vers\u00e3o",
+        "zh-TW": "\u7248\u672c"
     },
     "format": "string",
     "access": [

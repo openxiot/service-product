@@ -8,7 +8,8 @@
         "ja-JP": "位置品質",
         "ko-KR": "위치 품질",
         "es-ES": "Calidad de posicion",
-        "pt-BR": "Qualidade da posicao"
+        "pt-BR": "Qualidade da posicao",
+        "zh-TW": "位置質量"
     },
     "format": "uint8",
     "access": [

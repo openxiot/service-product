@@ -8,7 +8,8 @@
         "ja-JP": "リンクロス",
         "ko-KR": "링크 손실",
         "es-ES": "Perdida de enlace",
-        "pt-BR": "Perda de link"
+        "pt-BR": "Perda de link",
+        "zh-TW": "鏈路丟失"
     },
     "lifecycle": "released",
     "required-properties": [

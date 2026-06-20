@@ -8,7 +8,8 @@
         "ja-JP": "\u8272\u6e29\u5ea6",
         "ko-KR": "\uc0c9\uc628\ub3c4",
         "es-ES": "Temperatura de color",
-        "pt-BR": "Temperatura da cor"
+        "pt-BR": "Temperatura da cor",
+        "zh-TW": "\u8272\u6eab"
     },
     "format": "uint32",
     "access": [

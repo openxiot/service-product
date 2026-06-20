@@ -8,7 +8,8 @@
         "ja-JP": "日",
         "ko-KR": "일",
         "es-ES": "dias",
-        "pt-BR": "dias"
+        "pt-BR": "dias",
+        "zh-TW": "天"
     },
     "lifecycle": "released"
 }

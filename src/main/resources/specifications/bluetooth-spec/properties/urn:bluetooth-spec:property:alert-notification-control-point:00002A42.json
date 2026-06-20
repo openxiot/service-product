@@ -8,7 +8,8 @@
         "ja-JP": "通知通知制御ポイント",
         "ko-KR": "알림 제어 포인트",
         "es-ES": "Punto de control de notificacion de alerta",
-        "pt-BR": "Ponto de controle de notificacao de alerta"
+        "pt-BR": "Ponto de controle de notificacao de alerta",
+        "zh-TW": "警報通知控制點"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30a4\u30c3\u30c1",
         "ko-KR": "\uc2a4\uc704\uce58",
         "es-ES": "Interruptor",
-        "pt-BR": "Interruptor"
+        "pt-BR": "Interruptor",
+        "zh-TW": "\u958b\u95dc"
     },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"

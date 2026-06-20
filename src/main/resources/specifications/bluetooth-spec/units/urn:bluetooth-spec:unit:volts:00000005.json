@@ -8,7 +8,8 @@
         "ja-JP": "ボルト",
         "ko-KR": "볼트",
         "es-ES": "voltios",
-        "pt-BR": "volts"
+        "pt-BR": "volts",
+        "zh-TW": "伏特"
     },
     "lifecycle": "released"
 }

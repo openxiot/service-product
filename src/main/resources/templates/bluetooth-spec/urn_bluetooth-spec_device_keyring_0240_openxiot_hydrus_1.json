@@ -9,7 +9,8 @@
     "ja-JP": "キーリング",
     "ko-KR": "열쇠고리",
     "es-ES": "Llavero",
-    "pt-BR": "Chaveiro"
+    "pt-BR": "Chaveiro",
+    "zh-TW": "鑰匙扣"
   },
   "services": [
     {
@@ -27,14 +28,16 @@
         "ja-JP": "デバイス情報",
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
-        "pt-BR": "Informacoes do dispositivo"
+        "pt-BR": "Informacoes do dispositivo",
+        "zh-TW": "設備信息"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29:openxiot:hydrus:1",
           "description": {
             "en-US": "Manufacturer Name",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "zh-TW": "製造商"
           },
           "format": "string",
           "access": [
@@ -47,7 +50,8 @@
           "type": "urn:bluetooth-spec:property:model-number-string:00002A24:openxiot:hydrus:1",
           "description": {
             "en-US": "Model Number",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "zh-TW": "型號"
           },
           "format": "string",
           "access": [
@@ -60,7 +64,8 @@
           "type": "urn:bluetooth-spec:property:serial-number-string:00002A25:openxiot:hydrus:1",
           "description": {
             "en-US": "Serial Number",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "zh-TW": "序列號"
           },
           "format": "string",
           "access": [
@@ -73,7 +78,8 @@
           "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26:openxiot:hydrus:1",
           "description": {
             "en-US": "Firmware Revision",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "zh-TW": "固件版本"
           },
           "format": "string",
           "access": [
@@ -86,7 +92,8 @@
           "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27:openxiot:hydrus:1",
           "description": {
             "en-US": "Hardware Revision",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "zh-TW": "硬件版本"
           },
           "format": "string",
           "access": [
@@ -99,7 +106,8 @@
           "type": "urn:bluetooth-spec:property:software-revision-string:00002A28:openxiot:hydrus:1",
           "description": {
             "en-US": "Software Revision",
-            "zh-CN": "软件版本"
+            "zh-CN": "软件版本",
+            "zh-TW": "軟件版本"
           },
           "format": "string",
           "access": [
@@ -112,7 +120,8 @@
           "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:hydrus:1",
           "description": {
             "en-US": "System ID",
-            "zh-CN": "系统ID"
+            "zh-CN": "系统ID",
+            "zh-TW": "系統ID"
           },
           "format": "string",
           "access": [
@@ -125,7 +134,8 @@
           "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:hydrus:1",
           "description": {
             "en-US": "PnP ID",
-            "zh-CN": "即插即用ID"
+            "zh-CN": "即插即用ID",
+            "zh-TW": "即插即用ID"
           },
           "format": "string",
           "access": [
@@ -151,14 +161,16 @@
         "ja-JP": "リンクロス",
         "ko-KR": "링크 손실",
         "es-ES": "Perdida de enlace",
-        "pt-BR": "Perda de link"
+        "pt-BR": "Perda de link",
+        "zh-TW": "鏈路丟失"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:alert-level:00002A06:openxiot:hydrus:1",
           "description": {
             "en-US": "Alert Level",
-            "zh-CN": "警报等级"
+            "zh-CN": "警报等级",
+            "zh-TW": "警報等級"
           },
           "format": "uint8",
           "value-list": [

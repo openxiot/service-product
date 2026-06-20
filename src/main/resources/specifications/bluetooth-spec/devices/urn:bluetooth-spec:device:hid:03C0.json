@@ -9,6 +9,7 @@
         "ja-JP": "HID",
         "ko-KR": "HID",
         "es-ES": "Dispositivo de interfaz humana",
-        "pt-BR": "Dispositivo de interface humana"
+        "pt-BR": "Dispositivo de interface humana",
+        "zh-TW": "人機交互設備"
     }
 }

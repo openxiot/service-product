@@ -8,7 +8,8 @@
         "ja-JP": "\u4e8c\u9178\u5316\u786b\u9ec4\u6fc3\u5ea6",
         "ko-KR": "\uc774\uc0b0\ud654\ud669 \ubc00\ub3c4",
         "es-ES": "Densidad de di\u00f3xido de azufre",
-        "pt-BR": "Densidade de di\u00f3xido de enxofre"
+        "pt-BR": "Densidade de di\u00f3xido de enxofre",
+        "zh-TW": "\u4e8c\u6c27\u5316\u786b\u6fc3\u5ea6"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u30e2\u30fc\u30c9",
         "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \ubaa8\ub4dc",
         "es-ES": "Modo de programa",
-        "pt-BR": "Modo de programa"
+        "pt-BR": "Modo de programa",
+        "zh-TW": "\u7a0b\u5e8f\u6a21\u5f0f"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u672a\u4e88\u5b9a",
                 "ko-KR": "\uc608\uc57d\ub41c \ud504\ub85c\uadf8\ub7a8 \uc5c6\uc74c",
                 "es-ES": "SIN PROGRAMA PROGRAMADO",
-                "pt-BR": "NENHUM PROGRAMA AGENDADO"
+                "pt-BR": "NENHUM PROGRAMA AGENDADO",
+                "zh-TW": "\u7121\u8a08\u5283\u7a0b\u5e8f"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a",
                 "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428",
                 "es-ES": "PROGRAMA PROGRAMADO",
-                "pt-BR": "PROGRAMA AGENDADO"
+                "pt-BR": "PROGRAMA AGENDADO",
+                "zh-TW": "\u5df2\u8a08\u5283\u7a0b\u5e8f"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a\uff08\u624b\u52d5\u30e2\u30fc\u30c9\uff09",
                 "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428 (\uc218\ub3d9 \ubaa8\ub4dc)",
                 "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
-                "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)"
+                "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)",
+                "zh-TW": "\u8a08\u5283\u7a0b\u5e8f\uff08\u624b\u52d5\u6a21\u5f0f\uff09"
             }
         }
     ],

@@ -8,7 +8,8 @@
         "ja-JP": "\u30da\u30a2\u691c\u8a3c",
         "ko-KR": "\ud398\uc5b4 \ud655\uc778",
         "es-ES": "Verificaci\u00f3n de emparejamiento",
-        "pt-BR": "Verifica\u00e7\u00e3o de pareamento"
+        "pt-BR": "Verifica\u00e7\u00e3o de pareamento",
+        "zh-TW": "\u914d\u5c0d\u9a57\u8b49"
     },
     "format": "tlv8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "心拍数",
         "ko-KR": "심박수",
         "es-ES": "Frecuencia cardiaca",
-        "pt-BR": "Frequencia cardiaca"
+        "pt-BR": "Frequencia cardiaca",
+        "zh-TW": "心率"
     },
     "lifecycle": "released",
     "required-properties": [

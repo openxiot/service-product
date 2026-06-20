@@ -8,7 +8,8 @@
         "ja-JP": "uint64",
         "ko-KR": "uint64",
         "es-ES": "uint64",
-        "pt-BR": "uint64"
+        "pt-BR": "uint64",
+        "zh-TW": "無符號 64 位整數"
     },
     "lifecycle": "released"
 }

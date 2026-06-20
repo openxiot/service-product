@@ -8,7 +8,8 @@
         "ja-JP": "\u52d5\u4f53\u691c\u51fa",
         "ko-KR": "\uc6c0\uc9c1\uc784 \uac10\uc9c0\ub428",
         "es-ES": "Movimiento detectado",
-        "pt-BR": "Movimento detectado"
+        "pt-BR": "Movimento detectado",
+        "zh-TW": "\u6aa2\u6e2c\u5230\u79fb\u52d5"
     },
     "format": "bool",
     "access": [

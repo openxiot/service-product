@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30c8\u30ea\u30fc\u30df\u30f3\u30b0\u72b6\u614b",
         "ko-KR": "\uc2a4\ud2b8\ub9ac\ubc0d \uc0c1\ud0dc",
         "es-ES": "Estado de transmisi\u00f3n",
-        "pt-BR": "Status de streaming"
+        "pt-BR": "Status de streaming",
+        "zh-TW": "\u6d41\u5a92\u9ad4\u72c0\u614b"
     },
     "format": "tlv8",
     "access": [

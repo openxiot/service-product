@@ -8,7 +8,8 @@
         "ja-JP": "外観",
         "ko-KR": "외관",
         "es-ES": "Apariencia",
-        "pt-BR": "Aparencia"
+        "pt-BR": "Aparencia",
+        "zh-TW": "外觀"
     },
     "format": "uint16",
     "access": [

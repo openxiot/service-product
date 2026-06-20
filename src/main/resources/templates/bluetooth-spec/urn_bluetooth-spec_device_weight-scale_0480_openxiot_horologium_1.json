@@ -9,7 +9,8 @@
     "ja-JP": "体重計",
     "ko-KR": "체중계",
     "es-ES": "Bascula",
-    "pt-BR": "Balanca"
+    "pt-BR": "Balanca",
+    "zh-TW": "體重秤"
   },
   "services": [
     {
@@ -27,14 +28,16 @@
         "ja-JP": "デバイス情報",
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
-        "pt-BR": "Informacoes do dispositivo"
+        "pt-BR": "Informacoes do dispositivo",
+        "zh-TW": "設備信息"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:manufacturer-name-string:00002A29:openxiot:horologium:1",
           "description": {
             "en-US": "Manufacturer Name",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "zh-TW": "製造商"
           },
           "format": "string",
           "access": [
@@ -47,7 +50,8 @@
           "type": "urn:bluetooth-spec:property:model-number-string:00002A24:openxiot:horologium:1",
           "description": {
             "en-US": "Model Number",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "zh-TW": "型號"
           },
           "format": "string",
           "access": [
@@ -60,7 +64,8 @@
           "type": "urn:bluetooth-spec:property:serial-number-string:00002A25:openxiot:horologium:1",
           "description": {
             "en-US": "Serial Number",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "zh-TW": "序列號"
           },
           "format": "string",
           "access": [
@@ -73,7 +78,8 @@
           "type": "urn:bluetooth-spec:property:firmware-revision-string:00002A26:openxiot:horologium:1",
           "description": {
             "en-US": "Firmware Revision",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "zh-TW": "固件版本"
           },
           "format": "string",
           "access": [
@@ -86,7 +92,8 @@
           "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27:openxiot:horologium:1",
           "description": {
             "en-US": "Hardware Revision",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "zh-TW": "硬件版本"
           },
           "format": "string",
           "access": [
@@ -99,7 +106,8 @@
           "type": "urn:bluetooth-spec:property:software-revision-string:00002A28:openxiot:horologium:1",
           "description": {
             "en-US": "Software Revision",
-            "zh-CN": "软件版本"
+            "zh-CN": "软件版本",
+            "zh-TW": "軟件版本"
           },
           "format": "string",
           "access": [
@@ -112,7 +120,8 @@
           "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:horologium:1",
           "description": {
             "en-US": "System ID",
-            "zh-CN": "系统ID"
+            "zh-CN": "系统ID",
+            "zh-TW": "系統ID"
           },
           "format": "string",
           "access": [
@@ -125,7 +134,8 @@
           "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:horologium:1",
           "description": {
             "en-US": "PnP ID",
-            "zh-CN": "即插即用ID"
+            "zh-CN": "即插即用ID",
+            "zh-TW": "即插即用ID"
           },
           "format": "string",
           "access": [
@@ -151,14 +161,16 @@
         "ja-JP": "体重計",
         "ko-KR": "체중계",
         "es-ES": "Bascula",
-        "pt-BR": "Balanca"
+        "pt-BR": "Balanca",
+        "zh-TW": "體重秤"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:weight-measurement:00002A9D:openxiot:horologium:1",
           "description": {
             "en-US": "Weight Measurement",
-            "zh-CN": "体重测量"
+            "zh-CN": "体重测量",
+            "zh-TW": "體重測量"
           },
           "format": "uint16",
           "access": [
@@ -172,7 +184,8 @@
           "type": "urn:bluetooth-spec:property:weight-scale-feature:00002A9E:openxiot:horologium:1",
           "description": {
             "en-US": "Weight Scale Feature",
-            "zh-CN": "体重秤特征"
+            "zh-CN": "体重秤特征",
+            "zh-TW": "體重秤特徵"
           },
           "format": "uint16",
           "access": [
@@ -198,14 +211,16 @@
         "ja-JP": "体組成",
         "ko-KR": "체성분",
         "es-ES": "Composicion corporal",
-        "pt-BR": "Composicao corporal"
+        "pt-BR": "Composicao corporal",
+        "zh-TW": "身體成分"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:body-composition-measurement:00002A9B:openxiot:horologium:1",
           "description": {
             "en-US": "Body Composition Measurement",
-            "zh-CN": "身体成分测量"
+            "zh-CN": "身体成分测量",
+            "zh-TW": "身體成分測量"
           },
           "format": "uint16",
           "access": [

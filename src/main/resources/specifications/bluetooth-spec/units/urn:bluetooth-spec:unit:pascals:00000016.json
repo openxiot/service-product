@@ -8,7 +8,8 @@
         "ja-JP": "パスカル",
         "ko-KR": "파스칼",
         "es-ES": "pascales",
-        "pt-BR": "pascals"
+        "pt-BR": "pascals",
+        "zh-TW": "帕斯卡"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "ローカル時刻情報",
         "ko-KR": "현지 시간 정보",
         "es-ES": "Informacion de hora local",
-        "pt-BR": "Informacoes de horario local"
+        "pt-BR": "Informacoes de horario local",
+        "zh-TW": "本地時間信息"
     },
     "format": "uint8",
     "access": [

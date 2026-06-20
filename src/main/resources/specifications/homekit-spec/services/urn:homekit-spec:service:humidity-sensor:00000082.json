@@ -8,7 +8,8 @@
         "ja-JP": "\u6e7f\u5ea6\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc2b5\ub3c4 \uc13c\uc11c",
         "es-ES": "Sensor de humedad",
-        "pt-BR": "Sensor de umidade"
+        "pt-BR": "Sensor de umidade",
+        "zh-TW": "\u6ebc\u5ea6\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:current-relative-humidity:00000010"

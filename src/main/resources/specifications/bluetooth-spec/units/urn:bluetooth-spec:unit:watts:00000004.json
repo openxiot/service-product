@@ -8,7 +8,8 @@
         "ja-JP": "ワット",
         "ko-KR": "와트",
         "es-ES": "vatios",
-        "pt-BR": "watts"
+        "pt-BR": "watts",
+        "zh-TW": "瓦特"
     },
     "lifecycle": "released"
 }

@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u74b0\u5883\u5149\u30ec\u30d9\u30eb",
         "ko-KR": "\ud604\uc7ac \uc8fc\ubcc0 \uc870\ub3c4",
         "es-ES": "Nivel de luz ambiental actual",
-        "pt-BR": "N\u00edvel de luz ambiente atual"
+        "pt-BR": "N\u00edvel de luz ambiente atual",
+        "zh-TW": "\u7576\u524d\u74b0\u5883\u5149\u5f37\u5ea6"
     },
     "format": "float",
     "access": [

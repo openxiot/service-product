@@ -8,7 +8,8 @@
         "ja-JP": "HTTPステータスコード",
         "ko-KR": "HTTP 상태 코드",
         "es-ES": "Codigo de estado HTTP",
-        "pt-BR": "Codigo de status HTTP"
+        "pt-BR": "Codigo de status HTTP",
+        "zh-TW": "HTTP 狀態碼"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u6f0f\u6c34\u691c\u51fa",
         "ko-KR": "\ub204\uc218 \uac10\uc9c0\ub428",
         "es-ES": "Fuga detectada",
-        "pt-BR": "Vazamento detectado"
+        "pt-BR": "Vazamento detectado",
+        "zh-TW": "\u6aa2\u6e2c\u5230\u6d29\u6f0f"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u6f0f\u6c34\u672a\u691c\u51fa",
                 "ko-KR": "\ub204\uc218 \ubbf8\uac10\uc9c0",
                 "es-ES": "SIN FUGA DETECTADA",
-                "pt-BR": "VAZAMENTO N\u00c3O DETECTADO"
+                "pt-BR": "VAZAMENTO N\u00c3O DETECTADO",
+                "zh-TW": "\u672a\u6aa2\u6e2c\u5230\u6d29\u6f0f"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u6f0f\u6c34\u691c\u51fa",
                 "ko-KR": "\ub204\uc218 \uac10\uc9c0\ub428",
                 "es-ES": "FUGA DETECTADA",
-                "pt-BR": "VAZAMENTO DETECTADO"
+                "pt-BR": "VAZAMENTO DETECTADO",
+                "zh-TW": "\u6aa2\u6e2c\u5230\u6d29\u6f0f"
             }
         }
     ],

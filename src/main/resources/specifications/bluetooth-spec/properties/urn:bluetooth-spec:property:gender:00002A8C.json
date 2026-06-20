@@ -8,7 +8,8 @@
         "ja-JP": "性別",
         "ko-KR": "성별",
         "es-ES": "Genero",
-        "pt-BR": "Genero"
+        "pt-BR": "Genero",
+        "zh-TW": "性別"
     },
     "format": "uint8",
     "access": [

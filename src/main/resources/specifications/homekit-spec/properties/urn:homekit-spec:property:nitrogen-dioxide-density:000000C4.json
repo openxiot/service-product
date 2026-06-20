@@ -8,7 +8,8 @@
         "ja-JP": "\u4e8c\u9178\u5316\u7a92\u7d20\u6fc3\u5ea6",
         "ko-KR": "\uc774\uc0b0\ud654\uc9c8\uc18c \ubc00\ub3c4",
         "es-ES": "Densidad de di\u00f3xido de nitr\u00f3geno",
-        "pt-BR": "Densidade de di\u00f3xido de nitrog\u00eanio"
+        "pt-BR": "Densidade de di\u00f3xido de nitrog\u00eanio",
+        "zh-TW": "\u4e8c\u6c27\u5316\u6c2e\u5bc6\u5ea6"
     },
     "format": "float",
     "access": [

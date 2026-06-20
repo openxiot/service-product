@@ -8,7 +8,8 @@
         "ja-JP": "ニュートン",
         "ko-KR": "뉴턴",
         "es-ES": "newtons",
-        "pt-BR": "newtons"
+        "pt-BR": "newtons",
+        "zh-TW": "牛頓"
     },
     "lifecycle": "released"
 }

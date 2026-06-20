@@ -8,7 +8,8 @@
         "ja-JP": "\u30aa\u30fc\u30c7\u30a3\u30aa\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af",
         "ko-KR": "\uc624\ub514\uc624 \ud53c\ub4dc\ubc31",
         "es-ES": "Comentario de audio",
-        "pt-BR": "Feedback de \u00e1udio"
+        "pt-BR": "Feedback de \u00e1udio",
+        "zh-TW": "\u97f3\u983b\u53cd\u994b"
     },
     "format": "bool",
     "access": [

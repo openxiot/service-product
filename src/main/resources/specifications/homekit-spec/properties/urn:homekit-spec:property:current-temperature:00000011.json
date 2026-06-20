@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u6e29\u5ea6",
         "ko-KR": "\ud604\uc7ac \uc628\ub3c4",
         "es-ES": "Temperatura actual",
-        "pt-BR": "Temperatura atual"
+        "pt-BR": "Temperatura atual",
+        "zh-TW": "\u7576\u524d\u6eab\u5ea6"
     },
     "format": "float",
     "access": [

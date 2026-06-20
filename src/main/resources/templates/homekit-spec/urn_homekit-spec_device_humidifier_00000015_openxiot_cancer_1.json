@@ -9,7 +9,8 @@
     "ja-JP": "加湿器",
     "ko-KR": "가습기",
     "es-ES": "Humidificador",
-    "pt-BR": "Umidificador"
+    "pt-BR": "Umidificador",
+    "zh-TW": "加溼器"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:cancer:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "加湿器/除湿器",
         "ko-KR": "가습기/제습기",
         "es-ES": "Humidificador/Deshumidificador",
-        "pt-BR": "Umidificador/Desumidificador"
+        "pt-BR": "Umidificador/Desumidificador",
+        "zh-TW": "加溼器/除溼器"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:active:000000B0:openxiot:cancer:1",
           "description": {
             "en-US": "Active",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "uint8",
           "value-list": [
@@ -197,7 +201,8 @@
           "type": "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3:openxiot:cancer:1",
           "description": {
             "en-US": "Current State",
-            "zh-CN": "当前状态"
+            "zh-CN": "当前状态",
+            "zh-TW": "當前狀態"
           },
           "format": "uint8",
           "value-list": [
@@ -225,7 +230,8 @@
           "type": "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4:openxiot:cancer:1",
           "description": {
             "en-US": "Target State",
-            "zh-CN": "目标状态"
+            "zh-CN": "目标状态",
+            "zh-TW": "目標狀態"
           },
           "format": "uint8",
           "value-list": [
@@ -254,7 +260,8 @@
           "type": "urn:homekit-spec:property:current-relative-humidity:00000010:openxiot:cancer:1",
           "description": {
             "en-US": "Current Humidity",
-            "zh-CN": "当前湿度"
+            "zh-CN": "当前湿度",
+            "zh-TW": "當前溼度"
           },
           "format": "float",
           "access": [

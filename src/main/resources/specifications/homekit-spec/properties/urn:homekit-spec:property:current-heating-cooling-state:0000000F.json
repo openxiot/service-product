@@ -8,7 +8,8 @@
         "ja-JP": "\u73fe\u5728\u306e\u52a0\u71b1\u30fb\u51b7\u5374\u72b6\u614b",
         "ko-KR": "\ud604\uc7ac \ub09c\ubc29/\ub0c9\ubc29 \uc0c1\ud0dc",
         "es-ES": "Estado actual de calefacci\u00f3n/refrigeraci\u00f3n",
-        "pt-BR": "Estado atual de aquecimento/resfriamento"
+        "pt-BR": "Estado atual de aquecimento/resfriamento",
+        "zh-TW": "\u7576\u524d\u52a0\u71b1/\u51b7\u537b\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u30aa\u30d5",
                 "ko-KR": "\uaebc\uc9d0",
                 "es-ES": "APAGADO",
-                "pt-BR": "DESLIGADO"
+                "pt-BR": "DESLIGADO",
+                "zh-TW": "\u95dc\u9589"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u6696\u623f",
                 "ko-KR": "\ub09c\ubc29",
                 "es-ES": "CALOR",
-                "pt-BR": "CALOR"
+                "pt-BR": "CALOR",
+                "zh-TW": "\u5236\u71b1"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u51b7\u623f",
                 "ko-KR": "\ub0c9\ubc29",
                 "es-ES": "FR\u00cdO",
-                "pt-BR": "FRIO"
+                "pt-BR": "FRIO",
+                "zh-TW": "\u88fd\u51b7"
             }
         }
     ],

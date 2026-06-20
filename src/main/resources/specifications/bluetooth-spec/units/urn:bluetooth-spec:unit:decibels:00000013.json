@@ -8,7 +8,8 @@
         "ja-JP": "デシベル",
         "ko-KR": "데시벨",
         "es-ES": "decibelios",
-        "pt-BR": "decibeis"
+        "pt-BR": "decibeis",
+        "zh-TW": "分貝"
     },
     "lifecycle": "released"
 }

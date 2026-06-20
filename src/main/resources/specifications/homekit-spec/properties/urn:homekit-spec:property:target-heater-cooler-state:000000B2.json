@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u52a0\u71b1\u30fb\u51b7\u5374\u5668\u72b6\u614b",
         "ko-KR": "\ubaa9\ud45c \ud788\ud130/\ucfe8\ub7ec \uc0c1\ud0dc",
         "es-ES": "Estado objetivo del calefactor/enfriador",
-        "pt-BR": "Estado alvo do aquecedor/refrigerador"
+        "pt-BR": "Estado alvo do aquecedor/refrigerador",
+        "zh-TW": "\u76ee\u6a19\u52a0\u71b1\u5668/\u51b7\u537b\u5668\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u81ea\u52d5",
                 "ko-KR": "\uc790\ub3d9",
                 "es-ES": "AUTO",
-                "pt-BR": "AUTO"
+                "pt-BR": "AUTO",
+                "zh-TW": "\u81ea\u52d5"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u6696\u623f",
                 "ko-KR": "\ub09c\ubc29",
                 "es-ES": "CALOR",
-                "pt-BR": "CALOR"
+                "pt-BR": "CALOR",
+                "zh-TW": "\u5236\u71b1"
             }
         },
         {
@@ -53,7 +56,8 @@
                 "ja-JP": "\u51b7\u623f",
                 "ko-KR": "\ub0c9\ubc29",
                 "es-ES": "FR\u00cdO",
-                "pt-BR": "FRIO"
+                "pt-BR": "FRIO",
+                "zh-TW": "\u88fd\u51b7"
             }
         }
     ],

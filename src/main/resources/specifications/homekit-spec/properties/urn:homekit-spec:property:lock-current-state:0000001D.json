@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u73fe\u5728\u72b6\u614b",
         "ko-KR": "\uc7a0\uae08 \ud604\uc7ac \uc0c1\ud0dc",
         "es-ES": "Estado actual de la cerradura",
-        "pt-BR": "Estado atual da fechadura"
+        "pt-BR": "Estado atual da fechadura",
+        "zh-TW": "\u9396\u7576\u524d\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u89e3\u9320\u6e08\u307f",
                 "ko-KR": "\uc7a0\uae08 \ud574\uc81c\ub428",
                 "es-ES": "DESEGURADO",
-                "pt-BR": "DESTRAVADO"
+                "pt-BR": "DESTRAVADO",
+                "zh-TW": "\u672a\u9396\u5b9a"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u65bd\u9320\u6e08\u307f",
                 "ko-KR": "\uc7a0\uae40",
                 "es-ES": "SEGURADO",
-                "pt-BR": "SEGURO"
+                "pt-BR": "SEGURO",
+                "zh-TW": "\u5df2\u9396\u5b9a"
             }
         },
         {
@@ -52,7 +55,8 @@
                 "ja-JP": "\u8a70\u307e\u308a",
                 "ko-KR": "\uac78\ub9bc",
                 "es-ES": "ATASCADO",
-                "pt-BR": "TRAVADO"
+                "pt-BR": "TRAVADO",
+                "zh-TW": "\u5361\u4f4f"
             }
         },
         {
@@ -65,7 +69,8 @@
                 "ja-JP": "\u4e0d\u660e",
                 "ko-KR": "\uc54c \uc218 \uc5c6\uc74c",
                 "es-ES": "DESCONOCIDO",
-                "pt-BR": "DESCONHECIDO"
+                "pt-BR": "DESCONHECIDO",
+                "zh-TW": "\u672a\u77e5"
             }
         }
     ],

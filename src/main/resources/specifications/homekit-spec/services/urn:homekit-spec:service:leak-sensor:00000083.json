@@ -8,7 +8,8 @@
         "ja-JP": "\u6f0f\u6c34\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\ub204\uc218 \uc13c\uc11c",
         "es-ES": "Sensor de fuga",
-        "pt-BR": "Sensor de vazamento"
+        "pt-BR": "Sensor de vazamento",
+        "zh-TW": "\u6d29\u6f0f\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:leak-detected:00000070"

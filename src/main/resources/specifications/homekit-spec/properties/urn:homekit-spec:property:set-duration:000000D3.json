@@ -8,7 +8,8 @@
         "ja-JP": "\u6642\u9593\u8a2d\u5b9a",
         "ko-KR": "\uc2dc\uac04 \uc124\uc815",
         "es-ES": "Establecer duraci\u00f3n",
-        "pt-BR": "Definir dura\u00e7\u00e3o"
+        "pt-BR": "Definir dura\u00e7\u00e3o",
+        "zh-TW": "\u8a2d\u7f6e\u6642\u9577"
     },
     "format": "uint32",
     "access": [

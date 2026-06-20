@@ -8,7 +8,8 @@
         "ja-JP": "ファームウェアリビジョン",
         "ko-KR": "펌웨어 버전",
         "es-ES": "Revision del firmware",
-        "pt-BR": "Revisao do firmware"
+        "pt-BR": "Revisao do firmware",
+        "zh-TW": "固件版本字符串"
     },
     "format": "string",
     "access": [

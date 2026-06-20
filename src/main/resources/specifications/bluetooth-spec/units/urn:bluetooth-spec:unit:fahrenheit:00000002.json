@@ -8,7 +8,8 @@
         "ja-JP": "華氏度",
         "ko-KR": "화씨",
         "es-ES": "grados Fahrenheit",
-        "pt-BR": "graus Fahrenheit"
+        "pt-BR": "graus Fahrenheit",
+        "zh-TW": "華氏度"
     },
     "lifecycle": "released"
 }

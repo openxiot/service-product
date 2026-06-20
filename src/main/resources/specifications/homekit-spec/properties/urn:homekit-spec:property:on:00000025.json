@@ -8,7 +8,8 @@
         "ja-JP": "\u30aa\u30f3/\u30aa\u30d5",
         "ko-KR": "\ucf1c\uae30/\ub044\uae30",
         "es-ES": "Encendido/Apagado",
-        "pt-BR": "Ligado/Desligado"
+        "pt-BR": "Ligado/Desligado",
+        "zh-TW": "\u958b\u95dc"
     },
     "format": "bool",
     "access": [

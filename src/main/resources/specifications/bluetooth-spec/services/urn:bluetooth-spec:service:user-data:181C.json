@@ -8,7 +8,8 @@
         "ja-JP": "ユーザーデータ",
         "ko-KR": "사용자 데이터",
         "es-ES": "Datos de usuario",
-        "pt-BR": "Dados do usuario"
+        "pt-BR": "Dados do usuario",
+        "zh-TW": "用戶數據"
     },
     "lifecycle": "released",
     "optional-properties": [

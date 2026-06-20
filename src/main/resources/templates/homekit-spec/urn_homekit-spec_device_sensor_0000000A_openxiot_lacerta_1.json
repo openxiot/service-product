@@ -9,7 +9,8 @@
     "ja-JP": "動体センサー",
     "ko-KR": "움직임 센서",
     "es-ES": "Sensor de movimiento",
-    "pt-BR": "Sensor de movimento"
+    "pt-BR": "Sensor de movimento",
+    "zh-TW": "運動傳感器"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:lacerta:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "動体センサー",
         "ko-KR": "움직임 센서",
         "es-ES": "Sensor de movimiento",
-        "pt-BR": "Sensor de movimento"
+        "pt-BR": "Sensor de movimento",
+        "zh-TW": "運動傳感器"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:motion-detected:00000022:openxiot:lacerta:1",
           "description": {
             "en-US": "Motion Detected",
-            "zh-CN": "检测到运动"
+            "zh-CN": "检测到运动",
+            "zh-TW": "檢測到運動"
           },
           "format": "bool",
           "access": [
@@ -186,7 +190,8 @@
           "type": "urn:homekit-spec:property:status-low-battery:00000079:openxiot:lacerta:1",
           "description": {
             "en-US": "Low Battery",
-            "zh-CN": "低电量"
+            "zh-CN": "低电量",
+            "zh-TW": "低電量"
           },
           "format": "uint8",
           "value-list": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u4f7f\u7528\u4e2d",
         "ko-KR": "\uc0ac\uc6a9 \uc911",
         "es-ES": "En uso",
-        "pt-BR": "Em uso"
+        "pt-BR": "Em uso",
+        "zh-TW": "\u4f7f\u7528\u4e2d"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u672a\u4f7f\u7528",
                 "ko-KR": "\uc0ac\uc6a9 \uc911 \uc544\ub2d8",
                 "es-ES": "NO EN USO",
-                "pt-BR": "N\u00c3O EM USO"
+                "pt-BR": "N\u00c3O EM USO",
+                "zh-TW": "\u672a\u4f7f\u7528"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u4f7f\u7528\u4e2d",
                 "ko-KR": "\uc0ac\uc6a9 \uc911",
                 "es-ES": "EN USO",
-                "pt-BR": "EM USO"
+                "pt-BR": "EM USO",
+                "zh-TW": "\u4f7f\u7528\u4e2d"
             }
         }
     ],

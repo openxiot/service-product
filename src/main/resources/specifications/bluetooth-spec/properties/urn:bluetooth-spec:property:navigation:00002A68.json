@@ -8,7 +8,8 @@
         "ja-JP": "ナビゲーション",
         "ko-KR": "내비게이션",
         "es-ES": "Navegacion",
-        "pt-BR": "Navegacao"
+        "pt-BR": "Navegacao",
+        "zh-TW": "導航"
     },
     "format": "uint8",
     "access": [

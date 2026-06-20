@@ -8,7 +8,8 @@
         "ja-JP": "\u30d1\u30fc\u30bb\u30f3\u30c8",
         "ko-KR": "\ubc31\ubd84\uc728",
         "es-ES": "porcentaje",
-        "pt-BR": "porcentagem"
+        "pt-BR": "porcentagem",
+        "zh-TW": "\u767e\u5206\u6bd4"
     },
     "lifecycle": "released"
 }

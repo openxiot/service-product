@@ -8,7 +8,8 @@
         "ja-JP": "血圧",
         "ko-KR": "혈압",
         "es-ES": "Presion arterial",
-        "pt-BR": "Pressao arterial"
+        "pt-BR": "Pressao arterial",
+        "zh-TW": "血壓"
     },
     "lifecycle": "released",
     "required-properties": [

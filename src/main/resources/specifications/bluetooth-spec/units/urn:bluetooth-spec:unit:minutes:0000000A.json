@@ -8,7 +8,8 @@
         "ja-JP": "分",
         "ko-KR": "분",
         "es-ES": "minutos",
-        "pt-BR": "minutos"
+        "pt-BR": "minutos",
+        "zh-TW": "分鐘"
     },
     "lifecycle": "released"
 }

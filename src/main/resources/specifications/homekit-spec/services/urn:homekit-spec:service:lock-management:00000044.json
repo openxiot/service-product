@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u7ba1\u7406",
         "ko-KR": "\uc7a0\uae08 \uad00\ub9ac",
         "es-ES": "Gesti\u00f3n de cerradura",
-        "pt-BR": "Gerenciamento da fechadura"
+        "pt-BR": "Gerenciamento da fechadura",
+        "zh-TW": "\u9396\u7ba1\u7406"
     },
     "required-properties": [
         "urn:homekit-spec:property:lock-control-point:00000019",

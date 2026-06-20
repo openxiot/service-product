@@ -8,7 +8,8 @@
         "ja-JP": "周辺機器の優先接続パラメータ",
         "ko-KR": "주변기기 선호 연결 매개변수",
         "es-ES": "Parametros de conexion preferidos del periferico",
-        "pt-BR": "Parametros de conexao preferidos do periferico"
+        "pt-BR": "Parametros de conexao preferidos do periferico",
+        "zh-TW": "外設首選連接參數"
     },
     "format": "uint8",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "身体センサー位置",
         "ko-KR": "신체 센서 위치",
         "es-ES": "Ubicacion del sensor corporal",
-        "pt-BR": "Localizacao do sensor corporal"
+        "pt-BR": "Localizacao do sensor corporal",
+        "zh-TW": "身體傳感器位置"
     },
     "format": "uint8",
     "access": [

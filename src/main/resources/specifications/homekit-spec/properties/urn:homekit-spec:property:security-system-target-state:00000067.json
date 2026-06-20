@@ -8,7 +8,8 @@
         "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0\u76ee\u6a19\u72b6\u614b",
         "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c \ubaa9\ud45c \uc0c1\ud0dc",
         "es-ES": "Estado objetivo del sistema de seguridad",
-        "pt-BR": "Estado alvo do sistema de seguran\u00e7a"
+        "pt-BR": "Estado alvo do sistema de seguran\u00e7a",
+        "zh-TW": "\u5b89\u5168\u7cfb\u7d71\u76ee\u6a19\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u5728\u5b85\u8b66\u5099",
                 "ko-KR": "\uc7ac\uc2e4 \uc124\uc815",
                 "es-ES": "ARMAR EN CASA",
-                "pt-BR": "ARMAR EM CASA"
+                "pt-BR": "ARMAR EM CASA",
+                "zh-TW": "\u5728\u5bb6\u4f48\u9632"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u5916\u51fa\u8b66\u5099",
                 "ko-KR": "\uc678\ucd9c \uc124\uc815",
                 "es-ES": "ARMAR AUSENTE",
-                "pt-BR": "ARMAR AUSENTE"
+                "pt-BR": "ARMAR AUSENTE",
+                "zh-TW": "\u96e2\u5bb6\u4f48\u9632"
             }
         },
         {
@@ -53,7 +56,8 @@
                 "ja-JP": "\u591c\u9593\u8b66\u5099",
                 "ko-KR": "\uc57c\uac04 \uc124\uc815",
                 "es-ES": "ARMAR NOCTURNO",
-                "pt-BR": "ARMAR NOTURNO"
+                "pt-BR": "ARMAR NOTURNO",
+                "zh-TW": "\u591c\u9593\u4f48\u9632"
             }
         },
         {
@@ -66,7 +70,8 @@
                 "ja-JP": "\u89e3\u9664",
                 "ko-KR": "\ud574\uc81c",
                 "es-ES": "DESARMAR",
-                "pt-BR": "DESARMAR"
+                "pt-BR": "DESARMAR",
+                "zh-TW": "\u89e3\u9664"
             }
         }
     ],

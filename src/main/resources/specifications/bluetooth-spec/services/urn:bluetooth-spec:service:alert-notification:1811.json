@@ -8,7 +8,8 @@
         "ja-JP": "通知通知",
         "ko-KR": "알림 알림",
         "es-ES": "Notificacion de alerta",
-        "pt-BR": "Notificacao de alerta"
+        "pt-BR": "Notificacao de alerta",
+        "zh-TW": "警報通知"
     },
     "lifecycle": "released",
     "required-properties": [

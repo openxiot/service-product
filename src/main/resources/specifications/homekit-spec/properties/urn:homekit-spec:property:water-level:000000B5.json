@@ -8,7 +8,8 @@
         "ja-JP": "\u6c34\u4f4d",
         "ko-KR": "\uc218\uc704",
         "es-ES": "Nivel de agua",
-        "pt-BR": "N\u00edvel da \u00e1gua"
+        "pt-BR": "N\u00edvel da \u00e1gua",
+        "zh-TW": "\u6c34\u4f4d"
     },
     "format": "float",
     "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u89d2\u5ea6",
         "ko-KR": "\uac01\ub3c4",
         "es-ES": "grados de arco",
-        "pt-BR": "graus de arco"
+        "pt-BR": "graus de arco",
+        "zh-TW": "\u89d2\u5ea6"
     },
     "lifecycle": "released"
 }

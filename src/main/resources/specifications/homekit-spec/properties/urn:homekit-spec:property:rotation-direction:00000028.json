@@ -8,7 +8,8 @@
         "ja-JP": "\u56de\u8ee2\u65b9\u5411",
         "ko-KR": "\ud68c\uc804 \ubc29\ud5a5",
         "es-ES": "Direcci\u00f3n de rotaci\u00f3n",
-        "pt-BR": "Dire\u00e7\u00e3o de rota\u00e7\u00e3o"
+        "pt-BR": "Dire\u00e7\u00e3o de rota\u00e7\u00e3o",
+        "zh-TW": "\u65cb\u8f49\u65b9\u5411"
     },
     "format": "int32",
     "access": [
@@ -27,7 +28,8 @@
                 "ja-JP": "\u6642\u8a08\u56de\u308a",
                 "ko-KR": "\uc2dc\uacc4 \ubc29\ud5a5",
                 "es-ES": "HORARIO",
-                "pt-BR": "HOR\u00c1RIO"
+                "pt-BR": "HOR\u00c1RIO",
+                "zh-TW": "\u9806\u6642\u91dd"
             }
         },
         {
@@ -40,7 +42,8 @@
                 "ja-JP": "\u53cd\u6642\u8a08\u56de\u308a",
                 "ko-KR": "\ubc18\uc2dc\uacc4 \ubc29\ud5a5",
                 "es-ES": "ANTIHORARIO",
-                "pt-BR": "ANTI-HOR\u00c1RIO"
+                "pt-BR": "ANTI-HOR\u00c1RIO",
+                "zh-TW": "\u9006\u6642\u91dd"
             }
         }
     ],

@@ -8,7 +8,8 @@
         "ja-JP": "階段昇降機データ",
         "ko-KR": "계단 오르기 데이터",
         "es-ES": "Datos de escalera",
-        "pt-BR": "Dados de escada"
+        "pt-BR": "Dados de escada",
+        "zh-TW": "樓梯機數據"
     },
     "format": "uint16",
     "access": [

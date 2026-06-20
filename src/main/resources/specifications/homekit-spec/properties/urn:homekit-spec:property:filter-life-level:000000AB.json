@@ -8,7 +8,8 @@
         "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u5bff\u547d\u30ec\u30d9\u30eb",
         "ko-KR": "\ud544\ud130 \uc218\uba85",
         "es-ES": "Nivel de vida \u00fatil del filtro",
-        "pt-BR": "N\u00edvel de vida do filtro"
+        "pt-BR": "N\u00edvel de vida do filtro",
+        "zh-TW": "\u6ffe\u82af\u58fd\u547d"
     },
     "format": "float",
     "access": [

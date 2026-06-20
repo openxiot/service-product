@@ -8,7 +8,8 @@
         "ja-JP": "体重計機能",
         "ko-KR": "체중계 기능",
         "es-ES": "Caracteristica de la bascula",
-        "pt-BR": "Recurso da balanca"
+        "pt-BR": "Recurso da balanca",
+        "zh-TW": "體重秤特徵"
     },
     "format": "uint32",
     "access": [

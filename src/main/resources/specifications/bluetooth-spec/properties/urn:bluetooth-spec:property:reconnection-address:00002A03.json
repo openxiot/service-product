@@ -8,7 +8,8 @@
         "ja-JP": "再接続アドレス",
         "ko-KR": "재연결 주소",
         "es-ES": "Direccion de reconexion",
-        "pt-BR": "Endereco de reconexao"
+        "pt-BR": "Endereco de reconexao",
+        "zh-TW": "重連地址"
     },
     "format": "uint8",
     "access": [

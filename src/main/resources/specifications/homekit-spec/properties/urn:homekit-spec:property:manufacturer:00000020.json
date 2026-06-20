@@ -8,7 +8,8 @@
         "ja-JP": "\u30e1\u30fc\u30ab\u30fc",
         "ko-KR": "\uc81c\uc870\uc5c5\uccb4",
         "es-ES": "Fabricante",
-        "pt-BR": "Fabricante"
+        "pt-BR": "Fabricante",
+        "zh-TW": "\u88fd\u9020\u5546"
     },
     "format": "string",
     "access": [

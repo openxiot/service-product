@@ -9,7 +9,8 @@
     "ja-JP": "セキュリティシステム",
     "ko-KR": "보안 시스템",
     "es-ES": "Sistema de seguridad",
-    "pt-BR": "Sistema de segurança"
+    "pt-BR": "Sistema de segurança",
+    "zh-TW": "安全系統"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:capricorn:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "セキュリティシステム",
         "ko-KR": "보안 시스템",
         "es-ES": "Sistema de seguridad",
-        "pt-BR": "Sistema de segurança"
+        "pt-BR": "Sistema de segurança",
+        "zh-TW": "安全系統"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:security-system-current-state:00000066:openxiot:capricorn:1",
           "description": {
             "en-US": "Current State",
-            "zh-CN": "当前状态"
+            "zh-CN": "当前状态",
+            "zh-TW": "當前狀態"
           },
           "format": "uint8",
           "value-list": [
@@ -208,7 +212,8 @@
           "type": "urn:homekit-spec:property:security-system-target-state:00000067:openxiot:capricorn:1",
           "description": {
             "en-US": "Target State",
-            "zh-CN": "目标状态"
+            "zh-CN": "目标状态",
+            "zh-TW": "目標狀態"
           },
           "format": "uint8",
           "value-list": [

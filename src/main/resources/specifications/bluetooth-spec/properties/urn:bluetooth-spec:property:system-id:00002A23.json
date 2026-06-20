@@ -8,7 +8,8 @@
         "ja-JP": "システムID",
         "ko-KR": "시스템 ID",
         "es-ES": "ID del sistema",
-        "pt-BR": "ID do sistema"
+        "pt-BR": "ID do sistema",
+        "zh-TW": "系統 ID"
     },
     "format": "uint8",
     "access": [

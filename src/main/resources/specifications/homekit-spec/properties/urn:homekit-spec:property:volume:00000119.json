@@ -8,7 +8,8 @@
         "ja-JP": "\u97f3\u91cf",
         "ko-KR": "\ubcfc\ub968",
         "es-ES": "Volumen",
-        "pt-BR": "Volume"
+        "pt-BR": "Volume",
+        "zh-TW": "\u97f3\u91cf"
     },
     "format": "uint8",
     "access": [

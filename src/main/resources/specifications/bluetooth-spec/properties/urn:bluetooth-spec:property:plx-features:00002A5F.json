@@ -8,7 +8,8 @@
         "ja-JP": "PLX機能",
         "ko-KR": "PLX 기능",
         "es-ES": "Funciones PLX",
-        "pt-BR": "Recursos PLX"
+        "pt-BR": "Recursos PLX",
+        "zh-TW": "脈搏血氧儀特徵"
     },
     "format": "uint8",
     "access": [

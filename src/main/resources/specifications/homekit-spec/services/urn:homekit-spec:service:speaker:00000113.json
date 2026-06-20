@@ -8,7 +8,8 @@
         "ja-JP": "\u30b9\u30d4\u30fc\u30ab\u30fc",
         "ko-KR": "\uc2a4\ud53c\ucee4",
         "es-ES": "Altavoz",
-        "pt-BR": "Alto-falante"
+        "pt-BR": "Alto-falante",
+        "zh-TW": "\u63da\u8072\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:mute:0000011A"

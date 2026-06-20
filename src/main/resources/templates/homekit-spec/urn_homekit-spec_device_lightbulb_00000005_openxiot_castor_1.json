@@ -9,7 +9,8 @@
     "ja-JP": "Color Bulb",
     "ko-KR": "Color Bulb",
     "es-ES": "Color Bulb",
-    "pt-BR": "Color Bulb"
+    "pt-BR": "Color Bulb",
+    "zh-TW": "可調色彩燈泡"
   },
   "services": [
     {
@@ -27,7 +28,8 @@
         "ja-JP": "アクセサリ情報",
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
-        "pt-BR": "Informações do acessório"
+        "pt-BR": "Informações do acessório",
+        "zh-TW": "配件信息"
       },
       "properties": [
         {
@@ -62,7 +64,7 @@
           "type": "urn:homekit-spec:property:manufacturer:00000020:openxiot:castor:1",
           "description": {
             "en-US": "Manufacturer",
-            "zh-TW": "制造商",
+            "zh-TW": "製造商",
             "zh-CN": "制造商"
           },
           "format": "string",
@@ -165,14 +167,16 @@
         "ja-JP": "Light Bulb",
         "ko-KR": "Light Bulb",
         "es-ES": "Light Bulb",
-        "pt-BR": "Light Bulb"
+        "pt-BR": "Light Bulb",
+        "zh-TW": "燈泡"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:on:00000025:openxiot:castor:1",
           "description": {
             "en-US": "On",
-            "zh-CN": "开关"
+            "zh-CN": "开关",
+            "zh-TW": "開關"
           },
           "format": "bool",
           "access": [
@@ -187,7 +191,8 @@
           "type": "urn:homekit-spec:property:brightness:00000008:openxiot:castor:1",
           "description": {
             "en-US": "Brightness",
-            "zh-CN": "亮度"
+            "zh-CN": "亮度",
+            "zh-TW": "亮度"
           },
           "format": "int32",
           "access": [
@@ -208,7 +213,8 @@
           "type": "urn:homekit-spec:property:hue:00000013:openxiot:castor:1",
           "description": {
             "en-US": "Hue",
-            "zh-CN": "色调"
+            "zh-CN": "色调",
+            "zh-TW": "色調"
           },
           "format": "float",
           "access": [
@@ -229,7 +235,8 @@
           "type": "urn:homekit-spec:property:saturation:0000002F:openxiot:castor:1",
           "description": {
             "en-US": "Saturation",
-            "zh-CN": "饱和度"
+            "zh-CN": "饱和度",
+            "zh-TW": "飽和度"
           },
           "format": "float",
           "access": [

@@ -8,7 +8,8 @@
         "ja-JP": "\u63a5\u89e6\u30bb\u30f3\u30b5\u30fc\u72b6\u614b",
         "ko-KR": "\uc811\ucd09 \uc13c\uc11c \uc0c1\ud0dc",
         "es-ES": "Estado del sensor de contacto",
-        "pt-BR": "Estado do sensor de contato"
+        "pt-BR": "Estado do sensor de contato",
+        "zh-TW": "\u63a5\u89f8\u50b3\u611f\u5668\u72c0\u614b"
     },
     "format": "uint8",
     "access": [
@@ -26,7 +27,8 @@
                 "ja-JP": "\u63a5\u89e6\u691c\u51fa",
                 "ko-KR": "\uc811\ucd09 \uac10\uc9c0\ub428",
                 "es-ES": "CONTACTO DETECTADO",
-                "pt-BR": "CONTATO DETECTADO"
+                "pt-BR": "CONTATO DETECTADO",
+                "zh-TW": "\u63a5\u89f8\u5df2\u6aa2\u6e2c"
             }
         },
         {
@@ -39,7 +41,8 @@
                 "ja-JP": "\u63a5\u89e6\u672a\u691c\u51fa",
                 "ko-KR": "\uc811\ucd09 \ubbf8\uac10\uc9c0",
                 "es-ES": "CONTACTO NO DETECTADO",
-                "pt-BR": "CONTATO N\u00c3O DETECTADO"
+                "pt-BR": "CONTATO N\u00c3O DETECTADO",
+                "zh-TW": "\u63a5\u89f8\u672a\u6aa2\u6e2c"
             }
         }
     ],

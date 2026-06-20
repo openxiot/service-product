@@ -8,7 +8,8 @@
         "ja-JP": "インドアバイクデータ",
         "ko-KR": "실내 자전거 데이터",
         "es-ES": "Datos de bicicleta estatica",
-        "pt-BR": "Dados de bicicleta indoor"
+        "pt-BR": "Dados de bicicleta indoor",
+        "zh-TW": "室內自行車數據"
     },
     "format": "uint16",
     "access": [

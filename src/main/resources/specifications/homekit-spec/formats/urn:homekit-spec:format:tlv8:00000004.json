@@ -8,7 +8,8 @@
         "ja-JP": "tlv8",
         "ko-KR": "tlv8",
         "es-ES": "tlv8",
-        "pt-BR": "tlv8"
+        "pt-BR": "tlv8",
+        "zh-TW": "TLV8 \u683c\u5f0f"
     },
     "lifecycle": "released"
 }

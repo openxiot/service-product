@@ -9,6 +9,7 @@
         "ja-JP": "心拍数センサー",
         "ko-KR": "심박수 센서",
         "es-ES": "Sensor de frecuencia cardiaca",
-        "pt-BR": "Sensor de frequencia cardiaca"
+        "pt-BR": "Sensor de frequencia cardiaca",
+        "zh-TW": "心率傳感器"
     }
 }

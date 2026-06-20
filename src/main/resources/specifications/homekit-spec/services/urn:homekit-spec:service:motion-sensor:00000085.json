@@ -8,7 +8,8 @@
         "ja-JP": "\u52d5\u4f53\u30bb\u30f3\u30b5\u30fc",
         "ko-KR": "\uc6c0\uc9c1\uc784 \uc13c\uc11c",
         "es-ES": "Sensor de movimiento",
-        "pt-BR": "Sensor de movimento"
+        "pt-BR": "Sensor de movimento",
+        "zh-TW": "\u904b\u52d5\u50b3\u611f\u5668"
     },
     "required-properties": [
         "urn:homekit-spec:property:motion-detected:00000022"

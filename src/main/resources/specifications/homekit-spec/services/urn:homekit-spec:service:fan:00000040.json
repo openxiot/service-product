@@ -8,7 +8,8 @@
         "ja-JP": "\u30d5\u30a1\u30f3",
         "ko-KR": "\ud32c",
         "es-ES": "Ventilador",
-        "pt-BR": "Ventilador"
+        "pt-BR": "Ventilador",
+        "zh-TW": "\u98a8\u6247"
     },
     "required-properties": [
         "urn:homekit-spec:property:on:00000025"

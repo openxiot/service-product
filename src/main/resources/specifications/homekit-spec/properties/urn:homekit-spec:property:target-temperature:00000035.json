@@ -8,7 +8,8 @@
         "ja-JP": "\u76ee\u6a19\u6e29\u5ea6",
         "ko-KR": "\ubaa9\ud45c \uc628\ub3c4",
         "es-ES": "Temperatura objetivo",
-        "pt-BR": "Temperatura alvo"
+        "pt-BR": "Temperatura alvo",
+        "zh-TW": "\u76ee\u6a19\u6eab\u5ea6"
     },
     "format": "float",
     "access": [

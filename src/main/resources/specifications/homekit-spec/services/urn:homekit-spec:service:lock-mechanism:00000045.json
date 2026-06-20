@@ -8,7 +8,8 @@
         "ja-JP": "\u30ed\u30c3\u30af\u6a5f\u69cb",
         "ko-KR": "\uc7a0\uae08 \uba54\ucee4\ub2c8\uc998",
         "es-ES": "Mecanismo de cerradura",
-        "pt-BR": "Mecanismo da fechadura"
+        "pt-BR": "Mecanismo da fechadura",
+        "zh-TW": "\u9396\u6a5f\u5236"
     },
     "required-properties": [
         "urn:homekit-spec:property:lock-current-state:0000001D",
