@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:service:http-proxy:1823",
-    "description": {
-        "en-US": "HTTP Proxy",
-        "zh-CN": "HTTP 代理",
-        "fr-FR": "Proxy HTTP",
-        "de-DE": "HTTP-Proxy",
-        "ja-JP": "HTTPプロキシ",
-        "ko-KR": "HTTP 프록시",
-        "es-ES": "Proxy HTTP",
-        "pt-BR": "Proxy HTTP",
-        "zh-TW": "HTTP 代理"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:http-headers:00002AB7",
-        "urn:bluetooth-spec:property:http-status-code:00002AB8",
-        "urn:bluetooth-spec:property:http-entity-body:00002AB9",
-        "urn:bluetooth-spec:property:http-control-point:00002ABA"
-    ]
+  "type": "urn:bluetooth-spec:service:http-proxy:1823",
+  "description": {
+    "en-US": "HTTP Proxy",
+    "zh-CN": "HTTP 代理",
+    "zh-TW": "HTTP 代理",
+    "de-DE": "HTTP-Proxy",
+    "fr-FR": "Proxy HTTP",
+    "it-IT": "Proxy HTTP",
+    "ru-RU": "HTTP-прокси",
+    "ko-KR": "HTTP 프록시",
+    "es-ES": "Proxy HTTP",
+    "ja-JP": "HTTPプロキシ",
+    "nl-NL": "HTTP-proxy",
+    "pt-PT": "Proxy HTTP",
+    "pt-BR": "Proxy HTTP"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:http-headers:00002AB7",
+    "urn:bluetooth-spec:property:http-status-code:00002AB8",
+    "urn:bluetooth-spec:property:http-entity-body:00002AB9",
+    "urn:bluetooth-spec:property:http-control-point:00002ABA"
+  ]
 }

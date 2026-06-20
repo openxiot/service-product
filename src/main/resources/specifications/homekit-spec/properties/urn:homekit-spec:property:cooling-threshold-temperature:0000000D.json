@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
-    "description": {
-        "en-US": "Cooling Threshold Temperature",
-        "zh-CN": "\u5236\u51b7\u9608\u503c\u6e29\u5ea6",
-        "fr-FR": "Temp\u00e9rature seuil de refroidissement",
-        "de-DE": "K\u00fchlschwellentemperatur",
-        "ja-JP": "\u51b7\u5374\u3057\u304d\u3044\u5024\u6e29\u5ea6",
-        "ko-KR": "\ub0c9\ubc29 \uc784\uacc4 \uc628\ub3c4",
-        "es-ES": "Umbral de temperatura de enfriamiento",
-        "pt-BR": "Temperatura limite de resfriamento",
-        "zh-TW": "\u88fd\u51b7\u95be\u503c\u6eab\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        10,
-        35,
-        0.1
-    ],
-    "unit": "celsius",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+  "description": {
+    "en-US": "Cooling Threshold Temperature",
+    "zh-CN": "制冷阈值温度",
+    "zh-TW": "製冷閾值溫度",
+    "de-DE": "Kühlschwellentemperatur",
+    "fr-FR": "Température seuil de refroidissement",
+    "it-IT": "Soglia temperatura raffreddamento",
+    "ru-RU": "Порог температуры охлаждения",
+    "ko-KR": "냉방 임계 온도",
+    "es-ES": "Umbral de temperatura de enfriamiento",
+    "ja-JP": "冷却しきい値温度",
+    "nl-NL": "Drempeltemperatuur koeling",
+    "pt-PT": "Temperatura limite de resfriamento",
+    "pt-BR": "Temperatura limite de resfriamento"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    10,
+    35,
+    0.1
+  ],
+  "unit": "celsius",
+  "lifecycle": "released"
 }

@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:tx-power-level:00002A07",
-    "description": {
-        "en-US": "TX Power Level",
-        "zh-CN": "发射功率",
-        "fr-FR": "Niveau de puissance TX",
-        "de-DE": "Sendeleistung",
-        "ja-JP": "送信電力レベル",
-        "ko-KR": "송신 전력 레벨",
-        "es-ES": "Nivel de potencia TX",
-        "pt-BR": "Nivel de potencia de transmissao",
-        "zh-TW": "發射功率"
-    },
-    "format": "int8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released",
-    "unit": "dbm"
+  "type": "urn:bluetooth-spec:property:tx-power-level:00002A07",
+  "description": {
+    "en-US": "TX Power Level",
+    "zh-CN": "发射功率",
+    "zh-TW": "發射功率",
+    "de-DE": "Sendeleistung",
+    "fr-FR": "Niveau de puissance TX",
+    "it-IT": "Livello potenza TX",
+    "ru-RU": "Уровень мощности TX",
+    "ko-KR": "송신 전력 레벨",
+    "es-ES": "Nivel de potencia TX",
+    "ja-JP": "送信電力レベル",
+    "nl-NL": "TX-vermogensniveau",
+    "pt-PT": "Nivel de potencia de transmissao",
+    "pt-BR": "Nivel de potencia de transmissao"
+  },
+  "format": "int8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released",
+  "unit": "dbm"
 }

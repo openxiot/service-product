@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:status-tampered:0000007A",
-    "description": {
-        "en-US": "Status Tampered",
-        "zh-CN": "\u72b6\u6001\u7be1\u6539",
-        "fr-FR": "Statut alt\u00e9r\u00e9",
-        "de-DE": "Status manipuliert",
-        "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u4e0d\u6b63\u64cd\u4f5c",
-        "ko-KR": "\uc0c1\ud0dc \ubcc0\uc870\ub428",
-        "es-ES": "Estado manipulado",
-        "pt-BR": "Status violado",
-        "zh-TW": "\u72c0\u614b\u7be1\u6539"
+  "type": "urn:homekit-spec:property:status-tampered:0000007A",
+  "description": {
+    "en-US": "Status Tampered",
+    "zh-CN": "状态篡改",
+    "zh-TW": "狀態篡改",
+    "de-DE": "Status manipuliert",
+    "fr-FR": "Statut altéré",
+    "it-IT": "Stato manomesso",
+    "ru-RU": "Статус вскрытия",
+    "ko-KR": "상태 변조됨",
+    "es-ES": "Estado manipulado",
+    "ja-JP": "ステータス不正操作",
+    "nl-NL": "Status geknoeid",
+    "pt-PT": "Status violado",
+    "pt-BR": "Status violado"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "NOT_TAMPERED",
+        "zh-CN": "未被篡改",
+        "fr-FR": "NON ALTÉRÉ",
+        "de-DE": "NICHT MANIPULIERT",
+        "ja-JP": "不正操作なし",
+        "ko-KR": "변조되지 않음",
+        "es-ES": "NO MANIPULADO",
+        "pt-BR": "NÃO VIOLADO",
+        "zh-TW": "未被篡改",
+        "it-IT": "NON_MANOMESSO",
+        "ru-RU": "НЕ_ВСКРЫТО",
+        "nl-NL": "NIET_GEKNOEID",
+        "pt-PT": "NÃO VIOLADO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "NOT_TAMPERED",
-                "zh-CN": "\u672a\u88ab\u7be1\u6539",
-                "fr-FR": "NON ALT\u00c9R\u00c9",
-                "de-DE": "NICHT MANIPULIERT",
-                "ja-JP": "\u4e0d\u6b63\u64cd\u4f5c\u306a\u3057",
-                "ko-KR": "\ubcc0\uc870\ub418\uc9c0 \uc54a\uc74c",
-                "es-ES": "NO MANIPULADO",
-                "pt-BR": "N\u00c3O VIOLADO",
-                "zh-TW": "\u672a\u88ab\u7be1\u6539"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "TAMPERED",
-                "zh-CN": "\u88ab\u7be1\u6539",
-                "fr-FR": "ALT\u00c9R\u00c9",
-                "de-DE": "MANIPULIERT",
-                "ja-JP": "\u4e0d\u6b63\u64cd\u4f5c",
-                "ko-KR": "\ubcc0\uc870\ub428",
-                "es-ES": "MANIPULADO",
-                "pt-BR": "VIOLADO",
-                "zh-TW": "\u88ab\u7be1\u6539"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "TAMPERED",
+        "zh-CN": "被篡改",
+        "fr-FR": "ALTÉRÉ",
+        "de-DE": "MANIPULIERT",
+        "ja-JP": "不正操作",
+        "ko-KR": "변조됨",
+        "es-ES": "MANIPULADO",
+        "pt-BR": "VIOLADO",
+        "zh-TW": "被篡改",
+        "it-IT": "MANOMESSO",
+        "ru-RU": "ВСКРЫТО",
+        "nl-NL": "GEKNOEID",
+        "pt-PT": "VIOLADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

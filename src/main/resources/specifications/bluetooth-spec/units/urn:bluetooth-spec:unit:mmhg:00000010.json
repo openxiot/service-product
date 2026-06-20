@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:mmhg:00000010",
-    "description": {
-        "en-US": "mmhg",
-        "zh-CN": "毫米汞柱",
-        "fr-FR": "mmHg",
-        "de-DE": "mmHg",
-        "ja-JP": "mmHg",
-        "ko-KR": "mmHg",
-        "es-ES": "mmHg",
-        "pt-BR": "mmHg",
-        "zh-TW": "毫米汞柱"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:mmhg:00000010",
+  "description": {
+    "en-US": "mmhg",
+    "zh-CN": "毫米汞柱",
+    "zh-TW": "毫米汞柱",
+    "de-DE": "mmHg",
+    "fr-FR": "mmHg",
+    "it-IT": "mmhg",
+    "ru-RU": "mmhg",
+    "ko-KR": "mmHg",
+    "es-ES": "mmHg",
+    "ja-JP": "mmHg",
+    "nl-NL": "mmhg",
+    "pt-PT": "mmHg",
+    "pt-BR": "mmHg"
+  },
+  "lifecycle": "released"
 }

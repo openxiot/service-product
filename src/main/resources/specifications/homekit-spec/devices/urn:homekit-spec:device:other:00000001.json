@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:other:00000001",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Other",
-        "zh-CN": "其他",
-        "fr-FR": "Autre",
-        "de-DE": "Andere",
-        "ja-JP": "その他",
-        "ko-KR": "기타",
-        "es-ES": "Otro",
-        "pt-BR": "Outro",
-        "zh-TW": "其他"
-    }
+  "type": "urn:homekit-spec:device:other:00000001",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Other",
+    "zh-CN": "其他",
+    "zh-TW": "其他",
+    "de-DE": "Andere",
+    "fr-FR": "Autre",
+    "it-IT": "Altro",
+    "ru-RU": "Другое",
+    "ko-KR": "기타",
+    "es-ES": "Otro",
+    "ja-JP": "その他",
+    "nl-NL": "Anders",
+    "pt-PT": "Outro",
+    "pt-BR": "Outro"
+  }
 }

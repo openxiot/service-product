@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:door:00000081",
-    "description": {
-        "en-US": "Door",
-        "zh-CN": "\u95e8",
-        "fr-FR": "Porte",
-        "de-DE": "T\u00fcr",
-        "ja-JP": "\u30c9\u30a2",
-        "ko-KR": "\ubb38",
-        "es-ES": "Puerta",
-        "pt-BR": "Porta",
-        "zh-TW": "\u9580"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-position:0000006D",
-        "urn:homekit-spec:property:position-state:00000072",
-        "urn:homekit-spec:property:target-position:0000007C"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:hold-position:0000006F",
-        "urn:homekit-spec:property:obstruction-detected:00000024",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:door:00000081",
+  "description": {
+    "en-US": "Door",
+    "zh-CN": "门",
+    "zh-TW": "門",
+    "de-DE": "Tür",
+    "fr-FR": "Porte",
+    "it-IT": "Porta",
+    "ru-RU": "Дверь",
+    "ko-KR": "문",
+    "es-ES": "Puerta",
+    "ja-JP": "ドア",
+    "nl-NL": "Deur",
+    "pt-PT": "Porta",
+    "pt-BR": "Porta"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-position:0000006D",
+    "urn:homekit-spec:property:position-state:00000072",
+    "urn:homekit-spec:property:target-position:0000007C"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:hold-position:0000006F",
+    "urn:homekit-spec:property:obstruction-detected:00000024",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

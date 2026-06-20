@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:manufacturer:00000020",
-    "description": {
-        "en-US": "Manufacturer",
-        "zh-CN": "\u5236\u9020\u5546",
-        "fr-FR": "Fabricant",
-        "de-DE": "Hersteller",
-        "ja-JP": "\u30e1\u30fc\u30ab\u30fc",
-        "ko-KR": "\uc81c\uc870\uc5c5\uccb4",
-        "es-ES": "Fabricante",
-        "pt-BR": "Fabricante",
-        "zh-TW": "\u88fd\u9020\u5546"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:manufacturer:00000020",
+  "description": {
+    "en-US": "Manufacturer",
+    "zh-CN": "制造商",
+    "zh-TW": "製造商",
+    "de-DE": "Hersteller",
+    "fr-FR": "Fabricant",
+    "it-IT": "Produttore",
+    "ru-RU": "Производитель",
+    "ko-KR": "제조업체",
+    "es-ES": "Fabricante",
+    "ja-JP": "メーカー",
+    "nl-NL": "Fabrikant",
+    "pt-PT": "Fabricante",
+    "pt-BR": "Fabricante"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

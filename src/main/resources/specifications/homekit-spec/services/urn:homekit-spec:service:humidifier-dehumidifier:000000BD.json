@@ -1,30 +1,34 @@
 {
-    "type": "urn:homekit-spec:service:humidifier-dehumidifier:000000BD",
-    "description": {
-        "en-US": "Humidifier Dehumidifier",
-        "zh-CN": "\u52a0\u6e7f\u5668/\u9664\u6e7f\u5668",
-        "fr-FR": "Humidificateur/D\u00e9shumidificateur",
-        "de-DE": "Befeuchter/Entfeuchter",
-        "ja-JP": "\u52a0\u6e7f\u5668/\u9664\u6e7f\u5668",
-        "ko-KR": "\uac00\uc2b5\uae30/\uc81c\uc2b5\uae30",
-        "es-ES": "Humidificador/Deshumidificador",
-        "pt-BR": "Umidificador/Desumidificador",
-        "zh-TW": "\u52a0\u6ebc\u5668/\u9664\u6ebc\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-relative-humidity:00000010",
-        "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
-        "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
-        "urn:homekit-spec:property:active:000000B0"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:water-level:000000B5",
-        "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
-        "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
-        "urn:homekit-spec:property:rotation-speed:00000029"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:humidifier-dehumidifier:000000BD",
+  "description": {
+    "en-US": "Humidifier Dehumidifier",
+    "zh-CN": "加湿器/除湿器",
+    "zh-TW": "加溼器/除溼器",
+    "de-DE": "Befeuchter/Entfeuchter",
+    "fr-FR": "Humidificateur/Déshumidificateur",
+    "it-IT": "Umidificatore/deumidificatore",
+    "ru-RU": "Увлажнитель/осушитель",
+    "ko-KR": "가습기/제습기",
+    "es-ES": "Humidificador/Deshumidificador",
+    "ja-JP": "加湿器/除湿器",
+    "nl-NL": "Bevochtiger/ontvochtiger",
+    "pt-PT": "Umidificador/Desumidificador",
+    "pt-BR": "Umidificador/Desumidificador"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-relative-humidity:00000010",
+    "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
+    "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
+    "urn:homekit-spec:property:active:000000B0"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:lock-physical-controls:000000A7",
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:swing-mode:000000B6",
+    "urn:homekit-spec:property:water-level:000000B5",
+    "urn:homekit-spec:property:relative-humidity-dehumidifier-threshold:000000C9",
+    "urn:homekit-spec:property:relative-humidity-humidifier-threshold:000000CA",
+    "urn:homekit-spec:property:rotation-speed:00000029"
+  ],
+  "lifecycle": "released"
 }

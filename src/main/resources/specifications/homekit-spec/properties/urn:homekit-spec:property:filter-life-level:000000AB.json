@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:filter-life-level:000000AB",
-    "description": {
-        "en-US": "Filter Life Level",
-        "zh-CN": "\u6ee4\u82af\u5bff\u547d",
-        "fr-FR": "Niveau de vie du filtre",
-        "de-DE": "Filterlebensdauer",
-        "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u5bff\u547d\u30ec\u30d9\u30eb",
-        "ko-KR": "\ud544\ud130 \uc218\uba85",
-        "es-ES": "Nivel de vida \u00fatil del filtro",
-        "pt-BR": "N\u00edvel de vida do filtro",
-        "zh-TW": "\u6ffe\u82af\u58fd\u547d"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:filter-life-level:000000AB",
+  "description": {
+    "en-US": "Filter Life Level",
+    "zh-CN": "滤芯寿命",
+    "zh-TW": "濾芯壽命",
+    "de-DE": "Filterlebensdauer",
+    "fr-FR": "Niveau de vie du filtre",
+    "it-IT": "Livello vita filtro",
+    "ru-RU": "Уровень ресурса фильтра",
+    "ko-KR": "필터 수명",
+    "es-ES": "Nivel de vida útil del filtro",
+    "ja-JP": "フィルター寿命レベル",
+    "nl-NL": "Filterlevensniveau",
+    "pt-PT": "Nível de vida do filtro",
+    "pt-BR": "Nível de vida do filtro"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "lifecycle": "released"
 }

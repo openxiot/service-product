@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:unit:lux:00000002",
-    "description": {
-        "en-US": "lux",
-        "zh-CN": "\u52d2\u514b\u65af",
-        "fr-FR": "lux",
-        "de-DE": "Lux",
-        "ja-JP": "\u30eb\u30af\u30b9",
-        "ko-KR": "\ub7ed\uc2a4",
-        "es-ES": "lux",
-        "pt-BR": "lux",
-        "zh-TW": "\u52d2\u514b\u65af"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:unit:lux:00000002",
+  "description": {
+    "en-US": "lux",
+    "zh-CN": "勒克斯",
+    "zh-TW": "勒克斯",
+    "de-DE": "Lux",
+    "fr-FR": "lux",
+    "it-IT": "lux",
+    "ru-RU": "lux",
+    "ko-KR": "럭스",
+    "es-ES": "lux",
+    "ja-JP": "ルクス",
+    "nl-NL": "lux",
+    "pt-PT": "lux",
+    "pt-BR": "lux"
+  },
+  "lifecycle": "released"
 }

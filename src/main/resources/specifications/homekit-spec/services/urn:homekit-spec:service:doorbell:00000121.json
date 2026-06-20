@@ -1,23 +1,27 @@
 {
-    "type": "urn:homekit-spec:service:doorbell:00000121",
-    "description": {
-        "en-US": "Doorbell",
-        "zh-CN": "\u95e8\u94c3",
-        "fr-FR": "Sonnette",
-        "de-DE": "T\u00fcrklingel",
-        "ja-JP": "\u30c9\u30a2\u30d9\u30eb",
-        "ko-KR": "\ucd08\uc778\uc885",
-        "es-ES": "Timbre",
-        "pt-BR": "Campainha",
-        "zh-TW": "\u9580\u9234"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:programmable-switch-event:00000073"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:brightness:00000008",
-        "urn:homekit-spec:property:volume:00000119",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:doorbell:00000121",
+  "description": {
+    "en-US": "Doorbell",
+    "zh-CN": "门铃",
+    "zh-TW": "門鈴",
+    "de-DE": "Türklingel",
+    "fr-FR": "Sonnette",
+    "it-IT": "Campanello",
+    "ru-RU": "Дверной звонок",
+    "ko-KR": "초인종",
+    "es-ES": "Timbre",
+    "ja-JP": "ドアベル",
+    "nl-NL": "Deurbel",
+    "pt-PT": "Campainha",
+    "pt-BR": "Campainha"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:programmable-switch-event:00000073"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:brightness:00000008",
+    "urn:homekit-spec:property:volume:00000119",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

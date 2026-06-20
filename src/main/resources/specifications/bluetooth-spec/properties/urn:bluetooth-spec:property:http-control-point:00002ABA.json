@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:http-control-point:00002ABA",
-    "description": {
-        "en-US": "HTTP Control Point",
-        "zh-CN": "HTTP 控制点",
-        "fr-FR": "Point de controle HTTP",
-        "de-DE": "HTTP-Kontrollpunkt",
-        "ja-JP": "HTTP制御ポイント",
-        "ko-KR": "HTTP 제어 포인트",
-        "es-ES": "Punto de control HTTP",
-        "pt-BR": "Ponto de controle HTTP",
-        "zh-TW": "HTTP 控制點"
-    },
-    "format": "uint8",
-    "access": [
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:http-control-point:00002ABA",
+  "description": {
+    "en-US": "HTTP Control Point",
+    "zh-CN": "HTTP 控制点",
+    "zh-TW": "HTTP 控制點",
+    "de-DE": "HTTP-Kontrollpunkt",
+    "fr-FR": "Point de controle HTTP",
+    "it-IT": "Punto controllo HTTP",
+    "ru-RU": "Точка управления HTTP",
+    "ko-KR": "HTTP 제어 포인트",
+    "es-ES": "Punto de control HTTP",
+    "ja-JP": "HTTP制御ポイント",
+    "nl-NL": "HTTP-controlepunt",
+    "pt-PT": "Ponto de controle HTTP",
+    "pt-BR": "Ponto de controle HTTP"
+  },
+  "format": "uint8",
+  "access": [
+    "write"
+  ],
+  "lifecycle": "released"
 }

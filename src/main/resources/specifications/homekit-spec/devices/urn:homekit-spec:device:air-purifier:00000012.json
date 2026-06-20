@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:air-purifier:00000012",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Air Purifier",
-        "zh-CN": "空气净化器",
-        "fr-FR": "Purificateur d'air",
-        "de-DE": "Luftreiniger",
-        "ja-JP": "空気清浄機",
-        "ko-KR": "공기 청정기",
-        "es-ES": "Purificador de aire",
-        "pt-BR": "Purificador de ar",
-        "zh-TW": "空氣淨化器"
-    }
+  "type": "urn:homekit-spec:device:air-purifier:00000012",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Air Purifier",
+    "zh-CN": "空气净化器",
+    "zh-TW": "空氣淨化器",
+    "de-DE": "Luftreiniger",
+    "fr-FR": "Purificateur d'air",
+    "it-IT": "Purificatore d'aria",
+    "ru-RU": "Очиститель воздуха",
+    "ko-KR": "공기 청정기",
+    "es-ES": "Purificador de aire",
+    "ja-JP": "空気清浄機",
+    "nl-NL": "Luchtzuiveraar",
+    "pt-PT": "Purificador de ar",
+    "pt-BR": "Purificador de ar"
+  }
 }

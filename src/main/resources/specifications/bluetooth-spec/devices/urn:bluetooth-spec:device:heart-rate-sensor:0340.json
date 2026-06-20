@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:heart-rate-sensor:0340",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Heart Rate Sensor",
-        "zh-CN": "心率传感器",
-        "fr-FR": "Cardiofrequencemetre",
-        "de-DE": "Herzfrequenzsensor",
-        "ja-JP": "心拍数センサー",
-        "ko-KR": "심박수 센서",
-        "es-ES": "Sensor de frecuencia cardiaca",
-        "pt-BR": "Sensor de frequencia cardiaca",
-        "zh-TW": "心率傳感器"
-    }
+  "type": "urn:bluetooth-spec:device:heart-rate-sensor:0340",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Heart Rate Sensor",
+    "zh-CN": "心率传感器",
+    "zh-TW": "心率傳感器",
+    "de-DE": "Herzfrequenzsensor",
+    "fr-FR": "Cardiofrequencemetre",
+    "it-IT": "Sensore frequenza cardiaca",
+    "ru-RU": "Датчик пульса",
+    "ko-KR": "심박수 센서",
+    "es-ES": "Sensor de frecuencia cardiaca",
+    "ja-JP": "心拍数センサー",
+    "nl-NL": "Hartslagsensor",
+    "pt-PT": "Sensor de frequencia cardiaca",
+    "pt-BR": "Sensor de frequencia cardiaca"
+  }
 }

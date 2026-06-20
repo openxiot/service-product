@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:leak-detected:00000070",
-    "description": {
-        "en-US": "Leak Detected",
-        "zh-CN": "\u68c0\u6d4b\u5230\u6cc4\u6f0f",
-        "fr-FR": "Fuite d\u00e9tect\u00e9e",
-        "de-DE": "Leck erkannt",
-        "ja-JP": "\u6f0f\u6c34\u691c\u51fa",
-        "ko-KR": "\ub204\uc218 \uac10\uc9c0\ub428",
-        "es-ES": "Fuga detectada",
-        "pt-BR": "Vazamento detectado",
-        "zh-TW": "\u6aa2\u6e2c\u5230\u6d29\u6f0f"
+  "type": "urn:homekit-spec:property:leak-detected:00000070",
+  "description": {
+    "en-US": "Leak Detected",
+    "zh-CN": "检测到泄漏",
+    "zh-TW": "檢測到洩漏",
+    "de-DE": "Leck erkannt",
+    "fr-FR": "Fuite détectée",
+    "it-IT": "Perdita rilevata",
+    "ru-RU": "Обнаружена утечка",
+    "ko-KR": "누수 감지됨",
+    "es-ES": "Fuga detectada",
+    "ja-JP": "漏水検出",
+    "nl-NL": "Lek gedetecteerd",
+    "pt-PT": "Vazamento detectado",
+    "pt-BR": "Vazamento detectado"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "LEAK_NOT_DETECTED",
+        "zh-CN": "未检测到泄漏",
+        "fr-FR": "AUCUNE FUITE DÉTECTÉE",
+        "de-DE": "KEIN LECK ERKANNT",
+        "ja-JP": "漏水未検出",
+        "ko-KR": "누수 미감지",
+        "es-ES": "SIN FUGA DETECTADA",
+        "pt-BR": "VAZAMENTO NÃO DETECTADO",
+        "zh-TW": "未檢測到洩漏",
+        "it-IT": "PERDITA_NON_RILEVATA",
+        "ru-RU": "УТЕЧКА_НЕ_ОБНАРУЖЕНА",
+        "nl-NL": "LEK_NIET_GEDETECTEERD",
+        "pt-PT": "VAZAMENTO NÃO DETECTADO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "LEAK_NOT_DETECTED",
-                "zh-CN": "\u672a\u68c0\u6d4b\u5230\u6cc4\u6f0f",
-                "fr-FR": "AUCUNE FUITE D\u00c9TECT\u00c9E",
-                "de-DE": "KEIN LECK ERKANNT",
-                "ja-JP": "\u6f0f\u6c34\u672a\u691c\u51fa",
-                "ko-KR": "\ub204\uc218 \ubbf8\uac10\uc9c0",
-                "es-ES": "SIN FUGA DETECTADA",
-                "pt-BR": "VAZAMENTO N\u00c3O DETECTADO",
-                "zh-TW": "\u672a\u6aa2\u6e2c\u5230\u6d29\u6f0f"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "LEAK_DETECTED",
-                "zh-CN": "\u68c0\u6d4b\u5230\u6cc4\u6f0f",
-                "fr-FR": "FUITE D\u00c9TECT\u00c9E",
-                "de-DE": "LECK ERKANNT",
-                "ja-JP": "\u6f0f\u6c34\u691c\u51fa",
-                "ko-KR": "\ub204\uc218 \uac10\uc9c0\ub428",
-                "es-ES": "FUGA DETECTADA",
-                "pt-BR": "VAZAMENTO DETECTADO",
-                "zh-TW": "\u6aa2\u6e2c\u5230\u6d29\u6f0f"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "LEAK_DETECTED",
+        "zh-CN": "检测到泄漏",
+        "fr-FR": "FUITE DÉTECTÉE",
+        "de-DE": "LECK ERKANNT",
+        "ja-JP": "漏水検出",
+        "ko-KR": "누수 감지됨",
+        "es-ES": "FUGA DETECTADA",
+        "pt-BR": "VAZAMENTO DETECTADO",
+        "zh-TW": "檢測到洩漏",
+        "it-IT": "PERDITA_RILEVATA",
+        "ru-RU": "УТЕЧКА_ОБНАРУЖЕНА",
+        "nl-NL": "LEK_GEDETECTEERD",
+        "pt-PT": "VAZAMENTO DETECTADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

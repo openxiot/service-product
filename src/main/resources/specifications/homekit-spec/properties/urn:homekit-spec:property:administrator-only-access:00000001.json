@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:administrator-only-access:00000001",
-    "description": {
-        "en-US": "Administrator Only Access",
-        "zh-CN": "\u4ec5\u7ba1\u7406\u5458\u8bbf\u95ee",
-        "fr-FR": "Acc\u00e8s administrateur uniquement",
-        "de-DE": "Nur Administrator-Zugriff",
-        "ja-JP": "\u7ba1\u7406\u8005\u306e\u307f\u30a2\u30af\u30bb\u30b9",
-        "ko-KR": "\uad00\ub9ac\uc790\ub9cc \uc811\uadfc",
-        "es-ES": "Solo acceso de administrador",
-        "pt-BR": "Acesso apenas do administrador",
-        "zh-TW": "\u50c5\u7ba1\u7406\u54e1\u8a2a\u554f"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:administrator-only-access:00000001",
+  "description": {
+    "en-US": "Administrator Only Access",
+    "zh-CN": "仅管理员访问",
+    "zh-TW": "僅管理員訪問",
+    "de-DE": "Nur Administrator-Zugriff",
+    "fr-FR": "Accès administrateur uniquement",
+    "it-IT": "Accesso solo amministratore",
+    "ru-RU": "Доступ только администратора",
+    "ko-KR": "관리자만 접근",
+    "es-ES": "Solo acceso de administrador",
+    "ja-JP": "管理者のみアクセス",
+    "nl-NL": "Alleen beheerderstoegang",
+    "pt-PT": "Acesso apenas do administrador",
+    "pt-BR": "Acesso apenas do administrador"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

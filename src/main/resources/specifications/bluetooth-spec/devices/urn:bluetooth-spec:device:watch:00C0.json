@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:watch:00C0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Watch",
-        "zh-CN": "手表",
-        "fr-FR": "Montre",
-        "de-DE": "Uhr",
-        "ja-JP": "腕時計",
-        "ko-KR": "시계",
-        "es-ES": "Reloj",
-        "pt-BR": "Relogio",
-        "zh-TW": "手錶"
-    }
+  "type": "urn:bluetooth-spec:device:watch:00C0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Watch",
+    "zh-CN": "手表",
+    "zh-TW": "手錶",
+    "de-DE": "Uhr",
+    "fr-FR": "Montre",
+    "it-IT": "Orologio",
+    "ru-RU": "Часы",
+    "ko-KR": "시계",
+    "es-ES": "Reloj",
+    "ja-JP": "腕時計",
+    "nl-NL": "Horloge",
+    "pt-PT": "Relogio",
+    "pt-BR": "Relogio"
+  }
 }

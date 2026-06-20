@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:shower-head:00000019",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Shower Head",
-        "zh-CN": "花洒",
-        "fr-FR": "Pomme de douche",
-        "de-DE": "Duschkopf",
-        "ja-JP": "シャワーヘッド",
-        "ko-KR": "샤워 헤드",
-        "es-ES": "Ducha",
-        "pt-BR": "Chuveiro",
-        "zh-TW": "花灑"
-    }
+  "type": "urn:homekit-spec:device:shower-head:00000019",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Shower Head",
+    "zh-CN": "花洒",
+    "zh-TW": "花灑",
+    "de-DE": "Duschkopf",
+    "fr-FR": "Pomme de douche",
+    "it-IT": "Testa doccia",
+    "ru-RU": "Душевая лейка",
+    "ko-KR": "샤워 헤드",
+    "es-ES": "Ducha",
+    "ja-JP": "シャワーヘッド",
+    "nl-NL": "Douchekop",
+    "pt-PT": "Chuveiro",
+    "pt-BR": "Chuveiro"
+  }
 }

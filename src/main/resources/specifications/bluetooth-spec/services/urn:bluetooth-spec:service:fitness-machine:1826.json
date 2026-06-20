@@ -1,25 +1,29 @@
 {
-    "type": "urn:bluetooth-spec:service:fitness-machine:1826",
-    "description": {
-        "en-US": "Fitness Machine",
-        "zh-CN": "健身器材",
-        "fr-FR": "Machine de fitness",
-        "de-DE": "Fitnessgerat",
-        "ja-JP": "フィットネスマシン",
-        "ko-KR": "피트니스 머신",
-        "es-ES": "Maquina de fitness",
-        "pt-BR": "Maquina de fitness",
-        "zh-TW": "健身器材"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:treadmill-data:00002ACD",
-        "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
-        "urn:bluetooth-spec:property:step-climber-data:00002ACF",
-        "urn:bluetooth-spec:property:stair-climber-data:00002AD0",
-        "urn:bluetooth-spec:property:indoor-bike-data:00002AD1"
-    ]
+  "type": "urn:bluetooth-spec:service:fitness-machine:1826",
+  "description": {
+    "en-US": "Fitness Machine",
+    "zh-CN": "健身器材",
+    "zh-TW": "健身器材",
+    "de-DE": "Fitnessgerat",
+    "fr-FR": "Machine de fitness",
+    "it-IT": "Macchina fitness",
+    "ru-RU": "Фитнес-тренажер",
+    "ko-KR": "피트니스 머신",
+    "es-ES": "Maquina de fitness",
+    "ja-JP": "フィットネスマシン",
+    "nl-NL": "Fitnessapparaat",
+    "pt-PT": "Maquina de fitness",
+    "pt-BR": "Maquina de fitness"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:treadmill-data:00002ACD",
+    "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
+    "urn:bluetooth-spec:property:step-climber-data:00002ACF",
+    "urn:bluetooth-spec:property:stair-climber-data:00002AD0",
+    "urn:bluetooth-spec:property:indoor-bike-data:00002AD1"
+  ]
 }

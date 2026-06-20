@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:phone:0040",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Phone",
-        "zh-CN": "手机",
-        "fr-FR": "Telephone",
-        "de-DE": "Telefon",
-        "ja-JP": "電話",
-        "ko-KR": "전화",
-        "es-ES": "Telefono",
-        "pt-BR": "Telefone",
-        "zh-TW": "手機"
-    }
+  "type": "urn:bluetooth-spec:device:phone:0040",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Phone",
+    "zh-CN": "手机",
+    "zh-TW": "手機",
+    "de-DE": "Telefon",
+    "fr-FR": "Telephone",
+    "it-IT": "Telefono",
+    "ru-RU": "Телефон",
+    "ko-KR": "전화",
+    "es-ES": "Telefono",
+    "ja-JP": "電話",
+    "nl-NL": "Telefoon",
+    "pt-PT": "Telefone",
+    "pt-BR": "Telefone"
+  }
 }

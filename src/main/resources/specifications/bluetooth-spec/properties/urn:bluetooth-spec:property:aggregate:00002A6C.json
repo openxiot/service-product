@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:aggregate:00002A6C",
-    "description": {
-        "en-US": "Aggregate",
-        "zh-CN": "聚合",
-        "fr-FR": "Agrege",
-        "de-DE": "Aggregat",
-        "ja-JP": "集計",
-        "ko-KR": "집계",
-        "es-ES": "Agregado",
-        "pt-BR": "Agregado",
-        "zh-TW": "聚合"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:aggregate:00002A6C",
+  "description": {
+    "en-US": "Aggregate",
+    "zh-CN": "聚合",
+    "zh-TW": "聚合",
+    "de-DE": "Aggregat",
+    "fr-FR": "Agrege",
+    "it-IT": "Aggregato",
+    "ru-RU": "Агрегат",
+    "ko-KR": "집계",
+    "es-ES": "Agregado",
+    "ja-JP": "集計",
+    "nl-NL": "Aggregaat",
+    "pt-PT": "Agregado",
+    "pt-BR": "Agregado"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

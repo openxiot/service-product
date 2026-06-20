@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:weight-measurement:00002A9D",
-    "description": {
-        "en-US": "Weight Measurement",
-        "zh-CN": "体重测量",
-        "fr-FR": "Mesure du poids",
-        "de-DE": "Gewichtsmessung",
-        "ja-JP": "体重測定",
-        "ko-KR": "체중 측정",
-        "es-ES": "Medicion de peso",
-        "pt-BR": "Medicao de peso",
-        "zh-TW": "體重測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released",
-    "unit": "kilograms"
+  "type": "urn:bluetooth-spec:property:weight-measurement:00002A9D",
+  "description": {
+    "en-US": "Weight Measurement",
+    "zh-CN": "体重测量",
+    "zh-TW": "體重測量",
+    "de-DE": "Gewichtsmessung",
+    "fr-FR": "Mesure du poids",
+    "it-IT": "Misurazione peso",
+    "ru-RU": "Измерение веса",
+    "ko-KR": "체중 측정",
+    "es-ES": "Medicion de peso",
+    "ja-JP": "体重測定",
+    "nl-NL": "Gewichtsmeting",
+    "pt-PT": "Medicao de peso",
+    "pt-BR": "Medicao de peso"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released",
+  "unit": "kilograms"
 }

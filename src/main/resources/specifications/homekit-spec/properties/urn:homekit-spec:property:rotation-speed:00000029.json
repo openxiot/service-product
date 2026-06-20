@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:rotation-speed:00000029",
-    "description": {
-        "en-US": "Rotation Speed",
-        "zh-CN": "\u65cb\u8f6c\u901f\u5ea6",
-        "fr-FR": "Vitesse de rotation",
-        "de-DE": "Drehgeschwindigkeit",
-        "ja-JP": "\u56de\u8ee2\u901f\u5ea6",
-        "ko-KR": "\ud68c\uc804 \uc18d\ub3c4",
-        "es-ES": "Velocidad de rotaci\u00f3n",
-        "pt-BR": "Velocidade de rota\u00e7\u00e3o",
-        "zh-TW": "\u65cb\u8f49\u901f\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:rotation-speed:00000029",
+  "description": {
+    "en-US": "Rotation Speed",
+    "zh-CN": "旋转速度",
+    "zh-TW": "旋轉速度",
+    "de-DE": "Drehgeschwindigkeit",
+    "fr-FR": "Vitesse de rotation",
+    "it-IT": "Velocità rotazione",
+    "ru-RU": "Скорость вращения",
+    "ko-KR": "회전 속도",
+    "es-ES": "Velocidad de rotación",
+    "ja-JP": "回転速度",
+    "nl-NL": "Rotatiesnelheid",
+    "pt-PT": "Velocidade de rotação",
+    "pt-BR": "Velocidade de rotação"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

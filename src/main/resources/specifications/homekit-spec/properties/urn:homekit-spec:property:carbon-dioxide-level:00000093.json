@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:carbon-dioxide-level:00000093",
-    "description": {
-        "en-US": "Carbon Dioxide Level",
-        "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u6d53\u5ea6",
-        "fr-FR": "Niveau de dioxyde de carbone",
-        "de-DE": "Kohlendioxidgehalt",
-        "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6",
-        "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4",
-        "es-ES": "Nivel de di\u00f3xido de carbono",
-        "pt-BR": "N\u00edvel de di\u00f3xido de carbono",
-        "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:carbon-dioxide-level:00000093",
+  "description": {
+    "en-US": "Carbon Dioxide Level",
+    "zh-CN": "二氧化碳浓度",
+    "zh-TW": "二氧化碳濃度",
+    "de-DE": "Kohlendioxidgehalt",
+    "fr-FR": "Niveau de dioxyde de carbone",
+    "it-IT": "Livello anidride carbonica",
+    "ru-RU": "Уровень углекислого газа",
+    "ko-KR": "이산화탄소 농도",
+    "es-ES": "Nivel de dióxido de carbono",
+    "ja-JP": "二酸化炭素濃度",
+    "nl-NL": "Koolstofdioxideniveau",
+    "pt-PT": "Nível de dióxido de carbono",
+    "pt-BR": "Nível de dióxido de carbono"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100000,
+    1
+  ],
+  "lifecycle": "released"
 }

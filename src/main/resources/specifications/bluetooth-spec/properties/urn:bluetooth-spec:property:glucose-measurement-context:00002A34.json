@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
-    "description": {
-        "en-US": "Glucose Measurement Context",
-        "zh-CN": "血糖测量上下文",
-        "fr-FR": "Contexte de mesure du glucose",
-        "de-DE": "Glukosemessungskontext",
-        "ja-JP": "血糖測定コンテキスト",
-        "ko-KR": "혈당 측정 컨텍스트",
-        "es-ES": "Contexto de medicion de glucosa",
-        "pt-BR": "Contexto de medicao de glicose",
-        "zh-TW": "血糖測量上下文"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
+  "description": {
+    "en-US": "Glucose Measurement Context",
+    "zh-CN": "血糖测量上下文",
+    "zh-TW": "血糖測量上下文",
+    "de-DE": "Glukosemessungskontext",
+    "fr-FR": "Contexte de mesure du glucose",
+    "it-IT": "Contesto misurazione glucosio",
+    "ru-RU": "Контекст измерения глюкозы",
+    "ko-KR": "혈당 측정 컨텍스트",
+    "es-ES": "Contexto de medicion de glucosa",
+    "ja-JP": "血糖測定コンテキスト",
+    "nl-NL": "Glucosemetingcontext",
+    "pt-PT": "Contexto de medicao de glicose",
+    "pt-BR": "Contexto de medicao de glicose"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

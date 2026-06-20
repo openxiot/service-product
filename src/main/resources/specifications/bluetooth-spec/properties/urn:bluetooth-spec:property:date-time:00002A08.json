@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:date-time:00002A08",
-    "description": {
-        "en-US": "Date Time",
-        "zh-CN": "日期时间",
-        "fr-FR": "Date et heure",
-        "de-DE": "Datum und Uhrzeit",
-        "ja-JP": "日付と時刻",
-        "ko-KR": "날짜 및 시간",
-        "es-ES": "Fecha y hora",
-        "pt-BR": "Data e hora",
-        "zh-TW": "日期時間"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:date-time:00002A08",
+  "description": {
+    "en-US": "Date Time",
+    "zh-CN": "日期时间",
+    "zh-TW": "日期時間",
+    "de-DE": "Datum und Uhrzeit",
+    "fr-FR": "Date et heure",
+    "it-IT": "Data e ora",
+    "ru-RU": "Дата и время",
+    "ko-KR": "날짜 및 시간",
+    "es-ES": "Fecha y hora",
+    "ja-JP": "日付と時刻",
+    "nl-NL": "Datum en tijd",
+    "pt-PT": "Data e hora",
+    "pt-BR": "Data e hora"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

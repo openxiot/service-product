@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:treadmill-data:00002ACD",
-    "description": {
-        "en-US": "Treadmill Data",
-        "zh-CN": "跑步机数据",
-        "fr-FR": "Donnees du tapis roulant",
-        "de-DE": "Laufbanddaten",
-        "ja-JP": "トレッドミルデータ",
-        "ko-KR": "트레드밀 데이터",
-        "es-ES": "Datos de la cinta de correr",
-        "pt-BR": "Dados da esteira",
-        "zh-TW": "跑步機數據"
-    },
-    "format": "uint16",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:treadmill-data:00002ACD",
+  "description": {
+    "en-US": "Treadmill Data",
+    "zh-CN": "跑步机数据",
+    "zh-TW": "跑步機數據",
+    "de-DE": "Laufbanddaten",
+    "fr-FR": "Donnees du tapis roulant",
+    "it-IT": "Dati treadmill",
+    "ru-RU": "Данные беговой дорожки",
+    "ko-KR": "트레드밀 데이터",
+    "es-ES": "Datos de la cinta de correr",
+    "ja-JP": "トレッドミルデータ",
+    "nl-NL": "Loopbandgegevens",
+    "pt-PT": "Dados da esteira",
+    "pt-BR": "Dados da esteira"
+  },
+  "format": "uint16",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

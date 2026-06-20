@@ -1,23 +1,27 @@
 {
-    "type": "urn:homekit-spec:service:filter-maintenance:000000BA",
-    "description": {
-        "en-US": "Filter Maintenance",
-        "zh-CN": "\u6ee4\u82af\u7ef4\u62a4",
-        "fr-FR": "Entretien du filtre",
-        "de-DE": "Filterwartung",
-        "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u4fdd\u5b88",
-        "ko-KR": "\ud544\ud130 \uc720\uc9c0 \uad00\ub9ac",
-        "es-ES": "Mantenimiento del filtro",
-        "pt-BR": "Manuten\u00e7\u00e3o do filtro",
-        "zh-TW": "\u6ffe\u82af\u7dad\u8b77"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:filter-change-indication:000000AC"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:filter-life-level:000000AB",
-        "urn:homekit-spec:property:reset-filter-indication:000000AD",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:filter-maintenance:000000BA",
+  "description": {
+    "en-US": "Filter Maintenance",
+    "zh-CN": "滤芯维护",
+    "zh-TW": "濾芯維護",
+    "de-DE": "Filterwartung",
+    "fr-FR": "Entretien du filtre",
+    "it-IT": "Manutenzione filtro",
+    "ru-RU": "Обслуживание фильтра",
+    "ko-KR": "필터 유지 관리",
+    "es-ES": "Mantenimiento del filtro",
+    "ja-JP": "フィルター保守",
+    "nl-NL": "Filteronderhoud",
+    "pt-PT": "Manutenção do filtro",
+    "pt-BR": "Manutenção do filtro"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:filter-change-indication:000000AC"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:filter-life-level:000000AB",
+    "urn:homekit-spec:property:reset-filter-indication:000000AD",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

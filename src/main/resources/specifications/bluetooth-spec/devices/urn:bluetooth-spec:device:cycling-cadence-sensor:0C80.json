@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:cycling-cadence-sensor:0C80",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Cycling Cadence Sensor",
-        "zh-CN": "骑行踏频传感器",
-        "fr-FR": "Capteur de cadence cycliste",
-        "de-DE": "Fahrradkadenzsensor",
-        "ja-JP": "サイクリングケイデンスセンサー",
-        "ko-KR": "사이클링 케이던스 센서",
-        "es-ES": "Sensor de cadencia de ciclismo",
-        "pt-BR": "Sensor de cadencia de ciclismo",
-        "zh-TW": "騎行踏頻傳感器"
-    }
+  "type": "urn:bluetooth-spec:device:cycling-cadence-sensor:0C80",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Cycling Cadence Sensor",
+    "zh-CN": "骑行踏频传感器",
+    "zh-TW": "騎行踏頻傳感器",
+    "de-DE": "Fahrradkadenzsensor",
+    "fr-FR": "Capteur de cadence cycliste",
+    "it-IT": "Sensore cadenza ciclismo",
+    "ru-RU": "Датчик каденса велосипеда",
+    "ko-KR": "사이클링 케이던스 센서",
+    "es-ES": "Sensor de cadencia de ciclismo",
+    "ja-JP": "サイクリングケイデンスセンサー",
+    "nl-NL": "Fietssensor cadans",
+    "pt-PT": "Sensor de cadencia de ciclismo",
+    "pt-BR": "Sensor de cadencia de ciclismo"
+  }
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:navigation:00002A68",
-    "description": {
-        "en-US": "Navigation",
-        "zh-CN": "导航",
-        "fr-FR": "Navigation",
-        "de-DE": "Navigation",
-        "ja-JP": "ナビゲーション",
-        "ko-KR": "내비게이션",
-        "es-ES": "Navegacion",
-        "pt-BR": "Navegacao",
-        "zh-TW": "導航"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:navigation:00002A68",
+  "description": {
+    "en-US": "Navigation",
+    "zh-CN": "导航",
+    "zh-TW": "導航",
+    "de-DE": "Navigation",
+    "fr-FR": "Navigation",
+    "it-IT": "Navigazione",
+    "ru-RU": "Навигация",
+    "ko-KR": "내비게이션",
+    "es-ES": "Navegacion",
+    "ja-JP": "ナビゲーション",
+    "nl-NL": "Navigatie",
+    "pt-PT": "Navegacao",
+    "pt-BR": "Navegacao"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

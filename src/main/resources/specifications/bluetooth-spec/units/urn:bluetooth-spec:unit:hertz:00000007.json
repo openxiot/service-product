@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:hertz:00000007",
-    "description": {
-        "en-US": "hertz",
-        "zh-CN": "赫兹",
-        "fr-FR": "hertz",
-        "de-DE": "Hertz",
-        "ja-JP": "ヘルツ",
-        "ko-KR": "헤르츠",
-        "es-ES": "hercios",
-        "pt-BR": "hertz",
-        "zh-TW": "赫茲"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:hertz:00000007",
+  "description": {
+    "en-US": "hertz",
+    "zh-CN": "赫兹",
+    "zh-TW": "赫茲",
+    "de-DE": "Hertz",
+    "fr-FR": "hertz",
+    "it-IT": "hertz",
+    "ru-RU": "hertz",
+    "ko-KR": "헤르츠",
+    "es-ES": "hercios",
+    "ja-JP": "ヘルツ",
+    "nl-NL": "hertz",
+    "pt-PT": "hertz",
+    "pt-BR": "hertz"
+  },
+  "lifecycle": "released"
 }

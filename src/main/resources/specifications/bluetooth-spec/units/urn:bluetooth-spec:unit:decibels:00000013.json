@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:decibels:00000013",
-    "description": {
-        "en-US": "decibels",
-        "zh-CN": "分贝",
-        "fr-FR": "decibels",
-        "de-DE": "Dezibel",
-        "ja-JP": "デシベル",
-        "ko-KR": "데시벨",
-        "es-ES": "decibelios",
-        "pt-BR": "decibeis",
-        "zh-TW": "分貝"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:decibels:00000013",
+  "description": {
+    "en-US": "decibels",
+    "zh-CN": "分贝",
+    "zh-TW": "分貝",
+    "de-DE": "Dezibel",
+    "fr-FR": "decibels",
+    "it-IT": "decibels",
+    "ru-RU": "decibels",
+    "ko-KR": "데시벨",
+    "es-ES": "decibelios",
+    "ja-JP": "デシベル",
+    "nl-NL": "decibels",
+    "pt-PT": "decibeis",
+    "pt-BR": "decibeis"
+  },
+  "lifecycle": "released"
 }

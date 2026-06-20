@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:battery-level:00000068",
-    "description": {
-        "en-US": "Battery Level",
-        "zh-CN": "\u7535\u6c60\u7535\u91cf",
-        "fr-FR": "Niveau de batterie",
-        "de-DE": "Batterieladestand",
-        "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30ec\u30d9\u30eb",
-        "ko-KR": "\ubc30\ud130\ub9ac \uc794\ub7c9",
-        "es-ES": "Nivel de bater\u00eda",
-        "pt-BR": "N\u00edvel da bateria",
-        "zh-TW": "\u96fb\u6c60\u96fb\u91cf"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:battery-level:00000068",
+  "description": {
+    "en-US": "Battery Level",
+    "zh-CN": "电池电量",
+    "zh-TW": "電池電量",
+    "de-DE": "Batterieladestand",
+    "fr-FR": "Niveau de batterie",
+    "it-IT": "Livello batteria",
+    "ru-RU": "Уровень заряда батареи",
+    "ko-KR": "배터리 잔량",
+    "es-ES": "Nivel de bateria",
+    "ja-JP": "バッテリーレベル",
+    "nl-NL": "Batterijniveau",
+    "pt-PT": "Nivel da bateria",
+    "pt-BR": "Nível da bateria"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

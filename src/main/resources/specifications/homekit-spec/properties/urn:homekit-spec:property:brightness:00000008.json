@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:brightness:00000008",
-    "description": {
-        "en-US": "Brightness",
-        "zh-CN": "\u4eae\u5ea6",
-        "fr-FR": "Luminosit\u00e9",
-        "de-DE": "Helligkeit",
-        "ja-JP": "\u660e\u308b\u3055",
-        "ko-KR": "\ubc1d\uae30",
-        "es-ES": "Brillo",
-        "pt-BR": "Brilho",
-        "zh-TW": "\u4eae\u5ea6"
-    },
-    "format": "int32",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:brightness:00000008",
+  "description": {
+    "en-US": "Brightness",
+    "zh-CN": "亮度",
+    "zh-TW": "亮度",
+    "de-DE": "Helligkeit",
+    "fr-FR": "Luminosité",
+    "it-IT": "Luminosità",
+    "ru-RU": "Яркость",
+    "ko-KR": "밝기",
+    "es-ES": "Brillo",
+    "ja-JP": "明るさ",
+    "nl-NL": "Helderheid",
+    "pt-PT": "Brilho",
+    "pt-BR": "Brilho"
+  },
+  "format": "int32",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

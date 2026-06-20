@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:outlet-in-use:00000026",
-    "description": {
-        "en-US": "Outlet In Use",
-        "zh-CN": "\u63d2\u5ea7\u4f7f\u7528\u4e2d",
-        "fr-FR": "Prise en cours d'utilisation",
-        "de-DE": "Steckdose in Benutzung",
-        "ja-JP": "\u30b3\u30f3\u30bb\u30f3\u30c8\u4f7f\u7528\u4e2d",
-        "ko-KR": "\ucf58\uc13c\ud2b8 \uc0ac\uc6a9 \uc911",
-        "es-ES": "Enchufe en uso",
-        "pt-BR": "Tomada em uso",
-        "zh-TW": "\u63d2\u5ea7\u4f7f\u7528\u4e2d"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:outlet-in-use:00000026",
+  "description": {
+    "en-US": "Outlet In Use",
+    "zh-CN": "插座使用中",
+    "zh-TW": "插座使用中",
+    "de-DE": "Steckdose in Benutzung",
+    "fr-FR": "Prise en cours d'utilisation",
+    "it-IT": "Presa in uso",
+    "ru-RU": "Розетка используется",
+    "ko-KR": "콘센트 사용 중",
+    "es-ES": "Enchufe en uso",
+    "ja-JP": "コンセント使用中",
+    "nl-NL": "Stopcontact in gebruik",
+    "pt-PT": "Tomada em uso",
+    "pt-BR": "Tomada em uso"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

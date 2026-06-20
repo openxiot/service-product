@@ -1,51 +1,63 @@
 {
-    "type": "urn:homekit-spec:property:target-slat-state:000000BE",
-    "description": {
-        "en-US": "Target Slat State",
-        "zh-CN": "\u76ee\u6807\u767e\u53f6\u7a97\u53f6\u7247\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible des lamelles",
-        "de-DE": "Gew\u00fcnschter Lamellenstatus",
-        "ja-JP": "\u76ee\u6a19\u30b9\u30e9\u30c3\u30c8\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \uc2ac\ub7ab \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo de las lamas",
-        "pt-BR": "Estado alvo das l\u00e2minas",
-        "zh-TW": "\u76ee\u6a19\u767e\u8449\u7a97\u8449\u7247\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-slat-state:000000BE",
+  "description": {
+    "en-US": "Target Slat State",
+    "zh-CN": "目标百叶窗叶片状态",
+    "zh-TW": "目標百葉窗葉片狀態",
+    "de-DE": "Gewünschter Lamellenstatus",
+    "fr-FR": "État cible des lamelles",
+    "it-IT": "Stato target lamelle",
+    "ru-RU": "Целевое состояние ламелей",
+    "ko-KR": "목표 슬랫 상태",
+    "es-ES": "Estado objetivo de las lamas",
+    "ja-JP": "目標スラット状態",
+    "nl-NL": "Gewenste lamellenstatus",
+    "pt-PT": "Estado alvo das lâminas",
+    "pt-BR": "Estado alvo das lâminas"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "MANUAL",
+        "zh-CN": "手动",
+        "fr-FR": "MANUEL",
+        "de-DE": "MANUELL",
+        "ja-JP": "手動",
+        "ko-KR": "수동",
+        "es-ES": "MANUAL",
+        "pt-BR": "MANUAL",
+        "zh-TW": "手動",
+        "it-IT": "MANUALE",
+        "ru-RU": "РУЧНОЙ",
+        "nl-NL": "HANDMATIG",
+        "pt-PT": "MANUAL"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "MANUAL",
-                "zh-CN": "\u624b\u52a8",
-                "fr-FR": "MANUEL",
-                "de-DE": "MANUELL",
-                "ja-JP": "\u624b\u52d5",
-                "ko-KR": "\uc218\ub3d9",
-                "es-ES": "MANUAL",
-                "pt-BR": "MANUAL",
-                "zh-TW": "\u624b\u52d5"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "AUTO",
-                "zh-CN": "\u81ea\u52a8",
-                "fr-FR": "AUTO",
-                "de-DE": "AUTO",
-                "ja-JP": "\u81ea\u52d5",
-                "ko-KR": "\uc790\ub3d9",
-                "es-ES": "AUTO",
-                "pt-BR": "AUTO",
-                "zh-TW": "\u81ea\u52d5"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "AUTO",
+        "zh-CN": "自动",
+        "fr-FR": "AUTO",
+        "de-DE": "AUTO",
+        "ja-JP": "自動",
+        "ko-KR": "자동",
+        "es-ES": "AUTO",
+        "pt-BR": "AUTO",
+        "zh-TW": "自動",
+        "it-IT": "AUTOMATICO",
+        "ru-RU": "АВТО",
+        "nl-NL": "AUTOMATISCH",
+        "pt-PT": "AUTOMÁTICO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

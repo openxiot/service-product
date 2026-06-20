@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:air-conditioner:00000014",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Air Conditioner",
-        "zh-CN": "空调",
-        "fr-FR": "Climatiseur",
-        "de-DE": "Klimagerat",
-        "ja-JP": "エアコン",
-        "ko-KR": "에어컨",
-        "es-ES": "Aire acondicionado",
-        "pt-BR": "Ar condicionado",
-        "zh-TW": "空調"
-    }
+  "type": "urn:homekit-spec:device:air-conditioner:00000014",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Air Conditioner",
+    "zh-CN": "空调",
+    "zh-TW": "空調",
+    "de-DE": "Klimagerat",
+    "fr-FR": "Climatiseur",
+    "it-IT": "Condizionatore d'aria",
+    "ru-RU": "Кондиционер",
+    "ko-KR": "에어컨",
+    "es-ES": "Aire acondicionado",
+    "ja-JP": "エアコン",
+    "nl-NL": "Airconditioner",
+    "pt-PT": "Ar condicionado",
+    "pt-BR": "Ar condicionado"
+  }
 }

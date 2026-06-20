@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:slat:000000B9",
-    "description": {
-        "en-US": "Slat",
-        "zh-CN": "\u767e\u53f6\u7a97\u53f6\u7247",
-        "fr-FR": "Lamelle",
-        "de-DE": "Lamelle",
-        "ja-JP": "\u30b9\u30e9\u30c3\u30c8",
-        "ko-KR": "\uc2ac\ub7ab",
-        "es-ES": "Lama",
-        "pt-BR": "L\u00e2mina",
-        "zh-TW": "\u767e\u8449\u7a97\u8449\u7247"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:slat-type:000000C0",
-        "urn:homekit-spec:property:current-slat-state:000000AA"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:current-tilt-angle:000000C1",
-        "urn:homekit-spec:property:target-tilt-angle:000000C2",
-        "urn:homekit-spec:property:swing-mode:000000B6"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:slat:000000B9",
+  "description": {
+    "en-US": "Slat",
+    "zh-CN": "百叶窗叶片",
+    "zh-TW": "百葉窗葉片",
+    "de-DE": "Lamelle",
+    "fr-FR": "Lamelle",
+    "it-IT": "Lamelle",
+    "ru-RU": "Ламели",
+    "ko-KR": "슬랫",
+    "es-ES": "Lama",
+    "ja-JP": "スラット",
+    "nl-NL": "Lamellen",
+    "pt-PT": "Lâmina",
+    "pt-BR": "Lâmina"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:slat-type:000000C0",
+    "urn:homekit-spec:property:current-slat-state:000000AA"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:current-tilt-angle:000000C1",
+    "urn:homekit-spec:property:target-tilt-angle:000000C2",
+    "urn:homekit-spec:property:swing-mode:000000B6"
+  ],
+  "lifecycle": "released"
 }

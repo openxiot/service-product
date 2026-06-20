@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:alert-status:00002A43",
-    "description": {
-        "en-US": "Alert Status",
-        "zh-CN": "警报状态",
-        "fr-FR": "Statut d'alerte",
-        "de-DE": "Alarmstatus",
-        "ja-JP": "通知状態",
-        "ko-KR": "알림 상태",
-        "es-ES": "Estado de alerta",
-        "pt-BR": "Status de alerta",
-        "zh-TW": "警報狀態"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:alert-status:00002A43",
+  "description": {
+    "en-US": "Alert Status",
+    "zh-CN": "警报状态",
+    "zh-TW": "警報狀態",
+    "de-DE": "Alarmstatus",
+    "fr-FR": "Statut d'alerte",
+    "it-IT": "Stato allarme",
+    "ru-RU": "Статус предупреждения",
+    "ko-KR": "알림 상태",
+    "es-ES": "Estado de alerta",
+    "ja-JP": "通知状態",
+    "nl-NL": "Alarmstatus",
+    "pt-PT": "Status de alerta",
+    "pt-BR": "Status de alerta"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:firmware-revision:00000052",
-    "description": {
-        "en-US": "Firmware Revision",
-        "zh-CN": "\u56fa\u4ef6\u7248\u672c",
-        "fr-FR": "Version du firmware",
-        "de-DE": "Firmware-Version",
-        "ja-JP": "\u30d5\u30a1\u30fc\u30e0\u30a6\u30a7\u30a2\u30ea\u30d3\u30b8\u30e7\u30f3",
-        "ko-KR": "\ud38c\uc6e8\uc5b4 \ubc84\uc804",
-        "es-ES": "Revisi\u00f3n del firmware",
-        "pt-BR": "Revis\u00e3o do firmware",
-        "zh-TW": "\u56fa\u4ef6\u7248\u672c"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:firmware-revision:00000052",
+  "description": {
+    "en-US": "Firmware Revision",
+    "zh-CN": "固件版本",
+    "zh-TW": "固件版本",
+    "de-DE": "Firmware-Version",
+    "fr-FR": "Version du firmware",
+    "it-IT": "Revisione firmware",
+    "ru-RU": "Ревизия прошивки",
+    "ko-KR": "펌웨어 버전",
+    "es-ES": "Revisión del firmware",
+    "ja-JP": "ファームウェアリビジョン",
+    "nl-NL": "Firmware revisie",
+    "pt-PT": "Revisão do firmware",
+    "pt-BR": "Revisão do firmware"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

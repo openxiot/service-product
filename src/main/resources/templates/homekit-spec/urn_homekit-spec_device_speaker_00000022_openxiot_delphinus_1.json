@@ -4,13 +4,17 @@
   "description": {
     "en-US": "Speaker",
     "zh-CN": "扬声器",
-    "fr-FR": "Haut-parleur",
+    "zh-TW": "揚聲器",
     "de-DE": "Lautsprecher",
-    "ja-JP": "スピーカー",
+    "fr-FR": "Haut-parleur",
+    "it-IT": "Altoparlante",
+    "ru-RU": "Динамик",
     "ko-KR": "스피커",
     "es-ES": "Altavoz",
-    "pt-BR": "Alto-falante",
-    "zh-TW": "揚聲器"
+    "ja-JP": "スピーカー",
+    "nl-NL": "Luidspreker",
+    "pt-PT": "Alto-falante",
+    "pt-BR": "Alto-falante"
   },
   "services": [
     {
@@ -29,7 +33,11 @@
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
         "pt-BR": "Informações do acessório",
-        "zh-TW": "配件信息"
+        "zh-TW": "配件信息",
+        "it-IT": "Informazioni accessorio",
+        "ru-RU": "Информация об аксессуаре",
+        "nl-NL": "Accessoire-informatie",
+        "pt-PT": "Informações do acessório"
       },
       "properties": [
         {
@@ -37,7 +45,16 @@
           "description": {
             "en-US": "Firmware Revision",
             "zh-TW": "固件版本",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "de-DE": "Firmware-Version",
+            "fr-FR": "Version du firmware",
+            "it-IT": "Revisione firmware",
+            "ru-RU": "Ревизия прошивки",
+            "ko-KR": "펌웨어 버전",
+            "es-ES": "Revisión del firmware",
+            "ja-JP": "ファームウェアリビジョン",
+            "nl-NL": "Firmware revisie",
+            "pt-PT": "Revisão do firmware"
           },
           "format": "string",
           "access": [
@@ -50,8 +67,17 @@
           "type": "urn:homekit-spec:property:identify:00000014:openxiot:delphinus:1",
           "description": {
             "en-US": "Identify",
-            "zh-TW": "辨認",
-            "zh-CN": "辨认"
+            "zh-TW": "識別",
+            "zh-CN": "识别",
+            "de-DE": "Identifizieren",
+            "fr-FR": "Identifier",
+            "it-IT": "Identifica",
+            "ru-RU": "Идентификация",
+            "ko-KR": "식별",
+            "es-ES": "Identificar",
+            "ja-JP": "識別",
+            "nl-NL": "Identificeren",
+            "pt-PT": "Identificar"
           },
           "format": "bool",
           "access": [
@@ -65,7 +91,16 @@
           "description": {
             "en-US": "Manufacturer",
             "zh-TW": "製造商",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "de-DE": "Hersteller",
+            "fr-FR": "Fabricant",
+            "it-IT": "Produttore",
+            "ru-RU": "Производитель",
+            "ko-KR": "제조업체",
+            "es-ES": "Fabricante",
+            "ja-JP": "メーカー",
+            "nl-NL": "Fabrikant",
+            "pt-PT": "Fabricante"
           },
           "format": "string",
           "access": [
@@ -79,7 +114,16 @@
           "description": {
             "en-US": "Model",
             "zh-TW": "型號",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "de-DE": "Modell",
+            "fr-FR": "Modèle",
+            "it-IT": "Modello",
+            "ru-RU": "Модель",
+            "ko-KR": "모델",
+            "es-ES": "Modelo",
+            "ja-JP": "モデル",
+            "nl-NL": "Model",
+            "pt-PT": "Modelo"
           },
           "format": "string",
           "access": [
@@ -93,7 +137,16 @@
           "description": {
             "en-US": "name",
             "zh-TW": "名稱",
-            "zh-CN": "名称"
+            "zh-CN": "名称",
+            "de-DE": "name",
+            "fr-FR": "name",
+            "it-IT": "name",
+            "ru-RU": "name",
+            "ko-KR": "name",
+            "es-ES": "name",
+            "ja-JP": "name",
+            "nl-NL": "name",
+            "pt-PT": "name"
           },
           "format": "string",
           "access": [
@@ -107,7 +160,16 @@
           "description": {
             "en-US": "Serial Number",
             "zh-TW": "序列號",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "de-DE": "Seriennummer",
+            "fr-FR": "Numéro de série",
+            "it-IT": "Numero seriale",
+            "ru-RU": "Серийный номер",
+            "ko-KR": "일련번호",
+            "es-ES": "Número de serie",
+            "ja-JP": "シリアル番号",
+            "nl-NL": "Serienummer",
+            "pt-PT": "Número de série"
           },
           "format": "string",
           "access": [
@@ -120,8 +182,17 @@
           "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:delphinus:1",
           "description": {
             "en-US": "Accessory Flags",
-            "zh-TW": "配件屬性",
-            "zh-CN": "配件属性"
+            "zh-TW": "附件標誌",
+            "zh-CN": "附件标志",
+            "de-DE": "Zubehör-Flags",
+            "fr-FR": "Indicateurs d'accessoire",
+            "it-IT": "Flag accessorio",
+            "ru-RU": "Флаги аксессуара",
+            "ko-KR": "액세서리 플래그",
+            "es-ES": "Indicadores de accesorio",
+            "ja-JP": "アクセサリフラグ",
+            "nl-NL": "Accessoire-vlaggen",
+            "pt-PT": "Sinalizadores do acessório"
           },
           "format": "uint32",
           "access": [
@@ -141,7 +212,16 @@
           "description": {
             "en-US": "Hardware Revision",
             "zh-TW": "硬件版本",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "de-DE": "Hardware-Version",
+            "fr-FR": "Version du matériel",
+            "it-IT": "Revisione hardware",
+            "ru-RU": "Ревизия аппаратного обеспечения",
+            "ko-KR": "하드웨어 버전",
+            "es-ES": "Revisión del hardware",
+            "ja-JP": "ハードウェアリビジョン",
+            "nl-NL": "Hardware revisie",
+            "pt-PT": "Revisão do hardware"
           },
           "format": "string",
           "access": [
@@ -168,7 +248,11 @@
         "ko-KR": "스피커",
         "es-ES": "Altavoz",
         "pt-BR": "Alto-falante",
-        "zh-TW": "揚聲器"
+        "zh-TW": "揚聲器",
+        "it-IT": "Altoparlante",
+        "ru-RU": "Динамик",
+        "nl-NL": "Luidspreker",
+        "pt-PT": "Alto-falante"
       },
       "properties": [
         {
@@ -176,7 +260,16 @@
           "description": {
             "en-US": "Mute",
             "zh-CN": "静音",
-            "zh-TW": "靜音"
+            "zh-TW": "靜音",
+            "de-DE": "Stumm",
+            "fr-FR": "Sourdine",
+            "it-IT": "Muto",
+            "ru-RU": "Без звука",
+            "ko-KR": "음소거",
+            "es-ES": "Silencio",
+            "ja-JP": "ミュート",
+            "nl-NL": "Dempen",
+            "pt-PT": "Mudo"
           },
           "format": "bool",
           "access": [
@@ -192,7 +285,16 @@
           "description": {
             "en-US": "Volume",
             "zh-CN": "音量",
-            "zh-TW": "音量"
+            "zh-TW": "音量",
+            "de-DE": "Lautstärke",
+            "fr-FR": "Volume",
+            "it-IT": "Volume",
+            "ru-RU": "Громкость",
+            "ko-KR": "볼륨",
+            "es-ES": "Volumen",
+            "ja-JP": "音量",
+            "nl-NL": "Volume",
+            "pt-PT": "Volume"
           },
           "format": "uint8",
           "access": [

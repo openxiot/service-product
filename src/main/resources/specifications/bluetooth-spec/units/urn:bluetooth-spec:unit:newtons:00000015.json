@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:newtons:00000015",
-    "description": {
-        "en-US": "newtons",
-        "zh-CN": "牛顿",
-        "fr-FR": "newtons",
-        "de-DE": "Newton",
-        "ja-JP": "ニュートン",
-        "ko-KR": "뉴턴",
-        "es-ES": "newtons",
-        "pt-BR": "newtons",
-        "zh-TW": "牛頓"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:newtons:00000015",
+  "description": {
+    "en-US": "newtons",
+    "zh-CN": "牛顿",
+    "zh-TW": "牛頓",
+    "de-DE": "Newton",
+    "fr-FR": "newtons",
+    "it-IT": "newtons",
+    "ru-RU": "newtons",
+    "ko-KR": "뉴턴",
+    "es-ES": "newtons",
+    "ja-JP": "ニュートン",
+    "nl-NL": "newtons",
+    "pt-PT": "newtons",
+    "pt-BR": "newtons"
+  },
+  "lifecycle": "released"
 }

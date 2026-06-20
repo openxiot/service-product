@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:service:service-label:000000CC",
-    "description": {
-        "en-US": "Service Label",
-        "zh-CN": "\u670d\u52a1\u6807\u7b7e",
-        "fr-FR": "\u00c9tiquette de service",
-        "de-DE": "Dienstkennzeichnung",
-        "ja-JP": "\u30b5\u30fc\u30d3\u30b9\u30e9\u30d9\u30eb",
-        "ko-KR": "\uc11c\ube44\uc2a4 \ub808\uc774\ube14",
-        "es-ES": "Etiqueta de servicio",
-        "pt-BR": "Etiqueta de servi\u00e7o",
-        "zh-TW": "\u670d\u52d9\u6a19\u7c64"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:service-label-namespace:000000CD"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:service-label:000000CC",
+  "description": {
+    "en-US": "Service Label",
+    "zh-CN": "服务标签",
+    "zh-TW": "服務標籤",
+    "de-DE": "Dienstkennzeichnung",
+    "fr-FR": "Étiquette de service",
+    "it-IT": "Etichetta servizio",
+    "ru-RU": "Метка сервиса",
+    "ko-KR": "서비스 레이블",
+    "es-ES": "Etiqueta de servicio",
+    "ja-JP": "サービスラベル",
+    "nl-NL": "Servicelabel",
+    "pt-PT": "Etiqueta de serviço",
+    "pt-BR": "Etiqueta de serviço"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:service-label-namespace:000000CD"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:obstruction-detected:00000024",
-    "description": {
-        "en-US": "Obstruction Detected",
-        "zh-CN": "\u68c0\u6d4b\u5230\u969c\u788d\u7269",
-        "fr-FR": "Obstruction d\u00e9tect\u00e9e",
-        "de-DE": "Hindernis erkannt",
-        "ja-JP": "\u969c\u5bb3\u7269\u691c\u51fa",
-        "ko-KR": "\uc7a5\uc560\ubb3c \uac10\uc9c0\ub428",
-        "es-ES": "Obstrucci\u00f3n detectada",
-        "pt-BR": "Obstru\u00e7\u00e3o detectada",
-        "zh-TW": "\u6aa2\u6e2c\u5230\u969c\u7919\u7269"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:obstruction-detected:00000024",
+  "description": {
+    "en-US": "Obstruction Detected",
+    "zh-CN": "检测到障碍物",
+    "zh-TW": "檢測到障礙物",
+    "de-DE": "Hindernis erkannt",
+    "fr-FR": "Obstruction détectée",
+    "it-IT": "Ostruzione rilevata",
+    "ru-RU": "Обнаружено препятствие",
+    "ko-KR": "장애물 감지됨",
+    "es-ES": "Obstrucción detectada",
+    "ja-JP": "障害物検出",
+    "nl-NL": "Obstructie gedetecteerd",
+    "pt-PT": "Obstrução detectada",
+    "pt-BR": "Obstrução detectada"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

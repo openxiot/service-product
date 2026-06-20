@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:thermostat:00000009",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Thermostat",
-        "zh-CN": "恒温器",
-        "fr-FR": "Thermostat",
-        "de-DE": "Thermostat",
-        "ja-JP": "サーモスタット",
-        "ko-KR": "온도 조절기",
-        "es-ES": "Termostato",
-        "pt-BR": "Termostato",
-        "zh-TW": "恆溫器"
-    }
+  "type": "urn:homekit-spec:device:thermostat:00000009",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Thermostat",
+    "zh-CN": "恒温器",
+    "zh-TW": "恆溫器",
+    "de-DE": "Thermostat",
+    "fr-FR": "Thermostat",
+    "it-IT": "Termostato",
+    "ru-RU": "Термостат",
+    "ko-KR": "온도 조절기",
+    "es-ES": "Termostato",
+    "ja-JP": "サーモスタット",
+    "nl-NL": "Thermostaat",
+    "pt-PT": "Termostato",
+    "pt-BR": "Termostato"
+  }
 }

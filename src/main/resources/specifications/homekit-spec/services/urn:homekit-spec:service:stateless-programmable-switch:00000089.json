@@ -1,22 +1,26 @@
 {
-    "type": "urn:homekit-spec:service:stateless-programmable-switch:00000089",
-    "description": {
-        "en-US": "Stateless Programmable Switch",
-        "zh-CN": "\u65e0\u72b6\u6001\u53ef\u7f16\u7a0b\u5f00\u5173",
-        "fr-FR": "Interrupteur programmable sans \u00e9tat",
-        "de-DE": "Zustandsloser programmierbarer Schalter",
-        "ja-JP": "\u30b9\u30c6\u30fc\u30c8\u30ec\u30b9\u30d7\u30ed\u30b0\u30e9\u30de\u30d6\u30eb\u30b9\u30a4\u30c3\u30c1",
-        "ko-KR": "\ubb34\uc0c1\ud0dc \ud504\ub85c\uadf8\ub798\ubc0d \uac00\ub2a5 \uc2a4\uc704\uce58",
-        "es-ES": "Interruptor programable sin estado",
-        "pt-BR": "Interruptor program\u00e1vel sem estado",
-        "zh-TW": "\u7121\u72c0\u614b\u53ef\u7de8\u7a0b\u958b\u95dc"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:programmable-switch-event:00000073"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:service-label-index:000000CB"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:stateless-programmable-switch:00000089",
+  "description": {
+    "en-US": "Stateless Programmable Switch",
+    "zh-CN": "无状态可编程开关",
+    "zh-TW": "無狀態可編程開關",
+    "de-DE": "Zustandsloser programmierbarer Schalter",
+    "fr-FR": "Interrupteur programmable sans état",
+    "it-IT": "Interruttore programmabile senza stato",
+    "ru-RU": "Программируемый переключатель без состояния",
+    "ko-KR": "무상태 프로그래밍 가능 스위치",
+    "es-ES": "Interruptor programable sin estado",
+    "ja-JP": "ステートレスプログラマブルスイッチ",
+    "nl-NL": "Staatloze programmeerbare schakelaar",
+    "pt-PT": "Interruptor programável sem estado",
+    "pt-BR": "Interruptor programável sem estado"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:programmable-switch-event:00000073"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:service-label-index:000000CB"
+  ],
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:format:bool:00000000",
-    "description": {
-        "en-US": "bool",
-        "zh-CN": "\u5e03\u5c14",
-        "fr-FR": "bool\u00e9en",
-        "de-DE": "Boolean",
-        "ja-JP": "\u30d6\u30fc\u30eb",
-        "ko-KR": "\ubd80\uc6b8",
-        "es-ES": "booleano",
-        "pt-BR": "booleano",
-        "zh-TW": "\u5e03\u723e"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:format:bool:00000000",
+  "description": {
+    "en-US": "bool",
+    "zh-CN": "布尔",
+    "zh-TW": "布爾",
+    "de-DE": "Boolean",
+    "fr-FR": "booleen",
+    "it-IT": "bool",
+    "ru-RU": "bool",
+    "ko-KR": "부울",
+    "es-ES": "booleano",
+    "ja-JP": "ブール",
+    "nl-NL": "bool",
+    "pt-PT": "booleano",
+    "pt-BR": "booleano"
+  },
+  "lifecycle": "released"
 }

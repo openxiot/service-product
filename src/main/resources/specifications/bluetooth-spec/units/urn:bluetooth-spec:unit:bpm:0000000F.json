@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:bpm:0000000F",
-    "description": {
-        "en-US": "bpm",
-        "zh-CN": "每分钟心跳次数",
-        "fr-FR": "BPM",
-        "de-DE": "BPM",
-        "ja-JP": "BPM",
-        "ko-KR": "BPM",
-        "es-ES": "BPM",
-        "pt-BR": "BPM",
-        "zh-TW": "每分鐘心跳次數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:bpm:0000000F",
+  "description": {
+    "en-US": "bpm",
+    "zh-CN": "每分钟心跳次数",
+    "zh-TW": "每分鐘心跳次數",
+    "de-DE": "BPM",
+    "fr-FR": "BPM",
+    "it-IT": "bpm",
+    "ru-RU": "bpm",
+    "ko-KR": "BPM",
+    "es-ES": "BPM",
+    "ja-JP": "BPM",
+    "nl-NL": "bpm",
+    "pt-PT": "BPM",
+    "pt-BR": "BPM"
+  },
+  "lifecycle": "released"
 }

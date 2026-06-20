@@ -1,14 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:dbm:00000011",
-    "description": {
-        "en-US": "dbm",
-        "zh-CN": "dBm",
-        "fr-FR": "dBm",
-        "de-DE": "dBm",
-        "ja-JP": "dBm",
-        "ko-KR": "dBm",
-        "es-ES": "dBm",
-        "pt-BR": "dBm"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:dbm:00000011",
+  "description": {
+    "en-US": "dbm",
+    "zh-CN": "dBm",
+    "zh-TW": "dbm",
+    "de-DE": "dBm",
+    "fr-FR": "dBm",
+    "it-IT": "dbm",
+    "ru-RU": "dbm",
+    "ko-KR": "dBm",
+    "es-ES": "dBm",
+    "ja-JP": "dBm",
+    "nl-NL": "dbm",
+    "pt-PT": "dBm",
+    "pt-BR": "dBm"
+  },
+  "lifecycle": "released"
 }

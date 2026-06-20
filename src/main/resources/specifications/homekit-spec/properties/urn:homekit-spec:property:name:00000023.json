@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:name:00000023",
-    "description": {
-        "en-US": "Name",
-        "zh-CN": "\u540d\u79f0",
-        "fr-FR": "Nom",
-        "de-DE": "Name",
-        "ja-JP": "\u540d\u524d",
-        "ko-KR": "\uc774\ub984",
-        "es-ES": "Nombre",
-        "pt-BR": "Nome",
-        "zh-TW": "\u540d\u7a31"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:name:00000023",
+  "description": {
+    "en-US": "Name",
+    "zh-CN": "名称",
+    "zh-TW": "名稱",
+    "de-DE": "Name",
+    "fr-FR": "Nom",
+    "it-IT": "Nome",
+    "ru-RU": "Имя",
+    "ko-KR": "이름",
+    "es-ES": "Nombre",
+    "ja-JP": "名前",
+    "nl-NL": "Naam",
+    "pt-PT": "Nome",
+    "pt-BR": "Nome"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

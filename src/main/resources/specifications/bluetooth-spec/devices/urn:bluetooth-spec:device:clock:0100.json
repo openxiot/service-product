@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:clock:0100",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Clock",
-        "zh-CN": "时钟",
-        "fr-FR": "Horloge",
-        "de-DE": "Wecker",
-        "ja-JP": "時計",
-        "ko-KR": "시계",
-        "es-ES": "Reloj",
-        "pt-BR": "Relogio",
-        "zh-TW": "時鐘"
-    }
+  "type": "urn:bluetooth-spec:device:clock:0100",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Clock",
+    "zh-CN": "时钟",
+    "zh-TW": "時鐘",
+    "de-DE": "Wecker",
+    "fr-FR": "Horloge",
+    "it-IT": "Orologio",
+    "ru-RU": "Часы",
+    "ko-KR": "시계",
+    "es-ES": "Reloj",
+    "ja-JP": "時計",
+    "nl-NL": "Klok",
+    "pt-PT": "Relogio",
+    "pt-BR": "Relogio"
+  }
 }

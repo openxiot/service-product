@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:insulin-pump:0540",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Insulin Pump",
-        "zh-CN": "胰岛素泵",
-        "fr-FR": "Pompe a insuline",
-        "de-DE": "Insulinpumpe",
-        "ja-JP": "インスリンポンプ",
-        "ko-KR": "인슐린 펌프",
-        "es-ES": "Bomba de insulina",
-        "pt-BR": "Bomba de insulina",
-        "zh-TW": "胰島素泵"
-    }
+  "type": "urn:bluetooth-spec:device:insulin-pump:0540",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Insulin Pump",
+    "zh-CN": "胰岛素泵",
+    "zh-TW": "胰島素泵",
+    "de-DE": "Insulinpumpe",
+    "fr-FR": "Pompe a insuline",
+    "it-IT": "Pompa di insulina",
+    "ru-RU": "Инсулиновая помпа",
+    "ko-KR": "인슐린 펌프",
+    "es-ES": "Bomba de insulina",
+    "ja-JP": "インスリンポンプ",
+    "nl-NL": "Insulinepomp",
+    "pt-PT": "Bomba de insulina",
+    "pt-BR": "Bomba de insulina"
+  }
 }

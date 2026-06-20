@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:garage-door-opener:00000041",
-    "description": {
-        "en-US": "Garage Door Opener",
-        "zh-CN": "\u8f66\u5e93\u95e8\u5f00\u542f\u5668",
-        "fr-FR": "Ouvre-porte de garage",
-        "de-DE": "Garagentor\u00f6ffner",
-        "ja-JP": "\u30ac\u30ec\u30fc\u30b8\u30c9\u30a2\u958b\u9589\u5668",
-        "ko-KR": "\ucc28\uace0 \ubb38 \uac1c\ud3d0\uae30",
-        "es-ES": "Abrepuertas de garaje",
-        "pt-BR": "Abre-porta de garagem",
-        "zh-TW": "\u8eca\u5eab\u9580\u958b\u555f\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-door-state:0000000E",
-        "urn:homekit-spec:property:target-door-state:00000032",
-        "urn:homekit-spec:property:obstruction-detected:00000024"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:lock-current-state:0000001D",
-        "urn:homekit-spec:property:lock-target-state:0000001E",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:garage-door-opener:00000041",
+  "description": {
+    "en-US": "Garage Door Opener",
+    "zh-CN": "车库门",
+    "zh-TW": "車庫門",
+    "de-DE": "Garagentoroffner",
+    "fr-FR": "Ouvre-porte de garage",
+    "it-IT": "Apriporta da garage",
+    "ru-RU": "Открыватель гаражных ворот",
+    "ko-KR": "차고 문 개폐기",
+    "es-ES": "Abrepuertas de garaje",
+    "ja-JP": "ガレージドア開閉器",
+    "nl-NL": "Garagedeuropener",
+    "pt-PT": "Abre-porta de garagem",
+    "pt-BR": "Abre-porta de garagem"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-door-state:0000000E",
+    "urn:homekit-spec:property:target-door-state:00000032",
+    "urn:homekit-spec:property:obstruction-detected:00000024"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:lock-current-state:0000001D",
+    "urn:homekit-spec:property:lock-target-state:0000001E",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

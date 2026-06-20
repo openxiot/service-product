@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:indoor-bike-data:00002AD1",
-    "description": {
-        "en-US": "Indoor Bike Data",
-        "zh-CN": "室内自行车数据",
-        "fr-FR": "Donnees du velo d'interieur",
-        "de-DE": "Heimtrainer-Daten",
-        "ja-JP": "インドアバイクデータ",
-        "ko-KR": "실내 자전거 데이터",
-        "es-ES": "Datos de bicicleta estatica",
-        "pt-BR": "Dados de bicicleta indoor",
-        "zh-TW": "室內自行車數據"
-    },
-    "format": "uint16",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:indoor-bike-data:00002AD1",
+  "description": {
+    "en-US": "Indoor Bike Data",
+    "zh-CN": "室内自行车数据",
+    "zh-TW": "室內自行車數據",
+    "de-DE": "Heimtrainer-Daten",
+    "fr-FR": "Donnees du velo d'interieur",
+    "it-IT": "Dati cyclette",
+    "ru-RU": "Данные велотренажера",
+    "ko-KR": "실내 자전거 데이터",
+    "es-ES": "Datos de bicicleta estatica",
+    "ja-JP": "インドアバイクデータ",
+    "nl-NL": "Gegevens hometrainer",
+    "pt-PT": "Dados de bicicleta indoor",
+    "pt-BR": "Dados de bicicleta indoor"
+  },
+  "format": "uint16",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

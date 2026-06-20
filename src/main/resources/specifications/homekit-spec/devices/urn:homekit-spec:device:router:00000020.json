@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:router:00000020",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Router",
-        "zh-CN": "路由器",
-        "fr-FR": "Routeur",
-        "de-DE": "Router",
-        "ja-JP": "ルーター",
-        "ko-KR": "라우터",
-        "es-ES": "Enrutador",
-        "pt-BR": "Roteador",
-        "zh-TW": "路由器"
-    }
+  "type": "urn:homekit-spec:device:router:00000020",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Router",
+    "zh-CN": "路由器",
+    "zh-TW": "路由器",
+    "de-DE": "Router",
+    "fr-FR": "Routeur",
+    "it-IT": "Router",
+    "ru-RU": "Маршрутизатор",
+    "ko-KR": "라우터",
+    "es-ES": "Enrutador",
+    "ja-JP": "ルーター",
+    "nl-NL": "Router",
+    "pt-PT": "Roteador",
+    "pt-BR": "Roteador"
+  }
 }

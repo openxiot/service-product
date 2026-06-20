@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:string:00000009",
-    "description": {
-        "en-US": "string",
-        "zh-CN": "UTF-8 字符串",
-        "fr-FR": "chaine UTF-8",
-        "de-DE": "UTF-8-Zeichenkette",
-        "ja-JP": "UTF-8文字列",
-        "ko-KR": "UTF-8 문자열",
-        "es-ES": "cadena UTF-8",
-        "pt-BR": "string UTF-8",
-        "zh-TW": "UTF-8 字符串"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:string:00000009",
+  "description": {
+    "en-US": "string",
+    "zh-CN": "UTF-8 字符串",
+    "zh-TW": "UTF-8 字符串",
+    "de-DE": "UTF-8-Zeichenkette",
+    "fr-FR": "chaine UTF-8",
+    "it-IT": "string",
+    "ru-RU": "string",
+    "ko-KR": "UTF-8 문자열",
+    "es-ES": "cadena UTF-8",
+    "ja-JP": "UTF-8文字列",
+    "nl-NL": "string",
+    "pt-PT": "string UTF-8",
+    "pt-BR": "string UTF-8"
+  },
+  "lifecycle": "released"
 }

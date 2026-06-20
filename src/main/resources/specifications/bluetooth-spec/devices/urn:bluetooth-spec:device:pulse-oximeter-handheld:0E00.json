@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:pulse-oximeter-handheld:0E00",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Pulse Oximeter (Handheld)",
-        "zh-CN": "脉搏血氧仪（手持）",
-        "fr-FR": "Oxymetre de pouls (portatif)",
-        "de-DE": "Pulsoximeter (handhalt)",
-        "ja-JP": "パルスオキシメータ（ハンドヘルド）",
-        "ko-KR": "맥박 산소 측정기(휴대용)",
-        "es-ES": "Oximetro de pulso (manual)",
-        "pt-BR": "Oximetro de pulso (portatil)",
-        "zh-TW": "脈搏血氧儀（手持）"
-    }
+  "type": "urn:bluetooth-spec:device:pulse-oximeter-handheld:0E00",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Pulse Oximeter (Handheld)",
+    "zh-CN": "脉搏血氧仪（手持）",
+    "zh-TW": "脈搏血氧儀（手持）",
+    "de-DE": "Pulsoximeter (handhalt)",
+    "fr-FR": "Oxymetre de pouls (portatif)",
+    "it-IT": "Ossimetro (portatile)",
+    "ru-RU": "Пульсоксиметр (портативный)",
+    "ko-KR": "맥박 산소 측정기(휴대용)",
+    "es-ES": "Oximetro de pulso (manual)",
+    "ja-JP": "パルスオキシメータ（ハンドヘルド）",
+    "nl-NL": "Pulse-oximeter (handheld)",
+    "pt-PT": "Oximetro de pulso (portatil)",
+    "pt-BR": "Oximetro de pulso (portatil)"
+  }
 }

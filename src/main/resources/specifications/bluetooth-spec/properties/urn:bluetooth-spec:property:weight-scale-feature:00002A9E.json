@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:weight-scale-feature:00002A9E",
-    "description": {
-        "en-US": "Weight Scale Feature",
-        "zh-CN": "体重秤特征",
-        "fr-FR": "Caracteristique du pese-personne",
-        "de-DE": "Waagenfunktion",
-        "ja-JP": "体重計機能",
-        "ko-KR": "체중계 기능",
-        "es-ES": "Caracteristica de la bascula",
-        "pt-BR": "Recurso da balanca",
-        "zh-TW": "體重秤特徵"
-    },
-    "format": "uint32",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:weight-scale-feature:00002A9E",
+  "description": {
+    "en-US": "Weight Scale Feature",
+    "zh-CN": "体重秤特征",
+    "zh-TW": "體重秤特徵",
+    "de-DE": "Waagenfunktion",
+    "fr-FR": "Caracteristique du pese-personne",
+    "it-IT": "Funzione bilancia",
+    "ru-RU": "Функция весов",
+    "ko-KR": "체중계 기능",
+    "es-ES": "Caracteristica de la bascula",
+    "ja-JP": "体重計機能",
+    "nl-NL": "Weegschaalfunctie",
+    "pt-PT": "Recurso da balanca",
+    "pt-BR": "Recurso da balanca"
+  },
+  "format": "uint32",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

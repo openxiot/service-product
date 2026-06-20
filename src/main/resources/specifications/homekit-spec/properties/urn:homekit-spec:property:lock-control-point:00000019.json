@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:lock-control-point:00000019",
-    "description": {
-        "en-US": "Lock Control Point",
-        "zh-CN": "\u9501\u63a7\u5236\u70b9",
-        "fr-FR": "Point de contr\u00f4le de verrouillage",
-        "de-DE": "Steuerpunkt f\u00fcr Schloss",
-        "ja-JP": "\u30ed\u30c3\u30af\u5236\u5fa1\u30dd\u30a4\u30f3\u30c8",
-        "ko-KR": "\uc7a0\uae08 \uc81c\uc5b4 \ud3ec\uc778\ud2b8",
-        "es-ES": "Punto de control de la cerradura",
-        "pt-BR": "Ponto de controle da fechadura",
-        "zh-TW": "\u9396\u63a7\u5236\u9ede"
-    },
-    "format": "tlv8",
-    "access": [
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:lock-control-point:00000019",
+  "description": {
+    "en-US": "Lock Control Point",
+    "zh-CN": "锁控制点",
+    "zh-TW": "鎖控制點",
+    "de-DE": "Steuerpunkt für Schloss",
+    "fr-FR": "Point de contrôle de verrouillage",
+    "it-IT": "Punto controllo serratura",
+    "ru-RU": "Точка управления замком",
+    "ko-KR": "잠금 제어 포인트",
+    "es-ES": "Punto de control de la cerradura",
+    "ja-JP": "ロック制御ポイント",
+    "nl-NL": "Slot controlepunt",
+    "pt-PT": "Ponto de controle da fechadura",
+    "pt-BR": "Ponto de controle da fechadura"
+  },
+  "format": "tlv8",
+  "access": [
+    "write"
+  ],
+  "lifecycle": "released"
 }

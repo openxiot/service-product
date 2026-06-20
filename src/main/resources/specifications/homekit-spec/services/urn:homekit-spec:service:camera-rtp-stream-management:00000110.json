@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:service:camera-rtp-stream-management:00000110",
-    "description": {
-        "en-US": "Camera RTP Stream Management",
-        "zh-CN": "\u6444\u50cf\u5934 RTP \u6d41\u7ba1\u7406",
-        "fr-FR": "Gestion de flux RTP de la cam\u00e9ra",
-        "de-DE": "Kamera-RTP-Stream-Verwaltung",
-        "ja-JP": "\u30ab\u30e1\u30e9RTP\u30b9\u30c8\u30ea\u30fc\u30e0\u7ba1\u7406",
-        "ko-KR": "\uce74\uba54\ub77c RTP \uc2a4\ud2b8\ub9bc \uad00\ub9ac",
-        "es-ES": "Gesti\u00f3n de flujo RTP de c\u00e1mara",
-        "pt-BR": "Gerenciamento de fluxo RTP da c\u00e2mera",
-        "zh-TW": "\u651d\u50cf\u982d RTP \u6d41\u7ba1\u7406"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:supported-video-stream-configuration:00000114",
-        "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
-        "urn:homekit-spec:property:supported-rtp-configuration:00000116",
-        "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
-        "urn:homekit-spec:property:streaming-status:00000120",
-        "urn:homekit-spec:property:setup-endpoints:00000118"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:camera-rtp-stream-management:00000110",
+  "description": {
+    "en-US": "Camera RTP Stream Management",
+    "zh-CN": "摄像头 RTP 流管理",
+    "zh-TW": "攝像頭 RTP 流管理",
+    "de-DE": "Kamera-RTP-Stream-Verwaltung",
+    "fr-FR": "Gestion de flux RTP de la caméra",
+    "it-IT": "Gestione stream RTP videocamera",
+    "ru-RU": "Управление RTP-потоком камеры",
+    "ko-KR": "카메라 RTP 스트림 관리",
+    "es-ES": "Gestión de flujo RTP de cámara",
+    "ja-JP": "カメラRTPストリーム管理",
+    "nl-NL": "Camera RTP-streambeheer",
+    "pt-PT": "Gerenciamento de fluxo RTP da câmera",
+    "pt-BR": "Gerenciamento de fluxo RTP da câmera"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:supported-video-stream-configuration:00000114",
+    "urn:homekit-spec:property:supported-audio-stream-configuration:00000115",
+    "urn:homekit-spec:property:supported-rtp-configuration:00000116",
+    "urn:homekit-spec:property:selected-rtp-stream-configuration:00000117",
+    "urn:homekit-spec:property:streaming-status:00000120",
+    "urn:homekit-spec:property:setup-endpoints:00000118"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

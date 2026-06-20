@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:kelvin:00000003",
-    "description": {
-        "en-US": "kelvin",
-        "zh-CN": "开尔文",
-        "fr-FR": "kelvin",
-        "de-DE": "Kelvin",
-        "ja-JP": "ケルビン",
-        "ko-KR": "켈빈",
-        "es-ES": "kelvin",
-        "pt-BR": "kelvin",
-        "zh-TW": "開爾文"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:kelvin:00000003",
+  "description": {
+    "en-US": "kelvin",
+    "zh-CN": "开尔文",
+    "zh-TW": "開爾文",
+    "de-DE": "Kelvin",
+    "fr-FR": "kelvin",
+    "it-IT": "kelvin",
+    "ru-RU": "kelvin",
+    "ko-KR": "켈빈",
+    "es-ES": "kelvin",
+    "ja-JP": "ケルビン",
+    "nl-NL": "kelvin",
+    "pt-PT": "kelvin",
+    "pt-BR": "kelvin"
+  },
+  "lifecycle": "released"
 }

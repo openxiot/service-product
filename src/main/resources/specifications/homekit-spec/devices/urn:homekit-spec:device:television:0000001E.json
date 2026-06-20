@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:television:0000001E",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Television",
-        "zh-CN": "电视",
-        "fr-FR": "Television",
-        "de-DE": "Fernseher",
-        "ja-JP": "テレビ",
-        "ko-KR": "텔레비전",
-        "es-ES": "Television",
-        "pt-BR": "Televisao",
-        "zh-TW": "電視"
-    }
+  "type": "urn:homekit-spec:device:television:0000001E",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Television",
+    "zh-CN": "电视",
+    "zh-TW": "電視",
+    "de-DE": "Fernseher",
+    "fr-FR": "Television",
+    "it-IT": "Televisione",
+    "ru-RU": "Телевизор",
+    "ko-KR": "텔레비전",
+    "es-ES": "Television",
+    "ja-JP": "テレビ",
+    "nl-NL": "Televisie",
+    "pt-PT": "Televisao",
+    "pt-BR": "Televisao"
+  }
 }

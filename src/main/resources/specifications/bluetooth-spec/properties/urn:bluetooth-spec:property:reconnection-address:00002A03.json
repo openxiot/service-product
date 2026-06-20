@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:reconnection-address:00002A03",
-    "description": {
-        "en-US": "Reconnection Address",
-        "zh-CN": "重连地址",
-        "fr-FR": "Adresse de reconnexion",
-        "de-DE": "Wiederverbindungsadresse",
-        "ja-JP": "再接続アドレス",
-        "ko-KR": "재연결 주소",
-        "es-ES": "Direccion de reconexion",
-        "pt-BR": "Endereco de reconexao",
-        "zh-TW": "重連地址"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:reconnection-address:00002A03",
+  "description": {
+    "en-US": "Reconnection Address",
+    "zh-CN": "重连地址",
+    "zh-TW": "重連地址",
+    "de-DE": "Wiederverbindungsadresse",
+    "fr-FR": "Adresse de reconnexion",
+    "it-IT": "Indirizzo riconnessione",
+    "ru-RU": "Адрес переподключения",
+    "ko-KR": "재연결 주소",
+    "es-ES": "Direccion de reconexion",
+    "ja-JP": "再接続アドレス",
+    "nl-NL": "Herverbindingsadres",
+    "pt-PT": "Endereco de reconexao",
+    "pt-BR": "Endereco de reconexao"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

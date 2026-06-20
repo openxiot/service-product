@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:seconds:00000008",
-    "description": {
-        "en-US": "seconds",
-        "zh-CN": "秒",
-        "fr-FR": "secondes",
-        "de-DE": "Sekunden",
-        "ja-JP": "秒",
-        "ko-KR": "초",
-        "es-ES": "segundos",
-        "pt-BR": "segundos",
-        "zh-TW": "秒"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:seconds:00000008",
+  "description": {
+    "en-US": "seconds",
+    "zh-CN": "秒",
+    "zh-TW": "秒",
+    "de-DE": "Sekunden",
+    "fr-FR": "secondes",
+    "it-IT": "seconds",
+    "ru-RU": "seconds",
+    "ko-KR": "초",
+    "es-ES": "segundos",
+    "ja-JP": "秒",
+    "nl-NL": "seconds",
+    "pt-PT": "segundos",
+    "pt-BR": "segundos"
+  },
+  "lifecycle": "released"
 }

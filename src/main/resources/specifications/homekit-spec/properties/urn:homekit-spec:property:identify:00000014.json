@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:identify:00000014",
-    "description": {
-        "en-US": "Identify",
-        "zh-CN": "\u8bc6\u522b",
-        "fr-FR": "Identifier",
-        "de-DE": "Identifizieren",
-        "ja-JP": "\u8b58\u5225",
-        "ko-KR": "\uc2dd\ubcc4",
-        "es-ES": "Identificar",
-        "pt-BR": "Identificar",
-        "zh-TW": "\u8b58\u5225"
-    },
-    "format": "bool",
-    "access": [
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:identify:00000014",
+  "description": {
+    "en-US": "Identify",
+    "zh-CN": "识别",
+    "zh-TW": "識別",
+    "de-DE": "Identifizieren",
+    "fr-FR": "Identifier",
+    "it-IT": "Identifica",
+    "ru-RU": "Идентификация",
+    "ko-KR": "식별",
+    "es-ES": "Identificar",
+    "ja-JP": "識別",
+    "nl-NL": "Identificeren",
+    "pt-PT": "Identificar",
+    "pt-BR": "Identificar"
+  },
+  "format": "bool",
+  "access": [
+    "write"
+  ],
+  "lifecycle": "released"
 }

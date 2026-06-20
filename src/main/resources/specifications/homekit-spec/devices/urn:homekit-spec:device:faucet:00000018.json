@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:faucet:00000018",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Faucet",
-        "zh-CN": "水龙头",
-        "fr-FR": "Robinet",
-        "de-DE": "Wasserhahn",
-        "ja-JP": "蛇口",
-        "ko-KR": "수도꼭지",
-        "es-ES": "Grifo",
-        "pt-BR": "Torneira",
-        "zh-TW": "水龍頭"
-    }
+  "type": "urn:homekit-spec:device:faucet:00000018",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Faucet",
+    "zh-CN": "水龙头",
+    "zh-TW": "水龍頭",
+    "de-DE": "Wasserhahn",
+    "fr-FR": "Robinet",
+    "it-IT": "Rubinetto",
+    "ru-RU": "Кран",
+    "ko-KR": "수도꼭지",
+    "es-ES": "Grifo",
+    "ja-JP": "蛇口",
+    "nl-NL": "Kraan",
+    "pt-PT": "Torneira",
+    "pt-BR": "Torneira"
+  }
 }

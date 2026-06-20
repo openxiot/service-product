@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:blood-pressure-feature:00002A49",
-    "description": {
-        "en-US": "Blood Pressure Feature",
-        "zh-CN": "血压特征",
-        "fr-FR": "Caracteristique de la pression arterielle",
-        "de-DE": "Blutdruckmerkmal",
-        "ja-JP": "血圧機能",
-        "ko-KR": "혈압 기능",
-        "es-ES": "Caracteristica de presion arterial",
-        "pt-BR": "Recurso de pressao arterial",
-        "zh-TW": "血壓特徵"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:blood-pressure-feature:00002A49",
+  "description": {
+    "en-US": "Blood Pressure Feature",
+    "zh-CN": "血压特征",
+    "zh-TW": "血壓特徵",
+    "de-DE": "Blutdruckmerkmal",
+    "fr-FR": "Caracteristique de la pression arterielle",
+    "it-IT": "Funzione pressione sanguigna",
+    "ru-RU": "Функция измерения давления",
+    "ko-KR": "혈압 기능",
+    "es-ES": "Caracteristica de presion arterial",
+    "ja-JP": "血圧機能",
+    "nl-NL": "Bloeddrukfunctie",
+    "pt-PT": "Recurso de pressao arterial",
+    "pt-BR": "Recurso de pressao arterial"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:glucose-measurement:00002A18",
-    "description": {
-        "en-US": "Glucose Measurement",
-        "zh-CN": "血糖测量",
-        "fr-FR": "Mesure du glucose",
-        "de-DE": "Glukosemessung",
-        "ja-JP": "血糖測定",
-        "ko-KR": "혈당 측정",
-        "es-ES": "Medicion de glucosa",
-        "pt-BR": "Medicao de glicose",
-        "zh-TW": "血糖測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:glucose-measurement:00002A18",
+  "description": {
+    "en-US": "Glucose Measurement",
+    "zh-CN": "血糖测量",
+    "zh-TW": "血糖測量",
+    "de-DE": "Glukosemessung",
+    "fr-FR": "Mesure du glucose",
+    "it-IT": "Misurazione glucosio",
+    "ru-RU": "Измерение глюкозы",
+    "ko-KR": "혈당 측정",
+    "es-ES": "Medicion de glucosa",
+    "ja-JP": "血糖測定",
+    "nl-NL": "Glucosemeting",
+    "pt-PT": "Medicao de glicose",
+    "pt-BR": "Medicao de glicose"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

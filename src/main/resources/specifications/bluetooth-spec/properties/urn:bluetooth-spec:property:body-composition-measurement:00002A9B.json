@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:body-composition-measurement:00002A9B",
-    "description": {
-        "en-US": "Body Composition Measurement",
-        "zh-CN": "身体成分测量",
-        "fr-FR": "Mesure de la composition corporelle",
-        "de-DE": "Korperzusammensetzungsmessung",
-        "ja-JP": "体組成測定",
-        "ko-KR": "체성분 측정",
-        "es-ES": "Medicion de composicion corporal",
-        "pt-BR": "Medicao da composicao corporal",
-        "zh-TW": "身體成分測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:body-composition-measurement:00002A9B",
+  "description": {
+    "en-US": "Body Composition Measurement",
+    "zh-CN": "身体成分测量",
+    "zh-TW": "身體成分測量",
+    "de-DE": "Korperzusammensetzungsmessung",
+    "fr-FR": "Mesure de la composition corporelle",
+    "it-IT": "Misurazione composizione corporea",
+    "ru-RU": "Измерение состава тела",
+    "ko-KR": "체성분 측정",
+    "es-ES": "Medicion de composicion corporal",
+    "ja-JP": "体組成測定",
+    "nl-NL": "Lichaamssamenstellingmeting",
+    "pt-PT": "Medicao da composicao corporal",
+    "pt-BR": "Medicao da composicao corporal"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

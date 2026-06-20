@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:service:cycling-power:1818",
-    "description": {
-        "en-US": "Cycling Power",
-        "zh-CN": "骑行功率",
-        "fr-FR": "Puissance cycliste",
-        "de-DE": "Radfahrleistung",
-        "ja-JP": "サイクリングパワー",
-        "ko-KR": "사이클링 파워",
-        "es-ES": "Potencia ciclista",
-        "pt-BR": "Potencia ciclistica",
-        "zh-TW": "騎行功率"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
-        "urn:bluetooth-spec:property:cycling-power-feature:00002A64"
-    ]
+  "type": "urn:bluetooth-spec:service:cycling-power:1818",
+  "description": {
+    "en-US": "Cycling Power",
+    "zh-CN": "骑行功率",
+    "zh-TW": "騎行功率",
+    "de-DE": "Radfahrleistung",
+    "fr-FR": "Puissance cycliste",
+    "it-IT": "Potenza ciclismo",
+    "ru-RU": "Мощность педалирования",
+    "ko-KR": "사이클링 파워",
+    "es-ES": "Potencia ciclista",
+    "ja-JP": "サイクリングパワー",
+    "nl-NL": "Fietsvermogen",
+    "pt-PT": "Potencia ciclistica",
+    "pt-BR": "Potencia ciclistica"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
+    "urn:bluetooth-spec:property:cycling-power-feature:00002A64"
+  ]
 }

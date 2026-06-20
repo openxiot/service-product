@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:http-status-code:00002AB8",
-    "description": {
-        "en-US": "HTTP Status Code",
-        "zh-CN": "HTTP 状态码",
-        "fr-FR": "Code d'etat HTTP",
-        "de-DE": "HTTP-Statuscode",
-        "ja-JP": "HTTPステータスコード",
-        "ko-KR": "HTTP 상태 코드",
-        "es-ES": "Codigo de estado HTTP",
-        "pt-BR": "Codigo de status HTTP",
-        "zh-TW": "HTTP 狀態碼"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:http-status-code:00002AB8",
+  "description": {
+    "en-US": "HTTP Status Code",
+    "zh-CN": "HTTP 状态码",
+    "zh-TW": "HTTP 狀態碼",
+    "de-DE": "HTTP-Statuscode",
+    "fr-FR": "Code d'etat HTTP",
+    "it-IT": "Codice stato HTTP",
+    "ru-RU": "Код состояния HTTP",
+    "ko-KR": "HTTP 상태 코드",
+    "es-ES": "Codigo de estado HTTP",
+    "ja-JP": "HTTPステータスコード",
+    "nl-NL": "HTTP-statuscode",
+    "pt-PT": "Codigo de status HTTP",
+    "pt-BR": "Codigo de status HTTP"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

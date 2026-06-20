@@ -1,64 +1,80 @@
 {
-    "type": "urn:homekit-spec:property:current-slat-state:000000AA",
-    "description": {
-        "en-US": "Current Slat State",
-        "zh-CN": "\u5f53\u524d\u767e\u53f6\u7a97\u53f6\u7247\u72b6\u6001",
-        "fr-FR": "\u00c9tat actuel des lamelles",
-        "de-DE": "Aktueller Lamellenstatus",
-        "ja-JP": "\u73fe\u5728\u306e\u30b9\u30e9\u30c3\u30c8\u72b6\u614b",
-        "ko-KR": "\ud604\uc7ac \uc2ac\ub7ab \uc0c1\ud0dc",
-        "es-ES": "Estado actual de las lamas",
-        "pt-BR": "Estado atual das l\u00e2minas",
-        "zh-TW": "\u7576\u524d\u767e\u8449\u7a97\u8449\u7247\u72c0\u614b"
+  "type": "urn:homekit-spec:property:current-slat-state:000000AA",
+  "description": {
+    "en-US": "Current Slat State",
+    "zh-CN": "当前百叶窗叶片状态",
+    "zh-TW": "當前百葉窗葉片狀態",
+    "de-DE": "Aktueller Lamellenstatus",
+    "fr-FR": "État actuel des lamelles",
+    "it-IT": "Stato attuale lamelle",
+    "ru-RU": "Текущее состояние ламелей",
+    "ko-KR": "현재 슬랫 상태",
+    "es-ES": "Estado actual de las lamas",
+    "ja-JP": "現在のスラット状態",
+    "nl-NL": "Huidige lamellenstatus",
+    "pt-PT": "Estado atual das lâminas",
+    "pt-BR": "Estado atual das lâminas"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "FIXED",
+        "zh-CN": "固定",
+        "fr-FR": "FIXE",
+        "de-DE": "FEST",
+        "ja-JP": "固定",
+        "ko-KR": "고정",
+        "es-ES": "FIJO",
+        "pt-BR": "FIXO",
+        "zh-TW": "固定",
+        "it-IT": "FISSO",
+        "ru-RU": "ФИКСИРОВАННЫЙ",
+        "nl-NL": "VAST",
+        "pt-PT": "FIXO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "FIXED",
-                "zh-CN": "\u56fa\u5b9a",
-                "fr-FR": "FIXE",
-                "de-DE": "FEST",
-                "ja-JP": "\u56fa\u5b9a",
-                "ko-KR": "\uace0\uc815",
-                "es-ES": "FIJO",
-                "pt-BR": "FIXO",
-                "zh-TW": "\u56fa\u5b9a"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "JAMMED",
-                "zh-CN": "\u5361\u4f4f",
-                "fr-FR": "BLOQU\u00c9",
-                "de-DE": "BLOCKIERT",
-                "ja-JP": "\u8a70\u307e\u308a",
-                "ko-KR": "\uac78\ub9bc",
-                "es-ES": "ATASCADO",
-                "pt-BR": "TRAVADO",
-                "zh-TW": "\u5361\u4f4f"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "SWINGING",
-                "zh-CN": "\u6446\u52a8\u4e2d",
-                "fr-FR": "OSCILLATION",
-                "de-DE": "SCHWENKT",
-                "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u4e2d",
-                "ko-KR": "\uc2a4\uc719 \uc911",
-                "es-ES": "OSCILANDO",
-                "pt-BR": "OSCILANDO",
-                "zh-TW": "\u64fa\u52d5\u4e2d"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "JAMMED",
+        "zh-CN": "卡住",
+        "fr-FR": "BLOQUÉ",
+        "de-DE": "BLOCKIERT",
+        "ja-JP": "詰まり",
+        "ko-KR": "걸림",
+        "es-ES": "ATASCADO",
+        "pt-BR": "TRAVADO",
+        "zh-TW": "卡住",
+        "it-IT": "INCEPPATO",
+        "ru-RU": "ЗАБЛОКИРОВАНО",
+        "nl-NL": "GEBLOKKEERD",
+        "pt-PT": "TRAVADO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "SWINGING",
+        "zh-CN": "摆动中",
+        "fr-FR": "OSCILLATION",
+        "de-DE": "SCHWENKT",
+        "ja-JP": "スイング中",
+        "ko-KR": "스윙 중",
+        "es-ES": "OSCILANDO",
+        "pt-BR": "OSCILANDO",
+        "zh-TW": "擺動中",
+        "it-IT": "OSCILLAZIONE",
+        "ru-RU": "КАЧАНИЕ",
+        "nl-NL": "ZWAAIEN",
+        "pt-PT": "OSCILANDO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

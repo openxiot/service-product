@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:generic-cycling:14C0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Generic Cycling",
-        "zh-CN": "骑行",
-        "fr-FR": "Cyclisme generique",
-        "de-DE": "Radfahren",
-        "ja-JP": "サイクリング",
-        "ko-KR": "사이클링",
-        "es-ES": "Ciclismo",
-        "pt-BR": "Ciclismo",
-        "zh-TW": "騎行"
-    }
+  "type": "urn:bluetooth-spec:device:generic-cycling:14C0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Generic Cycling",
+    "zh-CN": "骑行",
+    "zh-TW": "騎行",
+    "de-DE": "Radfahren",
+    "fr-FR": "Cyclisme generique",
+    "it-IT": "Ciclismo generico",
+    "ru-RU": "Велоспорт общий",
+    "ko-KR": "사이클링",
+    "es-ES": "Ciclismo",
+    "ja-JP": "サイクリング",
+    "nl-NL": "Algemeen fietsen",
+    "pt-PT": "Ciclismo",
+    "pt-BR": "Ciclismo"
+  }
 }

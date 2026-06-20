@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:ozone-density:000000C3",
-    "description": {
-        "en-US": "Ozone Density",
-        "zh-CN": "\u81ed\u6c27\u6d53\u5ea6",
-        "fr-FR": "Densit\u00e9 d'ozone",
-        "de-DE": "Ozondichte",
-        "ja-JP": "\u30aa\u30be\u30f3\u6fc3\u5ea6",
-        "ko-KR": "\uc624\uc874 \ubc00\ub3c4",
-        "es-ES": "Densidad de ozono",
-        "pt-BR": "Densidade de oz\u00f4nio",
-        "zh-TW": "\u81ed\u6c27\u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:ozone-density:000000C3",
+  "description": {
+    "en-US": "Ozone Density",
+    "zh-CN": "臭氧浓度",
+    "zh-TW": "臭氧濃度",
+    "de-DE": "Ozondichte",
+    "fr-FR": "Densité d'ozone",
+    "it-IT": "Densità ozono",
+    "ru-RU": "Плотность озона",
+    "ko-KR": "오존 밀도",
+    "es-ES": "Densidad de ozono",
+    "ja-JP": "オゾン濃度",
+    "nl-NL": "Ozondichtheid",
+    "pt-PT": "Densidade de ozônio",
+    "pt-BR": "Densidade de ozônio"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1000,
+    1
+  ],
+  "lifecycle": "released"
 }

@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:current-time:00002A2B",
-    "description": {
-        "en-US": "Current Time",
-        "zh-CN": "当前时间",
-        "fr-FR": "Heure actuelle",
-        "de-DE": "Aktuelle Uhrzeit",
-        "ja-JP": "現在時刻",
-        "ko-KR": "현재 시간",
-        "es-ES": "Hora actual",
-        "pt-BR": "Hora atual",
-        "zh-TW": "當前時間"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:current-time:00002A2B",
+  "description": {
+    "en-US": "Current Time",
+    "zh-CN": "当前时间",
+    "zh-TW": "當前時間",
+    "de-DE": "Aktuelle Uhrzeit",
+    "fr-FR": "Heure actuelle",
+    "it-IT": "Ora attuale",
+    "ru-RU": "Текущее время",
+    "ko-KR": "현재 시간",
+    "es-ES": "Hora actual",
+    "ja-JP": "現在時刻",
+    "nl-NL": "Huidige tijd",
+    "pt-PT": "Hora atual",
+    "pt-BR": "Hora atual"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:alarm-system:0000001A",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Alarm System",
-        "zh-CN": "警报系统",
-        "fr-FR": "Systeme d'alarme",
-        "de-DE": "Alarmanlage",
-        "ja-JP": "警報システム",
-        "ko-KR": "경보 시스템",
-        "es-ES": "Sistema de alarma",
-        "pt-BR": "Sistema de alarme",
-        "zh-TW": "警報系統"
-    }
+  "type": "urn:homekit-spec:device:alarm-system:0000001A",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Alarm System",
+    "zh-CN": "警报系统",
+    "zh-TW": "警報系統",
+    "de-DE": "Alarmanlage",
+    "fr-FR": "Systeme d'alarme",
+    "it-IT": "Sistema d'allarme",
+    "ru-RU": "Охранная система",
+    "ko-KR": "경보 시스템",
+    "es-ES": "Sistema de alarma",
+    "ja-JP": "警報システム",
+    "nl-NL": "Alarmsysteem",
+    "pt-PT": "Sistema de alarme",
+    "pt-BR": "Sistema de alarme"
+  }
 }

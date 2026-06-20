@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:logs:0000001F",
-    "description": {
-        "en-US": "Logs",
-        "zh-CN": "\u65e5\u5fd7",
-        "fr-FR": "Journaux",
-        "de-DE": "Protokolle",
-        "ja-JP": "\u30ed\u30b0",
-        "ko-KR": "\ub85c\uadf8",
-        "es-ES": "Registros",
-        "pt-BR": "Registros",
-        "zh-TW": "\u65e5\u8a8c"
-    },
-    "format": "tlv8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:logs:0000001F",
+  "description": {
+    "en-US": "Logs",
+    "zh-CN": "日志",
+    "zh-TW": "日誌",
+    "de-DE": "Protokolle",
+    "fr-FR": "Journaux",
+    "it-IT": "Registri",
+    "ru-RU": "Журналы",
+    "ko-KR": "로그",
+    "es-ES": "Registros",
+    "ja-JP": "ログ",
+    "nl-NL": "Logboeken",
+    "pt-PT": "Registros",
+    "pt-BR": "Registros"
+  },
+  "format": "tlv8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:http-entity-body:00002AB9",
-    "description": {
-        "en-US": "HTTP Entity Body",
-        "zh-CN": "HTTP 实体主体",
-        "fr-FR": "Corps d'entite HTTP",
-        "de-DE": "HTTP-Entitatskorper",
-        "ja-JP": "HTTPエンティティボディ",
-        "ko-KR": "HTTP 엔티티 본문",
-        "es-ES": "Cuerpo de entidad HTTP",
-        "pt-BR": "Corpo da entidade HTTP",
-        "zh-TW": "HTTP 實體主體"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:http-entity-body:00002AB9",
+  "description": {
+    "en-US": "HTTP Entity Body",
+    "zh-CN": "HTTP 实体主体",
+    "zh-TW": "HTTP 實體主體",
+    "de-DE": "HTTP-Entitatskorper",
+    "fr-FR": "Corps d'entite HTTP",
+    "it-IT": "Corpo entità HTTP",
+    "ru-RU": "Тело HTTP-сущности",
+    "ko-KR": "HTTP 엔티티 본문",
+    "es-ES": "Cuerpo de entidad HTTP",
+    "ja-JP": "HTTPエンティティボディ",
+    "nl-NL": "HTTP-entiteitsbody",
+    "pt-PT": "Corpo da entidade HTTP",
+    "pt-BR": "Corpo da entidade HTTP"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

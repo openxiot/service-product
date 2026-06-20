@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:switch:00000008",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Switch",
-        "zh-CN": "开关",
-        "fr-FR": "Interrupteur",
-        "de-DE": "Schalter",
-        "ja-JP": "スイッチ",
-        "ko-KR": "스위치",
-        "es-ES": "Interruptor",
-        "pt-BR": "Interruptor",
-        "zh-TW": "開關"
-    }
+  "type": "urn:homekit-spec:device:switch:00000008",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Switch",
+    "zh-CN": "开关",
+    "zh-TW": "開關",
+    "de-DE": "Schalter",
+    "fr-FR": "Interrupteur",
+    "it-IT": "Interruttore",
+    "ru-RU": "Переключатель",
+    "ko-KR": "스위치",
+    "es-ES": "Interruptor",
+    "ja-JP": "スイッチ",
+    "nl-NL": "Schakelaar",
+    "pt-PT": "Interruptor",
+    "pt-BR": "Interruptor"
+  }
 }

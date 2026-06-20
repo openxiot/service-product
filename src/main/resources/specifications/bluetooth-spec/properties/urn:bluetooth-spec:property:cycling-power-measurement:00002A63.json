@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
-    "description": {
-        "en-US": "Cycling Power Measurement",
-        "zh-CN": "骑行功率测量",
-        "fr-FR": "Mesure de puissance cycliste",
-        "de-DE": "Radfahrleistungsmessung",
-        "ja-JP": "サイクリングパワー測定",
-        "ko-KR": "사이클링 파워 측정",
-        "es-ES": "Medicion de potencia ciclista",
-        "pt-BR": "Medicao de potencia ciclistica",
-        "zh-TW": "騎行功率測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:cycling-power-measurement:00002A63",
+  "description": {
+    "en-US": "Cycling Power Measurement",
+    "zh-CN": "骑行功率测量",
+    "zh-TW": "騎行功率測量",
+    "de-DE": "Radfahrleistungsmessung",
+    "fr-FR": "Mesure de puissance cycliste",
+    "it-IT": "Misurazione potenza ciclismo",
+    "ru-RU": "Измерение мощности цикла",
+    "ko-KR": "사이클링 파워 측정",
+    "es-ES": "Medicion de potencia ciclista",
+    "ja-JP": "サイクリングパワー測定",
+    "nl-NL": "Fietsvermogensmeting",
+    "pt-PT": "Medicao de potencia ciclistica",
+    "pt-BR": "Medicao de potencia ciclistica"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

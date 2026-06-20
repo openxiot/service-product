@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:int8:00000005",
-    "description": {
-        "en-US": "int8",
-        "zh-CN": "有符号 8 位整数",
-        "fr-FR": "int8",
-        "de-DE": "int8",
-        "ja-JP": "int8",
-        "ko-KR": "int8",
-        "es-ES": "int8",
-        "pt-BR": "int8",
-        "zh-TW": "有符號 8 位整數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:int8:00000005",
+  "description": {
+    "en-US": "int8",
+    "zh-CN": "有符号 8 位整数",
+    "zh-TW": "有符號 8 位整數",
+    "de-DE": "int8",
+    "fr-FR": "int8",
+    "it-IT": "int8",
+    "ru-RU": "int8",
+    "ko-KR": "int8",
+    "es-ES": "int8",
+    "ja-JP": "int8",
+    "nl-NL": "int8",
+    "pt-PT": "int8",
+    "pt-BR": "int8"
+  },
+  "lifecycle": "released"
 }

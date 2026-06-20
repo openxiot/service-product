@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:pascals:00000016",
-    "description": {
-        "en-US": "pascals",
-        "zh-CN": "帕斯卡",
-        "fr-FR": "pascals",
-        "de-DE": "Pascal",
-        "ja-JP": "パスカル",
-        "ko-KR": "파스칼",
-        "es-ES": "pascales",
-        "pt-BR": "pascals",
-        "zh-TW": "帕斯卡"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:pascals:00000016",
+  "description": {
+    "en-US": "pascals",
+    "zh-CN": "帕斯卡",
+    "zh-TW": "帕斯卡",
+    "de-DE": "Pascal",
+    "fr-FR": "pascals",
+    "it-IT": "pascals",
+    "ru-RU": "pascals",
+    "ko-KR": "파스칼",
+    "es-ES": "pascales",
+    "ja-JP": "パスカル",
+    "nl-NL": "pascals",
+    "pt-PT": "pascals",
+    "pt-BR": "pascals"
+  },
+  "lifecycle": "released"
 }

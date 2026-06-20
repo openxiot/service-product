@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:http-headers:00002AB7",
-    "description": {
-        "en-US": "HTTP Headers",
-        "zh-CN": "HTTP 头部",
-        "fr-FR": "En-tetes HTTP",
-        "de-DE": "HTTP-Header",
-        "ja-JP": "HTTPヘッダー",
-        "ko-KR": "HTTP 헤더",
-        "es-ES": "Encabezados HTTP",
-        "pt-BR": "Cabecalhos HTTP",
-        "zh-TW": "HTTP 頭部"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:http-headers:00002AB7",
+  "description": {
+    "en-US": "HTTP Headers",
+    "zh-CN": "HTTP 头部",
+    "zh-TW": "HTTP 頭部",
+    "de-DE": "HTTP-Header",
+    "fr-FR": "En-tetes HTTP",
+    "it-IT": "Intestazioni HTTP",
+    "ru-RU": "Заголовки HTTP",
+    "ko-KR": "HTTP 헤더",
+    "es-ES": "Encabezados HTTP",
+    "ja-JP": "HTTPヘッダー",
+    "nl-NL": "HTTP-headers",
+    "pt-PT": "Cabecalhos HTTP",
+    "pt-BR": "Cabecalhos HTTP"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

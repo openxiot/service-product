@@ -1,64 +1,80 @@
 {
-    "type": "urn:homekit-spec:property:program-mode:000000D1",
-    "description": {
-        "en-US": "Program Mode",
-        "zh-CN": "\u7a0b\u5e8f\u6a21\u5f0f",
-        "fr-FR": "Mode programm\u00e9",
-        "de-DE": "Programmmodus",
-        "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u30e2\u30fc\u30c9",
-        "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \ubaa8\ub4dc",
-        "es-ES": "Modo de programa",
-        "pt-BR": "Modo de programa",
-        "zh-TW": "\u7a0b\u5e8f\u6a21\u5f0f"
+  "type": "urn:homekit-spec:property:program-mode:000000D1",
+  "description": {
+    "en-US": "Program Mode",
+    "zh-CN": "程序模式",
+    "zh-TW": "程序模式",
+    "de-DE": "Programmmodus",
+    "fr-FR": "Mode programmé",
+    "it-IT": "Modalità programma",
+    "ru-RU": "Режим программы",
+    "ko-KR": "프로그램 모드",
+    "es-ES": "Modo de programa",
+    "ja-JP": "プログラムモード",
+    "nl-NL": "Programmamodus",
+    "pt-PT": "Modo de programa",
+    "pt-BR": "Modo de programa"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "NO_PROGRAM_SCHEDULED",
+        "zh-CN": "无计划程序",
+        "fr-FR": "AUCUN PROGRAMME PLANIFIÉ",
+        "de-DE": "KEIN PROGRAMM GEPLANT",
+        "ja-JP": "プログラム未予定",
+        "ko-KR": "예약된 프로그램 없음",
+        "es-ES": "SIN PROGRAMA PROGRAMADO",
+        "pt-BR": "NENHUM PROGRAMA AGENDADO",
+        "zh-TW": "無計劃程序",
+        "it-IT": "NESSUN_PROGRAMMA_PIANIFICATO",
+        "ru-RU": "ПРОГРАММА_НЕ_ЗАПЛАНИРОВАНА",
+        "nl-NL": "GEEN_PROGRAMMA_GEPLAND",
+        "pt-PT": "NENHUM PROGRAMA AGENDADO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "NO_PROGRAM_SCHEDULED",
-                "zh-CN": "\u65e0\u8ba1\u5212\u7a0b\u5e8f",
-                "fr-FR": "AUCUN PROGRAMME PLANIFI\u00c9",
-                "de-DE": "KEIN PROGRAMM GEPLANT",
-                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u672a\u4e88\u5b9a",
-                "ko-KR": "\uc608\uc57d\ub41c \ud504\ub85c\uadf8\ub7a8 \uc5c6\uc74c",
-                "es-ES": "SIN PROGRAMA PROGRAMADO",
-                "pt-BR": "NENHUM PROGRAMA AGENDADO",
-                "zh-TW": "\u7121\u8a08\u5283\u7a0b\u5e8f"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "PROGRAM_SCHEDULED",
-                "zh-CN": "\u5df2\u8ba1\u5212\u7a0b\u5e8f",
-                "fr-FR": "PROGRAMME PLANIFI\u00c9",
-                "de-DE": "PROGRAMM GEPLANT",
-                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a",
-                "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428",
-                "es-ES": "PROGRAMA PROGRAMADO",
-                "pt-BR": "PROGRAMA AGENDADO",
-                "zh-TW": "\u5df2\u8a08\u5283\u7a0b\u5e8f"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "PROGRAM_SCHEDULED_(MANUAL_MODE)",
-                "zh-CN": "\u8ba1\u5212\u7a0b\u5e8f\uff08\u624b\u52a8\u6a21\u5f0f\uff09",
-                "fr-FR": "PROGRAMME PLANIFI\u00c9 (MODE MANUEL)",
-                "de-DE": "PROGRAMM GEPLANT (MANUELLER MODUS)",
-                "ja-JP": "\u30d7\u30ed\u30b0\u30e9\u30e0\u4e88\u5b9a\uff08\u624b\u52d5\u30e2\u30fc\u30c9\uff09",
-                "ko-KR": "\ud504\ub85c\uadf8\ub7a8 \uc608\uc57d\ub428 (\uc218\ub3d9 \ubaa8\ub4dc)",
-                "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
-                "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)",
-                "zh-TW": "\u8a08\u5283\u7a0b\u5e8f\uff08\u624b\u52d5\u6a21\u5f0f\uff09"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "PROGRAM_SCHEDULED",
+        "zh-CN": "已计划程序",
+        "fr-FR": "PROGRAMME PLANIFIÉ",
+        "de-DE": "PROGRAMM GEPLANT",
+        "ja-JP": "プログラム予定",
+        "ko-KR": "프로그램 예약됨",
+        "es-ES": "PROGRAMA PROGRAMADO",
+        "pt-BR": "PROGRAMA AGENDADO",
+        "zh-TW": "已計劃程序",
+        "it-IT": "PROGRAMMA_PIANIFICATO",
+        "ru-RU": "ПРОГРАММА_ЗАПЛАНИРОВАНА",
+        "nl-NL": "PROGRAMMA_GEPLAND",
+        "pt-PT": "PROGRAMA AGENDADO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "PROGRAM_SCHEDULED_(MANUAL_MODE)",
+        "zh-CN": "计划程序（手动模式）",
+        "fr-FR": "PROGRAMME PLANIFIÉ (MODE MANUEL)",
+        "de-DE": "PROGRAMM GEPLANT (MANUELLER MODUS)",
+        "ja-JP": "プログラム予定（手動モード）",
+        "ko-KR": "프로그램 예약됨 (수동 모드)",
+        "es-ES": "PROGRAMA PROGRAMADO (MODO MANUAL)",
+        "pt-BR": "PROGRAMA AGENDADO (MODO MANUAL)",
+        "zh-TW": "計劃程序（手動模式）",
+        "it-IT": "PROGRAM_SCHEDULED_ (MANUAL_MODE)",
+        "ru-RU": "PROGRAM_SCHEDULED_ (MANUAL_MODE)",
+        "nl-NL": "PROGRAM_SCHEDULED_ (MANUAL_MODE)",
+        "pt-PT": "PROGRAMA AGENDADO (MODO MANUAL)"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

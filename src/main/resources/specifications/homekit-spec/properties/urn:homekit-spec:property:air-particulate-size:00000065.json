@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:air-particulate-size:00000065",
-    "description": {
-        "en-US": "Air Particulate Size",
-        "zh-CN": "\u7a7a\u6c14\u9897\u7c92\u7269\u5927\u5c0f",
-        "fr-FR": "Taille des particules en suspension",
-        "de-DE": "Luftpartikelgr\u00f6\u00dfe",
-        "ja-JP": "\u7a7a\u6c17\u5fae\u7c92\u5b50\u30b5\u30a4\u30ba",
-        "ko-KR": "\uacf5\uae30 \uc911 \ubbf8\uc138 \uc785\uc790 \ud06c\uae30",
-        "es-ES": "Tama\u00f1o de part\u00edculas en suspensi\u00f3n",
-        "pt-BR": "Tamanho de part\u00edculas no ar",
-        "zh-TW": "\u7a7a\u6c23\u9846\u7c92\u7269\u5927\u5c0f"
+  "type": "urn:homekit-spec:property:air-particulate-size:00000065",
+  "description": {
+    "en-US": "Air Particulate Size",
+    "zh-CN": "空气颗粒物大小",
+    "zh-TW": "空氣顆粒物大小",
+    "de-DE": "Luftpartikelgröße",
+    "fr-FR": "Taille des particules en suspension",
+    "it-IT": "Dimensione particolato aria",
+    "ru-RU": "Размер взвешенных частиц",
+    "ko-KR": "공기 중 미세 입자 크기",
+    "es-ES": "Tamaño de partículas en suspensión",
+    "ja-JP": "空気微粒子サイズ",
+    "nl-NL": "Grootte zwevende deeltjes",
+    "pt-PT": "Tamanho de partículas no ar",
+    "pt-BR": "Tamanho de partículas no ar"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "2_5_ΜM",
+        "zh-CN": "2.5 微米",
+        "fr-FR": "2,5 ΜM",
+        "de-DE": "2,5 ΜM",
+        "ja-JP": "2.5 ΜM",
+        "ko-KR": "2.5 ΜM",
+        "es-ES": "2,5 ΜM",
+        "pt-BR": "2,5 ΜM",
+        "zh-TW": "2.5 微米",
+        "it-IT": "2_5_ΜM",
+        "ru-RU": "2_5_ΜM",
+        "nl-NL": "2_5_ΜM",
+        "pt-PT": "2,5 ΜM"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "2_5_\u039cM",
-                "zh-CN": "2.5 \u5fae\u7c73",
-                "fr-FR": "2,5 \u039cM",
-                "de-DE": "2,5 \u039cM",
-                "ja-JP": "2.5 \u039cM",
-                "ko-KR": "2.5 \u039cM",
-                "es-ES": "2,5 \u039cM",
-                "pt-BR": "2,5 \u039cM",
-                "zh-TW": "2.5 \u5fae\u7c73"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "10_\u039cM",
-                "zh-CN": "10 \u5fae\u7c73",
-                "fr-FR": "10 \u039cM",
-                "de-DE": "10 \u039cM",
-                "ja-JP": "10 \u039cM",
-                "ko-KR": "10 \u039cM",
-                "es-ES": "10 \u039cM",
-                "pt-BR": "10 \u039cM",
-                "zh-TW": "10 \u5fae\u7c73"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "10_ΜM",
+        "zh-CN": "10 微米",
+        "fr-FR": "10 ΜM",
+        "de-DE": "10 ΜM",
+        "ja-JP": "10 ΜM",
+        "ko-KR": "10 ΜM",
+        "es-ES": "10 ΜM",
+        "pt-BR": "10 ΜM",
+        "zh-TW": "10 微米",
+        "it-IT": "10_ΜM",
+        "ru-RU": "10_ΜM",
+        "nl-NL": "10_ΜM",
+        "pt-PT": "10 ΜM"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

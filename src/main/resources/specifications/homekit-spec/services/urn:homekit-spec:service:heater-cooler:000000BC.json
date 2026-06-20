@@ -1,30 +1,34 @@
 {
-    "type": "urn:homekit-spec:service:heater-cooler:000000BC",
-    "description": {
-        "en-US": "Heater Cooler",
-        "zh-CN": "\u52a0\u70ed\u5668/\u51b7\u5374\u5668",
-        "fr-FR": "Chauffage/Refroidisseur",
-        "de-DE": "Heizung/K\u00fchler",
-        "ja-JP": "\u52a0\u71b1\u5668/\u51b7\u5374\u5668",
-        "ko-KR": "\ud788\ud130/\ucfe8\ub7ec",
-        "es-ES": "Calefactor/Enfriador",
-        "pt-BR": "Aquecedor/Refrigerador",
-        "zh-TW": "\u52a0\u71b1\u5668/\u51b7\u537b\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
-        "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
-        "urn:homekit-spec:property:current-temperature:00000011"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
-        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-        "urn:homekit-spec:property:temperature-display-units:00000036",
-        "urn:homekit-spec:property:rotation-speed:00000029"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:heater-cooler:000000BC",
+  "description": {
+    "en-US": "Heater Cooler",
+    "zh-CN": "加热器/冷却器",
+    "zh-TW": "加熱器/冷卻器",
+    "de-DE": "Heizung/Kühler",
+    "fr-FR": "Chauffage/Refroidisseur",
+    "it-IT": "Riscaldatore/raffreddatore",
+    "ru-RU": "Нагреватель/охладитель",
+    "ko-KR": "히터/쿨러",
+    "es-ES": "Calefactor/Enfriador",
+    "ja-JP": "加熱器/冷却器",
+    "nl-NL": "Verwarmer/koeler",
+    "pt-PT": "Aquecedor/Refrigerador",
+    "pt-BR": "Aquecedor/Refrigerador"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:active:000000B0",
+    "urn:homekit-spec:property:current-heater-cooler-state:000000B1",
+    "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
+    "urn:homekit-spec:property:current-temperature:00000011"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:lock-physical-controls:000000A7",
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:swing-mode:000000B6",
+    "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+    "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+    "urn:homekit-spec:property:temperature-display-units:00000036",
+    "urn:homekit-spec:property:rotation-speed:00000029"
+  ],
+  "lifecycle": "released"
 }

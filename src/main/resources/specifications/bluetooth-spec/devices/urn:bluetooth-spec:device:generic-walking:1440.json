@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:generic-walking:1440",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Generic Walking",
-        "zh-CN": "步行",
-        "fr-FR": "Marche generique",
-        "de-DE": "Gehen",
-        "ja-JP": "ウォーキング",
-        "ko-KR": "걷기",
-        "es-ES": "Caminar",
-        "pt-BR": "Caminhada",
-        "zh-TW": "步行"
-    }
+  "type": "urn:bluetooth-spec:device:generic-walking:1440",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Generic Walking",
+    "zh-CN": "步行",
+    "zh-TW": "步行",
+    "de-DE": "Gehen",
+    "fr-FR": "Marche generique",
+    "it-IT": "Camminata generica",
+    "ru-RU": "Ходьба общая",
+    "ko-KR": "걷기",
+    "es-ES": "Caminar",
+    "ja-JP": "ウォーキング",
+    "nl-NL": "Algemeen wandelen",
+    "pt-PT": "Caminhada",
+    "pt-BR": "Caminhada"
+  }
 }

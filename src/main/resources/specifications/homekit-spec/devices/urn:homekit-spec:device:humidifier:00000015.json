@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:humidifier:00000015",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Humidifier",
-        "zh-CN": "加湿器",
-        "fr-FR": "Humidificateur",
-        "de-DE": "Befeuchter",
-        "ja-JP": "加湿器",
-        "ko-KR": "가습기",
-        "es-ES": "Humidificador",
-        "pt-BR": "Umidificador",
-        "zh-TW": "加溼器"
-    }
+  "type": "urn:homekit-spec:device:humidifier:00000015",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Humidifier",
+    "zh-CN": "加湿器",
+    "zh-TW": "加溼器",
+    "de-DE": "Befeuchter",
+    "fr-FR": "Humidificateur",
+    "it-IT": "Umidificatore",
+    "ru-RU": "Увлажнитель",
+    "ko-KR": "가습기",
+    "es-ES": "Humidificador",
+    "ja-JP": "加湿器",
+    "nl-NL": "Luchtbevochtiger",
+    "pt-PT": "Umidificador",
+    "pt-BR": "Umidificador"
+  }
 }

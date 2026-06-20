@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:voc-density:000000C8",
-    "description": {
-        "en-US": "VOC Density",
-        "zh-CN": "VOC \u6d53\u5ea6",
-        "fr-FR": "Densit\u00e9 de COV",
-        "de-DE": "VOC-Dichte",
-        "ja-JP": "VOC\u6fc3\u5ea6",
-        "ko-KR": "VOC \ubc00\ub3c4",
-        "es-ES": "Densidad de COV",
-        "pt-BR": "Densidade de COV",
-        "zh-TW": "VOC \u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:voc-density:000000C8",
+  "description": {
+    "en-US": "VOC Density",
+    "zh-CN": "VOC 浓度",
+    "zh-TW": "VOC 濃度",
+    "de-DE": "VOC-Dichte",
+    "fr-FR": "Densité de COV",
+    "it-IT": "Densità COV",
+    "ru-RU": "Плотность ЛОС",
+    "ko-KR": "VOC 밀도",
+    "es-ES": "Densidad de COV",
+    "ja-JP": "VOC濃度",
+    "nl-NL": "VOC-dichtheid",
+    "pt-PT": "Densidade de COV",
+    "pt-BR": "Densidade de COV"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1000,
+    1
+  ],
+  "lifecycle": "released"
 }

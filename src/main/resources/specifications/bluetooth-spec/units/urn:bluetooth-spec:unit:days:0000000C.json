@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:days:0000000C",
-    "description": {
-        "en-US": "days",
-        "zh-CN": "天",
-        "fr-FR": "jours",
-        "de-DE": "Tage",
-        "ja-JP": "日",
-        "ko-KR": "일",
-        "es-ES": "dias",
-        "pt-BR": "dias",
-        "zh-TW": "天"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:days:0000000C",
+  "description": {
+    "en-US": "days",
+    "zh-CN": "天",
+    "zh-TW": "天",
+    "de-DE": "Tage",
+    "fr-FR": "jours",
+    "it-IT": "days",
+    "ru-RU": "days",
+    "ko-KR": "일",
+    "es-ES": "dias",
+    "ja-JP": "日",
+    "nl-NL": "days",
+    "pt-PT": "dias",
+    "pt-BR": "dias"
+  },
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:airplay-receiver:00000024",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "AirPlay Receiver",
-        "zh-CN": "AirPlay 接收器",
-        "fr-FR": "Recepteur AirPlay",
-        "de-DE": "AirPlay-Empfanger",
-        "ja-JP": "AirPlayレシーバー",
-        "ko-KR": "AirPlay 리시버",
-        "es-ES": "Receptor AirPlay",
-        "pt-BR": "Receptor AirPlay",
-        "zh-TW": "AirPlay 接收器"
-    }
+  "type": "urn:homekit-spec:device:airplay-receiver:00000024",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "AirPlay Receiver",
+    "zh-CN": "AirPlay 接收器",
+    "zh-TW": "AirPlay 接收器",
+    "de-DE": "AirPlay-Empfanger",
+    "fr-FR": "Recepteur AirPlay",
+    "it-IT": "Ricevitore AirPlay",
+    "ru-RU": "Приемник AirPlay",
+    "ko-KR": "AirPlay 리시버",
+    "es-ES": "Receptor AirPlay",
+    "ja-JP": "AirPlayレシーバー",
+    "nl-NL": "AirPlay-ontvanger",
+    "pt-PT": "Receptor AirPlay",
+    "pt-BR": "Receptor AirPlay"
+  }
 }

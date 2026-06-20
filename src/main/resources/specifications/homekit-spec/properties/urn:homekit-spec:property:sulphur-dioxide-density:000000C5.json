@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
-    "description": {
-        "en-US": "Sulphur Dioxide Density",
-        "zh-CN": "\u4e8c\u6c27\u5316\u786b\u6d53\u5ea6",
-        "fr-FR": "Densit\u00e9 de dioxyde de soufre",
-        "de-DE": "Schwefeldioxid-Dichte",
-        "ja-JP": "\u4e8c\u9178\u5316\u786b\u9ec4\u6fc3\u5ea6",
-        "ko-KR": "\uc774\uc0b0\ud654\ud669 \ubc00\ub3c4",
-        "es-ES": "Densidad de di\u00f3xido de azufre",
-        "pt-BR": "Densidade de di\u00f3xido de enxofre",
-        "zh-TW": "\u4e8c\u6c27\u5316\u786b\u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:sulphur-dioxide-density:000000C5",
+  "description": {
+    "en-US": "Sulphur Dioxide Density",
+    "zh-CN": "二氧化硫浓度",
+    "zh-TW": "二氧化硫濃度",
+    "de-DE": "Schwefeldioxid-Dichte",
+    "fr-FR": "Densité de dioxyde de soufre",
+    "it-IT": "Densità biossido di zolfo",
+    "ru-RU": "Плотность диоксида серы",
+    "ko-KR": "이산화황 밀도",
+    "es-ES": "Densidad de dióxido de azufre",
+    "ja-JP": "二酸化硫黄濃度",
+    "nl-NL": "Zwaveldioxidedichtheid",
+    "pt-PT": "Densidade de dióxido de enxofre",
+    "pt-BR": "Densidade de dióxido de enxofre"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1000,
+    1
+  ],
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:weight-scale:0480",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Weight Scale",
-        "zh-CN": "体重秤",
-        "fr-FR": "Pese-personne",
-        "de-DE": "Waage",
-        "ja-JP": "体重計",
-        "ko-KR": "체중계",
-        "es-ES": "Báscula",
-        "pt-BR": "Balança",
-        "zh-TW": "體重秤"
-    }
+  "type": "urn:bluetooth-spec:device:weight-scale:0480",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Weight Scale",
+    "zh-CN": "体重秤",
+    "zh-TW": "體重秤",
+    "de-DE": "Waage",
+    "fr-FR": "Pese-personne",
+    "it-IT": "Bilancia",
+    "ru-RU": "Весы",
+    "ko-KR": "체중계",
+    "es-ES": "Bascula",
+    "ja-JP": "体重計",
+    "nl-NL": "Weegschaal",
+    "pt-PT": "Balanca",
+    "pt-BR": "Balança"
+  }
 }

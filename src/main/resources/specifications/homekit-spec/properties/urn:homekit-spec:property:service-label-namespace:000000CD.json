@@ -1,49 +1,61 @@
 {
-    "type": "urn:homekit-spec:property:service-label-namespace:000000CD",
-    "description": {
-        "en-US": "Service Label Namespace",
-        "zh-CN": "\u670d\u52a1\u6807\u7b7e\u547d\u540d\u7a7a\u95f4",
-        "fr-FR": "Espace de noms d'\u00e9tiquette de service",
-        "de-DE": "Dienstkennzeichnungs-Namensraum",
-        "ja-JP": "\u30b5\u30fc\u30d3\u30b9\u30e9\u30d9\u30eb\u540d\u524d\u7a7a\u9593",
-        "ko-KR": "\uc11c\ube44\uc2a4 \ub808\uc774\ube14 \ub124\uc784\uc2a4\ud398\uc774\uc2a4",
-        "es-ES": "Espacio de nombres de etiqueta de servicio",
-        "pt-BR": "Espa\u00e7o de nomes de etiqueta de servi\u00e7o",
-        "zh-TW": "\u670d\u52d9\u6a19\u7c64\u547d\u540d\u7a7a\u9593"
+  "type": "urn:homekit-spec:property:service-label-namespace:000000CD",
+  "description": {
+    "en-US": "Service Label Namespace",
+    "zh-CN": "服务标签命名空间",
+    "zh-TW": "服務標籤命名空間",
+    "de-DE": "Dienstkennzeichnungs-Namensraum",
+    "fr-FR": "Espace de noms d'étiquette de service",
+    "it-IT": "Namespace etichetta servizio",
+    "ru-RU": "Пространство имен метки сервиса",
+    "ko-KR": "서비스 레이블 네임스페이스",
+    "es-ES": "Espacio de nombres de etiqueta de servicio",
+    "ja-JP": "サービスラベル名前空間",
+    "nl-NL": "Servicelabelnaamruimte",
+    "pt-PT": "Espaço de nomes de etiqueta de serviço",
+    "pt-BR": "Espaço de nomes de etiqueta de serviço"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "DOTS",
+        "zh-CN": "点阵",
+        "fr-FR": "POINTS",
+        "de-DE": "PUNKTE",
+        "ja-JP": "ドット",
+        "ko-KR": "점",
+        "es-ES": "PUNTOS",
+        "pt-BR": "PONTOS",
+        "zh-TW": "點陣",
+        "it-IT": "PUNTI",
+        "ru-RU": "ТОЧКИ",
+        "nl-NL": "STIPPEN",
+        "pt-PT": "PONTOS"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "DOTS",
-                "zh-CN": "\u70b9\u9635",
-                "fr-FR": "POINTS",
-                "de-DE": "PUNKTE",
-                "ja-JP": "\u30c9\u30c3\u30c8",
-                "ko-KR": "\uc810",
-                "es-ES": "PUNTOS",
-                "pt-BR": "PONTOS",
-                "zh-TW": "\u9ede\u9663"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "ARABIC_NUMERALS",
-                "zh-CN": "\u963f\u62c9\u4f2f\u6570\u5b57",
-                "fr-FR": "CHIFFRES ARABES",
-                "de-DE": "ARABISCHE ZIFFERN",
-                "ja-JP": "\u30a2\u30e9\u30d3\u30a2\u6570\u5b57",
-                "ko-KR": "\uc544\ub77c\ube44\uc544 \uc22b\uc790",
-                "es-ES": "N\u00daMEROS AR\u00c1BIGOS",
-                "pt-BR": "ALGARISMOS AR\u00c1BICOS",
-                "zh-TW": "\u963f\u62c9\u4f2f\u6578\u5b57"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "ARABIC_NUMERALS",
+        "zh-CN": "阿拉伯数字",
+        "fr-FR": "CHIFFRES ARABES",
+        "de-DE": "ARABISCHE ZIFFERN",
+        "ja-JP": "アラビア数字",
+        "ko-KR": "아라비아 숫자",
+        "es-ES": "NÚMEROS ARÁBIGOS",
+        "pt-BR": "ALGARISMOS ARÁBICOS",
+        "zh-TW": "阿拉伯數字",
+        "it-IT": "NUMERI_ARABI",
+        "ru-RU": "АРАБСКИЕ_ЦИФРЫ",
+        "nl-NL": "ARABISCHE_CIJFERS",
+        "pt-PT": "ALGARISMOS ARÁBICOS"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

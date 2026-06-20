@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:programmable-switch:0000000F",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Programmable Switch",
-        "zh-CN": "可编程开关",
-        "fr-FR": "Interrupteur programmable",
-        "de-DE": "Programmierbarer Schalter",
-        "ja-JP": "プログラマブルスイッチ",
-        "ko-KR": "프로그래밍 가능 스위치",
-        "es-ES": "Interruptor programable",
-        "pt-BR": "Interruptor programavel",
-        "zh-TW": "可編程開關"
-    }
+  "type": "urn:homekit-spec:device:programmable-switch:0000000F",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Programmable Switch",
+    "zh-CN": "可编程开关",
+    "zh-TW": "可編程開關",
+    "de-DE": "Programmierbarer Schalter",
+    "fr-FR": "Interrupteur programmable",
+    "it-IT": "Interruttore programmabile",
+    "ru-RU": "Программируемый переключатель",
+    "ko-KR": "프로그래밍 가능 스위치",
+    "es-ES": "Interruptor programable",
+    "ja-JP": "プログラマブルスイッチ",
+    "nl-NL": "Programmeerbare schakelaar",
+    "pt-PT": "Interruptor programavel",
+    "pt-BR": "Interruptor programavel"
+  }
 }

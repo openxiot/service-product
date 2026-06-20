@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:temperature-measurement:00002A1C",
-    "description": {
-        "en-US": "Temperature Measurement",
-        "zh-CN": "温度测量",
-        "fr-FR": "Mesure de temperature",
-        "de-DE": "Temperaturmessung",
-        "ja-JP": "温度測定",
-        "ko-KR": "온도 측정",
-        "es-ES": "Medicion de temperatura",
-        "pt-BR": "Medicao de temperatura",
-        "zh-TW": "溫度測量"
-    },
-    "format": "float",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released",
-    "unit": "celsius"
+  "type": "urn:bluetooth-spec:property:temperature-measurement:00002A1C",
+  "description": {
+    "en-US": "Temperature Measurement",
+    "zh-CN": "温度测量",
+    "zh-TW": "溫度測量",
+    "de-DE": "Temperaturmessung",
+    "fr-FR": "Mesure de temperature",
+    "it-IT": "Misurazione temperatura",
+    "ru-RU": "Измерение температуры",
+    "ko-KR": "온도 측정",
+    "es-ES": "Medicion de temperatura",
+    "ja-JP": "温度測定",
+    "nl-NL": "Temperatuurmeting",
+    "pt-PT": "Medicao de temperatura",
+    "pt-BR": "Medicao de temperatura"
+  },
+  "format": "float",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released",
+  "unit": "celsius"
 }

@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:service:air-purifier:000000BB",
-    "description": {
-        "en-US": "Air Purifier",
-        "zh-CN": "\u7a7a\u6c14\u51c0\u5316\u5668",
-        "fr-FR": "Purificateur d'air",
-        "de-DE": "Luftreiniger",
-        "ja-JP": "\u7a7a\u6c17\u6e05\u6d44\u6a5f",
-        "ko-KR": "\uacf5\uae30 \uccad\uc815\uae30",
-        "es-ES": "Purificador de aire",
-        "pt-BR": "Purificador de ar",
-        "zh-TW": "\u7a7a\u6c23\u6de8\u5316\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:active:000000B0",
-        "urn:homekit-spec:property:current-air-purifier-state:000000A9",
-        "urn:homekit-spec:property:target-air-purifier-state:000000A8"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:lock-physical-controls:000000A7",
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:swing-mode:000000B6",
-        "urn:homekit-spec:property:rotation-speed:00000029"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:air-purifier:000000BB",
+  "description": {
+    "en-US": "Air Purifier",
+    "zh-CN": "空气净化器",
+    "zh-TW": "空氣淨化器",
+    "de-DE": "Luftreiniger",
+    "fr-FR": "Purificateur d'air",
+    "it-IT": "Purificatore d'aria",
+    "ru-RU": "Очиститель воздуха",
+    "ko-KR": "공기 청정기",
+    "es-ES": "Purificador de aire",
+    "ja-JP": "空気清浄機",
+    "nl-NL": "Luchtzuiveraar",
+    "pt-PT": "Purificador de ar",
+    "pt-BR": "Purificador de ar"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:active:000000B0",
+    "urn:homekit-spec:property:current-air-purifier-state:000000A9",
+    "urn:homekit-spec:property:target-air-purifier-state:000000A8"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:lock-physical-controls:000000A7",
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:swing-mode:000000B6",
+    "urn:homekit-spec:property:rotation-speed:00000029"
+  ],
+  "lifecycle": "released"
 }

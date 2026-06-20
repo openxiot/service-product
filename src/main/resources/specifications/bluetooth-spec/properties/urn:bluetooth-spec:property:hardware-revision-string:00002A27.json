@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
-    "description": {
-        "en-US": "Hardware Revision String",
-        "zh-CN": "硬件版本字符串",
-        "fr-FR": "Chaine de revision du materiel",
-        "de-DE": "Hardware-Version",
-        "ja-JP": "ハードウェアリビジョン",
-        "ko-KR": "하드웨어 버전",
-        "es-ES": "Revision del hardware",
-        "pt-BR": "Revisao do hardware",
-        "zh-TW": "硬件版本字符串"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:hardware-revision-string:00002A27",
+  "description": {
+    "en-US": "Hardware Revision String",
+    "zh-CN": "硬件版本字符串",
+    "zh-TW": "硬件版本字符串",
+    "de-DE": "Hardware-Version",
+    "fr-FR": "Chaine de revision du materiel",
+    "it-IT": "Stringa revisione hardware",
+    "ru-RU": "Строка ревизии аппаратного обеспечения",
+    "ko-KR": "하드웨어 버전",
+    "es-ES": "Revision del hardware",
+    "ja-JP": "ハードウェアリビジョン",
+    "nl-NL": "Hardware revisie string",
+    "pt-PT": "Revisao do hardware",
+    "pt-BR": "Revisao do hardware"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

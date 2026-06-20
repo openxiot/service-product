@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:filter-change-indication:000000AC",
-    "description": {
-        "en-US": "Filter Change Indication",
-        "zh-CN": "\u6ee4\u82af\u66f4\u6362\u63d0\u793a",
-        "fr-FR": "Indication de changement de filtre",
-        "de-DE": "Filterwechselanzeige",
-        "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u4ea4\u63db\u8868\u793a",
-        "ko-KR": "\ud544\ud130 \uad50\uccb4 \ud45c\uc2dc",
-        "es-ES": "Indicaci\u00f3n de cambio de filtro",
-        "pt-BR": "Indica\u00e7\u00e3o de troca de filtro",
-        "zh-TW": "\u6ffe\u82af\u66f4\u63db\u63d0\u793a"
+  "type": "urn:homekit-spec:property:filter-change-indication:000000AC",
+  "description": {
+    "en-US": "Filter Change Indication",
+    "zh-CN": "滤芯更换提示",
+    "zh-TW": "濾芯更換提示",
+    "de-DE": "Filterwechselanzeige",
+    "fr-FR": "Indication de changement de filtre",
+    "it-IT": "Indicazione cambio filtro",
+    "ru-RU": "Индикация замены фильтра",
+    "ko-KR": "필터 교체 표시",
+    "es-ES": "Indicación de cambio de filtro",
+    "ja-JP": "フィルター交換表示",
+    "nl-NL": "Filtervervangingsindicatie",
+    "pt-PT": "Indicação de troca de filtro",
+    "pt-BR": "Indicação de troca de filtro"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "FILTER_OK",
+        "zh-CN": "滤芯正常",
+        "fr-FR": "FILTRE OK",
+        "de-DE": "FILTER OK",
+        "ja-JP": "フィルター正常",
+        "ko-KR": "필터 정상",
+        "es-ES": "FILTRO OK",
+        "pt-BR": "FILTRO OK",
+        "zh-TW": "濾芯正常",
+        "it-IT": "FILTRO_OK",
+        "ru-RU": "ФИЛЬТР_ОК",
+        "nl-NL": "FILTER_OK",
+        "pt-PT": "FILTRO OK"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "FILTER_OK",
-                "zh-CN": "\u6ee4\u82af\u6b63\u5e38",
-                "fr-FR": "FILTRE OK",
-                "de-DE": "FILTER OK",
-                "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u6b63\u5e38",
-                "ko-KR": "\ud544\ud130 \uc815\uc0c1",
-                "es-ES": "FILTRO OK",
-                "pt-BR": "FILTRO OK",
-                "zh-TW": "\u6ffe\u82af\u6b63\u5e38"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "CHANGE_FILTER",
-                "zh-CN": "\u66f4\u6362\u6ee4\u82af",
-                "fr-FR": "CHANGER LE FILTRE",
-                "de-DE": "FILTER WECHSELN",
-                "ja-JP": "\u30d5\u30a3\u30eb\u30bf\u30fc\u4ea4\u63db",
-                "ko-KR": "\ud544\ud130 \uad50\uccb4",
-                "es-ES": "CAMBIAR FILTRO",
-                "pt-BR": "TROCAR FILTRO",
-                "zh-TW": "\u66f4\u63db\u6ffe\u82af"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "CHANGE_FILTER",
+        "zh-CN": "更换滤芯",
+        "fr-FR": "CHANGER LE FILTRE",
+        "de-DE": "FILTER WECHSELN",
+        "ja-JP": "フィルター交換",
+        "ko-KR": "필터 교체",
+        "es-ES": "CAMBIAR FILTRO",
+        "pt-BR": "TROCAR FILTRO",
+        "zh-TW": "更換濾芯",
+        "it-IT": "CAMBIA_FILTRO",
+        "ru-RU": "ЗАМЕНА_ФИЛЬТРА",
+        "nl-NL": "VERVANG_FILTER",
+        "pt-PT": "TROCAR FILTRO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

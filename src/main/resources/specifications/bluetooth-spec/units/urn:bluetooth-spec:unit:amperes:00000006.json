@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:amperes:00000006",
-    "description": {
-        "en-US": "amperes",
-        "zh-CN": "安培",
-        "fr-FR": "amperes",
-        "de-DE": "Ampere",
-        "ja-JP": "アンペア",
-        "ko-KR": "암페어",
-        "es-ES": "amperios",
-        "pt-BR": "amperes",
-        "zh-TW": "安培"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:amperes:00000006",
+  "description": {
+    "en-US": "amperes",
+    "zh-CN": "安培",
+    "zh-TW": "安培",
+    "de-DE": "Ampere",
+    "fr-FR": "amperes",
+    "it-IT": "amperes",
+    "ru-RU": "amperes",
+    "ko-KR": "암페어",
+    "es-ES": "amperios",
+    "ja-JP": "アンペア",
+    "nl-NL": "amperes",
+    "pt-PT": "amperes",
+    "pt-BR": "amperes"
+  },
+  "lifecycle": "released"
 }

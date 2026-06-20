@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:scan-refresh:00002A31",
-    "description": {
-        "en-US": "Scan Refresh",
-        "zh-CN": "扫描刷新",
-        "fr-FR": "Rafraichissement du scan",
-        "de-DE": "Scan-Aktualisierung",
-        "ja-JP": "スキャンリフレッシュ",
-        "ko-KR": "스캔 새로고침",
-        "es-ES": "Actualizacion del escaneo",
-        "pt-BR": "Atualizacao da varredura",
-        "zh-TW": "掃描刷新"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:scan-refresh:00002A31",
+  "description": {
+    "en-US": "Scan Refresh",
+    "zh-CN": "扫描刷新",
+    "zh-TW": "掃描刷新",
+    "de-DE": "Scan-Aktualisierung",
+    "fr-FR": "Rafraichissement du scan",
+    "it-IT": "Aggiornamento scansione",
+    "ru-RU": "Обновление сканирования",
+    "ko-KR": "스캔 새로고침",
+    "es-ES": "Actualizacion del escaneo",
+    "ja-JP": "スキャンリフレッシュ",
+    "nl-NL": "Scan vernieuwen",
+    "pt-PT": "Atualizacao da varredura",
+    "pt-BR": "Atualizacao da varredura"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:age:00002A8A",
-    "description": {
-        "en-US": "Age",
-        "zh-CN": "年龄",
-        "fr-FR": "Age",
-        "de-DE": "Alter",
-        "ja-JP": "年齢",
-        "ko-KR": "나이",
-        "es-ES": "Edad",
-        "pt-BR": "Idade",
-        "zh-TW": "年齡"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:age:00002A8A",
+  "description": {
+    "en-US": "Age",
+    "zh-CN": "年龄",
+    "zh-TW": "年齡",
+    "de-DE": "Alter",
+    "fr-FR": "Age",
+    "it-IT": "Età",
+    "ru-RU": "Возраст",
+    "ko-KR": "나이",
+    "es-ES": "Edad",
+    "ja-JP": "年齢",
+    "nl-NL": "Leeftijd",
+    "pt-PT": "Idade",
+    "pt-BR": "Idade"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

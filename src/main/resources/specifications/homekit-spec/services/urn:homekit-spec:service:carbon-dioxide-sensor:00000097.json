@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:service:carbon-dioxide-sensor:00000097",
-    "description": {
-        "en-US": "Carbon Dioxide Sensor",
-        "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u4f20\u611f\u5668",
-        "fr-FR": "Capteur de dioxyde de carbone",
-        "de-DE": "Kohlendioxidsensor",
-        "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u30bb\u30f3\u30b5\u30fc",
-        "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \uc13c\uc11c",
-        "es-ES": "Sensor de di\u00f3xido de carbono",
-        "pt-BR": "Sensor de di\u00f3xido de carbono",
-        "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u50b3\u611f\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:carbon-dioxide-detected:00000092"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:carbon-dioxide-level:00000093",
-        "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:carbon-dioxide-sensor:00000097",
+  "description": {
+    "en-US": "Carbon Dioxide Sensor",
+    "zh-CN": "二氧化碳传感器",
+    "zh-TW": "二氧化碳傳感器",
+    "de-DE": "Kohlendioxidsensor",
+    "fr-FR": "Capteur de dioxyde de carbone",
+    "it-IT": "Sensore anidride carbonica",
+    "ru-RU": "Датчик CO2",
+    "ko-KR": "이산화탄소 센서",
+    "es-ES": "Sensor de dióxido de carbono",
+    "ja-JP": "二酸化炭素センサー",
+    "nl-NL": "Koolstofdioxidesensor",
+    "pt-PT": "Sensor de dióxido de carbono",
+    "pt-BR": "Sensor de dióxido de carbono"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:carbon-dioxide-detected:00000092"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:status-active:00000075",
+    "urn:homekit-spec:property:status-fault:00000077",
+    "urn:homekit-spec:property:status-low-battery:00000079",
+    "urn:homekit-spec:property:status-tampered:0000007A",
+    "urn:homekit-spec:property:carbon-dioxide-level:00000093",
+    "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

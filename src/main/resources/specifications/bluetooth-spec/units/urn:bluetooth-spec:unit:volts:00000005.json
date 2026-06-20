@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:volts:00000005",
-    "description": {
-        "en-US": "volts",
-        "zh-CN": "伏特",
-        "fr-FR": "volts",
-        "de-DE": "Volt",
-        "ja-JP": "ボルト",
-        "ko-KR": "볼트",
-        "es-ES": "voltios",
-        "pt-BR": "volts",
-        "zh-TW": "伏特"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:volts:00000005",
+  "description": {
+    "en-US": "volts",
+    "zh-CN": "伏特",
+    "zh-TW": "伏特",
+    "de-DE": "Volt",
+    "fr-FR": "volts",
+    "it-IT": "volts",
+    "ru-RU": "volts",
+    "ko-KR": "볼트",
+    "es-ES": "voltios",
+    "ja-JP": "ボルト",
+    "nl-NL": "volts",
+    "pt-PT": "volts",
+    "pt-BR": "volts"
+  },
+  "lifecycle": "released"
 }

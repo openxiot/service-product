@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:version:00000037",
-    "description": {
-        "en-US": "Version",
-        "zh-CN": "\u7248\u672c",
-        "fr-FR": "Version",
-        "de-DE": "Version",
-        "ja-JP": "\u30d0\u30fc\u30b8\u30e7\u30f3",
-        "ko-KR": "\ubc84\uc804",
-        "es-ES": "Versi\u00f3n",
-        "pt-BR": "Vers\u00e3o",
-        "zh-TW": "\u7248\u672c"
-    },
-    "format": "string",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:version:00000037",
+  "description": {
+    "en-US": "Version",
+    "zh-CN": "版本",
+    "zh-TW": "版本",
+    "de-DE": "Version",
+    "fr-FR": "Version",
+    "it-IT": "Versione",
+    "ru-RU": "Версия",
+    "ko-KR": "버전",
+    "es-ES": "Versión",
+    "ja-JP": "バージョン",
+    "nl-NL": "Versie",
+    "pt-PT": "Versão",
+    "pt-BR": "Versão"
+  },
+  "format": "string",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

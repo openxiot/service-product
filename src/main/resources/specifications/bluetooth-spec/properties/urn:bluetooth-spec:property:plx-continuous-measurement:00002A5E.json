@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E",
-    "description": {
-        "en-US": "PLX Continuous Measurement",
-        "zh-CN": "脉搏血氧仪连续测量",
-        "fr-FR": "Mesure continue PLX",
-        "de-DE": "PLX-Kontinuierliche Messung",
-        "ja-JP": "PLX連続測定",
-        "ko-KR": "PLX 연속 측정",
-        "es-ES": "Medicion continua PLX",
-        "pt-BR": "Medicao continua PLX",
-        "zh-TW": "脈搏血氧儀連續測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:plx-continuous-measurement:00002A5E",
+  "description": {
+    "en-US": "PLX Continuous Measurement",
+    "zh-CN": "脉搏血氧仪连续测量",
+    "zh-TW": "脈搏血氧儀連續測量",
+    "de-DE": "PLX-Kontinuierliche Messung",
+    "fr-FR": "Mesure continue PLX",
+    "it-IT": "Misurazione continua PLX",
+    "ru-RU": "Непрерывное измерение PLX",
+    "ko-KR": "PLX 연속 측정",
+    "es-ES": "Medicion continua PLX",
+    "ja-JP": "PLX連続測定",
+    "nl-NL": "PLX continue meting",
+    "pt-PT": "Medicao continua PLX",
+    "pt-BR": "Medicao continua PLX"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

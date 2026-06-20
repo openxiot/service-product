@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:serial-number-string:00002A25",
-    "description": {
-        "en-US": "Serial Number String",
-        "zh-CN": "序列号字符串",
-        "fr-FR": "Chaine du numero de serie",
-        "de-DE": "Seriennummer",
-        "ja-JP": "シリアル番号",
-        "ko-KR": "일련 번호",
-        "es-ES": "Numero de serie",
-        "pt-BR": "Numero de serie",
-        "zh-TW": "序列號字符串"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:serial-number-string:00002A25",
+  "description": {
+    "en-US": "Serial Number String",
+    "zh-CN": "序列号字符串",
+    "zh-TW": "序列號字符串",
+    "de-DE": "Seriennummer",
+    "fr-FR": "Chaine du numero de serie",
+    "it-IT": "Stringa numero seriale",
+    "ru-RU": "Строка серийного номера",
+    "ko-KR": "일련 번호",
+    "es-ES": "Numero de serie",
+    "ja-JP": "シリアル番号",
+    "nl-NL": "Serienummer string",
+    "pt-PT": "Numero de serie",
+    "pt-BR": "Numero de serie"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

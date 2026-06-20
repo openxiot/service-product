@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:service:automation-io:1815",
-    "description": {
-        "en-US": "Automation IO",
-        "zh-CN": "自动化 IO",
-        "fr-FR": "IO d'automatisation",
-        "de-DE": "Automatisierung E/A",
-        "ja-JP": "オートメーションIO",
-        "ko-KR": "자동화 IO",
-        "es-ES": "IO de automatizacion",
-        "pt-BR": "IO de automacao",
-        "zh-TW": "自動化 IO"
-    },
-    "lifecycle": "released",
-    "optional-properties": [
-        "urn:bluetooth-spec:property:digital:00002A56",
-        "urn:bluetooth-spec:property:analog:00002A58",
-        "urn:bluetooth-spec:property:aggregate:00002A6C"
-    ]
+  "type": "urn:bluetooth-spec:service:automation-io:1815",
+  "description": {
+    "en-US": "Automation IO",
+    "zh-CN": "自动化 IO",
+    "zh-TW": "自動化 IO",
+    "de-DE": "Automatisierung E/A",
+    "fr-FR": "IO d'automatisation",
+    "it-IT": "Automazione IO",
+    "ru-RU": "Автоматизация ввода-вывода",
+    "ko-KR": "자동화 IO",
+    "es-ES": "IO de automatizacion",
+    "ja-JP": "オートメーションIO",
+    "nl-NL": "Automation IO",
+    "pt-PT": "IO de automacao",
+    "pt-BR": "IO de automacao"
+  },
+  "lifecycle": "released",
+  "optional-properties": [
+    "urn:bluetooth-spec:property:digital:00002A56",
+    "urn:bluetooth-spec:property:analog:00002A58",
+    "urn:bluetooth-spec:property:aggregate:00002A6C"
+  ]
 }

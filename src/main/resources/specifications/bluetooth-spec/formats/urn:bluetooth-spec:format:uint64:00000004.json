@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:uint64:00000004",
-    "description": {
-        "en-US": "uint64",
-        "zh-CN": "无符号 64 位整数",
-        "fr-FR": "uint64",
-        "de-DE": "uint64",
-        "ja-JP": "uint64",
-        "ko-KR": "uint64",
-        "es-ES": "uint64",
-        "pt-BR": "uint64",
-        "zh-TW": "無符號 64 位整數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:uint64:00000004",
+  "description": {
+    "en-US": "uint64",
+    "zh-CN": "无符号 64 位整数",
+    "zh-TW": "無符號 64 位整數",
+    "de-DE": "uint64",
+    "fr-FR": "uint64",
+    "it-IT": "uint64",
+    "ru-RU": "uint64",
+    "ko-KR": "uint64",
+    "es-ES": "uint64",
+    "ja-JP": "uint64",
+    "nl-NL": "uint64",
+    "pt-PT": "uint64",
+    "pt-BR": "uint64"
+  },
+  "lifecycle": "released"
 }

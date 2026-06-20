@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:float:00000008",
-    "description": {
-        "en-US": "float",
-        "zh-CN": "32 位浮点数",
-        "fr-FR": "flottant 32 bits",
-        "de-DE": "32-Bit-Gleitkommazahl",
-        "ja-JP": "32ビット浮動小数点",
-        "ko-KR": "32비트 부동 소수점",
-        "es-ES": "flotante 32 bits",
-        "pt-BR": "ponto flutuante 32 bits",
-        "zh-TW": "32 位浮點數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:float:00000008",
+  "description": {
+    "en-US": "float",
+    "zh-CN": "32 位浮点数",
+    "zh-TW": "32 位浮點數",
+    "de-DE": "32-Bit-Gleitkommazahl",
+    "fr-FR": "flottant 32 bits",
+    "it-IT": "float",
+    "ru-RU": "float",
+    "ko-KR": "32비트 부동 소수점",
+    "es-ES": "flotante 32 bits",
+    "ja-JP": "32ビット浮動小数点",
+    "nl-NL": "float",
+    "pt-PT": "ponto flutuante 32 bits",
+    "pt-BR": "ponto flutuante 32 bits"
+  },
+  "lifecycle": "released"
 }

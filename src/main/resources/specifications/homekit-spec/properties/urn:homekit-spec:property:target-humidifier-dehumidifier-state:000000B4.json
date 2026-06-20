@@ -1,65 +1,81 @@
 {
-    "type": "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
-    "description": {
-        "en-US": "Target Humidifier Dehumidifier State",
-        "zh-CN": "\u76ee\u6807\u52a0\u6e7f\u5668/\u9664\u6e7f\u5668\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible de l'humidificateur/d\u00e9shumidificateur",
-        "de-DE": "Gew\u00fcnschter Luftbefeuchter-Entfeuchter-Status",
-        "ja-JP": "\u76ee\u6a19\u52a0\u6e7f\u5668\u30fb\u9664\u6e7f\u5668\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \uac00\uc2b5\uae30/\uc81c\uc2b5\uae30 \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo del humidificador/deshumidificador",
-        "pt-BR": "Estado alvo do umidificador/desumidificador",
-        "zh-TW": "\u76ee\u6a19\u52a0\u6ebc\u5668/\u9664\u6ebc\u5668\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-humidifier-dehumidifier-state:000000B4",
+  "description": {
+    "en-US": "Target Humidifier Dehumidifier State",
+    "zh-CN": "目标加湿器/除湿器状态",
+    "zh-TW": "目標加溼器/除溼器狀態",
+    "de-DE": "Gewünschter Luftbefeuchter-Entfeuchter-Status",
+    "fr-FR": "État cible de l'humidificateur/déshumidificateur",
+    "it-IT": "Stato target umidificatore/deumidificatore",
+    "ru-RU": "Целевое состояние увлажнителя/осушителя",
+    "ko-KR": "목표 가습기/제습기 상태",
+    "es-ES": "Estado objetivo del humidificador/deshumidificador",
+    "ja-JP": "目標加湿器・除湿器状態",
+    "nl-NL": "Gewenste bevochtiger/ontvochtiger status",
+    "pt-PT": "Estado alvo do umidificador/desumidificador",
+    "pt-BR": "Estado alvo do umidificador/desumidificador"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "HUMIDIFIER_OR_DEHUMIDIFIER",
+        "zh-CN": "加湿或除湿器",
+        "fr-FR": "HUMIDIFICATEUR OU DÉSHUMIDIFICATEUR",
+        "de-DE": "BEFEUCHTER ODER ENTFEUCHTER",
+        "ja-JP": "加湿器または除湿器",
+        "ko-KR": "가습기 또는 제습기",
+        "es-ES": "HUMIDIFICADOR O DESHUMIDIFICADOR",
+        "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR",
+        "zh-TW": "加溼或除溼器",
+        "it-IT": "UMIDIFICATORE_O_DEUMIDIFICATORE",
+        "ru-RU": "УВЛАЖНИТЕЛЬ_ИЛИ_ОСУШИТЕЛЬ",
+        "nl-NL": "BEVOCHTIGER_OF_ONTVOCHTIGER",
+        "pt-PT": "UMIDIFICADOR OU DESUMIDIFICADOR"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "HUMIDIFIER_OR_DEHUMIDIFIER",
-                "zh-CN": "\u52a0\u6e7f\u6216\u9664\u6e7f\u5668",
-                "fr-FR": "HUMIDIFICATEUR OU D\u00c9SHUMIDIFICATEUR",
-                "de-DE": "BEFEUCHTER ODER ENTFEUCHTER",
-                "ja-JP": "\u52a0\u6e7f\u5668\u307e\u305f\u306f\u9664\u6e7f\u5668",
-                "ko-KR": "\uac00\uc2b5\uae30 \ub610\ub294 \uc81c\uc2b5\uae30",
-                "es-ES": "HUMIDIFICADOR O DESHUMIDIFICADOR",
-                "pt-BR": "UMIDIFICADOR OU DESUMIDIFICADOR",
-                "zh-TW": "\u52a0\u6ebc\u6216\u9664\u6ebc\u5668"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "HUMIDIFIER",
-                "zh-CN": "\u52a0\u6e7f\u5668",
-                "fr-FR": "HUMIDIFICATEUR",
-                "de-DE": "LUFTBEFEUCHTER",
-                "ja-JP": "\u52a0\u6e7f\u5668",
-                "ko-KR": "\uac00\uc2b5\uae30",
-                "es-ES": "HUMIDIFICADOR",
-                "pt-BR": "UMIDIFICADOR",
-                "zh-TW": "\u52a0\u6ebc\u5668"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "DEHUMIDIFIER",
-                "zh-CN": "\u9664\u6e7f\u5668",
-                "fr-FR": "D\u00c9SHUMIDIFICATEUR",
-                "de-DE": "LUFTENTFEUCHTER",
-                "ja-JP": "\u9664\u6e7f\u5668",
-                "ko-KR": "\uc81c\uc2b5\uae30",
-                "es-ES": "DESHUMIDIFICADOR",
-                "pt-BR": "DESUMIDIFICADOR",
-                "zh-TW": "\u9664\u6ebc\u5668"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "HUMIDIFIER",
+        "zh-CN": "加湿器",
+        "fr-FR": "HUMIDIFICATEUR",
+        "de-DE": "LUFTBEFEUCHTER",
+        "ja-JP": "加湿器",
+        "ko-KR": "가습기",
+        "es-ES": "HUMIDIFICADOR",
+        "pt-BR": "UMIDIFICADOR",
+        "zh-TW": "加溼器",
+        "it-IT": "UMIDIFICATORE",
+        "ru-RU": "УВЛАЖНИТЕЛЬ",
+        "nl-NL": "BEVOCHTIGER",
+        "pt-PT": "UMIDIFICADOR"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "DEHUMIDIFIER",
+        "zh-CN": "除湿器",
+        "fr-FR": "DÉSHUMIDIFICATEUR",
+        "de-DE": "LUFTENTFEUCHTER",
+        "ja-JP": "除湿器",
+        "ko-KR": "제습기",
+        "es-ES": "DESHUMIDIFICADOR",
+        "pt-BR": "DESUMIDIFICADOR",
+        "zh-TW": "除溼器",
+        "it-IT": "DEUMIDIFICATORE",
+        "ru-RU": "ОСУШИТЕЛЬ",
+        "nl-NL": "ONTVOCHTIGER",
+        "pt-PT": "DESUMIDIFICADOR"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

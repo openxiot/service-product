@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:target-temperature:00000035",
-    "description": {
-        "en-US": "Target Temperature",
-        "zh-CN": "\u76ee\u6807\u6e29\u5ea6",
-        "fr-FR": "Temp\u00e9rature cible",
-        "de-DE": "Zieltemperatur",
-        "ja-JP": "\u76ee\u6a19\u6e29\u5ea6",
-        "ko-KR": "\ubaa9\ud45c \uc628\ub3c4",
-        "es-ES": "Temperatura objetivo",
-        "pt-BR": "Temperatura alvo",
-        "zh-TW": "\u76ee\u6a19\u6eab\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        10,
-        38,
-        0.1
-    ],
-    "unit": "celsius",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:target-temperature:00000035",
+  "description": {
+    "en-US": "Target Temperature",
+    "zh-CN": "目标温度",
+    "zh-TW": "目標溫度",
+    "de-DE": "Zieltemperatur",
+    "fr-FR": "Température cible",
+    "it-IT": "Temperatura target",
+    "ru-RU": "Целевая температура",
+    "ko-KR": "목표 온도",
+    "es-ES": "Temperatura objetivo",
+    "ja-JP": "目標温度",
+    "nl-NL": "Gewenste temperatuur",
+    "pt-PT": "Temperatura alvo",
+    "pt-BR": "Temperatura alvo"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    10,
+    38,
+    0.1
+  ],
+  "unit": "celsius",
+  "lifecycle": "released"
 }

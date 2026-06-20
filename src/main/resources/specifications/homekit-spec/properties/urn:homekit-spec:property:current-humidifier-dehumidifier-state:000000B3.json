@@ -1,78 +1,98 @@
 {
-    "type": "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
-    "description": {
-        "en-US": "Current Humidifier Dehumidifier State",
-        "zh-CN": "\u5f53\u524d\u52a0\u6e7f\u5668/\u9664\u6e7f\u5668\u72b6\u6001",
-        "fr-FR": "\u00c9tat actuel de l'humidificateur/d\u00e9shumidificateur",
-        "de-DE": "Aktueller Luftbefeuchter-Entfeuchter-Status",
-        "ja-JP": "\u73fe\u5728\u306e\u52a0\u6e7f\u5668\u30fb\u9664\u6e7f\u5668\u72b6\u614b",
-        "ko-KR": "\ud604\uc7ac \uac00\uc2b5\uae30/\uc81c\uc2b5\uae30 \uc0c1\ud0dc",
-        "es-ES": "Estado actual del humidificador/deshumidificador",
-        "pt-BR": "Estado atual do umidificador/desumidificador",
-        "zh-TW": "\u7576\u524d\u52a0\u6ebc\u5668/\u9664\u6ebc\u5668\u72c0\u614b"
+  "type": "urn:homekit-spec:property:current-humidifier-dehumidifier-state:000000B3",
+  "description": {
+    "en-US": "Current Humidifier Dehumidifier State",
+    "zh-CN": "当前加湿器/除湿器状态",
+    "zh-TW": "當前加溼器/除溼器狀態",
+    "de-DE": "Aktueller Luftbefeuchter-Entfeuchter-Status",
+    "fr-FR": "État actuel de l'humidificateur/déshumidificateur",
+    "it-IT": "Stato attuale umidificatore/deumidificatore",
+    "ru-RU": "Текущее состояние увлажнителя/осушителя",
+    "ko-KR": "현재 가습기/제습기 상태",
+    "es-ES": "Estado actual del humidificador/deshumidificador",
+    "ja-JP": "現在の加湿器・除湿器状態",
+    "nl-NL": "Huidige bevochtiger/ontvochtiger status",
+    "pt-PT": "Estado atual do umidificador/desumidificador",
+    "pt-BR": "Estado atual do umidificador/desumidificador"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "INACTIVE",
+        "zh-CN": "非活动",
+        "fr-FR": "INACTIF",
+        "de-DE": "INAKTIV",
+        "ja-JP": "非アクティブ",
+        "ko-KR": "비활성",
+        "es-ES": "INACTIVO",
+        "pt-BR": "INATIVO",
+        "zh-TW": "非活動",
+        "it-IT": "INATTIVO",
+        "ru-RU": "НЕАКТИВНЫЙ",
+        "nl-NL": "INACTIEF",
+        "pt-PT": "INATIVO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "INACTIVE",
-                "zh-CN": "\u975e\u6d3b\u52a8",
-                "fr-FR": "INACTIF",
-                "de-DE": "INAKTIV",
-                "ja-JP": "\u975e\u30a2\u30af\u30c6\u30a3\u30d6",
-                "ko-KR": "\ube44\ud65c\uc131",
-                "es-ES": "INACTIVO",
-                "pt-BR": "INATIVO",
-                "zh-TW": "\u975e\u6d3b\u52d5"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "IDLE",
-                "zh-CN": "\u7a7a\u95f2",
-                "fr-FR": "INACTIF",
-                "de-DE": "BEREIT",
-                "ja-JP": "\u30a2\u30a4\u30c9\u30eb",
-                "ko-KR": "\ub300\uae30 \uc911",
-                "es-ES": "INACTIVO",
-                "pt-BR": "OCIOSO",
-                "zh-TW": "\u7a7a\u9592"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "HUMIDIFYING",
-                "zh-CN": "\u52a0\u6e7f\u4e2d",
-                "fr-FR": "HUMIDIFICATION",
-                "de-DE": "BEFEUCHTET",
-                "ja-JP": "\u52a0\u6e7f\u4e2d",
-                "ko-KR": "\uac00\uc2b5 \uc911",
-                "es-ES": "HUMIDIFICANDO",
-                "pt-BR": "UMIDIFICANDO",
-                "zh-TW": "\u52a0\u6ebc\u4e2d"
-            }
-        },
-        {
-            "value": 3,
-            "description": {
-                "en-US": "DEHUMIDIFYING",
-                "zh-CN": "\u9664\u6e7f\u4e2d",
-                "fr-FR": "D\u00c9SHUMIDIFICATION",
-                "de-DE": "ENTFEUCHTET",
-                "ja-JP": "\u9664\u6e7f\u4e2d",
-                "ko-KR": "\uc81c\uc2b5 \uc911",
-                "es-ES": "DESHUMIDIFICANDO",
-                "pt-BR": "DESUMIDIFICANDO",
-                "zh-TW": "\u9664\u6ebc\u4e2d"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "IDLE",
+        "zh-CN": "空闲",
+        "fr-FR": "INACTIF",
+        "de-DE": "BEREIT",
+        "ja-JP": "アイドル",
+        "ko-KR": "대기 중",
+        "es-ES": "INACTIVO",
+        "pt-BR": "OCIOSO",
+        "zh-TW": "空閒",
+        "it-IT": "INATTIVO",
+        "ru-RU": "ПРОСТОЙ",
+        "nl-NL": "INACTIEF",
+        "pt-PT": "OCIOSO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "HUMIDIFYING",
+        "zh-CN": "加湿中",
+        "fr-FR": "HUMIDIFICATION",
+        "de-DE": "BEFEUCHTET",
+        "ja-JP": "加湿中",
+        "ko-KR": "가습 중",
+        "es-ES": "HUMIDIFICANDO",
+        "pt-BR": "UMIDIFICANDO",
+        "zh-TW": "加溼中",
+        "it-IT": "UMIDIFICAZIONE",
+        "ru-RU": "УВЛАЖНЕНИЕ",
+        "nl-NL": "BEVOCHTIGEN",
+        "pt-PT": "UMIDIFICANDO"
+      }
+    },
+    {
+      "value": 3,
+      "description": {
+        "en-US": "DEHUMIDIFYING",
+        "zh-CN": "除湿中",
+        "fr-FR": "DÉSHUMIDIFICATION",
+        "de-DE": "ENTFEUCHTET",
+        "ja-JP": "除湿中",
+        "ko-KR": "제습 중",
+        "es-ES": "DESHUMIDIFICANDO",
+        "pt-BR": "DESUMIDIFICANDO",
+        "zh-TW": "除溼中",
+        "it-IT": "DEUMIDIFICAZIONE",
+        "ru-RU": "ОСУШЕНИЕ",
+        "nl-NL": "ONTVOCHTIGEN",
+        "pt-PT": "DESUMIDIFICANDO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

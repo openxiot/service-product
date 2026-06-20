@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:image-rotation:0000011E",
-    "description": {
-        "en-US": "Image Rotation",
-        "zh-CN": "\u56fe\u50cf\u65cb\u8f6c",
-        "fr-FR": "Rotation d'image",
-        "de-DE": "Bilddrehung",
-        "ja-JP": "\u753b\u50cf\u56de\u8ee2",
-        "ko-KR": "\uc774\ubbf8\uc9c0 \ud68c\uc804",
-        "es-ES": "Rotaci\u00f3n de imagen",
-        "pt-BR": "Rota\u00e7\u00e3o de imagem",
-        "zh-TW": "\u5716\u50cf\u65cb\u8f49"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        270,
-        90
-    ],
-    "unit": "arcdegrees",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:image-rotation:0000011E",
+  "description": {
+    "en-US": "Image Rotation",
+    "zh-CN": "图像旋转",
+    "zh-TW": "圖像旋轉",
+    "de-DE": "Bilddrehung",
+    "fr-FR": "Rotation d'image",
+    "it-IT": "Rotazione immagine",
+    "ru-RU": "Поворот изображения",
+    "ko-KR": "이미지 회전",
+    "es-ES": "Rotación de imagen",
+    "ja-JP": "画像回転",
+    "nl-NL": "Beeldrotatie",
+    "pt-PT": "Rotação de imagem",
+    "pt-BR": "Rotação de imagem"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    270,
+    90
+  ],
+  "unit": "arcdegrees",
+  "lifecycle": "released"
 }

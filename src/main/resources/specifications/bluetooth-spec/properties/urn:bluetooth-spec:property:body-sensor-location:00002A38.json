@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:body-sensor-location:00002A38",
-    "description": {
-        "en-US": "Body Sensor Location",
-        "zh-CN": "身体传感器位置",
-        "fr-FR": "Emplacement du capteur corporel",
-        "de-DE": "Korpersensorposition",
-        "ja-JP": "身体センサー位置",
-        "ko-KR": "신체 센서 위치",
-        "es-ES": "Ubicacion del sensor corporal",
-        "pt-BR": "Localizacao do sensor corporal",
-        "zh-TW": "身體傳感器位置"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:body-sensor-location:00002A38",
+  "description": {
+    "en-US": "Body Sensor Location",
+    "zh-CN": "身体传感器位置",
+    "zh-TW": "身體傳感器位置",
+    "de-DE": "Korpersensorposition",
+    "fr-FR": "Emplacement du capteur corporel",
+    "it-IT": "Posizione sensore corporeo",
+    "ru-RU": "Расположение датчика на теле",
+    "ko-KR": "신체 센서 위치",
+    "es-ES": "Ubicacion del sensor corporal",
+    "ja-JP": "身体センサー位置",
+    "nl-NL": "Locatie lichaamssensor",
+    "pt-PT": "Localizacao do sensor corporal",
+    "pt-BR": "Localizacao do sensor corporal"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

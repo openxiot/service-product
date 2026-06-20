@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:appearance:00002A01",
-    "description": {
-        "en-US": "Appearance",
-        "zh-CN": "外观",
-        "fr-FR": "Apparence",
-        "de-DE": "Erscheinungsbild",
-        "ja-JP": "外観",
-        "ko-KR": "외관",
-        "es-ES": "Apariencia",
-        "pt-BR": "Aparencia",
-        "zh-TW": "外觀"
-    },
-    "format": "uint16",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:appearance:00002A01",
+  "description": {
+    "en-US": "Appearance",
+    "zh-CN": "外观",
+    "zh-TW": "外觀",
+    "de-DE": "Erscheinungsbild",
+    "fr-FR": "Apparence",
+    "it-IT": "Aspetto",
+    "ru-RU": "Внешний вид",
+    "ko-KR": "외관",
+    "es-ES": "Apariencia",
+    "ja-JP": "外観",
+    "nl-NL": "Uiterlijk",
+    "pt-PT": "Aparencia",
+    "pt-BR": "Aparencia"
+  },
+  "format": "uint16",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

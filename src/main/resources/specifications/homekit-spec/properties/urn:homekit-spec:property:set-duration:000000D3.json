@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:set-duration:000000D3",
-    "description": {
-        "en-US": "Set Duration",
-        "zh-CN": "\u8bbe\u7f6e\u65f6\u957f",
-        "fr-FR": "D\u00e9finir la dur\u00e9e",
-        "de-DE": "Dauer einstellen",
-        "ja-JP": "\u6642\u9593\u8a2d\u5b9a",
-        "ko-KR": "\uc2dc\uac04 \uc124\uc815",
-        "es-ES": "Establecer duraci\u00f3n",
-        "pt-BR": "Definir dura\u00e7\u00e3o",
-        "zh-TW": "\u8a2d\u7f6e\u6642\u9577"
-    },
-    "format": "uint32",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        3600,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:set-duration:000000D3",
+  "description": {
+    "en-US": "Set Duration",
+    "zh-CN": "设置时长",
+    "zh-TW": "設置時長",
+    "de-DE": "Dauer einstellen",
+    "fr-FR": "Définir la durée",
+    "it-IT": "Imposta durata",
+    "ru-RU": "Установить длительность",
+    "ko-KR": "시간 설정",
+    "es-ES": "Establecer duración",
+    "ja-JP": "時間設定",
+    "nl-NL": "Duur instellen",
+    "pt-PT": "Definir duração",
+    "pt-BR": "Definir duração"
+  },
+  "format": "uint32",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    3600,
+    1
+  ],
+  "lifecycle": "released"
 }

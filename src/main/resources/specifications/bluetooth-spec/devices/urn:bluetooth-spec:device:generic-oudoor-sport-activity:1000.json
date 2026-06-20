@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:generic-oudoor-sport-activity:1000",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Generic Outdoor Sport Activity",
-        "zh-CN": "户外运动活动",
-        "fr-FR": "Activite sportive de plein air generique",
-        "de-DE": "Allgemeine Outdoor-Sportaktivitat",
-        "ja-JP": "汎用アウトドアスポーツ活動",
-        "ko-KR": "일반 야외 스포츠 활동",
-        "es-ES": "Actividad deportiva al aire libre generica",
-        "pt-BR": "Atividade esportiva ao ar livre generica",
-        "zh-TW": "戶外運動活動"
-    }
+  "type": "urn:bluetooth-spec:device:generic-oudoor-sport-activity:1000",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Generic Outdoor Sport Activity",
+    "zh-CN": "户外运动活动",
+    "zh-TW": "戶外運動活動",
+    "de-DE": "Allgemeine Outdoor-Sportaktivitat",
+    "fr-FR": "Activite sportive de plein air generique",
+    "it-IT": "Attività sport all'aperto generica",
+    "ru-RU": "Общая активность на открытом воздухе",
+    "ko-KR": "일반 야외 스포츠 활동",
+    "es-ES": "Actividad deportiva al aire libre generica",
+    "ja-JP": "汎用アウトドアスポーツ活動",
+    "nl-NL": "Algemene buitenactiviteit",
+    "pt-PT": "Atividade esportiva ao ar livre generica",
+    "pt-BR": "Atividade esportiva ao ar livre generica"
+  }
 }

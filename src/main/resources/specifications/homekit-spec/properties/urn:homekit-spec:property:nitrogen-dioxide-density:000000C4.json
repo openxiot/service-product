@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
-    "description": {
-        "en-US": "Nitrogen Dioxide Density",
-        "zh-CN": "\u4e8c\u6c27\u5316\u6c2e\u5bc6\u5ea6",
-        "fr-FR": "Densit\u00e9 de dioxyde d'azote",
-        "de-DE": "Stickstoffdioxid-Dichte",
-        "ja-JP": "\u4e8c\u9178\u5316\u7a92\u7d20\u6fc3\u5ea6",
-        "ko-KR": "\uc774\uc0b0\ud654\uc9c8\uc18c \ubc00\ub3c4",
-        "es-ES": "Densidad de di\u00f3xido de nitr\u00f3geno",
-        "pt-BR": "Densidade de di\u00f3xido de nitrog\u00eanio",
-        "zh-TW": "\u4e8c\u6c27\u5316\u6c2e\u5bc6\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:nitrogen-dioxide-density:000000C4",
+  "description": {
+    "en-US": "Nitrogen Dioxide Density",
+    "zh-CN": "二氧化氮密度",
+    "zh-TW": "二氧化氮密度",
+    "de-DE": "Stickstoffdioxid-Dichte",
+    "fr-FR": "Densité de dioxyde d'azote",
+    "it-IT": "Densità biossido di azoto",
+    "ru-RU": "Плотность диоксида азота",
+    "ko-KR": "이산화질소 밀도",
+    "es-ES": "Densidad de dióxido de nitrógeno",
+    "ja-JP": "二酸化窒素濃度",
+    "nl-NL": "Stikstofdioxidedichtheid",
+    "pt-PT": "Densidade de dióxido de nitrogênio",
+    "pt-BR": "Densidade de dióxido de nitrogênio"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1000,
+    1
+  ],
+  "lifecycle": "released"
 }

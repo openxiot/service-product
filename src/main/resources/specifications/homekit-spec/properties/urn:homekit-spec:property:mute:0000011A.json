@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:mute:0000011A",
-    "description": {
-        "en-US": "Mute",
-        "zh-CN": "\u9759\u97f3",
-        "fr-FR": "Sourdine",
-        "de-DE": "Stumm",
-        "ja-JP": "\u30df\u30e5\u30fc\u30c8",
-        "ko-KR": "\uc74c\uc18c\uac70",
-        "es-ES": "Silencio",
-        "pt-BR": "Mudo",
-        "zh-TW": "\u975c\u97f3"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:mute:0000011A",
+  "description": {
+    "en-US": "Mute",
+    "zh-CN": "静音",
+    "zh-TW": "靜音",
+    "de-DE": "Stumm",
+    "fr-FR": "Sourdine",
+    "it-IT": "Muto",
+    "ru-RU": "Без звука",
+    "ko-KR": "음소거",
+    "es-ES": "Silencio",
+    "ja-JP": "ミュート",
+    "nl-NL": "Dempen",
+    "pt-PT": "Mudo",
+    "pt-BR": "Mudo"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-    "description": {
-        "en-US": "Heating Threshold Temperature",
-        "zh-CN": "\u5236\u70ed\u9608\u503c\u6e29\u5ea6",
-        "fr-FR": "Temp\u00e9rature seuil de chauffage",
-        "de-DE": "Heizschwellentemperatur",
-        "ja-JP": "\u52a0\u71b1\u3057\u304d\u3044\u5024\u6e29\u5ea6",
-        "ko-KR": "\ub09c\ubc29 \uc784\uacc4 \uc628\ub3c4",
-        "es-ES": "Umbral de temperatura de calefacci\u00f3n",
-        "pt-BR": "Temperatura limite de aquecimento",
-        "zh-TW": "\u5236\u71b1\u95be\u503c\u6eab\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        25,
-        0.1
-    ],
-    "unit": "celsius",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+  "description": {
+    "en-US": "Heating Threshold Temperature",
+    "zh-CN": "制热阈值温度",
+    "zh-TW": "制熱閾值溫度",
+    "de-DE": "Heizschwellentemperatur",
+    "fr-FR": "Température seuil de chauffage",
+    "it-IT": "Soglia temperatura riscaldamento",
+    "ru-RU": "Порог температуры нагрева",
+    "ko-KR": "난방 임계 온도",
+    "es-ES": "Umbral de temperatura de calefacción",
+    "ja-JP": "加熱しきい値温度",
+    "nl-NL": "Drempeltemperatuur verwarming",
+    "pt-PT": "Temperatura limite de aquecimento",
+    "pt-BR": "Temperatura limite de aquecimento"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    25,
+    0.1
+  ],
+  "unit": "celsius",
+  "lifecycle": "released"
 }

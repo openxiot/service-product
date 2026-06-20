@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:alert-level:00002A06",
-    "description": {
-        "en-US": "Alert Level",
-        "zh-CN": "警报级别",
-        "fr-FR": "Niveau d'alerte",
-        "de-DE": "Alarmstufe",
-        "ja-JP": "アラートレベル",
-        "ko-KR": "알림 수준",
-        "es-ES": "Nivel de alerta",
-        "pt-BR": "Nivel de alerta",
-        "zh-TW": "警報級別"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:alert-level:00002A06",
+  "description": {
+    "en-US": "Alert Level",
+    "zh-CN": "警报级别",
+    "zh-TW": "警報級別",
+    "de-DE": "Alarmstufe",
+    "fr-FR": "Niveau d'alerte",
+    "it-IT": "Livello allarme",
+    "ru-RU": "Уровень предупреждения",
+    "ko-KR": "알림 수준",
+    "es-ES": "Nivel de alerta",
+    "ja-JP": "アラートレベル",
+    "nl-NL": "Alarmniveau",
+    "pt-PT": "Nivel de alerta",
+    "pt-BR": "Nivel de alerta"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

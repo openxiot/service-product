@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:property:pressure:00002A6D",
-    "description": {
-        "en-US": "Pressure",
-        "zh-CN": "气压",
-        "fr-FR": "Pression",
-        "de-DE": "Luftdruck",
-        "ja-JP": "気圧",
-        "ko-KR": "기압",
-        "es-ES": "Presion",
-        "pt-BR": "Pressao",
-        "zh-TW": "氣壓"
-    },
-    "format": "uint32",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released",
-    "unit": "pascals"
+  "type": "urn:bluetooth-spec:property:pressure:00002A6D",
+  "description": {
+    "en-US": "Pressure",
+    "zh-CN": "气压",
+    "zh-TW": "氣壓",
+    "de-DE": "Luftdruck",
+    "fr-FR": "Pression",
+    "it-IT": "Pressione",
+    "ru-RU": "Давление",
+    "ko-KR": "기압",
+    "es-ES": "Presion",
+    "ja-JP": "気圧",
+    "nl-NL": "Druk",
+    "pt-PT": "Pressao",
+    "pt-BR": "Pressao"
+  },
+  "format": "uint32",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released",
+  "unit": "pascals"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
-    "description": {
-        "en-US": "Cross Trainer Data",
-        "zh-CN": "椭圆机数据",
-        "fr-FR": "Donnees du cross-trainer",
-        "de-DE": "Crosstrainer-Daten",
-        "ja-JP": "クロストレーナーデータ",
-        "ko-KR": "크로스 트레이너 데이터",
-        "es-ES": "Datos de eliptica",
-        "pt-BR": "Dados do eliptico",
-        "zh-TW": "橢圓機數據"
-    },
-    "format": "uint16",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:cross-trainer-data:00002ACE",
+  "description": {
+    "en-US": "Cross Trainer Data",
+    "zh-CN": "椭圆机数据",
+    "zh-TW": "橢圓機數據",
+    "de-DE": "Crosstrainer-Daten",
+    "fr-FR": "Donnees du cross-trainer",
+    "it-IT": "Dati cross trainer",
+    "ru-RU": "Данные кросс-тренажера",
+    "ko-KR": "크로스 트레이너 데이터",
+    "es-ES": "Datos de eliptica",
+    "ja-JP": "クロストレーナーデータ",
+    "nl-NL": "Crosstrainergegevens",
+    "pt-PT": "Dados do eliptico",
+    "pt-BR": "Dados do eliptico"
+  },
+  "format": "uint16",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

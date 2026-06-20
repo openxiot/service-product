@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:temperature-sensor:0000008A",
-    "description": {
-        "en-US": "Temperature Sensor",
-        "zh-CN": "\u6e29\u5ea6\u4f20\u611f\u5668",
-        "fr-FR": "Capteur de temp\u00e9rature",
-        "de-DE": "Temperatursensor",
-        "ja-JP": "\u6e29\u5ea6\u30bb\u30f3\u30b5\u30fc",
-        "ko-KR": "\uc628\ub3c4 \uc13c\uc11c",
-        "es-ES": "Sensor de temperatura",
-        "pt-BR": "Sensor de temperatura",
-        "zh-TW": "\u6eab\u5ea6\u50b3\u611f\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-temperature:00000011"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:temperature-sensor:0000008A",
+  "description": {
+    "en-US": "Temperature Sensor",
+    "zh-CN": "温度传感器",
+    "zh-TW": "溫度傳感器",
+    "de-DE": "Temperatursensor",
+    "fr-FR": "Capteur de température",
+    "it-IT": "Sensore temperatura",
+    "ru-RU": "Датчик температуры",
+    "ko-KR": "온도 센서",
+    "es-ES": "Sensor de temperatura",
+    "ja-JP": "温度センサー",
+    "nl-NL": "Temperatuursensor",
+    "pt-PT": "Sensor de temperatura",
+    "pt-BR": "Sensor de temperatura"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-temperature:00000011"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:status-active:00000075",
+    "urn:homekit-spec:property:status-fault:00000077",
+    "urn:homekit-spec:property:status-low-battery:00000079",
+    "urn:homekit-spec:property:status-tampered:0000007A",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

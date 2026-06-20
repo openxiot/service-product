@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:location-and-speed:00002A67",
-    "description": {
-        "en-US": "Location and Speed",
-        "zh-CN": "位置和速度",
-        "fr-FR": "Emplacement et vitesse",
-        "de-DE": "Standort und Geschwindigkeit",
-        "ja-JP": "位置と速度",
-        "ko-KR": "위치 및 속도",
-        "es-ES": "Ubicacion y velocidad",
-        "pt-BR": "Localizacao e velocidade",
-        "zh-TW": "位置和速度"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:location-and-speed:00002A67",
+  "description": {
+    "en-US": "Location and Speed",
+    "zh-CN": "位置和速度",
+    "zh-TW": "位置和速度",
+    "de-DE": "Standort und Geschwindigkeit",
+    "fr-FR": "Emplacement et vitesse",
+    "it-IT": "Posizione e velocità",
+    "ru-RU": "Местоположение и скорость",
+    "ko-KR": "위치 및 속도",
+    "es-ES": "Ubicacion y velocidad",
+    "ja-JP": "位置と速度",
+    "nl-NL": "Locatie en snelheid",
+    "pt-PT": "Localizacao e velocidade",
+    "pt-BR": "Localizacao e velocidade"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,14 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:homepod:0000001C",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "HomePod",
-        "zh-CN": "HomePod",
-        "fr-FR": "HomePod",
-        "de-DE": "HomePod",
-        "ja-JP": "HomePod",
-        "ko-KR": "HomePod",
-        "es-ES": "HomePod",
-        "pt-BR": "HomePod"
-    }
+  "type": "urn:homekit-spec:device:homepod:0000001C",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "HomePod",
+    "zh-CN": "HomePod",
+    "zh-TW": "HomePod",
+    "de-DE": "HomePod",
+    "fr-FR": "HomePod",
+    "it-IT": "HomePod",
+    "ru-RU": "HomePod",
+    "ko-KR": "HomePod",
+    "es-ES": "HomePod",
+    "ja-JP": "HomePod",
+    "nl-NL": "HomePod",
+    "pt-PT": "HomePod",
+    "pt-BR": "HomePod"
+  }
 }

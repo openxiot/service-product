@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:rsc-feature:00002A54",
-    "description": {
-        "en-US": "RSC Feature",
-        "zh-CN": "跑步传感器特征",
-        "fr-FR": "Caracteristique RSC",
-        "de-DE": "RSC-Funktion",
-        "ja-JP": "RSC機能",
-        "ko-KR": "RSC 기능",
-        "es-ES": "Caracteristica RSC",
-        "pt-BR": "Recurso RSC",
-        "zh-TW": "跑步傳感器特徵"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:rsc-feature:00002A54",
+  "description": {
+    "en-US": "RSC Feature",
+    "zh-CN": "跑步传感器特征",
+    "zh-TW": "跑步傳感器特徵",
+    "de-DE": "RSC-Funktion",
+    "fr-FR": "Caracteristique RSC",
+    "it-IT": "Funzione RSC",
+    "ru-RU": "Функция RSC",
+    "ko-KR": "RSC 기능",
+    "es-ES": "Caracteristica RSC",
+    "ja-JP": "RSC機能",
+    "nl-NL": "RSC-functie",
+    "pt-PT": "Recurso RSC",
+    "pt-BR": "Recurso RSC"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

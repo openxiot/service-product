@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:current-temperature:00000011",
-    "description": {
-        "en-US": "Current Temperature",
-        "zh-CN": "\u5f53\u524d\u6e29\u5ea6",
-        "fr-FR": "Temp\u00e9rature actuelle",
-        "de-DE": "Aktuelle Temperatur",
-        "ja-JP": "\u73fe\u5728\u306e\u6e29\u5ea6",
-        "ko-KR": "\ud604\uc7ac \uc628\ub3c4",
-        "es-ES": "Temperatura actual",
-        "pt-BR": "Temperatura atual",
-        "zh-TW": "\u7576\u524d\u6eab\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        0.1
-    ],
-    "unit": "celsius",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:current-temperature:00000011",
+  "description": {
+    "en-US": "Current Temperature",
+    "zh-CN": "当前温度",
+    "zh-TW": "當前溫度",
+    "de-DE": "Aktuelle Temperatur",
+    "fr-FR": "Température actuelle",
+    "it-IT": "Temperatura attuale",
+    "ru-RU": "Текущая температура",
+    "ko-KR": "현재 온도",
+    "es-ES": "Temperatura actual",
+    "ja-JP": "現在の温度",
+    "nl-NL": "Huidige temperatuur",
+    "pt-PT": "Temperatura atual",
+    "pt-BR": "Temperatura atual"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    0.1
+  ],
+  "unit": "celsius",
+  "lifecycle": "released"
 }

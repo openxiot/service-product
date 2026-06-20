@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:leak-sensor:00000083",
-    "description": {
-        "en-US": "Leak Sensor",
-        "zh-CN": "\u6cc4\u6f0f\u4f20\u611f\u5668",
-        "fr-FR": "Capteur de fuite",
-        "de-DE": "Lecksensor",
-        "ja-JP": "\u6f0f\u6c34\u30bb\u30f3\u30b5\u30fc",
-        "ko-KR": "\ub204\uc218 \uc13c\uc11c",
-        "es-ES": "Sensor de fuga",
-        "pt-BR": "Sensor de vazamento",
-        "zh-TW": "\u6d29\u6f0f\u50b3\u611f\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:leak-detected:00000070"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:leak-sensor:00000083",
+  "description": {
+    "en-US": "Leak Sensor",
+    "zh-CN": "泄漏传感器",
+    "zh-TW": "洩漏傳感器",
+    "de-DE": "Lecksensor",
+    "fr-FR": "Capteur de fuite",
+    "it-IT": "Sensore perdita",
+    "ru-RU": "Датчик утечки",
+    "ko-KR": "누수 센서",
+    "es-ES": "Sensor de fuga",
+    "ja-JP": "漏水センサー",
+    "nl-NL": "Lekkagesensor",
+    "pt-PT": "Sensor de vazamento",
+    "pt-BR": "Sensor de vazamento"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:leak-detected:00000070"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:status-active:00000075",
+    "urn:homekit-spec:property:status-fault:00000077",
+    "urn:homekit-spec:property:status-tampered:0000007A",
+    "urn:homekit-spec:property:status-low-battery:00000079",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

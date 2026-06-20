@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:generic-running:1480",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Generic Running",
-        "zh-CN": "跑步",
-        "fr-FR": "Course generique",
-        "de-DE": "Laufen",
-        "ja-JP": "ランニング",
-        "ko-KR": "달리기",
-        "es-ES": "Correr",
-        "pt-BR": "Corrida",
-        "zh-TW": "跑步"
-    }
+  "type": "urn:bluetooth-spec:device:generic-running:1480",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Generic Running",
+    "zh-CN": "跑步",
+    "zh-TW": "跑步",
+    "de-DE": "Laufen",
+    "fr-FR": "Course generique",
+    "it-IT": "Corsa generica",
+    "ru-RU": "Бег общий",
+    "ko-KR": "달리기",
+    "es-ES": "Correr",
+    "ja-JP": "ランニング",
+    "nl-NL": "Algemeen hardlopen",
+    "pt-PT": "Corrida",
+    "pt-BR": "Corrida"
+  }
 }

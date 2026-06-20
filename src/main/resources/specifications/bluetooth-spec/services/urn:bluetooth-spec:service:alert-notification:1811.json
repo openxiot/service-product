@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:service:alert-notification:1811",
-    "description": {
-        "en-US": "Alert Notification",
-        "zh-CN": "警报通知",
-        "fr-FR": "Notification d'alerte",
-        "de-DE": "Alarmbenachrichtigung",
-        "ja-JP": "通知通知",
-        "ko-KR": "알림 알림",
-        "es-ES": "Notificacion de alerta",
-        "pt-BR": "Notificacao de alerta",
-        "zh-TW": "警報通知"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:alert-status:00002A43",
-        "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
-        "urn:bluetooth-spec:property:alert-notification-control-point:00002A42"
-    ]
+  "type": "urn:bluetooth-spec:service:alert-notification:1811",
+  "description": {
+    "en-US": "Alert Notification",
+    "zh-CN": "警报通知",
+    "zh-TW": "警報通知",
+    "de-DE": "Alarmbenachrichtigung",
+    "fr-FR": "Notification d'alerte",
+    "it-IT": "Notifica di allarme",
+    "ru-RU": "Уведомление о тревоге",
+    "ko-KR": "알림 알림",
+    "es-ES": "Notificacion de alerta",
+    "ja-JP": "通知通知",
+    "nl-NL": "Alarmmelding",
+    "pt-PT": "Notificacao de alerta",
+    "pt-BR": "Notificacao de alerta"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:alert-status:00002A43",
+    "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
+    "urn:bluetooth-spec:property:alert-notification-control-point:00002A42"
+  ]
 }

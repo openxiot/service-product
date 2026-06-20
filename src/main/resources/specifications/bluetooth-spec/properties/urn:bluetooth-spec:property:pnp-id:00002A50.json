@@ -1,18 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:pnp-id:00002A50",
-    "description": {
-        "en-US": "PnP ID",
-        "zh-CN": "PnP ID",
-        "fr-FR": "ID PnP",
-        "de-DE": "PnP-ID",
-        "ja-JP": "PnP ID",
-        "ko-KR": "PnP ID",
-        "es-ES": "ID PnP",
-        "pt-BR": "ID PnP"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:pnp-id:00002A50",
+  "description": {
+    "en-US": "PnP ID",
+    "zh-CN": "PnP ID",
+    "zh-TW": "即插即用ID",
+    "de-DE": "PnP-ID",
+    "fr-FR": "ID PnP",
+    "it-IT": "ID PnP",
+    "ru-RU": "PnP ID",
+    "ko-KR": "PnP ID",
+    "es-ES": "ID PnP",
+    "ja-JP": "PnP ID",
+    "nl-NL": "PnP-ID",
+    "pt-PT": "ID PnP",
+    "pt-BR": "ID PnP"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

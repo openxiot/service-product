@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:night-vision:0000011B",
-    "description": {
-        "en-US": "Night Vision",
-        "zh-CN": "\u591c\u89c6",
-        "fr-FR": "Vision nocturne",
-        "de-DE": "Nachtsicht",
-        "ja-JP": "\u30ca\u30a4\u30c8\u30d3\u30b8\u30e7\u30f3",
-        "ko-KR": "\uc57c\uac04 \ud22c\uc2dc",
-        "es-ES": "Visi\u00f3n nocturna",
-        "pt-BR": "Vis\u00e3o noturna",
-        "zh-TW": "\u591c\u8996"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:night-vision:0000011B",
+  "description": {
+    "en-US": "Night Vision",
+    "zh-CN": "夜视",
+    "zh-TW": "夜視",
+    "de-DE": "Nachtsicht",
+    "fr-FR": "Vision nocturne",
+    "it-IT": "Visione notturna",
+    "ru-RU": "Ночное видение",
+    "ko-KR": "야간 투시",
+    "es-ES": "Visión nocturna",
+    "ja-JP": "ナイトビジョン",
+    "nl-NL": "Nachtzicht",
+    "pt-PT": "Visão noturna",
+    "pt-BR": "Visão noturna"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

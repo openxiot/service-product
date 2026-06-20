@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:software-revision-string:00002A28",
-    "description": {
-        "en-US": "Software Revision String",
-        "zh-CN": "软件版本字符串",
-        "fr-FR": "Chaine de revision du logiciel",
-        "de-DE": "Software-Version",
-        "ja-JP": "ソフトウェアリビジョン",
-        "ko-KR": "소프트웨어 버전",
-        "es-ES": "Revision del software",
-        "pt-BR": "Revisao do software",
-        "zh-TW": "軟件版本字符串"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:software-revision-string:00002A28",
+  "description": {
+    "en-US": "Software Revision String",
+    "zh-CN": "软件版本字符串",
+    "zh-TW": "軟件版本字符串",
+    "de-DE": "Software-Version",
+    "fr-FR": "Chaine de revision du logiciel",
+    "it-IT": "Stringa revisione software",
+    "ru-RU": "Строка ревизии программного обеспечения",
+    "ko-KR": "소프트웨어 버전",
+    "es-ES": "Revision del software",
+    "ja-JP": "ソフトウェアリビジョン",
+    "nl-NL": "Software revisie string",
+    "pt-PT": "Revisao do software",
+    "pt-BR": "Revisao do software"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

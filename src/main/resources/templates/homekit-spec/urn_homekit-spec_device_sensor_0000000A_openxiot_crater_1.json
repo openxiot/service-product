@@ -4,13 +4,17 @@
   "description": {
     "en-US": "Temperature & Humidity Sensor",
     "zh-CN": "温湿度传感器",
-    "fr-FR": "Temperature & Humidity Sensor",
+    "zh-TW": "溫溼度傳感器",
     "de-DE": "Temperature & Humidity Sensor",
-    "ja-JP": "Temperature & Humidity Sensor",
+    "fr-FR": "Temperature & Humidity Sensor",
+    "it-IT": "Sensore temperatura e umidità",
+    "ru-RU": "Датчик температуры и влажности",
     "ko-KR": "Temperature & Humidity Sensor",
     "es-ES": "Temperature & Humidity Sensor",
-    "pt-BR": "Temperature & Humidity Sensor",
-    "zh-TW": "溫溼度傳感器"
+    "ja-JP": "Temperature & Humidity Sensor",
+    "nl-NL": "Temperatuur- en vochtigheidssensor",
+    "pt-PT": "Sensor de temperatura e humidade",
+    "pt-BR": "Temperature & Humidity Sensor"
   },
   "services": [
     {
@@ -29,7 +33,11 @@
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
         "pt-BR": "Informações do acessório",
-        "zh-TW": "配件信息"
+        "zh-TW": "配件信息",
+        "it-IT": "Informazioni accessorio",
+        "ru-RU": "Информация об аксессуаре",
+        "nl-NL": "Accessoire-informatie",
+        "pt-PT": "Informações do acessório"
       },
       "properties": [
         {
@@ -37,7 +45,16 @@
           "description": {
             "en-US": "Firmware Revision",
             "zh-TW": "固件版本",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "de-DE": "Firmware-Version",
+            "fr-FR": "Version du firmware",
+            "it-IT": "Revisione firmware",
+            "ru-RU": "Ревизия прошивки",
+            "ko-KR": "펌웨어 버전",
+            "es-ES": "Revisión del firmware",
+            "ja-JP": "ファームウェアリビジョン",
+            "nl-NL": "Firmware revisie",
+            "pt-PT": "Revisão do firmware"
           },
           "format": "string",
           "access": [
@@ -50,8 +67,17 @@
           "type": "urn:homekit-spec:property:identify:00000014:openxiot:crater:1",
           "description": {
             "en-US": "Identify",
-            "zh-TW": "辨認",
-            "zh-CN": "辨认"
+            "zh-TW": "識別",
+            "zh-CN": "识别",
+            "de-DE": "Identifizieren",
+            "fr-FR": "Identifier",
+            "it-IT": "Identifica",
+            "ru-RU": "Идентификация",
+            "ko-KR": "식별",
+            "es-ES": "Identificar",
+            "ja-JP": "識別",
+            "nl-NL": "Identificeren",
+            "pt-PT": "Identificar"
           },
           "format": "bool",
           "access": [
@@ -65,7 +91,16 @@
           "description": {
             "en-US": "Manufacturer",
             "zh-TW": "製造商",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "de-DE": "Hersteller",
+            "fr-FR": "Fabricant",
+            "it-IT": "Produttore",
+            "ru-RU": "Производитель",
+            "ko-KR": "제조업체",
+            "es-ES": "Fabricante",
+            "ja-JP": "メーカー",
+            "nl-NL": "Fabrikant",
+            "pt-PT": "Fabricante"
           },
           "format": "string",
           "access": [
@@ -79,7 +114,16 @@
           "description": {
             "en-US": "Model",
             "zh-TW": "型號",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "de-DE": "Modell",
+            "fr-FR": "Modèle",
+            "it-IT": "Modello",
+            "ru-RU": "Модель",
+            "ko-KR": "모델",
+            "es-ES": "Modelo",
+            "ja-JP": "モデル",
+            "nl-NL": "Model",
+            "pt-PT": "Modelo"
           },
           "format": "string",
           "access": [
@@ -93,7 +137,16 @@
           "description": {
             "en-US": "name",
             "zh-TW": "名稱",
-            "zh-CN": "名称"
+            "zh-CN": "名称",
+            "de-DE": "name",
+            "fr-FR": "name",
+            "it-IT": "name",
+            "ru-RU": "name",
+            "ko-KR": "name",
+            "es-ES": "name",
+            "ja-JP": "name",
+            "nl-NL": "name",
+            "pt-PT": "name"
           },
           "format": "string",
           "access": [
@@ -107,7 +160,16 @@
           "description": {
             "en-US": "Serial Number",
             "zh-TW": "序列號",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "de-DE": "Seriennummer",
+            "fr-FR": "Numéro de série",
+            "it-IT": "Numero seriale",
+            "ru-RU": "Серийный номер",
+            "ko-KR": "일련번호",
+            "es-ES": "Número de serie",
+            "ja-JP": "シリアル番号",
+            "nl-NL": "Serienummer",
+            "pt-PT": "Número de série"
           },
           "format": "string",
           "access": [
@@ -120,8 +182,17 @@
           "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:crater:1",
           "description": {
             "en-US": "Accessory Flags",
-            "zh-TW": "配件屬性",
-            "zh-CN": "配件属性"
+            "zh-TW": "附件標誌",
+            "zh-CN": "附件标志",
+            "de-DE": "Zubehör-Flags",
+            "fr-FR": "Indicateurs d'accessoire",
+            "it-IT": "Flag accessorio",
+            "ru-RU": "Флаги аксессуара",
+            "ko-KR": "액세서리 플래그",
+            "es-ES": "Indicadores de accesorio",
+            "ja-JP": "アクセサリフラグ",
+            "nl-NL": "Accessoire-vlaggen",
+            "pt-PT": "Sinalizadores do acessório"
           },
           "format": "uint32",
           "access": [
@@ -141,7 +212,16 @@
           "description": {
             "en-US": "Hardware Revision",
             "zh-TW": "硬件版本",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "de-DE": "Hardware-Version",
+            "fr-FR": "Version du matériel",
+            "it-IT": "Revisione hardware",
+            "ru-RU": "Ревизия аппаратного обеспечения",
+            "ko-KR": "하드웨어 버전",
+            "es-ES": "Revisión del hardware",
+            "ja-JP": "ハードウェアリビジョン",
+            "nl-NL": "Hardware revisie",
+            "pt-PT": "Revisão do hardware"
           },
           "format": "string",
           "access": [
@@ -168,7 +248,11 @@
         "ko-KR": "온도 센서",
         "es-ES": "Sensor de temperatura",
         "pt-BR": "Sensor de temperatura",
-        "zh-TW": "溫度傳感器"
+        "zh-TW": "溫度傳感器",
+        "it-IT": "Sensore temperatura",
+        "ru-RU": "Датчик температуры",
+        "nl-NL": "Temperatuursensor",
+        "pt-PT": "Sensor de temperatura"
       },
       "properties": [
         {
@@ -176,7 +260,16 @@
           "description": {
             "en-US": "Current Temperature",
             "zh-CN": "当前温度",
-            "zh-TW": "當前溫度"
+            "zh-TW": "當前溫度",
+            "de-DE": "Aktuelle Temperatur",
+            "fr-FR": "Température actuelle",
+            "it-IT": "Temperatura attuale",
+            "ru-RU": "Текущая температура",
+            "ko-KR": "현재 온도",
+            "es-ES": "Temperatura actual",
+            "ja-JP": "現在の温度",
+            "nl-NL": "Huidige temperatuur",
+            "pt-PT": "Temperatura atual"
           },
           "format": "float",
           "access": [
@@ -197,7 +290,16 @@
           "description": {
             "en-US": "Low Battery",
             "zh-CN": "低电量",
-            "zh-TW": "低電量"
+            "zh-TW": "低電量",
+            "de-DE": "Low Battery",
+            "fr-FR": "Low Battery",
+            "it-IT": "Batteria scarica",
+            "ru-RU": "Низкий заряд батареи",
+            "ko-KR": "Low Battery",
+            "es-ES": "Low Battery",
+            "ja-JP": "Low Battery",
+            "nl-NL": "Lage batterij",
+            "pt-PT": "Bateria fraca"
           },
           "format": "uint8",
           "value-list": [
@@ -235,7 +337,11 @@
         "ko-KR": "습도 센서",
         "es-ES": "Sensor de humedad",
         "pt-BR": "Sensor de umidade",
-        "zh-TW": "溼度傳感器"
+        "zh-TW": "溼度傳感器",
+        "it-IT": "Sensore umidità",
+        "ru-RU": "Датчик влажности",
+        "nl-NL": "Vochtigheidssensor",
+        "pt-PT": "Sensor de umidade"
       },
       "properties": [
         {
@@ -243,7 +349,16 @@
           "description": {
             "en-US": "Current Humidity",
             "zh-CN": "当前湿度",
-            "zh-TW": "當前溼度"
+            "zh-TW": "當前溼度",
+            "de-DE": "Current Humidity",
+            "fr-FR": "Current Humidity",
+            "it-IT": "Umidità attuale",
+            "ru-RU": "Текущая влажность",
+            "ko-KR": "Current Humidity",
+            "es-ES": "Current Humidity",
+            "ja-JP": "Current Humidity",
+            "nl-NL": "Huidige luchtvochtigheid",
+            "pt-PT": "Humidade atual"
           },
           "format": "float",
           "access": [

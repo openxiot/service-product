@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:pulse-oximeter-wrist-worn:0DC0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Pulse Oximeter (Wrist Worn)",
-        "zh-CN": "脉搏血氧仪（腕式）",
-        "fr-FR": "Oxymetre de pouls (poignet)",
-        "de-DE": "Pulsoximeter (Handgelenk)",
-        "ja-JP": "パルスオキシメータ（手首）",
-        "ko-KR": "맥박 산소 측정기(손목)",
-        "es-ES": "Oximetro de pulso (muneca)",
-        "pt-BR": "Oximetro de pulso (pulso)",
-        "zh-TW": "脈搏血氧儀（腕式）"
-    }
+  "type": "urn:bluetooth-spec:device:pulse-oximeter-wrist-worn:0DC0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Pulse Oximeter (Wrist Worn)",
+    "zh-CN": "脉搏血氧仪（腕式）",
+    "zh-TW": "脈搏血氧儀（腕式）",
+    "de-DE": "Pulsoximeter (Handgelenk)",
+    "fr-FR": "Oxymetre de pouls (poignet)",
+    "it-IT": "Ossimetro (da polso)",
+    "ru-RU": "Пульсоксиметр (запястный)",
+    "ko-KR": "맥박 산소 측정기(손목)",
+    "es-ES": "Oximetro de pulso (muneca)",
+    "ja-JP": "パルスオキシメータ（手首）",
+    "nl-NL": "Pulse-oximeter (pols)",
+    "pt-PT": "Oximetro de pulso (pulso)",
+    "pt-BR": "Oximetro de pulso (pulso)"
+  }
 }

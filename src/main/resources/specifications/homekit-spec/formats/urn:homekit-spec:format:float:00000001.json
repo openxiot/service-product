@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:format:float:00000001",
-    "description": {
-        "en-US": "float",
-        "zh-CN": "\u6d6e\u70b9\u6570",
-        "fr-FR": "flottant",
-        "de-DE": "Flie\u00dfkommazahl",
-        "ja-JP": "\u6d6e\u52d5\u5c0f\u6570\u70b9",
-        "ko-KR": "\ubd80\ub3d9 \uc18c\uc218\uc810",
-        "es-ES": "flotante",
-        "pt-BR": "ponto flutuante",
-        "zh-TW": "\u6d6e\u9ede\u6578"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:format:float:00000001",
+  "description": {
+    "en-US": "float",
+    "zh-CN": "32 位浮点数",
+    "zh-TW": "32 位浮點數",
+    "de-DE": "32-Bit-Gleitkommazahl",
+    "fr-FR": "flottant 32 bits",
+    "it-IT": "float",
+    "ru-RU": "float",
+    "ko-KR": "32비트 부동 소수점",
+    "es-ES": "flotante 32 bits",
+    "ja-JP": "32ビット浮動小数点",
+    "nl-NL": "float",
+    "pt-PT": "ponto flutuante 32 bits",
+    "pt-BR": "ponto flutuante"
+  },
+  "lifecycle": "released"
 }

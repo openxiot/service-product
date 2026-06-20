@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:hours:0000000B",
-    "description": {
-        "en-US": "hours",
-        "zh-CN": "小时",
-        "fr-FR": "heures",
-        "de-DE": "Stunden",
-        "ja-JP": "時",
-        "ko-KR": "시간",
-        "es-ES": "horas",
-        "pt-BR": "horas",
-        "zh-TW": "小時"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:hours:0000000B",
+  "description": {
+    "en-US": "hours",
+    "zh-CN": "小时",
+    "zh-TW": "小時",
+    "de-DE": "Stunden",
+    "fr-FR": "heures",
+    "it-IT": "hours",
+    "ru-RU": "hours",
+    "ko-KR": "시간",
+    "es-ES": "horas",
+    "ja-JP": "時",
+    "nl-NL": "hours",
+    "pt-PT": "horas",
+    "pt-BR": "horas"
+  },
+  "lifecycle": "released"
 }

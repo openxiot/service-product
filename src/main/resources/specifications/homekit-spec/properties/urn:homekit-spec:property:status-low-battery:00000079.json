@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:status-low-battery:00000079",
-    "description": {
-        "en-US": "Status Low Battery",
-        "zh-CN": "\u72b6\u6001\u4f4e\u7535\u91cf",
-        "fr-FR": "Statut batterie faible",
-        "de-DE": "Status Batterie schwach",
-        "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u30d0\u30c3\u30c6\u30ea\u30fc\u4f4e\u4e0b",
-        "ko-KR": "\uc0c1\ud0dc \ubc30\ud130\ub9ac \ubd80\uc871",
-        "es-ES": "Estado de bater\u00eda baja",
-        "pt-BR": "Status bateria fraca",
-        "zh-TW": "\u72c0\u614b\u4f4e\u96fb\u91cf"
+  "type": "urn:homekit-spec:property:status-low-battery:00000079",
+  "description": {
+    "en-US": "Status Low Battery",
+    "zh-CN": "状态低电量",
+    "zh-TW": "狀態低電量",
+    "de-DE": "Status Batterie schwach",
+    "fr-FR": "Statut batterie faible",
+    "it-IT": "Stato batteria scarica",
+    "ru-RU": "Статус низкого заряда",
+    "ko-KR": "상태 배터리 부족",
+    "es-ES": "Estado de batería baja",
+    "ja-JP": "ステータスバッテリー低下",
+    "nl-NL": "Status lage batterij",
+    "pt-PT": "Status bateria fraca",
+    "pt-BR": "Status bateria fraca"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "BATTERY_LEVEL_NORMAL",
+        "zh-CN": "电池电量正常",
+        "fr-FR": "BATTERIE NORMALE",
+        "de-DE": "BATTERIE NORMAL",
+        "ja-JP": "バッテリー正常",
+        "ko-KR": "배터리 정상",
+        "es-ES": "BATERÍA NORMAL",
+        "pt-BR": "BATERIA NORMAL",
+        "zh-TW": "電池電量正常",
+        "it-IT": "LIVELLO_BATTERIA_NORMALE",
+        "ru-RU": "ЗАРЯД_БАТАРЕИ_НОРМАЛЬНЫЙ",
+        "nl-NL": "BATTERIJNIVEAU_NORMAAL",
+        "pt-PT": "BATERIA NORMAL"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "BATTERY_LEVEL_NORMAL",
-                "zh-CN": "\u7535\u6c60\u7535\u91cf\u6b63\u5e38",
-                "fr-FR": "BATTERIE NORMALE",
-                "de-DE": "BATTERIE NORMAL",
-                "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u6b63\u5e38",
-                "ko-KR": "\ubc30\ud130\ub9ac \uc815\uc0c1",
-                "es-ES": "BATER\u00cdA NORMAL",
-                "pt-BR": "BATERIA NORMAL",
-                "zh-TW": "\u96fb\u6c60\u96fb\u91cf\u6b63\u5e38"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "BATTERY_LEVEL_LOW",
-                "zh-CN": "\u7535\u6c60\u7535\u91cf\u4f4e",
-                "fr-FR": "BATTERIE FAIBLE",
-                "de-DE": "BATTERIE NIEDRIG",
-                "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u4f4e\u4e0b",
-                "ko-KR": "\ubc30\ud130\ub9ac \ubd80\uc871",
-                "es-ES": "BATER\u00cdA BAJA",
-                "pt-BR": "BATERIA FRACA",
-                "zh-TW": "\u96fb\u6c60\u96fb\u91cf\u4f4e"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "BATTERY_LEVEL_LOW",
+        "zh-CN": "电池电量低",
+        "fr-FR": "BATTERIE FAIBLE",
+        "de-DE": "BATTERIE NIEDRIG",
+        "ja-JP": "バッテリー低下",
+        "ko-KR": "배터리 부족",
+        "es-ES": "BATERÍA BAJA",
+        "pt-BR": "BATERIA FRACA",
+        "zh-TW": "電池電量低",
+        "it-IT": "LIVELLO_BATTERIA_BASSO",
+        "ru-RU": "ЗАРЯД_БАТАРЕИ_НИЗКИЙ",
+        "nl-NL": "BATTERIJNIVEAU_LAAG",
+        "pt-PT": "BATERIA FRACA"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

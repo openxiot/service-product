@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:current-horizontal-tilt-angle:0000006C",
-    "description": {
-        "en-US": "Current Horizontal Tilt Angle",
-        "zh-CN": "\u5f53\u524d\u6c34\u5e73\u503e\u659c\u89d2\u5ea6",
-        "fr-FR": "Angle d'inclinaison horizontal actuel",
-        "de-DE": "Aktueller horizontaler Neigungswinkel",
-        "ja-JP": "\u73fe\u5728\u306e\u6c34\u5e73\u50be\u659c\u89d2",
-        "ko-KR": "\ud604\uc7ac \uc218\ud3c9 \uae30\uc6b8\uae30 \uac01\ub3c4",
-        "es-ES": "\u00c1ngulo de inclinaci\u00f3n horizontal actual",
-        "pt-BR": "\u00c2ngulo de inclina\u00e7\u00e3o horizontal atual",
-        "zh-TW": "\u7576\u524d\u6c34\u5e73\u50be\u659c\u89d2\u5ea6"
-    },
-    "format": "int32",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        -90,
-        90,
-        1
-    ],
-    "unit": "arcdegrees",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:current-horizontal-tilt-angle:0000006C",
+  "description": {
+    "en-US": "Current Horizontal Tilt Angle",
+    "zh-CN": "当前水平倾斜角度",
+    "zh-TW": "當前水平傾斜角度",
+    "de-DE": "Aktueller horizontaler Neigungswinkel",
+    "fr-FR": "Angle d'inclinaison horizontal actuel",
+    "it-IT": "Angolo inclinazione orizzontale attuale",
+    "ru-RU": "Текущий угол горизонтального наклона",
+    "ko-KR": "현재 수평 기울기 각도",
+    "es-ES": "Ángulo de inclinación horizontal actual",
+    "ja-JP": "現在の水平傾斜角",
+    "nl-NL": "Huidige horizontale kantelhoek",
+    "pt-PT": "Ângulo de inclinação horizontal atual",
+    "pt-BR": "Ângulo de inclinação horizontal atual"
+  },
+  "format": "int32",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    -90,
+    90,
+    1
+  ],
+  "unit": "arcdegrees",
+  "lifecycle": "released"
 }

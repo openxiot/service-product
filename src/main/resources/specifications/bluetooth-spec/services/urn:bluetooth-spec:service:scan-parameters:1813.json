@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:service:scan-parameters:1813",
-    "description": {
-        "en-US": "Scan Parameters",
-        "zh-CN": "扫描参数",
-        "fr-FR": "Parametres de scan",
-        "de-DE": "Scan-Parameter",
-        "ja-JP": "スキャンパラメータ",
-        "ko-KR": "스캔 매개변수",
-        "es-ES": "Parametros de escaneo",
-        "pt-BR": "Parametros de varredura",
-        "zh-TW": "掃描參數"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:scan-interval-window:00002A4F"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:scan-refresh:00002A31"
-    ]
+  "type": "urn:bluetooth-spec:service:scan-parameters:1813",
+  "description": {
+    "en-US": "Scan Parameters",
+    "zh-CN": "扫描参数",
+    "zh-TW": "掃描參數",
+    "de-DE": "Scan-Parameter",
+    "fr-FR": "Parametres de scan",
+    "it-IT": "Parametri scansione",
+    "ru-RU": "Параметры сканирования",
+    "ko-KR": "스캔 매개변수",
+    "es-ES": "Parametros de escaneo",
+    "ja-JP": "スキャンパラメータ",
+    "nl-NL": "Scanparameters",
+    "pt-PT": "Parametros de varredura",
+    "pt-BR": "Parametros de varredura"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:scan-interval-window:00002A4F"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:scan-refresh:00002A31"
+  ]
 }

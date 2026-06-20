@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:eye-glasses:01C0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Eye Glasses",
-        "zh-CN": "眼镜",
-        "fr-FR": "Lunettes",
-        "de-DE": "Brille",
-        "ja-JP": "メガネ",
-        "ko-KR": "안경",
-        "es-ES": "Gafas",
-        "pt-BR": "Oculos",
-        "zh-TW": "眼鏡"
-    }
+  "type": "urn:bluetooth-spec:device:eye-glasses:01C0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Eye Glasses",
+    "zh-CN": "眼镜",
+    "zh-TW": "眼鏡",
+    "de-DE": "Brille",
+    "fr-FR": "Lunettes",
+    "it-IT": "Occhiali",
+    "ru-RU": "Очки",
+    "ko-KR": "안경",
+    "es-ES": "Gafas",
+    "ja-JP": "メガネ",
+    "nl-NL": "Bril",
+    "pt-PT": "Oculos",
+    "pt-BR": "Oculos"
+  }
 }

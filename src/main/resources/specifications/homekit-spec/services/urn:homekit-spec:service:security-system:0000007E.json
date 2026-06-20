@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:security-system:0000007E",
-    "description": {
-        "en-US": "Security System",
-        "zh-CN": "\u5b89\u5168\u7cfb\u7edf",
-        "fr-FR": "Syst\u00e8me de s\u00e9curit\u00e9",
-        "de-DE": "Sicherheitssystem",
-        "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0",
-        "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c",
-        "es-ES": "Sistema de seguridad",
-        "pt-BR": "Sistema de seguran\u00e7a",
-        "zh-TW": "\u5b89\u5168\u7cfb\u7d71"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:security-system-current-state:00000066",
-        "urn:homekit-spec:property:security-system-target-state:00000067"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:security-system-alarm-type:0000008E",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:security-system:0000007E",
+  "description": {
+    "en-US": "Security System",
+    "zh-CN": "安全系统",
+    "zh-TW": "安全系統",
+    "de-DE": "Sicherheitssystem",
+    "fr-FR": "Systeme de securite",
+    "it-IT": "Sistema di sicurezza",
+    "ru-RU": "Охранная система",
+    "ko-KR": "보안 시스템",
+    "es-ES": "Sistema de seguridad",
+    "ja-JP": "セキュリティシステム",
+    "nl-NL": "Beveiligingssysteem",
+    "pt-PT": "Sistema de seguranca",
+    "pt-BR": "Sistema de segurança"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:security-system-current-state:00000066",
+    "urn:homekit-spec:property:security-system-target-state:00000067"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:status-fault:00000077",
+    "urn:homekit-spec:property:status-tampered:0000007A",
+    "urn:homekit-spec:property:security-system-alarm-type:0000008E",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

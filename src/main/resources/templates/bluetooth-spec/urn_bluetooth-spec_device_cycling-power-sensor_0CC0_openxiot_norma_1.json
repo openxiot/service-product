@@ -4,13 +4,17 @@
   "description": {
     "en-US": "Cycling Power Sensor",
     "zh-CN": "骑行功率传感器",
-    "fr-FR": "Capteur de puissance cycliste",
+    "zh-TW": "騎行功率傳感器",
     "de-DE": "Fahrradleistungssensor",
-    "ja-JP": "サイクリングパワーセンサー",
+    "fr-FR": "Capteur de puissance cycliste",
+    "it-IT": "Sensore potenza ciclismo",
+    "ru-RU": "Датчик мощности педалирования",
     "ko-KR": "사이클링 파워 센서",
     "es-ES": "Sensor de potencia de ciclismo",
-    "pt-BR": "Sensor de potencia de ciclismo",
-    "zh-TW": "騎行功率傳感器"
+    "ja-JP": "サイクリングパワーセンサー",
+    "nl-NL": "Vermogenssensor fietsen",
+    "pt-PT": "Sensor de potencia de ciclismo",
+    "pt-BR": "Sensor de potencia de ciclismo"
   },
   "services": [
     {
@@ -29,7 +33,11 @@
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
         "pt-BR": "Informacoes do dispositivo",
-        "zh-TW": "設備信息"
+        "zh-TW": "設備信息",
+        "it-IT": "Informazioni dispositivo",
+        "ru-RU": "Информация об устройстве",
+        "nl-NL": "Apparaatinformatie",
+        "pt-PT": "Informacoes do dispositivo"
       },
       "properties": [
         {
@@ -37,7 +45,16 @@
           "description": {
             "en-US": "Manufacturer Name",
             "zh-CN": "制造商",
-            "zh-TW": "製造商"
+            "zh-TW": "製造商",
+            "de-DE": "Manufacturer Name",
+            "fr-FR": "Manufacturer Name",
+            "it-IT": "Nome produttore",
+            "ru-RU": "Название производителя",
+            "ko-KR": "Manufacturer Name",
+            "es-ES": "Manufacturer Name",
+            "ja-JP": "Manufacturer Name",
+            "nl-NL": "Fabrikantnaam",
+            "pt-PT": "Nome do fabricante"
           },
           "format": "string",
           "access": [
@@ -51,7 +68,16 @@
           "description": {
             "en-US": "Model Number",
             "zh-CN": "型号",
-            "zh-TW": "型號"
+            "zh-TW": "型號",
+            "de-DE": "Model Number",
+            "fr-FR": "Model Number",
+            "it-IT": "Numero modello",
+            "ru-RU": "Номер модели",
+            "ko-KR": "Model Number",
+            "es-ES": "Model Number",
+            "ja-JP": "Model Number",
+            "nl-NL": "Modelnummer",
+            "pt-PT": "Número do modelo"
           },
           "format": "string",
           "access": [
@@ -65,7 +91,16 @@
           "description": {
             "en-US": "Serial Number",
             "zh-CN": "序列号",
-            "zh-TW": "序列號"
+            "zh-TW": "序列號",
+            "de-DE": "Seriennummer",
+            "fr-FR": "Numéro de série",
+            "it-IT": "Numero seriale",
+            "ru-RU": "Серийный номер",
+            "ko-KR": "일련번호",
+            "es-ES": "Número de serie",
+            "ja-JP": "シリアル番号",
+            "nl-NL": "Serienummer",
+            "pt-PT": "Número de série"
           },
           "format": "string",
           "access": [
@@ -79,7 +114,16 @@
           "description": {
             "en-US": "Firmware Revision",
             "zh-CN": "固件版本",
-            "zh-TW": "固件版本"
+            "zh-TW": "固件版本",
+            "de-DE": "Firmware-Version",
+            "fr-FR": "Version du firmware",
+            "it-IT": "Revisione firmware",
+            "ru-RU": "Ревизия прошивки",
+            "ko-KR": "펌웨어 버전",
+            "es-ES": "Revisión del firmware",
+            "ja-JP": "ファームウェアリビジョン",
+            "nl-NL": "Firmware revisie",
+            "pt-PT": "Revisão do firmware"
           },
           "format": "string",
           "access": [
@@ -93,7 +137,16 @@
           "description": {
             "en-US": "Hardware Revision",
             "zh-CN": "硬件版本",
-            "zh-TW": "硬件版本"
+            "zh-TW": "硬件版本",
+            "de-DE": "Hardware-Version",
+            "fr-FR": "Version du matériel",
+            "it-IT": "Revisione hardware",
+            "ru-RU": "Ревизия аппаратного обеспечения",
+            "ko-KR": "하드웨어 버전",
+            "es-ES": "Revisión del hardware",
+            "ja-JP": "ハードウェアリビジョン",
+            "nl-NL": "Hardware revisie",
+            "pt-PT": "Revisão do hardware"
           },
           "format": "string",
           "access": [
@@ -107,7 +160,16 @@
           "description": {
             "en-US": "Software Revision",
             "zh-CN": "软件版本",
-            "zh-TW": "軟件版本"
+            "zh-TW": "軟件版本",
+            "de-DE": "Software Revision",
+            "fr-FR": "Software Revision",
+            "it-IT": "Revisione software",
+            "ru-RU": "Ревизия программного обеспечения",
+            "ko-KR": "Software Revision",
+            "es-ES": "Software Revision",
+            "ja-JP": "Software Revision",
+            "nl-NL": "Software revisie",
+            "pt-PT": "Revisão do software"
           },
           "format": "string",
           "access": [
@@ -120,8 +182,17 @@
           "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:norma:1",
           "description": {
             "en-US": "System ID",
-            "zh-CN": "系统ID",
-            "zh-TW": "系統ID"
+            "zh-CN": "系统 ID",
+            "zh-TW": "系統 ID",
+            "de-DE": "System-ID",
+            "fr-FR": "ID systeme",
+            "it-IT": "ID sistema",
+            "ru-RU": "ID системы",
+            "ko-KR": "시스템 ID",
+            "es-ES": "ID del sistema",
+            "ja-JP": "システムID",
+            "nl-NL": "Systeem-ID",
+            "pt-PT": "ID do sistema"
           },
           "format": "string",
           "access": [
@@ -134,8 +205,17 @@
           "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:norma:1",
           "description": {
             "en-US": "PnP ID",
-            "zh-CN": "即插即用ID",
-            "zh-TW": "即插即用ID"
+            "zh-CN": "PnP ID",
+            "zh-TW": "即插即用ID",
+            "de-DE": "PnP-ID",
+            "fr-FR": "ID PnP",
+            "it-IT": "ID PnP",
+            "ru-RU": "PnP ID",
+            "ko-KR": "PnP ID",
+            "es-ES": "ID PnP",
+            "ja-JP": "PnP ID",
+            "nl-NL": "PnP-ID",
+            "pt-PT": "ID PnP"
           },
           "format": "string",
           "access": [
@@ -162,15 +242,28 @@
         "ko-KR": "사이클링 파워",
         "es-ES": "Potencia ciclista",
         "pt-BR": "Potencia ciclistica",
-        "zh-TW": "騎行功率"
+        "zh-TW": "騎行功率",
+        "it-IT": "Potenza ciclismo",
+        "ru-RU": "Мощность педалирования",
+        "nl-NL": "Fietsvermogen",
+        "pt-PT": "Potencia ciclistica"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:cycling-power-measurement:00002A63:openxiot:norma:1",
           "description": {
             "en-US": "Cycling Power Measurement",
-            "zh-CN": "功率测量",
-            "zh-TW": "功率測量"
+            "zh-CN": "骑行功率测量",
+            "zh-TW": "騎行功率測量",
+            "de-DE": "Radfahrleistungsmessung",
+            "fr-FR": "Mesure de puissance cycliste",
+            "it-IT": "Misurazione potenza ciclismo",
+            "ru-RU": "Измерение мощности цикла",
+            "ko-KR": "사이클링 파워 측정",
+            "es-ES": "Medicion de potencia ciclista",
+            "ja-JP": "サイクリングパワー測定",
+            "nl-NL": "Fietsvermogensmeting",
+            "pt-PT": "Medicao de potencia ciclistica"
           },
           "format": "uint16",
           "access": [
@@ -184,8 +277,17 @@
           "type": "urn:bluetooth-spec:property:cycling-power-feature:00002A64:openxiot:norma:1",
           "description": {
             "en-US": "Cycling Power Feature",
-            "zh-CN": "功率特征",
-            "zh-TW": "功率特徵"
+            "zh-CN": "骑行功率特征",
+            "zh-TW": "騎行功率特徵",
+            "de-DE": "Radfahrleistungsmerkmal",
+            "fr-FR": "Caracteristique de puissance cycliste",
+            "it-IT": "Funzione potenza ciclismo",
+            "ru-RU": "Функция мощности цикла",
+            "ko-KR": "사이클링 파워 기능",
+            "es-ES": "Caracteristica de potencia ciclista",
+            "ja-JP": "サイクリングパワー機能",
+            "nl-NL": "Fietsvermogensfunctie",
+            "pt-PT": "Recurso de potencia ciclistica"
           },
           "format": "uint16",
           "access": [
@@ -212,15 +314,28 @@
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de bateria",
         "pt-BR": "Servico de bateria",
-        "zh-TW": "電池服務"
+        "zh-TW": "電池服務",
+        "it-IT": "Servizio batteria",
+        "ru-RU": "Сервис батареи",
+        "nl-NL": "Batterijservice",
+        "pt-PT": "Servico de bateria"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:battery-level:00002A19:openxiot:norma:1",
           "description": {
             "en-US": "Battery Level",
-            "zh-CN": "电量",
-            "zh-TW": "電量"
+            "zh-CN": "电池电量",
+            "zh-TW": "電池電量",
+            "de-DE": "Batterieladestand",
+            "fr-FR": "Niveau de batterie",
+            "it-IT": "Livello batteria",
+            "ru-RU": "Уровень заряда батареи",
+            "ko-KR": "배터리 잔량",
+            "es-ES": "Nivel de bateria",
+            "ja-JP": "バッテリーレベル",
+            "nl-NL": "Batterijniveau",
+            "pt-PT": "Nivel da bateria"
           },
           "format": "uint8",
           "access": [

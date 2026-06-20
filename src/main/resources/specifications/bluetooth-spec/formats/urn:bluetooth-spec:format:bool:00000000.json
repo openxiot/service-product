@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:bool:00000000",
-    "description": {
-        "en-US": "bool",
-        "zh-CN": "布尔",
-        "fr-FR": "booleen",
-        "de-DE": "Boolean",
-        "ja-JP": "ブール",
-        "ko-KR": "부울",
-        "es-ES": "booleano",
-        "pt-BR": "booleano",
-        "zh-TW": "布爾"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:bool:00000000",
+  "description": {
+    "en-US": "bool",
+    "zh-CN": "布尔",
+    "zh-TW": "布爾",
+    "de-DE": "Boolean",
+    "fr-FR": "booleen",
+    "it-IT": "bool",
+    "ru-RU": "bool",
+    "ko-KR": "부울",
+    "es-ES": "booleano",
+    "ja-JP": "ブール",
+    "nl-NL": "bool",
+    "pt-PT": "booleano",
+    "pt-BR": "booleano"
+  },
+  "lifecycle": "released"
 }

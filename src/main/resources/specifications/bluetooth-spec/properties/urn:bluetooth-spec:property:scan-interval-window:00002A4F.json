@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:scan-interval-window:00002A4F",
-    "description": {
-        "en-US": "Scan Interval Window",
-        "zh-CN": "扫描间隔窗口",
-        "fr-FR": "Fenetre d'intervalle de scan",
-        "de-DE": "Scan-Intervall-Fenster",
-        "ja-JP": "スキャン間隔ウィンドウ",
-        "ko-KR": "스캔 간격 윈도우",
-        "es-ES": "Ventana de intervalo de escaneo",
-        "pt-BR": "Janela de intervalo de varredura",
-        "zh-TW": "掃描間隔窗口"
-    },
-    "format": "uint16",
-    "access": [
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:scan-interval-window:00002A4F",
+  "description": {
+    "en-US": "Scan Interval Window",
+    "zh-CN": "扫描间隔窗口",
+    "zh-TW": "掃描間隔窗口",
+    "de-DE": "Scan-Intervall-Fenster",
+    "fr-FR": "Fenetre d'intervalle de scan",
+    "it-IT": "Finestra intervallo scansione",
+    "ru-RU": "Окно интервала сканирования",
+    "ko-KR": "스캔 간격 윈도우",
+    "es-ES": "Ventana de intervalo de escaneo",
+    "ja-JP": "スキャン間隔ウィンドウ",
+    "nl-NL": "Scanintervalvenster",
+    "pt-PT": "Janela de intervalo de varredura",
+    "pt-BR": "Janela de intervalo de varredura"
+  },
+  "format": "uint16",
+  "access": [
+    "write"
+  ],
+  "lifecycle": "released"
 }

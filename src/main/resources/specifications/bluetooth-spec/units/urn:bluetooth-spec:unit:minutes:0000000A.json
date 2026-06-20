@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:minutes:0000000A",
-    "description": {
-        "en-US": "minutes",
-        "zh-CN": "分钟",
-        "fr-FR": "minutes",
-        "de-DE": "Minuten",
-        "ja-JP": "分",
-        "ko-KR": "분",
-        "es-ES": "minutos",
-        "pt-BR": "minutos",
-        "zh-TW": "分鐘"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:minutes:0000000A",
+  "description": {
+    "en-US": "minutes",
+    "zh-CN": "分钟",
+    "zh-TW": "分鐘",
+    "de-DE": "Minuten",
+    "fr-FR": "minutes",
+    "it-IT": "minutes",
+    "ru-RU": "minutes",
+    "ko-KR": "분",
+    "es-ES": "minutos",
+    "ja-JP": "分",
+    "nl-NL": "minutes",
+    "pt-PT": "minutos",
+    "pt-BR": "minutos"
+  },
+  "lifecycle": "released"
 }

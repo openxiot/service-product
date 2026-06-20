@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:property:weight:00002A87",
-    "description": {
-        "en-US": "Weight",
-        "zh-CN": "体重",
-        "fr-FR": "Poids",
-        "de-DE": "Gewicht",
-        "ja-JP": "体重",
-        "ko-KR": "체중",
-        "es-ES": "Peso",
-        "pt-BR": "Peso",
-        "zh-TW": "體重"
-    },
-    "format": "uint16",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released",
-    "unit": "kilograms"
+  "type": "urn:bluetooth-spec:property:weight:00002A87",
+  "description": {
+    "en-US": "Weight",
+    "zh-CN": "体重",
+    "zh-TW": "體重",
+    "de-DE": "Gewicht",
+    "fr-FR": "Poids",
+    "it-IT": "Peso",
+    "ru-RU": "Вес",
+    "ko-KR": "체중",
+    "es-ES": "Peso",
+    "ja-JP": "体重",
+    "nl-NL": "Gewicht",
+    "pt-PT": "Peso",
+    "pt-BR": "Peso"
+  },
+  "format": "uint16",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released",
+  "unit": "kilograms"
 }

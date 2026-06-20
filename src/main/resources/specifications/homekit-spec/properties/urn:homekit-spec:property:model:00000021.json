@@ -1,19 +1,23 @@
 {
-    "type": "urn:homekit-spec:property:model:00000021",
-    "description": {
-        "en-US": "Model",
-        "zh-CN": "\u578b\u53f7",
-        "fr-FR": "Mod\u00e8le",
-        "de-DE": "Modell",
-        "ja-JP": "\u30e2\u30c7\u30eb",
-        "ko-KR": "\ubaa8\ub378",
-        "es-ES": "Modelo",
-        "pt-BR": "Modelo",
-        "zh-TW": "\u578b\u865f"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:model:00000021",
+  "description": {
+    "en-US": "Model",
+    "zh-CN": "型号",
+    "zh-TW": "型號",
+    "de-DE": "Modell",
+    "fr-FR": "Modèle",
+    "it-IT": "Modello",
+    "ru-RU": "Модель",
+    "ko-KR": "모델",
+    "es-ES": "Modelo",
+    "ja-JP": "モデル",
+    "nl-NL": "Model",
+    "pt-PT": "Modelo",
+    "pt-BR": "Modelo"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

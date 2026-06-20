@@ -1,51 +1,63 @@
 {
-    "type": "urn:homekit-spec:property:target-door-state:00000032",
-    "description": {
-        "en-US": "Target Door State",
-        "zh-CN": "\u76ee\u6807\u95e8\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible de la porte",
-        "de-DE": "Gew\u00fcnschter T\u00fcrstatus",
-        "ja-JP": "\u76ee\u6a19\u30c9\u30a2\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \ubb38 \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo de la puerta",
-        "pt-BR": "Estado alvo da porta",
-        "zh-TW": "\u76ee\u6a19\u9580\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-door-state:00000032",
+  "description": {
+    "en-US": "Target Door State",
+    "zh-CN": "目标门状态",
+    "zh-TW": "目標門狀態",
+    "de-DE": "Gewünschter Türstatus",
+    "fr-FR": "État cible de la porte",
+    "it-IT": "Stato target porta",
+    "ru-RU": "Целевое состояние двери",
+    "ko-KR": "목표 문 상태",
+    "es-ES": "Estado objetivo de la puerta",
+    "ja-JP": "目標ドア状態",
+    "nl-NL": "Gewenste deurstatus",
+    "pt-PT": "Estado alvo da porta",
+    "pt-BR": "Estado alvo da porta"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "OPEN",
+        "zh-CN": "打开",
+        "fr-FR": "OUVERT",
+        "de-DE": "OFFEN",
+        "ja-JP": "開",
+        "ko-KR": "열림",
+        "es-ES": "ABIERTO",
+        "pt-BR": "ABERTO",
+        "zh-TW": "打開",
+        "it-IT": "APERTO",
+        "ru-RU": "ОТКРЫТО",
+        "nl-NL": "OPEN",
+        "pt-PT": "ABERTO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "OPEN",
-                "zh-CN": "\u6253\u5f00",
-                "fr-FR": "OUVERT",
-                "de-DE": "OFFEN",
-                "ja-JP": "\u958b",
-                "ko-KR": "\uc5f4\ub9bc",
-                "es-ES": "ABIERTO",
-                "pt-BR": "ABERTO",
-                "zh-TW": "\u6253\u958b"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "CLOSED",
-                "zh-CN": "\u5173\u95ed",
-                "fr-FR": "FERM\u00c9",
-                "de-DE": "GESCHLOSSEN",
-                "ja-JP": "\u9589",
-                "ko-KR": "\ub2eb\ud798",
-                "es-ES": "CERRADO",
-                "pt-BR": "FECHADO",
-                "zh-TW": "\u95dc\u9589"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "CLOSED",
+        "zh-CN": "关闭",
+        "fr-FR": "FERMÉ",
+        "de-DE": "GESCHLOSSEN",
+        "ja-JP": "閉",
+        "ko-KR": "닫힘",
+        "es-ES": "CERRADO",
+        "pt-BR": "FECHADO",
+        "zh-TW": "關閉",
+        "it-IT": "CHIUSO",
+        "ru-RU": "ЗАКРЫТО",
+        "nl-NL": "GESLOTEN",
+        "pt-PT": "FECHADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

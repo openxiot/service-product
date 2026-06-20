@@ -1,22 +1,26 @@
 {
-    "type": "urn:bluetooth-spec:service:heart-rate:180D",
-    "description": {
-        "en-US": "Heart Rate",
-        "zh-CN": "心率",
-        "fr-FR": "Frequence cardiaque",
-        "de-DE": "Herzfrequenz",
-        "ja-JP": "心拍数",
-        "ko-KR": "심박수",
-        "es-ES": "Frecuencia cardiaca",
-        "pt-BR": "Frequencia cardiaca",
-        "zh-TW": "心率"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:heart-rate-measurement:00002A37"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:body-sensor-location:00002A38",
-        "urn:bluetooth-spec:property:heart-rate-control-point:00002A39"
-    ]
+  "type": "urn:bluetooth-spec:service:heart-rate:180D",
+  "description": {
+    "en-US": "Heart Rate",
+    "zh-CN": "心率",
+    "zh-TW": "心率",
+    "de-DE": "Herzfrequenz",
+    "fr-FR": "Frequence cardiaque",
+    "it-IT": "Frequenza cardiaca",
+    "ru-RU": "Пульс",
+    "ko-KR": "심박수",
+    "es-ES": "Frecuencia cardiaca",
+    "ja-JP": "心拍数",
+    "nl-NL": "Hartslag",
+    "pt-PT": "Frequencia cardiaca",
+    "pt-BR": "Frequencia cardiaca"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:heart-rate-measurement:00002A37"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:body-sensor-location:00002A38",
+    "urn:bluetooth-spec:property:heart-rate-control-point:00002A39"
+  ]
 }

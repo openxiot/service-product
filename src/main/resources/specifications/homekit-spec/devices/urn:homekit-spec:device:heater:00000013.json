@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:heater:00000013",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Heater",
-        "zh-CN": "加热器",
-        "fr-FR": "Chauffage",
-        "de-DE": "Heizung",
-        "ja-JP": "ヒーター",
-        "ko-KR": "히터",
-        "es-ES": "Calefactor",
-        "pt-BR": "Aquecedor",
-        "zh-TW": "加熱器"
-    }
+  "type": "urn:homekit-spec:device:heater:00000013",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Heater",
+    "zh-CN": "加热器",
+    "zh-TW": "加熱器",
+    "de-DE": "Heizung",
+    "fr-FR": "Chauffage",
+    "it-IT": "Riscaldatore",
+    "ru-RU": "Нагреватель",
+    "ko-KR": "히터",
+    "es-ES": "Calefactor",
+    "ja-JP": "ヒーター",
+    "nl-NL": "Verwarmer",
+    "pt-PT": "Aquecedor",
+    "pt-BR": "Aquecedor"
+  }
 }

@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:digital-zoom:0000011D",
-    "description": {
-        "en-US": "Digital Zoom",
-        "zh-CN": "\u6570\u5b57\u53d8\u7126",
-        "fr-FR": "Zoom num\u00e9rique",
-        "de-DE": "Digitalzoom",
-        "ja-JP": "\u30c7\u30b8\u30bf\u30eb\u30ba\u30fc\u30e0",
-        "ko-KR": "\ub514\uc9c0\ud138 \uc90c",
-        "es-ES": "Zoom digital",
-        "pt-BR": "Zoom digital",
-        "zh-TW": "\u6578\u5b57\u8b8a\u7126"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:digital-zoom:0000011D",
+  "description": {
+    "en-US": "Digital Zoom",
+    "zh-CN": "数字变焦",
+    "zh-TW": "數字變焦",
+    "de-DE": "Digitalzoom",
+    "fr-FR": "Zoom numérique",
+    "it-IT": "Zoom digitale",
+    "ru-RU": "Цифровой зум",
+    "ko-KR": "디지털 줌",
+    "es-ES": "Zoom digital",
+    "ja-JP": "デジタルズーム",
+    "nl-NL": "Digitale zoom",
+    "pt-PT": "Zoom digital",
+    "pt-BR": "Zoom digital"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

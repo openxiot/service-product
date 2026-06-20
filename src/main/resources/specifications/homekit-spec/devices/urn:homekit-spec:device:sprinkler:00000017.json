@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:sprinkler:00000017",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Sprinkler",
-        "zh-CN": "洒水器",
-        "fr-FR": "Arroseur",
-        "de-DE": "Sprinkler",
-        "ja-JP": "スプリンクラー",
-        "ko-KR": "스프링클러",
-        "es-ES": "Aspersor",
-        "pt-BR": "Aspersor",
-        "zh-TW": "灑水器"
-    }
+  "type": "urn:homekit-spec:device:sprinkler:00000017",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Sprinkler",
+    "zh-CN": "洒水器",
+    "zh-TW": "灑水器",
+    "de-DE": "Sprinkler",
+    "fr-FR": "Arroseur",
+    "it-IT": "Irrigatore",
+    "ru-RU": "Спринклер",
+    "ko-KR": "스프링클러",
+    "es-ES": "Aspersor",
+    "ja-JP": "スプリンクラー",
+    "nl-NL": "Sprinkler",
+    "pt-PT": "Aspersor",
+    "pt-BR": "Aspersor"
+  }
 }

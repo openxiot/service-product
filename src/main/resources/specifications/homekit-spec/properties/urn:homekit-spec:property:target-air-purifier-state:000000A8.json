@@ -1,51 +1,63 @@
 {
-    "type": "urn:homekit-spec:property:target-air-purifier-state:000000A8",
-    "description": {
-        "en-US": "Target Air Purifier State",
-        "zh-CN": "\u76ee\u6807\u7a7a\u6c14\u51c0\u5316\u5668\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible du purificateur d'air",
-        "de-DE": "Gew\u00fcnschter Luftreinigerstatus",
-        "ja-JP": "\u76ee\u6a19\u7a7a\u6c17\u6e05\u6d44\u6a5f\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \uacf5\uae30 \uccad\uc815\uae30 \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo del purificador de aire",
-        "pt-BR": "Estado alvo do purificador de ar",
-        "zh-TW": "\u76ee\u6a19\u7a7a\u6c23\u6de8\u5316\u5668\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-air-purifier-state:000000A8",
+  "description": {
+    "en-US": "Target Air Purifier State",
+    "zh-CN": "目标空气净化器状态",
+    "zh-TW": "目標空氣淨化器狀態",
+    "de-DE": "Gewünschter Luftreinigerstatus",
+    "fr-FR": "État cible du purificateur d'air",
+    "it-IT": "Stato target purificatore aria",
+    "ru-RU": "Целевое состояние очистителя воздуха",
+    "ko-KR": "목표 공기 청정기 상태",
+    "es-ES": "Estado objetivo del purificador de aire",
+    "ja-JP": "目標空気清浄機状態",
+    "nl-NL": "Gewenste luchtzuiveraarstatus",
+    "pt-PT": "Estado alvo do purificador de ar",
+    "pt-BR": "Estado alvo do purificador de ar"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "MANUAL",
+        "zh-CN": "手动",
+        "fr-FR": "MANUEL",
+        "de-DE": "MANUELL",
+        "ja-JP": "手動",
+        "ko-KR": "수동",
+        "es-ES": "MANUAL",
+        "pt-BR": "MANUAL",
+        "zh-TW": "手動",
+        "it-IT": "MANUALE",
+        "ru-RU": "РУЧНОЙ",
+        "nl-NL": "HANDMATIG",
+        "pt-PT": "MANUAL"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "MANUAL",
-                "zh-CN": "\u624b\u52a8",
-                "fr-FR": "MANUEL",
-                "de-DE": "MANUELL",
-                "ja-JP": "\u624b\u52d5",
-                "ko-KR": "\uc218\ub3d9",
-                "es-ES": "MANUAL",
-                "pt-BR": "MANUAL",
-                "zh-TW": "\u624b\u52d5"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "AUTO",
-                "zh-CN": "\u81ea\u52a8",
-                "fr-FR": "AUTO",
-                "de-DE": "AUTO",
-                "ja-JP": "\u81ea\u52d5",
-                "ko-KR": "\uc790\ub3d9",
-                "es-ES": "AUTO",
-                "pt-BR": "AUTO",
-                "zh-TW": "\u81ea\u52d5"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "AUTO",
+        "zh-CN": "自动",
+        "fr-FR": "AUTO",
+        "de-DE": "AUTO",
+        "ja-JP": "自動",
+        "ko-KR": "자동",
+        "es-ES": "AUTO",
+        "pt-BR": "AUTO",
+        "zh-TW": "自動",
+        "it-IT": "AUTOMATICO",
+        "ru-RU": "АВТО",
+        "nl-NL": "AUTOMATISCH",
+        "pt-PT": "AUTOMÁTICO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

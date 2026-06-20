@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:service:light-sensor:00000084",
-    "description": {
-        "en-US": "Light Sensor",
-        "zh-CN": "\u5149\u7ebf\u4f20\u611f\u5668",
-        "fr-FR": "Capteur de lumi\u00e8re",
-        "de-DE": "Lichtsensor",
-        "ja-JP": "\u5149\u30bb\u30f3\u30b5\u30fc",
-        "ko-KR": "\uc870\ub3c4 \uc13c\uc11c",
-        "es-ES": "Sensor de luz",
-        "pt-BR": "Sensor de luz",
-        "zh-TW": "\u5149\u7dda\u50b3\u611f\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-ambient-light-level:0000006B"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:status-active:00000075",
-        "urn:homekit-spec:property:status-fault:00000077",
-        "urn:homekit-spec:property:status-tampered:0000007A",
-        "urn:homekit-spec:property:status-low-battery:00000079"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:light-sensor:00000084",
+  "description": {
+    "en-US": "Light Sensor",
+    "zh-CN": "光线传感器",
+    "zh-TW": "光線傳感器",
+    "de-DE": "Lichtsensor",
+    "fr-FR": "Capteur de lumière",
+    "it-IT": "Sensore luce",
+    "ru-RU": "Датчик освещенности",
+    "ko-KR": "조도 센서",
+    "es-ES": "Sensor de luz",
+    "ja-JP": "光センサー",
+    "nl-NL": "Lichtsensor",
+    "pt-PT": "Sensor de luz",
+    "pt-BR": "Sensor de luz"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-ambient-light-level:0000006B"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:status-active:00000075",
+    "urn:homekit-spec:property:status-fault:00000077",
+    "urn:homekit-spec:property:status-tampered:0000007A",
+    "urn:homekit-spec:property:status-low-battery:00000079"
+  ],
+  "lifecycle": "released"
 }

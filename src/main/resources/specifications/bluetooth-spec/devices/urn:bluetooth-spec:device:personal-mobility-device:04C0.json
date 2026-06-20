@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:personal-mobility-device:04C0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Personal Mobility Device",
-        "zh-CN": "个人移动设备",
-        "fr-FR": "Dispositif de mobilite personnelle",
-        "de-DE": "Personliches Mobilitatsgerat",
-        "ja-JP": "パーソナルモビリティ",
-        "ko-KR": "개인 이동 장치",
-        "es-ES": "Dispositivo de movilidad personal",
-        "pt-BR": "Dispositivo de mobilidade pessoal",
-        "zh-TW": "個人移動設備"
-    }
+  "type": "urn:bluetooth-spec:device:personal-mobility-device:04C0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Personal Mobility Device",
+    "zh-CN": "个人移动设备",
+    "zh-TW": "個人移動設備",
+    "de-DE": "Personliches Mobilitatsgerat",
+    "fr-FR": "Dispositif de mobilite personnelle",
+    "it-IT": "Dispositivo mobilità personale",
+    "ru-RU": "Персональное мобильное устройство",
+    "ko-KR": "개인 이동 장치",
+    "es-ES": "Dispositivo de movilidad personal",
+    "ja-JP": "パーソナルモビリティ",
+    "nl-NL": "Persoonlijk mobiliteitsapparaat",
+    "pt-PT": "Dispositivo de mobilidade pessoal",
+    "pt-BR": "Dispositivo de mobilidade pessoal"
+  }
 }

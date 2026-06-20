@@ -1,14 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:apple-watch:0000001D",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Apple Watch",
-        "zh-CN": "Apple Watch",
-        "fr-FR": "Apple Watch",
-        "de-DE": "Apple Watch",
-        "ja-JP": "Apple Watch",
-        "ko-KR": "Apple Watch",
-        "es-ES": "Apple Watch",
-        "pt-BR": "Apple Watch"
-    }
+  "type": "urn:homekit-spec:device:apple-watch:0000001D",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Apple Watch",
+    "zh-CN": "Apple Watch",
+    "zh-TW": "Apple Watch",
+    "de-DE": "Apple Watch",
+    "fr-FR": "Apple Watch",
+    "it-IT": "Apple Watch",
+    "ru-RU": "Apple Watch",
+    "ko-KR": "Apple Watch",
+    "es-ES": "Apple Watch",
+    "ja-JP": "Apple Watch",
+    "nl-NL": "Apple Watch",
+    "pt-PT": "Apple Watch",
+    "pt-BR": "Apple Watch"
+  }
 }

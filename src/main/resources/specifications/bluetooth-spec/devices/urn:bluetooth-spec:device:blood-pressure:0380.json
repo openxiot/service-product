@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:blood-pressure:0380",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Blood Pressure",
-        "zh-CN": "血压计",
-        "fr-FR": "Tensiometre",
-        "de-DE": "Blutdruckmessgerat",
-        "ja-JP": "血圧計",
-        "ko-KR": "혈압계",
-        "es-ES": "Tensiometro",
-        "pt-BR": "Medidor de pressao arterial",
-        "zh-TW": "血壓計"
-    }
+  "type": "urn:bluetooth-spec:device:blood-pressure:0380",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Blood Pressure",
+    "zh-CN": "血压",
+    "zh-TW": "血壓",
+    "de-DE": "Blutdruck",
+    "fr-FR": "Pression arterielle",
+    "it-IT": "Pressione sanguigna",
+    "ru-RU": "Артериальное давление",
+    "ko-KR": "혈압",
+    "es-ES": "Presion arterial",
+    "ja-JP": "血圧",
+    "nl-NL": "Bloeddruk",
+    "pt-PT": "Pressao arterial",
+    "pt-BR": "Medidor de pressao arterial"
+  }
 }

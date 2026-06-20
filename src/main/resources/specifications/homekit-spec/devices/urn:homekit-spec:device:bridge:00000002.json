@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:bridge:00000002",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Bridge",
-        "zh-CN": "桥接器",
-        "fr-FR": "Pont",
-        "de-DE": "Brucke",
-        "ja-JP": "ブリッジ",
-        "ko-KR": "브리지",
-        "es-ES": "Puente",
-        "pt-BR": "Ponte",
-        "zh-TW": "橋接器"
-    }
+  "type": "urn:homekit-spec:device:bridge:00000002",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Bridge",
+    "zh-CN": "桥接器",
+    "zh-TW": "橋接器",
+    "de-DE": "Brucke",
+    "fr-FR": "Pont",
+    "it-IT": "Bridge",
+    "ru-RU": "Мост",
+    "ko-KR": "브리지",
+    "es-ES": "Puente",
+    "ja-JP": "ブリッジ",
+    "nl-NL": "Bridge",
+    "pt-PT": "Ponte",
+    "pt-BR": "Ponte"
+  }
 }

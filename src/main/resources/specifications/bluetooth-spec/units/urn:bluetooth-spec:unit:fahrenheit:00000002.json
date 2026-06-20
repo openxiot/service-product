@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:fahrenheit:00000002",
-    "description": {
-        "en-US": "fahrenheit",
-        "zh-CN": "华氏度",
-        "fr-FR": "degres Fahrenheit",
-        "de-DE": "Grad Fahrenheit",
-        "ja-JP": "華氏度",
-        "ko-KR": "화씨",
-        "es-ES": "grados Fahrenheit",
-        "pt-BR": "graus Fahrenheit",
-        "zh-TW": "華氏度"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:fahrenheit:00000002",
+  "description": {
+    "en-US": "fahrenheit",
+    "zh-CN": "华氏度",
+    "zh-TW": "華氏度",
+    "de-DE": "Grad Fahrenheit",
+    "fr-FR": "degres Fahrenheit",
+    "it-IT": "fahrenheit",
+    "ru-RU": "fahrenheit",
+    "ko-KR": "화씨",
+    "es-ES": "grados Fahrenheit",
+    "ja-JP": "華氏度",
+    "nl-NL": "fahrenheit",
+    "pt-PT": "graus Fahrenheit",
+    "pt-BR": "graus Fahrenheit"
+  },
+  "lifecycle": "released"
 }

@@ -1,23 +1,27 @@
 {
-    "type": "urn:homekit-spec:service:battery-service:00000096",
-    "description": {
-        "en-US": "Battery Service",
-        "zh-CN": "\u7535\u6c60\u670d\u52a1",
-        "fr-FR": "Service de batterie",
-        "de-DE": "Batteriedienst",
-        "ja-JP": "\u30d0\u30c3\u30c6\u30ea\u30fc\u30b5\u30fc\u30d3\u30b9",
-        "ko-KR": "\ubc30\ud130\ub9ac \uc11c\ube44\uc2a4",
-        "es-ES": "Servicio de bater\u00eda",
-        "pt-BR": "Servi\u00e7o de bateria",
-        "zh-TW": "\u96fb\u6c60\u670d\u52d9"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:battery-level:00000068",
-        "urn:homekit-spec:property:charging-state:0000008F",
-        "urn:homekit-spec:property:status-low-battery:00000079"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:battery-service:00000096",
+  "description": {
+    "en-US": "Battery Service",
+    "zh-CN": "电池服务",
+    "zh-TW": "電池服務",
+    "de-DE": "Batteriedienst",
+    "fr-FR": "Service de batterie",
+    "it-IT": "Servizio batteria",
+    "ru-RU": "Сервис батареи",
+    "ko-KR": "배터리 서비스",
+    "es-ES": "Servicio de bateria",
+    "ja-JP": "バッテリーサービス",
+    "nl-NL": "Batterijservice",
+    "pt-PT": "Servico de bateria",
+    "pt-BR": "Serviço de bateria"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:battery-level:00000068",
+    "urn:homekit-spec:property:charging-state:0000008F",
+    "urn:homekit-spec:property:status-low-battery:00000079"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

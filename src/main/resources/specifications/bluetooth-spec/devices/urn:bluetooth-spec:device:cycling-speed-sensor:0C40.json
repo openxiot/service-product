@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:cycling-speed-sensor:0C40",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Cycling Speed Sensor",
-        "zh-CN": "骑行速度传感器",
-        "fr-FR": "Capteur de vitesse cycliste",
-        "de-DE": "Fahrradgeschwindigkeitssensor",
-        "ja-JP": "サイクリング速度センサー",
-        "ko-KR": "사이클링 속도 센서",
-        "es-ES": "Sensor de velocidad de ciclismo",
-        "pt-BR": "Sensor de velocidade de ciclismo",
-        "zh-TW": "騎行速度傳感器"
-    }
+  "type": "urn:bluetooth-spec:device:cycling-speed-sensor:0C40",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Cycling Speed Sensor",
+    "zh-CN": "骑行速度传感器",
+    "zh-TW": "騎行速度傳感器",
+    "de-DE": "Fahrradgeschwindigkeitssensor",
+    "fr-FR": "Capteur de vitesse cycliste",
+    "it-IT": "Sensore velocità ciclismo",
+    "ru-RU": "Датчик скорости велосипеда",
+    "ko-KR": "사이클링 속도 센서",
+    "es-ES": "Sensor de velocidad de ciclismo",
+    "ja-JP": "サイクリング速度センサー",
+    "nl-NL": "Fietssnelheidssensor",
+    "pt-PT": "Sensor de velocidade de ciclismo",
+    "pt-BR": "Sensor de velocidade de ciclismo"
+  }
 }

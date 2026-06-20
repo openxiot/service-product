@@ -1,18 +1,22 @@
 {
-    "type": "urn:bluetooth-spec:service:immediate-alert:1802",
-    "description": {
-        "en-US": "Immediate Alert",
-        "zh-CN": "即时警报",
-        "fr-FR": "Alarme immediate",
-        "de-DE": "Sofortalarm",
-        "ja-JP": "即時通知",
-        "ko-KR": "즉시 알림",
-        "es-ES": "Alerta inmediata",
-        "pt-BR": "Alerta imediata",
-        "zh-TW": "即時警報"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:alert-level:00002A06"
-    ]
+  "type": "urn:bluetooth-spec:service:immediate-alert:1802",
+  "description": {
+    "en-US": "Immediate Alert",
+    "zh-CN": "即时警报",
+    "zh-TW": "即時警報",
+    "de-DE": "Sofortalarm",
+    "fr-FR": "Alarme immediate",
+    "it-IT": "Allarme immediato",
+    "ru-RU": "Немедленное предупреждение",
+    "ko-KR": "즉시 알림",
+    "es-ES": "Alerta inmediata",
+    "ja-JP": "即時通知",
+    "nl-NL": "Onmiddellijk alarm",
+    "pt-PT": "Alerta imediata",
+    "pt-BR": "Alerta imediata"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:alert-level:00002A06"
+  ]
 }

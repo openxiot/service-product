@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:hid:03C0",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Human Interface Device",
-        "zh-CN": "人机交互设备",
-        "fr-FR": "Dispositif d'interface humaine",
-        "de-DE": "Menschliche Schnittstelle",
-        "ja-JP": "HID",
-        "ko-KR": "HID",
-        "es-ES": "Dispositivo de interfaz humana",
-        "pt-BR": "Dispositivo de interface humana",
-        "zh-TW": "人機交互設備"
-    }
+  "type": "urn:bluetooth-spec:device:hid:03C0",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Human Interface Device",
+    "zh-CN": "人机交互设备",
+    "zh-TW": "人機交互設備",
+    "de-DE": "Menschliche Schnittstelle",
+    "fr-FR": "Dispositif d'interface humaine",
+    "it-IT": "Dispositivo interfaccia umana",
+    "ru-RU": "Устройство взаимодействия с человеком",
+    "ko-KR": "HID",
+    "es-ES": "Dispositivo de interfaz humana",
+    "ja-JP": "HID",
+    "nl-NL": "Human interface-apparaat",
+    "pt-PT": "Dispositivo de interface humana",
+    "pt-BR": "Dispositivo de interface humana"
+  }
 }

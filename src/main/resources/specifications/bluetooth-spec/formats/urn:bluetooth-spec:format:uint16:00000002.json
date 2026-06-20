@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:uint16:00000002",
-    "description": {
-        "en-US": "uint16",
-        "zh-CN": "无符号 16 位整数",
-        "fr-FR": "uint16",
-        "de-DE": "uint16",
-        "ja-JP": "uint16",
-        "ko-KR": "uint16",
-        "es-ES": "uint16",
-        "pt-BR": "uint16",
-        "zh-TW": "無符號 16 位整數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:uint16:00000002",
+  "description": {
+    "en-US": "uint16",
+    "zh-CN": "无符号 16 位整数",
+    "zh-TW": "無符號 16 位整數",
+    "de-DE": "uint16",
+    "fr-FR": "uint16",
+    "it-IT": "uint16",
+    "ru-RU": "uint16",
+    "ko-KR": "uint16",
+    "es-ES": "uint16",
+    "ja-JP": "uint16",
+    "nl-NL": "uint16",
+    "pt-PT": "uint16",
+    "pt-BR": "uint16"
+  },
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:remote-control:0180",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Remote Control",
-        "zh-CN": "遥控器",
-        "fr-FR": "Telecommande",
-        "de-DE": "Fernbedienung",
-        "ja-JP": "リモコン",
-        "ko-KR": "리모컨",
-        "es-ES": "Control remoto",
-        "pt-BR": "Controle remoto",
-        "zh-TW": "遙控器"
-    }
+  "type": "urn:bluetooth-spec:device:remote-control:0180",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Remote Control",
+    "zh-CN": "遥控器",
+    "zh-TW": "遙控器",
+    "de-DE": "Fernbedienung",
+    "fr-FR": "Telecommande",
+    "it-IT": "Telecomando",
+    "ru-RU": "Пульт управления",
+    "ko-KR": "리모컨",
+    "es-ES": "Control remoto",
+    "ja-JP": "リモコン",
+    "nl-NL": "Afstandsbediening",
+    "pt-PT": "Controle remoto",
+    "pt-BR": "Controle remoto"
+  }
 }

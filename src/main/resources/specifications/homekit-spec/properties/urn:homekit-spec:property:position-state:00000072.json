@@ -1,64 +1,80 @@
 {
-    "type": "urn:homekit-spec:property:position-state:00000072",
-    "description": {
-        "en-US": "Position State",
-        "zh-CN": "\u4f4d\u7f6e\u72b6\u6001",
-        "fr-FR": "\u00c9tat de la position",
-        "de-DE": "Positionsstatus",
-        "ja-JP": "\u4f4d\u7f6e\u72b6\u614b",
-        "ko-KR": "\uc704\uce58 \uc0c1\ud0dc",
-        "es-ES": "Estado de la posici\u00f3n",
-        "pt-BR": "Estado da posi\u00e7\u00e3o",
-        "zh-TW": "\u4f4d\u7f6e\u72c0\u614b"
+  "type": "urn:homekit-spec:property:position-state:00000072",
+  "description": {
+    "en-US": "Position State",
+    "zh-CN": "位置状态",
+    "zh-TW": "位置狀態",
+    "de-DE": "Positionsstatus",
+    "fr-FR": "État de la position",
+    "it-IT": "Stato posizione",
+    "ru-RU": "Состояние положения",
+    "ko-KR": "위치 상태",
+    "es-ES": "Estado de la posición",
+    "ja-JP": "位置状態",
+    "nl-NL": "Positiestatus",
+    "pt-PT": "Estado da posição",
+    "pt-BR": "Estado da posição"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "DECREASING",
+        "zh-CN": "减少中",
+        "fr-FR": "EN DIMINUTION",
+        "de-DE": "SINKEND",
+        "ja-JP": "減少中",
+        "ko-KR": "감소 중",
+        "es-ES": "DISMINUYENDO",
+        "pt-BR": "DIMINUINDO",
+        "zh-TW": "減少中",
+        "it-IT": "IN DIMINUZIONE",
+        "ru-RU": "УМЕНЬШЕНИЕ",
+        "nl-NL": "AFNEMEND",
+        "pt-PT": "DIMINUINDO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "DECREASING",
-                "zh-CN": "\u51cf\u5c11\u4e2d",
-                "fr-FR": "EN DIMINUTION",
-                "de-DE": "SINKEND",
-                "ja-JP": "\u6e1b\u5c11\u4e2d",
-                "ko-KR": "\uac10\uc18c \uc911",
-                "es-ES": "DISMINUYENDO",
-                "pt-BR": "DIMINUINDO",
-                "zh-TW": "\u6e1b\u5c11\u4e2d"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "INCREASING",
-                "zh-CN": "\u589e\u52a0\u4e2d",
-                "fr-FR": "EN AUGMENTATION",
-                "de-DE": "STEIGEND",
-                "ja-JP": "\u5897\u52a0\u4e2d",
-                "ko-KR": "\uc99d\uac00 \uc911",
-                "es-ES": "AUMENTANDO",
-                "pt-BR": "AUMENTANDO",
-                "zh-TW": "\u589e\u52a0\u4e2d"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "STOPPED",
-                "zh-CN": "\u5df2\u505c\u6b62",
-                "fr-FR": "ARR\u00caT\u00c9",
-                "de-DE": "GESTOPPT",
-                "ja-JP": "\u505c\u6b62\u4e2d",
-                "ko-KR": "\uc815\uc9c0\ub428",
-                "es-ES": "DETENIDO",
-                "pt-BR": "PARADO",
-                "zh-TW": "\u5df2\u505c\u6b62"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "INCREASING",
+        "zh-CN": "增加中",
+        "fr-FR": "EN AUGMENTATION",
+        "de-DE": "STEIGEND",
+        "ja-JP": "増加中",
+        "ko-KR": "증가 중",
+        "es-ES": "AUMENTANDO",
+        "pt-BR": "AUMENTANDO",
+        "zh-TW": "增加中",
+        "it-IT": "IN AUMENTO",
+        "ru-RU": "УВЕЛИЧЕНИЕ",
+        "nl-NL": "TOENEMEND",
+        "pt-PT": "AUMENTANDO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "STOPPED",
+        "zh-CN": "已停止",
+        "fr-FR": "ARRÊTÉ",
+        "de-DE": "GESTOPPT",
+        "ja-JP": "停止中",
+        "ko-KR": "정지됨",
+        "es-ES": "DETENIDO",
+        "pt-BR": "PARADO",
+        "zh-TW": "已停止",
+        "it-IT": "FERMO",
+        "ru-RU": "ОСТАНОВЛЕНО",
+        "nl-NL": "GESTOPT",
+        "pt-PT": "PARADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

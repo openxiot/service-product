@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:property:temperature:00002A6E",
-    "description": {
-        "en-US": "Temperature",
-        "zh-CN": "温度",
-        "fr-FR": "Temperature",
-        "de-DE": "Temperatur",
-        "ja-JP": "温度",
-        "ko-KR": "온도",
-        "es-ES": "Temperatura",
-        "pt-BR": "Temperatura",
-        "zh-TW": "溫度"
-    },
-    "format": "int16",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released",
-    "unit": "celsius"
+  "type": "urn:bluetooth-spec:property:temperature:00002A6E",
+  "description": {
+    "en-US": "Temperature",
+    "zh-CN": "温度",
+    "zh-TW": "溫度",
+    "de-DE": "Temperatur",
+    "fr-FR": "Temperature",
+    "it-IT": "Temperatura",
+    "ru-RU": "Температура",
+    "ko-KR": "온도",
+    "es-ES": "Temperatura",
+    "ja-JP": "温度",
+    "nl-NL": "Temperatuur",
+    "pt-PT": "Temperatura",
+    "pt-BR": "Temperatura"
+  },
+  "format": "int16",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released",
+  "unit": "celsius"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:unit:celsius:00000001",
-    "description": {
-        "en-US": "celsius",
-        "zh-CN": "\u6444\u6c0f\u5ea6",
-        "fr-FR": "celsius",
-        "de-DE": "Celsius",
-        "ja-JP": "\u6442\u6c0f",
-        "ko-KR": "\uc12d\uc528",
-        "es-ES": "celsius",
-        "pt-BR": "celsius",
-        "zh-TW": "\u651d\u6c0f\u5ea6"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:unit:celsius:00000001",
+  "description": {
+    "en-US": "celsius",
+    "zh-CN": "摄氏度",
+    "zh-TW": "攝氏度",
+    "de-DE": "Grad Celsius",
+    "fr-FR": "degres Celsius",
+    "it-IT": "celsius",
+    "ru-RU": "celsius",
+    "ko-KR": "섭씨",
+    "es-ES": "grados Celsius",
+    "ja-JP": "摂氏度",
+    "nl-NL": "celsius",
+    "pt-PT": "graus Celsius",
+    "pt-BR": "celsius"
+  },
+  "lifecycle": "released"
 }

@@ -1,29 +1,33 @@
 {
-    "type": "urn:homekit-spec:service:thermostat:0000004A",
-    "description": {
-        "en-US": "Thermostat",
-        "zh-CN": "\u6052\u6e29\u5668",
-        "fr-FR": "Thermostat",
-        "de-DE": "Thermostat",
-        "ja-JP": "\u30b5\u30fc\u30e2\u30b9\u30bf\u30c3\u30c8",
-        "ko-KR": "\uc628\ub3c4 \uc870\uc808\uae30",
-        "es-ES": "Termostato",
-        "pt-BR": "Termostato",
-        "zh-TW": "\u6046\u6eab\u5668"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
-        "urn:homekit-spec:property:target-heating-cooling-state:00000033",
-        "urn:homekit-spec:property:current-temperature:00000011",
-        "urn:homekit-spec:property:target-temperature:00000035",
-        "urn:homekit-spec:property:temperature-display-units:00000036"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:current-relative-humidity:00000010",
-        "urn:homekit-spec:property:target-relative-humidity:00000034",
-        "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
-        "urn:homekit-spec:property:heating-threshold-temperature:00000012",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:thermostat:0000004A",
+  "description": {
+    "en-US": "Thermostat",
+    "zh-CN": "恒温器",
+    "zh-TW": "恆溫器",
+    "de-DE": "Thermostat",
+    "fr-FR": "Thermostat",
+    "it-IT": "Termostato",
+    "ru-RU": "Термостат",
+    "ko-KR": "온도 조절기",
+    "es-ES": "Termostato",
+    "ja-JP": "サーモスタット",
+    "nl-NL": "Thermostaat",
+    "pt-PT": "Termostato",
+    "pt-BR": "Termostato"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:current-heating-cooling-state:0000000F",
+    "urn:homekit-spec:property:target-heating-cooling-state:00000033",
+    "urn:homekit-spec:property:current-temperature:00000011",
+    "urn:homekit-spec:property:target-temperature:00000035",
+    "urn:homekit-spec:property:temperature-display-units:00000036"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:current-relative-humidity:00000010",
+    "urn:homekit-spec:property:target-relative-humidity:00000034",
+    "urn:homekit-spec:property:cooling-threshold-temperature:0000000D",
+    "urn:homekit-spec:property:heating-threshold-temperature:00000012",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

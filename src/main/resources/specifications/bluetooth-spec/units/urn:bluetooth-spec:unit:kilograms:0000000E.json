@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:kilograms:0000000E",
-    "description": {
-        "en-US": "kilograms",
-        "zh-CN": "千克",
-        "fr-FR": "kilogrammes",
-        "de-DE": "Kilogramm",
-        "ja-JP": "キログラム",
-        "ko-KR": "킬로그램",
-        "es-ES": "kilogramos",
-        "pt-BR": "quilogramas",
-        "zh-TW": "千克"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:kilograms:0000000E",
+  "description": {
+    "en-US": "kilograms",
+    "zh-CN": "千克",
+    "zh-TW": "千克",
+    "de-DE": "Kilogramm",
+    "fr-FR": "kilogrammes",
+    "it-IT": "kilograms",
+    "ru-RU": "kilograms",
+    "ko-KR": "킬로그램",
+    "es-ES": "kilogramos",
+    "ja-JP": "キログラム",
+    "nl-NL": "kilograms",
+    "pt-PT": "quilogramas",
+    "pt-BR": "quilogramas"
+  },
+  "lifecycle": "released"
 }

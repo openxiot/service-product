@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:int32:00000007",
-    "description": {
-        "en-US": "int32",
-        "zh-CN": "有符号 32 位整数",
-        "fr-FR": "int32",
-        "de-DE": "int32",
-        "ja-JP": "int32",
-        "ko-KR": "int32",
-        "es-ES": "int32",
-        "pt-BR": "int32",
-        "zh-TW": "有符號 32 位整數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:int32:00000007",
+  "description": {
+    "en-US": "int32",
+    "zh-CN": "有符号 32 位整数",
+    "zh-TW": "有符號 32 位整數",
+    "de-DE": "int32",
+    "fr-FR": "int32",
+    "it-IT": "int32",
+    "ru-RU": "int32",
+    "ko-KR": "int32",
+    "es-ES": "int32",
+    "ja-JP": "int32",
+    "nl-NL": "int32",
+    "pt-PT": "int32",
+    "pt-BR": "int32"
+  },
+  "lifecycle": "released"
 }

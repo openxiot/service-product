@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:carbon-monoxide-peak-level:00000091",
-    "description": {
-        "en-US": "Carbon Monoxide Peak Level",
-        "zh-CN": "\u4e00\u6c27\u5316\u78b3\u5cf0\u503c\u6d53\u5ea6",
-        "fr-FR": "Niveau de pointe de monoxyde de carbone",
-        "de-DE": "Kohlenmonoxid-Spitzenwert",
-        "ja-JP": "\u4e00\u9178\u5316\u70ad\u7d20\u30d4\u30fc\u30af\u6fc3\u5ea6",
-        "ko-KR": "\uc77c\uc0b0\ud654\ud0c4\uc18c \ucd5c\uace0 \ub18d\ub3c4",
-        "es-ES": "Nivel m\u00e1ximo de mon\u00f3xido de carbono",
-        "pt-BR": "N\u00edvel m\u00e1ximo de mon\u00f3xido de carbono",
-        "zh-TW": "\u4e00\u6c27\u5316\u78b3\u5cf0\u503c\u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:carbon-monoxide-peak-level:00000091",
+  "description": {
+    "en-US": "Carbon Monoxide Peak Level",
+    "zh-CN": "一氧化碳峰值浓度",
+    "zh-TW": "一氧化碳峰值濃度",
+    "de-DE": "Kohlenmonoxid-Spitzenwert",
+    "fr-FR": "Niveau de pointe de monoxyde de carbone",
+    "it-IT": "Livello massimo monossido carbonio",
+    "ru-RU": "Максимальный уровень CO",
+    "ko-KR": "일산화탄소 최고 농도",
+    "es-ES": "Nivel máximo de monóxido de carbono",
+    "ja-JP": "一酸化炭素ピーク濃度",
+    "nl-NL": "CO-piekniveau",
+    "pt-PT": "Nível máximo de monóxido de carbono",
+    "pt-BR": "Nível máximo de monóxido de carbono"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "lifecycle": "released"
 }

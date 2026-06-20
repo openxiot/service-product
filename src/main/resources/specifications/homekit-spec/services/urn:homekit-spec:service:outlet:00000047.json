@@ -1,22 +1,26 @@
 {
-    "type": "urn:homekit-spec:service:outlet:00000047",
-    "description": {
-        "en-US": "Outlet",
-        "zh-CN": "\u63d2\u5ea7",
-        "fr-FR": "Prise",
-        "de-DE": "Steckdose",
-        "ja-JP": "\u30b3\u30f3\u30bb\u30f3\u30c8",
-        "ko-KR": "\ucf58\uc13c\ud2b8",
-        "es-ES": "Enchufe",
-        "pt-BR": "Tomada",
-        "zh-TW": "\u63d2\u5ea7"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:on:00000025",
-        "urn:homekit-spec:property:outlet-in-use:00000026"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:outlet:00000047",
+  "description": {
+    "en-US": "Outlet",
+    "zh-CN": "插座",
+    "zh-TW": "插座",
+    "de-DE": "Steckdose",
+    "fr-FR": "Prise",
+    "it-IT": "Presa",
+    "ru-RU": "Розетка",
+    "ko-KR": "콘센트",
+    "es-ES": "Enchufe",
+    "ja-JP": "コンセント",
+    "nl-NL": "Stopcontact",
+    "pt-PT": "Tomada",
+    "pt-BR": "Tomada"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:on:00000025",
+    "urn:homekit-spec:property:outlet-in-use:00000026"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

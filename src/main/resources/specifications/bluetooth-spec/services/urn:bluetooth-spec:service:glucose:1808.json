@@ -1,22 +1,26 @@
 {
-    "type": "urn:bluetooth-spec:service:glucose:1808",
-    "description": {
-        "en-US": "Glucose",
-        "zh-CN": "血糖",
-        "fr-FR": "Glucose",
-        "de-DE": "Glukose",
-        "ja-JP": "グルコース",
-        "ko-KR": "혈당",
-        "es-ES": "Glucosa",
-        "pt-BR": "Glicose",
-        "zh-TW": "血糖"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:glucose-measurement:00002A18"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
-        "urn:bluetooth-spec:property:glucose-feature:00002A20"
-    ]
+  "type": "urn:bluetooth-spec:service:glucose:1808",
+  "description": {
+    "en-US": "Glucose",
+    "zh-CN": "血糖",
+    "zh-TW": "血糖",
+    "de-DE": "Glukose",
+    "fr-FR": "Glucose",
+    "it-IT": "Glucosio",
+    "ru-RU": "Глюкоза",
+    "ko-KR": "혈당",
+    "es-ES": "Glucosa",
+    "ja-JP": "グルコース",
+    "nl-NL": "Glucose",
+    "pt-PT": "Glicose",
+    "pt-BR": "Glicose"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:glucose-measurement:00002A18"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:glucose-measurement-context:00002A34",
+    "urn:bluetooth-spec:property:glucose-feature:00002A20"
+  ]
 }

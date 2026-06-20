@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:setup-endpoints:00000118",
-    "description": {
-        "en-US": "Setup Endpoints",
-        "zh-CN": "\u8bbe\u7f6e\u7aef\u70b9",
-        "fr-FR": "Configurer les points d'acc\u00e8s",
-        "de-DE": "Endpunkte einrichten",
-        "ja-JP": "\u30a8\u30f3\u30c9\u30dd\u30a4\u30f3\u30c8\u8a2d\u5b9a",
-        "ko-KR": "\uc5d4\ub4dc\ud3ec\uc778\ud2b8 \uc124\uc815",
-        "es-ES": "Configurar endpoints",
-        "pt-BR": "Configurar endpoints",
-        "zh-TW": "\u8a2d\u7f6e\u7aef\u9ede"
-    },
-    "format": "tlv8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:setup-endpoints:00000118",
+  "description": {
+    "en-US": "Setup Endpoints",
+    "zh-CN": "设置端点",
+    "zh-TW": "設置端點",
+    "de-DE": "Endpunkte einrichten",
+    "fr-FR": "Configurer les points d'accès",
+    "it-IT": "Configura endpoint",
+    "ru-RU": "Настройка конечных точек",
+    "ko-KR": "엔드포인트 설정",
+    "es-ES": "Configurar endpoints",
+    "ja-JP": "エンドポイント設定",
+    "nl-NL": "Eindpunten instellen",
+    "pt-PT": "Configurar endpoints",
+    "pt-BR": "Configurar endpoints"
+  },
+  "format": "tlv8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

@@ -1,24 +1,28 @@
 {
-    "type": "urn:bluetooth-spec:service:generic-access:1800",
-    "description": {
-        "en-US": "Generic Access",
-        "zh-CN": "通用访问",
-        "fr-FR": "Acces generique",
-        "de-DE": "Generischer Zugriff",
-        "ja-JP": "汎用アクセス",
-        "ko-KR": "일반 액세스",
-        "es-ES": "Acceso generico",
-        "pt-BR": "Acesso generico",
-        "zh-TW": "通用訪問"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:device-name:00002A00",
-        "urn:bluetooth-spec:property:appearance:00002A01"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:peripheral-privacy-flag:00002A02",
-        "urn:bluetooth-spec:property:reconnection-address:00002A03",
-        "urn:bluetooth-spec:property:peripheral-preferred-connection-parameters:00002A04"
-    ]
+  "type": "urn:bluetooth-spec:service:generic-access:1800",
+  "description": {
+    "en-US": "Generic Access",
+    "zh-CN": "通用访问",
+    "zh-TW": "通用訪問",
+    "de-DE": "Generischer Zugriff",
+    "fr-FR": "Acces generique",
+    "it-IT": "Accesso generico",
+    "ru-RU": "Общий доступ",
+    "ko-KR": "일반 액세스",
+    "es-ES": "Acceso generico",
+    "ja-JP": "汎用アクセス",
+    "nl-NL": "Algemene toegang",
+    "pt-PT": "Acesso generico",
+    "pt-BR": "Acesso generico"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:device-name:00002A00",
+    "urn:bluetooth-spec:property:appearance:00002A01"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:peripheral-privacy-flag:00002A02",
+    "urn:bluetooth-spec:property:reconnection-address:00002A03",
+    "urn:bluetooth-spec:property:peripheral-preferred-connection-parameters:00002A04"
+  ]
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:speaker:00000022",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Speaker",
-        "zh-CN": "扬声器",
-        "fr-FR": "Haut-parleur",
-        "de-DE": "Lautsprecher",
-        "ja-JP": "スピーカー",
-        "ko-KR": "스피커",
-        "es-ES": "Altavoz",
-        "pt-BR": "Alto-falante",
-        "zh-TW": "揚聲器"
-    }
+  "type": "urn:homekit-spec:device:speaker:00000022",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Speaker",
+    "zh-CN": "扬声器",
+    "zh-TW": "揚聲器",
+    "de-DE": "Lautsprecher",
+    "fr-FR": "Haut-parleur",
+    "it-IT": "Altoparlante",
+    "ru-RU": "Динамик",
+    "ko-KR": "스피커",
+    "es-ES": "Altavoz",
+    "ja-JP": "スピーカー",
+    "nl-NL": "Luidspreker",
+    "pt-PT": "Alto-falante",
+    "pt-BR": "Alto-falante"
+  }
 }

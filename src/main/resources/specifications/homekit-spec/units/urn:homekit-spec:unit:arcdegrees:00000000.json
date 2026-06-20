@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:unit:arcdegrees:00000000",
-    "description": {
-        "en-US": "arcdegrees",
-        "zh-CN": "\u89d2\u5ea6",
-        "fr-FR": "degr\u00e9s d'arc",
-        "de-DE": "Winkelgrad",
-        "ja-JP": "\u89d2\u5ea6",
-        "ko-KR": "\uac01\ub3c4",
-        "es-ES": "grados de arco",
-        "pt-BR": "graus de arco",
-        "zh-TW": "\u89d2\u5ea6"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:unit:arcdegrees:00000000",
+  "description": {
+    "en-US": "arcdegrees",
+    "zh-CN": "角度",
+    "zh-TW": "角度",
+    "de-DE": "Winkelgrad",
+    "fr-FR": "degrés d'arc",
+    "it-IT": "arcdegrees",
+    "ru-RU": "arcdegrees",
+    "ko-KR": "각도",
+    "es-ES": "grados de arco",
+    "ja-JP": "角度",
+    "nl-NL": "arcdegrees",
+    "pt-PT": "graus de arco",
+    "pt-BR": "graus de arco"
+  },
+  "lifecycle": "released"
 }

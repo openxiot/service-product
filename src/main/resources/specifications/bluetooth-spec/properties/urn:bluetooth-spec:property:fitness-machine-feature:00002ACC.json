@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC",
-    "description": {
-        "en-US": "Fitness Machine Feature",
-        "zh-CN": "健身器材特征",
-        "fr-FR": "Caracteristique de la machine de fitness",
-        "de-DE": "Fitnessgerate-Funktion",
-        "ja-JP": "フィットネスマシン機能",
-        "ko-KR": "피트니스 머신 기능",
-        "es-ES": "Caracteristica de la maquina de fitness",
-        "pt-BR": "Recurso da maquina de fitness",
-        "zh-TW": "健身器材特徵"
-    },
-    "format": "uint32",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:fitness-machine-feature:00002ACC",
+  "description": {
+    "en-US": "Fitness Machine Feature",
+    "zh-CN": "健身器材特征",
+    "zh-TW": "健身器材特徵",
+    "de-DE": "Fitnessgerate-Funktion",
+    "fr-FR": "Caracteristique de la machine de fitness",
+    "it-IT": "Funzione macchina fitness",
+    "ru-RU": "Функция фитнес-тренажера",
+    "ko-KR": "피트니스 머신 기능",
+    "es-ES": "Caracteristica de la maquina de fitness",
+    "ja-JP": "フィットネスマシン機能",
+    "nl-NL": "Fitnessapparaatfunctie",
+    "pt-PT": "Recurso da maquina de fitness",
+    "pt-BR": "Recurso da maquina de fitness"
+  },
+  "format": "uint32",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

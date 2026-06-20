@@ -4,13 +4,17 @@
     "description": {
       "en-US": "Bluetooth BLE GATT Specification",
       "zh-CN": "蓝牙 BLE GATT 规范",
-      "fr-FR": "Specification Bluetooth BLE GATT",
+      "zh-TW": "藍牙 BLE GATT 規範",
       "de-DE": "Bluetooth BLE GATT Spezifikation",
-      "ja-JP": "Bluetooth BLE GATT仕様",
+      "fr-FR": "Specification Bluetooth BLE GATT",
+      "it-IT": "Specifica Bluetooth BLE GATT",
+      "ru-RU": "Спецификация Bluetooth BLE GATT",
       "ko-KR": "블루투스 BLE GATT 사양",
       "es-ES": "Especificacion Bluetooth BLE GATT",
-      "pt-BR": "Especificacao Bluetooth BLE GATT",
-      "zh-TW": "藍牙 BLE GATT 規範"
+      "ja-JP": "Bluetooth BLE GATT仕様",
+      "nl-NL": "Bluetooth BLE GATT-specificatie",
+      "pt-PT": "Especificacao Bluetooth BLE GATT",
+      "pt-BR": "Especificacao Bluetooth BLE GATT"
     },
     "organization": "openxiot",
     "visibility": "public",
@@ -25,13 +29,17 @@
       "description": {
         "en-US": "Age",
         "zh-CN": "年龄",
-        "fr-FR": "Age",
+        "zh-TW": "年齡",
         "de-DE": "Alter",
-        "ja-JP": "年齢",
+        "fr-FR": "Age",
+        "it-IT": "Età",
+        "ru-RU": "Возраст",
         "ko-KR": "나이",
         "es-ES": "Edad",
-        "pt-BR": "Idade",
-        "zh-TW": "年齡"
+        "ja-JP": "年齢",
+        "nl-NL": "Leeftijd",
+        "pt-PT": "Idade",
+        "pt-BR": "Idade"
       },
       "format": "uint8",
       "access": [
@@ -46,13 +54,17 @@
       "description": {
         "en-US": "Aggregate",
         "zh-CN": "聚合",
-        "fr-FR": "Agrege",
+        "zh-TW": "聚合",
         "de-DE": "Aggregat",
-        "ja-JP": "集計",
+        "fr-FR": "Agrege",
+        "it-IT": "Aggregato",
+        "ru-RU": "Агрегат",
         "ko-KR": "집계",
         "es-ES": "Agregado",
-        "pt-BR": "Agregado",
-        "zh-TW": "聚合"
+        "ja-JP": "集計",
+        "nl-NL": "Aggregaat",
+        "pt-PT": "Agregado",
+        "pt-BR": "Agregado"
       },
       "format": "uint8",
       "access": [
@@ -67,13 +79,17 @@
       "description": {
         "en-US": "Alert Category ID Bit Mask",
         "zh-CN": "警报类别 ID 位掩码",
-        "fr-FR": "Masque de bits ID de categorie d'alerte",
+        "zh-TW": "警報類別 ID 位掩碼",
         "de-DE": "Bitmaske der Alarmkategorie-ID",
-        "ja-JP": "通知カテゴリIDビットマスク",
+        "fr-FR": "Masque de bits ID de categorie d'alerte",
+        "it-IT": "Maschera bit ID categoria allarme",
+        "ru-RU": "Битовая маска ID категории предупреждения",
         "ko-KR": "알림 카테고리 ID 비트 마스크",
         "es-ES": "Mascara de bits de ID de categoria de alerta",
-        "pt-BR": "Mascara de bits da ID da categoria de alerta",
-        "zh-TW": "警報類別 ID 位掩碼"
+        "ja-JP": "通知カテゴリIDビットマスク",
+        "nl-NL": "Bitmasker alarmcategorie-ID",
+        "pt-PT": "Mascara de bits da ID da categoria de alerta",
+        "pt-BR": "Mascara de bits da ID da categoria de alerta"
       },
       "format": "uint8",
       "access": [
@@ -87,13 +103,17 @@
       "description": {
         "en-US": "Alert Category ID",
         "zh-CN": "警报类别 ID",
-        "fr-FR": "ID de categorie d'alerte",
+        "zh-TW": "警報類別 ID",
         "de-DE": "Alarmkategorie-ID",
-        "ja-JP": "通知カテゴリID",
+        "fr-FR": "ID de categorie d'alerte",
+        "it-IT": "ID categoria allarme",
+        "ru-RU": "ID категории предупреждения",
         "ko-KR": "알림 카테고리 ID",
         "es-ES": "ID de categoria de alerta",
-        "pt-BR": "ID da categoria de alerta",
-        "zh-TW": "警報類別 ID"
+        "ja-JP": "通知カテゴリID",
+        "nl-NL": "Alarmcategorie-ID",
+        "pt-PT": "ID da categoria de alerta",
+        "pt-BR": "ID da categoria de alerta"
       },
       "format": "uint8",
       "access": [
@@ -107,13 +127,17 @@
       "description": {
         "en-US": "Alert Level",
         "zh-CN": "警报级别",
-        "fr-FR": "Niveau d'alerte",
+        "zh-TW": "警報級別",
         "de-DE": "Alarmstufe",
-        "ja-JP": "アラートレベル",
+        "fr-FR": "Niveau d'alerte",
+        "it-IT": "Livello allarme",
+        "ru-RU": "Уровень предупреждения",
         "ko-KR": "알림 수준",
         "es-ES": "Nivel de alerta",
-        "pt-BR": "Nivel de alerta",
-        "zh-TW": "警報級別"
+        "ja-JP": "アラートレベル",
+        "nl-NL": "Alarmniveau",
+        "pt-PT": "Nivel de alerta",
+        "pt-BR": "Nivel de alerta"
       },
       "format": "uint8",
       "access": [
@@ -128,13 +152,17 @@
       "description": {
         "en-US": "Alert Notification Control Point",
         "zh-CN": "警报通知控制点",
-        "fr-FR": "Point de controle des notifications d'alerte",
+        "zh-TW": "警報通知控制點",
         "de-DE": "Alarmbenachrichtigungs-Kontrollpunkt",
-        "ja-JP": "通知通知制御ポイント",
+        "fr-FR": "Point de controle des notifications d'alerte",
+        "it-IT": "Punto controllo notifiche allarme",
+        "ru-RU": "Точка управления уведомлениями",
         "ko-KR": "알림 제어 포인트",
         "es-ES": "Punto de control de notificacion de alerta",
-        "pt-BR": "Ponto de controle de notificacao de alerta",
-        "zh-TW": "警報通知控制點"
+        "ja-JP": "通知通知制御ポイント",
+        "nl-NL": "Meldingscontrolepunt alarm",
+        "pt-PT": "Ponto de controle de notificacao de alerta",
+        "pt-BR": "Ponto de controle de notificacao de alerta"
       },
       "format": "uint8",
       "access": [
@@ -148,13 +176,17 @@
       "description": {
         "en-US": "Alert Status",
         "zh-CN": "警报状态",
-        "fr-FR": "Statut d'alerte",
+        "zh-TW": "警報狀態",
         "de-DE": "Alarmstatus",
-        "ja-JP": "通知状態",
+        "fr-FR": "Statut d'alerte",
+        "it-IT": "Stato allarme",
+        "ru-RU": "Статус предупреждения",
         "ko-KR": "알림 상태",
         "es-ES": "Estado de alerta",
-        "pt-BR": "Status de alerta",
-        "zh-TW": "警報狀態"
+        "ja-JP": "通知状態",
+        "nl-NL": "Alarmstatus",
+        "pt-PT": "Status de alerta",
+        "pt-BR": "Status de alerta"
       },
       "format": "uint8",
       "access": [
@@ -169,13 +201,17 @@
       "description": {
         "en-US": "Analog",
         "zh-CN": "模拟",
-        "fr-FR": "Analogique",
+        "zh-TW": "模擬",
         "de-DE": "Analog",
-        "ja-JP": "アナログ",
+        "fr-FR": "Analogique",
+        "it-IT": "Analogico",
+        "ru-RU": "Аналоговый",
         "ko-KR": "아날로그",
         "es-ES": "Analogico",
-        "pt-BR": "Analogico",
-        "zh-TW": "模擬"
+        "ja-JP": "アナログ",
+        "nl-NL": "Analoog",
+        "pt-PT": "Analogico",
+        "pt-BR": "Analogico"
       },
       "format": "float",
       "access": [
@@ -190,13 +226,17 @@
       "description": {
         "en-US": "Appearance",
         "zh-CN": "外观",
-        "fr-FR": "Apparence",
+        "zh-TW": "外觀",
         "de-DE": "Erscheinungsbild",
-        "ja-JP": "外観",
+        "fr-FR": "Apparence",
+        "it-IT": "Aspetto",
+        "ru-RU": "Внешний вид",
         "ko-KR": "외관",
         "es-ES": "Apariencia",
-        "pt-BR": "Aparencia",
-        "zh-TW": "外觀"
+        "ja-JP": "外観",
+        "nl-NL": "Uiterlijk",
+        "pt-PT": "Aparencia",
+        "pt-BR": "Aparencia"
       },
       "format": "uint16",
       "access": [
@@ -210,13 +250,17 @@
       "description": {
         "en-US": "Battery Level",
         "zh-CN": "电池电量",
-        "fr-FR": "Niveau de batterie",
+        "zh-TW": "電池電量",
         "de-DE": "Batterieladestand",
-        "ja-JP": "バッテリーレベル",
+        "fr-FR": "Niveau de batterie",
+        "it-IT": "Livello batteria",
+        "ru-RU": "Уровень заряда батареи",
         "ko-KR": "배터리 잔량",
         "es-ES": "Nivel de bateria",
-        "pt-BR": "Nivel da bateria",
-        "zh-TW": "電池電量"
+        "ja-JP": "バッテリーレベル",
+        "nl-NL": "Batterijniveau",
+        "pt-PT": "Nivel da bateria",
+        "pt-BR": "Nivel da bateria"
       },
       "format": "uint8",
       "access": [
@@ -237,13 +281,17 @@
       "description": {
         "en-US": "Blood Pressure Feature",
         "zh-CN": "血压特征",
-        "fr-FR": "Caracteristique de la pression arterielle",
+        "zh-TW": "血壓特徵",
         "de-DE": "Blutdruckmerkmal",
-        "ja-JP": "血圧機能",
+        "fr-FR": "Caracteristique de la pression arterielle",
+        "it-IT": "Funzione pressione sanguigna",
+        "ru-RU": "Функция измерения давления",
         "ko-KR": "혈압 기능",
         "es-ES": "Caracteristica de presion arterial",
-        "pt-BR": "Recurso de pressao arterial",
-        "zh-TW": "血壓特徵"
+        "ja-JP": "血圧機能",
+        "nl-NL": "Bloeddrukfunctie",
+        "pt-PT": "Recurso de pressao arterial",
+        "pt-BR": "Recurso de pressao arterial"
       },
       "format": "uint8",
       "access": [
@@ -257,13 +305,17 @@
       "description": {
         "en-US": "Blood Pressure Measurement",
         "zh-CN": "血压测量",
-        "fr-FR": "Mesure de la pression arterielle",
+        "zh-TW": "血壓測量",
         "de-DE": "Blutdruckmessung",
-        "ja-JP": "血圧測定",
+        "fr-FR": "Mesure de la pression arterielle",
+        "it-IT": "Misurazione pressione sanguigna",
+        "ru-RU": "Измерение артериального давления",
         "ko-KR": "혈압 측정",
         "es-ES": "Medicion de presion arterial",
-        "pt-BR": "Medicao da pressao arterial",
-        "zh-TW": "血壓測量"
+        "ja-JP": "血圧測定",
+        "nl-NL": "Bloeddrukmeting",
+        "pt-PT": "Medicao da pressao arterial",
+        "pt-BR": "Medicao da pressao arterial"
       },
       "format": "uint8",
       "access": [
@@ -277,13 +329,17 @@
       "description": {
         "en-US": "Body Composition Measurement",
         "zh-CN": "身体成分测量",
-        "fr-FR": "Mesure de la composition corporelle",
+        "zh-TW": "身體成分測量",
         "de-DE": "Korperzusammensetzungsmessung",
-        "ja-JP": "体組成測定",
+        "fr-FR": "Mesure de la composition corporelle",
+        "it-IT": "Misurazione composizione corporea",
+        "ru-RU": "Измерение состава тела",
         "ko-KR": "체성분 측정",
         "es-ES": "Medicion de composicion corporal",
-        "pt-BR": "Medicao da composicao corporal",
-        "zh-TW": "身體成分測量"
+        "ja-JP": "体組成測定",
+        "nl-NL": "Lichaamssamenstellingmeting",
+        "pt-PT": "Medicao da composicao corporal",
+        "pt-BR": "Medicao da composicao corporal"
       },
       "format": "uint8",
       "access": [
@@ -297,13 +353,17 @@
       "description": {
         "en-US": "Body Sensor Location",
         "zh-CN": "身体传感器位置",
-        "fr-FR": "Emplacement du capteur corporel",
+        "zh-TW": "身體傳感器位置",
         "de-DE": "Korpersensorposition",
-        "ja-JP": "身体センサー位置",
+        "fr-FR": "Emplacement du capteur corporel",
+        "it-IT": "Posizione sensore corporeo",
+        "ru-RU": "Расположение датчика на теле",
         "ko-KR": "신체 센서 위치",
         "es-ES": "Ubicacion del sensor corporal",
-        "pt-BR": "Localizacao do sensor corporal",
-        "zh-TW": "身體傳感器位置"
+        "ja-JP": "身体センサー位置",
+        "nl-NL": "Locatie lichaamssensor",
+        "pt-PT": "Localizacao do sensor corporal",
+        "pt-BR": "Localizacao do sensor corporal"
       },
       "format": "uint8",
       "access": [
@@ -317,13 +377,17 @@
       "description": {
         "en-US": "Cross Trainer Data",
         "zh-CN": "椭圆机数据",
-        "fr-FR": "Donnees du cross-trainer",
+        "zh-TW": "橢圓機數據",
         "de-DE": "Crosstrainer-Daten",
-        "ja-JP": "クロストレーナーデータ",
+        "fr-FR": "Donnees du cross-trainer",
+        "it-IT": "Dati cross trainer",
+        "ru-RU": "Данные кросс-тренажера",
         "ko-KR": "크로스 트레이너 데이터",
         "es-ES": "Datos de eliptica",
-        "pt-BR": "Dados do eliptico",
-        "zh-TW": "橢圓機數據"
+        "ja-JP": "クロストレーナーデータ",
+        "nl-NL": "Crosstrainergegevens",
+        "pt-PT": "Dados do eliptico",
+        "pt-BR": "Dados do eliptico"
       },
       "format": "uint16",
       "access": [
@@ -337,13 +401,17 @@
       "description": {
         "en-US": "CSC Feature",
         "zh-CN": "骑行传感器特征",
-        "fr-FR": "Caracteristique CSC",
+        "zh-TW": "騎行傳感器特徵",
         "de-DE": "CSC-Funktion",
-        "ja-JP": "CSC機能",
+        "fr-FR": "Caracteristique CSC",
+        "it-IT": "Funzione CSC",
+        "ru-RU": "Функция CSC",
         "ko-KR": "CSC 기능",
         "es-ES": "Caracteristica CSC",
-        "pt-BR": "Recurso CSC",
-        "zh-TW": "騎行傳感器特徵"
+        "ja-JP": "CSC機能",
+        "nl-NL": "CSC-functie",
+        "pt-PT": "Recurso CSC",
+        "pt-BR": "Recurso CSC"
       },
       "format": "uint8",
       "access": [
@@ -357,13 +425,17 @@
       "description": {
         "en-US": "CSC Measurement",
         "zh-CN": "骑行传感器测量",
-        "fr-FR": "Mesure CSC",
+        "zh-TW": "騎行傳感器測量",
         "de-DE": "CSC-Messung",
-        "ja-JP": "CSC測定",
+        "fr-FR": "Mesure CSC",
+        "it-IT": "Misurazione CSC",
+        "ru-RU": "Измерение CSC",
         "ko-KR": "CSC 측정",
         "es-ES": "Medicion CSC",
-        "pt-BR": "Medicao CSC",
-        "zh-TW": "騎行傳感器測量"
+        "ja-JP": "CSC測定",
+        "nl-NL": "CSC-meting",
+        "pt-PT": "Medicao CSC",
+        "pt-BR": "Medicao CSC"
       },
       "format": "uint8",
       "access": [
@@ -377,13 +449,17 @@
       "description": {
         "en-US": "Current Time",
         "zh-CN": "当前时间",
-        "fr-FR": "Heure actuelle",
+        "zh-TW": "當前時間",
         "de-DE": "Aktuelle Uhrzeit",
-        "ja-JP": "現在時刻",
+        "fr-FR": "Heure actuelle",
+        "it-IT": "Ora attuale",
+        "ru-RU": "Текущее время",
         "ko-KR": "현재 시간",
         "es-ES": "Hora actual",
-        "pt-BR": "Hora atual",
-        "zh-TW": "當前時間"
+        "ja-JP": "現在時刻",
+        "nl-NL": "Huidige tijd",
+        "pt-PT": "Hora atual",
+        "pt-BR": "Hora atual"
       },
       "format": "uint8",
       "access": [
@@ -398,13 +474,17 @@
       "description": {
         "en-US": "Cycling Power Feature",
         "zh-CN": "骑行功率特征",
-        "fr-FR": "Caracteristique de puissance cycliste",
+        "zh-TW": "騎行功率特徵",
         "de-DE": "Radfahrleistungsmerkmal",
-        "ja-JP": "サイクリングパワー機能",
+        "fr-FR": "Caracteristique de puissance cycliste",
+        "it-IT": "Funzione potenza ciclismo",
+        "ru-RU": "Функция мощности цикла",
         "ko-KR": "사이클링 파워 기능",
         "es-ES": "Caracteristica de potencia ciclista",
-        "pt-BR": "Recurso de potencia ciclistica",
-        "zh-TW": "騎行功率特徵"
+        "ja-JP": "サイクリングパワー機能",
+        "nl-NL": "Fietsvermogensfunctie",
+        "pt-PT": "Recurso de potencia ciclistica",
+        "pt-BR": "Recurso de potencia ciclistica"
       },
       "format": "uint8",
       "access": [
@@ -418,13 +498,17 @@
       "description": {
         "en-US": "Cycling Power Measurement",
         "zh-CN": "骑行功率测量",
-        "fr-FR": "Mesure de puissance cycliste",
+        "zh-TW": "騎行功率測量",
         "de-DE": "Radfahrleistungsmessung",
-        "ja-JP": "サイクリングパワー測定",
+        "fr-FR": "Mesure de puissance cycliste",
+        "it-IT": "Misurazione potenza ciclismo",
+        "ru-RU": "Измерение мощности цикла",
         "ko-KR": "사이클링 파워 측정",
         "es-ES": "Medicion de potencia ciclista",
-        "pt-BR": "Medicao de potencia ciclistica",
-        "zh-TW": "騎行功率測量"
+        "ja-JP": "サイクリングパワー測定",
+        "nl-NL": "Fietsvermogensmeting",
+        "pt-PT": "Medicao de potencia ciclistica",
+        "pt-BR": "Medicao de potencia ciclistica"
       },
       "format": "uint8",
       "access": [
@@ -438,13 +522,17 @@
       "description": {
         "en-US": "Date Time",
         "zh-CN": "日期时间",
-        "fr-FR": "Date et heure",
+        "zh-TW": "日期時間",
         "de-DE": "Datum und Uhrzeit",
-        "ja-JP": "日付と時刻",
+        "fr-FR": "Date et heure",
+        "it-IT": "Data e ora",
+        "ru-RU": "Дата и время",
         "ko-KR": "날짜 및 시간",
         "es-ES": "Fecha y hora",
-        "pt-BR": "Data e hora",
-        "zh-TW": "日期時間"
+        "ja-JP": "日付と時刻",
+        "nl-NL": "Datum en tijd",
+        "pt-PT": "Data e hora",
+        "pt-BR": "Data e hora"
       },
       "format": "uint8",
       "access": [
@@ -458,13 +546,17 @@
       "description": {
         "en-US": "Day Date Time",
         "zh-CN": "日期时间",
-        "fr-FR": "Date et heure",
+        "zh-TW": "日期時間",
         "de-DE": "Datum Uhrzeit",
-        "ja-JP": "日付時刻",
+        "fr-FR": "Date et heure",
+        "it-IT": "Data e ora giorno",
+        "ru-RU": "Дата и время дня",
         "ko-KR": "날짜 시간",
         "es-ES": "Fecha y hora",
-        "pt-BR": "Data e hora",
-        "zh-TW": "日期時間"
+        "ja-JP": "日付時刻",
+        "nl-NL": "Dag datum tijd",
+        "pt-PT": "Data e hora",
+        "pt-BR": "Data e hora"
       },
       "format": "uint8",
       "access": [
@@ -478,13 +570,17 @@
       "description": {
         "en-US": "Device Name",
         "zh-CN": "设备名称",
-        "fr-FR": "Nom de l'appareil",
+        "zh-TW": "設備名稱",
         "de-DE": "Geratename",
-        "ja-JP": "デバイス名",
+        "fr-FR": "Nom de l'appareil",
+        "it-IT": "Nome dispositivo",
+        "ru-RU": "Имя устройства",
         "ko-KR": "장치 이름",
         "es-ES": "Nombre del dispositivo",
-        "pt-BR": "Nome do dispositivo",
-        "zh-TW": "設備名稱"
+        "ja-JP": "デバイス名",
+        "nl-NL": "Apparaatnaam",
+        "pt-PT": "Nome do dispositivo",
+        "pt-BR": "Nome do dispositivo"
       },
       "format": "string",
       "access": [
@@ -498,13 +594,17 @@
       "description": {
         "en-US": "Digital",
         "zh-CN": "数字",
-        "fr-FR": "Numerique",
+        "zh-TW": "數字",
         "de-DE": "Digital",
-        "ja-JP": "デジタル",
+        "fr-FR": "Numerique",
+        "it-IT": "Digitale",
+        "ru-RU": "Цифровой",
         "ko-KR": "디지털",
         "es-ES": "Digital",
-        "pt-BR": "Digital",
-        "zh-TW": "數字"
+        "ja-JP": "デジタル",
+        "nl-NL": "Digitaal",
+        "pt-PT": "Digital",
+        "pt-BR": "Digital"
       },
       "format": "bool",
       "access": [
@@ -519,13 +619,17 @@
       "description": {
         "en-US": "Firmware Revision String",
         "zh-CN": "固件版本字符串",
-        "fr-FR": "Chaine de revision du firmware",
+        "zh-TW": "固件版本字符串",
         "de-DE": "Firmware-Version",
-        "ja-JP": "ファームウェアリビジョン",
+        "fr-FR": "Chaine de revision du firmware",
+        "it-IT": "Stringa revisione firmware",
+        "ru-RU": "Строка ревизии прошивки",
         "ko-KR": "펌웨어 버전",
         "es-ES": "Revision del firmware",
-        "pt-BR": "Revisao do firmware",
-        "zh-TW": "固件版本字符串"
+        "ja-JP": "ファームウェアリビジョン",
+        "nl-NL": "Firmware revisie string",
+        "pt-PT": "Revisao do firmware",
+        "pt-BR": "Revisao do firmware"
       },
       "format": "string",
       "access": [
@@ -539,13 +643,17 @@
       "description": {
         "en-US": "Fitness Machine Feature",
         "zh-CN": "健身器材特征",
-        "fr-FR": "Caracteristique de la machine de fitness",
+        "zh-TW": "健身器材特徵",
         "de-DE": "Fitnessgerate-Funktion",
-        "ja-JP": "フィットネスマシン機能",
+        "fr-FR": "Caracteristique de la machine de fitness",
+        "it-IT": "Funzione macchina fitness",
+        "ru-RU": "Функция фитнес-тренажера",
         "ko-KR": "피트니스 머신 기능",
         "es-ES": "Caracteristica de la maquina de fitness",
-        "pt-BR": "Recurso da maquina de fitness",
-        "zh-TW": "健身器材特徵"
+        "ja-JP": "フィットネスマシン機能",
+        "nl-NL": "Fitnessapparaatfunctie",
+        "pt-PT": "Recurso da maquina de fitness",
+        "pt-BR": "Recurso da maquina de fitness"
       },
       "format": "uint32",
       "access": [
@@ -559,13 +667,17 @@
       "description": {
         "en-US": "Gender",
         "zh-CN": "性别",
-        "fr-FR": "Genre",
+        "zh-TW": "性別",
         "de-DE": "Geschlecht",
-        "ja-JP": "性別",
+        "fr-FR": "Genre",
+        "it-IT": "Sesso",
+        "ru-RU": "Пол",
         "ko-KR": "성별",
         "es-ES": "Genero",
-        "pt-BR": "Genero",
-        "zh-TW": "性別"
+        "ja-JP": "性別",
+        "nl-NL": "Geslacht",
+        "pt-PT": "Genero",
+        "pt-BR": "Genero"
       },
       "format": "uint8",
       "access": [
@@ -580,13 +692,17 @@
       "description": {
         "en-US": "Glucose Feature",
         "zh-CN": "血糖特征",
-        "fr-FR": "Caracteristique du glucose",
+        "zh-TW": "血糖特徵",
         "de-DE": "Glukosefunktion",
-        "ja-JP": "血糖機能",
+        "fr-FR": "Caracteristique du glucose",
+        "it-IT": "Funzione glucosio",
+        "ru-RU": "Функция глюкозы",
         "ko-KR": "혈당 기능",
         "es-ES": "Caracteristica de glucosa",
-        "pt-BR": "Recurso de glicose",
-        "zh-TW": "血糖特徵"
+        "ja-JP": "血糖機能",
+        "nl-NL": "Glucosefunctie",
+        "pt-PT": "Recurso de glicose",
+        "pt-BR": "Recurso de glicose"
       },
       "format": "uint8",
       "access": [
@@ -600,13 +716,17 @@
       "description": {
         "en-US": "Glucose Measurement Context",
         "zh-CN": "血糖测量上下文",
-        "fr-FR": "Contexte de mesure du glucose",
+        "zh-TW": "血糖測量上下文",
         "de-DE": "Glukosemessungskontext",
-        "ja-JP": "血糖測定コンテキスト",
+        "fr-FR": "Contexte de mesure du glucose",
+        "it-IT": "Contesto misurazione glucosio",
+        "ru-RU": "Контекст измерения глюкозы",
         "ko-KR": "혈당 측정 컨텍스트",
         "es-ES": "Contexto de medicion de glucosa",
-        "pt-BR": "Contexto de medicao de glicose",
-        "zh-TW": "血糖測量上下文"
+        "ja-JP": "血糖測定コンテキスト",
+        "nl-NL": "Glucosemetingcontext",
+        "pt-PT": "Contexto de medicao de glicose",
+        "pt-BR": "Contexto de medicao de glicose"
       },
       "format": "uint8",
       "access": [
@@ -620,13 +740,17 @@
       "description": {
         "en-US": "Glucose Measurement",
         "zh-CN": "血糖测量",
-        "fr-FR": "Mesure du glucose",
+        "zh-TW": "血糖測量",
         "de-DE": "Glukosemessung",
-        "ja-JP": "血糖測定",
+        "fr-FR": "Mesure du glucose",
+        "it-IT": "Misurazione glucosio",
+        "ru-RU": "Измерение глюкозы",
         "ko-KR": "혈당 측정",
         "es-ES": "Medicion de glucosa",
-        "pt-BR": "Medicao de glicose",
-        "zh-TW": "血糖測量"
+        "ja-JP": "血糖測定",
+        "nl-NL": "Glucosemeting",
+        "pt-PT": "Medicao de glicose",
+        "pt-BR": "Medicao de glicose"
       },
       "format": "uint8",
       "access": [
@@ -640,13 +764,17 @@
       "description": {
         "en-US": "Hardware Revision String",
         "zh-CN": "硬件版本字符串",
-        "fr-FR": "Chaine de revision du materiel",
+        "zh-TW": "硬件版本字符串",
         "de-DE": "Hardware-Version",
-        "ja-JP": "ハードウェアリビジョン",
+        "fr-FR": "Chaine de revision du materiel",
+        "it-IT": "Stringa revisione hardware",
+        "ru-RU": "Строка ревизии аппаратного обеспечения",
         "ko-KR": "하드웨어 버전",
         "es-ES": "Revision del hardware",
-        "pt-BR": "Revisao do hardware",
-        "zh-TW": "硬件版本字符串"
+        "ja-JP": "ハードウェアリビジョン",
+        "nl-NL": "Hardware revisie string",
+        "pt-PT": "Revisao do hardware",
+        "pt-BR": "Revisao do hardware"
       },
       "format": "string",
       "access": [
@@ -660,13 +788,17 @@
       "description": {
         "en-US": "Heart Rate Control Point",
         "zh-CN": "心率控制点",
-        "fr-FR": "Point de controle de la frequence cardiaque",
+        "zh-TW": "心率控制點",
         "de-DE": "Herzfrequenz-Kontrollpunkt",
-        "ja-JP": "心拍数制御ポイント",
+        "fr-FR": "Point de controle de la frequence cardiaque",
+        "it-IT": "Punto controllo frequenza cardiaca",
+        "ru-RU": "Точка контроля пульса",
         "ko-KR": "심박수 제어 포인트",
         "es-ES": "Punto de control de frecuencia cardiaca",
-        "pt-BR": "Ponto de controle da frequencia cardiaca",
-        "zh-TW": "心率控制點"
+        "ja-JP": "心拍数制御ポイント",
+        "nl-NL": "Hartslagcontrolepunt",
+        "pt-PT": "Ponto de controle da frequencia cardiaca",
+        "pt-BR": "Ponto de controle da frequencia cardiaca"
       },
       "format": "uint8",
       "access": [
@@ -680,13 +812,17 @@
       "description": {
         "en-US": "Heart Rate Measurement",
         "zh-CN": "心率测量",
-        "fr-FR": "Mesure de la frequence cardiaque",
+        "zh-TW": "心率測量",
         "de-DE": "Herzfrequenzmessung",
-        "ja-JP": "心拍数測定",
+        "fr-FR": "Mesure de la frequence cardiaque",
+        "it-IT": "Misurazione frequenza cardiaca",
+        "ru-RU": "Измерение пульса",
         "ko-KR": "심박수 측정",
         "es-ES": "Medicion de frecuencia cardiaca",
-        "pt-BR": "Medicao da frequencia cardiaca",
-        "zh-TW": "心率測量"
+        "ja-JP": "心拍数測定",
+        "nl-NL": "Hartslagmeting",
+        "pt-PT": "Medicao da frequencia cardiaca",
+        "pt-BR": "Medicao da frequencia cardiaca"
       },
       "format": "uint8",
       "access": [
@@ -700,13 +836,17 @@
       "description": {
         "en-US": "Height",
         "zh-CN": "身高",
-        "fr-FR": "Taille",
+        "zh-TW": "身高",
         "de-DE": "Korpergroße",
-        "ja-JP": "身長",
+        "fr-FR": "Taille",
+        "it-IT": "Altezza",
+        "ru-RU": "Рост",
         "ko-KR": "키",
         "es-ES": "Altura",
-        "pt-BR": "Altura",
-        "zh-TW": "身高"
+        "ja-JP": "身長",
+        "nl-NL": "Lengte",
+        "pt-PT": "Altura",
+        "pt-BR": "Altura"
       },
       "format": "uint16",
       "access": [
@@ -722,13 +862,17 @@
       "description": {
         "en-US": "HTTP Control Point",
         "zh-CN": "HTTP 控制点",
-        "fr-FR": "Point de controle HTTP",
+        "zh-TW": "HTTP 控制點",
         "de-DE": "HTTP-Kontrollpunkt",
-        "ja-JP": "HTTP制御ポイント",
+        "fr-FR": "Point de controle HTTP",
+        "it-IT": "Punto controllo HTTP",
+        "ru-RU": "Точка управления HTTP",
         "ko-KR": "HTTP 제어 포인트",
         "es-ES": "Punto de control HTTP",
-        "pt-BR": "Ponto de controle HTTP",
-        "zh-TW": "HTTP 控制點"
+        "ja-JP": "HTTP制御ポイント",
+        "nl-NL": "HTTP-controlepunt",
+        "pt-PT": "Ponto de controle HTTP",
+        "pt-BR": "Ponto de controle HTTP"
       },
       "format": "uint8",
       "access": [
@@ -742,13 +886,17 @@
       "description": {
         "en-US": "HTTP Entity Body",
         "zh-CN": "HTTP 实体主体",
-        "fr-FR": "Corps d'entite HTTP",
+        "zh-TW": "HTTP 實體主體",
         "de-DE": "HTTP-Entitatskorper",
-        "ja-JP": "HTTPエンティティボディ",
+        "fr-FR": "Corps d'entite HTTP",
+        "it-IT": "Corpo entità HTTP",
+        "ru-RU": "Тело HTTP-сущности",
         "ko-KR": "HTTP 엔티티 본문",
         "es-ES": "Cuerpo de entidad HTTP",
-        "pt-BR": "Corpo da entidade HTTP",
-        "zh-TW": "HTTP 實體主體"
+        "ja-JP": "HTTPエンティティボディ",
+        "nl-NL": "HTTP-entiteitsbody",
+        "pt-PT": "Corpo da entidade HTTP",
+        "pt-BR": "Corpo da entidade HTTP"
       },
       "format": "uint8",
       "access": [
@@ -763,13 +911,17 @@
       "description": {
         "en-US": "HTTP Headers",
         "zh-CN": "HTTP 头部",
-        "fr-FR": "En-tetes HTTP",
+        "zh-TW": "HTTP 頭部",
         "de-DE": "HTTP-Header",
-        "ja-JP": "HTTPヘッダー",
+        "fr-FR": "En-tetes HTTP",
+        "it-IT": "Intestazioni HTTP",
+        "ru-RU": "Заголовки HTTP",
         "ko-KR": "HTTP 헤더",
         "es-ES": "Encabezados HTTP",
-        "pt-BR": "Cabecalhos HTTP",
-        "zh-TW": "HTTP 頭部"
+        "ja-JP": "HTTPヘッダー",
+        "nl-NL": "HTTP-headers",
+        "pt-PT": "Cabecalhos HTTP",
+        "pt-BR": "Cabecalhos HTTP"
       },
       "format": "uint8",
       "access": [
@@ -784,13 +936,17 @@
       "description": {
         "en-US": "HTTP Status Code",
         "zh-CN": "HTTP 状态码",
-        "fr-FR": "Code d'etat HTTP",
+        "zh-TW": "HTTP 狀態碼",
         "de-DE": "HTTP-Statuscode",
-        "ja-JP": "HTTPステータスコード",
+        "fr-FR": "Code d'etat HTTP",
+        "it-IT": "Codice stato HTTP",
+        "ru-RU": "Код состояния HTTP",
         "ko-KR": "HTTP 상태 코드",
         "es-ES": "Codigo de estado HTTP",
-        "pt-BR": "Codigo de status HTTP",
-        "zh-TW": "HTTP 狀態碼"
+        "ja-JP": "HTTPステータスコード",
+        "nl-NL": "HTTP-statuscode",
+        "pt-PT": "Codigo de status HTTP",
+        "pt-BR": "Codigo de status HTTP"
       },
       "format": "uint8",
       "access": [
@@ -804,13 +960,17 @@
       "description": {
         "en-US": "Humidity",
         "zh-CN": "湿度",
-        "fr-FR": "Humidite",
+        "zh-TW": "溼度",
         "de-DE": "Luftfeuchtigkeit",
-        "ja-JP": "湿度",
+        "fr-FR": "Humidite",
+        "it-IT": "Umidità",
+        "ru-RU": "Влажность",
         "ko-KR": "습도",
         "es-ES": "Humedad",
-        "pt-BR": "Umidade",
-        "zh-TW": "溼度"
+        "ja-JP": "湿度",
+        "nl-NL": "Luchtvochtigheid",
+        "pt-PT": "Umidade",
+        "pt-BR": "Umidade"
       },
       "format": "uint16",
       "access": [
@@ -826,13 +986,17 @@
       "description": {
         "en-US": "Indoor Bike Data",
         "zh-CN": "室内自行车数据",
-        "fr-FR": "Donnees du velo d'interieur",
+        "zh-TW": "室內自行車數據",
         "de-DE": "Heimtrainer-Daten",
-        "ja-JP": "インドアバイクデータ",
+        "fr-FR": "Donnees du velo d'interieur",
+        "it-IT": "Dati cyclette",
+        "ru-RU": "Данные велотренажера",
         "ko-KR": "실내 자전거 데이터",
         "es-ES": "Datos de bicicleta estatica",
-        "pt-BR": "Dados de bicicleta indoor",
-        "zh-TW": "室內自行車數據"
+        "ja-JP": "インドアバイクデータ",
+        "nl-NL": "Gegevens hometrainer",
+        "pt-PT": "Dados de bicicleta indoor",
+        "pt-BR": "Dados de bicicleta indoor"
       },
       "format": "uint16",
       "access": [
@@ -846,13 +1010,17 @@
       "description": {
         "en-US": "Intermediate Cuff Pressure",
         "zh-CN": "中间袖带压力",
-        "fr-FR": "Pression intermediaire du brassard",
+        "zh-TW": "中間袖帶壓力",
         "de-DE": "Mittlerer Manschettendruck",
-        "ja-JP": "中間カフ圧",
+        "fr-FR": "Pression intermediaire du brassard",
+        "it-IT": "Pressione intermedia bracciale",
+        "ru-RU": "Промежуточное давление манжеты",
         "ko-KR": "중간 커프 압력",
         "es-ES": "Presion intermedia del brazalete",
-        "pt-BR": "Pressao intermediaria da bracadeira",
-        "zh-TW": "中間袖帶壓力"
+        "ja-JP": "中間カフ圧",
+        "nl-NL": "Tussentijdse manchetdruk",
+        "pt-PT": "Pressao intermediaria da bracadeira",
+        "pt-BR": "Pressao intermediaria da bracadeira"
       },
       "format": "float",
       "access": [
@@ -867,13 +1035,17 @@
       "description": {
         "en-US": "Intermediate Temperature",
         "zh-CN": "中间温度",
-        "fr-FR": "Temperature intermediaire",
+        "zh-TW": "中間溫度",
         "de-DE": "Zwischentemperatur",
-        "ja-JP": "中間温度",
+        "fr-FR": "Temperature intermediaire",
+        "it-IT": "Temperatura intermedia",
+        "ru-RU": "Промежуточная температура",
         "ko-KR": "중간 온도",
         "es-ES": "Temperatura intermedia",
-        "pt-BR": "Temperatura intermediaria",
-        "zh-TW": "中間溫度"
+        "ja-JP": "中間温度",
+        "nl-NL": "Tussentijdse temperatuur",
+        "pt-PT": "Temperatura intermediaria",
+        "pt-BR": "Temperatura intermediaria"
       },
       "format": "float",
       "access": [
@@ -888,13 +1060,17 @@
       "description": {
         "en-US": "Local Time Information",
         "zh-CN": "本地时间信息",
-        "fr-FR": "Informations sur l'heure locale",
+        "zh-TW": "本地時間信息",
         "de-DE": "Ortszeitinformationen",
-        "ja-JP": "ローカル時刻情報",
+        "fr-FR": "Informations sur l'heure locale",
+        "it-IT": "Informazioni ora locale",
+        "ru-RU": "Информация о местном времени",
         "ko-KR": "현지 시간 정보",
         "es-ES": "Informacion de hora local",
-        "pt-BR": "Informacoes de horario local",
-        "zh-TW": "本地時間信息"
+        "ja-JP": "ローカル時刻情報",
+        "nl-NL": "Lokale tijdsinformatie",
+        "pt-PT": "Informacoes de horario local",
+        "pt-BR": "Informacoes de horario local"
       },
       "format": "uint8",
       "access": [
@@ -908,13 +1084,17 @@
       "description": {
         "en-US": "Location and Speed",
         "zh-CN": "位置和速度",
-        "fr-FR": "Emplacement et vitesse",
+        "zh-TW": "位置和速度",
         "de-DE": "Standort und Geschwindigkeit",
-        "ja-JP": "位置と速度",
+        "fr-FR": "Emplacement et vitesse",
+        "it-IT": "Posizione e velocità",
+        "ru-RU": "Местоположение и скорость",
         "ko-KR": "위치 및 속도",
         "es-ES": "Ubicacion y velocidad",
-        "pt-BR": "Localizacao e velocidade",
-        "zh-TW": "位置和速度"
+        "ja-JP": "位置と速度",
+        "nl-NL": "Locatie en snelheid",
+        "pt-PT": "Localizacao e velocidade",
+        "pt-BR": "Localizacao e velocidade"
       },
       "format": "uint8",
       "access": [
@@ -928,13 +1108,17 @@
       "description": {
         "en-US": "Manufacturer Name String",
         "zh-CN": "制造商名称字符串",
-        "fr-FR": "Nom du fabricant",
+        "zh-TW": "製造商名稱字符串",
         "de-DE": "Herstellername",
-        "ja-JP": "メーカー名",
+        "fr-FR": "Nom du fabricant",
+        "it-IT": "Stringa nome produttore",
+        "ru-RU": "Строка названия производителя",
         "ko-KR": "제조업체 이름",
         "es-ES": "Nombre del fabricante",
-        "pt-BR": "Nome do fabricante",
-        "zh-TW": "製造商名稱字符串"
+        "ja-JP": "メーカー名",
+        "nl-NL": "Fabrikantnaam string",
+        "pt-PT": "Nome do fabricante",
+        "pt-BR": "Nome do fabricante"
       },
       "format": "string",
       "access": [
@@ -948,13 +1132,17 @@
       "description": {
         "en-US": "Model Number String",
         "zh-CN": "型号字符串",
-        "fr-FR": "Chaine du numero de modele",
+        "zh-TW": "型號字符串",
         "de-DE": "Modellnummer",
-        "ja-JP": "モデル番号",
+        "fr-FR": "Chaine du numero de modele",
+        "it-IT": "Stringa numero modello",
+        "ru-RU": "Строка номера модели",
         "ko-KR": "모델 번호",
         "es-ES": "Numero de modelo",
-        "pt-BR": "Numero do modelo",
-        "zh-TW": "型號字符串"
+        "ja-JP": "モデル番号",
+        "nl-NL": "Modelnummer string",
+        "pt-PT": "Numero do modelo",
+        "pt-BR": "Numero do modelo"
       },
       "format": "string",
       "access": [
@@ -968,13 +1156,17 @@
       "description": {
         "en-US": "Navigation",
         "zh-CN": "导航",
-        "fr-FR": "Navigation",
+        "zh-TW": "導航",
         "de-DE": "Navigation",
-        "ja-JP": "ナビゲーション",
+        "fr-FR": "Navigation",
+        "it-IT": "Navigazione",
+        "ru-RU": "Навигация",
         "ko-KR": "내비게이션",
         "es-ES": "Navegacion",
-        "pt-BR": "Navegacao",
-        "zh-TW": "導航"
+        "ja-JP": "ナビゲーション",
+        "nl-NL": "Navigatie",
+        "pt-PT": "Navegacao",
+        "pt-BR": "Navegacao"
       },
       "format": "uint8",
       "access": [
@@ -988,13 +1180,17 @@
       "description": {
         "en-US": "Peripheral Preferred Connection Parameters",
         "zh-CN": "外设首选连接参数",
-        "fr-FR": "Parametres de connexion preferes du peripherique",
+        "zh-TW": "外設首選連接參數",
         "de-DE": "Bevorzugte Verbindungsparameter des Peripheriegerats",
-        "ja-JP": "周辺機器の優先接続パラメータ",
+        "fr-FR": "Parametres de connexion preferes du peripherique",
+        "it-IT": "Parametri connessione preferiti periferica",
+        "ru-RU": "Предпочтительные параметры соединения периферии",
         "ko-KR": "주변기기 선호 연결 매개변수",
         "es-ES": "Parametros de conexion preferidos del periferico",
-        "pt-BR": "Parametros de conexao preferidos do periferico",
-        "zh-TW": "外設首選連接參數"
+        "ja-JP": "周辺機器の優先接続パラメータ",
+        "nl-NL": "Voorkeursverbindingsparameters randapparaat",
+        "pt-PT": "Parametros de conexao preferidos do periferico",
+        "pt-BR": "Parametros de conexao preferidos do periferico"
       },
       "format": "uint8",
       "access": [
@@ -1008,13 +1204,17 @@
       "description": {
         "en-US": "Peripheral Privacy Flag",
         "zh-CN": "外设隐私标志",
-        "fr-FR": "Drapeau de confidentialite peripherique",
+        "zh-TW": "外設隱私標誌",
         "de-DE": "Datenschutzflag fur Peripherie",
-        "ja-JP": "ペリフェラルプライバシーフラグ",
+        "fr-FR": "Drapeau de confidentialite peripherique",
+        "it-IT": "Flag privacy periferica",
+        "ru-RU": "Флаг конфиденциальности периферии",
         "ko-KR": "주변기기 개인정보 플래그",
         "es-ES": "Indicador de privacidad del periferico",
-        "pt-BR": "Sinalizador de privacidade do periferico",
-        "zh-TW": "外設隱私標誌"
+        "ja-JP": "ペリフェラルプライバシーフラグ",
+        "nl-NL": "Privacyvlag randapparaat",
+        "pt-PT": "Sinalizador de privacidade do periferico",
+        "pt-BR": "Sinalizador de privacidade do periferico"
       },
       "format": "bool",
       "access": [
@@ -1029,13 +1229,17 @@
       "description": {
         "en-US": "PLX Continuous Measurement",
         "zh-CN": "脉搏血氧仪连续测量",
-        "fr-FR": "Mesure continue PLX",
+        "zh-TW": "脈搏血氧儀連續測量",
         "de-DE": "PLX-Kontinuierliche Messung",
-        "ja-JP": "PLX連続測定",
+        "fr-FR": "Mesure continue PLX",
+        "it-IT": "Misurazione continua PLX",
+        "ru-RU": "Непрерывное измерение PLX",
         "ko-KR": "PLX 연속 측정",
         "es-ES": "Medicion continua PLX",
-        "pt-BR": "Medicao continua PLX",
-        "zh-TW": "脈搏血氧儀連續測量"
+        "ja-JP": "PLX連続測定",
+        "nl-NL": "PLX continue meting",
+        "pt-PT": "Medicao continua PLX",
+        "pt-BR": "Medicao continua PLX"
       },
       "format": "uint8",
       "access": [
@@ -1049,13 +1253,17 @@
       "description": {
         "en-US": "PLX Features",
         "zh-CN": "脉搏血氧仪特征",
-        "fr-FR": "Fonctionnalites PLX",
+        "zh-TW": "脈搏血氧儀特徵",
         "de-DE": "PLX-Funktionen",
-        "ja-JP": "PLX機能",
+        "fr-FR": "Fonctionnalites PLX",
+        "it-IT": "Funzionalità PLX",
+        "ru-RU": "Функции PLX",
         "ko-KR": "PLX 기능",
         "es-ES": "Funciones PLX",
-        "pt-BR": "Recursos PLX",
-        "zh-TW": "脈搏血氧儀特徵"
+        "ja-JP": "PLX機能",
+        "nl-NL": "PLX-functies",
+        "pt-PT": "Recursos PLX",
+        "pt-BR": "Recursos PLX"
       },
       "format": "uint8",
       "access": [
@@ -1069,13 +1277,17 @@
       "description": {
         "en-US": "PLX Spot-Check Measurement",
         "zh-CN": "脉搏血氧仪点测",
-        "fr-FR": "Mesure ponctuelle PLX",
+        "zh-TW": "脈搏血氧儀點測",
         "de-DE": "PLX-Stichprobenmessung",
-        "ja-JP": "PLXスポットチェック測定",
+        "fr-FR": "Mesure ponctuelle PLX",
+        "it-IT": "Misurazione spot-check PLX",
+        "ru-RU": "Точечное измерение PLX",
         "ko-KR": "PLX 스팟 체크 측정",
         "es-ES": "Medicion puntual PLX",
-        "pt-BR": "Medicao pontual PLX",
-        "zh-TW": "脈搏血氧儀點測"
+        "ja-JP": "PLXスポットチェック測定",
+        "nl-NL": "PLX spot-check meting",
+        "pt-PT": "Medicao pontual PLX",
+        "pt-BR": "Medicao pontual PLX"
       },
       "format": "uint8",
       "access": [
@@ -1089,11 +1301,16 @@
       "description": {
         "en-US": "PnP ID",
         "zh-CN": "PnP ID",
-        "fr-FR": "ID PnP",
+        "zh-TW": "即插即用ID",
         "de-DE": "PnP-ID",
-        "ja-JP": "PnP ID",
+        "fr-FR": "ID PnP",
+        "it-IT": "ID PnP",
+        "ru-RU": "PnP ID",
         "ko-KR": "PnP ID",
         "es-ES": "ID PnP",
+        "ja-JP": "PnP ID",
+        "nl-NL": "PnP-ID",
+        "pt-PT": "ID PnP",
         "pt-BR": "ID PnP"
       },
       "format": "uint8",
@@ -1108,13 +1325,17 @@
       "description": {
         "en-US": "Position Quality",
         "zh-CN": "位置质量",
-        "fr-FR": "Qualite de position",
+        "zh-TW": "位置質量",
         "de-DE": "Positionsqualitat",
-        "ja-JP": "位置品質",
+        "fr-FR": "Qualite de position",
+        "it-IT": "Qualità posizione",
+        "ru-RU": "Качество позиции",
         "ko-KR": "위치 품질",
         "es-ES": "Calidad de posicion",
-        "pt-BR": "Qualidade da posicao",
-        "zh-TW": "位置質量"
+        "ja-JP": "位置品質",
+        "nl-NL": "Positiekwaliteit",
+        "pt-PT": "Qualidade da posicao",
+        "pt-BR": "Qualidade da posicao"
       },
       "format": "uint8",
       "access": [
@@ -1128,13 +1349,17 @@
       "description": {
         "en-US": "Pressure",
         "zh-CN": "气压",
-        "fr-FR": "Pression",
+        "zh-TW": "氣壓",
         "de-DE": "Luftdruck",
-        "ja-JP": "気圧",
+        "fr-FR": "Pression",
+        "it-IT": "Pressione",
+        "ru-RU": "Давление",
         "ko-KR": "기압",
         "es-ES": "Presion",
-        "pt-BR": "Pressao",
-        "zh-TW": "氣壓"
+        "ja-JP": "気圧",
+        "nl-NL": "Druk",
+        "pt-PT": "Pressao",
+        "pt-BR": "Pressao"
       },
       "format": "uint32",
       "access": [
@@ -1150,13 +1375,17 @@
       "description": {
         "en-US": "Reconnection Address",
         "zh-CN": "重连地址",
-        "fr-FR": "Adresse de reconnexion",
+        "zh-TW": "重連地址",
         "de-DE": "Wiederverbindungsadresse",
-        "ja-JP": "再接続アドレス",
+        "fr-FR": "Adresse de reconnexion",
+        "it-IT": "Indirizzo riconnessione",
+        "ru-RU": "Адрес переподключения",
         "ko-KR": "재연결 주소",
         "es-ES": "Direccion de reconexion",
-        "pt-BR": "Endereco de reconexao",
-        "zh-TW": "重連地址"
+        "ja-JP": "再接続アドレス",
+        "nl-NL": "Herverbindingsadres",
+        "pt-PT": "Endereco de reconexao",
+        "pt-BR": "Endereco de reconexao"
       },
       "format": "uint8",
       "access": [
@@ -1171,13 +1400,17 @@
       "description": {
         "en-US": "Reference Time Information",
         "zh-CN": "参考时间信息",
-        "fr-FR": "Informations de temps de reference",
+        "zh-TW": "參考時間信息",
         "de-DE": "Referenzzeitinformationen",
-        "ja-JP": "基準時刻情報",
+        "fr-FR": "Informations de temps de reference",
+        "it-IT": "Informazioni orario riferimento",
+        "ru-RU": "Информация об эталонном времени",
         "ko-KR": "참조 시간 정보",
         "es-ES": "Informacion de tiempo de referencia",
-        "pt-BR": "Informacoes de tempo de referencia",
-        "zh-TW": "參考時間信息"
+        "ja-JP": "基準時刻情報",
+        "nl-NL": "Referentietijdsinformatie",
+        "pt-PT": "Informacoes de tempo de referencia",
+        "pt-BR": "Informacoes de tempo de referencia"
       },
       "format": "uint8",
       "access": [
@@ -1191,13 +1424,17 @@
       "description": {
         "en-US": "RSC Feature",
         "zh-CN": "跑步传感器特征",
-        "fr-FR": "Caracteristique RSC",
+        "zh-TW": "跑步傳感器特徵",
         "de-DE": "RSC-Funktion",
-        "ja-JP": "RSC機能",
+        "fr-FR": "Caracteristique RSC",
+        "it-IT": "Funzione RSC",
+        "ru-RU": "Функция RSC",
         "ko-KR": "RSC 기능",
         "es-ES": "Caracteristica RSC",
-        "pt-BR": "Recurso RSC",
-        "zh-TW": "跑步傳感器特徵"
+        "ja-JP": "RSC機能",
+        "nl-NL": "RSC-functie",
+        "pt-PT": "Recurso RSC",
+        "pt-BR": "Recurso RSC"
       },
       "format": "uint8",
       "access": [
@@ -1211,13 +1448,17 @@
       "description": {
         "en-US": "RSC Measurement",
         "zh-CN": "跑步传感器测量",
-        "fr-FR": "Mesure RSC",
+        "zh-TW": "跑步傳感器測量",
         "de-DE": "RSC-Messung",
-        "ja-JP": "RSC測定",
+        "fr-FR": "Mesure RSC",
+        "it-IT": "Misurazione RSC",
+        "ru-RU": "Измерение RSC",
         "ko-KR": "RSC 측정",
         "es-ES": "Medicion RSC",
-        "pt-BR": "Medicao RSC",
-        "zh-TW": "跑步傳感器測量"
+        "ja-JP": "RSC測定",
+        "nl-NL": "RSC-meting",
+        "pt-PT": "Medicao RSC",
+        "pt-BR": "Medicao RSC"
       },
       "format": "uint8",
       "access": [
@@ -1231,13 +1472,17 @@
       "description": {
         "en-US": "SC Control Point",
         "zh-CN": "跑步骑行控制点",
-        "fr-FR": "Point de controle SC",
+        "zh-TW": "跑步騎行控制點",
         "de-DE": "SC-Kontrollpunkt",
-        "ja-JP": "SC制御ポイント",
+        "fr-FR": "Point de controle SC",
+        "it-IT": "Punto controllo SC",
+        "ru-RU": "Точка управления SC",
         "ko-KR": "SC 제어 포인트",
         "es-ES": "Punto de control SC",
-        "pt-BR": "Ponto de controle SC",
-        "zh-TW": "跑步騎行控制點"
+        "ja-JP": "SC制御ポイント",
+        "nl-NL": "SC-controlepunt",
+        "pt-PT": "Ponto de controle SC",
+        "pt-BR": "Ponto de controle SC"
       },
       "format": "uint8",
       "access": [
@@ -1252,13 +1497,17 @@
       "description": {
         "en-US": "Scan Interval Window",
         "zh-CN": "扫描间隔窗口",
-        "fr-FR": "Fenetre d'intervalle de scan",
+        "zh-TW": "掃描間隔窗口",
         "de-DE": "Scan-Intervall-Fenster",
-        "ja-JP": "スキャン間隔ウィンドウ",
+        "fr-FR": "Fenetre d'intervalle de scan",
+        "it-IT": "Finestra intervallo scansione",
+        "ru-RU": "Окно интервала сканирования",
         "ko-KR": "스캔 간격 윈도우",
         "es-ES": "Ventana de intervalo de escaneo",
-        "pt-BR": "Janela de intervalo de varredura",
-        "zh-TW": "掃描間隔窗口"
+        "ja-JP": "スキャン間隔ウィンドウ",
+        "nl-NL": "Scanintervalvenster",
+        "pt-PT": "Janela de intervalo de varredura",
+        "pt-BR": "Janela de intervalo de varredura"
       },
       "format": "uint16",
       "access": [
@@ -1272,13 +1521,17 @@
       "description": {
         "en-US": "Scan Refresh",
         "zh-CN": "扫描刷新",
-        "fr-FR": "Rafraichissement du scan",
+        "zh-TW": "掃描刷新",
         "de-DE": "Scan-Aktualisierung",
-        "ja-JP": "スキャンリフレッシュ",
+        "fr-FR": "Rafraichissement du scan",
+        "it-IT": "Aggiornamento scansione",
+        "ru-RU": "Обновление сканирования",
         "ko-KR": "스캔 새로고침",
         "es-ES": "Actualizacion del escaneo",
-        "pt-BR": "Atualizacao da varredura",
-        "zh-TW": "掃描刷新"
+        "ja-JP": "スキャンリフレッシュ",
+        "nl-NL": "Scan vernieuwen",
+        "pt-PT": "Atualizacao da varredura",
+        "pt-BR": "Atualizacao da varredura"
       },
       "format": "uint8",
       "access": [
@@ -1292,13 +1545,17 @@
       "description": {
         "en-US": "Serial Number String",
         "zh-CN": "序列号字符串",
-        "fr-FR": "Chaine du numero de serie",
+        "zh-TW": "序列號字符串",
         "de-DE": "Seriennummer",
-        "ja-JP": "シリアル番号",
+        "fr-FR": "Chaine du numero de serie",
+        "it-IT": "Stringa numero seriale",
+        "ru-RU": "Строка серийного номера",
         "ko-KR": "일련 번호",
         "es-ES": "Numero de serie",
-        "pt-BR": "Numero de serie",
-        "zh-TW": "序列號字符串"
+        "ja-JP": "シリアル番号",
+        "nl-NL": "Serienummer string",
+        "pt-PT": "Numero de serie",
+        "pt-BR": "Numero de serie"
       },
       "format": "string",
       "access": [
@@ -1312,13 +1569,17 @@
       "description": {
         "en-US": "Service Changed",
         "zh-CN": "服务变更",
-        "fr-FR": "Service modifie",
+        "zh-TW": "服務變更",
         "de-DE": "Dienst geandert",
-        "ja-JP": "サービス変更",
+        "fr-FR": "Service modifie",
+        "it-IT": "Servizio modificato",
+        "ru-RU": "Сервис изменен",
         "ko-KR": "서비스 변경됨",
         "es-ES": "Servicio cambiado",
-        "pt-BR": "Servico alterado",
-        "zh-TW": "服務變更"
+        "ja-JP": "サービス変更",
+        "nl-NL": "Service gewijzigd",
+        "pt-PT": "Servico alterado",
+        "pt-BR": "Servico alterado"
       },
       "format": "uint8",
       "access": [
@@ -1332,13 +1593,17 @@
       "description": {
         "en-US": "Software Revision String",
         "zh-CN": "软件版本字符串",
-        "fr-FR": "Chaine de revision du logiciel",
+        "zh-TW": "軟件版本字符串",
         "de-DE": "Software-Version",
-        "ja-JP": "ソフトウェアリビジョン",
+        "fr-FR": "Chaine de revision du logiciel",
+        "it-IT": "Stringa revisione software",
+        "ru-RU": "Строка ревизии программного обеспечения",
         "ko-KR": "소프트웨어 버전",
         "es-ES": "Revision del software",
-        "pt-BR": "Revisao do software",
-        "zh-TW": "軟件版本字符串"
+        "ja-JP": "ソフトウェアリビジョン",
+        "nl-NL": "Software revisie string",
+        "pt-PT": "Revisao do software",
+        "pt-BR": "Revisao do software"
       },
       "format": "string",
       "access": [
@@ -1352,13 +1617,17 @@
       "description": {
         "en-US": "Stair Climber Data",
         "zh-CN": "楼梯机数据",
-        "fr-FR": "Donnees du monte-escalier",
+        "zh-TW": "樓梯機數據",
         "de-DE": "Treppensteiger-Daten",
-        "ja-JP": "階段昇降機データ",
+        "fr-FR": "Donnees du monte-escalier",
+        "it-IT": "Dati stair climber",
+        "ru-RU": "Данные степпера",
         "ko-KR": "계단 오르기 데이터",
         "es-ES": "Datos de escalera",
-        "pt-BR": "Dados de escada",
-        "zh-TW": "樓梯機數據"
+        "ja-JP": "階段昇降機データ",
+        "nl-NL": "Traploopgegevens",
+        "pt-PT": "Dados de escada",
+        "pt-BR": "Dados de escada"
       },
       "format": "uint16",
       "access": [
@@ -1372,13 +1641,17 @@
       "description": {
         "en-US": "Step Climber Data",
         "zh-CN": "台阶机数据",
-        "fr-FR": "Donnees du simulateur d'escalier",
+        "zh-TW": "臺階機數據",
         "de-DE": "Treppensteiger-Daten",
-        "ja-JP": "ステップクライマーデータ",
+        "fr-FR": "Donnees du simulateur d'escalier",
+        "it-IT": "Dati step climber",
+        "ru-RU": "Данные шагового тренажера",
         "ko-KR": "스텝 클라이머 데이터",
         "es-ES": "Datos de escalador",
-        "pt-BR": "Dados do escalador",
-        "zh-TW": "臺階機數據"
+        "ja-JP": "ステップクライマーデータ",
+        "nl-NL": "Stepclimber gegevens",
+        "pt-PT": "Dados do escalador",
+        "pt-BR": "Dados do escalador"
       },
       "format": "uint16",
       "access": [
@@ -1392,13 +1665,17 @@
       "description": {
         "en-US": "System ID",
         "zh-CN": "系统 ID",
-        "fr-FR": "ID systeme",
+        "zh-TW": "系統 ID",
         "de-DE": "System-ID",
-        "ja-JP": "システムID",
+        "fr-FR": "ID systeme",
+        "it-IT": "ID sistema",
+        "ru-RU": "ID системы",
         "ko-KR": "시스템 ID",
         "es-ES": "ID del sistema",
-        "pt-BR": "ID do sistema",
-        "zh-TW": "系統 ID"
+        "ja-JP": "システムID",
+        "nl-NL": "Systeem-ID",
+        "pt-PT": "ID do sistema",
+        "pt-BR": "ID do sistema"
       },
       "format": "uint8",
       "access": [
@@ -1412,13 +1689,17 @@
       "description": {
         "en-US": "Temperature Measurement",
         "zh-CN": "温度测量",
-        "fr-FR": "Mesure de temperature",
+        "zh-TW": "溫度測量",
         "de-DE": "Temperaturmessung",
-        "ja-JP": "温度測定",
+        "fr-FR": "Mesure de temperature",
+        "it-IT": "Misurazione temperatura",
+        "ru-RU": "Измерение температуры",
         "ko-KR": "온도 측정",
         "es-ES": "Medicion de temperatura",
-        "pt-BR": "Medicao de temperatura",
-        "zh-TW": "溫度測量"
+        "ja-JP": "温度測定",
+        "nl-NL": "Temperatuurmeting",
+        "pt-PT": "Medicao de temperatura",
+        "pt-BR": "Medicao de temperatura"
       },
       "format": "float",
       "access": [
@@ -1433,13 +1714,17 @@
       "description": {
         "en-US": "Temperature Type",
         "zh-CN": "温度类型",
-        "fr-FR": "Type de temperature",
+        "zh-TW": "溫度類型",
         "de-DE": "Temperaturtyp",
-        "ja-JP": "温度タイプ",
+        "fr-FR": "Type de temperature",
+        "it-IT": "Tipo temperatura",
+        "ru-RU": "Тип температуры",
         "ko-KR": "온도 유형",
         "es-ES": "Tipo de temperatura",
-        "pt-BR": "Tipo de temperatura",
-        "zh-TW": "溫度類型"
+        "ja-JP": "温度タイプ",
+        "nl-NL": "Temperatuurtype",
+        "pt-PT": "Tipo de temperatura",
+        "pt-BR": "Tipo de temperatura"
       },
       "format": "uint8",
       "access": [
@@ -1453,13 +1738,17 @@
       "description": {
         "en-US": "Temperature",
         "zh-CN": "温度",
-        "fr-FR": "Temperature",
+        "zh-TW": "溫度",
         "de-DE": "Temperatur",
-        "ja-JP": "温度",
+        "fr-FR": "Temperature",
+        "it-IT": "Temperatura",
+        "ru-RU": "Температура",
         "ko-KR": "온도",
         "es-ES": "Temperatura",
-        "pt-BR": "Temperatura",
-        "zh-TW": "溫度"
+        "ja-JP": "温度",
+        "nl-NL": "Temperatuur",
+        "pt-PT": "Temperatura",
+        "pt-BR": "Temperatura"
       },
       "format": "int16",
       "access": [
@@ -1475,13 +1764,17 @@
       "description": {
         "en-US": "Treadmill Data",
         "zh-CN": "跑步机数据",
-        "fr-FR": "Donnees du tapis roulant",
+        "zh-TW": "跑步機數據",
         "de-DE": "Laufbanddaten",
-        "ja-JP": "トレッドミルデータ",
+        "fr-FR": "Donnees du tapis roulant",
+        "it-IT": "Dati treadmill",
+        "ru-RU": "Данные беговой дорожки",
         "ko-KR": "트레드밀 데이터",
         "es-ES": "Datos de la cinta de correr",
-        "pt-BR": "Dados da esteira",
-        "zh-TW": "跑步機數據"
+        "ja-JP": "トレッドミルデータ",
+        "nl-NL": "Loopbandgegevens",
+        "pt-PT": "Dados da esteira",
+        "pt-BR": "Dados da esteira"
       },
       "format": "uint16",
       "access": [
@@ -1495,13 +1788,17 @@
       "description": {
         "en-US": "TX Power Level",
         "zh-CN": "发射功率",
-        "fr-FR": "Niveau de puissance TX",
+        "zh-TW": "發射功率",
         "de-DE": "Sendeleistung",
-        "ja-JP": "送信電力レベル",
+        "fr-FR": "Niveau de puissance TX",
+        "it-IT": "Livello potenza TX",
+        "ru-RU": "Уровень мощности TX",
         "ko-KR": "송신 전력 레벨",
         "es-ES": "Nivel de potencia TX",
-        "pt-BR": "Nivel de potencia de transmissao",
-        "zh-TW": "發射功率"
+        "ja-JP": "送信電力レベル",
+        "nl-NL": "TX-vermogensniveau",
+        "pt-PT": "Nivel de potencia de transmissao",
+        "pt-BR": "Nivel de potencia de transmissao"
       },
       "format": "int8",
       "access": [
@@ -1516,13 +1813,17 @@
       "description": {
         "en-US": "Weight Measurement",
         "zh-CN": "体重测量",
-        "fr-FR": "Mesure du poids",
+        "zh-TW": "體重測量",
         "de-DE": "Gewichtsmessung",
-        "ja-JP": "体重測定",
+        "fr-FR": "Mesure du poids",
+        "it-IT": "Misurazione peso",
+        "ru-RU": "Измерение веса",
         "ko-KR": "체중 측정",
         "es-ES": "Medicion de peso",
-        "pt-BR": "Medicao de peso",
-        "zh-TW": "體重測量"
+        "ja-JP": "体重測定",
+        "nl-NL": "Gewichtsmeting",
+        "pt-PT": "Medicao de peso",
+        "pt-BR": "Medicao de peso"
       },
       "format": "uint8",
       "access": [
@@ -1537,13 +1838,17 @@
       "description": {
         "en-US": "Weight Scale Feature",
         "zh-CN": "体重秤特征",
-        "fr-FR": "Caracteristique du pese-personne",
+        "zh-TW": "體重秤特徵",
         "de-DE": "Waagenfunktion",
-        "ja-JP": "体重計機能",
+        "fr-FR": "Caracteristique du pese-personne",
+        "it-IT": "Funzione bilancia",
+        "ru-RU": "Функция весов",
         "ko-KR": "체중계 기능",
         "es-ES": "Caracteristica de la bascula",
-        "pt-BR": "Recurso da balanca",
-        "zh-TW": "體重秤特徵"
+        "ja-JP": "体重計機能",
+        "nl-NL": "Weegschaalfunctie",
+        "pt-PT": "Recurso da balanca",
+        "pt-BR": "Recurso da balanca"
       },
       "format": "uint32",
       "access": [
@@ -1557,13 +1862,17 @@
       "description": {
         "en-US": "Weight",
         "zh-CN": "体重",
-        "fr-FR": "Poids",
+        "zh-TW": "體重",
         "de-DE": "Gewicht",
-        "ja-JP": "体重",
+        "fr-FR": "Poids",
+        "it-IT": "Peso",
+        "ru-RU": "Вес",
         "ko-KR": "체중",
         "es-ES": "Peso",
-        "pt-BR": "Peso",
-        "zh-TW": "體重"
+        "ja-JP": "体重",
+        "nl-NL": "Gewicht",
+        "pt-PT": "Peso",
+        "pt-BR": "Peso"
       },
       "format": "uint16",
       "access": [
@@ -1581,13 +1890,17 @@
       "description": {
         "en-US": "Alert Notification",
         "zh-CN": "警报通知",
-        "fr-FR": "Notification d'alerte",
+        "zh-TW": "警報通知",
         "de-DE": "Alarmbenachrichtigung",
-        "ja-JP": "通知通知",
+        "fr-FR": "Notification d'alerte",
+        "it-IT": "Notifica di allarme",
+        "ru-RU": "Уведомление о тревоге",
         "ko-KR": "알림 알림",
         "es-ES": "Notificacion de alerta",
-        "pt-BR": "Notificacao de alerta",
-        "zh-TW": "警報通知"
+        "ja-JP": "通知通知",
+        "nl-NL": "Alarmmelding",
+        "pt-PT": "Notificacao de alerta",
+        "pt-BR": "Notificacao de alerta"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1602,13 +1915,17 @@
       "description": {
         "en-US": "Automation IO",
         "zh-CN": "自动化 IO",
-        "fr-FR": "IO d'automatisation",
+        "zh-TW": "自動化 IO",
         "de-DE": "Automatisierung E/A",
-        "ja-JP": "オートメーションIO",
+        "fr-FR": "IO d'automatisation",
+        "it-IT": "Automazione IO",
+        "ru-RU": "Автоматизация ввода-вывода",
         "ko-KR": "자동화 IO",
         "es-ES": "IO de automatizacion",
-        "pt-BR": "IO de automacao",
-        "zh-TW": "自動化 IO"
+        "ja-JP": "オートメーションIO",
+        "nl-NL": "Automation IO",
+        "pt-PT": "IO de automacao",
+        "pt-BR": "IO de automacao"
       },
       "lifecycle": "released",
       "optional-properties": [
@@ -1623,13 +1940,17 @@
       "description": {
         "en-US": "Battery Service",
         "zh-CN": "电池服务",
-        "fr-FR": "Service de batterie",
+        "zh-TW": "電池服務",
         "de-DE": "Batteriedienst",
-        "ja-JP": "バッテリーサービス",
+        "fr-FR": "Service de batterie",
+        "it-IT": "Servizio batteria",
+        "ru-RU": "Сервис батареи",
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de bateria",
-        "pt-BR": "Servico de bateria",
-        "zh-TW": "電池服務"
+        "ja-JP": "バッテリーサービス",
+        "nl-NL": "Batterijservice",
+        "pt-PT": "Servico de bateria",
+        "pt-BR": "Servico de bateria"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1642,13 +1963,17 @@
       "description": {
         "en-US": "Blood Pressure",
         "zh-CN": "血压",
-        "fr-FR": "Pression arterielle",
+        "zh-TW": "血壓",
         "de-DE": "Blutdruck",
-        "ja-JP": "血圧",
+        "fr-FR": "Pression arterielle",
+        "it-IT": "Pressione sanguigna",
+        "ru-RU": "Артериальное давление",
         "ko-KR": "혈압",
         "es-ES": "Presion arterial",
-        "pt-BR": "Pressao arterial",
-        "zh-TW": "血壓"
+        "ja-JP": "血圧",
+        "nl-NL": "Bloeddruk",
+        "pt-PT": "Pressao arterial",
+        "pt-BR": "Pressao arterial"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1665,13 +1990,17 @@
       "description": {
         "en-US": "Body Composition",
         "zh-CN": "身体成分",
-        "fr-FR": "Composition corporelle",
+        "zh-TW": "身體成分",
         "de-DE": "Korperzusammensetzung",
-        "ja-JP": "体組成",
+        "fr-FR": "Composition corporelle",
+        "it-IT": "Composizione corporea",
+        "ru-RU": "Состав тела",
         "ko-KR": "체성분",
         "es-ES": "Composicion corporal",
-        "pt-BR": "Composicao corporal",
-        "zh-TW": "身體成分"
+        "ja-JP": "体組成",
+        "nl-NL": "Lichaamssamenstelling",
+        "pt-PT": "Composicao corporal",
+        "pt-BR": "Composicao corporal"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1684,13 +2013,17 @@
       "description": {
         "en-US": "Current Time",
         "zh-CN": "当前时间",
-        "fr-FR": "Heure actuelle",
+        "zh-TW": "當前時間",
         "de-DE": "Aktuelle Uhrzeit",
-        "ja-JP": "現在時刻",
+        "fr-FR": "Heure actuelle",
+        "it-IT": "Ora attuale",
+        "ru-RU": "Текущее время",
         "ko-KR": "현재 시간",
         "es-ES": "Hora actual",
-        "pt-BR": "Hora atual",
-        "zh-TW": "當前時間"
+        "ja-JP": "現在時刻",
+        "nl-NL": "Huidige tijd",
+        "pt-PT": "Hora atual",
+        "pt-BR": "Hora atual"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1707,13 +2040,17 @@
       "description": {
         "en-US": "Cycling Power",
         "zh-CN": "骑行功率",
-        "fr-FR": "Puissance cycliste",
+        "zh-TW": "騎行功率",
         "de-DE": "Radfahrleistung",
-        "ja-JP": "サイクリングパワー",
+        "fr-FR": "Puissance cycliste",
+        "it-IT": "Potenza ciclismo",
+        "ru-RU": "Мощность педалирования",
         "ko-KR": "사이클링 파워",
         "es-ES": "Potencia ciclista",
-        "pt-BR": "Potencia ciclistica",
-        "zh-TW": "騎行功率"
+        "ja-JP": "サイクリングパワー",
+        "nl-NL": "Fietsvermogen",
+        "pt-PT": "Potencia ciclistica",
+        "pt-BR": "Potencia ciclistica"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1727,13 +2064,17 @@
       "description": {
         "en-US": "Cycling Speed and Cadence",
         "zh-CN": "骑行速度和步频",
-        "fr-FR": "Vitesse et cadence cyclistes",
+        "zh-TW": "騎行速度和步頻",
         "de-DE": "Radfahrgeschwindigkeit und Trittfrequenz",
-        "ja-JP": "サイクリング速度とケイデンス",
+        "fr-FR": "Vitesse et cadence cyclistes",
+        "it-IT": "Velocità e cadenza ciclismo",
+        "ru-RU": "Скорость и каденс велосипеда",
         "ko-KR": "사이클링 속도 및 케이던스",
         "es-ES": "Velocidad y cadencia ciclista",
-        "pt-BR": "Velocidade e cadencia ciclistica",
-        "zh-TW": "騎行速度和步頻"
+        "ja-JP": "サイクリング速度とケイデンス",
+        "nl-NL": "Fietssnelheid en cadans",
+        "pt-PT": "Velocidade e cadencia ciclistica",
+        "pt-BR": "Velocidade e cadencia ciclistica"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1747,13 +2088,17 @@
       "description": {
         "en-US": "Device Information",
         "zh-CN": "设备信息",
-        "fr-FR": "Informations sur l'appareil",
+        "zh-TW": "設備信息",
         "de-DE": "Gerateinformationen",
-        "ja-JP": "デバイス情報",
+        "fr-FR": "Informations sur l'appareil",
+        "it-IT": "Informazioni dispositivo",
+        "ru-RU": "Информация об устройстве",
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
-        "pt-BR": "Informacoes do dispositivo",
-        "zh-TW": "設備信息"
+        "ja-JP": "デバイス情報",
+        "nl-NL": "Apparaatinformatie",
+        "pt-PT": "Informacoes do dispositivo",
+        "pt-BR": "Informacoes do dispositivo"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1775,13 +2120,17 @@
       "description": {
         "en-US": "Environmental Sensing",
         "zh-CN": "环境传感",
-        "fr-FR": "Detection environnementale",
+        "zh-TW": "環境傳感",
         "de-DE": "Umgebungssensorik",
-        "ja-JP": "環境センシング",
+        "fr-FR": "Detection environnementale",
+        "it-IT": "Rilevamento ambientale",
+        "ru-RU": "Экологическое зондирование",
         "ko-KR": "환경 센싱",
         "es-ES": "Deteccion ambiental",
-        "pt-BR": "Sensoriamento ambiental",
-        "zh-TW": "環境傳感"
+        "ja-JP": "環境センシング",
+        "nl-NL": "Omgevingsdetectie",
+        "pt-PT": "Sensoriamento ambiental",
+        "pt-BR": "Sensoriamento ambiental"
       },
       "lifecycle": "released",
       "optional-properties": [
@@ -1796,13 +2145,17 @@
       "description": {
         "en-US": "Fitness Machine",
         "zh-CN": "健身器材",
-        "fr-FR": "Machine de fitness",
+        "zh-TW": "健身器材",
         "de-DE": "Fitnessgerat",
-        "ja-JP": "フィットネスマシン",
+        "fr-FR": "Machine de fitness",
+        "it-IT": "Macchina fitness",
+        "ru-RU": "Фитнес-тренажер",
         "ko-KR": "피트니스 머신",
         "es-ES": "Maquina de fitness",
-        "pt-BR": "Maquina de fitness",
-        "zh-TW": "健身器材"
+        "ja-JP": "フィットネスマシン",
+        "nl-NL": "Fitnessapparaat",
+        "pt-PT": "Maquina de fitness",
+        "pt-BR": "Maquina de fitness"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1822,13 +2175,17 @@
       "description": {
         "en-US": "Generic Access",
         "zh-CN": "通用访问",
-        "fr-FR": "Acces generique",
+        "zh-TW": "通用訪問",
         "de-DE": "Generischer Zugriff",
-        "ja-JP": "汎用アクセス",
+        "fr-FR": "Acces generique",
+        "it-IT": "Accesso generico",
+        "ru-RU": "Общий доступ",
         "ko-KR": "일반 액세스",
         "es-ES": "Acceso generico",
-        "pt-BR": "Acesso generico",
-        "zh-TW": "通用訪問"
+        "ja-JP": "汎用アクセス",
+        "nl-NL": "Algemene toegang",
+        "pt-PT": "Acesso generico",
+        "pt-BR": "Acesso generico"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1847,13 +2204,17 @@
       "description": {
         "en-US": "Generic Attribute",
         "zh-CN": "通用属性",
-        "fr-FR": "Attribut generique",
+        "zh-TW": "通用屬性",
         "de-DE": "Generisches Attribut",
-        "ja-JP": "汎用属性",
+        "fr-FR": "Attribut generique",
+        "it-IT": "Attributo generico",
+        "ru-RU": "Общий атрибут",
         "ko-KR": "일반 속성",
         "es-ES": "Atributo generico",
-        "pt-BR": "Atributo generico",
-        "zh-TW": "通用屬性"
+        "ja-JP": "汎用属性",
+        "nl-NL": "Algemeen attribuut",
+        "pt-PT": "Atributo generico",
+        "pt-BR": "Atributo generico"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1866,13 +2227,17 @@
       "description": {
         "en-US": "Glucose",
         "zh-CN": "血糖",
-        "fr-FR": "Glucose",
+        "zh-TW": "血糖",
         "de-DE": "Glukose",
-        "ja-JP": "グルコース",
+        "fr-FR": "Glucose",
+        "it-IT": "Glucosio",
+        "ru-RU": "Глюкоза",
         "ko-KR": "혈당",
         "es-ES": "Glucosa",
-        "pt-BR": "Glicose",
-        "zh-TW": "血糖"
+        "ja-JP": "グルコース",
+        "nl-NL": "Glucose",
+        "pt-PT": "Glicose",
+        "pt-BR": "Glicose"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1889,13 +2254,17 @@
       "description": {
         "en-US": "Health Thermometer",
         "zh-CN": "健康体温计",
-        "fr-FR": "Thermometre de sante",
+        "zh-TW": "健康體溫計",
         "de-DE": "Gesundheitsthermometer",
-        "ja-JP": "健康体温計",
+        "fr-FR": "Thermometre de sante",
+        "it-IT": "Termometro sanitario",
+        "ru-RU": "Медицинский термометр",
         "ko-KR": "건강 체온계",
         "es-ES": "Termometro de salud",
-        "pt-BR": "Termometro de saude",
-        "zh-TW": "健康體溫計"
+        "ja-JP": "健康体温計",
+        "nl-NL": "Medische thermometer",
+        "pt-PT": "Termometro de saude",
+        "pt-BR": "Termometro de saude"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1912,13 +2281,17 @@
       "description": {
         "en-US": "Heart Rate",
         "zh-CN": "心率",
-        "fr-FR": "Frequence cardiaque",
+        "zh-TW": "心率",
         "de-DE": "Herzfrequenz",
-        "ja-JP": "心拍数",
+        "fr-FR": "Frequence cardiaque",
+        "it-IT": "Frequenza cardiaca",
+        "ru-RU": "Пульс",
         "ko-KR": "심박수",
         "es-ES": "Frecuencia cardiaca",
-        "pt-BR": "Frequencia cardiaca",
-        "zh-TW": "心率"
+        "ja-JP": "心拍数",
+        "nl-NL": "Hartslag",
+        "pt-PT": "Frequencia cardiaca",
+        "pt-BR": "Frequencia cardiaca"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1935,13 +2308,17 @@
       "description": {
         "en-US": "HTTP Proxy",
         "zh-CN": "HTTP 代理",
-        "fr-FR": "Proxy HTTP",
+        "zh-TW": "HTTP 代理",
         "de-DE": "HTTP-Proxy",
-        "ja-JP": "HTTPプロキシ",
+        "fr-FR": "Proxy HTTP",
+        "it-IT": "Proxy HTTP",
+        "ru-RU": "HTTP-прокси",
         "ko-KR": "HTTP 프록시",
         "es-ES": "Proxy HTTP",
-        "pt-BR": "Proxy HTTP",
-        "zh-TW": "HTTP 代理"
+        "ja-JP": "HTTPプロキシ",
+        "nl-NL": "HTTP-proxy",
+        "pt-PT": "Proxy HTTP",
+        "pt-BR": "Proxy HTTP"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1957,13 +2334,17 @@
       "description": {
         "en-US": "Immediate Alert",
         "zh-CN": "即时警报",
-        "fr-FR": "Alarme immediate",
+        "zh-TW": "即時警報",
         "de-DE": "Sofortalarm",
-        "ja-JP": "即時通知",
+        "fr-FR": "Alarme immediate",
+        "it-IT": "Allarme immediato",
+        "ru-RU": "Немедленное предупреждение",
         "ko-KR": "즉시 알림",
         "es-ES": "Alerta inmediata",
-        "pt-BR": "Alerta imediata",
-        "zh-TW": "即時警報"
+        "ja-JP": "即時通知",
+        "nl-NL": "Onmiddellijk alarm",
+        "pt-PT": "Alerta imediata",
+        "pt-BR": "Alerta imediata"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1976,13 +2357,17 @@
       "description": {
         "en-US": "Link Loss",
         "zh-CN": "链路丢失",
-        "fr-FR": "Perte de liaison",
+        "zh-TW": "鏈路丟失",
         "de-DE": "Verbindungsverlust",
-        "ja-JP": "リンクロス",
+        "fr-FR": "Perte de liaison",
+        "it-IT": "Perdita collegamento",
+        "ru-RU": "Потеря соединения",
         "ko-KR": "링크 손실",
         "es-ES": "Perdida de enlace",
-        "pt-BR": "Perda de link",
-        "zh-TW": "鏈路丟失"
+        "ja-JP": "リンクロス",
+        "nl-NL": "Verbindingsverlies",
+        "pt-PT": "Perda de link",
+        "pt-BR": "Perda de link"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -1995,13 +2380,17 @@
       "description": {
         "en-US": "Location and Navigation",
         "zh-CN": "位置和导航",
-        "fr-FR": "Emplacement et navigation",
+        "zh-TW": "位置和導航",
         "de-DE": "Standort und Navigation",
-        "ja-JP": "位置とナビゲーション",
+        "fr-FR": "Emplacement et navigation",
+        "it-IT": "Posizione e navigazione",
+        "ru-RU": "Местоположение и навигация",
         "ko-KR": "위치 및 내비게이션",
         "es-ES": "Ubicacion y navegacion",
-        "pt-BR": "Localizacao e navegacao",
-        "zh-TW": "位置和導航"
+        "ja-JP": "位置とナビゲーション",
+        "nl-NL": "Locatie en navigatie",
+        "pt-PT": "Localizacao e navegacao",
+        "pt-BR": "Localizacao e navegacao"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2018,13 +2407,17 @@
       "description": {
         "en-US": "Pulse Oximeter",
         "zh-CN": "脉搏血氧仪",
-        "fr-FR": "Oxymetre de pouls",
+        "zh-TW": "脈搏血氧儀",
         "de-DE": "Pulsoximeter",
-        "ja-JP": "パルスオキシメータ",
+        "fr-FR": "Oxymetre de pouls",
+        "it-IT": "Ossimetro",
+        "ru-RU": "Пульсоксиметр",
         "ko-KR": "맥박 산소 측정기",
         "es-ES": "Oximetro de pulso",
-        "pt-BR": "Oximetro de pulso",
-        "zh-TW": "脈搏血氧儀"
+        "ja-JP": "パルスオキシメータ",
+        "nl-NL": "Pulse-oximeter",
+        "pt-PT": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2041,13 +2434,17 @@
       "description": {
         "en-US": "Running Speed and Cadence",
         "zh-CN": "跑步速度和步频",
-        "fr-FR": "Vitesse et cadence de course",
+        "zh-TW": "跑步速度和步頻",
         "de-DE": "Laufgeschwindigkeit und Trittfrequenz",
-        "ja-JP": "ランニング速度とケイデンス",
+        "fr-FR": "Vitesse et cadence de course",
+        "it-IT": "Velocità e cadenza corsa",
+        "ru-RU": "Скорость и каденс бега",
         "ko-KR": "달리기 속도 및 케이던스",
         "es-ES": "Velocidad y cadencia de carrera",
-        "pt-BR": "Velocidade e cadencia de corrida",
-        "zh-TW": "跑步速度和步頻"
+        "ja-JP": "ランニング速度とケイデンス",
+        "nl-NL": "Loopsnelheid en cadans",
+        "pt-PT": "Velocidade e cadencia de corrida",
+        "pt-BR": "Velocidade e cadencia de corrida"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2064,13 +2461,17 @@
       "description": {
         "en-US": "Scan Parameters",
         "zh-CN": "扫描参数",
-        "fr-FR": "Parametres de scan",
+        "zh-TW": "掃描參數",
         "de-DE": "Scan-Parameter",
-        "ja-JP": "スキャンパラメータ",
+        "fr-FR": "Parametres de scan",
+        "it-IT": "Parametri scansione",
+        "ru-RU": "Параметры сканирования",
         "ko-KR": "스캔 매개변수",
         "es-ES": "Parametros de escaneo",
-        "pt-BR": "Parametros de varredura",
-        "zh-TW": "掃描參數"
+        "ja-JP": "スキャンパラメータ",
+        "nl-NL": "Scanparameters",
+        "pt-PT": "Parametros de varredura",
+        "pt-BR": "Parametros de varredura"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2086,13 +2487,17 @@
       "description": {
         "en-US": "TX Power",
         "zh-CN": "发射功率",
-        "fr-FR": "Puissance TX",
+        "zh-TW": "發射功率",
         "de-DE": "Sendeleistung",
-        "ja-JP": "送信電力",
+        "fr-FR": "Puissance TX",
+        "it-IT": "Potenza TX",
+        "ru-RU": "Мощность TX",
         "ko-KR": "송신 전력",
         "es-ES": "Potencia TX",
-        "pt-BR": "Potencia de transmissao",
-        "zh-TW": "發射功率"
+        "ja-JP": "送信電力",
+        "nl-NL": "TX-vermogen",
+        "pt-PT": "Potencia de transmissao",
+        "pt-BR": "Potencia de transmissao"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2105,13 +2510,17 @@
       "description": {
         "en-US": "User Data",
         "zh-CN": "用户数据",
-        "fr-FR": "Donnees utilisateur",
+        "zh-TW": "用戶數據",
         "de-DE": "Benutzerdaten",
-        "ja-JP": "ユーザーデータ",
+        "fr-FR": "Donnees utilisateur",
+        "it-IT": "Dati utente",
+        "ru-RU": "Данные пользователя",
         "ko-KR": "사용자 데이터",
         "es-ES": "Datos de usuario",
-        "pt-BR": "Dados do usuario",
-        "zh-TW": "用戶數據"
+        "ja-JP": "ユーザーデータ",
+        "nl-NL": "Gebruikersgegevens",
+        "pt-PT": "Dados do usuario",
+        "pt-BR": "Dados do usuario"
       },
       "lifecycle": "released",
       "optional-properties": [
@@ -2127,13 +2536,17 @@
       "description": {
         "en-US": "Weight Scale",
         "zh-CN": "体重秤",
-        "fr-FR": "Pese-personne",
+        "zh-TW": "體重秤",
         "de-DE": "Waage",
-        "ja-JP": "体重計",
+        "fr-FR": "Pese-personne",
+        "it-IT": "Bilancia",
+        "ru-RU": "Весы",
         "ko-KR": "체중계",
         "es-ES": "Bascula",
-        "pt-BR": "Balanca",
-        "zh-TW": "體重秤"
+        "ja-JP": "体重計",
+        "nl-NL": "Weegschaal",
+        "pt-PT": "Balanca",
+        "pt-BR": "Balanca"
       },
       "lifecycle": "released",
       "required-properties": [
@@ -2151,13 +2564,17 @@
       "description": {
         "en-US": "bool",
         "zh-CN": "布尔",
-        "fr-FR": "booleen",
+        "zh-TW": "布爾",
         "de-DE": "Boolean",
-        "ja-JP": "ブール",
+        "fr-FR": "booleen",
+        "it-IT": "bool",
+        "ru-RU": "bool",
         "ko-KR": "부울",
         "es-ES": "booleano",
-        "pt-BR": "booleano",
-        "zh-TW": "布爾"
+        "ja-JP": "ブール",
+        "nl-NL": "bool",
+        "pt-PT": "booleano",
+        "pt-BR": "booleano"
       },
       "lifecycle": "released"
     },
@@ -2167,13 +2584,17 @@
       "description": {
         "en-US": "float",
         "zh-CN": "32 位浮点数",
-        "fr-FR": "flottant 32 bits",
+        "zh-TW": "32 位浮點數",
         "de-DE": "32-Bit-Gleitkommazahl",
-        "ja-JP": "32ビット浮動小数点",
+        "fr-FR": "flottant 32 bits",
+        "it-IT": "float",
+        "ru-RU": "float",
         "ko-KR": "32비트 부동 소수점",
         "es-ES": "flotante 32 bits",
-        "pt-BR": "ponto flutuante 32 bits",
-        "zh-TW": "32 位浮點數"
+        "ja-JP": "32ビット浮動小数点",
+        "nl-NL": "float",
+        "pt-PT": "ponto flutuante 32 bits",
+        "pt-BR": "ponto flutuante 32 bits"
       },
       "lifecycle": "released"
     },
@@ -2183,13 +2604,17 @@
       "description": {
         "en-US": "int16",
         "zh-CN": "有符号 16 位整数",
-        "fr-FR": "int16",
+        "zh-TW": "有符號 16 位整數",
         "de-DE": "int16",
-        "ja-JP": "int16",
+        "fr-FR": "int16",
+        "it-IT": "int16",
+        "ru-RU": "int16",
         "ko-KR": "int16",
         "es-ES": "int16",
-        "pt-BR": "int16",
-        "zh-TW": "有符號 16 位整數"
+        "ja-JP": "int16",
+        "nl-NL": "int16",
+        "pt-PT": "int16",
+        "pt-BR": "int16"
       },
       "lifecycle": "released"
     },
@@ -2199,13 +2624,17 @@
       "description": {
         "en-US": "int32",
         "zh-CN": "有符号 32 位整数",
-        "fr-FR": "int32",
+        "zh-TW": "有符號 32 位整數",
         "de-DE": "int32",
-        "ja-JP": "int32",
+        "fr-FR": "int32",
+        "it-IT": "int32",
+        "ru-RU": "int32",
         "ko-KR": "int32",
         "es-ES": "int32",
-        "pt-BR": "int32",
-        "zh-TW": "有符號 32 位整數"
+        "ja-JP": "int32",
+        "nl-NL": "int32",
+        "pt-PT": "int32",
+        "pt-BR": "int32"
       },
       "lifecycle": "released"
     },
@@ -2215,13 +2644,17 @@
       "description": {
         "en-US": "int8",
         "zh-CN": "有符号 8 位整数",
-        "fr-FR": "int8",
+        "zh-TW": "有符號 8 位整數",
         "de-DE": "int8",
-        "ja-JP": "int8",
+        "fr-FR": "int8",
+        "it-IT": "int8",
+        "ru-RU": "int8",
         "ko-KR": "int8",
         "es-ES": "int8",
-        "pt-BR": "int8",
-        "zh-TW": "有符號 8 位整數"
+        "ja-JP": "int8",
+        "nl-NL": "int8",
+        "pt-PT": "int8",
+        "pt-BR": "int8"
       },
       "lifecycle": "released"
     },
@@ -2231,13 +2664,17 @@
       "description": {
         "en-US": "string",
         "zh-CN": "UTF-8 字符串",
-        "fr-FR": "chaine UTF-8",
+        "zh-TW": "UTF-8 字符串",
         "de-DE": "UTF-8-Zeichenkette",
-        "ja-JP": "UTF-8文字列",
+        "fr-FR": "chaine UTF-8",
+        "it-IT": "string",
+        "ru-RU": "string",
         "ko-KR": "UTF-8 문자열",
         "es-ES": "cadena UTF-8",
-        "pt-BR": "string UTF-8",
-        "zh-TW": "UTF-8 字符串"
+        "ja-JP": "UTF-8文字列",
+        "nl-NL": "string",
+        "pt-PT": "string UTF-8",
+        "pt-BR": "string UTF-8"
       },
       "lifecycle": "released"
     },
@@ -2247,13 +2684,17 @@
       "description": {
         "en-US": "uint16",
         "zh-CN": "无符号 16 位整数",
-        "fr-FR": "uint16",
+        "zh-TW": "無符號 16 位整數",
         "de-DE": "uint16",
-        "ja-JP": "uint16",
+        "fr-FR": "uint16",
+        "it-IT": "uint16",
+        "ru-RU": "uint16",
         "ko-KR": "uint16",
         "es-ES": "uint16",
-        "pt-BR": "uint16",
-        "zh-TW": "無符號 16 位整數"
+        "ja-JP": "uint16",
+        "nl-NL": "uint16",
+        "pt-PT": "uint16",
+        "pt-BR": "uint16"
       },
       "lifecycle": "released"
     },
@@ -2263,13 +2704,17 @@
       "description": {
         "en-US": "uint32",
         "zh-CN": "无符号 32 位整数",
-        "fr-FR": "uint32",
+        "zh-TW": "無符號 32 位整數",
         "de-DE": "uint32",
-        "ja-JP": "uint32",
+        "fr-FR": "uint32",
+        "it-IT": "uint32",
+        "ru-RU": "uint32",
         "ko-KR": "uint32",
         "es-ES": "uint32",
-        "pt-BR": "uint32",
-        "zh-TW": "無符號 32 位整數"
+        "ja-JP": "uint32",
+        "nl-NL": "uint32",
+        "pt-PT": "uint32",
+        "pt-BR": "uint32"
       },
       "lifecycle": "released"
     },
@@ -2279,13 +2724,17 @@
       "description": {
         "en-US": "uint64",
         "zh-CN": "无符号 64 位整数",
-        "fr-FR": "uint64",
+        "zh-TW": "無符號 64 位整數",
         "de-DE": "uint64",
-        "ja-JP": "uint64",
+        "fr-FR": "uint64",
+        "it-IT": "uint64",
+        "ru-RU": "uint64",
         "ko-KR": "uint64",
         "es-ES": "uint64",
-        "pt-BR": "uint64",
-        "zh-TW": "無符號 64 位整數"
+        "ja-JP": "uint64",
+        "nl-NL": "uint64",
+        "pt-PT": "uint64",
+        "pt-BR": "uint64"
       },
       "lifecycle": "released"
     },
@@ -2295,13 +2744,17 @@
       "description": {
         "en-US": "uint8",
         "zh-CN": "无符号 8 位整数",
-        "fr-FR": "uint8",
+        "zh-TW": "無符號 8 位整數",
         "de-DE": "uint8",
-        "ja-JP": "uint8",
+        "fr-FR": "uint8",
+        "it-IT": "uint8",
+        "ru-RU": "uint8",
         "ko-KR": "uint8",
         "es-ES": "uint8",
-        "pt-BR": "uint8",
-        "zh-TW": "無符號 8 位整數"
+        "ja-JP": "uint8",
+        "nl-NL": "uint8",
+        "pt-PT": "uint8",
+        "pt-BR": "uint8"
       },
       "lifecycle": "released"
     }
@@ -2313,13 +2766,17 @@
       "description": {
         "en-US": "amperes",
         "zh-CN": "安培",
-        "fr-FR": "amperes",
+        "zh-TW": "安培",
         "de-DE": "Ampere",
-        "ja-JP": "アンペア",
+        "fr-FR": "amperes",
+        "it-IT": "amperes",
+        "ru-RU": "amperes",
         "ko-KR": "암페어",
         "es-ES": "amperios",
-        "pt-BR": "amperes",
-        "zh-TW": "安培"
+        "ja-JP": "アンペア",
+        "nl-NL": "amperes",
+        "pt-PT": "amperes",
+        "pt-BR": "amperes"
       },
       "lifecycle": "released"
     },
@@ -2329,13 +2786,17 @@
       "description": {
         "en-US": "bpm",
         "zh-CN": "每分钟心跳次数",
-        "fr-FR": "BPM",
+        "zh-TW": "每分鐘心跳次數",
         "de-DE": "BPM",
-        "ja-JP": "BPM",
+        "fr-FR": "BPM",
+        "it-IT": "bpm",
+        "ru-RU": "bpm",
         "ko-KR": "BPM",
         "es-ES": "BPM",
-        "pt-BR": "BPM",
-        "zh-TW": "每分鐘心跳次數"
+        "ja-JP": "BPM",
+        "nl-NL": "bpm",
+        "pt-PT": "BPM",
+        "pt-BR": "BPM"
       },
       "lifecycle": "released"
     },
@@ -2345,13 +2806,17 @@
       "description": {
         "en-US": "celsius",
         "zh-CN": "摄氏度",
-        "fr-FR": "degres Celsius",
+        "zh-TW": "攝氏度",
         "de-DE": "Grad Celsius",
-        "ja-JP": "摂氏度",
+        "fr-FR": "degres Celsius",
+        "it-IT": "celsius",
+        "ru-RU": "celsius",
         "ko-KR": "섭씨",
         "es-ES": "grados Celsius",
-        "pt-BR": "graus Celsius",
-        "zh-TW": "攝氏度"
+        "ja-JP": "摂氏度",
+        "nl-NL": "celsius",
+        "pt-PT": "graus Celsius",
+        "pt-BR": "graus Celsius"
       },
       "lifecycle": "released"
     },
@@ -2361,13 +2826,17 @@
       "description": {
         "en-US": "days",
         "zh-CN": "天",
-        "fr-FR": "jours",
+        "zh-TW": "天",
         "de-DE": "Tage",
-        "ja-JP": "日",
+        "fr-FR": "jours",
+        "it-IT": "days",
+        "ru-RU": "days",
         "ko-KR": "일",
         "es-ES": "dias",
-        "pt-BR": "dias",
-        "zh-TW": "天"
+        "ja-JP": "日",
+        "nl-NL": "days",
+        "pt-PT": "dias",
+        "pt-BR": "dias"
       },
       "lifecycle": "released"
     },
@@ -2377,11 +2846,16 @@
       "description": {
         "en-US": "dbm",
         "zh-CN": "dBm",
-        "fr-FR": "dBm",
+        "zh-TW": "dbm",
         "de-DE": "dBm",
-        "ja-JP": "dBm",
+        "fr-FR": "dBm",
+        "it-IT": "dbm",
+        "ru-RU": "dbm",
         "ko-KR": "dBm",
         "es-ES": "dBm",
+        "ja-JP": "dBm",
+        "nl-NL": "dbm",
+        "pt-PT": "dBm",
         "pt-BR": "dBm"
       },
       "lifecycle": "released"
@@ -2392,13 +2866,17 @@
       "description": {
         "en-US": "decibels",
         "zh-CN": "分贝",
-        "fr-FR": "decibels",
+        "zh-TW": "分貝",
         "de-DE": "Dezibel",
-        "ja-JP": "デシベル",
+        "fr-FR": "decibels",
+        "it-IT": "decibels",
+        "ru-RU": "decibels",
         "ko-KR": "데시벨",
         "es-ES": "decibelios",
-        "pt-BR": "decibeis",
-        "zh-TW": "分貝"
+        "ja-JP": "デシベル",
+        "nl-NL": "decibels",
+        "pt-PT": "decibeis",
+        "pt-BR": "decibeis"
       },
       "lifecycle": "released"
     },
@@ -2408,13 +2886,17 @@
       "description": {
         "en-US": "degrees",
         "zh-CN": "度",
-        "fr-FR": "degres",
+        "zh-TW": "度",
         "de-DE": "Grad",
-        "ja-JP": "度",
+        "fr-FR": "degres",
+        "it-IT": "degrees",
+        "ru-RU": "degrees",
         "ko-KR": "도",
         "es-ES": "grados",
-        "pt-BR": "graus",
-        "zh-TW": "度"
+        "ja-JP": "度",
+        "nl-NL": "degrees",
+        "pt-PT": "graus",
+        "pt-BR": "graus"
       },
       "lifecycle": "released"
     },
@@ -2424,13 +2906,17 @@
       "description": {
         "en-US": "fahrenheit",
         "zh-CN": "华氏度",
-        "fr-FR": "degres Fahrenheit",
+        "zh-TW": "華氏度",
         "de-DE": "Grad Fahrenheit",
-        "ja-JP": "華氏度",
+        "fr-FR": "degres Fahrenheit",
+        "it-IT": "fahrenheit",
+        "ru-RU": "fahrenheit",
         "ko-KR": "화씨",
         "es-ES": "grados Fahrenheit",
-        "pt-BR": "graus Fahrenheit",
-        "zh-TW": "華氏度"
+        "ja-JP": "華氏度",
+        "nl-NL": "fahrenheit",
+        "pt-PT": "graus Fahrenheit",
+        "pt-BR": "graus Fahrenheit"
       },
       "lifecycle": "released"
     },
@@ -2440,13 +2926,17 @@
       "description": {
         "en-US": "hertz",
         "zh-CN": "赫兹",
-        "fr-FR": "hertz",
+        "zh-TW": "赫茲",
         "de-DE": "Hertz",
-        "ja-JP": "ヘルツ",
+        "fr-FR": "hertz",
+        "it-IT": "hertz",
+        "ru-RU": "hertz",
         "ko-KR": "헤르츠",
         "es-ES": "hercios",
-        "pt-BR": "hertz",
-        "zh-TW": "赫茲"
+        "ja-JP": "ヘルツ",
+        "nl-NL": "hertz",
+        "pt-PT": "hertz",
+        "pt-BR": "hertz"
       },
       "lifecycle": "released"
     },
@@ -2456,13 +2946,17 @@
       "description": {
         "en-US": "hours",
         "zh-CN": "小时",
-        "fr-FR": "heures",
+        "zh-TW": "小時",
         "de-DE": "Stunden",
-        "ja-JP": "時",
+        "fr-FR": "heures",
+        "it-IT": "hours",
+        "ru-RU": "hours",
         "ko-KR": "시간",
         "es-ES": "horas",
-        "pt-BR": "horas",
-        "zh-TW": "小時"
+        "ja-JP": "時",
+        "nl-NL": "hours",
+        "pt-PT": "horas",
+        "pt-BR": "horas"
       },
       "lifecycle": "released"
     },
@@ -2472,13 +2966,17 @@
       "description": {
         "en-US": "kelvin",
         "zh-CN": "开尔文",
-        "fr-FR": "kelvin",
+        "zh-TW": "開爾文",
         "de-DE": "Kelvin",
-        "ja-JP": "ケルビン",
+        "fr-FR": "kelvin",
+        "it-IT": "kelvin",
+        "ru-RU": "kelvin",
         "ko-KR": "켈빈",
         "es-ES": "kelvin",
-        "pt-BR": "kelvin",
-        "zh-TW": "開爾文"
+        "ja-JP": "ケルビン",
+        "nl-NL": "kelvin",
+        "pt-PT": "kelvin",
+        "pt-BR": "kelvin"
       },
       "lifecycle": "released"
     },
@@ -2488,13 +2986,17 @@
       "description": {
         "en-US": "kilograms_per_cubic_meter",
         "zh-CN": "千克/立方米",
-        "fr-FR": "kg/m3",
+        "zh-TW": "千克/立方米",
         "de-DE": "kg/m3",
-        "ja-JP": "kg/m3",
+        "fr-FR": "kg/m3",
+        "it-IT": "kilograms_per_cubic_meter",
+        "ru-RU": "kilograms_per_cubic_meter",
         "ko-KR": "kg/m3",
         "es-ES": "kg/m3",
-        "pt-BR": "kg/m3",
-        "zh-TW": "千克/立方米"
+        "ja-JP": "kg/m3",
+        "nl-NL": "kilograms_per_cubic_meter",
+        "pt-PT": "kg/m3",
+        "pt-BR": "kg/m3"
       },
       "lifecycle": "released"
     },
@@ -2504,13 +3006,17 @@
       "description": {
         "en-US": "kilograms",
         "zh-CN": "千克",
-        "fr-FR": "kilogrammes",
+        "zh-TW": "千克",
         "de-DE": "Kilogramm",
-        "ja-JP": "キログラム",
+        "fr-FR": "kilogrammes",
+        "it-IT": "kilograms",
+        "ru-RU": "kilograms",
         "ko-KR": "킬로그램",
         "es-ES": "kilogramos",
-        "pt-BR": "quilogramas",
-        "zh-TW": "千克"
+        "ja-JP": "キログラム",
+        "nl-NL": "kilograms",
+        "pt-PT": "quilogramas",
+        "pt-BR": "quilogramas"
       },
       "lifecycle": "released"
     },
@@ -2520,13 +3026,17 @@
       "description": {
         "en-US": "lux",
         "zh-CN": "勒克斯",
-        "fr-FR": "lux",
+        "zh-TW": "勒克斯",
         "de-DE": "Lux",
-        "ja-JP": "ルクス",
+        "fr-FR": "lux",
+        "it-IT": "lux",
+        "ru-RU": "lux",
         "ko-KR": "럭스",
         "es-ES": "lux",
-        "pt-BR": "lux",
-        "zh-TW": "勒克斯"
+        "ja-JP": "ルクス",
+        "nl-NL": "lux",
+        "pt-PT": "lux",
+        "pt-BR": "lux"
       },
       "lifecycle": "released"
     },
@@ -2536,13 +3046,17 @@
       "description": {
         "en-US": "meters_per_second",
         "zh-CN": "米/秒",
-        "fr-FR": "metres par seconde",
+        "zh-TW": "米/秒",
         "de-DE": "Meter pro Sekunde",
-        "ja-JP": "メートル毎秒",
+        "fr-FR": "metres par seconde",
+        "it-IT": "meters_per_second",
+        "ru-RU": "meters_per_second",
         "ko-KR": "미터 매 초",
         "es-ES": "metros por segundo",
-        "pt-BR": "metros por segundo",
-        "zh-TW": "米/秒"
+        "ja-JP": "メートル毎秒",
+        "nl-NL": "meters_per_second",
+        "pt-PT": "metros por segundo",
+        "pt-BR": "metros por segundo"
       },
       "lifecycle": "released"
     },
@@ -2552,13 +3066,17 @@
       "description": {
         "en-US": "meters",
         "zh-CN": "米",
-        "fr-FR": "metres",
+        "zh-TW": "米",
         "de-DE": "Meter",
-        "ja-JP": "メートル",
+        "fr-FR": "metres",
+        "it-IT": "meters",
+        "ru-RU": "meters",
         "ko-KR": "미터",
         "es-ES": "metros",
-        "pt-BR": "metros",
-        "zh-TW": "米"
+        "ja-JP": "メートル",
+        "nl-NL": "meters",
+        "pt-PT": "metros",
+        "pt-BR": "metros"
       },
       "lifecycle": "released"
     },
@@ -2568,13 +3086,17 @@
       "description": {
         "en-US": "milliseconds",
         "zh-CN": "毫秒",
-        "fr-FR": "millisecondes",
+        "zh-TW": "毫秒",
         "de-DE": "Millisekunden",
-        "ja-JP": "ミリ秒",
+        "fr-FR": "millisecondes",
+        "it-IT": "milliseconds",
+        "ru-RU": "milliseconds",
         "ko-KR": "밀리초",
         "es-ES": "milisegundos",
-        "pt-BR": "milissegundos",
-        "zh-TW": "毫秒"
+        "ja-JP": "ミリ秒",
+        "nl-NL": "milliseconds",
+        "pt-PT": "milissegundos",
+        "pt-BR": "milissegundos"
       },
       "lifecycle": "released"
     },
@@ -2584,13 +3106,17 @@
       "description": {
         "en-US": "minutes",
         "zh-CN": "分钟",
-        "fr-FR": "minutes",
+        "zh-TW": "分鐘",
         "de-DE": "Minuten",
-        "ja-JP": "分",
+        "fr-FR": "minutes",
+        "it-IT": "minutes",
+        "ru-RU": "minutes",
         "ko-KR": "분",
         "es-ES": "minutos",
-        "pt-BR": "minutos",
-        "zh-TW": "分鐘"
+        "ja-JP": "分",
+        "nl-NL": "minutes",
+        "pt-PT": "minutos",
+        "pt-BR": "minutos"
       },
       "lifecycle": "released"
     },
@@ -2600,13 +3126,17 @@
       "description": {
         "en-US": "mmhg",
         "zh-CN": "毫米汞柱",
-        "fr-FR": "mmHg",
+        "zh-TW": "毫米汞柱",
         "de-DE": "mmHg",
-        "ja-JP": "mmHg",
+        "fr-FR": "mmHg",
+        "it-IT": "mmhg",
+        "ru-RU": "mmhg",
         "ko-KR": "mmHg",
         "es-ES": "mmHg",
-        "pt-BR": "mmHg",
-        "zh-TW": "毫米汞柱"
+        "ja-JP": "mmHg",
+        "nl-NL": "mmhg",
+        "pt-PT": "mmHg",
+        "pt-BR": "mmHg"
       },
       "lifecycle": "released"
     },
@@ -2616,13 +3146,17 @@
       "description": {
         "en-US": "newtons",
         "zh-CN": "牛顿",
-        "fr-FR": "newtons",
+        "zh-TW": "牛頓",
         "de-DE": "Newton",
-        "ja-JP": "ニュートン",
+        "fr-FR": "newtons",
+        "it-IT": "newtons",
+        "ru-RU": "newtons",
         "ko-KR": "뉴턴",
         "es-ES": "newtons",
-        "pt-BR": "newtons",
-        "zh-TW": "牛頓"
+        "ja-JP": "ニュートン",
+        "nl-NL": "newtons",
+        "pt-PT": "newtons",
+        "pt-BR": "newtons"
       },
       "lifecycle": "released"
     },
@@ -2632,13 +3166,17 @@
       "description": {
         "en-US": "pascals",
         "zh-CN": "帕斯卡",
-        "fr-FR": "pascals",
+        "zh-TW": "帕斯卡",
         "de-DE": "Pascal",
-        "ja-JP": "パスカル",
+        "fr-FR": "pascals",
+        "it-IT": "pascals",
+        "ru-RU": "pascals",
         "ko-KR": "파스칼",
         "es-ES": "pascales",
-        "pt-BR": "pascals",
-        "zh-TW": "帕斯卡"
+        "ja-JP": "パスカル",
+        "nl-NL": "pascals",
+        "pt-PT": "pascals",
+        "pt-BR": "pascals"
       },
       "lifecycle": "released"
     },
@@ -2648,13 +3186,17 @@
       "description": {
         "en-US": "percentage",
         "zh-CN": "百分比",
-        "fr-FR": "pourcentage",
+        "zh-TW": "百分比",
         "de-DE": "Prozentsatz",
-        "ja-JP": "パーセント",
+        "fr-FR": "pourcentage",
+        "it-IT": "percentage",
+        "ru-RU": "percentage",
         "ko-KR": "백분율",
         "es-ES": "porcentaje",
-        "pt-BR": "porcentagem",
-        "zh-TW": "百分比"
+        "ja-JP": "パーセント",
+        "nl-NL": "percentage",
+        "pt-PT": "porcentagem",
+        "pt-BR": "porcentagem"
       },
       "lifecycle": "released"
     },
@@ -2664,13 +3206,17 @@
       "description": {
         "en-US": "seconds",
         "zh-CN": "秒",
-        "fr-FR": "secondes",
+        "zh-TW": "秒",
         "de-DE": "Sekunden",
-        "ja-JP": "秒",
+        "fr-FR": "secondes",
+        "it-IT": "seconds",
+        "ru-RU": "seconds",
         "ko-KR": "초",
         "es-ES": "segundos",
-        "pt-BR": "segundos",
-        "zh-TW": "秒"
+        "ja-JP": "秒",
+        "nl-NL": "seconds",
+        "pt-PT": "segundos",
+        "pt-BR": "segundos"
       },
       "lifecycle": "released"
     },
@@ -2680,13 +3226,17 @@
       "description": {
         "en-US": "volts",
         "zh-CN": "伏特",
-        "fr-FR": "volts",
+        "zh-TW": "伏特",
         "de-DE": "Volt",
-        "ja-JP": "ボルト",
+        "fr-FR": "volts",
+        "it-IT": "volts",
+        "ru-RU": "volts",
         "ko-KR": "볼트",
         "es-ES": "voltios",
-        "pt-BR": "volts",
-        "zh-TW": "伏特"
+        "ja-JP": "ボルト",
+        "nl-NL": "volts",
+        "pt-PT": "volts",
+        "pt-BR": "volts"
       },
       "lifecycle": "released"
     },
@@ -2696,13 +3246,17 @@
       "description": {
         "en-US": "watts",
         "zh-CN": "瓦特",
-        "fr-FR": "watts",
+        "zh-TW": "瓦特",
         "de-DE": "Watt",
-        "ja-JP": "ワット",
+        "fr-FR": "watts",
+        "it-IT": "watts",
+        "ru-RU": "watts",
         "ko-KR": "와트",
         "es-ES": "vatios",
-        "pt-BR": "watts",
-        "zh-TW": "瓦特"
+        "ja-JP": "ワット",
+        "nl-NL": "watts",
+        "pt-PT": "watts",
+        "pt-BR": "watts"
       },
       "lifecycle": "released"
     }
@@ -2715,13 +3269,17 @@
       "description": {
         "en-US": "Barcode Scanner",
         "zh-CN": "条码扫描器",
-        "fr-FR": "Scanner de codes-barres",
+        "zh-TW": "條碼掃描器",
         "de-DE": "Barcode-Scanner",
-        "ja-JP": "バーコードスキャナー",
+        "fr-FR": "Scanner de codes-barres",
+        "it-IT": "Scanner di codici a barre",
+        "ru-RU": "Сканер штрихкода",
         "ko-KR": "바코드 스캐너",
         "es-ES": "Escáner de codigos de barras",
-        "pt-BR": "Leitor de codigo de barras",
-        "zh-TW": "條碼掃描器"
+        "ja-JP": "バーコードスキャナー",
+        "nl-NL": "Barcodescanner",
+        "pt-PT": "Leitor de codigo de barras",
+        "pt-BR": "Leitor de codigo de barras"
       }
     },
     "blood-pressure": {
@@ -2730,14 +3288,18 @@
       "lifecycle": "released",
       "description": {
         "en-US": "Blood Pressure",
-        "zh-CN": "血压计",
-        "fr-FR": "Tensiometre",
-        "de-DE": "Blutdruckmessgerat",
-        "ja-JP": "血圧計",
-        "ko-KR": "혈압계",
-        "es-ES": "Tensiometro",
-        "pt-BR": "Medidor de pressao arterial",
-        "zh-TW": "血壓計"
+        "zh-CN": "血压",
+        "zh-TW": "血壓",
+        "de-DE": "Blutdruck",
+        "fr-FR": "Pression arterielle",
+        "it-IT": "Pressione sanguigna",
+        "ru-RU": "Артериальное давление",
+        "ko-KR": "혈압",
+        "es-ES": "Presion arterial",
+        "ja-JP": "血圧",
+        "nl-NL": "Bloeddruk",
+        "pt-PT": "Pressao arterial",
+        "pt-BR": "Medidor de pressao arterial"
       }
     },
     "clock": {
@@ -2747,13 +3309,17 @@
       "description": {
         "en-US": "Clock",
         "zh-CN": "时钟",
-        "fr-FR": "Horloge",
+        "zh-TW": "時鐘",
         "de-DE": "Wecker",
-        "ja-JP": "時計",
+        "fr-FR": "Horloge",
+        "it-IT": "Orologio",
+        "ru-RU": "Часы",
         "ko-KR": "시계",
         "es-ES": "Reloj",
-        "pt-BR": "Relogio",
-        "zh-TW": "時鐘"
+        "ja-JP": "時計",
+        "nl-NL": "Klok",
+        "pt-PT": "Relogio",
+        "pt-BR": "Relogio"
       }
     },
     "computer": {
@@ -2763,13 +3329,17 @@
       "description": {
         "en-US": "Computer",
         "zh-CN": "电脑",
-        "fr-FR": "Ordinateur",
+        "zh-TW": "電腦",
         "de-DE": "Computer",
-        "ja-JP": "コンピュータ",
+        "fr-FR": "Ordinateur",
+        "it-IT": "Computer",
+        "ru-RU": "Компьютер",
         "ko-KR": "컴퓨터",
         "es-ES": "Ordenador",
-        "pt-BR": "Computador",
-        "zh-TW": "電腦"
+        "ja-JP": "コンピュータ",
+        "nl-NL": "Computer",
+        "pt-PT": "Computador",
+        "pt-BR": "Computador"
       }
     },
     "continuous-glucose-monitor": {
@@ -2779,13 +3349,17 @@
       "description": {
         "en-US": "Continuous Glucose Monitor",
         "zh-CN": "持续血糖监测仪",
-        "fr-FR": "Monitor continu de glucose",
+        "zh-TW": "持續血糖監測儀",
         "de-DE": "Kontinuierlicher Glukosemonitor",
-        "ja-JP": "持続血糖測定器",
+        "fr-FR": "Monitor continu de glucose",
+        "it-IT": "Monitor glicemico continuo",
+        "ru-RU": "Непрерывный монитор глюкозы",
         "ko-KR": "연속 혈당 측정기",
         "es-ES": "Monitor continuo de glucosa",
-        "pt-BR": "Monitor continuo de glicose",
-        "zh-TW": "持續血糖監測儀"
+        "ja-JP": "持続血糖測定器",
+        "nl-NL": "Continue glucosemonitor",
+        "pt-PT": "Monitor continuo de glicose",
+        "pt-BR": "Monitor continuo de glicose"
       }
     },
     "cycling-cadence-sensor": {
@@ -2795,13 +3369,17 @@
       "description": {
         "en-US": "Cycling Cadence Sensor",
         "zh-CN": "骑行踏频传感器",
-        "fr-FR": "Capteur de cadence cycliste",
+        "zh-TW": "騎行踏頻傳感器",
         "de-DE": "Fahrradkadenzsensor",
-        "ja-JP": "サイクリングケイデンスセンサー",
+        "fr-FR": "Capteur de cadence cycliste",
+        "it-IT": "Sensore cadenza ciclismo",
+        "ru-RU": "Датчик каденса велосипеда",
         "ko-KR": "사이클링 케이던스 센서",
         "es-ES": "Sensor de cadencia de ciclismo",
-        "pt-BR": "Sensor de cadencia de ciclismo",
-        "zh-TW": "騎行踏頻傳感器"
+        "ja-JP": "サイクリングケイデンスセンサー",
+        "nl-NL": "Fietssensor cadans",
+        "pt-PT": "Sensor de cadencia de ciclismo",
+        "pt-BR": "Sensor de cadencia de ciclismo"
       }
     },
     "cycling-computer": {
@@ -2811,13 +3389,17 @@
       "description": {
         "en-US": "Cycling Computer",
         "zh-CN": "骑行电脑",
-        "fr-FR": "Ordinateur de cyclisme",
+        "zh-TW": "騎行電腦",
         "de-DE": "Fahrradcomputer",
-        "ja-JP": "サイクリングコンピュータ",
+        "fr-FR": "Ordinateur de cyclisme",
+        "it-IT": "Ciclocomputer",
+        "ru-RU": "Велокомпьютер",
         "ko-KR": "사이클링 컴퓨터",
         "es-ES": "Ordenador de ciclismo",
-        "pt-BR": "Computador de ciclismo",
-        "zh-TW": "騎行電腦"
+        "ja-JP": "サイクリングコンピュータ",
+        "nl-NL": "Fietscomputer",
+        "pt-PT": "Computador de ciclismo",
+        "pt-BR": "Computador de ciclismo"
       }
     },
     "cycling-power-sensor": {
@@ -2827,13 +3409,17 @@
       "description": {
         "en-US": "Cycling Power Sensor",
         "zh-CN": "骑行功率传感器",
-        "fr-FR": "Capteur de puissance cycliste",
+        "zh-TW": "騎行功率傳感器",
         "de-DE": "Fahrradleistungssensor",
-        "ja-JP": "サイクリングパワーセンサー",
+        "fr-FR": "Capteur de puissance cycliste",
+        "it-IT": "Sensore potenza ciclismo",
+        "ru-RU": "Датчик мощности педалирования",
         "ko-KR": "사이클링 파워 센서",
         "es-ES": "Sensor de potencia de ciclismo",
-        "pt-BR": "Sensor de potencia de ciclismo",
-        "zh-TW": "騎行功率傳感器"
+        "ja-JP": "サイクリングパワーセンサー",
+        "nl-NL": "Vermogenssensor fietsen",
+        "pt-PT": "Sensor de potencia de ciclismo",
+        "pt-BR": "Sensor de potencia de ciclismo"
       }
     },
     "cycling-speed-sensor": {
@@ -2843,13 +3429,17 @@
       "description": {
         "en-US": "Cycling Speed Sensor",
         "zh-CN": "骑行速度传感器",
-        "fr-FR": "Capteur de vitesse cycliste",
+        "zh-TW": "騎行速度傳感器",
         "de-DE": "Fahrradgeschwindigkeitssensor",
-        "ja-JP": "サイクリング速度センサー",
+        "fr-FR": "Capteur de vitesse cycliste",
+        "it-IT": "Sensore velocità ciclismo",
+        "ru-RU": "Датчик скорости велосипеда",
         "ko-KR": "사이클링 속도 센서",
         "es-ES": "Sensor de velocidad de ciclismo",
-        "pt-BR": "Sensor de velocidade de ciclismo",
-        "zh-TW": "騎行速度傳感器"
+        "ja-JP": "サイクリング速度センサー",
+        "nl-NL": "Fietssnelheidssensor",
+        "pt-PT": "Sensor de velocidade de ciclismo",
+        "pt-BR": "Sensor de velocidade de ciclismo"
       }
     },
     "display": {
@@ -2859,13 +3449,17 @@
       "description": {
         "en-US": "Display",
         "zh-CN": "显示器",
-        "fr-FR": "Ecran",
+        "zh-TW": "顯示器",
         "de-DE": "Bildschirm",
-        "ja-JP": "ディスプレイ",
+        "fr-FR": "Ecran",
+        "it-IT": "Display",
+        "ru-RU": "Дисплей",
         "ko-KR": "디스플레이",
         "es-ES": "Pantalla",
-        "pt-BR": "Monitor",
-        "zh-TW": "顯示器"
+        "ja-JP": "ディスプレイ",
+        "nl-NL": "Display",
+        "pt-PT": "Monitor",
+        "pt-BR": "Monitor"
       }
     },
     "eye-glasses": {
@@ -2875,13 +3469,17 @@
       "description": {
         "en-US": "Eye Glasses",
         "zh-CN": "眼镜",
-        "fr-FR": "Lunettes",
+        "zh-TW": "眼鏡",
         "de-DE": "Brille",
-        "ja-JP": "メガネ",
+        "fr-FR": "Lunettes",
+        "it-IT": "Occhiali",
+        "ru-RU": "Очки",
         "ko-KR": "안경",
         "es-ES": "Gafas",
-        "pt-BR": "Oculos",
-        "zh-TW": "眼鏡"
+        "ja-JP": "メガネ",
+        "nl-NL": "Bril",
+        "pt-PT": "Oculos",
+        "pt-BR": "Oculos"
       }
     },
     "fitness-machine": {
@@ -2891,13 +3489,17 @@
       "description": {
         "en-US": "Fitness Machine",
         "zh-CN": "健身器材",
-        "fr-FR": "Machine de fitness",
+        "zh-TW": "健身器材",
         "de-DE": "Fitnessgerat",
-        "ja-JP": "フィットネスマシン",
+        "fr-FR": "Machine de fitness",
+        "it-IT": "Macchina fitness",
+        "ru-RU": "Фитнес-тренажер",
         "ko-KR": "피트니스 머신",
         "es-ES": "Maquina de fitness",
-        "pt-BR": "Maquina de fitness",
-        "zh-TW": "健身器材"
+        "ja-JP": "フィットネスマシン",
+        "nl-NL": "Fitnessapparaat",
+        "pt-PT": "Maquina de fitness",
+        "pt-BR": "Maquina de fitness"
       }
     },
     "generic-cycling": {
@@ -2907,13 +3509,17 @@
       "description": {
         "en-US": "Generic Cycling",
         "zh-CN": "骑行",
-        "fr-FR": "Cyclisme generique",
+        "zh-TW": "騎行",
         "de-DE": "Radfahren",
-        "ja-JP": "サイクリング",
+        "fr-FR": "Cyclisme generique",
+        "it-IT": "Ciclismo generico",
+        "ru-RU": "Велоспорт общий",
         "ko-KR": "사이클링",
         "es-ES": "Ciclismo",
-        "pt-BR": "Ciclismo",
-        "zh-TW": "騎行"
+        "ja-JP": "サイクリング",
+        "nl-NL": "Algemeen fietsen",
+        "pt-PT": "Ciclismo",
+        "pt-BR": "Ciclismo"
       }
     },
     "generic-oudoor-sport-activity": {
@@ -2923,13 +3529,17 @@
       "description": {
         "en-US": "Generic Outdoor Sport Activity",
         "zh-CN": "户外运动活动",
-        "fr-FR": "Activite sportive de plein air generique",
+        "zh-TW": "戶外運動活動",
         "de-DE": "Allgemeine Outdoor-Sportaktivitat",
-        "ja-JP": "汎用アウトドアスポーツ活動",
+        "fr-FR": "Activite sportive de plein air generique",
+        "it-IT": "Attività sport all'aperto generica",
+        "ru-RU": "Общая активность на открытом воздухе",
         "ko-KR": "일반 야외 스포츠 활동",
         "es-ES": "Actividad deportiva al aire libre generica",
-        "pt-BR": "Atividade esportiva ao ar livre generica",
-        "zh-TW": "戶外運動活動"
+        "ja-JP": "汎用アウトドアスポーツ活動",
+        "nl-NL": "Algemene buitenactiviteit",
+        "pt-PT": "Atividade esportiva ao ar livre generica",
+        "pt-BR": "Atividade esportiva ao ar livre generica"
       }
     },
     "generic-running": {
@@ -2939,13 +3549,17 @@
       "description": {
         "en-US": "Generic Running",
         "zh-CN": "跑步",
-        "fr-FR": "Course generique",
+        "zh-TW": "跑步",
         "de-DE": "Laufen",
-        "ja-JP": "ランニング",
+        "fr-FR": "Course generique",
+        "it-IT": "Corsa generica",
+        "ru-RU": "Бег общий",
         "ko-KR": "달리기",
         "es-ES": "Correr",
-        "pt-BR": "Corrida",
-        "zh-TW": "跑步"
+        "ja-JP": "ランニング",
+        "nl-NL": "Algemeen hardlopen",
+        "pt-PT": "Corrida",
+        "pt-BR": "Corrida"
       }
     },
     "generic-walking": {
@@ -2955,13 +3569,17 @@
       "description": {
         "en-US": "Generic Walking",
         "zh-CN": "步行",
-        "fr-FR": "Marche generique",
+        "zh-TW": "步行",
         "de-DE": "Gehen",
-        "ja-JP": "ウォーキング",
+        "fr-FR": "Marche generique",
+        "it-IT": "Camminata generica",
+        "ru-RU": "Ходьба общая",
         "ko-KR": "걷기",
         "es-ES": "Caminar",
-        "pt-BR": "Caminhada",
-        "zh-TW": "步行"
+        "ja-JP": "ウォーキング",
+        "nl-NL": "Algemeen wandelen",
+        "pt-PT": "Caminhada",
+        "pt-BR": "Caminhada"
       }
     },
     "glucose-meter": {
@@ -2971,13 +3589,17 @@
       "description": {
         "en-US": "Glucose Meter",
         "zh-CN": "血糖仪",
-        "fr-FR": "Glucometre",
+        "zh-TW": "血糖儀",
         "de-DE": "Blutzuckermessgerat",
-        "ja-JP": "血糖計",
+        "fr-FR": "Glucometre",
+        "it-IT": "Glucometro",
+        "ru-RU": "Глюкометр",
         "ko-KR": "혈당 측정기",
         "es-ES": "Glucómetro",
-        "pt-BR": "Glicosimetro",
-        "zh-TW": "血糖儀"
+        "ja-JP": "血糖計",
+        "nl-NL": "Glucosemeter",
+        "pt-PT": "Glicosimetro",
+        "pt-BR": "Glicosimetro"
       }
     },
     "heart-rate-sensor": {
@@ -2987,13 +3609,17 @@
       "description": {
         "en-US": "Heart Rate Sensor",
         "zh-CN": "心率传感器",
-        "fr-FR": "Cardiofrequencemetre",
+        "zh-TW": "心率傳感器",
         "de-DE": "Herzfrequenzsensor",
-        "ja-JP": "心拍数センサー",
+        "fr-FR": "Cardiofrequencemetre",
+        "it-IT": "Sensore frequenza cardiaca",
+        "ru-RU": "Датчик пульса",
         "ko-KR": "심박수 센서",
         "es-ES": "Sensor de frecuencia cardiaca",
-        "pt-BR": "Sensor de frequencia cardiaca",
-        "zh-TW": "心率傳感器"
+        "ja-JP": "心拍数センサー",
+        "nl-NL": "Hartslagsensor",
+        "pt-PT": "Sensor de frequencia cardiaca",
+        "pt-BR": "Sensor de frequencia cardiaca"
       }
     },
     "hid": {
@@ -3003,13 +3629,17 @@
       "description": {
         "en-US": "Human Interface Device",
         "zh-CN": "人机交互设备",
-        "fr-FR": "Dispositif d'interface humaine",
+        "zh-TW": "人機交互設備",
         "de-DE": "Menschliche Schnittstelle",
-        "ja-JP": "HID",
+        "fr-FR": "Dispositif d'interface humaine",
+        "it-IT": "Dispositivo interfaccia umana",
+        "ru-RU": "Устройство взаимодействия с человеком",
         "ko-KR": "HID",
         "es-ES": "Dispositivo de interfaz humana",
-        "pt-BR": "Dispositivo de interface humana",
-        "zh-TW": "人機交互設備"
+        "ja-JP": "HID",
+        "nl-NL": "Human interface-apparaat",
+        "pt-PT": "Dispositivo de interface humana",
+        "pt-BR": "Dispositivo de interface humana"
       }
     },
     "insulin-pump": {
@@ -3019,13 +3649,17 @@
       "description": {
         "en-US": "Insulin Pump",
         "zh-CN": "胰岛素泵",
-        "fr-FR": "Pompe a insuline",
+        "zh-TW": "胰島素泵",
         "de-DE": "Insulinpumpe",
-        "ja-JP": "インスリンポンプ",
+        "fr-FR": "Pompe a insuline",
+        "it-IT": "Pompa di insulina",
+        "ru-RU": "Инсулиновая помпа",
         "ko-KR": "인슐린 펌프",
         "es-ES": "Bomba de insulina",
-        "pt-BR": "Bomba de insulina",
-        "zh-TW": "胰島素泵"
+        "ja-JP": "インスリンポンプ",
+        "nl-NL": "Insulinepomp",
+        "pt-PT": "Bomba de insulina",
+        "pt-BR": "Bomba de insulina"
       }
     },
     "keyring": {
@@ -3035,13 +3669,17 @@
       "description": {
         "en-US": "Keyring",
         "zh-CN": "钥匙扣",
-        "fr-FR": "Porte-cles",
+        "zh-TW": "鑰匙扣",
         "de-DE": "Schlusselring",
-        "ja-JP": "キーリング",
+        "fr-FR": "Porte-cles",
+        "it-IT": "Portachiavi",
+        "ru-RU": "Брелок",
         "ko-KR": "열쇠고리",
         "es-ES": "Llavero",
-        "pt-BR": "Chaveiro",
-        "zh-TW": "鑰匙扣"
+        "ja-JP": "キーリング",
+        "nl-NL": "Sleutelhanger",
+        "pt-PT": "Chaveiro",
+        "pt-BR": "Chaveiro"
       }
     },
     "location-navigation-device": {
@@ -3051,13 +3689,17 @@
       "description": {
         "en-US": "Location & Navigation Device",
         "zh-CN": "位置导航设备",
-        "fr-FR": "Dispositif de localisation et navigation",
+        "zh-TW": "位置導航設備",
         "de-DE": "Standort- und Navigationsgerat",
-        "ja-JP": "位置情報・ナビゲーション機器",
+        "fr-FR": "Dispositif de localisation et navigation",
+        "it-IT": "Dispositivo posizione e navigazione",
+        "ru-RU": "Устройство местоположения и навигации",
         "ko-KR": "위치 및 내비게이션 장치",
         "es-ES": "Dispositivo de ubicacion y navegacion",
-        "pt-BR": "Dispositivo de localizacao e navegacao",
-        "zh-TW": "位置導航設備"
+        "ja-JP": "位置情報・ナビゲーション機器",
+        "nl-NL": "Locatie- en navigatieapparaat",
+        "pt-PT": "Dispositivo de localizacao e navegacao",
+        "pt-BR": "Dispositivo de localizacao e navegacao"
       }
     },
     "media-player": {
@@ -3067,13 +3709,17 @@
       "description": {
         "en-US": "Media Player",
         "zh-CN": "媒体播放器",
-        "fr-FR": "Lecteur multimedia",
+        "zh-TW": "媒體播放器",
         "de-DE": "Medienabspielgerat",
-        "ja-JP": "メディアプレーヤー",
+        "fr-FR": "Lecteur multimedia",
+        "it-IT": "Lettore multimediale",
+        "ru-RU": "Медиаплеер",
         "ko-KR": "미디어 플레이어",
         "es-ES": "Reproductor multimedia",
-        "pt-BR": "Reprodutor de midia",
-        "zh-TW": "媒體播放器"
+        "ja-JP": "メディアプレーヤー",
+        "nl-NL": "Mediaspeler",
+        "pt-PT": "Reprodutor de midia",
+        "pt-BR": "Reprodutor de midia"
       }
     },
     "medication-delivery": {
@@ -3083,13 +3729,17 @@
       "description": {
         "en-US": "Medication Delivery",
         "zh-CN": "药物输送设备",
-        "fr-FR": "Dispositif d'administration de medicaments",
+        "zh-TW": "藥物輸送設備",
         "de-DE": "Medikamentenabgabegerat",
-        "ja-JP": "薬剤送達装置",
+        "fr-FR": "Dispositif d'administration de medicaments",
+        "it-IT": "Distribuzione farmaci",
+        "ru-RU": "Доставка лекарств",
         "ko-KR": "약물 전달 장치",
         "es-ES": "Dispositivo de administracion de medicamentos",
-        "pt-BR": "Dispositivo de administracao de medicamentos",
-        "zh-TW": "藥物輸送設備"
+        "ja-JP": "薬剤送達装置",
+        "nl-NL": "Medicijnafgifte",
+        "pt-PT": "Dispositivo de administracao de medicamentos",
+        "pt-BR": "Dispositivo de administracao de medicamentos"
       }
     },
     "personal-mobility-device": {
@@ -3099,13 +3749,17 @@
       "description": {
         "en-US": "Personal Mobility Device",
         "zh-CN": "个人移动设备",
-        "fr-FR": "Dispositif de mobilite personnelle",
+        "zh-TW": "個人移動設備",
         "de-DE": "Personliches Mobilitatsgerat",
-        "ja-JP": "パーソナルモビリティ",
+        "fr-FR": "Dispositif de mobilite personnelle",
+        "it-IT": "Dispositivo mobilità personale",
+        "ru-RU": "Персональное мобильное устройство",
         "ko-KR": "개인 이동 장치",
         "es-ES": "Dispositivo de movilidad personal",
-        "pt-BR": "Dispositivo de mobilidade pessoal",
-        "zh-TW": "個人移動設備"
+        "ja-JP": "パーソナルモビリティ",
+        "nl-NL": "Persoonlijk mobiliteitsapparaat",
+        "pt-PT": "Dispositivo de mobilidade pessoal",
+        "pt-BR": "Dispositivo de mobilidade pessoal"
       }
     },
     "phone": {
@@ -3115,13 +3769,17 @@
       "description": {
         "en-US": "Phone",
         "zh-CN": "手机",
-        "fr-FR": "Telephone",
+        "zh-TW": "手機",
         "de-DE": "Telefon",
-        "ja-JP": "電話",
+        "fr-FR": "Telephone",
+        "it-IT": "Telefono",
+        "ru-RU": "Телефон",
         "ko-KR": "전화",
         "es-ES": "Telefono",
-        "pt-BR": "Telefone",
-        "zh-TW": "手機"
+        "ja-JP": "電話",
+        "nl-NL": "Telefoon",
+        "pt-PT": "Telefone",
+        "pt-BR": "Telefone"
       }
     },
     "pulse-oximeter-fingertip": {
@@ -3131,13 +3789,17 @@
       "description": {
         "en-US": "Pulse Oximeter (Fingertip)",
         "zh-CN": "脉搏血氧仪（指尖）",
-        "fr-FR": "Oxymetre de pouls (doigt)",
+        "zh-TW": "脈搏血氧儀（指尖）",
         "de-DE": "Pulsoximeter (Fingerspitze)",
-        "ja-JP": "パルスオキシメータ（指先）",
+        "fr-FR": "Oxymetre de pouls (doigt)",
+        "it-IT": "Ossimetro (dito)",
+        "ru-RU": "Пульсоксиметр (палец)",
         "ko-KR": "맥박 산소 측정기(손가락 끝)",
         "es-ES": "Oximetro de pulso (dedo)",
-        "pt-BR": "Oximetro de pulso (dedo)",
-        "zh-TW": "脈搏血氧儀（指尖）"
+        "ja-JP": "パルスオキシメータ（指先）",
+        "nl-NL": "Pulse-oximeter (vinger)",
+        "pt-PT": "Oximetro de pulso (dedo)",
+        "pt-BR": "Oximetro de pulso (dedo)"
       }
     },
     "pulse-oximeter-handheld": {
@@ -3147,13 +3809,17 @@
       "description": {
         "en-US": "Pulse Oximeter (Handheld)",
         "zh-CN": "脉搏血氧仪（手持）",
-        "fr-FR": "Oxymetre de pouls (portatif)",
+        "zh-TW": "脈搏血氧儀（手持）",
         "de-DE": "Pulsoximeter (handhalt)",
-        "ja-JP": "パルスオキシメータ（ハンドヘルド）",
+        "fr-FR": "Oxymetre de pouls (portatif)",
+        "it-IT": "Ossimetro (portatile)",
+        "ru-RU": "Пульсоксиметр (портативный)",
         "ko-KR": "맥박 산소 측정기(휴대용)",
         "es-ES": "Oximetro de pulso (manual)",
-        "pt-BR": "Oximetro de pulso (portatil)",
-        "zh-TW": "脈搏血氧儀（手持）"
+        "ja-JP": "パルスオキシメータ（ハンドヘルド）",
+        "nl-NL": "Pulse-oximeter (handheld)",
+        "pt-PT": "Oximetro de pulso (portatil)",
+        "pt-BR": "Oximetro de pulso (portatil)"
       }
     },
     "pulse-oximeter-wrist-worn": {
@@ -3163,13 +3829,17 @@
       "description": {
         "en-US": "Pulse Oximeter (Wrist Worn)",
         "zh-CN": "脉搏血氧仪（腕式）",
-        "fr-FR": "Oxymetre de pouls (poignet)",
+        "zh-TW": "脈搏血氧儀（腕式）",
         "de-DE": "Pulsoximeter (Handgelenk)",
-        "ja-JP": "パルスオキシメータ（手首）",
+        "fr-FR": "Oxymetre de pouls (poignet)",
+        "it-IT": "Ossimetro (da polso)",
+        "ru-RU": "Пульсоксиметр (запястный)",
         "ko-KR": "맥박 산소 측정기(손목)",
         "es-ES": "Oximetro de pulso (muneca)",
-        "pt-BR": "Oximetro de pulso (pulso)",
-        "zh-TW": "脈搏血氧儀（腕式）"
+        "ja-JP": "パルスオキシメータ（手首）",
+        "nl-NL": "Pulse-oximeter (pols)",
+        "pt-PT": "Oximetro de pulso (pulso)",
+        "pt-BR": "Oximetro de pulso (pulso)"
       }
     },
     "pulse-oximeter": {
@@ -3179,13 +3849,17 @@
       "description": {
         "en-US": "Pulse Oximeter",
         "zh-CN": "脉搏血氧仪",
-        "fr-FR": "Oxymetre de pouls",
+        "zh-TW": "脈搏血氧儀",
         "de-DE": "Pulsoximeter",
-        "ja-JP": "パルスオキシメータ",
+        "fr-FR": "Oxymetre de pouls",
+        "it-IT": "Ossimetro",
+        "ru-RU": "Пульсоксиметр",
         "ko-KR": "맥박 산소 측정기",
         "es-ES": "Oximetro de pulso",
-        "pt-BR": "Oximetro de pulso",
-        "zh-TW": "脈搏血氧儀"
+        "ja-JP": "パルスオキシメータ",
+        "nl-NL": "Pulse-oximeter",
+        "pt-PT": "Oximetro de pulso",
+        "pt-BR": "Oximetro de pulso"
       }
     },
     "remote-control": {
@@ -3195,13 +3869,17 @@
       "description": {
         "en-US": "Remote Control",
         "zh-CN": "遥控器",
-        "fr-FR": "Telecommande",
+        "zh-TW": "遙控器",
         "de-DE": "Fernbedienung",
-        "ja-JP": "リモコン",
+        "fr-FR": "Telecommande",
+        "it-IT": "Telecomando",
+        "ru-RU": "Пульт управления",
         "ko-KR": "리모컨",
         "es-ES": "Control remoto",
-        "pt-BR": "Controle remoto",
-        "zh-TW": "遙控器"
+        "ja-JP": "リモコン",
+        "nl-NL": "Afstandsbediening",
+        "pt-PT": "Controle remoto",
+        "pt-BR": "Controle remoto"
       }
     },
     "tag": {
@@ -3211,13 +3889,17 @@
       "description": {
         "en-US": "Tag",
         "zh-CN": "标签",
-        "fr-FR": "Etiquette",
+        "zh-TW": "標籤",
         "de-DE": "Tag",
-        "ja-JP": "タグ",
+        "fr-FR": "Etiquette",
+        "it-IT": "Tag",
+        "ru-RU": "Метка",
         "ko-KR": "태그",
         "es-ES": "Etiqueta",
-        "pt-BR": "Etiqueta",
-        "zh-TW": "標籤"
+        "ja-JP": "タグ",
+        "nl-NL": "Tag",
+        "pt-PT": "Etiqueta",
+        "pt-BR": "Etiqueta"
       }
     },
     "thermometer": {
@@ -3227,13 +3909,17 @@
       "description": {
         "en-US": "Thermometer",
         "zh-CN": "体温计",
-        "fr-FR": "Thermometre",
+        "zh-TW": "體溫計",
         "de-DE": "Thermometer",
-        "ja-JP": "体温計",
+        "fr-FR": "Thermometre",
+        "it-IT": "Termometro",
+        "ru-RU": "Термометр",
         "ko-KR": "체온계",
         "es-ES": "Termometro",
-        "pt-BR": "Termometro",
-        "zh-TW": "體溫計"
+        "ja-JP": "体温計",
+        "nl-NL": "Thermometer",
+        "pt-PT": "Termometro",
+        "pt-BR": "Termometro"
       }
     },
     "unknown": {
@@ -3243,13 +3929,17 @@
       "description": {
         "en-US": "Unknown",
         "zh-CN": "未知",
-        "fr-FR": "Inconnu",
+        "zh-TW": "未知",
         "de-DE": "Unbekannt",
-        "ja-JP": "不明",
+        "fr-FR": "Inconnu",
+        "it-IT": "Sconosciuto",
+        "ru-RU": "Неизвестно",
         "ko-KR": "알 수 없음",
         "es-ES": "Desconocido",
-        "pt-BR": "Desconhecido",
-        "zh-TW": "未知"
+        "ja-JP": "不明",
+        "nl-NL": "Onbekend",
+        "pt-PT": "Desconhecido",
+        "pt-BR": "Desconhecido"
       }
     },
     "watch": {
@@ -3259,13 +3949,17 @@
       "description": {
         "en-US": "Watch",
         "zh-CN": "手表",
-        "fr-FR": "Montre",
+        "zh-TW": "手錶",
         "de-DE": "Uhr",
-        "ja-JP": "腕時計",
+        "fr-FR": "Montre",
+        "it-IT": "Orologio",
+        "ru-RU": "Часы",
         "ko-KR": "시계",
         "es-ES": "Reloj",
-        "pt-BR": "Relogio",
-        "zh-TW": "手錶"
+        "ja-JP": "腕時計",
+        "nl-NL": "Horloge",
+        "pt-PT": "Relogio",
+        "pt-BR": "Relogio"
       }
     },
     "weight-scale": {
@@ -3275,13 +3969,17 @@
       "description": {
         "en-US": "Weight Scale",
         "zh-CN": "体重秤",
-        "fr-FR": "Pese-personne",
+        "zh-TW": "體重秤",
         "de-DE": "Waage",
-        "ja-JP": "体重計",
+        "fr-FR": "Pese-personne",
+        "it-IT": "Bilancia",
+        "ru-RU": "Весы",
         "ko-KR": "체중계",
-        "es-ES": "Báscula",
-        "pt-BR": "Balança",
-        "zh-TW": "體重秤"
+        "es-ES": "Bascula",
+        "ja-JP": "体重計",
+        "nl-NL": "Weegschaal",
+        "pt-PT": "Balanca",
+        "pt-BR": "Balança"
       }
     }
   }

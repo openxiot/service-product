@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
-    "description": {
-        "en-US": "Carbon Dioxide Peak Level",
-        "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u5cf0\u503c\u6d53\u5ea6",
-        "fr-FR": "Niveau de pointe de dioxyde de carbone",
-        "de-DE": "Kohlendioxid-Spitzenwert",
-        "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u30d4\u30fc\u30af\u6fc3\u5ea6",
-        "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \ucd5c\uace0 \ub18d\ub3c4",
-        "es-ES": "Nivel m\u00e1ximo de di\u00f3xido de carbono",
-        "pt-BR": "N\u00edvel m\u00e1ximo de di\u00f3xido de carbono",
-        "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u5cf0\u503c\u6fc3\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:carbon-dioxide-peak-level:00000094",
+  "description": {
+    "en-US": "Carbon Dioxide Peak Level",
+    "zh-CN": "二氧化碳峰值浓度",
+    "zh-TW": "二氧化碳峰值濃度",
+    "de-DE": "Kohlendioxid-Spitzenwert",
+    "fr-FR": "Niveau de pointe de dioxyde de carbone",
+    "it-IT": "Livello massimo anidride carbonica",
+    "ru-RU": "Максимальный уровень CO2",
+    "ko-KR": "이산화탄소 최고 농도",
+    "es-ES": "Nivel máximo de dióxido de carbono",
+    "ja-JP": "二酸化炭素ピーク濃度",
+    "nl-NL": "CO2-piekniveau",
+    "pt-PT": "Nível máximo de dióxido de carbono",
+    "pt-BR": "Nível máximo de dióxido de carbono"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100000,
+    1
+  ],
+  "lifecycle": "released"
 }

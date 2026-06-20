@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35",
-    "description": {
-        "en-US": "Blood Pressure Measurement",
-        "zh-CN": "血压测量",
-        "fr-FR": "Mesure de la pression arterielle",
-        "de-DE": "Blutdruckmessung",
-        "ja-JP": "血圧測定",
-        "ko-KR": "혈압 측정",
-        "es-ES": "Medicion de presion arterial",
-        "pt-BR": "Medicao da pressao arterial",
-        "zh-TW": "血壓測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:blood-pressure-measurement:00002A35",
+  "description": {
+    "en-US": "Blood Pressure Measurement",
+    "zh-CN": "血压测量",
+    "zh-TW": "血壓測量",
+    "de-DE": "Blutdruckmessung",
+    "fr-FR": "Mesure de la pression arterielle",
+    "it-IT": "Misurazione pressione sanguigna",
+    "ru-RU": "Измерение артериального давления",
+    "ko-KR": "혈압 측정",
+    "es-ES": "Medicion de presion arterial",
+    "ja-JP": "血圧測定",
+    "nl-NL": "Bloeddrukmeting",
+    "pt-PT": "Medicao da pressao arterial",
+    "pt-BR": "Medicao da pressao arterial"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

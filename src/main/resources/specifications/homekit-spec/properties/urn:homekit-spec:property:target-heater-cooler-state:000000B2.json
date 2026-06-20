@@ -1,65 +1,81 @@
 {
-    "type": "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
-    "description": {
-        "en-US": "Target Heater Cooler State",
-        "zh-CN": "\u76ee\u6807\u52a0\u70ed\u5668/\u51b7\u5374\u5668\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible du chauffage/refroidisseur",
-        "de-DE": "Gew\u00fcnschter Heizer-K\u00fchler-Status",
-        "ja-JP": "\u76ee\u6a19\u52a0\u71b1\u30fb\u51b7\u5374\u5668\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \ud788\ud130/\ucfe8\ub7ec \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo del calefactor/enfriador",
-        "pt-BR": "Estado alvo do aquecedor/refrigerador",
-        "zh-TW": "\u76ee\u6a19\u52a0\u71b1\u5668/\u51b7\u537b\u5668\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-heater-cooler-state:000000B2",
+  "description": {
+    "en-US": "Target Heater Cooler State",
+    "zh-CN": "目标加热器/冷却器状态",
+    "zh-TW": "目標加熱器/冷卻器狀態",
+    "de-DE": "Gewünschter Heizer-Kühler-Status",
+    "fr-FR": "État cible du chauffage/refroidisseur",
+    "it-IT": "Stato target riscaldatore/raffreddatore",
+    "ru-RU": "Целевое состояние нагревателя/охладителя",
+    "ko-KR": "목표 히터/쿨러 상태",
+    "es-ES": "Estado objetivo del calefactor/enfriador",
+    "ja-JP": "目標加熱・冷却器状態",
+    "nl-NL": "Gewenste verwarmer/koeler status",
+    "pt-PT": "Estado alvo do aquecedor/refrigerador",
+    "pt-BR": "Estado alvo do aquecedor/refrigerador"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "AUTO",
+        "zh-CN": "自动",
+        "fr-FR": "AUTO",
+        "de-DE": "AUTO",
+        "ja-JP": "自動",
+        "ko-KR": "자동",
+        "es-ES": "AUTO",
+        "pt-BR": "AUTO",
+        "zh-TW": "自動",
+        "it-IT": "AUTOMATICO",
+        "ru-RU": "АВТО",
+        "nl-NL": "AUTOMATISCH",
+        "pt-PT": "AUTOMÁTICO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "AUTO",
-                "zh-CN": "\u81ea\u52a8",
-                "fr-FR": "AUTO",
-                "de-DE": "AUTO",
-                "ja-JP": "\u81ea\u52d5",
-                "ko-KR": "\uc790\ub3d9",
-                "es-ES": "AUTO",
-                "pt-BR": "AUTO",
-                "zh-TW": "\u81ea\u52d5"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "HEAT",
-                "zh-CN": "\u5236\u70ed",
-                "fr-FR": "CHAUD",
-                "de-DE": "HEIZEN",
-                "ja-JP": "\u6696\u623f",
-                "ko-KR": "\ub09c\ubc29",
-                "es-ES": "CALOR",
-                "pt-BR": "CALOR",
-                "zh-TW": "\u5236\u71b1"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "COOL",
-                "zh-CN": "\u5236\u51b7",
-                "fr-FR": "FROID",
-                "de-DE": "K\u00dcHLEN",
-                "ja-JP": "\u51b7\u623f",
-                "ko-KR": "\ub0c9\ubc29",
-                "es-ES": "FR\u00cdO",
-                "pt-BR": "FRIO",
-                "zh-TW": "\u88fd\u51b7"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "HEAT",
+        "zh-CN": "制热",
+        "fr-FR": "CHAUD",
+        "de-DE": "HEIZEN",
+        "ja-JP": "暖房",
+        "ko-KR": "난방",
+        "es-ES": "CALOR",
+        "pt-BR": "CALOR",
+        "zh-TW": "制熱",
+        "it-IT": "RISCALDAMENTO",
+        "ru-RU": "НАГРЕВ",
+        "nl-NL": "VERWARMEN",
+        "pt-PT": "CALOR"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "COOL",
+        "zh-CN": "制冷",
+        "fr-FR": "FROID",
+        "de-DE": "KÜHLEN",
+        "ja-JP": "冷房",
+        "ko-KR": "냉방",
+        "es-ES": "FRÍO",
+        "pt-BR": "FRIO",
+        "zh-TW": "製冷",
+        "it-IT": "RAFFREDDAMENTO",
+        "ru-RU": "ОХЛАЖДЕНИЕ",
+        "nl-NL": "KOELEN",
+        "pt-PT": "FRIO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

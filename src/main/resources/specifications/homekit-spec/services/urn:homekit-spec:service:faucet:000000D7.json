@@ -1,22 +1,26 @@
 {
-    "type": "urn:homekit-spec:service:faucet:000000D7",
-    "description": {
-        "en-US": "Faucet",
-        "zh-CN": "\u6c34\u9f99\u5934",
-        "fr-FR": "Robinet",
-        "de-DE": "Wasserhahn",
-        "ja-JP": "\u86c7\u53e3",
-        "ko-KR": "\uc218\ub3c4\uaf2d\uc9c0",
-        "es-ES": "Grifo",
-        "pt-BR": "Torneira",
-        "zh-TW": "\u6c34\u9f8d\u982d"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:active:000000B0"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023",
-        "urn:homekit-spec:property:status-fault:00000077"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:faucet:000000D7",
+  "description": {
+    "en-US": "Faucet",
+    "zh-CN": "水龙头",
+    "zh-TW": "水龍頭",
+    "de-DE": "Wasserhahn",
+    "fr-FR": "Robinet",
+    "it-IT": "Rubinetto",
+    "ru-RU": "Кран",
+    "ko-KR": "수도꼭지",
+    "es-ES": "Grifo",
+    "ja-JP": "蛇口",
+    "nl-NL": "Kraan",
+    "pt-PT": "Torneira",
+    "pt-BR": "Torneira"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:active:000000B0"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023",
+    "urn:homekit-spec:property:status-fault:00000077"
+  ],
+  "lifecycle": "released"
 }

@@ -1,65 +1,81 @@
 {
-    "type": "urn:homekit-spec:property:target-air-quality:000000AE",
-    "description": {
-        "en-US": "Target Air Quality",
-        "zh-CN": "\u76ee\u6807\u7a7a\u6c14\u8d28\u91cf",
-        "fr-FR": "Qualit\u00e9 d'air cible",
-        "de-DE": "Gew\u00fcnschte Luftqualit\u00e4t",
-        "ja-JP": "\u76ee\u6a19\u7a7a\u6c17\u54c1\u8cea",
-        "ko-KR": "\ubaa9\ud45c \uacf5\uae30 \uc9c8",
-        "es-ES": "Calidad del aire objetivo",
-        "pt-BR": "Qualidade do ar alvo",
-        "zh-TW": "\u76ee\u6a19\u7a7a\u6c23\u8cea\u91cf"
+  "type": "urn:homekit-spec:property:target-air-quality:000000AE",
+  "description": {
+    "en-US": "Target Air Quality",
+    "zh-CN": "目标空气质量",
+    "zh-TW": "目標空氣質量",
+    "de-DE": "Gewünschte Luftqualität",
+    "fr-FR": "Qualité d'air cible",
+    "it-IT": "Qualità aria target",
+    "ru-RU": "Целевое качество воздуха",
+    "ko-KR": "목표 공기 질",
+    "es-ES": "Calidad del aire objetivo",
+    "ja-JP": "目標空気品質",
+    "nl-NL": "Gewenste luchtkwaliteit",
+    "pt-PT": "Qualidade do ar alvo",
+    "pt-BR": "Qualidade do ar alvo"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "EXCELLENT",
+        "zh-CN": "优秀",
+        "fr-FR": "EXCELLENT",
+        "de-DE": "HERVORRAGEND",
+        "ja-JP": "優良",
+        "ko-KR": "우수",
+        "es-ES": "EXCELENTE",
+        "pt-BR": "EXCELENTE",
+        "zh-TW": "優秀",
+        "it-IT": "ECCELLENTE",
+        "ru-RU": "ОТЛИЧНО",
+        "nl-NL": "UITSTEKEND",
+        "pt-PT": "EXCELENTE"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "EXCELLENT",
-                "zh-CN": "\u4f18\u79c0",
-                "fr-FR": "EXCELLENT",
-                "de-DE": "HERVORRAGEND",
-                "ja-JP": "\u512a\u826f",
-                "ko-KR": "\uc6b0\uc218",
-                "es-ES": "EXCELENTE",
-                "pt-BR": "EXCELENTE",
-                "zh-TW": "\u512a\u79c0"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "GOOD",
-                "zh-CN": "\u826f\u597d",
-                "fr-FR": "BON",
-                "de-DE": "GUT",
-                "ja-JP": "\u826f\u597d",
-                "ko-KR": "\uc88b\uc74c",
-                "es-ES": "BUENO",
-                "pt-BR": "BOM",
-                "zh-TW": "\u826f\u597d"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "FAIR",
-                "zh-CN": "\u4e00\u822c",
-                "fr-FR": "MOYEN",
-                "de-DE": "MITTELM\u00c4\u00dfIG",
-                "ja-JP": "\u666e\u901a",
-                "ko-KR": "\ubcf4\ud1b5",
-                "es-ES": "REGULAR",
-                "pt-BR": "REGULAR",
-                "zh-TW": "\u4e00\u822c"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "GOOD",
+        "zh-CN": "良好",
+        "fr-FR": "BON",
+        "de-DE": "GUT",
+        "ja-JP": "良好",
+        "ko-KR": "좋음",
+        "es-ES": "BUENO",
+        "pt-BR": "BOM",
+        "zh-TW": "良好",
+        "it-IT": "BUONO",
+        "ru-RU": "ХОРОШО",
+        "nl-NL": "GOED",
+        "pt-PT": "BOM"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "FAIR",
+        "zh-CN": "一般",
+        "fr-FR": "MOYEN",
+        "de-DE": "MITTELMÄßIG",
+        "ja-JP": "普通",
+        "ko-KR": "보통",
+        "es-ES": "REGULAR",
+        "pt-BR": "REGULAR",
+        "zh-TW": "一般",
+        "it-IT": "DISCRETO",
+        "ru-RU": "УДОВЛЕТВОРИТЕЛЬНО",
+        "nl-NL": "REDELIJK",
+        "pt-PT": "REGULAR"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

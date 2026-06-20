@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:video-doorbell:00000011",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Video Doorbell",
-        "zh-CN": "可视门铃",
-        "fr-FR": "Sonnette video",
-        "de-DE": "Video-Türklingel",
-        "ja-JP": "ビデオドアベル",
-        "ko-KR": "비디오 초인종",
-        "es-ES": "Timbre con video",
-        "pt-BR": "Campainha com video",
-        "zh-TW": "可視門鈴"
-    }
+  "type": "urn:homekit-spec:device:video-doorbell:00000011",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Video Doorbell",
+    "zh-CN": "可视门铃",
+    "zh-TW": "可視門鈴",
+    "de-DE": "Video-Türklingel",
+    "fr-FR": "Sonnette video",
+    "it-IT": "Videocitofono",
+    "ru-RU": "Видеодомофон",
+    "ko-KR": "비디오 초인종",
+    "es-ES": "Timbre con video",
+    "ja-JP": "ビデオドアベル",
+    "nl-NL": "Videodeurbel",
+    "pt-PT": "Campainha com video",
+    "pt-BR": "Campainha com video"
+  }
 }

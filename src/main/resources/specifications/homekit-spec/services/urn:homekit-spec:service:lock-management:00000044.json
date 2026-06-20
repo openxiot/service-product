@@ -1,29 +1,33 @@
 {
-    "type": "urn:homekit-spec:service:lock-management:00000044",
-    "description": {
-        "en-US": "Lock Management",
-        "zh-CN": "\u9501\u7ba1\u7406",
-        "fr-FR": "Gestion de la serrure",
-        "de-DE": "Schlossverwaltung",
-        "ja-JP": "\u30ed\u30c3\u30af\u7ba1\u7406",
-        "ko-KR": "\uc7a0\uae08 \uad00\ub9ac",
-        "es-ES": "Gesti\u00f3n de cerradura",
-        "pt-BR": "Gerenciamento da fechadura",
-        "zh-TW": "\u9396\u7ba1\u7406"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:lock-control-point:00000019",
-        "urn:homekit-spec:property:version:00000037"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:logs:0000001F",
-        "urn:homekit-spec:property:audio-feedback:00000005",
-        "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
-        "urn:homekit-spec:property:administrator-only-access:00000001",
-        "urn:homekit-spec:property:lock-last-known-action:0000001C",
-        "urn:homekit-spec:property:current-door-state:0000000E",
-        "urn:homekit-spec:property:motion-detected:00000022",
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:lock-management:00000044",
+  "description": {
+    "en-US": "Lock Management",
+    "zh-CN": "锁管理",
+    "zh-TW": "鎖管理",
+    "de-DE": "Schlossverwaltung",
+    "fr-FR": "Gestion de la serrure",
+    "it-IT": "Gestione serratura",
+    "ru-RU": "Управление замком",
+    "ko-KR": "잠금 관리",
+    "es-ES": "Gestión de cerradura",
+    "ja-JP": "ロック管理",
+    "nl-NL": "Slotbeheer",
+    "pt-PT": "Gerenciamento da fechadura",
+    "pt-BR": "Gerenciamento da fechadura"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:lock-control-point:00000019",
+    "urn:homekit-spec:property:version:00000037"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:logs:0000001F",
+    "urn:homekit-spec:property:audio-feedback:00000005",
+    "urn:homekit-spec:property:lock-management-auto-security-timeout:0000001A",
+    "urn:homekit-spec:property:administrator-only-access:00000001",
+    "urn:homekit-spec:property:lock-last-known-action:0000001C",
+    "urn:homekit-spec:property:current-door-state:0000000E",
+    "urn:homekit-spec:property:motion-detected:00000022",
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

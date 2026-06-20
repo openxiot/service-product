@@ -1,92 +1,116 @@
 {
-    "type": "urn:homekit-spec:property:security-system-current-state:00000066",
-    "description": {
-        "en-US": "Security System Current State",
-        "zh-CN": "\u5b89\u5168\u7cfb\u7edf\u5f53\u524d\u72b6\u6001",
-        "fr-FR": "\u00c9tat actuel du syst\u00e8me de s\u00e9curit\u00e9",
-        "de-DE": "Aktueller Sicherheitssystemstatus",
-        "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0\u73fe\u5728\u72b6\u614b",
-        "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c \ud604\uc7ac \uc0c1\ud0dc",
-        "es-ES": "Estado actual del sistema de seguridad",
-        "pt-BR": "Estado atual do sistema de seguran\u00e7a",
-        "zh-TW": "\u5b89\u5168\u7cfb\u7d71\u7576\u524d\u72c0\u614b"
+  "type": "urn:homekit-spec:property:security-system-current-state:00000066",
+  "description": {
+    "en-US": "Security System Current State",
+    "zh-CN": "安全系统当前状态",
+    "zh-TW": "安全系統當前狀態",
+    "de-DE": "Aktueller Sicherheitssystemstatus",
+    "fr-FR": "État actuel du système de sécurité",
+    "it-IT": "Stato attuale sistema sicurezza",
+    "ru-RU": "Текущее состояние охранной системы",
+    "ko-KR": "보안 시스템 현재 상태",
+    "es-ES": "Estado actual del sistema de seguridad",
+    "ja-JP": "セキュリティシステム現在状態",
+    "nl-NL": "Huidige status beveiligingssysteem",
+    "pt-PT": "Estado atual do sistema de segurança",
+    "pt-BR": "Estado atual do sistema de segurança"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "STAY_ARM",
+        "zh-CN": "在家布防",
+        "fr-FR": "ARMER PRÉSENT",
+        "de-DE": "SCHARF (ANWESEND)",
+        "ja-JP": "在宅警備",
+        "ko-KR": "재실 설정",
+        "es-ES": "ARMAR EN CASA",
+        "pt-BR": "ARMAR EM CASA",
+        "zh-TW": "在家佈防",
+        "it-IT": "INSERIMENTO CASA",
+        "ru-RU": "ПОСТАНОВКА_ДОМА",
+        "nl-NL": "INSCHAKELEN_THUIS",
+        "pt-PT": "ARMAR EM CASA"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "STAY_ARM",
-                "zh-CN": "\u5728\u5bb6\u5e03\u9632",
-                "fr-FR": "ARMER PR\u00c9SENT",
-                "de-DE": "SCHARF (ANWESEND)",
-                "ja-JP": "\u5728\u5b85\u8b66\u5099",
-                "ko-KR": "\uc7ac\uc2e4 \uc124\uc815",
-                "es-ES": "ARMAR EN CASA",
-                "pt-BR": "ARMAR EM CASA",
-                "zh-TW": "\u5728\u5bb6\u4f48\u9632"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "AWAY_ARM",
-                "zh-CN": "\u79bb\u5bb6\u5e03\u9632",
-                "fr-FR": "ARMER ABSENT",
-                "de-DE": "SCHARF (ABWESEND)",
-                "ja-JP": "\u5916\u51fa\u8b66\u5099",
-                "ko-KR": "\uc678\ucd9c \uc124\uc815",
-                "es-ES": "ARMAR AUSENTE",
-                "pt-BR": "ARMAR AUSENTE",
-                "zh-TW": "\u96e2\u5bb6\u4f48\u9632"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "NIGHT_ARM",
-                "zh-CN": "\u591c\u95f4\u5e03\u9632",
-                "fr-FR": "ARMER NUIT",
-                "de-DE": "SCHARF (NACHT)",
-                "ja-JP": "\u591c\u9593\u8b66\u5099",
-                "ko-KR": "\uc57c\uac04 \uc124\uc815",
-                "es-ES": "ARMAR NOCTURNO",
-                "pt-BR": "ARMAR NOTURNO",
-                "zh-TW": "\u591c\u9593\u4f48\u9632"
-            }
-        },
-        {
-            "value": 3,
-            "description": {
-                "en-US": "DISARMED",
-                "zh-CN": "\u5df2\u89e3\u9664",
-                "fr-FR": "D\u00c9SARM\u00c9",
-                "de-DE": "ENTSCH\u00c4RFT",
-                "ja-JP": "\u89e3\u9664\u6e08\u307f",
-                "ko-KR": "\ud574\uc81c\ub428",
-                "es-ES": "DESARMADO",
-                "pt-BR": "DESARMADO",
-                "zh-TW": "\u5df2\u89e3\u9664"
-            }
-        },
-        {
-            "value": 4,
-            "description": {
-                "en-US": "ALARM_TRIGGERED",
-                "zh-CN": "\u8b66\u62a5\u89e6\u53d1",
-                "fr-FR": "ALARME D\u00c9CLENCH\u00c9E",
-                "de-DE": "ALARM AUSGEL\u00d6ST",
-                "ja-JP": "\u8b66\u5831\u767a\u5831",
-                "ko-KR": "\uc54c\ub78c \ud2b8\ub9ac\uac70\ub428",
-                "es-ES": "ALARMA ACTIVADA",
-                "pt-BR": "ALARME ACIONADO",
-                "zh-TW": "\u8b66\u5831\u89f8\u767c"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "AWAY_ARM",
+        "zh-CN": "离家布防",
+        "fr-FR": "ARMER ABSENT",
+        "de-DE": "SCHARF (ABWESEND)",
+        "ja-JP": "外出警備",
+        "ko-KR": "외출 설정",
+        "es-ES": "ARMAR AUSENTE",
+        "pt-BR": "ARMAR AUSENTE",
+        "zh-TW": "離家佈防",
+        "it-IT": "INSERIMENTO VIA",
+        "ru-RU": "ПОСТАНОВКА_ВНЕ",
+        "nl-NL": "INSCHAKELEN_VERLATEN",
+        "pt-PT": "ARMAR AUSENTE"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "NIGHT_ARM",
+        "zh-CN": "夜间布防",
+        "fr-FR": "ARMER NUIT",
+        "de-DE": "SCHARF (NACHT)",
+        "ja-JP": "夜間警備",
+        "ko-KR": "야간 설정",
+        "es-ES": "ARMAR NOCTURNO",
+        "pt-BR": "ARMAR NOTURNO",
+        "zh-TW": "夜間佈防",
+        "it-IT": "INSERIMENTO NOTTE",
+        "ru-RU": "ПОСТАНОВКА_НОЧЬ",
+        "nl-NL": "INSCHAKELEN_NACHT",
+        "pt-PT": "ARMAR NOTURNO"
+      }
+    },
+    {
+      "value": 3,
+      "description": {
+        "en-US": "DISARMED",
+        "zh-CN": "已解除",
+        "fr-FR": "DÉSARMÉ",
+        "de-DE": "ENTSCHÄRFT",
+        "ja-JP": "解除済み",
+        "ko-KR": "해제됨",
+        "es-ES": "DESARMADO",
+        "pt-BR": "DESARMADO",
+        "zh-TW": "已解除",
+        "it-IT": "DISINSERITO",
+        "ru-RU": "СНЯТО",
+        "nl-NL": "UITGESCHAKELD",
+        "pt-PT": "DESARMADO"
+      }
+    },
+    {
+      "value": 4,
+      "description": {
+        "en-US": "ALARM_TRIGGERED",
+        "zh-CN": "警报触发",
+        "fr-FR": "ALARME DÉCLENCHÉE",
+        "de-DE": "ALARM AUSGELÖST",
+        "ja-JP": "警報発報",
+        "ko-KR": "알람 트리거됨",
+        "es-ES": "ALARMA ACTIVADA",
+        "pt-BR": "ALARME ACIONADO",
+        "zh-TW": "警報觸發",
+        "it-IT": "ALLARME_ATTIVATO",
+        "ru-RU": "ТРЕВОГА_АКТИВИРОВАНА",
+        "nl-NL": "ALARM_GECATIVEERD",
+        "pt-PT": "ALARME ACIONADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

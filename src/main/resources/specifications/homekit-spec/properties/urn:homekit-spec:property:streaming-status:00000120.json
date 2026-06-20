@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:streaming-status:00000120",
-    "description": {
-        "en-US": "Streaming Status",
-        "zh-CN": "\u6d41\u5a92\u4f53\u72b6\u6001",
-        "fr-FR": "Statut du flux",
-        "de-DE": "Streaming-Status",
-        "ja-JP": "\u30b9\u30c8\u30ea\u30fc\u30df\u30f3\u30b0\u72b6\u614b",
-        "ko-KR": "\uc2a4\ud2b8\ub9ac\ubc0d \uc0c1\ud0dc",
-        "es-ES": "Estado de transmisi\u00f3n",
-        "pt-BR": "Status de streaming",
-        "zh-TW": "\u6d41\u5a92\u9ad4\u72c0\u614b"
-    },
-    "format": "tlv8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:streaming-status:00000120",
+  "description": {
+    "en-US": "Streaming Status",
+    "zh-CN": "流媒体状态",
+    "zh-TW": "流媒體狀態",
+    "de-DE": "Streaming-Status",
+    "fr-FR": "Statut du flux",
+    "it-IT": "Stato streaming",
+    "ru-RU": "Статус потоковой передачи",
+    "ko-KR": "스트리밍 상태",
+    "es-ES": "Estado de transmisión",
+    "ja-JP": "ストリーミング状態",
+    "nl-NL": "Streamingstatus",
+    "pt-PT": "Status de streaming",
+    "pt-BR": "Status de streaming"
+  },
+  "format": "tlv8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

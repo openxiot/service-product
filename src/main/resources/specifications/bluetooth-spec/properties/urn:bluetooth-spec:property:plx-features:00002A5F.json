@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:plx-features:00002A5F",
-    "description": {
-        "en-US": "PLX Features",
-        "zh-CN": "脉搏血氧仪特征",
-        "fr-FR": "Fonctionnalites PLX",
-        "de-DE": "PLX-Funktionen",
-        "ja-JP": "PLX機能",
-        "ko-KR": "PLX 기능",
-        "es-ES": "Funciones PLX",
-        "pt-BR": "Recursos PLX",
-        "zh-TW": "脈搏血氧儀特徵"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:plx-features:00002A5F",
+  "description": {
+    "en-US": "PLX Features",
+    "zh-CN": "脉搏血氧仪特征",
+    "zh-TW": "脈搏血氧儀特徵",
+    "de-DE": "PLX-Funktionen",
+    "fr-FR": "Fonctionnalites PLX",
+    "it-IT": "Funzionalità PLX",
+    "ru-RU": "Функции PLX",
+    "ko-KR": "PLX 기능",
+    "es-ES": "Funciones PLX",
+    "ja-JP": "PLX機能",
+    "nl-NL": "PLX-functies",
+    "pt-PT": "Recursos PLX",
+    "pt-BR": "Recursos PLX"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:heart-rate-measurement:00002A37",
-    "description": {
-        "en-US": "Heart Rate Measurement",
-        "zh-CN": "心率测量",
-        "fr-FR": "Mesure de la frequence cardiaque",
-        "de-DE": "Herzfrequenzmessung",
-        "ja-JP": "心拍数測定",
-        "ko-KR": "심박수 측정",
-        "es-ES": "Medicion de frecuencia cardiaca",
-        "pt-BR": "Medicao da frequencia cardiaca",
-        "zh-TW": "心率測量"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:heart-rate-measurement:00002A37",
+  "description": {
+    "en-US": "Heart Rate Measurement",
+    "zh-CN": "心率测量",
+    "zh-TW": "心率測量",
+    "de-DE": "Herzfrequenzmessung",
+    "fr-FR": "Mesure de la frequence cardiaque",
+    "it-IT": "Misurazione frequenza cardiaca",
+    "ru-RU": "Измерение пульса",
+    "ko-KR": "심박수 측정",
+    "es-ES": "Medicion de frecuencia cardiaca",
+    "ja-JP": "心拍数測定",
+    "nl-NL": "Hartslagmeting",
+    "pt-PT": "Medicao da frequencia cardiaca",
+    "pt-BR": "Medicao da frequencia cardiaca"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:degrees:00000014",
-    "description": {
-        "en-US": "degrees",
-        "zh-CN": "度",
-        "fr-FR": "degres",
-        "de-DE": "Grad",
-        "ja-JP": "度",
-        "ko-KR": "도",
-        "es-ES": "grados",
-        "pt-BR": "graus",
-        "zh-TW": "度"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:degrees:00000014",
+  "description": {
+    "en-US": "degrees",
+    "zh-CN": "度",
+    "zh-TW": "度",
+    "de-DE": "Grad",
+    "fr-FR": "degres",
+    "it-IT": "degrees",
+    "ru-RU": "degrees",
+    "ko-KR": "도",
+    "es-ES": "grados",
+    "ja-JP": "度",
+    "nl-NL": "degrees",
+    "pt-PT": "graus",
+    "pt-BR": "graus"
+  },
+  "lifecycle": "released"
 }

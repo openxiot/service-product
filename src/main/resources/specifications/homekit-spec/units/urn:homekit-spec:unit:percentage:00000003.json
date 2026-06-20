@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:unit:percentage:00000003",
-    "description": {
-        "en-US": "percentage",
-        "zh-CN": "\u767e\u5206\u6bd4",
-        "fr-FR": "pourcentage",
-        "de-DE": "Prozentsatz",
-        "ja-JP": "\u30d1\u30fc\u30bb\u30f3\u30c8",
-        "ko-KR": "\ubc31\ubd84\uc728",
-        "es-ES": "porcentaje",
-        "pt-BR": "porcentagem",
-        "zh-TW": "\u767e\u5206\u6bd4"
-    },
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:unit:percentage:00000003",
+  "description": {
+    "en-US": "percentage",
+    "zh-CN": "百分比",
+    "zh-TW": "百分比",
+    "de-DE": "Prozentsatz",
+    "fr-FR": "pourcentage",
+    "it-IT": "percentage",
+    "ru-RU": "percentage",
+    "ko-KR": "백분율",
+    "es-ES": "porcentaje",
+    "ja-JP": "パーセント",
+    "nl-NL": "percentage",
+    "pt-PT": "porcentagem",
+    "pt-BR": "porcentagem"
+  },
+  "lifecycle": "released"
 }

@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:meters-per-second:00000017",
-    "description": {
-        "en-US": "meters_per_second",
-        "zh-CN": "米/秒",
-        "fr-FR": "metres par seconde",
-        "de-DE": "Meter pro Sekunde",
-        "ja-JP": "メートル毎秒",
-        "ko-KR": "미터 매 초",
-        "es-ES": "metros por segundo",
-        "pt-BR": "metros por segundo",
-        "zh-TW": "米/秒"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:meters-per-second:00000017",
+  "description": {
+    "en-US": "meters_per_second",
+    "zh-CN": "米/秒",
+    "zh-TW": "米/秒",
+    "de-DE": "Meter pro Sekunde",
+    "fr-FR": "metres par seconde",
+    "it-IT": "meters_per_second",
+    "ru-RU": "meters_per_second",
+    "ko-KR": "미터 매 초",
+    "es-ES": "metros por segundo",
+    "ja-JP": "メートル毎秒",
+    "nl-NL": "meters_per_second",
+    "pt-PT": "metros por segundo",
+    "pt-BR": "metros por segundo"
+  },
+  "lifecycle": "released"
 }

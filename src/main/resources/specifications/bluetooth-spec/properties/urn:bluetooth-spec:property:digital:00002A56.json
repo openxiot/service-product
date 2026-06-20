@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:digital:00002A56",
-    "description": {
-        "en-US": "Digital",
-        "zh-CN": "数字",
-        "fr-FR": "Numerique",
-        "de-DE": "Digital",
-        "ja-JP": "デジタル",
-        "ko-KR": "디지털",
-        "es-ES": "Digital",
-        "pt-BR": "Digital",
-        "zh-TW": "數字"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:digital:00002A56",
+  "description": {
+    "en-US": "Digital",
+    "zh-CN": "数字",
+    "zh-TW": "數字",
+    "de-DE": "Digital",
+    "fr-FR": "Numerique",
+    "it-IT": "Digitale",
+    "ru-RU": "Цифровой",
+    "ko-KR": "디지털",
+    "es-ES": "Digital",
+    "ja-JP": "デジタル",
+    "nl-NL": "Digitaal",
+    "pt-PT": "Digital",
+    "pt-BR": "Digital"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

@@ -1,79 +1,99 @@
 {
-    "type": "urn:homekit-spec:property:target-heating-cooling-state:00000033",
-    "description": {
-        "en-US": "Target Heating Cooling State",
-        "zh-CN": "\u76ee\u6807\u52a0\u70ed/\u51b7\u5374\u72b6\u6001",
-        "fr-FR": "\u00c9tat cible de chauffage/refroidissement",
-        "de-DE": "Gew\u00fcnschter Heiz-/K\u00fchlstatus",
-        "ja-JP": "\u76ee\u6a19\u52a0\u71b1\u30fb\u51b7\u5374\u72b6\u614b",
-        "ko-KR": "\ubaa9\ud45c \ub09c\ubc29/\ub0c9\ubc29 \uc0c1\ud0dc",
-        "es-ES": "Estado objetivo de calefacci\u00f3n/refrigeraci\u00f3n",
-        "pt-BR": "Estado alvo de aquecimento/resfriamento",
-        "zh-TW": "\u76ee\u6a19\u52a0\u71b1/\u51b7\u537b\u72c0\u614b"
+  "type": "urn:homekit-spec:property:target-heating-cooling-state:00000033",
+  "description": {
+    "en-US": "Target Heating Cooling State",
+    "zh-CN": "目标加热/冷却状态",
+    "zh-TW": "目標加熱/冷卻狀態",
+    "de-DE": "Gewünschter Heiz-/Kühlstatus",
+    "fr-FR": "État cible de chauffage/refroidissement",
+    "it-IT": "Stato target riscaldamento/raffreddamento",
+    "ru-RU": "Целевое состояние нагрева/охлаждения",
+    "ko-KR": "목표 난방/냉방 상태",
+    "es-ES": "Estado objetivo de calefacción/refrigeración",
+    "ja-JP": "目標加熱・冷却状態",
+    "nl-NL": "Gewenste verwarmings-/koelstatus",
+    "pt-PT": "Estado alvo de aquecimento/resfriamento",
+    "pt-BR": "Estado alvo de aquecimento/resfriamento"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "OFF",
+        "zh-CN": "关闭",
+        "fr-FR": "ÉTEINT",
+        "de-DE": "AUS",
+        "ja-JP": "オフ",
+        "ko-KR": "꺼짐",
+        "es-ES": "APAGADO",
+        "pt-BR": "DESLIGADO",
+        "zh-TW": "關閉",
+        "it-IT": "SPENTO",
+        "ru-RU": "ВЫКЛ",
+        "nl-NL": "UIT",
+        "pt-PT": "DESLIGADO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "OFF",
-                "zh-CN": "\u5173\u95ed",
-                "fr-FR": "\u00c9TEINT",
-                "de-DE": "AUS",
-                "ja-JP": "\u30aa\u30d5",
-                "ko-KR": "\uaebc\uc9d0",
-                "es-ES": "APAGADO",
-                "pt-BR": "DESLIGADO",
-                "zh-TW": "\u95dc\u9589"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "HEAT",
-                "zh-CN": "\u5236\u70ed",
-                "fr-FR": "CHAUD",
-                "de-DE": "HEIZEN",
-                "ja-JP": "\u6696\u623f",
-                "ko-KR": "\ub09c\ubc29",
-                "es-ES": "CALOR",
-                "pt-BR": "CALOR",
-                "zh-TW": "\u5236\u71b1"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "COOL",
-                "zh-CN": "\u5236\u51b7",
-                "fr-FR": "FROID",
-                "de-DE": "K\u00dcHLEN",
-                "ja-JP": "\u51b7\u623f",
-                "ko-KR": "\ub0c9\ubc29",
-                "es-ES": "FR\u00cdO",
-                "pt-BR": "FRIO",
-                "zh-TW": "\u88fd\u51b7"
-            }
-        },
-        {
-            "value": 3,
-            "description": {
-                "en-US": "AUTO",
-                "zh-CN": "\u81ea\u52a8",
-                "fr-FR": "AUTO",
-                "de-DE": "AUTO",
-                "ja-JP": "\u81ea\u52d5",
-                "ko-KR": "\uc790\ub3d9",
-                "es-ES": "AUTO",
-                "pt-BR": "AUTO",
-                "zh-TW": "\u81ea\u52d5"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "HEAT",
+        "zh-CN": "制热",
+        "fr-FR": "CHAUD",
+        "de-DE": "HEIZEN",
+        "ja-JP": "暖房",
+        "ko-KR": "난방",
+        "es-ES": "CALOR",
+        "pt-BR": "CALOR",
+        "zh-TW": "制熱",
+        "it-IT": "RISCALDAMENTO",
+        "ru-RU": "НАГРЕВ",
+        "nl-NL": "VERWARMEN",
+        "pt-PT": "CALOR"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "COOL",
+        "zh-CN": "制冷",
+        "fr-FR": "FROID",
+        "de-DE": "KÜHLEN",
+        "ja-JP": "冷房",
+        "ko-KR": "냉방",
+        "es-ES": "FRÍO",
+        "pt-BR": "FRIO",
+        "zh-TW": "製冷",
+        "it-IT": "RAFFREDDAMENTO",
+        "ru-RU": "ОХЛАЖДЕНИЕ",
+        "nl-NL": "KOELEN",
+        "pt-PT": "FRIO"
+      }
+    },
+    {
+      "value": 3,
+      "description": {
+        "en-US": "AUTO",
+        "zh-CN": "自动",
+        "fr-FR": "AUTO",
+        "de-DE": "AUTO",
+        "ja-JP": "自動",
+        "ko-KR": "자동",
+        "es-ES": "AUTO",
+        "pt-BR": "AUTO",
+        "zh-TW": "自動",
+        "it-IT": "AUTOMATICO",
+        "ru-RU": "АВТО",
+        "nl-NL": "AUTOMATISCH",
+        "pt-PT": "AUTOMÁTICO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

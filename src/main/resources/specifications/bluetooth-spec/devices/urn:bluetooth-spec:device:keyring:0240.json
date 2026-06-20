@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:keyring:0240",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Keyring",
-        "zh-CN": "钥匙扣",
-        "fr-FR": "Porte-cles",
-        "de-DE": "Schlusselring",
-        "ja-JP": "キーリング",
-        "ko-KR": "열쇠고리",
-        "es-ES": "Llavero",
-        "pt-BR": "Chaveiro",
-        "zh-TW": "鑰匙扣"
-    }
+  "type": "urn:bluetooth-spec:device:keyring:0240",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Keyring",
+    "zh-CN": "钥匙扣",
+    "zh-TW": "鑰匙扣",
+    "de-DE": "Schlusselring",
+    "fr-FR": "Porte-cles",
+    "it-IT": "Portachiavi",
+    "ru-RU": "Брелок",
+    "ko-KR": "열쇠고리",
+    "es-ES": "Llavero",
+    "ja-JP": "キーリング",
+    "nl-NL": "Sleutelhanger",
+    "pt-PT": "Chaveiro",
+    "pt-BR": "Chaveiro"
+  }
 }

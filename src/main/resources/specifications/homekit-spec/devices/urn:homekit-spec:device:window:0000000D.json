@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:window:0000000D",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Window",
-        "zh-CN": "窗户",
-        "fr-FR": "Fenetre",
-        "de-DE": "Fenster",
-        "ja-JP": "窓",
-        "ko-KR": "창문",
-        "es-ES": "Ventana",
-        "pt-BR": "Janela",
-        "zh-TW": "窗戶"
-    }
+  "type": "urn:homekit-spec:device:window:0000000D",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Window",
+    "zh-CN": "窗户",
+    "zh-TW": "窗戶",
+    "de-DE": "Fenster",
+    "fr-FR": "Fenetre",
+    "it-IT": "Finestra",
+    "ru-RU": "Окно",
+    "ko-KR": "창문",
+    "es-ES": "Ventana",
+    "ja-JP": "窓",
+    "nl-NL": "Raam",
+    "pt-PT": "Janela",
+    "pt-BR": "Janela"
+  }
 }

@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:carbon-dioxide-detected:00000092",
-    "description": {
-        "en-US": "Carbon Dioxide Detected",
-        "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u68c0\u6d4b\u5230",
-        "fr-FR": "Dioxyde de carbone d\u00e9tect\u00e9",
-        "de-DE": "Kohlendioxid erkannt",
-        "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u691c\u51fa",
-        "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \uac10\uc9c0\ub428",
-        "es-ES": "Di\u00f3xido de carbono detectado",
-        "pt-BR": "Di\u00f3xido de carbono detectado",
-        "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u6aa2\u6e2c\u5230"
+  "type": "urn:homekit-spec:property:carbon-dioxide-detected:00000092",
+  "description": {
+    "en-US": "Carbon Dioxide Detected",
+    "zh-CN": "二氧化碳检测到",
+    "zh-TW": "二氧化碳檢測到",
+    "de-DE": "Kohlendioxid erkannt",
+    "fr-FR": "Dioxyde de carbone détecté",
+    "it-IT": "Anidride carbonica rilevata",
+    "ru-RU": "Обнаружен углекислый газ",
+    "ko-KR": "이산화탄소 감지됨",
+    "es-ES": "Dióxido de carbono detectado",
+    "ja-JP": "二酸化炭素検出",
+    "nl-NL": "Koolstofdioxide gedetecteerd",
+    "pt-PT": "Dióxido de carbono detectado",
+    "pt-BR": "Dióxido de carbono detectado"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "CO2_LEVELS_NORMAL",
+        "zh-CN": "二氧化碳浓度正常",
+        "fr-FR": "NIVEAUX DE CO2 NORMAUX",
+        "de-DE": "CO2-WERTE NORMAL",
+        "ja-JP": "二酸化炭素濃度正常",
+        "ko-KR": "이산화탄소 농도 정상",
+        "es-ES": "NIVELES DE CO2 NORMALES",
+        "pt-BR": "NÍVEIS DE CO2 NORMAIS",
+        "zh-TW": "二氧化碳濃度正常",
+        "it-IT": "LIVELLI_CO2_NORMALI",
+        "ru-RU": "УРОВНИ_CO2_НОРМАЛЬНЫЕ",
+        "nl-NL": "CO2_NIVEAUS_NORMAAL",
+        "pt-PT": "NÍVEIS DE CO2 NORMAIS"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "CO2_LEVELS_NORMAL",
-                "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u6d53\u5ea6\u6b63\u5e38",
-                "fr-FR": "NIVEAUX DE CO2 NORMAUX",
-                "de-DE": "CO2-WERTE NORMAL",
-                "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u6b63\u5e38",
-                "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \uc815\uc0c1",
-                "es-ES": "NIVELES DE CO2 NORMALES",
-                "pt-BR": "N\u00cdVEIS DE CO2 NORMAIS",
-                "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u6fc3\u5ea6\u6b63\u5e38"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "CO2_LEVELS_ABNORMAL",
-                "zh-CN": "\u4e8c\u6c27\u5316\u78b3\u6d53\u5ea6\u5f02\u5e38",
-                "fr-FR": "NIVEAUX DE CO2 ANORMAUX",
-                "de-DE": "CO2-WERTE ANORMAL",
-                "ja-JP": "\u4e8c\u9178\u5316\u70ad\u7d20\u6fc3\u5ea6\u7570\u5e38",
-                "ko-KR": "\uc774\uc0b0\ud654\ud0c4\uc18c \ub18d\ub3c4 \ube44\uc815\uc0c1",
-                "es-ES": "NIVELES DE CO2 ANORMALES",
-                "pt-BR": "N\u00cdVEIS DE CO2 ANORMAIS",
-                "zh-TW": "\u4e8c\u6c27\u5316\u78b3\u6fc3\u5ea6\u7570\u5e38"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "CO2_LEVELS_ABNORMAL",
+        "zh-CN": "二氧化碳浓度异常",
+        "fr-FR": "NIVEAUX DE CO2 ANORMAUX",
+        "de-DE": "CO2-WERTE ANORMAL",
+        "ja-JP": "二酸化炭素濃度異常",
+        "ko-KR": "이산화탄소 농도 비정상",
+        "es-ES": "NIVELES DE CO2 ANORMALES",
+        "pt-BR": "NÍVEIS DE CO2 ANORMAIS",
+        "zh-TW": "二氧化碳濃度異常",
+        "it-IT": "LIVELLI_CO2_ANOMALI",
+        "ru-RU": "УРОВНИ_CO2_АНОМАЛЬНЫЕ",
+        "nl-NL": "CO2_NIVEAUS_AFWIJKEND",
+        "pt-PT": "NÍVEIS DE CO2 ANORMAIS"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

@@ -1,51 +1,63 @@
 {
-    "type": "urn:homekit-spec:property:swing-mode:000000B6",
-    "description": {
-        "en-US": "Swing Mode",
-        "zh-CN": "\u6446\u52a8\u6a21\u5f0f",
-        "fr-FR": "Mode oscillation",
-        "de-DE": "Schwenkmodus",
-        "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u30e2\u30fc\u30c9",
-        "ko-KR": "\uc2a4\uc719 \ubaa8\ub4dc",
-        "es-ES": "Modo oscilaci\u00f3n",
-        "pt-BR": "Modo oscilante",
-        "zh-TW": "\u64fa\u52d5\u6a21\u5f0f"
+  "type": "urn:homekit-spec:property:swing-mode:000000B6",
+  "description": {
+    "en-US": "Swing Mode",
+    "zh-CN": "摆动模式",
+    "zh-TW": "擺動模式",
+    "de-DE": "Schwenkmodus",
+    "fr-FR": "Mode oscillation",
+    "it-IT": "Modalità oscillazione",
+    "ru-RU": "Режим качания",
+    "ko-KR": "스윙 모드",
+    "es-ES": "Modo oscilación",
+    "ja-JP": "スイングモード",
+    "nl-NL": "Zwaaimodus",
+    "pt-PT": "Modo oscilante",
+    "pt-BR": "Modo oscilante"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "SWING_DISABLED",
+        "zh-CN": "摆动已禁用",
+        "fr-FR": "OSCILLATION DÉSACTIVÉE",
+        "de-DE": "SCHWENKEN DEAKTIVIERT",
+        "ja-JP": "スイング無効",
+        "ko-KR": "스윙 비활성화됨",
+        "es-ES": "OSCILACIÓN DESACTIVADA",
+        "pt-BR": "OSCILAÇÃO DESATIVADA",
+        "zh-TW": "擺動已禁用",
+        "it-IT": "OSCILLAZIONE_DISABILITATA",
+        "ru-RU": "КАЧАНИЕ_ОТКЛЮЧЕНО",
+        "nl-NL": "ZWAAIEN_UITGESCHAKELD",
+        "pt-PT": "OSCILAÇÃO DESATIVADA"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "SWING_DISABLED",
-                "zh-CN": "\u6446\u52a8\u5df2\u7981\u7528",
-                "fr-FR": "OSCILLATION D\u00c9SACTIV\u00c9E",
-                "de-DE": "SCHWENKEN DEAKTIVIERT",
-                "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u7121\u52b9",
-                "ko-KR": "\uc2a4\uc719 \ube44\ud65c\uc131\ud654\ub428",
-                "es-ES": "OSCILACI\u00d3N DESACTIVADA",
-                "pt-BR": "OSCILA\u00c7\u00c3O DESATIVADA",
-                "zh-TW": "\u64fa\u52d5\u5df2\u7981\u7528"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "SWING_ENABLED",
-                "zh-CN": "\u6446\u52a8\u5df2\u542f\u7528",
-                "fr-FR": "OSCILLATION ACTIV\u00c9E",
-                "de-DE": "SCHWENKEN AKTIVIERT",
-                "ja-JP": "\u30b9\u30a4\u30f3\u30b0\u6709\u52b9",
-                "ko-KR": "\uc2a4\uc719 \ud65c\uc131\ud654\ub428",
-                "es-ES": "OSCILACI\u00d3N ACTIVADA",
-                "pt-BR": "OSCILA\u00c7\u00c3O ATIVADA",
-                "zh-TW": "\u64fa\u52d5\u5df2\u555f\u7528"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "SWING_ENABLED",
+        "zh-CN": "摆动已启用",
+        "fr-FR": "OSCILLATION ACTIVÉE",
+        "de-DE": "SCHWENKEN AKTIVIERT",
+        "ja-JP": "スイング有効",
+        "ko-KR": "스윙 활성화됨",
+        "es-ES": "OSCILACIÓN ACTIVADA",
+        "pt-BR": "OSCILAÇÃO ATIVADA",
+        "zh-TW": "擺動已啟用",
+        "it-IT": "OSCILLAZIONE_ABILITATA",
+        "ru-RU": "КАЧАНИЕ_ВКЛЮЧЕНО",
+        "nl-NL": "ZWAAIEN_INGESCHAKELD",
+        "pt-PT": "OSCILAÇÃO ATIVADA"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

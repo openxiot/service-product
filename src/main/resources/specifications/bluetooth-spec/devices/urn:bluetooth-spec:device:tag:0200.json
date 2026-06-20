@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:tag:0200",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Tag",
-        "zh-CN": "标签",
-        "fr-FR": "Etiquette",
-        "de-DE": "Tag",
-        "ja-JP": "タグ",
-        "ko-KR": "태그",
-        "es-ES": "Etiqueta",
-        "pt-BR": "Etiqueta",
-        "zh-TW": "標籤"
-    }
+  "type": "urn:bluetooth-spec:device:tag:0200",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Tag",
+    "zh-CN": "标签",
+    "zh-TW": "標籤",
+    "de-DE": "Tag",
+    "fr-FR": "Etiquette",
+    "it-IT": "Tag",
+    "ru-RU": "Метка",
+    "ko-KR": "태그",
+    "es-ES": "Etiqueta",
+    "ja-JP": "タグ",
+    "nl-NL": "Tag",
+    "pt-PT": "Etiqueta",
+    "pt-BR": "Etiqueta"
+  }
 }

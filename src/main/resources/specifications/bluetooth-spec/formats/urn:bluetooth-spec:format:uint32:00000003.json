@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:format:uint32:00000003",
-    "description": {
-        "en-US": "uint32",
-        "zh-CN": "无符号 32 位整数",
-        "fr-FR": "uint32",
-        "de-DE": "uint32",
-        "ja-JP": "uint32",
-        "ko-KR": "uint32",
-        "es-ES": "uint32",
-        "pt-BR": "uint32",
-        "zh-TW": "無符號 32 位整數"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:format:uint32:00000003",
+  "description": {
+    "en-US": "uint32",
+    "zh-CN": "无符号 32 位整数",
+    "zh-TW": "無符號 32 位整數",
+    "de-DE": "uint32",
+    "fr-FR": "uint32",
+    "it-IT": "uint32",
+    "ru-RU": "uint32",
+    "ko-KR": "uint32",
+    "es-ES": "uint32",
+    "ja-JP": "uint32",
+    "nl-NL": "uint32",
+    "pt-PT": "uint32",
+    "pt-BR": "uint32"
+  },
+  "lifecycle": "released"
 }

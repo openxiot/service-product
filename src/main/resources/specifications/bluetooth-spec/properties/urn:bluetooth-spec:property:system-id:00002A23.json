@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:system-id:00002A23",
-    "description": {
-        "en-US": "System ID",
-        "zh-CN": "系统 ID",
-        "fr-FR": "ID systeme",
-        "de-DE": "System-ID",
-        "ja-JP": "システムID",
-        "ko-KR": "시스템 ID",
-        "es-ES": "ID del sistema",
-        "pt-BR": "ID do sistema",
-        "zh-TW": "系統 ID"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:system-id:00002A23",
+  "description": {
+    "en-US": "System ID",
+    "zh-CN": "系统 ID",
+    "zh-TW": "系統 ID",
+    "de-DE": "System-ID",
+    "fr-FR": "ID systeme",
+    "it-IT": "ID sistema",
+    "ru-RU": "ID системы",
+    "ko-KR": "시스템 ID",
+    "es-ES": "ID del sistema",
+    "ja-JP": "システムID",
+    "nl-NL": "Systeem-ID",
+    "pt-PT": "ID do sistema",
+    "pt-BR": "ID do sistema"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

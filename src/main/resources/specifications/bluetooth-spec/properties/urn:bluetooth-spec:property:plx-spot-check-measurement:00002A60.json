@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60",
-    "description": {
-        "en-US": "PLX Spot-Check Measurement",
-        "zh-CN": "脉搏血氧仪点测",
-        "fr-FR": "Mesure ponctuelle PLX",
-        "de-DE": "PLX-Stichprobenmessung",
-        "ja-JP": "PLXスポットチェック測定",
-        "ko-KR": "PLX 스팟 체크 측정",
-        "es-ES": "Medicion puntual PLX",
-        "pt-BR": "Medicao pontual PLX",
-        "zh-TW": "脈搏血氧儀點測"
-    },
-    "format": "uint8",
-    "access": [
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:plx-spot-check-measurement:00002A60",
+  "description": {
+    "en-US": "PLX Spot-Check Measurement",
+    "zh-CN": "脉搏血氧仪点测",
+    "zh-TW": "脈搏血氧儀點測",
+    "de-DE": "PLX-Stichprobenmessung",
+    "fr-FR": "Mesure ponctuelle PLX",
+    "it-IT": "Misurazione spot-check PLX",
+    "ru-RU": "Точечное измерение PLX",
+    "ko-KR": "PLX 스팟 체크 측정",
+    "es-ES": "Medicion puntual PLX",
+    "ja-JP": "PLXスポットチェック測定",
+    "nl-NL": "PLX spot-check meting",
+    "pt-PT": "Medicao pontual PLX",
+    "pt-BR": "Medicao pontual PLX"
+  },
+  "format": "uint8",
+  "access": [
+    "notify"
+  ],
+  "lifecycle": "released"
 }

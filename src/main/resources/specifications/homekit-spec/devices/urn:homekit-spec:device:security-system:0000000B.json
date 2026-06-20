@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:security-system:0000000B",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Security System",
-        "zh-CN": "安全系统",
-        "fr-FR": "Systeme de securite",
-        "de-DE": "Sicherheitssystem",
-        "ja-JP": "セキュリティシステム",
-        "ko-KR": "보안 시스템",
-        "es-ES": "Sistema de seguridad",
-        "pt-BR": "Sistema de seguranca",
-        "zh-TW": "安全系統"
-    }
+  "type": "urn:homekit-spec:device:security-system:0000000B",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Security System",
+    "zh-CN": "安全系统",
+    "zh-TW": "安全系統",
+    "de-DE": "Sicherheitssystem",
+    "fr-FR": "Systeme de securite",
+    "it-IT": "Sistema di sicurezza",
+    "ru-RU": "Охранная система",
+    "ko-KR": "보안 시스템",
+    "es-ES": "Sistema de seguridad",
+    "ja-JP": "セキュリティシステム",
+    "nl-NL": "Beveiligingssysteem",
+    "pt-PT": "Sistema de seguranca",
+    "pt-BR": "Sistema de seguranca"
+  }
 }

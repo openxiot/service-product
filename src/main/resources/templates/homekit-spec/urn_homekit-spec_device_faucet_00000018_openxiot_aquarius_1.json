@@ -4,13 +4,17 @@
   "description": {
     "en-US": "Faucet",
     "zh-CN": "水龙头",
-    "fr-FR": "Robinet",
+    "zh-TW": "水龍頭",
     "de-DE": "Wasserhahn",
-    "ja-JP": "蛇口",
+    "fr-FR": "Robinet",
+    "it-IT": "Rubinetto",
+    "ru-RU": "Кран",
     "ko-KR": "수도꼭지",
     "es-ES": "Grifo",
-    "pt-BR": "Torneira",
-    "zh-TW": "水龍頭"
+    "ja-JP": "蛇口",
+    "nl-NL": "Kraan",
+    "pt-PT": "Torneira",
+    "pt-BR": "Torneira"
   },
   "services": [
     {
@@ -29,7 +33,11 @@
         "ko-KR": "액세서리 정보",
         "es-ES": "Información del accesorio",
         "pt-BR": "Informações do acessório",
-        "zh-TW": "配件信息"
+        "zh-TW": "配件信息",
+        "it-IT": "Informazioni accessorio",
+        "ru-RU": "Информация об аксессуаре",
+        "nl-NL": "Accessoire-informatie",
+        "pt-PT": "Informações do acessório"
       },
       "properties": [
         {
@@ -37,7 +45,16 @@
           "description": {
             "en-US": "Firmware Revision",
             "zh-TW": "固件版本",
-            "zh-CN": "固件版本"
+            "zh-CN": "固件版本",
+            "de-DE": "Firmware-Version",
+            "fr-FR": "Version du firmware",
+            "it-IT": "Revisione firmware",
+            "ru-RU": "Ревизия прошивки",
+            "ko-KR": "펌웨어 버전",
+            "es-ES": "Revisión del firmware",
+            "ja-JP": "ファームウェアリビジョン",
+            "nl-NL": "Firmware revisie",
+            "pt-PT": "Revisão do firmware"
           },
           "format": "string",
           "access": [
@@ -50,8 +67,17 @@
           "type": "urn:homekit-spec:property:identify:00000014:openxiot:aquarius:1",
           "description": {
             "en-US": "Identify",
-            "zh-TW": "辨認",
-            "zh-CN": "辨认"
+            "zh-TW": "識別",
+            "zh-CN": "识别",
+            "de-DE": "Identifizieren",
+            "fr-FR": "Identifier",
+            "it-IT": "Identifica",
+            "ru-RU": "Идентификация",
+            "ko-KR": "식별",
+            "es-ES": "Identificar",
+            "ja-JP": "識別",
+            "nl-NL": "Identificeren",
+            "pt-PT": "Identificar"
           },
           "format": "bool",
           "access": [
@@ -65,7 +91,16 @@
           "description": {
             "en-US": "Manufacturer",
             "zh-TW": "製造商",
-            "zh-CN": "制造商"
+            "zh-CN": "制造商",
+            "de-DE": "Hersteller",
+            "fr-FR": "Fabricant",
+            "it-IT": "Produttore",
+            "ru-RU": "Производитель",
+            "ko-KR": "제조업체",
+            "es-ES": "Fabricante",
+            "ja-JP": "メーカー",
+            "nl-NL": "Fabrikant",
+            "pt-PT": "Fabricante"
           },
           "format": "string",
           "access": [
@@ -79,7 +114,16 @@
           "description": {
             "en-US": "Model",
             "zh-TW": "型號",
-            "zh-CN": "型号"
+            "zh-CN": "型号",
+            "de-DE": "Modell",
+            "fr-FR": "Modèle",
+            "it-IT": "Modello",
+            "ru-RU": "Модель",
+            "ko-KR": "모델",
+            "es-ES": "Modelo",
+            "ja-JP": "モデル",
+            "nl-NL": "Model",
+            "pt-PT": "Modelo"
           },
           "format": "string",
           "access": [
@@ -93,7 +137,16 @@
           "description": {
             "en-US": "name",
             "zh-TW": "名稱",
-            "zh-CN": "名称"
+            "zh-CN": "名称",
+            "de-DE": "name",
+            "fr-FR": "name",
+            "it-IT": "name",
+            "ru-RU": "name",
+            "ko-KR": "name",
+            "es-ES": "name",
+            "ja-JP": "name",
+            "nl-NL": "name",
+            "pt-PT": "name"
           },
           "format": "string",
           "access": [
@@ -107,7 +160,16 @@
           "description": {
             "en-US": "Serial Number",
             "zh-TW": "序列號",
-            "zh-CN": "序列号"
+            "zh-CN": "序列号",
+            "de-DE": "Seriennummer",
+            "fr-FR": "Numéro de série",
+            "it-IT": "Numero seriale",
+            "ru-RU": "Серийный номер",
+            "ko-KR": "일련번호",
+            "es-ES": "Número de serie",
+            "ja-JP": "シリアル番号",
+            "nl-NL": "Serienummer",
+            "pt-PT": "Número de série"
           },
           "format": "string",
           "access": [
@@ -120,8 +182,17 @@
           "type": "urn:homekit-spec:property:accessory-flags:000000A6:openxiot:aquarius:1",
           "description": {
             "en-US": "Accessory Flags",
-            "zh-TW": "配件屬性",
-            "zh-CN": "配件属性"
+            "zh-TW": "附件標誌",
+            "zh-CN": "附件标志",
+            "de-DE": "Zubehör-Flags",
+            "fr-FR": "Indicateurs d'accessoire",
+            "it-IT": "Flag accessorio",
+            "ru-RU": "Флаги аксессуара",
+            "ko-KR": "액세서리 플래그",
+            "es-ES": "Indicadores de accesorio",
+            "ja-JP": "アクセサリフラグ",
+            "nl-NL": "Accessoire-vlaggen",
+            "pt-PT": "Sinalizadores do acessório"
           },
           "format": "uint32",
           "access": [
@@ -141,7 +212,16 @@
           "description": {
             "en-US": "Hardware Revision",
             "zh-TW": "硬件版本",
-            "zh-CN": "硬件版本"
+            "zh-CN": "硬件版本",
+            "de-DE": "Hardware-Version",
+            "fr-FR": "Version du matériel",
+            "it-IT": "Revisione hardware",
+            "ru-RU": "Ревизия аппаратного обеспечения",
+            "ko-KR": "하드웨어 버전",
+            "es-ES": "Revisión del hardware",
+            "ja-JP": "ハードウェアリビジョン",
+            "nl-NL": "Hardware revisie",
+            "pt-PT": "Revisão do hardware"
           },
           "format": "string",
           "access": [
@@ -168,15 +248,28 @@
         "ko-KR": "수도꼭지",
         "es-ES": "Grifo",
         "pt-BR": "Torneira",
-        "zh-TW": "水龍頭"
+        "zh-TW": "水龍頭",
+        "it-IT": "Rubinetto",
+        "ru-RU": "Кран",
+        "nl-NL": "Kraan",
+        "pt-PT": "Torneira"
       },
       "properties": [
         {
           "type": "urn:homekit-spec:property:active:000000B0:openxiot:aquarius:1",
           "description": {
             "en-US": "Active",
-            "zh-CN": "开关",
-            "zh-TW": "開關"
+            "zh-CN": "活动状态",
+            "zh-TW": "活動狀態",
+            "de-DE": "Aktiv",
+            "fr-FR": "Actif",
+            "it-IT": "Attivo",
+            "ru-RU": "Активный",
+            "ko-KR": "활성",
+            "es-ES": "Activo",
+            "ja-JP": "アクティブ",
+            "nl-NL": "Actief",
+            "pt-PT": "Ativo"
           },
           "format": "uint8",
           "value-list": [

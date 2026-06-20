@@ -1,22 +1,26 @@
 {
-    "type": "urn:bluetooth-spec:service:health-thermometer:1809",
-    "description": {
-        "en-US": "Health Thermometer",
-        "zh-CN": "健康体温计",
-        "fr-FR": "Thermometre de sante",
-        "de-DE": "Gesundheitsthermometer",
-        "ja-JP": "健康体温計",
-        "ko-KR": "건강 체온계",
-        "es-ES": "Termometro de salud",
-        "pt-BR": "Termometro de saude",
-        "zh-TW": "健康體溫計"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:temperature-measurement:00002A1C"
-    ],
-    "optional-properties": [
-        "urn:bluetooth-spec:property:temperature-type:00002A1D",
-        "urn:bluetooth-spec:property:intermediate-temperature:00002A1E"
-    ]
+  "type": "urn:bluetooth-spec:service:health-thermometer:1809",
+  "description": {
+    "en-US": "Health Thermometer",
+    "zh-CN": "健康体温计",
+    "zh-TW": "健康體溫計",
+    "de-DE": "Gesundheitsthermometer",
+    "fr-FR": "Thermometre de sante",
+    "it-IT": "Termometro sanitario",
+    "ru-RU": "Медицинский термометр",
+    "ko-KR": "건강 체온계",
+    "es-ES": "Termometro de salud",
+    "ja-JP": "健康体温計",
+    "nl-NL": "Medische thermometer",
+    "pt-PT": "Termometro de saude",
+    "pt-BR": "Termometro de saude"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:temperature-measurement:00002A1C"
+  ],
+  "optional-properties": [
+    "urn:bluetooth-spec:property:temperature-type:00002A1D",
+    "urn:bluetooth-spec:property:intermediate-temperature:00002A1E"
+  ]
 }

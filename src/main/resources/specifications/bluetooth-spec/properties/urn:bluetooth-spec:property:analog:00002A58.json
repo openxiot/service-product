@@ -1,20 +1,24 @@
 {
-    "type": "urn:bluetooth-spec:property:analog:00002A58",
-    "description": {
-        "en-US": "Analog",
-        "zh-CN": "模拟",
-        "fr-FR": "Analogique",
-        "de-DE": "Analog",
-        "ja-JP": "アナログ",
-        "ko-KR": "아날로그",
-        "es-ES": "Analogico",
-        "pt-BR": "Analogico",
-        "zh-TW": "模擬"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:analog:00002A58",
+  "description": {
+    "en-US": "Analog",
+    "zh-CN": "模拟",
+    "zh-TW": "模擬",
+    "de-DE": "Analog",
+    "fr-FR": "Analogique",
+    "it-IT": "Analogico",
+    "ru-RU": "Аналоговый",
+    "ko-KR": "아날로그",
+    "es-ES": "Analogico",
+    "ja-JP": "アナログ",
+    "nl-NL": "Analoog",
+    "pt-PT": "Analogico",
+    "pt-BR": "Analogico"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

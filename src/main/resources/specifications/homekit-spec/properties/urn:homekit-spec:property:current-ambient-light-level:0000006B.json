@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:current-ambient-light-level:0000006B",
-    "description": {
-        "en-US": "Current Ambient Light Level",
-        "zh-CN": "\u5f53\u524d\u73af\u5883\u5149\u5f3a\u5ea6",
-        "fr-FR": "Niveau de lumi\u00e8re ambiante actuel",
-        "de-DE": "Aktuelle Umgebungslichtst\u00e4rke",
-        "ja-JP": "\u73fe\u5728\u306e\u74b0\u5883\u5149\u30ec\u30d9\u30eb",
-        "ko-KR": "\ud604\uc7ac \uc8fc\ubcc0 \uc870\ub3c4",
-        "es-ES": "Nivel de luz ambiental actual",
-        "pt-BR": "N\u00edvel de luz ambiente atual",
-        "zh-TW": "\u7576\u524d\u74b0\u5883\u5149\u5f37\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0.0001,
-        100000,
-        1
-    ],
-    "unit": "lux",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:current-ambient-light-level:0000006B",
+  "description": {
+    "en-US": "Current Ambient Light Level",
+    "zh-CN": "当前环境光强度",
+    "zh-TW": "當前環境光強度",
+    "de-DE": "Aktuelle Umgebungslichtstärke",
+    "fr-FR": "Niveau de lumière ambiante actuel",
+    "it-IT": "Livello luminosità ambientale attuale",
+    "ru-RU": "Текущий уровень освещенности",
+    "ko-KR": "현재 주변 조도",
+    "es-ES": "Nivel de luz ambiental actual",
+    "ja-JP": "現在の環境光レベル",
+    "nl-NL": "Huidig omgevingslichtniveau",
+    "pt-PT": "Nível de luz ambiente atual",
+    "pt-BR": "Nível de luz ambiente atual"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0.0001,
+    100000,
+    1
+  ],
+  "unit": "lux",
+  "lifecycle": "released"
 }

@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:hue:00000013",
-    "description": {
-        "en-US": "Hue",
-        "zh-CN": "\u8272\u8c03",
-        "fr-FR": "Teinte",
-        "de-DE": "Farbton",
-        "ja-JP": "\u8272\u76f8",
-        "ko-KR": "\uc0c9\uc870",
-        "es-ES": "Tono",
-        "pt-BR": "Matiz",
-        "zh-TW": "\u8272\u8abf"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        360,
-        1
-    ],
-    "unit": "arcdegrees",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:hue:00000013",
+  "description": {
+    "en-US": "Hue",
+    "zh-CN": "色调",
+    "zh-TW": "色調",
+    "de-DE": "Farbton",
+    "fr-FR": "Teinte",
+    "it-IT": "Tonalità",
+    "ru-RU": "Оттенок",
+    "ko-KR": "색조",
+    "es-ES": "Tono",
+    "ja-JP": "色相",
+    "nl-NL": "Tint",
+    "pt-PT": "Matiz",
+    "pt-BR": "Matiz"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    360,
+    1
+  ],
+  "unit": "arcdegrees",
+  "lifecycle": "released"
 }

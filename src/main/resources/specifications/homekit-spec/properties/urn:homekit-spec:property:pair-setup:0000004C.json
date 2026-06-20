@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:pair-setup:0000004C",
-    "description": {
-        "en-US": "Pair Setup",
-        "zh-CN": "\u914d\u5bf9\u8bbe\u7f6e",
-        "fr-FR": "Configuration de l'appairage",
-        "de-DE": "Pairing-Setup",
-        "ja-JP": "\u30da\u30a2\u8a2d\u5b9a",
-        "ko-KR": "\ud398\uc5b4 \uc124\uc815",
-        "es-ES": "Configuraci\u00f3n de emparejamiento",
-        "pt-BR": "Configura\u00e7\u00e3o de pareamento",
-        "zh-TW": "\u914d\u5c0d\u8a2d\u7f6e"
-    },
-    "format": "tlv8",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:pair-setup:0000004C",
+  "description": {
+    "en-US": "Pair Setup",
+    "zh-CN": "配对设置",
+    "zh-TW": "配對設置",
+    "de-DE": "Pairing-Setup",
+    "fr-FR": "Configuration de l'appairage",
+    "it-IT": "Configurazione associazione",
+    "ru-RU": "Настройка сопряжения",
+    "ko-KR": "페어 설정",
+    "es-ES": "Configuración de emparejamiento",
+    "ja-JP": "ペア設定",
+    "nl-NL": "Koppelingsinstellingen",
+    "pt-PT": "Configuração de pareamento",
+    "pt-BR": "Configuração de pareamento"
+  },
+  "format": "tlv8",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released"
 }

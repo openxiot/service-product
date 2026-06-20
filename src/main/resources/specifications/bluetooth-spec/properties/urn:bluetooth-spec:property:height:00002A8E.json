@@ -1,21 +1,25 @@
 {
-    "type": "urn:bluetooth-spec:property:height:00002A8E",
-    "description": {
-        "en-US": "Height",
-        "zh-CN": "身高",
-        "fr-FR": "Taille",
-        "de-DE": "Korpergroße",
-        "ja-JP": "身長",
-        "ko-KR": "키",
-        "es-ES": "Altura",
-        "pt-BR": "Altura",
-        "zh-TW": "身高"
-    },
-    "format": "uint16",
-    "access": [
-        "read",
-        "write"
-    ],
-    "lifecycle": "released",
-    "unit": "meters"
+  "type": "urn:bluetooth-spec:property:height:00002A8E",
+  "description": {
+    "en-US": "Height",
+    "zh-CN": "身高",
+    "zh-TW": "身高",
+    "de-DE": "Korpergroße",
+    "fr-FR": "Taille",
+    "it-IT": "Altezza",
+    "ru-RU": "Рост",
+    "ko-KR": "키",
+    "es-ES": "Altura",
+    "ja-JP": "身長",
+    "nl-NL": "Lengte",
+    "pt-PT": "Altura",
+    "pt-BR": "Altura"
+  },
+  "format": "uint16",
+  "access": [
+    "read",
+    "write"
+  ],
+  "lifecycle": "released",
+  "unit": "meters"
 }

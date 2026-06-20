@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:volume:00000119",
-    "description": {
-        "en-US": "Volume",
-        "zh-CN": "\u97f3\u91cf",
-        "fr-FR": "Volume",
-        "de-DE": "Lautst\u00e4rke",
-        "ja-JP": "\u97f3\u91cf",
-        "ko-KR": "\ubcfc\ub968",
-        "es-ES": "Volumen",
-        "pt-BR": "Volume",
-        "zh-TW": "\u97f3\u91cf"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:volume:00000119",
+  "description": {
+    "en-US": "Volume",
+    "zh-CN": "音量",
+    "zh-TW": "音量",
+    "de-DE": "Lautstärke",
+    "fr-FR": "Volume",
+    "it-IT": "Volume",
+    "ru-RU": "Громкость",
+    "ko-KR": "볼륨",
+    "es-ES": "Volumen",
+    "ja-JP": "音量",
+    "nl-NL": "Volume",
+    "pt-PT": "Volume",
+    "pt-BR": "Volume"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

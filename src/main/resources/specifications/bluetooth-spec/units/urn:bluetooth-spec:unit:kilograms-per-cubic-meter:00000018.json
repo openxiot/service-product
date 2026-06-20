@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:kilograms-per-cubic-meter:00000018",
-    "description": {
-        "en-US": "kilograms_per_cubic_meter",
-        "zh-CN": "千克/立方米",
-        "fr-FR": "kg/m3",
-        "de-DE": "kg/m3",
-        "ja-JP": "kg/m3",
-        "ko-KR": "kg/m3",
-        "es-ES": "kg/m3",
-        "pt-BR": "kg/m3",
-        "zh-TW": "千克/立方米"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:kilograms-per-cubic-meter:00000018",
+  "description": {
+    "en-US": "kilograms_per_cubic_meter",
+    "zh-CN": "千克/立方米",
+    "zh-TW": "千克/立方米",
+    "de-DE": "kg/m3",
+    "fr-FR": "kg/m3",
+    "it-IT": "kilograms_per_cubic_meter",
+    "ru-RU": "kilograms_per_cubic_meter",
+    "ko-KR": "kg/m3",
+    "es-ES": "kg/m3",
+    "ja-JP": "kg/m3",
+    "nl-NL": "kilograms_per_cubic_meter",
+    "pt-PT": "kg/m3",
+    "pt-BR": "kg/m3"
+  },
+  "lifecycle": "released"
 }

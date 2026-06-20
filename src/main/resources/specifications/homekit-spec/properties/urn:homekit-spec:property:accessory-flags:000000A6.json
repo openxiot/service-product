@@ -1,20 +1,24 @@
 {
-    "type": "urn:homekit-spec:property:accessory-flags:000000A6",
-    "description": {
-        "en-US": "Accessory Flags",
-        "zh-CN": "\u9644\u4ef6\u6807\u5fd7",
-        "fr-FR": "Indicateurs d'accessoire",
-        "de-DE": "Zubeh\u00f6r-Flags",
-        "ja-JP": "\u30a2\u30af\u30bb\u30b5\u30ea\u30d5\u30e9\u30b0",
-        "ko-KR": "\uc561\uc138\uc11c\ub9ac \ud50c\ub798\uadf8",
-        "es-ES": "Indicadores de accesorio",
-        "pt-BR": "Sinalizadores do acess\u00f3rio",
-        "zh-TW": "\u9644\u4ef6\u6a19\u8a8c"
-    },
-    "format": "uint32",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:accessory-flags:000000A6",
+  "description": {
+    "en-US": "Accessory Flags",
+    "zh-CN": "附件标志",
+    "zh-TW": "附件標誌",
+    "de-DE": "Zubehör-Flags",
+    "fr-FR": "Indicateurs d'accessoire",
+    "it-IT": "Flag accessorio",
+    "ru-RU": "Флаги аксессуара",
+    "ko-KR": "액세서리 플래그",
+    "es-ES": "Indicadores de accesorio",
+    "ja-JP": "アクセサリフラグ",
+    "nl-NL": "Accessoire-vlaggen",
+    "pt-PT": "Sinalizadores do acessório",
+    "pt-BR": "Sinalizadores do acessório"
+  },
+  "format": "uint32",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

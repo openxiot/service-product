@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:pulse-oximeter:0440",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Pulse Oximeter",
-        "zh-CN": "脉搏血氧仪",
-        "fr-FR": "Oxymetre de pouls",
-        "de-DE": "Pulsoximeter",
-        "ja-JP": "パルスオキシメータ",
-        "ko-KR": "맥박 산소 측정기",
-        "es-ES": "Oximetro de pulso",
-        "pt-BR": "Oximetro de pulso",
-        "zh-TW": "脈搏血氧儀"
-    }
+  "type": "urn:bluetooth-spec:device:pulse-oximeter:0440",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Pulse Oximeter",
+    "zh-CN": "脉搏血氧仪",
+    "zh-TW": "脈搏血氧儀",
+    "de-DE": "Pulsoximeter",
+    "fr-FR": "Oxymetre de pouls",
+    "it-IT": "Ossimetro",
+    "ru-RU": "Пульсоксиметр",
+    "ko-KR": "맥박 산소 측정기",
+    "es-ES": "Oximetro de pulso",
+    "ja-JP": "パルスオキシメータ",
+    "nl-NL": "Pulse-oximeter",
+    "pt-PT": "Oximetro de pulso",
+    "pt-BR": "Oximetro de pulso"
+  }
 }

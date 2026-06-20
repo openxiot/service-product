@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:smoke-detected:00000076",
-    "description": {
-        "en-US": "Smoke Detected",
-        "zh-CN": "\u68c0\u6d4b\u5230\u70df\u96fe",
-        "fr-FR": "Fum\u00e9e d\u00e9tect\u00e9e",
-        "de-DE": "Rauch erkannt",
-        "ja-JP": "\u7159\u691c\u51fa",
-        "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
-        "es-ES": "Humo detectado",
-        "pt-BR": "Fuma\u00e7a detectada",
-        "zh-TW": "\u6aa2\u6e2c\u5230\u7159\u9727"
+  "type": "urn:homekit-spec:property:smoke-detected:00000076",
+  "description": {
+    "en-US": "Smoke Detected",
+    "zh-CN": "检测到烟雾",
+    "zh-TW": "檢測到煙霧",
+    "de-DE": "Rauch erkannt",
+    "fr-FR": "Fumée détectée",
+    "it-IT": "Fumo rilevato",
+    "ru-RU": "Обнаружен дым",
+    "ko-KR": "연기 감지됨",
+    "es-ES": "Humo detectado",
+    "ja-JP": "煙検出",
+    "nl-NL": "Rook gedetecteerd",
+    "pt-PT": "Fumaça detectada",
+    "pt-BR": "Fumaça detectada"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "SMOKE_NOT_DETECTED",
+        "zh-CN": "未检测到烟雾",
+        "fr-FR": "AUCUNE FUMÉE DÉTECTÉE",
+        "de-DE": "KEIN RAUCH ERKANNT",
+        "ja-JP": "煙未検出",
+        "ko-KR": "연기 미감지",
+        "es-ES": "HUMO NO DETECTADO",
+        "pt-BR": "FUMAÇA NÃO DETECTADA",
+        "zh-TW": "未檢測到煙霧",
+        "it-IT": "FUMO_NON_RILEVATO",
+        "ru-RU": "ДЫМ_НЕ_ОБНАРУЖЕН",
+        "nl-NL": "ROOK_NIET_GEDETECTEERD",
+        "pt-PT": "FUMAÇA NÃO DETECTADA"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "SMOKE_NOT_DETECTED",
-                "zh-CN": "\u672a\u68c0\u6d4b\u5230\u70df\u96fe",
-                "fr-FR": "AUCUNE FUM\u00c9E D\u00c9TECT\u00c9E",
-                "de-DE": "KEIN RAUCH ERKANNT",
-                "ja-JP": "\u7159\u672a\u691c\u51fa",
-                "ko-KR": "\uc5f0\uae30 \ubbf8\uac10\uc9c0",
-                "es-ES": "HUMO NO DETECTADO",
-                "pt-BR": "FUMA\u00c7A N\u00c3O DETECTADA",
-                "zh-TW": "\u672a\u6aa2\u6e2c\u5230\u7159\u9727"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "SMOKE_DETECTED",
-                "zh-CN": "\u68c0\u6d4b\u5230\u70df\u96fe",
-                "fr-FR": "FUM\u00c9E D\u00c9TECT\u00c9E",
-                "de-DE": "RAUCH ERKANNT",
-                "ja-JP": "\u7159\u691c\u51fa",
-                "ko-KR": "\uc5f0\uae30 \uac10\uc9c0\ub428",
-                "es-ES": "HUMO DETECTADO",
-                "pt-BR": "FUMA\u00c7A DETECTADA",
-                "zh-TW": "\u6aa2\u6e2c\u5230\u7159\u9727"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "SMOKE_DETECTED",
+        "zh-CN": "检测到烟雾",
+        "fr-FR": "FUMÉE DÉTECTÉE",
+        "de-DE": "RAUCH ERKANNT",
+        "ja-JP": "煙検出",
+        "ko-KR": "연기 감지됨",
+        "es-ES": "HUMO DETECTADO",
+        "pt-BR": "FUMAÇA DETECTADA",
+        "zh-TW": "檢測到煙霧",
+        "it-IT": "FUMO_RILEVATO",
+        "ru-RU": "ДЫМ_ОБНАРУЖЕН",
+        "nl-NL": "ROOK_GEDETECTEERD",
+        "pt-PT": "FUMAÇA DETECTADA"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:service-changed:00002A05",
-    "description": {
-        "en-US": "Service Changed",
-        "zh-CN": "服务变更",
-        "fr-FR": "Service modifie",
-        "de-DE": "Dienst geandert",
-        "ja-JP": "サービス変更",
-        "ko-KR": "서비스 변경됨",
-        "es-ES": "Servicio cambiado",
-        "pt-BR": "Servico alterado",
-        "zh-TW": "服務變更"
-    },
-    "format": "uint8",
-    "access": [
-        "indicate"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:service-changed:00002A05",
+  "description": {
+    "en-US": "Service Changed",
+    "zh-CN": "服务变更",
+    "zh-TW": "服務變更",
+    "de-DE": "Dienst geandert",
+    "fr-FR": "Service modifie",
+    "it-IT": "Servizio modificato",
+    "ru-RU": "Сервис изменен",
+    "ko-KR": "서비스 변경됨",
+    "es-ES": "Servicio cambiado",
+    "ja-JP": "サービス変更",
+    "nl-NL": "Service gewijzigd",
+    "pt-PT": "Servico alterado",
+    "pt-BR": "Servico alterado"
+  },
+  "format": "uint8",
+  "access": [
+    "indicate"
+  ],
+  "lifecycle": "released"
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:glucose-feature:00002A20",
-    "description": {
-        "en-US": "Glucose Feature",
-        "zh-CN": "血糖特征",
-        "fr-FR": "Caracteristique du glucose",
-        "de-DE": "Glukosefunktion",
-        "ja-JP": "血糖機能",
-        "ko-KR": "혈당 기능",
-        "es-ES": "Caracteristica de glucosa",
-        "pt-BR": "Recurso de glicose",
-        "zh-TW": "血糖特徵"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:glucose-feature:00002A20",
+  "description": {
+    "en-US": "Glucose Feature",
+    "zh-CN": "血糖特征",
+    "zh-TW": "血糖特徵",
+    "de-DE": "Glukosefunktion",
+    "fr-FR": "Caracteristique du glucose",
+    "it-IT": "Funzione glucosio",
+    "ru-RU": "Функция глюкозы",
+    "ko-KR": "혈당 기능",
+    "es-ES": "Caracteristica de glucosa",
+    "ja-JP": "血糖機能",
+    "nl-NL": "Glucosefunctie",
+    "pt-PT": "Recurso de glicose",
+    "pt-BR": "Recurso de glicose"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

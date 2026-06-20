@@ -1,64 +1,80 @@
 {
-    "type": "urn:homekit-spec:property:charging-state:0000008F",
-    "description": {
-        "en-US": "Charging State",
-        "zh-CN": "\u5145\u7535\u72b6\u6001",
-        "fr-FR": "\u00c9tat de charge",
-        "de-DE": "Ladezustand",
-        "ja-JP": "\u5145\u96fb\u72b6\u614b",
-        "ko-KR": "\ucda9\uc804 \uc0c1\ud0dc",
-        "es-ES": "Estado de carga",
-        "pt-BR": "Estado de carga",
-        "zh-TW": "\u5145\u96fb\u72c0\u614b"
+  "type": "urn:homekit-spec:property:charging-state:0000008F",
+  "description": {
+    "en-US": "Charging State",
+    "zh-CN": "充电状态",
+    "zh-TW": "充電狀態",
+    "de-DE": "Ladezustand",
+    "fr-FR": "État de charge",
+    "it-IT": "Stato di carica",
+    "ru-RU": "Состояние зарядки",
+    "ko-KR": "충전 상태",
+    "es-ES": "Estado de carga",
+    "ja-JP": "充電状態",
+    "nl-NL": "Laadstatus",
+    "pt-PT": "Estado de carga",
+    "pt-BR": "Estado de carga"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "NOT_CHARGING",
+        "zh-CN": "未充电",
+        "fr-FR": "NE CHARGE PAS",
+        "de-DE": "LÄDT NICHT",
+        "ja-JP": "充電なし",
+        "ko-KR": "충전 중 아님",
+        "es-ES": "NO CARGANDO",
+        "pt-BR": "NÃO CARREGANDO",
+        "zh-TW": "未充電",
+        "it-IT": "NON_IN_CARICA",
+        "ru-RU": "НЕ_ЗАРЯЖАЕТСЯ",
+        "nl-NL": "NIET_LADEN",
+        "pt-PT": "NÃO CARREGANDO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "NOT_CHARGING",
-                "zh-CN": "\u672a\u5145\u7535",
-                "fr-FR": "NE CHARGE PAS",
-                "de-DE": "L\u00c4DT NICHT",
-                "ja-JP": "\u5145\u96fb\u306a\u3057",
-                "ko-KR": "\ucda9\uc804 \uc911 \uc544\ub2d8",
-                "es-ES": "NO CARGANDO",
-                "pt-BR": "N\u00c3O CARREGANDO",
-                "zh-TW": "\u672a\u5145\u96fb"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "CHARGING",
-                "zh-CN": "\u5145\u7535\u4e2d",
-                "fr-FR": "EN CHARGE",
-                "de-DE": "L\u00c4DT",
-                "ja-JP": "\u5145\u96fb\u4e2d",
-                "ko-KR": "\ucda9\uc804 \uc911",
-                "es-ES": "CARGANDO",
-                "pt-BR": "CARREGANDO",
-                "zh-TW": "\u5145\u96fb\u4e2d"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "NOT_CHARGEABLE",
-                "zh-CN": "\u4e0d\u53ef\u5145\u7535",
-                "fr-FR": "NON RECHARGEABLE",
-                "de-DE": "NICHT AUFLADBAR",
-                "ja-JP": "\u5145\u96fb\u4e0d\u53ef",
-                "ko-KR": "\ucda9\uc804 \ubd88\uac00",
-                "es-ES": "NO RECARGABLE",
-                "pt-BR": "N\u00c3O RECARREG\u00c1VEL",
-                "zh-TW": "\u4e0d\u53ef\u5145\u96fb"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "CHARGING",
+        "zh-CN": "充电中",
+        "fr-FR": "EN CHARGE",
+        "de-DE": "LÄDT",
+        "ja-JP": "充電中",
+        "ko-KR": "충전 중",
+        "es-ES": "CARGANDO",
+        "pt-BR": "CARREGANDO",
+        "zh-TW": "充電中",
+        "it-IT": "IN CARICA",
+        "ru-RU": "ЗАРЯДКА",
+        "nl-NL": "LADEN",
+        "pt-PT": "CARREGANDO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "NOT_CHARGEABLE",
+        "zh-CN": "不可充电",
+        "fr-FR": "NON RECHARGEABLE",
+        "de-DE": "NICHT AUFLADBAR",
+        "ja-JP": "充電不可",
+        "ko-KR": "충전 불가",
+        "es-ES": "NO RECARGABLE",
+        "pt-BR": "NÃO RECARREGÁVEL",
+        "zh-TW": "不可充電",
+        "it-IT": "NON_RICARICABILE",
+        "ru-RU": "НЕ_ЗАРЯЖАЕТСЯ",
+        "nl-NL": "NIET_OPLAADBAAR",
+        "pt-PT": "NÃO RECARREGÁVEL"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:security-system-alarm-type:0000008E",
-    "description": {
-        "en-US": "Security System Alarm Type",
-        "zh-CN": "\u5b89\u5168\u7cfb\u7edf\u8b66\u62a5\u7c7b\u578b",
-        "fr-FR": "Type d'alarme du syst\u00e8me de s\u00e9curit\u00e9",
-        "de-DE": "Alarmtyp des Sicherheitssystems",
-        "ja-JP": "\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u30b7\u30b9\u30c6\u30e0\u8b66\u5831\u30bf\u30a4\u30d7",
-        "ko-KR": "\ubcf4\uc548 \uc2dc\uc2a4\ud15c \uc54c\ub78c \uc720\ud615",
-        "es-ES": "Tipo de alarma del sistema de seguridad",
-        "pt-BR": "Tipo de alarme do sistema de seguran\u00e7a",
-        "zh-TW": "\u5b89\u5168\u7cfb\u7d71\u8b66\u5831\u985e\u578b"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:security-system-alarm-type:0000008E",
+  "description": {
+    "en-US": "Security System Alarm Type",
+    "zh-CN": "安全系统警报类型",
+    "zh-TW": "安全系統警報類型",
+    "de-DE": "Alarmtyp des Sicherheitssystems",
+    "fr-FR": "Type d'alarme du système de sécurité",
+    "it-IT": "Tipo allarme sistema sicurezza",
+    "ru-RU": "Тип тревоги охранной системы",
+    "ko-KR": "보안 시스템 알람 유형",
+    "es-ES": "Tipo de alarma del sistema de seguridad",
+    "ja-JP": "セキュリティシステム警報タイプ",
+    "nl-NL": "Alarmtype beveiligingssysteem",
+    "pt-PT": "Tipo de alarme do sistema de segurança",
+    "pt-BR": "Tipo de alarme do sistema de segurança"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1,
+    1
+  ],
+  "lifecycle": "released"
 }

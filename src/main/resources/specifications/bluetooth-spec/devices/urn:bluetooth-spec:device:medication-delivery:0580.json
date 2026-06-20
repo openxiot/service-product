@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:medication-delivery:0580",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Medication Delivery",
-        "zh-CN": "药物输送设备",
-        "fr-FR": "Dispositif d'administration de medicaments",
-        "de-DE": "Medikamentenabgabegerat",
-        "ja-JP": "薬剤送達装置",
-        "ko-KR": "약물 전달 장치",
-        "es-ES": "Dispositivo de administracion de medicamentos",
-        "pt-BR": "Dispositivo de administracao de medicamentos",
-        "zh-TW": "藥物輸送設備"
-    }
+  "type": "urn:bluetooth-spec:device:medication-delivery:0580",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Medication Delivery",
+    "zh-CN": "药物输送设备",
+    "zh-TW": "藥物輸送設備",
+    "de-DE": "Medikamentenabgabegerat",
+    "fr-FR": "Dispositif d'administration de medicaments",
+    "it-IT": "Distribuzione farmaci",
+    "ru-RU": "Доставка лекарств",
+    "ko-KR": "약물 전달 장치",
+    "es-ES": "Dispositivo de administracion de medicamentos",
+    "ja-JP": "薬剤送達装置",
+    "nl-NL": "Medicijnafgifte",
+    "pt-PT": "Dispositivo de administracao de medicamentos",
+    "pt-BR": "Dispositivo de administracao de medicamentos"
+  }
 }

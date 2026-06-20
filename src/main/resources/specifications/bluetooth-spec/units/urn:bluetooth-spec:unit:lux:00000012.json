@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:unit:lux:00000012",
-    "description": {
-        "en-US": "lux",
-        "zh-CN": "勒克斯",
-        "fr-FR": "lux",
-        "de-DE": "Lux",
-        "ja-JP": "ルクス",
-        "ko-KR": "럭스",
-        "es-ES": "lux",
-        "pt-BR": "lux",
-        "zh-TW": "勒克斯"
-    },
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:unit:lux:00000012",
+  "description": {
+    "en-US": "lux",
+    "zh-CN": "勒克斯",
+    "zh-TW": "勒克斯",
+    "de-DE": "Lux",
+    "fr-FR": "lux",
+    "it-IT": "lux",
+    "ru-RU": "lux",
+    "ko-KR": "럭스",
+    "es-ES": "lux",
+    "ja-JP": "ルクス",
+    "nl-NL": "lux",
+    "pt-PT": "lux",
+    "pt-BR": "lux"
+  },
+  "lifecycle": "released"
 }

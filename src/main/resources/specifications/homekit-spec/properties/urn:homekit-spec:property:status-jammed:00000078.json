@@ -1,50 +1,62 @@
 {
-    "type": "urn:homekit-spec:property:status-jammed:00000078",
-    "description": {
-        "en-US": "Status Jammed",
-        "zh-CN": "\u72b6\u6001\u5361\u4f4f",
-        "fr-FR": "Statut bloqu\u00e9",
-        "de-DE": "Status blockiert",
-        "ja-JP": "\u30b9\u30c6\u30fc\u30bf\u30b9\u8a70\u307e\u308a",
-        "ko-KR": "\uc0c1\ud0dc \uac78\ub9bc",
-        "es-ES": "Estado atascado",
-        "pt-BR": "Status travado",
-        "zh-TW": "\u72c0\u614b\u5361\u4f4f"
+  "type": "urn:homekit-spec:property:status-jammed:00000078",
+  "description": {
+    "en-US": "Status Jammed",
+    "zh-CN": "状态卡住",
+    "zh-TW": "狀態卡住",
+    "de-DE": "Status blockiert",
+    "fr-FR": "Statut bloqué",
+    "it-IT": "Stato bloccato",
+    "ru-RU": "Статус заблокирован",
+    "ko-KR": "상태 걸림",
+    "es-ES": "Estado atascado",
+    "ja-JP": "ステータス詰まり",
+    "nl-NL": "Status geblokkeerd",
+    "pt-PT": "Status travado",
+    "pt-BR": "Status travado"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "NOT_JAMMED",
+        "zh-CN": "未卡住",
+        "fr-FR": "NON BLOQUÉ",
+        "de-DE": "NICHT BLOCKIERT",
+        "ja-JP": "詰まりなし",
+        "ko-KR": "걸리지 않음",
+        "es-ES": "NO ATASCADO",
+        "pt-BR": "NÃO TRAVADO",
+        "zh-TW": "未卡住",
+        "it-IT": "NON_INCEPPATO",
+        "ru-RU": "НЕ_ЗАБЛОКИРОВАНО",
+        "nl-NL": "NIET_GEBLOKKEERD",
+        "pt-PT": "NÃO TRAVADO"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "NOT_JAMMED",
-                "zh-CN": "\u672a\u5361\u4f4f",
-                "fr-FR": "NON BLOQU\u00c9",
-                "de-DE": "NICHT BLOCKIERT",
-                "ja-JP": "\u8a70\u307e\u308a\u306a\u3057",
-                "ko-KR": "\uac78\ub9ac\uc9c0 \uc54a\uc74c",
-                "es-ES": "NO ATASCADO",
-                "pt-BR": "N\u00c3O TRAVADO",
-                "zh-TW": "\u672a\u5361\u4f4f"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "JAMMED",
-                "zh-CN": "\u5361\u4f4f",
-                "fr-FR": "BLOQU\u00c9",
-                "de-DE": "BLOCKIERT",
-                "ja-JP": "\u8a70\u307e\u308a",
-                "ko-KR": "\uac78\ub9bc",
-                "es-ES": "ATASCADO",
-                "pt-BR": "TRAVADO",
-                "zh-TW": "\u5361\u4f4f"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "JAMMED",
+        "zh-CN": "卡住",
+        "fr-FR": "BLOQUÉ",
+        "de-DE": "BLOCKIERT",
+        "ja-JP": "詰まり",
+        "ko-KR": "걸림",
+        "es-ES": "ATASCADO",
+        "pt-BR": "TRAVADO",
+        "zh-TW": "卡住",
+        "it-IT": "INCEPPATO",
+        "ru-RU": "ЗАБЛОКИРОВАНО",
+        "nl-NL": "GEBLOKKEERD",
+        "pt-PT": "TRAVADO"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

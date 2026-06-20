@@ -1,27 +1,31 @@
 {
-    "type": "urn:homekit-spec:property:target-position:0000007C",
-    "description": {
-        "en-US": "Target Position",
-        "zh-CN": "\u76ee\u6807\u4f4d\u7f6e",
-        "fr-FR": "Position cible",
-        "de-DE": "Zielposition",
-        "ja-JP": "\u76ee\u6a19\u4f4d\u7f6e",
-        "ko-KR": "\ubaa9\ud45c \uc704\uce58",
-        "es-ES": "Posici\u00f3n objetivo",
-        "pt-BR": "Posi\u00e7\u00e3o alvo",
-        "zh-TW": "\u76ee\u6a19\u4f4d\u7f6e"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:target-position:0000007C",
+  "description": {
+    "en-US": "Target Position",
+    "zh-CN": "目标位置",
+    "zh-TW": "目標位置",
+    "de-DE": "Zielposition",
+    "fr-FR": "Position cible",
+    "it-IT": "Posizione target",
+    "ru-RU": "Целевое положение",
+    "ko-KR": "목표 위치",
+    "es-ES": "Posición objetivo",
+    "ja-JP": "目標位置",
+    "nl-NL": "Gewenste positie",
+    "pt-PT": "Posição alvo",
+    "pt-BR": "Posição alvo"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

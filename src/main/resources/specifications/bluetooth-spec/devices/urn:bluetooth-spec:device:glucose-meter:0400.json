@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:glucose-meter:0400",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Glucose Meter",
-        "zh-CN": "血糖仪",
-        "fr-FR": "Glucometre",
-        "de-DE": "Blutzuckermessgerat",
-        "ja-JP": "血糖計",
-        "ko-KR": "혈당 측정기",
-        "es-ES": "Glucómetro",
-        "pt-BR": "Glicosimetro",
-        "zh-TW": "血糖儀"
-    }
+  "type": "urn:bluetooth-spec:device:glucose-meter:0400",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Glucose Meter",
+    "zh-CN": "血糖仪",
+    "zh-TW": "血糖儀",
+    "de-DE": "Blutzuckermessgerat",
+    "fr-FR": "Glucometre",
+    "it-IT": "Glucometro",
+    "ru-RU": "Глюкометр",
+    "ko-KR": "혈당 측정기",
+    "es-ES": "Glucómetro",
+    "ja-JP": "血糖計",
+    "nl-NL": "Glucosemeter",
+    "pt-PT": "Glicosimetro",
+    "pt-BR": "Glicosimetro"
+  }
 }

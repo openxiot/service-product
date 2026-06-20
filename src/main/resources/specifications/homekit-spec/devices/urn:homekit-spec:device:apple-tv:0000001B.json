@@ -1,14 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:apple-tv:0000001B",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Apple TV",
-        "zh-CN": "Apple TV",
-        "fr-FR": "Apple TV",
-        "de-DE": "Apple TV",
-        "ja-JP": "Apple TV",
-        "ko-KR": "Apple TV",
-        "es-ES": "Apple TV",
-        "pt-BR": "Apple TV"
-    }
+  "type": "urn:homekit-spec:device:apple-tv:0000001B",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Apple TV",
+    "zh-CN": "Apple TV",
+    "zh-TW": "Apple TV",
+    "de-DE": "Apple TV",
+    "fr-FR": "Apple TV",
+    "it-IT": "Apple TV",
+    "ru-RU": "Apple TV",
+    "ko-KR": "Apple TV",
+    "es-ES": "Apple TV",
+    "ja-JP": "Apple TV",
+    "nl-NL": "Apple TV",
+    "pt-PT": "Apple TV",
+    "pt-BR": "Apple TV"
+  }
 }

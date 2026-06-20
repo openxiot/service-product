@@ -1,18 +1,22 @@
 {
-    "type": "urn:bluetooth-spec:service:battery-service:180F",
-    "description": {
-        "en-US": "Battery Service",
-        "zh-CN": "电池服务",
-        "fr-FR": "Service de batterie",
-        "de-DE": "Batteriedienst",
-        "ja-JP": "バッテリーサービス",
-        "ko-KR": "배터리 서비스",
-        "es-ES": "Servicio de bateria",
-        "pt-BR": "Servico de bateria",
-        "zh-TW": "電池服務"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:battery-level:00002A19"
-    ]
+  "type": "urn:bluetooth-spec:service:battery-service:180F",
+  "description": {
+    "en-US": "Battery Service",
+    "zh-CN": "电池服务",
+    "zh-TW": "電池服務",
+    "de-DE": "Batteriedienst",
+    "fr-FR": "Service de batterie",
+    "it-IT": "Servizio batteria",
+    "ru-RU": "Сервис батареи",
+    "ko-KR": "배터리 서비스",
+    "es-ES": "Servicio de bateria",
+    "ja-JP": "バッテリーサービス",
+    "nl-NL": "Batterijservice",
+    "pt-PT": "Servico de bateria",
+    "pt-BR": "Servico de bateria"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:battery-level:00002A19"
+  ]
 }

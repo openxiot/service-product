@@ -1,78 +1,98 @@
 {
-    "type": "urn:homekit-spec:property:valve-type:000000D5",
-    "description": {
-        "en-US": "Valve Type",
-        "zh-CN": "\u9600\u95e8\u7c7b\u578b",
-        "fr-FR": "Type de vanne",
-        "de-DE": "Ventiltyp",
-        "ja-JP": "\u30d0\u30eb\u30d6\u30bf\u30a4\u30d7",
-        "ko-KR": "\ubc38\ube0c \uc720\ud615",
-        "es-ES": "Tipo de v\u00e1lvula",
-        "pt-BR": "Tipo de v\u00e1lvula",
-        "zh-TW": "\u95a5\u9580\u985e\u578b"
+  "type": "urn:homekit-spec:property:valve-type:000000D5",
+  "description": {
+    "en-US": "Valve Type",
+    "zh-CN": "阀门类型",
+    "zh-TW": "閥門類型",
+    "de-DE": "Ventiltyp",
+    "fr-FR": "Type de vanne",
+    "it-IT": "Tipo valvola",
+    "ru-RU": "Тип клапана",
+    "ko-KR": "밸브 유형",
+    "es-ES": "Tipo de válvula",
+    "ja-JP": "バルブタイプ",
+    "nl-NL": "Kleptype",
+    "pt-PT": "Tipo de válvula",
+    "pt-BR": "Tipo de válvula"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "GENERIC_VALVE",
+        "zh-CN": "通用阀门",
+        "fr-FR": "VANNE GÉNÉRIQUE",
+        "de-DE": "ALLGEMEINES VENTIL",
+        "ja-JP": "汎用バルブ",
+        "ko-KR": "일반 밸브",
+        "es-ES": "VÁLVULA GENÉRICA",
+        "pt-BR": "VÁLVULA GENÉRICA",
+        "zh-TW": "通用閥門",
+        "it-IT": "VALVOLA_GENERICA",
+        "ru-RU": "ОБЩИЙ_КЛАПАН",
+        "nl-NL": "ALGEMENE_KLEP",
+        "pt-PT": "VÁLVULA GENÉRICA"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "GENERIC_VALVE",
-                "zh-CN": "\u901a\u7528\u9600\u95e8",
-                "fr-FR": "VANNE G\u00c9N\u00c9RIQUE",
-                "de-DE": "ALLGEMEINES VENTIL",
-                "ja-JP": "\u6c4e\u7528\u30d0\u30eb\u30d6",
-                "ko-KR": "\uc77c\ubc18 \ubc38\ube0c",
-                "es-ES": "V\u00c1LVULA GEN\u00c9RICA",
-                "pt-BR": "V\u00c1LVULA GEN\u00c9RICA",
-                "zh-TW": "\u901a\u7528\u95a5\u9580"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "IRRIGATION",
-                "zh-CN": "\u704c\u6e89",
-                "fr-FR": "IRRIGATION",
-                "de-DE": "BEW\u00c4SSERUNG",
-                "ja-JP": "\u704c\u6f11",
-                "ko-KR": "\uad00\uac1c",
-                "es-ES": "RIEGO",
-                "pt-BR": "IRRIGA\u00c7\u00c3O",
-                "zh-TW": "\u704c\u6e89"
-            }
-        },
-        {
-            "value": 2,
-            "description": {
-                "en-US": "SHOWER_HEAD",
-                "zh-CN": "\u6dcb\u6d74\u82b1\u6d12",
-                "fr-FR": "POMME DE DOUCHE",
-                "de-DE": "DUSCHKOPF",
-                "ja-JP": "\u30b7\u30e3\u30ef\u30fc\u30d8\u30c3\u30c9",
-                "ko-KR": "\uc0e4\uc6cc \ud5e4\ub4dc",
-                "es-ES": "DUCHA",
-                "pt-BR": "CHUVEIRO",
-                "zh-TW": "\u6dcb\u6d74\u82b1\u7051"
-            }
-        },
-        {
-            "value": 3,
-            "description": {
-                "en-US": "WATER_FAUCET",
-                "zh-CN": "\u6c34\u9f99\u5934",
-                "fr-FR": "ROBINET D'EAU",
-                "de-DE": "WASSERHAHN",
-                "ja-JP": "\u6c34\u9053\u86c7\u53e3",
-                "ko-KR": "\uc218\ub3c4\uaf2d\uc9c0",
-                "es-ES": "GRIFO DE AGUA",
-                "pt-BR": "TORNEIRA",
-                "zh-TW": "\u6c34\u9f8d\u982d"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "IRRIGATION",
+        "zh-CN": "灌溉",
+        "fr-FR": "IRRIGATION",
+        "de-DE": "BEWÄSSERUNG",
+        "ja-JP": "灌漑",
+        "ko-KR": "관개",
+        "es-ES": "RIEGO",
+        "pt-BR": "IRRIGAÇÃO",
+        "zh-TW": "灌溉",
+        "it-IT": "IRRIGAZIONE",
+        "ru-RU": "ОРОШЕНИЕ",
+        "nl-NL": "BEREKENING",
+        "pt-PT": "IRRIGAÇÃO"
+      }
+    },
+    {
+      "value": 2,
+      "description": {
+        "en-US": "SHOWER_HEAD",
+        "zh-CN": "淋浴花洒",
+        "fr-FR": "POMME DE DOUCHE",
+        "de-DE": "DUSCHKOPF",
+        "ja-JP": "シャワーヘッド",
+        "ko-KR": "샤워 헤드",
+        "es-ES": "DUCHA",
+        "pt-BR": "CHUVEIRO",
+        "zh-TW": "淋浴花灑",
+        "it-IT": "TESTA_DOCCIA",
+        "ru-RU": "ДУШЕВАЯ_ЛЕЙКА",
+        "nl-NL": "DOUCHEKOP",
+        "pt-PT": "CHUVEIRO"
+      }
+    },
+    {
+      "value": 3,
+      "description": {
+        "en-US": "WATER_FAUCET",
+        "zh-CN": "水龙头",
+        "fr-FR": "ROBINET D'EAU",
+        "de-DE": "WASSERHAHN",
+        "ja-JP": "水道蛇口",
+        "ko-KR": "수도꼭지",
+        "es-ES": "GRIFO DE AGUA",
+        "pt-BR": "TORNEIRA",
+        "zh-TW": "水龍頭",
+        "it-IT": "RUBINETTO_ACQUA",
+        "ru-RU": "ВОДОПРОВОДНЫЙ_КРАН",
+        "nl-NL": "WATERKRAAN",
+        "pt-PT": "TORNEIRA"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

@@ -1,25 +1,29 @@
 {
-    "type": "urn:homekit-spec:property:air-particulate-density:00000064",
-    "description": {
-        "en-US": "Air Particulate Density",
-        "zh-CN": "\u7a7a\u6c14\u9897\u7c92\u7269\u5bc6\u5ea6",
-        "fr-FR": "Densit\u00e9 de particules en suspension",
-        "de-DE": "Luftpartikeldichte",
-        "ja-JP": "\u7a7a\u6c17\u5fae\u7c92\u5b50\u6fc3\u5ea6",
-        "ko-KR": "\uacf5\uae30 \uc911 \ubbf8\uc138 \uc785\uc790 \ubc00\ub3c4",
-        "es-ES": "Densidad de part\u00edculas en suspensi\u00f3n",
-        "pt-BR": "Densidade de part\u00edculas no ar",
-        "zh-TW": "\u7a7a\u6c23\u9846\u7c92\u7269\u5bc6\u5ea6"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        1000,
-        1
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:air-particulate-density:00000064",
+  "description": {
+    "en-US": "Air Particulate Density",
+    "zh-CN": "空气颗粒物密度",
+    "zh-TW": "空氣顆粒物密度",
+    "de-DE": "Luftpartikeldichte",
+    "fr-FR": "Densité de particules en suspension",
+    "it-IT": "Densità particolato aria",
+    "ru-RU": "Плотность взвешенных частиц",
+    "ko-KR": "공기 중 미세 입자 밀도",
+    "es-ES": "Densidad de partículas en suspensión",
+    "ja-JP": "空気微粒子濃度",
+    "nl-NL": "Dichtheid zwevende deeltjes",
+    "pt-PT": "Densidade de partículas no ar",
+    "pt-BR": "Densidade de partículas no ar"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    1000,
+    1
+  ],
+  "lifecycle": "released"
 }

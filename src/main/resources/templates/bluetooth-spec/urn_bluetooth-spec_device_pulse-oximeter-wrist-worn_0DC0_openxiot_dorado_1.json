@@ -4,13 +4,17 @@
   "description": {
     "en-US": "Pulse Oximeter Wrist Worn",
     "zh-CN": "腕戴式脉搏血氧仪",
-    "fr-FR": "Pulse Oximeter Wrist Worn",
+    "zh-TW": "腕戴式脈搏血氧儀",
     "de-DE": "Pulse Oximeter Wrist Worn",
-    "ja-JP": "Pulse Oximeter Wrist Worn",
+    "fr-FR": "Pulse Oximeter Wrist Worn",
+    "it-IT": "Ossimetro da polso",
+    "ru-RU": "Запястный пульсоксиметр",
     "ko-KR": "Pulse Oximeter Wrist Worn",
     "es-ES": "Pulse Oximeter Wrist Worn",
-    "pt-BR": "Pulse Oximeter Wrist Worn",
-    "zh-TW": "腕戴式脈搏血氧儀"
+    "ja-JP": "Pulse Oximeter Wrist Worn",
+    "nl-NL": "Pols-pulse-oximeter",
+    "pt-PT": "Oxímetro de pulso (punho)",
+    "pt-BR": "Pulse Oximeter Wrist Worn"
   },
   "services": [
     {
@@ -29,7 +33,11 @@
         "ko-KR": "장치 정보",
         "es-ES": "Informacion del dispositivo",
         "pt-BR": "Informacoes do dispositivo",
-        "zh-TW": "設備信息"
+        "zh-TW": "設備信息",
+        "it-IT": "Informazioni dispositivo",
+        "ru-RU": "Информация об устройстве",
+        "nl-NL": "Apparaatinformatie",
+        "pt-PT": "Informacoes do dispositivo"
       },
       "properties": [
         {
@@ -37,7 +45,16 @@
           "description": {
             "en-US": "Manufacturer Name",
             "zh-CN": "制造商",
-            "zh-TW": "製造商"
+            "zh-TW": "製造商",
+            "de-DE": "Manufacturer Name",
+            "fr-FR": "Manufacturer Name",
+            "it-IT": "Nome produttore",
+            "ru-RU": "Название производителя",
+            "ko-KR": "Manufacturer Name",
+            "es-ES": "Manufacturer Name",
+            "ja-JP": "Manufacturer Name",
+            "nl-NL": "Fabrikantnaam",
+            "pt-PT": "Nome do fabricante"
           },
           "format": "string",
           "access": [
@@ -51,7 +68,16 @@
           "description": {
             "en-US": "Model Number",
             "zh-CN": "型号",
-            "zh-TW": "型號"
+            "zh-TW": "型號",
+            "de-DE": "Model Number",
+            "fr-FR": "Model Number",
+            "it-IT": "Numero modello",
+            "ru-RU": "Номер модели",
+            "ko-KR": "Model Number",
+            "es-ES": "Model Number",
+            "ja-JP": "Model Number",
+            "nl-NL": "Modelnummer",
+            "pt-PT": "Número do modelo"
           },
           "format": "string",
           "access": [
@@ -65,7 +91,16 @@
           "description": {
             "en-US": "Serial Number",
             "zh-CN": "序列号",
-            "zh-TW": "序列號"
+            "zh-TW": "序列號",
+            "de-DE": "Seriennummer",
+            "fr-FR": "Numéro de série",
+            "it-IT": "Numero seriale",
+            "ru-RU": "Серийный номер",
+            "ko-KR": "일련번호",
+            "es-ES": "Número de serie",
+            "ja-JP": "シリアル番号",
+            "nl-NL": "Serienummer",
+            "pt-PT": "Número de série"
           },
           "format": "string",
           "access": [
@@ -79,7 +114,16 @@
           "description": {
             "en-US": "Firmware Revision",
             "zh-CN": "固件版本",
-            "zh-TW": "固件版本"
+            "zh-TW": "固件版本",
+            "de-DE": "Firmware-Version",
+            "fr-FR": "Version du firmware",
+            "it-IT": "Revisione firmware",
+            "ru-RU": "Ревизия прошивки",
+            "ko-KR": "펌웨어 버전",
+            "es-ES": "Revisión del firmware",
+            "ja-JP": "ファームウェアリビジョン",
+            "nl-NL": "Firmware revisie",
+            "pt-PT": "Revisão do firmware"
           },
           "format": "string",
           "access": [
@@ -93,7 +137,16 @@
           "description": {
             "en-US": "Hardware Revision",
             "zh-CN": "硬件版本",
-            "zh-TW": "硬件版本"
+            "zh-TW": "硬件版本",
+            "de-DE": "Hardware-Version",
+            "fr-FR": "Version du matériel",
+            "it-IT": "Revisione hardware",
+            "ru-RU": "Ревизия аппаратного обеспечения",
+            "ko-KR": "하드웨어 버전",
+            "es-ES": "Revisión del hardware",
+            "ja-JP": "ハードウェアリビジョン",
+            "nl-NL": "Hardware revisie",
+            "pt-PT": "Revisão do hardware"
           },
           "format": "string",
           "access": [
@@ -107,7 +160,16 @@
           "description": {
             "en-US": "Software Revision",
             "zh-CN": "软件版本",
-            "zh-TW": "軟件版本"
+            "zh-TW": "軟件版本",
+            "de-DE": "Software Revision",
+            "fr-FR": "Software Revision",
+            "it-IT": "Revisione software",
+            "ru-RU": "Ревизия программного обеспечения",
+            "ko-KR": "Software Revision",
+            "es-ES": "Software Revision",
+            "ja-JP": "Software Revision",
+            "nl-NL": "Software revisie",
+            "pt-PT": "Revisão do software"
           },
           "format": "string",
           "access": [
@@ -120,8 +182,17 @@
           "type": "urn:bluetooth-spec:property:system-id:00002A23:openxiot:dorado:1",
           "description": {
             "en-US": "System ID",
-            "zh-CN": "系统ID",
-            "zh-TW": "系統ID"
+            "zh-CN": "系统 ID",
+            "zh-TW": "系統 ID",
+            "de-DE": "System-ID",
+            "fr-FR": "ID systeme",
+            "it-IT": "ID sistema",
+            "ru-RU": "ID системы",
+            "ko-KR": "시스템 ID",
+            "es-ES": "ID del sistema",
+            "ja-JP": "システムID",
+            "nl-NL": "Systeem-ID",
+            "pt-PT": "ID do sistema"
           },
           "format": "string",
           "access": [
@@ -134,8 +205,17 @@
           "type": "urn:bluetooth-spec:property:pnp-id:00002A50:openxiot:dorado:1",
           "description": {
             "en-US": "PnP ID",
-            "zh-CN": "即插即用ID",
-            "zh-TW": "即插即用ID"
+            "zh-CN": "PnP ID",
+            "zh-TW": "即插即用ID",
+            "de-DE": "PnP-ID",
+            "fr-FR": "ID PnP",
+            "it-IT": "ID PnP",
+            "ru-RU": "PnP ID",
+            "ko-KR": "PnP ID",
+            "es-ES": "ID PnP",
+            "ja-JP": "PnP ID",
+            "nl-NL": "PnP-ID",
+            "pt-PT": "ID PnP"
           },
           "format": "string",
           "access": [
@@ -162,15 +242,28 @@
         "ko-KR": "맥박 산소 측정기",
         "es-ES": "Oximetro de pulso",
         "pt-BR": "Oximetro de pulso",
-        "zh-TW": "脈搏血氧儀"
+        "zh-TW": "脈搏血氧儀",
+        "it-IT": "Ossimetro",
+        "ru-RU": "Пульсоксиметр",
+        "nl-NL": "Pulse-oximeter",
+        "pt-PT": "Oximetro de pulso"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:plx-features:00002A5F:openxiot:dorado:1",
           "description": {
             "en-US": "PLX Features",
-            "zh-CN": "血氧特征",
-            "zh-TW": "血氧特徵"
+            "zh-CN": "脉搏血氧仪特征",
+            "zh-TW": "脈搏血氧儀特徵",
+            "de-DE": "PLX-Funktionen",
+            "fr-FR": "Fonctionnalites PLX",
+            "it-IT": "Funzionalità PLX",
+            "ru-RU": "Функции PLX",
+            "ko-KR": "PLX 기능",
+            "es-ES": "Funciones PLX",
+            "ja-JP": "PLX機能",
+            "nl-NL": "PLX-functies",
+            "pt-PT": "Recursos PLX"
           },
           "format": "uint16",
           "access": [
@@ -197,15 +290,28 @@
         "ko-KR": "배터리 서비스",
         "es-ES": "Servicio de bateria",
         "pt-BR": "Servico de bateria",
-        "zh-TW": "電池服務"
+        "zh-TW": "電池服務",
+        "it-IT": "Servizio batteria",
+        "ru-RU": "Сервис батареи",
+        "nl-NL": "Batterijservice",
+        "pt-PT": "Servico de bateria"
       },
       "properties": [
         {
           "type": "urn:bluetooth-spec:property:battery-level:00002A19:openxiot:dorado:1",
           "description": {
             "en-US": "Battery Level",
-            "zh-CN": "电量",
-            "zh-TW": "電量"
+            "zh-CN": "电池电量",
+            "zh-TW": "電池電量",
+            "de-DE": "Batterieladestand",
+            "fr-FR": "Niveau de batterie",
+            "it-IT": "Livello batteria",
+            "ru-RU": "Уровень заряда батареи",
+            "ko-KR": "배터리 잔량",
+            "es-ES": "Nivel de bateria",
+            "ja-JP": "バッテリーレベル",
+            "nl-NL": "Batterijniveau",
+            "pt-PT": "Nivel da bateria"
           },
           "format": "uint8",
           "access": [

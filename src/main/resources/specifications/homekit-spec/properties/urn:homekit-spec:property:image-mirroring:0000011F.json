@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:image-mirroring:0000011F",
-    "description": {
-        "en-US": "Image Mirroring",
-        "zh-CN": "\u56fe\u50cf\u955c\u50cf",
-        "fr-FR": "Miroir d'image",
-        "de-DE": "Bildspiegelung",
-        "ja-JP": "\u753b\u50cf\u30df\u30e9\u30fc\u30ea\u30f3\u30b0",
-        "ko-KR": "\uc774\ubbf8\uc9c0 \ubbf8\ub7ec\ub9c1",
-        "es-ES": "Espejo de imagen",
-        "pt-BR": "Espelhamento de imagem",
-        "zh-TW": "\u5716\u50cf\u93e1\u50cf"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:image-mirroring:0000011F",
+  "description": {
+    "en-US": "Image Mirroring",
+    "zh-CN": "图像镜像",
+    "zh-TW": "圖像鏡像",
+    "de-DE": "Bildspiegelung",
+    "fr-FR": "Miroir d'image",
+    "it-IT": "Riflessione immagine",
+    "ru-RU": "Зеркалирование изображения",
+    "ko-KR": "이미지 미러링",
+    "es-ES": "Espejo de imagen",
+    "ja-JP": "画像ミラーリング",
+    "nl-NL": "Beeldspiegeling",
+    "pt-PT": "Espelhamento de imagem",
+    "pt-BR": "Espelhamento de imagem"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

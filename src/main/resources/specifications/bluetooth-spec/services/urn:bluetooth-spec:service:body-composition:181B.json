@@ -1,18 +1,22 @@
 {
-    "type": "urn:bluetooth-spec:service:body-composition:181B",
-    "description": {
-        "en-US": "Body Composition",
-        "zh-CN": "身体成分",
-        "fr-FR": "Composition corporelle",
-        "de-DE": "Korperzusammensetzung",
-        "ja-JP": "体組成",
-        "ko-KR": "체성분",
-        "es-ES": "Composicion corporal",
-        "pt-BR": "Composicao corporal",
-        "zh-TW": "身體成分"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:body-composition-measurement:00002A9B"
-    ]
+  "type": "urn:bluetooth-spec:service:body-composition:181B",
+  "description": {
+    "en-US": "Body Composition",
+    "zh-CN": "身体成分",
+    "zh-TW": "身體成分",
+    "de-DE": "Korperzusammensetzung",
+    "fr-FR": "Composition corporelle",
+    "it-IT": "Composizione corporea",
+    "ru-RU": "Состав тела",
+    "ko-KR": "체성분",
+    "es-ES": "Composicion corporal",
+    "ja-JP": "体組成",
+    "nl-NL": "Lichaamssamenstelling",
+    "pt-PT": "Composicao corporal",
+    "pt-BR": "Composicao corporal"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:body-composition-measurement:00002A9B"
+  ]
 }

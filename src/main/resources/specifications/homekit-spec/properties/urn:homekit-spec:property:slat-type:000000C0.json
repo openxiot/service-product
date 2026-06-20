@@ -1,49 +1,61 @@
 {
-    "type": "urn:homekit-spec:property:slat-type:000000C0",
-    "description": {
-        "en-US": "Slat Type",
-        "zh-CN": "\u767e\u53f6\u7a97\u53f6\u7247\u7c7b\u578b",
-        "fr-FR": "Type de lamelle",
-        "de-DE": "Lamellentyp",
-        "ja-JP": "\u30b9\u30e9\u30c3\u30c8\u30bf\u30a4\u30d7",
-        "ko-KR": "\uc2ac\ub7ab \uc720\ud615",
-        "es-ES": "Tipo de lama",
-        "pt-BR": "Tipo de l\u00e2mina",
-        "zh-TW": "\u767e\u8449\u7a97\u8449\u7247\u985e\u578b"
+  "type": "urn:homekit-spec:property:slat-type:000000C0",
+  "description": {
+    "en-US": "Slat Type",
+    "zh-CN": "百叶窗叶片类型",
+    "zh-TW": "百葉窗葉片類型",
+    "de-DE": "Lamellentyp",
+    "fr-FR": "Type de lamelle",
+    "it-IT": "Tipo lamelle",
+    "ru-RU": "Тип ламелей",
+    "ko-KR": "슬랫 유형",
+    "es-ES": "Tipo de lama",
+    "ja-JP": "スラットタイプ",
+    "nl-NL": "Lamellentype",
+    "pt-PT": "Tipo de lâmina",
+    "pt-BR": "Tipo de lâmina"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "value-list": [
+    {
+      "value": 0,
+      "description": {
+        "en-US": "HORIZONTAL",
+        "zh-CN": "水平",
+        "fr-FR": "HORIZONTAL",
+        "de-DE": "HORIZONTAL",
+        "ja-JP": "水平",
+        "ko-KR": "수평",
+        "es-ES": "HORIZONTAL",
+        "pt-BR": "HORIZONTAL",
+        "zh-TW": "水平",
+        "it-IT": "ORIZZONTALE",
+        "ru-RU": "ГОРИЗОНТАЛЬНО",
+        "nl-NL": "HORIZONTAAL",
+        "pt-PT": "HORIZONTAL"
+      }
     },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "value-list": [
-        {
-            "value": 0,
-            "description": {
-                "en-US": "HORIZONTAL",
-                "zh-CN": "\u6c34\u5e73",
-                "fr-FR": "HORIZONTAL",
-                "de-DE": "HORIZONTAL",
-                "ja-JP": "\u6c34\u5e73",
-                "ko-KR": "\uc218\ud3c9",
-                "es-ES": "HORIZONTAL",
-                "pt-BR": "HORIZONTAL",
-                "zh-TW": "\u6c34\u5e73"
-            }
-        },
-        {
-            "value": 1,
-            "description": {
-                "en-US": "VERTICAL",
-                "zh-CN": "\u5782\u76f4",
-                "fr-FR": "VERTICAL",
-                "de-DE": "VERTIKAL",
-                "ja-JP": "\u5782\u76f4",
-                "ko-KR": "\uc218\uc9c1",
-                "es-ES": "VERTICAL",
-                "pt-BR": "VERTICAL",
-                "zh-TW": "\u5782\u76f4"
-            }
-        }
-    ],
-    "lifecycle": "released"
+    {
+      "value": 1,
+      "description": {
+        "en-US": "VERTICAL",
+        "zh-CN": "垂直",
+        "fr-FR": "VERTICAL",
+        "de-DE": "VERTIKAL",
+        "ja-JP": "垂直",
+        "ko-KR": "수직",
+        "es-ES": "VERTICAL",
+        "pt-BR": "VERTICAL",
+        "zh-TW": "垂直",
+        "it-IT": "VERTICALE",
+        "ru-RU": "ВЕРТИКАЛЬНО",
+        "nl-NL": "VERTICAAL",
+        "pt-PT": "VERTICAL"
+      }
+    }
+  ],
+  "lifecycle": "released"
 }

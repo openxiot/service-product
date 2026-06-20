@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:current-position:0000006D",
-    "description": {
-        "en-US": "Current Position",
-        "zh-CN": "\u5f53\u524d\u4f4d\u7f6e",
-        "fr-FR": "Position actuelle",
-        "de-DE": "Aktuelle Position",
-        "ja-JP": "\u73fe\u5728\u4f4d\u7f6e",
-        "ko-KR": "\ud604\uc7ac \uc704\uce58",
-        "es-ES": "Posici\u00f3n actual",
-        "pt-BR": "Posi\u00e7\u00e3o atual",
-        "zh-TW": "\u7576\u524d\u4f4d\u7f6e"
-    },
-    "format": "uint8",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:current-position:0000006D",
+  "description": {
+    "en-US": "Current Position",
+    "zh-CN": "当前位置",
+    "zh-TW": "當前位置",
+    "de-DE": "Aktuelle Position",
+    "fr-FR": "Position actuelle",
+    "it-IT": "Posizione attuale",
+    "ru-RU": "Текущее положение",
+    "ko-KR": "현재 위치",
+    "es-ES": "Posición actual",
+    "ja-JP": "現在位置",
+    "nl-NL": "Huidige positie",
+    "pt-PT": "Posição atual",
+    "pt-BR": "Posição atual"
+  },
+  "format": "uint8",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

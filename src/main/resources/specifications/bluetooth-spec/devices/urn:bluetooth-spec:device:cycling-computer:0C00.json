@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:cycling-computer:0C00",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Cycling Computer",
-        "zh-CN": "骑行电脑",
-        "fr-FR": "Ordinateur de cyclisme",
-        "de-DE": "Fahrradcomputer",
-        "ja-JP": "サイクリングコンピュータ",
-        "ko-KR": "사이클링 컴퓨터",
-        "es-ES": "Ordenador de ciclismo",
-        "pt-BR": "Computador de ciclismo",
-        "zh-TW": "騎行電腦"
-    }
+  "type": "urn:bluetooth-spec:device:cycling-computer:0C00",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Cycling Computer",
+    "zh-CN": "骑行电脑",
+    "zh-TW": "騎行電腦",
+    "de-DE": "Fahrradcomputer",
+    "fr-FR": "Ordinateur de cyclisme",
+    "it-IT": "Ciclocomputer",
+    "ru-RU": "Велокомпьютер",
+    "ko-KR": "사이클링 컴퓨터",
+    "es-ES": "Ordenador de ciclismo",
+    "ja-JP": "サイクリングコンピュータ",
+    "nl-NL": "Fietscomputer",
+    "pt-PT": "Computador de ciclismo",
+    "pt-BR": "Computador de ciclismo"
+  }
 }

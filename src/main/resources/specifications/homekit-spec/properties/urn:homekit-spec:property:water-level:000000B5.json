@@ -1,26 +1,30 @@
 {
-    "type": "urn:homekit-spec:property:water-level:000000B5",
-    "description": {
-        "en-US": "Water Level",
-        "zh-CN": "\u6c34\u4f4d",
-        "fr-FR": "Niveau d'eau",
-        "de-DE": "Wasserstand",
-        "ja-JP": "\u6c34\u4f4d",
-        "ko-KR": "\uc218\uc704",
-        "es-ES": "Nivel de agua",
-        "pt-BR": "N\u00edvel da \u00e1gua",
-        "zh-TW": "\u6c34\u4f4d"
-    },
-    "format": "float",
-    "access": [
-        "read",
-        "notify"
-    ],
-    "value-range": [
-        0,
-        100,
-        1
-    ],
-    "unit": "percentage",
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:water-level:000000B5",
+  "description": {
+    "en-US": "Water Level",
+    "zh-CN": "水位",
+    "zh-TW": "水位",
+    "de-DE": "Wasserstand",
+    "fr-FR": "Niveau d'eau",
+    "it-IT": "Livello acqua",
+    "ru-RU": "Уровень воды",
+    "ko-KR": "수위",
+    "es-ES": "Nivel de agua",
+    "ja-JP": "水位",
+    "nl-NL": "Waterniveau",
+    "pt-PT": "Nível da água",
+    "pt-BR": "Nível da água"
+  },
+  "format": "float",
+  "access": [
+    "read",
+    "notify"
+  ],
+  "value-range": [
+    0,
+    100,
+    1
+  ],
+  "unit": "percentage",
+  "lifecycle": "released"
 }

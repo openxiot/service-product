@@ -1,22 +1,26 @@
 {
-    "type": "urn:homekit-spec:service:microphone:00000112",
-    "description": {
-        "en-US": "Microphone",
-        "zh-CN": "\u9ea6\u514b\u98ce",
-        "fr-FR": "Microphone",
-        "de-DE": "Mikrofon",
-        "ja-JP": "\u30de\u30a4\u30af",
-        "ko-KR": "\ub9c8\uc774\ud06c",
-        "es-ES": "Micr\u00f3fono",
-        "pt-BR": "Microfone",
-        "zh-TW": "\u9ea5\u514b\u98a8"
-    },
-    "required-properties": [
-        "urn:homekit-spec:property:volume:00000119",
-        "urn:homekit-spec:property:mute:0000011A"
-    ],
-    "optional-properties": [
-        "urn:homekit-spec:property:name:00000023"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:service:microphone:00000112",
+  "description": {
+    "en-US": "Microphone",
+    "zh-CN": "麦克风",
+    "zh-TW": "麥克風",
+    "de-DE": "Mikrofon",
+    "fr-FR": "Microphone",
+    "it-IT": "Microfono",
+    "ru-RU": "Микрофон",
+    "ko-KR": "마이크",
+    "es-ES": "Micrófono",
+    "ja-JP": "マイク",
+    "nl-NL": "Microfoon",
+    "pt-PT": "Microfone",
+    "pt-BR": "Microfone"
+  },
+  "required-properties": [
+    "urn:homekit-spec:property:volume:00000119",
+    "urn:homekit-spec:property:mute:0000011A"
+  ],
+  "optional-properties": [
+    "urn:homekit-spec:property:name:00000023"
+  ],
+  "lifecycle": "released"
 }

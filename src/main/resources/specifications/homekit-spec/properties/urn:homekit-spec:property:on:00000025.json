@@ -1,21 +1,25 @@
 {
-    "type": "urn:homekit-spec:property:on:00000025",
-    "description": {
-        "en-US": "On",
-        "zh-CN": "\u5f00\u5173",
-        "fr-FR": "Marche/Arr\u00eat",
-        "de-DE": "Ein/Aus",
-        "ja-JP": "\u30aa\u30f3/\u30aa\u30d5",
-        "ko-KR": "\ucf1c\uae30/\ub044\uae30",
-        "es-ES": "Encendido/Apagado",
-        "pt-BR": "Ligado/Desligado",
-        "zh-TW": "\u958b\u95dc"
-    },
-    "format": "bool",
-    "access": [
-        "read",
-        "write",
-        "notify"
-    ],
-    "lifecycle": "released"
+  "type": "urn:homekit-spec:property:on:00000025",
+  "description": {
+    "en-US": "On",
+    "zh-CN": "开关",
+    "zh-TW": "開關",
+    "de-DE": "Ein/Aus",
+    "fr-FR": "Marche/Arrêt",
+    "it-IT": "Acceso",
+    "ru-RU": "Включено",
+    "ko-KR": "켜기/끄기",
+    "es-ES": "Encendido/Apagado",
+    "ja-JP": "オン/オフ",
+    "nl-NL": "Aan",
+    "pt-PT": "Ligado/Desligado",
+    "pt-BR": "Ligado/Desligado"
+  },
+  "format": "bool",
+  "access": [
+    "read",
+    "write",
+    "notify"
+  ],
+  "lifecycle": "released"
 }

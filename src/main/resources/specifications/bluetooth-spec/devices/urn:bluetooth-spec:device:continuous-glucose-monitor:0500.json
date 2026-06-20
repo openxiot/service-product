@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:continuous-glucose-monitor:0500",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Continuous Glucose Monitor",
-        "zh-CN": "持续血糖监测仪",
-        "fr-FR": "Monitor continu de glucose",
-        "de-DE": "Kontinuierlicher Glukosemonitor",
-        "ja-JP": "持続血糖測定器",
-        "ko-KR": "연속 혈당 측정기",
-        "es-ES": "Monitor continuo de glucosa",
-        "pt-BR": "Monitor continuo de glicose",
-        "zh-TW": "持續血糖監測儀"
-    }
+  "type": "urn:bluetooth-spec:device:continuous-glucose-monitor:0500",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Continuous Glucose Monitor",
+    "zh-CN": "持续血糖监测仪",
+    "zh-TW": "持續血糖監測儀",
+    "de-DE": "Kontinuierlicher Glukosemonitor",
+    "fr-FR": "Monitor continu de glucose",
+    "it-IT": "Monitor glicemico continuo",
+    "ru-RU": "Непрерывный монитор глюкозы",
+    "ko-KR": "연속 혈당 측정기",
+    "es-ES": "Monitor continuo de glucosa",
+    "ja-JP": "持続血糖測定器",
+    "nl-NL": "Continue glucosemonitor",
+    "pt-PT": "Monitor continuo de glicose",
+    "pt-BR": "Monitor continuo de glicose"
+  }
 }

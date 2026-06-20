@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:fitness-machine:0D40",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Fitness Machine",
-        "zh-CN": "健身器材",
-        "fr-FR": "Machine de fitness",
-        "de-DE": "Fitnessgerat",
-        "ja-JP": "フィットネスマシン",
-        "ko-KR": "피트니스 머신",
-        "es-ES": "Maquina de fitness",
-        "pt-BR": "Maquina de fitness",
-        "zh-TW": "健身器材"
-    }
+  "type": "urn:bluetooth-spec:device:fitness-machine:0D40",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Fitness Machine",
+    "zh-CN": "健身器材",
+    "zh-TW": "健身器材",
+    "de-DE": "Fitnessgerat",
+    "fr-FR": "Machine de fitness",
+    "it-IT": "Macchina fitness",
+    "ru-RU": "Фитнес-тренажер",
+    "ko-KR": "피트니스 머신",
+    "es-ES": "Maquina de fitness",
+    "ja-JP": "フィットネスマシン",
+    "nl-NL": "Fitnessapparaat",
+    "pt-PT": "Maquina de fitness",
+    "pt-BR": "Maquina de fitness"
+  }
 }

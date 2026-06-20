@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:device-name:00002A00",
-    "description": {
-        "en-US": "Device Name",
-        "zh-CN": "设备名称",
-        "fr-FR": "Nom de l'appareil",
-        "de-DE": "Geratename",
-        "ja-JP": "デバイス名",
-        "ko-KR": "장치 이름",
-        "es-ES": "Nombre del dispositivo",
-        "pt-BR": "Nome do dispositivo",
-        "zh-TW": "設備名稱"
-    },
-    "format": "string",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:device-name:00002A00",
+  "description": {
+    "en-US": "Device Name",
+    "zh-CN": "设备名称",
+    "zh-TW": "設備名稱",
+    "de-DE": "Geratename",
+    "fr-FR": "Nom de l'appareil",
+    "it-IT": "Nome dispositivo",
+    "ru-RU": "Имя устройства",
+    "ko-KR": "장치 이름",
+    "es-ES": "Nombre del dispositivo",
+    "ja-JP": "デバイス名",
+    "nl-NL": "Apparaatnaam",
+    "pt-PT": "Nome do dispositivo",
+    "pt-BR": "Nome do dispositivo"
+  },
+  "format": "string",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

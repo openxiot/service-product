@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:outlet:00000007",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Outlet",
-        "zh-CN": "插座",
-        "fr-FR": "Prise",
-        "de-DE": "Steckdose",
-        "ja-JP": "コンセント",
-        "ko-KR": "콘센트",
-        "es-ES": "Enchufe",
-        "pt-BR": "Tomada",
-        "zh-TW": "插座"
-    }
+  "type": "urn:homekit-spec:device:outlet:00000007",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Outlet",
+    "zh-CN": "插座",
+    "zh-TW": "插座",
+    "de-DE": "Steckdose",
+    "fr-FR": "Prise",
+    "it-IT": "Presa",
+    "ru-RU": "Розетка",
+    "ko-KR": "콘센트",
+    "es-ES": "Enchufe",
+    "ja-JP": "コンセント",
+    "nl-NL": "Stopcontact",
+    "pt-PT": "Tomada",
+    "pt-BR": "Tomada"
+  }
 }

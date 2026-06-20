@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:position-quality:00002A69",
-    "description": {
-        "en-US": "Position Quality",
-        "zh-CN": "位置质量",
-        "fr-FR": "Qualite de position",
-        "de-DE": "Positionsqualitat",
-        "ja-JP": "位置品質",
-        "ko-KR": "위치 품질",
-        "es-ES": "Calidad de posicion",
-        "pt-BR": "Qualidade da posicao",
-        "zh-TW": "位置質量"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:position-quality:00002A69",
+  "description": {
+    "en-US": "Position Quality",
+    "zh-CN": "位置质量",
+    "zh-TW": "位置質量",
+    "de-DE": "Positionsqualitat",
+    "fr-FR": "Qualite de position",
+    "it-IT": "Qualità posizione",
+    "ru-RU": "Качество позиции",
+    "ko-KR": "위치 품질",
+    "es-ES": "Calidad de posicion",
+    "ja-JP": "位置品質",
+    "nl-NL": "Positiekwaliteit",
+    "pt-PT": "Qualidade da posicao",
+    "pt-BR": "Qualidade da posicao"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

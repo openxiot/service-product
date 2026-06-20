@@ -1,15 +1,19 @@
 {
-    "type": "urn:bluetooth-spec:device:computer:0080",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Computer",
-        "zh-CN": "电脑",
-        "fr-FR": "Ordinateur",
-        "de-DE": "Computer",
-        "ja-JP": "コンピュータ",
-        "ko-KR": "컴퓨터",
-        "es-ES": "Ordenador",
-        "pt-BR": "Computador",
-        "zh-TW": "電腦"
-    }
+  "type": "urn:bluetooth-spec:device:computer:0080",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Computer",
+    "zh-CN": "电脑",
+    "zh-TW": "電腦",
+    "de-DE": "Computer",
+    "fr-FR": "Ordinateur",
+    "it-IT": "Computer",
+    "ru-RU": "Компьютер",
+    "ko-KR": "컴퓨터",
+    "es-ES": "Ordenador",
+    "ja-JP": "コンピュータ",
+    "nl-NL": "Computer",
+    "pt-PT": "Computador",
+    "pt-BR": "Computador"
+  }
 }

@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:csc-feature:00002A5C",
-    "description": {
-        "en-US": "CSC Feature",
-        "zh-CN": "骑行传感器特征",
-        "fr-FR": "Caracteristique CSC",
-        "de-DE": "CSC-Funktion",
-        "ja-JP": "CSC機能",
-        "ko-KR": "CSC 기능",
-        "es-ES": "Caracteristica CSC",
-        "pt-BR": "Recurso CSC",
-        "zh-TW": "騎行傳感器特徵"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:csc-feature:00002A5C",
+  "description": {
+    "en-US": "CSC Feature",
+    "zh-CN": "骑行传感器特征",
+    "zh-TW": "騎行傳感器特徵",
+    "de-DE": "CSC-Funktion",
+    "fr-FR": "Caracteristique CSC",
+    "it-IT": "Funzione CSC",
+    "ru-RU": "Функция CSC",
+    "ko-KR": "CSC 기능",
+    "es-ES": "Caracteristica CSC",
+    "ja-JP": "CSC機能",
+    "nl-NL": "CSC-functie",
+    "pt-PT": "Recurso CSC",
+    "pt-BR": "Recurso CSC"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }

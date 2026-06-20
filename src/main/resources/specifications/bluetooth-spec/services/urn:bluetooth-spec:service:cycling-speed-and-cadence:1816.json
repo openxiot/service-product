@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:service:cycling-speed-and-cadence:1816",
-    "description": {
-        "en-US": "Cycling Speed and Cadence",
-        "zh-CN": "骑行速度和步频",
-        "fr-FR": "Vitesse et cadence cyclistes",
-        "de-DE": "Radfahrgeschwindigkeit und Trittfrequenz",
-        "ja-JP": "サイクリング速度とケイデンス",
-        "ko-KR": "사이클링 속도 및 케이던스",
-        "es-ES": "Velocidad y cadencia ciclista",
-        "pt-BR": "Velocidade e cadencia ciclistica",
-        "zh-TW": "騎行速度和步頻"
-    },
-    "lifecycle": "released",
-    "required-properties": [
-        "urn:bluetooth-spec:property:csc-measurement:00002A5B",
-        "urn:bluetooth-spec:property:csc-feature:00002A5C"
-    ]
+  "type": "urn:bluetooth-spec:service:cycling-speed-and-cadence:1816",
+  "description": {
+    "en-US": "Cycling Speed and Cadence",
+    "zh-CN": "骑行速度和步频",
+    "zh-TW": "騎行速度和步頻",
+    "de-DE": "Radfahrgeschwindigkeit und Trittfrequenz",
+    "fr-FR": "Vitesse et cadence cyclistes",
+    "it-IT": "Velocità e cadenza ciclismo",
+    "ru-RU": "Скорость и каденс велосипеда",
+    "ko-KR": "사이클링 속도 및 케이던스",
+    "es-ES": "Velocidad y cadencia ciclista",
+    "ja-JP": "サイクリング速度とケイデンス",
+    "nl-NL": "Fietssnelheid en cadans",
+    "pt-PT": "Velocidade e cadencia ciclistica",
+    "pt-BR": "Velocidade e cadencia ciclistica"
+  },
+  "lifecycle": "released",
+  "required-properties": [
+    "urn:bluetooth-spec:property:csc-measurement:00002A5B",
+    "urn:bluetooth-spec:property:csc-feature:00002A5C"
+  ]
 }

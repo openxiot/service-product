@@ -1,15 +1,19 @@
 {
-    "type": "urn:homekit-spec:device:sensor:0000000A",
-    "lifecycle": "released",
-    "description": {
-        "en-US": "Sensor",
-        "zh-CN": "传感器",
-        "fr-FR": "Capteur",
-        "de-DE": "Sensor",
-        "ja-JP": "センサー",
-        "ko-KR": "센서",
-        "es-ES": "Sensor",
-        "pt-BR": "Sensor",
-        "zh-TW": "傳感器"
-    }
+  "type": "urn:homekit-spec:device:sensor:0000000A",
+  "lifecycle": "released",
+  "description": {
+    "en-US": "Sensor",
+    "zh-CN": "传感器",
+    "zh-TW": "傳感器",
+    "de-DE": "Sensor",
+    "fr-FR": "Capteur",
+    "it-IT": "Sensore",
+    "ru-RU": "Датчик",
+    "ko-KR": "센서",
+    "es-ES": "Sensor",
+    "ja-JP": "センサー",
+    "nl-NL": "Sensor",
+    "pt-PT": "Sensor",
+    "pt-BR": "Sensor"
+  }
 }

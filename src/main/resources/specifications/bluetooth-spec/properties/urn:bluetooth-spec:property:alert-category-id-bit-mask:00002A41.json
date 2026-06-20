@@ -1,19 +1,23 @@
 {
-    "type": "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
-    "description": {
-        "en-US": "Alert Category ID Bit Mask",
-        "zh-CN": "警报类别 ID 位掩码",
-        "fr-FR": "Masque de bits ID de categorie d'alerte",
-        "de-DE": "Bitmaske der Alarmkategorie-ID",
-        "ja-JP": "通知カテゴリIDビットマスク",
-        "ko-KR": "알림 카테고리 ID 비트 마스크",
-        "es-ES": "Mascara de bits de ID de categoria de alerta",
-        "pt-BR": "Mascara de bits da ID da categoria de alerta",
-        "zh-TW": "警報類別 ID 位掩碼"
-    },
-    "format": "uint8",
-    "access": [
-        "read"
-    ],
-    "lifecycle": "released"
+  "type": "urn:bluetooth-spec:property:alert-category-id-bit-mask:00002A41",
+  "description": {
+    "en-US": "Alert Category ID Bit Mask",
+    "zh-CN": "警报类别 ID 位掩码",
+    "zh-TW": "警報類別 ID 位掩碼",
+    "de-DE": "Bitmaske der Alarmkategorie-ID",
+    "fr-FR": "Masque de bits ID de categorie d'alerte",
+    "it-IT": "Maschera bit ID categoria allarme",
+    "ru-RU": "Битовая маска ID категории предупреждения",
+    "ko-KR": "알림 카테고리 ID 비트 마스크",
+    "es-ES": "Mascara de bits de ID de categoria de alerta",
+    "ja-JP": "通知カテゴリIDビットマスク",
+    "nl-NL": "Bitmasker alarmcategorie-ID",
+    "pt-PT": "Mascara de bits da ID da categoria de alerta",
+    "pt-BR": "Mascara de bits da ID da categoria de alerta"
+  },
+  "format": "uint8",
+  "access": [
+    "read"
+  ],
+  "lifecycle": "released"
 }
