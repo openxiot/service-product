@@ -77,7 +77,7 @@ public class Organization extends PanacheMongoEntityBase {
     }
 
     public static void check(String organizationId, String accountId, String role) throws OxException {
-        Organization organization = Organization.findById(new ObjectId(organizationId));
+        Organization organization = Organization.findById(organizationId);
         if (organization == null) {
             throw new OxException("organization not found");
         }

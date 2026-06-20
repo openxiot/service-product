@@ -61,8 +61,6 @@ jobs:
 #        uses: azure/login@v1
 #        with:
 #          creds: ${{ secrets.AZURE_OPENXIOT_PRODUCTION_CREDENTIALS }}
-#          auth-type: SERVICE_PRINCIPAL_SECRET
-
 
 #      # 部署
 #      - name: Deploy to Azure Container Apps
