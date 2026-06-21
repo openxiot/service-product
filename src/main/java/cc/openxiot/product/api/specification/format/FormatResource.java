@@ -53,6 +53,26 @@ public class FormatResource extends AbstractResource {
         }
     }
 
+    @POST
+    @Path("/many")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    public Response addMany(
+            JsonArray item
+    ) {
+        logger.infov("addMany: {0}", item);
+
+        try {
+            List<FormatDefinition> list = item.stream()
+                    .filter(x -> x instanceof JsonObject)
+                    .map(x -> FormatDefinitionCodec.decode((JsonObject) x))
+                    .toList();
+            service.add(list, this::checkManagerPermission);
+            return OxResponse.created();
+        } catch (OxException | IllegalArgumentException  e) {
+            return OxResponse.error(e);
+        }
+    }
+
     @DELETE
     @Path("/one/{type}")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})

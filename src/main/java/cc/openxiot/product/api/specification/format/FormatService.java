@@ -21,6 +21,12 @@ public class FormatService {
     @Inject
     SpecificationRepository repository;
 
+    public void add(List<FormatDefinition> formats, NamespacePermission permission) throws OxException {
+        for (FormatDefinition def : formats) {
+            add(def, permission);
+        }
+    }
+
     public void add(FormatDefinition def, NamespacePermission permission) throws OxException {
         SpecificationEntity spec = repository.findByNamespace(def.type().ns());
         if (spec == null) {
