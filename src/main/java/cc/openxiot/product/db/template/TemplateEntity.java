@@ -20,10 +20,10 @@ public class TemplateEntity extends PanacheMongoEntityBase {
     public String type;
 
     @Schema(description = "名字空间（DeviceType中的ns字段）", required = true)
-    public String namespace;
+    public String ns;
 
     @Schema(description = "设备类型（DeviceType中的name字段）", required = true)
-    public String device;
+    public String name;
 
     @Schema(description = "创建模板的组织（DeviceType中的vendor字段", required = true)
     public String organization;

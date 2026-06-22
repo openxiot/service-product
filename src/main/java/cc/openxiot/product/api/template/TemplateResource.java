@@ -116,9 +116,9 @@ public class TemplateResource extends AbstractResource {
         try {
             List<TemplateSummary> list = service.getSummaryByNamespace(namespace);
             list.addAll(prepared.getTemplates(namespace));
-
             return OxResponse.ok(TemplateSummaryCodec.encode(list));
-        } catch (IOException e) {
+        } catch (Exception e) {
+            e.printStackTrace();
             return OxResponse.error(e);
         }
     }
@@ -131,9 +131,8 @@ public class TemplateResource extends AbstractResource {
         try {
             List<TemplateSummary> list = service.getAllTemplate();
             list.addAll(prepared.getAllTemplate());
-
             return OxResponse.ok(TemplateSummaryCodec.encode(list));
-        } catch (IOException e) {
+        } catch (Exception e) {
             return OxResponse.error(e);
         }
     }

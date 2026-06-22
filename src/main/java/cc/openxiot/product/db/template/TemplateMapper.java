@@ -15,13 +15,15 @@ public class TemplateMapper {
         }
 
         TemplateEntity entity = new TemplateEntity();
-        entity.namespace = definition.type().ns();
+        entity.type = definition.type().toString();
+        entity.ns = definition.type().ns();
         entity.organization = definition.type().organization();
-        entity.device = definition.type().name();
+        entity.name = definition.type().name();
         entity.model = definition.type().model();
         entity.version = definition.type().version();
         entity.content = DeviceTemplateCodec.encode(definition).toString();
         entity.lifecycle = Lifecycle.DEVELOPMENT.toString();
+        entity.description = definition.description();
 
         return entity;
     }

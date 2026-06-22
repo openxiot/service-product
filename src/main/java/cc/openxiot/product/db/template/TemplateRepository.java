@@ -17,7 +17,7 @@ public class TemplateRepository implements PanacheMongoRepository<TemplateEntity
     }
 
     public List<TemplateEntity> findByNamespace(String namespace) {
-        return find("namespace = ?1", namespace).stream().toList();
+        return find("ns = ?1", namespace).stream().toList();
     }
 
     public List<TemplateSummaryEntity> getSummaryByOrganization(String organization) {
@@ -27,7 +27,7 @@ public class TemplateRepository implements PanacheMongoRepository<TemplateEntity
     }
 
     public List<TemplateSummaryEntity> getSummaryByNamespace(String namespace) {
-        return find("namespace = ?1", namespace)
+        return find("ns = ?1", namespace)
                 .project(TemplateSummaryEntity.class)
                 .list();
     }
@@ -43,7 +43,7 @@ public class TemplateRepository implements PanacheMongoRepository<TemplateEntity
         StringBuilder query = new StringBuilder();
 
         if (namespace != null) {
-            query.append("namespace = :namespace");
+            query.append("ns = :namespace");
             params.put("namespace", namespace);
         }
 

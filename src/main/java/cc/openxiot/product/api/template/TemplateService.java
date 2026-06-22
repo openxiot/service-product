@@ -41,7 +41,8 @@ public class TemplateService {
         }
 
         TemplateEntity entity = TemplateMapper.toEntity(device);
-        entity.update();
+        repository.persist(entity);
+        // persist 后 entity 自动获取 ID 并写入 MongoDB
     }
 
     public void delete(DeviceType type, NamespacePermission permission) throws OxException {
