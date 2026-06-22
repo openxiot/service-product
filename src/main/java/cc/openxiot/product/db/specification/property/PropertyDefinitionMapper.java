@@ -64,7 +64,7 @@ public class PropertyDefinitionMapper {
 
         if (entity.members != null) {
             List<PropertyType> members = entity.members.stream()
-                    .map(x -> new PropertyType(ns, entity.code, entity.value))
+                    .map(x -> new PropertyType(ns, x, 0))
                     .toList();
 
             def.members(members);

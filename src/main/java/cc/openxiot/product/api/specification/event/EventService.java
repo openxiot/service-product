@@ -85,7 +85,7 @@ public class EventService {
             throw new IllegalArgumentException("event not found!");
         }
 
-        return EventDefinitionMapper.toDefinition(spec.namespace.code, found);
+        return EventDefinitionMapper.toDefinition(spec, found);
     }
 
     public List<EventDefinition> findByNamespace(String ns) {
@@ -96,7 +96,7 @@ public class EventService {
 
         return spec.events.values()
                 .stream()
-                .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
+                .map(x -> EventDefinitionMapper.toDefinition(spec, x))
                 .collect(Collectors.toList());
     }
 
@@ -109,7 +109,7 @@ public class EventService {
             if (spec.events !=null) {
                 List<EventDefinition> events = spec.events.values()
                         .stream()
-                        .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
+                        .map(x -> EventDefinitionMapper.toDefinition(spec, x))
                         .toList();
 
                 result.addAll(events);

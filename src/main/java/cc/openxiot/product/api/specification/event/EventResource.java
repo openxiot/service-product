@@ -96,7 +96,7 @@ public class EventResource extends AbstractResource {
             EventType t = EventType.parse(type);
             EventDefinition def = prepared.contains(t.ns()) ? prepared.getEvent(t) : service.find(t);
             if (def == null) {
-                return OxResponse.error("action not found");
+                return OxResponse.error("event not found");
             } else {
                 return OxResponse.ok(EventDefinitionCodec.encode(def));
             }

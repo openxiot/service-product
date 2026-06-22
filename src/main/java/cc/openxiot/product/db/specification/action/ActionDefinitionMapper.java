@@ -31,12 +31,14 @@ public class ActionDefinitionMapper {
         }
 
         ActionType type = new ActionType(ns, entity.code, entity.value);
-        List<ArgumentDefinition> in = entity.in.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
-                .toList();
-        List<ArgumentDefinition> out = entity.out.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
-                .toList();
+        List<ArgumentDefinition> in = entity.in == null ? List.of() :
+                entity.in.stream()
+                        .map(x -> new ArgumentDefinition(new PropertyType(ns, x, 0)))
+                        .toList();
+        List<ArgumentDefinition> out = entity.out == null ? List.of() :
+                entity.out.stream()
+                        .map(x -> new ArgumentDefinition(new PropertyType(ns, x, 0)))
+                        .toList();
 
         ActionDefinition def = new ActionDefinition(type, entity.description, in, out);
         def.lifecycle(entity.lifecycle);

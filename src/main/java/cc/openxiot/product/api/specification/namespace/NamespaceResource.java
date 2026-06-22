@@ -186,7 +186,7 @@ public class NamespaceResource extends AbstractResource {
             }
 
             NamespaceDefinition bluetooth = prepared.getNamespaceDefinition(SpecificationPrepared.BLUETOOTH_SPEC);
-            if (homekit != null) {
+            if (bluetooth != null) {
                 list.add(bluetooth);
             }
 

@@ -17,7 +17,7 @@ public class TemplateMapper {
         TemplateEntity entity = new TemplateEntity();
         entity.namespace = definition.type().ns();
         entity.organization = definition.type().organization();
-        entity.device = definition.type().ns();
+        entity.device = definition.type().name();
         entity.model = definition.type().model();
         entity.version = definition.type().version();
         entity.content = DeviceTemplateCodec.encode(definition).toString();

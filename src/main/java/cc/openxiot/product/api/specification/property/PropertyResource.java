@@ -96,7 +96,7 @@ public class PropertyResource extends AbstractResource {
             PropertyType t = PropertyType.parse(type);
             PropertyDefinition<?> def = prepared.contains(t.ns()) ? prepared.getProperty(t) : service.find(t);
             if (def == null) {
-                return OxResponse.error("action not found");
+                return OxResponse.error("property not found");
             } else {
                 return OxResponse.ok(PropertyDefinitionCodec.encode(def));
             }

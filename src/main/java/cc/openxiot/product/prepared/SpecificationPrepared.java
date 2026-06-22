@@ -179,7 +179,7 @@ public class SpecificationPrepared {
         }
 
         return spec.events.values().stream()
-                .map(x -> EventDefinitionMapper.toDefinition(spec.namespace.code, x))
+                .map(x -> EventDefinitionMapper.toDefinition(spec, x))
                 .toList();
     }
 
@@ -194,7 +194,7 @@ public class SpecificationPrepared {
             throw new IOException("Event not found: " + type.name());
         }
 
-        return EventDefinitionMapper.toDefinition(spec.namespace.code, entity);
+        return EventDefinitionMapper.toDefinition(spec, entity);
     }
 
     public List<FormatDefinition> getFormats(String namespace) throws IOException {
@@ -203,7 +203,7 @@ public class SpecificationPrepared {
             throw new IOException("Specification not found: " + namespace);
         }
 
-        if (spec.events == null) {
+        if (spec.formats == null) {
             return List.of();
         }
 
@@ -220,7 +220,7 @@ public class SpecificationPrepared {
 
         var entity = spec.formats.get(type.name());
         if (entity == null) {
-            throw new IOException("Event not found: " + type.name());
+            throw new IOException("Format not found: " + type.name());
         }
 
         return FormatDefinitionMapper.toDefinition(spec.namespace.code, entity);
@@ -245,7 +245,7 @@ public class SpecificationPrepared {
 
         var entity = spec.units.get(type.name());
         if (entity == null) {
-            throw new IOException("Event not found: " + type.name());
+            throw new IOException("Unit not found: " + type.name());
         }
 
         return UnitDefinitionMapper.toDefinition(spec.namespace.code, entity);

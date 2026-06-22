@@ -14,6 +14,7 @@ public class ProductBasicMapper {
         }
 
         ProductEntity entity = new ProductEntity();
+        entity.basic = new ProductBasicEntity();
         entity.basic.organization = product.organization();
         entity.basic.model = product.model();
         entity.basic.template = product.template().toString();

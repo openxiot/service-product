@@ -16,5 +16,5 @@ public class ProductInstanceEntity {
 
     public Person creator;
 
-    public Person updater;;
+    public Person updater;
 }

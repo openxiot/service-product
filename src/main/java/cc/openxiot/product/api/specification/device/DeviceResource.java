@@ -96,7 +96,7 @@ public class DeviceResource extends AbstractResource {
             DeviceType t = DeviceType.parse(type);
             DeviceDefinition def = prepared.contains(t.ns()) ? prepared.getDevice(t) : service.find(t);
             if (def == null) {
-                return OxResponse.error("action not found");
+                return OxResponse.error("device not found");
             } else {
                 return OxResponse.ok(DeviceDefinitionCodec.encode(def));
             }

@@ -96,7 +96,7 @@ public class UnitResource extends AbstractResource {
             UnitType t = UnitType.parse(type);
             UnitDefinition def = prepared.contains(t.ns()) ? prepared.getUnit(t) : service.find(t);
             if (def == null) {
-                return OxResponse.error("action not found");
+                return OxResponse.error("unit not found");
             } else {
                 return OxResponse.ok(UnitDefinitionCodec.encode(def));
             }

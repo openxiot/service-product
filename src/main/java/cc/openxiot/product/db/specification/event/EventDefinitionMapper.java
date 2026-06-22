@@ -1,9 +1,9 @@
 package cc.openxiot.product.db.specification.event;
 
+import cc.openxiot.product.db.specification.SpecificationEntity;
 import cn.geekcity.xiot.spec.definition.EventDefinition;
 import cn.geekcity.xiot.spec.definition.ArgumentDefinition;
 import cn.geekcity.xiot.spec.definition.urn.EventType;
-import cn.geekcity.xiot.spec.definition.urn.PropertyType;
 
 import java.util.List;
 
@@ -24,15 +24,16 @@ public class EventDefinitionMapper {
         return entity;
     }
 
-    public static EventDefinition toDefinition(String ns, EventDefinitionEntity entity) {
+    public static EventDefinition toDefinition(SpecificationEntity spec, EventDefinitionEntity entity) {
         if (entity == null) {
             return null;
         }
 
-        EventType type = new EventType(ns, entity.code, entity.value);
-        List<ArgumentDefinition> arguments = entity.arguments.stream()
-                .map(x -> new ArgumentDefinition(new PropertyType(ns, entity.code, entity.value)))
-                .toList();
+        EventType type = new EventType(spec.namespace.code, entity.code, entity.value);
+        List<ArgumentDefinition> arguments = entity.arguments == null ? List.of() :
+                entity.arguments.stream()
+                        .map(x -> new ArgumentDefinition(spec.getPropertyType(x)))
+                        .toList();
 
         EventDefinition def = new EventDefinition(type, entity.description, arguments);
         def.lifecycle(entity.lifecycle);
