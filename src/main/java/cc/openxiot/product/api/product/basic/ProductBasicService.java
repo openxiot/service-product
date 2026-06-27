@@ -3,8 +3,8 @@ package cc.openxiot.product.api.product.basic;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;
-import cc.openxiot.product.db.product.basic.name.LocalizedNameMapper;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
+import cn.geekcity.xiot.spec.name.LocalizedName;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
@@ -27,6 +27,7 @@ public class ProductBasicService {
 
         var entity = ProductBasicMapper.toEntity(product);
         repository.persist(entity);
+        product.id(entity.id.toString());
     }
 
     public void delete(String id) {
@@ -75,12 +76,11 @@ public class ProductBasicService {
         entity.basic.model = product.model();
         entity.basic.template = product.template().toString();
         entity.basic.icon = product.icon();
-        entity.basic.name = LocalizedNameMapper.toEntity(product.name());
-        entity.basic.alias = LocalizedNameMapper.toEntities(product.alias());
+        entity.basic.name = product.name().value();
+        entity.basic.alias = product.alias().stream().map(LocalizedName::value).toList();
         entity.basic.upgrade = product.upgrade();
         entity.basic.protocol = product.protocol();
         entity.basic.lifecycle = product.lifecycle().toString();
-        entity.basic.creator = PersonConvertor.of(product.creator());
         entity.basic.updater = PersonConvertor.of(product.updater());
 
         repository.update(entity);

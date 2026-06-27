@@ -11,7 +11,7 @@ public class ProductRepository implements PanacheMongoRepository<ProductEntity> 
     // 自带所有 CRUD 方法：findById、persist、delete、listAll...
 
     public List<ProductEntity> findByOrg(String organizationId) {
-        return list("organization = ?1", organizationId);
+        return list("basic.organization = ?1", organizationId);
     }
 
     public ProductEntity findByOrgAndModel(String organizationId, String model) {

@@ -6,6 +6,7 @@ import cc.openxiot.common.exception.OxException;
 import cc.openxiot.common.response.OxResponse;
 import cc.openxiot.common.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
+import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.codec.vertx.product.basic.ProductBasicCodec;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 import io.vertx.core.json.JsonArray;
@@ -50,6 +51,7 @@ public class ProductBasicResource extends AbstractResource {
             ProductBasic basic = ProductBasicCodec.decode(item);
             Creator creator = getCreator(basic.organization());
             basic.creator(creator);
+            basic.updater(new Updater().id(creator.id()).name(creator.name()).timestamp(creator.timestamp()));
 
             service.add(basic);
 
@@ -101,6 +103,9 @@ public class ProductBasicResource extends AbstractResource {
 
             checkManagerPermission(basic.organization());
 
+            Updater updater = getUpdater(basic.organization());
+            basic.updater(updater);
+
             service.update(basic);
 
             History.addDeveloper(basic.organization(), getName(), "UPDATE", "Item", item.toString());
@@ -122,7 +127,8 @@ public class ProductBasicResource extends AbstractResource {
         if (basic == null) {
             return OxResponse.error("product not found");
         } else {
-            return OxResponse.ok(basic);
+            JsonObject object = ProductBasicCodec.encode(basic);
+            return OxResponse.ok(object);
         }
     }
 

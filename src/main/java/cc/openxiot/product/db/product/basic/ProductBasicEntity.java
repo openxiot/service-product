@@ -1,10 +1,10 @@
 package cc.openxiot.product.db.product.basic;
 
 import cc.openxiot.product.db.person.Person;
-import cc.openxiot.product.db.product.basic.name.LocalizedNameEntity;
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
 import java.util.List;
+import java.util.Map;
 
 @RegisterForReflection
 public class ProductBasicEntity {
@@ -17,9 +17,9 @@ public class ProductBasicEntity {
 
     public String icon;
 
-    public LocalizedNameEntity name;
+    public Map<String, String> name;
 
-    public List<LocalizedNameEntity> alias;
+    public List<Map<String, String>> alias;
 
     public List<String> upgrade;
 

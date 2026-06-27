@@ -39,9 +39,21 @@ public class PersonConvertor {
     }
 
     public static Updater toUpdater(Person person) {
-        return new Updater()
-                .id(person.id)
-                .name(person.name)
-                .timestamp(person.timestamp.getTime());
+        Updater updater = new Updater();
+
+        if (person != null) {
+            updater.id(person.id);
+            updater.name(person.name);
+
+            if (person.timestamp != null) {
+                updater.timestamp(person.timestamp.getTime());
+            }
+        } else {
+            updater.id("");
+            updater.name("");
+            updater.timestamp(new Date().getTime());
+        }
+
+        return updater;
     }
 }
