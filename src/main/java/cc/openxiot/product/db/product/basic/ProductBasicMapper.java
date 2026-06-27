@@ -1,8 +1,8 @@
 package cc.openxiot.product.db.product.basic;
 
-import cc.openxiot.product.db.person.Person;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.ProductEntity;
+import cc.openxiot.product.db.product.basic.name.LocalizedNameMapper;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 
@@ -19,11 +19,11 @@ public class ProductBasicMapper {
         entity.basic.model = product.model();
         entity.basic.template = product.template().toString();
         entity.basic.icon = product.icon();
-        entity.basic.name = product.name();
+        entity.basic.name = LocalizedNameMapper.toEntity(product.name());
+        entity.basic.alias = LocalizedNameMapper.toEntities(product.alias());
         entity.basic.upgrade = product.upgrade();
         entity.basic.protocol = product.protocol();
         entity.basic.lifecycle = product.lifecycle().toString();
-        entity.basic.naming = product.naming();
         entity.basic.creator = PersonConvertor.of(product.creator());
         entity.basic.updater = PersonConvertor.of(product.updater());
 
@@ -41,11 +41,11 @@ public class ProductBasicMapper {
                 .model(entity.basic.model)
                 .template(new DeviceType(entity.basic.template))
                 .icon(entity.basic.icon)
-                .name(entity.basic.name)
+                .name(LocalizedNameMapper.toName(entity.basic.name))
+                .alias(LocalizedNameMapper.toNames(entity.basic.alias))
                 .upgrade(entity.basic.upgrade)
                 .protocol(entity.basic.protocol)
                 .lifecycle(entity.basic.lifecycle)
-                .naming(entity.basic.naming)
                 .creator(PersonConvertor.toCreator(entity.basic.creator))
                 .updater(PersonConvertor.toUpdater(entity.basic.updater));
     }

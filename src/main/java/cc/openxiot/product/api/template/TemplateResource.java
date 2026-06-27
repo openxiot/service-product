@@ -118,7 +118,6 @@ public class TemplateResource extends AbstractResource {
             list.addAll(prepared.getTemplates(namespace));
             return OxResponse.ok(TemplateSummaryCodec.encode(list));
         } catch (Exception e) {
-            e.printStackTrace();
             return OxResponse.error(e);
         }
     }

@@ -9,17 +9,25 @@ public class PersonConvertor {
 
     public static Person of(Creator creator) {
         Person p = new Person();
-        p.id = creator.id();
-        p.name = creator.name();
-        p.timestamp = new Date(creator.timestamp());
+
+        if (creator != null) {
+            p.id = creator.id();
+            p.name = creator.name();
+            p.timestamp = new Date(creator.timestamp());
+        }
+
         return p;
     }
 
     public static Person of(Updater updater) {
         Person p = new Person();
-        p.id = updater.id();
-        p.name = updater.name();
-        p.timestamp = new Date(updater.timestamp());
+
+        if (updater != null) {
+            p.id = updater.id();
+            p.name = updater.name();
+            p.timestamp = new Date(updater.timestamp());
+        }
+
         return p;
     }
 

@@ -33,7 +33,6 @@ public class ProductBasicResource extends AbstractResource {
     @Inject
     Logger logger;
 
-
     @Inject
     ProductBasicService service;
 

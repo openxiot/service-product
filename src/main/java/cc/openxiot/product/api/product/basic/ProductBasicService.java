@@ -1,9 +1,9 @@
 package cc.openxiot.product.api.product.basic;
 
-import cc.openxiot.product.db.person.Person;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;
+import cc.openxiot.product.db.product.basic.name.LocalizedNameMapper;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -75,11 +75,11 @@ public class ProductBasicService {
         entity.basic.model = product.model();
         entity.basic.template = product.template().toString();
         entity.basic.icon = product.icon();
-        entity.basic.name = product.name();
+        entity.basic.name = LocalizedNameMapper.toEntity(product.name());
+        entity.basic.alias = LocalizedNameMapper.toEntities(product.alias());
         entity.basic.upgrade = product.upgrade();
         entity.basic.protocol = product.protocol();
         entity.basic.lifecycle = product.lifecycle().toString();
-        entity.basic.naming = product.naming();
         entity.basic.creator = PersonConvertor.of(product.creator());
         entity.basic.updater = PersonConvertor.of(product.updater());
 
