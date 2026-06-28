@@ -3,6 +3,7 @@ package cc.openxiot.product.api.product.basic;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;
+import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import cn.geekcity.xiot.spec.name.LocalizedName;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
@@ -82,6 +83,18 @@ public class ProductBasicService {
         entity.basic.protocol = product.protocol();
         entity.basic.lifecycle = product.lifecycle().toString();
         entity.basic.updater = PersonConvertor.of(product.updater());
+
+        repository.update(entity);
+    }
+
+    public void update(String productId, Lifecycle lifecycle, Updater updater) {
+        var entity = repository.findById(new ObjectId(productId));
+        if (entity == null) {
+            throw new IllegalArgumentException("product not found");
+        }
+
+        entity.basic.lifecycle = lifecycle.toString();
+        entity.basic.updater = PersonConvertor.of(updater);
 
         repository.update(entity);
     }

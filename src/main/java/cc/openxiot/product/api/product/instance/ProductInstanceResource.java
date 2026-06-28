@@ -116,7 +116,7 @@ public class ProductInstanceResource extends AbstractResource {
             @PathParam("type") String type,
             @PathParam("lifecycle") String lifecycle
     ) {
-        logger.infov("updateLifecycle, {0} => ", type, lifecycle);
+        logger.infov("updateLifecycle, {0} => {1}", type, lifecycle);
 
         try {
             Urn urn = new Urn(UrnType.DEVICE, type, true);

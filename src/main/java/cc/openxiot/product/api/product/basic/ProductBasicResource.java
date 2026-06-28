@@ -8,6 +8,9 @@ import cc.openxiot.common.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.codec.vertx.product.basic.ProductBasicCodec;
+import cn.geekcity.xiot.spec.definition.urn.Urn;
+import cn.geekcity.xiot.spec.definition.urn.UrnType;
+import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import cn.geekcity.xiot.spec.product.basic.ProductBasic;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -109,6 +112,32 @@ public class ProductBasicResource extends AbstractResource {
             service.update(basic);
 
             History.addDeveloper(basic.organization(), getName(), "UPDATE", "Item", item.toString());
+
+            return OxResponse.ok();
+        } catch (OxException | IllegalArgumentException e) {
+            return OxResponse.error(e);
+        }
+    }
+
+    @PUT
+    @Path("/one/lifecycle/{productId}/{lifecycle}")
+    @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
+    public Response updateLifecycle(
+            @PathParam("productId") String productId,
+            @PathParam("lifecycle") String lifecycle
+    ) {
+        logger.infov("updateLifecycle, {0} => {1}", productId, lifecycle);
+
+        try {
+            ProductBasic basic = service.findById(productId);
+            if (basic == null) {
+                return OxResponse.error("product not found");
+            }
+
+            checkManagerPermission(basic.organization());
+            Updater updater = getUpdater(basic.organization());
+
+            service.update(productId, Lifecycle.of(lifecycle), updater);
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
