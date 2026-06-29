@@ -51,9 +51,9 @@ public class ProductBasicService {
             entity.instances = new ArrayList<>();
         }
 
-        if (!entity.instances.isEmpty()) {
-            throw new IllegalArgumentException("product has instances");
-        }
+//        if (!entity.instances.isEmpty()) {
+//            throw new IllegalArgumentException("product has instances");
+//        }
 
         repository.deleteById(new ObjectId(id));
     }

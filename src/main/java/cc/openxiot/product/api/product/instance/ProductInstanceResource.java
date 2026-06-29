@@ -45,7 +45,7 @@ public class ProductInstanceResource extends AbstractResource {
     @POST
     @Path("/one")
     @RolesAllowed({OxRole.DEVELOPER, OxRole.OPERATOR, OxRole.ADMIN})
-    @Operation(summary = "add", description = "add product")
+    @Operation(summary = "add", description = "add product instance")
     @APIResponse(responseCode = "200", description = "success")
     @APIResponse(responseCode = "401", description = "unauthorized")
     @APIResponse(responseCode = "403", description = "forbidden")
@@ -178,27 +178,27 @@ public class ProductInstanceResource extends AbstractResource {
         }
     }
 
-    @GET
-    @Path("/many")
-    @Operation(
-            summary = "get product instances",
-            description = "get product instances"
-    )
-    @APIResponse(responseCode = "200", description = "success")
-    public Response getManyByModel(
-            @QueryParam("organization") String organization,
-            @QueryParam("model") String model
-    ) {
-        logger.infov("getManyByModel: {0}/{1}", model);
-
-        try {
-            List<ProductInstance> instances = service.findInstancesByModel(organization, model);
-            JsonArray array = ProductInstanceCodec.encode(instances);
-            return OxResponse.ok(array);
-        } catch (IllegalArgumentException e) {
-            return OxResponse.error(e);
-        }
-    }
+//    @GET
+//    @Path("/many")
+//    @Operation(
+//            summary = "get product instances",
+//            description = "get product instances"
+//    )
+//    @APIResponse(responseCode = "200", description = "success")
+//    public Response getManyByModel(
+//            @QueryParam("organization") String organization,
+//            @QueryParam("model") String model
+//    ) {
+//        logger.infov("getManyByModel: {0}/{1}", model);
+//
+//        try {
+//            List<ProductInstance> instances = service.findInstancesByModel(organization, model);
+//            JsonArray array = ProductInstanceCodec.encode(instances);
+//            return OxResponse.ok(array);
+//        } catch (IllegalArgumentException e) {
+//            return OxResponse.error(e);
+//        }
+//    }
 
     @GET
     @Path("/all")

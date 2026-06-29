@@ -62,7 +62,7 @@ public class ProductInstanceService {
 
         product.instances.add(entity);
 
-        repository.persist(product);
+        product.update();
     }
 
     public void delete(String productId, int version) {
