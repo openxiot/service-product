@@ -1,6 +1,5 @@
 package cc.openxiot.product.api.product.instance;
 
-import cc.openxiot.product.db.person.Person;
 import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.ProductEntity;
 import cc.openxiot.product.db.product.ProductRepository;
@@ -125,7 +124,7 @@ public class ProductInstanceService {
         found.content = DeviceInstanceCodec.encode(instance).toString();
         found.updater = PersonConvertor.of(updater);
 
-        repository.persist(product);
+        repository.update(product);
     }
 
     public DeviceInstance findInstance(String productId, int version) {
