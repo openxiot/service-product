@@ -4,10 +4,13 @@ import cc.openxiot.product.db.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicEntity;
 import cc.openxiot.product.db.product.instance.ProductInstanceEntity;
 import cn.geekcity.xiot.spec.by.Updater;
+import cn.geekcity.xiot.spec.codec.vertx.instance.DeviceInstanceCodec;
+import cn.geekcity.xiot.spec.instance.DeviceInstance;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 import io.quarkus.runtime.annotations.RegisterForReflection;
+import io.vertx.core.json.JsonObject;
 import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.List;
@@ -67,6 +70,11 @@ public class ProductEntity extends PanacheMongoEntity {
 
         found.lifecycle = lifecycle.toString();
         found.updater = PersonConvertor.of(updater);
+
+        DeviceInstance instance = DeviceInstanceCodec.decode(new JsonObject(found.content));
+        instance.lifecycle(lifecycle);
+
+        found.content = DeviceInstanceCodec.encode(instance).toString();
 
         update();
     }

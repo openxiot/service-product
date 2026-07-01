@@ -54,7 +54,7 @@ public class ProductInstanceService {
 
         ProductInstanceEntity entity = new ProductInstanceEntity();
         entity.version = instance.type().version();
-        entity.lifecycle = Lifecycle.DEVELOPMENT.toString();
+        entity.lifecycle = instance.lifecycle().toString();
         entity.type = instance.type().toString();
         entity.content = DeviceInstanceCodec.encode(instance).toString();
         entity.creator = PersonConvertor.of(creator);
