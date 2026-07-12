@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:homepod:0000001C:openxiot:auriga:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "HomePod",
     "en-AU": "HomePod",

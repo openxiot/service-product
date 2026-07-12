@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:sensor:0000000A:openxiot:vulpecula:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Occupancy Sensor",
     "en-AU": "Occupancy Sensor",

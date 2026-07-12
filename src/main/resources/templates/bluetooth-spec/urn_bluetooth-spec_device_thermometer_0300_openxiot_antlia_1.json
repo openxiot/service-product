@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:thermometer:0300:openxiot:antlia:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Thermometer",
     "en-AU": "Thermometer",

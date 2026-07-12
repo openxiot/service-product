@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:hid:03C0:openxiot:sextans:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "HID Device",
     "en-AU": "HID Device",

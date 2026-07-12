@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:cycling-speed-sensor:0C40:openxiot:lynx:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Cycling Speed Sensor",
     "en-AU": "Cycling Speed Sensor",

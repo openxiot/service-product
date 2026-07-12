@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:sensor:0000000A:openxiot:lyra:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Contact Sensor",
     "en-AU": "Contact Sensor",

@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:faucet:00000018:openxiot:aquarius:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Faucet",
     "en-AU": "Faucet",

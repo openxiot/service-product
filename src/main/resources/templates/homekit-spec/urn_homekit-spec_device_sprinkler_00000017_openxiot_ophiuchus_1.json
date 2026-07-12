@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:sprinkler:00000017:openxiot:ophiuchus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Sprinkler",
     "en-AU": "Sprinkler",

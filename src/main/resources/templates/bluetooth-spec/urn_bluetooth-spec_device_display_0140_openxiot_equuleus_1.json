@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:display:0140:openxiot:equuleus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Display",
     "en-AU": "Display",

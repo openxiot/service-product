@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:window-covering:0000000E:openxiot:corvus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Window Covering",
     "en-AU": "Window Covering",

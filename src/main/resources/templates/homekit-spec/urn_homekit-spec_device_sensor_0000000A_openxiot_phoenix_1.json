@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:sensor:0000000A:openxiot:phoenix:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Light Sensor",
     "en-AU": "Light Sensor",

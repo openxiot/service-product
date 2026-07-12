@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:video-doorbell:00000011:openxiot:canis-major:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Video Doorbell",
     "en-AU": "Video Doorbell",

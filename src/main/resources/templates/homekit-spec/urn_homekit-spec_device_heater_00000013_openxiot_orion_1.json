@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:heater:00000013:openxiot:orion:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Heater",
     "en-AU": "Heater",

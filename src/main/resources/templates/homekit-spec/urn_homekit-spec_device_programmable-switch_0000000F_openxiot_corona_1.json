@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:programmable-switch:0000000F:openxiot:corona:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Programmable Switch",
     "en-AU": "Programmable Switch",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:keyring:0240:openxiot:hydrus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Keyring",
     "en-AU": "Keyring",

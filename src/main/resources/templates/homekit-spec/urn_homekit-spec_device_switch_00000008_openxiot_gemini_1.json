@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:switch:00000008:openxiot:gemini:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Two-key Switch",
     "en-AU": "Two-key Switch",

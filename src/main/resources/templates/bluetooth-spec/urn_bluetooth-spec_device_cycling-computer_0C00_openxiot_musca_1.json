@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:cycling-computer:0C00:openxiot:musca:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Cycling Computer",
     "en-AU": "Cycling Computer",

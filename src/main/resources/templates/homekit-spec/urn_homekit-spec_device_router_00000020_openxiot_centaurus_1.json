@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:router:00000020:openxiot:centaurus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Router",
     "en-AU": "Router",

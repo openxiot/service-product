@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:medication-delivery:0580:openxiot:fornax:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Medication Delivery",
     "en-AU": "Medication Delivery",

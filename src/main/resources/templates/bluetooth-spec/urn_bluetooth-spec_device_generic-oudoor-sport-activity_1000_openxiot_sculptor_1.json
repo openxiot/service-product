@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:generic-oudoor-sport-activity:1000:openxiot:sculptor:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Generic Outdoor Sport",
     "en-AU": "Generic Outdoor Sport",

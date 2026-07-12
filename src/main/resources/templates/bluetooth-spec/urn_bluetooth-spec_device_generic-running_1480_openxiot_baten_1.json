@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:generic-running:1480:openxiot:baten:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Generic Running Device",
     "en-AU": "Generic Running Device",

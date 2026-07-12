@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:remote-control:0180:openxiot:microscopium:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Remote Control",
     "en-AU": "Remote Control",

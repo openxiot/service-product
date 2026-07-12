@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:door-lock:00000006:openxiot:taurus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Door Lock",
     "en-AU": "Door Lock",

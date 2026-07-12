@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:window:0000000D:openxiot:canis-minor:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Window",
     "en-AU": "Window",

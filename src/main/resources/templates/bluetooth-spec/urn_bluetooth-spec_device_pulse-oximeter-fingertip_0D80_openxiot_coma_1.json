@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:pulse-oximeter-fingertip:0D80:openxiot:coma:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Pulse Oximeter Fingertip",
     "en-AU": "Pulse Oximeter Fingertip",

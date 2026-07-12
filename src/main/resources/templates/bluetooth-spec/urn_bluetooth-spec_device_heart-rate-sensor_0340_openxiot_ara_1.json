@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:heart-rate-sensor:0340:openxiot:ara:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Heart Rate Sensor",
     "en-AU": "Heart Rate Sensor",

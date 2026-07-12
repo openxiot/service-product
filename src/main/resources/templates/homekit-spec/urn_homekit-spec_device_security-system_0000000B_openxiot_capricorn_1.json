@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:security-system:0000000B:openxiot:capricorn:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Security System",
     "en-AU": "Security System",

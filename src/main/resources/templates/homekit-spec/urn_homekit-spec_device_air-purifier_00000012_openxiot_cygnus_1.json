@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:air-purifier:00000012:openxiot:cygnus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Air Purifier",
     "en-AU": "Air Purifier",

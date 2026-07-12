@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:glucose-meter:0400:openxiot:camelopardalis:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Glucose Meter",
     "en-AU": "Glucose Meter",

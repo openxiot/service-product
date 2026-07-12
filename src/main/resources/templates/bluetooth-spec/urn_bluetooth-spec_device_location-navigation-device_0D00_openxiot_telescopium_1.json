@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:location-navigation-device:0D00:openxiot:telescopium:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Location & Navigation Device",
     "en-AU": "Location & Navigation Device",

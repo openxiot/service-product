@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:sensor:0000000A:openxiot:pavo:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Smoke Sensor",
     "en-AU": "Smoke Sensor",

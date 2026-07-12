@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:outlet:00000007:openxiot:libra:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Outlet",
     "en-AU": "Outlet",

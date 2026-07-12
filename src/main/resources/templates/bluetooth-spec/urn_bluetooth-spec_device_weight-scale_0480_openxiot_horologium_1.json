@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:weight-scale:0480:openxiot:horologium:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Weight Scale",
     "en-AU": "Weight Scale",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:personal-mobility-device:04C0:openxiot:grus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Personal Mobility Device",
     "en-AU": "Personal Mobility Device",

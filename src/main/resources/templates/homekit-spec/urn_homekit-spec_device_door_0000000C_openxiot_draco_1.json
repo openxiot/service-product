@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:door:0000000C:openxiot:draco:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Door",
     "en-AU": "Door",

@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:apple-watch:0000001D:openxiot:virgo:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Apple Watch",
     "en-AU": "Apple Watch",

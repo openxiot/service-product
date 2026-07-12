@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:bridge:00000002:openxiot:pegasus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Bridge",
     "en-AU": "Bridge",

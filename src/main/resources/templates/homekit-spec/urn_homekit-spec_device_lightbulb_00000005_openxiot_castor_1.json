@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:lightbulb:00000005:openxiot:castor:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Color Bulb",
     "en-AU": "Color Bulb",

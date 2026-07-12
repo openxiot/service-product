@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:eye-glasses:01C0:openxiot:sagitta:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Eye Glasses",
     "en-AU": "Eye Glasses",

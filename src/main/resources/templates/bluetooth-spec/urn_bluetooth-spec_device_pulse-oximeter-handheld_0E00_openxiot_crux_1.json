@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:pulse-oximeter-handheld:0E00:openxiot:crux:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Pulse Oximeter Handheld",
     "en-AU": "Pulse Oximeter Handheld",

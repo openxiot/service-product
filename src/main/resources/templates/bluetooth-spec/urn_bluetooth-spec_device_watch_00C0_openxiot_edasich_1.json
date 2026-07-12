@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:watch:00C0:openxiot:edasich:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Watch",
     "en-AU": "Watch",

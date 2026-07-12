@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:alarm-system:0000001A:openxiot:scorpius:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Alarm System",
     "en-AU": "Alarm System",

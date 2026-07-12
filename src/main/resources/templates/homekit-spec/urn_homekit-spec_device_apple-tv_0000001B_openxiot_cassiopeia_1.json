@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:apple-tv:0000001B:openxiot:cassiopeia:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Apple TV",
     "en-AU": "Apple TV",

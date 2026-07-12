@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:clock:0100:openxiot:tucana:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Clock",
     "en-AU": "Clock",

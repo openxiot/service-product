@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:phone:0040:openxiot:leo-minor:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Phone",
     "en-AU": "Phone",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:pulse-oximeter:0440:openxiot:columba:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Pulse Oximeter",
     "en-AU": "Pulse Oximeter",

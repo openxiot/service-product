@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:media-player:0280:openxiot:lupus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Media Player",
     "en-AU": "Media Player",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:generic-cycling:14C0:openxiot:azelfafage:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Generic Cycling Device",
     "en-AU": "Generic Cycling Device",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:insulin-pump:0540:openxiot:circinus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Insulin Pump",
     "en-AU": "Insulin Pump",

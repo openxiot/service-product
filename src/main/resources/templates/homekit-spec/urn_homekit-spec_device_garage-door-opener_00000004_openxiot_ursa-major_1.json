@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:garage-door-opener:00000004:openxiot:ursa-major:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Garage Door Opener",
     "en-AU": "Garage Door Opener",

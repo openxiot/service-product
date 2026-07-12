@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:ip-camera:00000010:openxiot:leo:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "IP Camera",
     "en-AU": "IP Camera",

@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:cycling-power-sensor:0CC0:openxiot:norma:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Cycling Power Sensor",
     "en-AU": "Cycling Power Sensor",

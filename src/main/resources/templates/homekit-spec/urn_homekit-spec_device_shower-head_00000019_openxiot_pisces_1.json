@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:shower-head:00000019:openxiot:pisces:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Shower Head",
     "en-AU": "Shower Head",

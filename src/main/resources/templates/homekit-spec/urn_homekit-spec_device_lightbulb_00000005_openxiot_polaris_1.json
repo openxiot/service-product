@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:lightbulb:00000005:openxiot:polaris:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Basic Bulb",
     "en-AU": "Basic Bulb",

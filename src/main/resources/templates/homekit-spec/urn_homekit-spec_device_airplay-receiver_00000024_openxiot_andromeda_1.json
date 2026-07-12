@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:airplay-receiver:00000024:openxiot:andromeda:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "AirPlay Receiver",
     "en-AU": "AirPlay Receiver",

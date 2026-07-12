@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:switch:00000008:openxiot:serpens:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Six-key Switch",
     "en-AU": "Six-key Switch",

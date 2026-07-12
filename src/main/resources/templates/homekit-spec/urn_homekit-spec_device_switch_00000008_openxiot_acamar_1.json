@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:switch:00000008:openxiot:acamar:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Four-key Switch",
     "en-AU": "Four-key Switch",

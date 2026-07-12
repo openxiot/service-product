@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:remote:0000001F:openxiot:eridanus:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Remote Control",
     "en-AU": "Remote Control",

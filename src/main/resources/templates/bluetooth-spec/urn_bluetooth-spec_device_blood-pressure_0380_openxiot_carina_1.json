@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:blood-pressure:0380:openxiot:carina:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Blood Pressure Monitor",
     "en-AU": "Blood Pressure Monitor",

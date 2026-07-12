@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:network-extender:00000021:openxiot:sagittarius:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Network Extender",
     "en-AU": "Network Extender",

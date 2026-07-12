@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:continuous-glucose-monitor:0500:openxiot:chamaeleon:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Continuous Glucose Monitor",
     "en-AU": "Continuous Glucose Monitor",

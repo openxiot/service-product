@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:tag:0200:openxiot:mensa:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Tag",
     "en-AU": "Tag",

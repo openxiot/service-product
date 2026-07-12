@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:cycling-cadence-sensor:0C80:openxiot:ankaa:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Cycling Cadence Sensor",
     "en-AU": "Cycling Cadence Sensor",

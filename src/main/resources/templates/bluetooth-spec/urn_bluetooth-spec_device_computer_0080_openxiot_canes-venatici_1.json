@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:computer:0080:openxiot:canes-venatici:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Computer",
     "en-AU": "Computer",

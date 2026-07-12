@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:thermostat:00000009:openxiot:bootes:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Thermostat",
     "en-AU": "Thermostat",

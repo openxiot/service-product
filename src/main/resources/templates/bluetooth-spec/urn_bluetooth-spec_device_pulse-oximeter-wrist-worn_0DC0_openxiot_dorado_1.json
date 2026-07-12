@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:pulse-oximeter-wrist-worn:0DC0:openxiot:dorado:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Pulse Oximeter Wrist Worn",
     "en-AU": "Pulse Oximeter Wrist Worn",

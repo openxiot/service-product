@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:switch:00000008:openxiot:triangulum:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Three-key Switch",
     "en-AU": "Three-key Switch",

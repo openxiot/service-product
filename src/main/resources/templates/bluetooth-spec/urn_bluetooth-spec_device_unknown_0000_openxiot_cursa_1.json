@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:unknown:0000:openxiot:cursa:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Unknown Device",
     "en-AU": "Unknown Device",

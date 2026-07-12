@@ -1,6 +1,6 @@
 {
   "type": "urn:homekit-spec:device:audio-receiver:00000023:openxiot:hercules:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Audio Receiver",
     "en-AU": "Audio Receiver",

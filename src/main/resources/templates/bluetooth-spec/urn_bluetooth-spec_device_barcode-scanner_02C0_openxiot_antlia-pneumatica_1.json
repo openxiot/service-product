@@ -1,6 +1,6 @@
 {
   "type": "urn:bluetooth-spec:device:barcode-scanner:02C0:openxiot:antlia-pneumatica:1",
-  "lifecycle": "development",
+  "lifecycle": "released",
   "description": {
     "en-US": "Barcode Scanner",
     "en-AU": "Barcode Scanner",
