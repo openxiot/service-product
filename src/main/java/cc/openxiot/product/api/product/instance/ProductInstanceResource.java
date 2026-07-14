@@ -81,7 +81,7 @@ public class ProductInstanceResource extends AbstractResource {
 
             service.deleteByType(urn);
 
-            History.addDeveloper(urn.organization(), getName(), "DELETE", "ProductInstance", type);
+            History.addDeveloper(urn.organization(), getAccountId(), "DELETE", "ProductInstance", type);
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {

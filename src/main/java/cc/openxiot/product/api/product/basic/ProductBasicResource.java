@@ -87,7 +87,7 @@ public class ProductBasicResource extends AbstractResource {
 
             service.delete(productId);
 
-            History.addDeveloper(organizationId, getName(), "DELETE", "ProductBasic", ProductBasicCodec.encode(basic).toString());
+            History.addDeveloper(organizationId, getAccountId(), "DELETE", "ProductBasic", ProductBasicCodec.encode(basic).toString());
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
@@ -111,7 +111,7 @@ public class ProductBasicResource extends AbstractResource {
 
             service.update(basic);
 
-            History.addDeveloper(basic.organization(), getName(), "UPDATE", "Item", item.toString());
+            History.addDeveloper(basic.organization(), getAccountId(), "UPDATE", "Item", item.toString());
 
             return OxResponse.ok();
         } catch (OxException | IllegalArgumentException e) {
