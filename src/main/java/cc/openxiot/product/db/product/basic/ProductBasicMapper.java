@@ -1,6 +1,6 @@
 package cc.openxiot.product.db.product.basic;
 
-import cc.openxiot.product.db.person.PersonConvertor;
+import cc.openxiot.common.person.PersonConvertor;
 import cc.openxiot.product.db.product.ProductEntity;
 import cn.geekcity.xiot.spec.definition.urn.DeviceType;
 import cn.geekcity.xiot.spec.name.LocalizedName;

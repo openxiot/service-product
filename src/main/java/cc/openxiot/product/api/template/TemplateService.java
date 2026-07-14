@@ -25,7 +25,7 @@ public class TemplateService {
     SpecificationRepository specification;
 
     @Inject
-    TemplateRepository repository;
+    TemplateRepository template;
 
     public void add(DeviceTemplate device, NamespacePermission permission) throws OxException {
         SpecificationEntity spec = specification.findByNamespace(device.type().ns());
@@ -35,13 +35,13 @@ public class TemplateService {
 
         permission.check(spec.namespace.organization);
 
-        TemplateEntity found = repository.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
+        TemplateEntity found = template.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
         if (found != null) {
             throw new IllegalArgumentException("template already exist!");
         }
 
         TemplateEntity entity = TemplateMapper.toEntity(device);
-        repository.persist(entity);
+        template.persist(entity);
         // persist 后 entity 自动获取 ID 并写入 MongoDB
     }
 
@@ -53,7 +53,7 @@ public class TemplateService {
 
         permission.check(spec.namespace.organization);
 
-        TemplateEntity found = repository.findBy(type.ns(), type.organization(), type.model(), type.version());
+        TemplateEntity found = template.findBy(type.ns(), type.organization(), type.model(), type.version());
         if (found == null) {
             throw new IllegalArgumentException("template not found!");
         }
@@ -69,7 +69,7 @@ public class TemplateService {
 
         permission.check(spec.namespace.organization);
 
-        TemplateEntity found = repository.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
+        TemplateEntity found = template.findBy(device.type().ns(), device.type().organization(), device.type().model(), device.type().version());
         if (found == null) {
             throw new IllegalArgumentException("template not found!");
         }
@@ -80,7 +80,7 @@ public class TemplateService {
     }
 
     public DeviceTemplate find(DeviceType type) {
-        TemplateEntity found = repository.findBy(type.ns(), type.organization(), type.model(), type.version());
+        TemplateEntity found = template.findBy(type.ns(), type.organization(), type.model(), type.version());
         if (found == null) {
             throw new IllegalArgumentException("template not found!");
         }
@@ -89,21 +89,21 @@ public class TemplateService {
     }
 
     public List<TemplateSummary> getSummaryByNamespace(String ns) {
-        return repository.getSummaryByNamespace(ns)
+        return template.getSummaryByNamespace(ns)
                 .stream()
                 .map(TemplateMapper::toSummary)
                 .collect(Collectors.toList());
     }
 
     public List<DeviceTemplate> findByOrganization(String org) {
-        return repository.findByOrganization(org)
+        return template.findByOrganization(org)
                 .stream()
                 .map(x -> DeviceTemplateCodec.decode(new JsonObject(x.content)))
                 .collect(Collectors.toList());
     }
 
     public List<TemplateSummary> getAllTemplate() {
-        return repository.getAllSummary()
+        return template.getAllSummary()
                 .stream()
                 .map(TemplateMapper::toSummary)
                 .collect(Collectors.toList());

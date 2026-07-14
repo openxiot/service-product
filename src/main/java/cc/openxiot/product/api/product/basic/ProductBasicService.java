@@ -1,6 +1,6 @@
 package cc.openxiot.product.api.product.basic;
 
-import cc.openxiot.product.db.person.PersonConvertor;
+import cc.openxiot.common.person.PersonConvertor;
 import cc.openxiot.product.db.product.basic.ProductBasicMapper;
 import cc.openxiot.product.db.product.ProductRepository;
 import cn.geekcity.xiot.spec.by.Updater;

@@ -1,4 +1,4 @@
-package cc.openxiot.product.db.person;
+package cc.openxiot.common.person;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
@@ -17,4 +17,16 @@ public class Person {
 
     @Schema(description = "时间", required = true)
     public Date timestamp;
+
+    public static Person of(String userId) {
+        return of(userId, null);
+    }
+
+    public static Person of(String userId, String name) {
+        Person person = new Person();
+        person.id = userId;
+        person.name = name;
+        person.timestamp = new Date();
+        return person;
+    }
 }

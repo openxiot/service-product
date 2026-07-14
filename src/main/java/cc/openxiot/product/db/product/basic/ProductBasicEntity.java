@@ -1,6 +1,6 @@
 package cc.openxiot.product.db.product.basic;
 
-import cc.openxiot.product.db.person.Person;
+import cc.openxiot.common.person.Person;
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
 import java.util.List;

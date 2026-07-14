@@ -1,4 +1,4 @@
-package cc.openxiot.product.db.person;
+package cc.openxiot.common.person;
 
 import cn.geekcity.xiot.spec.by.Creator;
 import cn.geekcity.xiot.spec.by.Updater;
