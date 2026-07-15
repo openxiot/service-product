@@ -3,6 +3,7 @@ package cc.openxiot.account.db.organization;
 import cc.openxiot.account.db.organization.member.Member;
 import cc.openxiot.account.db.organization.member.MemberRole;
 import cc.openxiot.common.exception.OxException;
+import cc.openxiot.common.person.Person;
 import io.quarkus.mongodb.panache.PanacheMongoEntityBase;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 import io.quarkus.runtime.annotations.RegisterForReflection;
@@ -12,7 +13,6 @@ import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.types.ObjectId;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -29,13 +29,7 @@ public class Organization extends PanacheMongoEntityBase {
     public String name;
 
     @BsonProperty("creator")
-    public String creator;
-
-    @BsonProperty("creatorName")
-    public String creatorName;
-
-    @BsonProperty("createAt")
-    public Date createAt;
+    public Person creator;
 
     @BsonProperty("members")
     public List<Member> members;
@@ -45,7 +39,7 @@ public class Organization extends PanacheMongoEntityBase {
 
     public static List<Organization> findByPersonal(String accountId) {
         Document query = new Document()
-                .append("creator", accountId)
+                .append("creator.id", accountId)
                 .append("personal", true);
 
         return Organization.list(query);
@@ -53,7 +47,7 @@ public class Organization extends PanacheMongoEntityBase {
 
     public static List<Organization> findByCreator(String accountId) {
         Document query = new Document()
-                .append("creator", accountId);
+                .append("creator.id", accountId);
 
         return Organization.list(query);
     }
