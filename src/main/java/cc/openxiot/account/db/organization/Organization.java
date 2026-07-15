@@ -12,7 +12,6 @@ import org.bson.codecs.pojo.annotations.BsonId;
 import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.types.ObjectId;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -53,21 +52,8 @@ public class Organization extends PanacheMongoEntityBase {
     }
 
     public static List<Organization> findByMember(String accountId) {
-        List<Organization> organizations = new ArrayList<>();
-
-        List<Organization> list = findAll().list();
-        for (Organization organization : list) {
-            if (organization.members != null) {
-                for (Member member : organization.members) {
-                    if (accountId.equals(member.developerId)) {
-                        organizations.add(organization);
-                        break;
-                    }
-                }
-            }
-        }
-
-        return organizations;
+        // 服务端查询：通过 members 数组中的 developerId 字段过滤，避免全表扫描 + 内存遍历
+        return Organization.find("members.developerId", accountId).list();
     }
 
     public static void check(String organizationId, String accountId, String role) throws OxException {
