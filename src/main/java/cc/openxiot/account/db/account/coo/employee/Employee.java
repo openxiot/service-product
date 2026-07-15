@@ -8,7 +8,7 @@ import org.bson.codecs.pojo.annotations.BsonProperty;
 
 import java.util.List;
 
-@MongoEntity(collection = "account-employees")
+@MongoEntity(database = "account", collection = "account-employees")
 @RegisterForReflection
 public class Employee extends PanacheMongoEntity {
 

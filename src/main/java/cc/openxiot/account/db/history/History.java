@@ -13,7 +13,7 @@ import org.bson.types.ObjectId;
 import java.util.Date;
 import java.util.List;
 
-@MongoEntity(collection = "account-histories")
+@MongoEntity(database = "account", collection = "account-histories")
 @RegisterForReflection
 public class History extends PanacheMongoEntity {
 

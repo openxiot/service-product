@@ -10,7 +10,7 @@ import org.bson.types.ObjectId;
 
 import java.util.List;
 
-@MongoEntity(collection = "account-developers")
+@MongoEntity(database = "account", collection = "account-developers")
 @RegisterForReflection
 public class Developer extends PanacheMongoEntityBase {
 

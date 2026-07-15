@@ -18,7 +18,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-@MongoEntity(collection = "account-organizations")
+@MongoEntity(database = "account", collection = "account-organizations")
 @RegisterForReflection
 public class Organization extends PanacheMongoEntityBase {
 
