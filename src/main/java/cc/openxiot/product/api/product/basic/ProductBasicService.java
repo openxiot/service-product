@@ -110,6 +110,11 @@ public class ProductBasicService {
                 .toList();
     }
 
+    public ProductBasic findByOrgAndModel(String organizationId, String model) {
+        var entity = repository.findByOrgAndModel(organizationId, model);
+        return ProductBasicMapper.toProduct(entity);
+    }
+
     public List<ProductBasic> findAll() {
         return repository.listAll().stream()
                 .map(ProductBasicMapper::toProduct)

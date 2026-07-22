@@ -162,6 +162,24 @@ public class ProductBasicResource extends AbstractResource {
     }
 
     @GET
+    @Path("/one/org-model")
+    @Operation(summary = "getOneByOrgModel", description = "get product basic by organization and model")
+    public Response getOneByOrgModel(
+            @QueryParam("organizationId") String organizationId,
+            @QueryParam("model") String model
+    ) {
+        logger.infov("getOneByOrgModel, {0}/{1}", organizationId, model);
+
+        ProductBasic basic = service.findByOrgAndModel(organizationId, model);
+        if (basic == null) {
+            return OxResponse.error("product not found");
+        } else {
+            JsonObject object = ProductBasicCodec.encode(basic);
+            return OxResponse.ok(object);
+        }
+    }
+
+    @GET
     @Path("/public")
     public Response getPublic() {
         logger.infov("getPublic");
