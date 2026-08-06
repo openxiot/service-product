@@ -254,7 +254,7 @@ public class SpecificationPrepared {
     private SpecificationEntity getSpecification(String namespace) throws IOException {
         SpecificationEntity entity = specifications.get(namespace);
         if (entity == null) {
-            String path = "/specifications/" + namespace + "/" + namespace + ".json";
+            String path = "/prepared/specifications/" + namespace + "/" + namespace + ".json";
             try (InputStream is = getClass().getResourceAsStream(path)) {
                 entity = objectMapper.readValue(is, SpecificationEntity.class);
                 specifications.put(entity.namespace.code, entity);

@@ -1,7 +1,6 @@
 package cc.openxiot.product.prepared;
 
 import cn.geekcity.xiot.spec.codec.vertx.template.DeviceTemplateCodec;
-import cn.geekcity.xiot.spec.definition.*;
 import cn.geekcity.xiot.spec.definition.urn.*;
 import cn.geekcity.xiot.spec.template.DeviceTemplate;
 import cn.geekcity.xiot.spec.template.TemplateSummary;
@@ -20,7 +19,7 @@ public class TemplatePrepared {
     @Inject
     Logger logger;
 
-    public static String TEMPLATE_FILE = "/templates/templates.json";
+    public static String TEMPLATE_FILE = "/prepared/templates/templates.json";
     public static String HOMEKIT_SPEC = "homekit-spec";
     public static String BLUETOOTH_SPEC = "bluetooth-spec";
 
@@ -105,7 +104,7 @@ public class TemplatePrepared {
     }
 
     private DeviceTemplate getDeviceTemplate(String path) throws IOException {
-        try (InputStream is = getClass().getResourceAsStream("/templates/" + path)) {
+        try (InputStream is = getClass().getResourceAsStream("/prepared/templates/" + path)) {
             if (is != null) {
                 byte[] bytes = is.readAllBytes();
                 String json = new String(bytes);

@@ -18,7 +18,7 @@ import org.bson.codecs.pojo.annotations.BsonDiscriminator;
 
 import java.util.Map;
 
-@MongoEntity(database = "product", collection = "specifications")
+@MongoEntity(database = "product", collection = "prepared/specifications")
 @BsonDiscriminator
 @RegisterForReflection
 public class SpecificationEntity extends PanacheMongoEntity {
