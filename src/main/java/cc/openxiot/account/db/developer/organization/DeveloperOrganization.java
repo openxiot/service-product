@@ -1,7 +1,7 @@
-package cc.openxiot.account.db.organization;
+package cc.openxiot.account.db.developer.organization;
 
-import cc.openxiot.account.db.organization.member.Member;
-import cc.openxiot.account.db.organization.member.MemberRole;
+import cc.openxiot.account.db.developer.organization.member.Member;
+import cc.openxiot.account.db.developer.organization.member.MemberRole;
 import cc.openxiot.common.exception.OxException;
 import cc.openxiot.common.person.Person;
 import io.quarkus.mongodb.panache.PanacheMongoEntityBase;
@@ -10,16 +10,15 @@ import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.bson.Document;
 import org.bson.codecs.pojo.annotations.BsonId;
 import org.bson.codecs.pojo.annotations.BsonProperty;
-import org.bson.types.ObjectId;
 
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-@MongoEntity(database = "account", collection = "account-organizations")
+@MongoEntity(database = "account", collection = "developer-organizations")
 @RegisterForReflection
-public class Organization extends PanacheMongoEntityBase {
+public class DeveloperOrganization extends PanacheMongoEntityBase {
 
     @BsonId
     public String code;
@@ -36,28 +35,28 @@ public class Organization extends PanacheMongoEntityBase {
 //    @BsonProperty("personal")
 //    public boolean personal;
 
-    public static List<Organization> findByPersonal(String accountId) {
+    public static List<DeveloperOrganization> findByPersonal(String accountId) {
         Document query = new Document()
                 .append("creator.id", accountId)
                 .append("personal", true);
 
-        return Organization.list(query);
+        return DeveloperOrganization.list(query);
     }
 
-    public static List<Organization> findByCreator(String accountId) {
+    public static List<DeveloperOrganization> findByCreator(String accountId) {
         Document query = new Document()
                 .append("creator.id", accountId);
 
-        return Organization.list(query);
+        return DeveloperOrganization.list(query);
     }
 
-    public static List<Organization> findByMember(String accountId) {
+    public static List<DeveloperOrganization> findByMember(String accountId) {
         // 服务端查询：通过 members 数组中的 developerId 字段过滤，避免全表扫描 + 内存遍历
-        return Organization.find("members.developerId", accountId).list();
+        return DeveloperOrganization.find("members.developerId", accountId).list();
     }
 
     public static void check(String organizationId, String accountId, String role) throws OxException {
-        Organization organization = Organization.findById(organizationId);
+        DeveloperOrganization organization = DeveloperOrganization.findById(organizationId);
         if (organization == null) {
             throw new OxException("organization not found");
         }

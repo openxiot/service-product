@@ -1,6 +1,6 @@
 package cc.openxiot.product.api.statistic;
 
-import cc.openxiot.account.db.organization.Organization;
+import cc.openxiot.account.db.developer.organization.DeveloperOrganization;
 import cc.openxiot.product.db.product.ProductRepository;
 import cc.openxiot.product.db.specification.SpecificationRepository;
 import cc.openxiot.product.db.template.TemplateRepository;
@@ -53,7 +53,7 @@ public class StatisticResource {
             long products = product.count();
             long specifications = specification.count() + specificationPrepared.count();
             long templates = template.count() + templatePrepared.count();
-            long organizations = Organization.count();
+            long organizations = DeveloperOrganization.count();
 
             JsonObject o = new JsonObject();
             o.put("products", products);

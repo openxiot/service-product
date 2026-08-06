@@ -1,8 +1,8 @@
 package cc.openxiot.common.resource;
 
 import cc.openxiot.account.db.account.developer.Developer;
-import cc.openxiot.account.db.organization.Organization;
-import cc.openxiot.account.db.organization.member.MemberRole;
+import cc.openxiot.account.db.developer.organization.DeveloperOrganization;
+import cc.openxiot.account.db.developer.organization.member.MemberRole;
 import cc.openxiot.common.exception.OxException;
 import cc.openxiot.common.role.OxRole;
 import cn.geekcity.xiot.spec.by.Creator;
@@ -38,7 +38,7 @@ public abstract class AbstractResource {
                 break;
             default:
                 if (hasRole(OxRole.DEVELOPER)) {
-                    Organization.check(organizationId, getAccountId(), MemberRole.ADMIN);
+                    DeveloperOrganization.check(organizationId, getAccountId(), MemberRole.ADMIN);
                 }
                 break;
         }
@@ -65,7 +65,7 @@ public abstract class AbstractResource {
             throw new OxException("account not developer");
         }
 
-        Organization.check(organizationId, getAccountId(), minRole);
+        DeveloperOrganization.check(organizationId, getAccountId(), minRole);
 
         Developer developer = Developer.findById(new ObjectId(getAccountId()));
         if (developer == null) {
