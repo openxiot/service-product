@@ -57,8 +57,8 @@ public class StatisticResource {
 
             JsonObject o = new JsonObject();
             o.put("products", products);
-            o.put("prepared/specifications", specifications);
-            o.put("prepared/templates", templates);
+            o.put("specifications", specifications);
+            o.put("templates", templates);
             o.put("organizations", organizations);
 
             return OxResponse.ok(o);

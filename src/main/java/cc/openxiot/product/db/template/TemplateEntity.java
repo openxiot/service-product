@@ -9,7 +9,7 @@ import org.eclipse.microprofile.openapi.annotations.media.Schema;
 
 import java.util.Map;
 
-@MongoEntity(database = "product", collection = "prepared/templates")
+@MongoEntity(database = "product", collection = "templates")
 @BsonDiscriminator
 @RegisterForReflection
 @Schema(description = "模板")

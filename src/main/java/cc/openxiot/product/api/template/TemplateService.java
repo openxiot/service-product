@@ -76,6 +76,7 @@ public class TemplateService {
 
         found.content = DeviceTemplateCodec.encode(device).toString();
         found.lifecycle = device.lifecycle().toString();
+        found.description = device.description();
         found.update();
     }
 
