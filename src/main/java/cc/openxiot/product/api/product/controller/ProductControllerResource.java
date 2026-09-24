@@ -207,6 +207,29 @@ public class ProductControllerResource extends AbstractResource {
     }
 
     @GET
+    @Path("/many/by-device-type")
+    @Operation(summary = "getManyByDeviceType", description = "get product controllers by device type urn, optionally filtered by category")
+    public Response getManyByDeviceType(
+            @QueryParam("deviceType") String deviceType,
+            @QueryParam("category") String category
+    ) {
+        logger.infov("getManyByDeviceType, deviceType={0}, category={1}", deviceType, category);
+
+        try {
+            if (deviceType == null || deviceType.isBlank()) {
+                return OxResponse.error("deviceType is required");
+            }
+
+            List<ProductController> controllers = service.findByDeviceType(deviceType, category);
+            JsonArray array = encode(controllers);
+
+            return OxResponse.ok(array);
+        } catch (IllegalArgumentException e) {
+            return OxResponse.error(e);
+        }
+    }
+
+    @GET
     @Path("/all")
     @Operation(summary = "getAll", description = "get all product controllers")
     public Response getAll() {

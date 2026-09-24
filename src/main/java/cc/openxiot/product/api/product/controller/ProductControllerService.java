@@ -5,6 +5,7 @@ import cc.openxiot.product.db.product.ProductEntity;
 import cc.openxiot.product.db.product.ProductRepository;
 import cc.openxiot.product.db.product.controller.ProductControllerEntity;
 import cc.openxiot.product.db.product.controller.ProductControllerMapper;
+import cc.openxiot.product.db.product.controller.ProductControllerVersion;
 import cn.geekcity.xiot.spec.by.Updater;
 import cn.geekcity.xiot.spec.definition.urn.Urn;
 import cn.geekcity.xiot.spec.lifecycle.Lifecycle;
@@ -53,7 +54,10 @@ public class ProductControllerService {
         product.checkControllerEditable(entity);
 
         entity.type = controller.type();
-        entity.versionName = controller.version().name();
+        if (entity.version == null) {
+            entity.version = new ProductControllerVersion();
+        }
+        entity.version.name = controller.version().name();
         entity.format = null;
         entity.url = null;
 
@@ -103,6 +107,29 @@ public class ProductControllerService {
         }
 
         return all;
+    }
+
+    /**
+     * 按设备类型（实例 urn，即 Device.type）查该产品下的控制页列表。
+     * 设备类型经 product 定位到产品（org + model），返回其全部控制页；category 为空时不筛选。
+     */
+    public List<ProductController> findByDeviceType(String deviceType, String category) {
+        Urn device = ProductControllerMapper.of(deviceType);
+
+        ProductEntity product = findProduct(device);
+
+        List<ProductControllerEntity> entities = product.controllers;
+        if (entities == null) {
+            return new ArrayList<>();
+        }
+
+        if (category != null && !category.isBlank()) {
+            entities = entities.stream()
+                    .filter(e -> category.equals(e.category))
+                    .toList();
+        }
+
+        return toControllers(entities);
     }
 
     private List<ProductController> toControllers(List<ProductControllerEntity> entities) {

@@ -18,8 +18,7 @@ class ProductControllerMapperTest {
         entity.type = "web";
         entity.format = "zip";
         entity.url = "https://cdn.example.com/panel.zip";
-        entity.versionName = "1.0.0";
-        entity.versionCode = 3;
+        entity.version = new ProductControllerVersion("1.0.0", 3);
         entity.lifecycle = "development";
         entity.creator = new Person();
         entity.creator.id = "creator-1";
@@ -71,8 +70,8 @@ class ProductControllerMapperTest {
         assertEquals("web", mapped.type);
         assertEquals("zip", mapped.format);
         assertEquals("https://cdn.example.com/panel.zip", mapped.url);
-        assertEquals("1.0.0", mapped.versionName);
-        assertEquals(3, mapped.versionCode);
+        assertEquals("1.0.0", mapped.version.name);
+        assertEquals(3, mapped.version.code);
         assertEquals("development", mapped.lifecycle);
         assertEquals("creator-1", mapped.creator.id);
     }
@@ -101,5 +100,18 @@ class ProductControllerMapperTest {
 
         assertNull(controller.creator());
         assertNotNull(controller.updater());
+    }
+
+    // 旧库里的控制页可能没有 version 内嵌对象，toController 要兜底返回空版本而不是 NPE
+    @Test
+    void shouldTolerateMissingVersion() {
+        ProductControllerEntity entity = entity();
+        entity.version = null;
+
+        ProductController controller = ProductControllerMapper.toController(entity);
+
+        assertNotNull(controller.version());
+        assertEquals(0, controller.version().code());
+        assertNull(controller.version().name());
     }
 }

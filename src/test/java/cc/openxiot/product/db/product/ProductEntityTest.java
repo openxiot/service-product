@@ -3,6 +3,7 @@ package cc.openxiot.product.db.product;
 import static org.junit.jupiter.api.Assertions.*;
 
 import cc.openxiot.product.db.product.controller.ProductControllerEntity;
+import cc.openxiot.product.db.product.controller.ProductControllerVersion;
 import cc.openxiot.product.db.product.instance.ProductInstanceEntity;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ class ProductEntityTest {
         ProductControllerEntity controller = new ProductControllerEntity();
         controller.instance = CONTROLLER_INSTANCE;
         controller.category = category;
-        controller.versionCode = versionCode;
+        controller.version = new ProductControllerVersion("v" + versionCode, versionCode);
         controller.lifecycle = "development";
         return controller;
     }
@@ -106,7 +107,7 @@ class ProductEntityTest {
         product.controllers.add(controller("desktop", 1));
 
         assertNotNull(product.findController(CONTROLLER_INSTANCE, "mobile", 2));
-        assertEquals(2, product.findController(CONTROLLER_INSTANCE, "mobile", 2).versionCode);
+        assertEquals(2, product.findController(CONTROLLER_INSTANCE, "mobile", 2).version.code);
         assertNull(product.findController(CONTROLLER_INSTANCE, "mobile", 3));
         assertNull(product.findController(CONTROLLER_INSTANCE, "tablet", 1));
     }

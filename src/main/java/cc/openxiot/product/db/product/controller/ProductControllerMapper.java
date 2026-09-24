@@ -23,8 +23,7 @@ public class ProductControllerMapper {
         entity.instance = controller.instance().toString();
         entity.category = controller.category();
         entity.type = controller.type();
-        entity.versionName = controller.version().name();
-        entity.versionCode = controller.version().code();
+        entity.version = new ProductControllerVersion(controller.version().name(), controller.version().code());
         entity.lifecycle = controller.lifecycle().toString();
         entity.creator = PersonConvertor.of(controller.creator());
         entity.updater = PersonConvertor.of(controller.updater());
@@ -47,7 +46,7 @@ public class ProductControllerMapper {
                 .instance(of(entity.instance))
                 .category(entity.category)
                 .type(entity.type)
-                .version(new GenericVersion().name(entity.versionName).code(entity.versionCode))
+                .version(versionOf(entity.version))
                 .lifecycle(entity.lifecycle);
 
         if (entity.format != null || entity.url != null) {
@@ -68,5 +67,13 @@ public class ProductControllerMapper {
     // 非抛异常的 Urn 构造，解析失败时返回 invalid urn，由调用方判断
     public static Urn of(String instance) {
         return new Urn(INSTANCE_TYPES, instance);
+    }
+
+    // entity.version 可能为 null（历史库旧字段），兜底返回空版本，避免 NPE
+    private static GenericVersion versionOf(ProductControllerVersion version) {
+        if (version == null) {
+            return new GenericVersion().name(null).code(0);
+        }
+        return new GenericVersion().name(version.name).code(version.code);
     }
 }

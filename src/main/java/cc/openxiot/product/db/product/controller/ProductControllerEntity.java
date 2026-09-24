@@ -7,7 +7,7 @@ import java.util.Objects;
 
 /**
  * 产品控制页，内嵌在 ProductEntity.controllers 中。
- * 由 instance(urn) + category + versionCode 唯一确定。
+ * 由 instance(urn) + category + version.code 唯一确定。
  */
 @RegisterForReflection
 public class ProductControllerEntity {
@@ -26,10 +26,8 @@ public class ProductControllerEntity {
     // web.url：上传后的地址
     public String url;
 
-    // 控制页自身版本
-    public String versionName;
-
-    public int versionCode;
+    // 控制页自身版本（name 显示、code 比较；等价 xiot-core 的 GenericVersion）
+    public ProductControllerVersion version;
 
     public String lifecycle;
 
@@ -38,7 +36,8 @@ public class ProductControllerEntity {
     public Person updater;
 
     public boolean matches(String instance, String category, int versionCode) {
-        return this.versionCode == versionCode
+        return version != null
+                && version.code == versionCode
                 && Objects.equals(this.instance, instance)
                 && Objects.equals(this.category, category);
     }
