@@ -42,6 +42,10 @@ public class ProductInstanceService {
         } else {
             int currentVersion = 0;
             for (ProductInstanceEntity entity : product.instances) {
+                if (entity.version == instance.type().version()) {
+                    throw new IllegalArgumentException("product instance version already exists: " + instance.type().version());
+                }
+
                 if (entity.version > currentVersion) {
                     currentVersion = entity.version;
                 }
